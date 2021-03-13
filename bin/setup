@@ -1,0 +1,8 @@
+#! /usr/bin/env bash
+
+set -e
+
+if [ ! -f _includes/tailwind.config.js ]; then
+  echo "==> Running \`yarn run tailwind init _includes/tailwind.config.js --no-comments \`"
+  yarn run tailwind init _includes/tailwind.config.js --no-comments
+fi

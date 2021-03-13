@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ page.title }}</title>
+    <meta name="description" content="{{ page.description }}">
+    <link rel="shortcut icon" href="https://www.finops.org/wp-content/themes/finops/favicon.ico?32" />
+    <link rel="apple-touch-icon" sizes="180x180" href="https://www.finops.org/wp-content/themes/finops/apple-touch-icon.png?2">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://www.finops.org/wp-content/themes/finops/favicon-32x32.png?2">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://www.finops.org/wp-content/themes/finops/favicon-16x16.png?2">
+    <link rel="stylesheet" href="/css/main.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,600,700" rel="stylesheet">
+    <meta property="og:image" content="https://data.finops.org/img/state-of-finops.png" />
+  </head>
+  <body>
+
+    {{ content }}
+    {% include copyright.html %}
+
+    {% if jekyll.environment == 'production' %}
+      {% include analytics.html %}
+    {% endif %}
+  </body>
+</html>
+
+
