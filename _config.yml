@@ -40,3 +40,8 @@ exclude:
   - netlify.toml
   - bin
   - .gitignore
+
+permalink: pretty
+
+collections:
+  - stories

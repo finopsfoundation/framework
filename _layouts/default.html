@@ -16,7 +16,34 @@
   </head>
   <body>
 
-    {{ content }}
+    <div class="container px-4 my-6">
+      <!-- Logo and header elements  -->
+      Logo and header elements
+    </div>
+
+    <div class="flex flex-row px-4"><!-- Main container -->
+      <div><!-- Sidebar Nav -->
+        <ul>
+        {% for item in site.data.navigation_side %}
+          <li>
+            <span class="font-medium">{{ item.name }}</span>
+            {% if item.children != null %}
+            <ul class="pl-2 mt-4 mb-6">
+              {% for child in item.children %}
+                <li>
+                  <a href="/{{ item.name | downcase }}/{{ child.name | replace: ' ', '-' | downcase }}">{{ child.name }}</a>
+                </li>
+              {% endfor %}
+            </ul>
+            {% endif %}
+          </li>
+        {% endfor %}
+        </ul>
+      </div>
+      <div class="px-4"><!-- Main content area -->
+        {{ content }}
+      </div>
+    </div>
     {% include copyright.html %}
 
     {% if jekyll.environment == 'production' %}
