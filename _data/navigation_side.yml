@@ -12,4 +12,8 @@
   - name: Lifecycle
   - name: Capabilities
   - name: KPIs
-  - name: Challenges
+- name: Challenges
+  children:
+  - name: Encouraging Engineers to Take Action
+  - name: Identifying Shared Costs
+  - name: Calculating Container Costs
