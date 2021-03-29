@@ -8,12 +8,14 @@
   - name: Outline
   - name: Principles
   - name: Personas
-  - name: Pillars
   - name: Lifecycle
+  - name: Abilities
   - name: Capabilities
+  - name: Functions
   - name: KPIs
 - name: Challenges
   children:
   - name: Encouraging Engineers to Take Action
   - name: Identifying Shared Costs
   - name: Calculating Container Costs
+  - name: Accurate Forecasts
