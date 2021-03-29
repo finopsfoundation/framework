@@ -17,6 +17,9 @@
   li {
   	@apply text-base font-light mb-2 pr-4
   }
+  h1 {
+    @apply font-bold text-4xl mb-4 leading-tight
+  }
   h2 {
   	@apply font-bold text-4xl mb-4 leading-tight
   }
@@ -26,6 +29,19 @@
   h4 {
   	@apply font-bold text-2xl mb-4 leading-tight mt-10
   }
+}
+
+@layer base {
+
+  .btn {
+    @apply inline-flex justify-center py-2 px-4 border shadow-sm text-sm font-medium rounded-md text-white bg-green-500 font-normal
+  }
+
+  .btn-outline {
+    @apply inline-flex justify-center py-2 px-4 border shadow-sm text-sm font-medium rounded-md text-green-500 bg-white border border-green-500 font-normal
+  }
+
+
 }
 
 /* Write your styles above this line. */
