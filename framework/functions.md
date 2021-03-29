@@ -6,7 +6,7 @@ layout: default
 
 # Functions
 
-- [Tagging/Labeling](tagging-labeling.md)
+- [Tagging/Labeling](functions/tagging-labeling.md)
 - Account Hierachy
 - Shared Cost Management 
 - Anomaly Detection 
