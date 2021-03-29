@@ -6,6 +6,9 @@ layout: default
 
 # Principles
 
+FinOps Principles give us north stars to guide our activities as we practice FinOps. Developed by FinOps Foundation members, honed through experience. These were initially proposed as part of the writing the Cloud FinOps book in Sept 2019 and agreed with AWS for announcement at CloudyCon. They may change slightly over time as experience is gained by all. 
+
+The principles are in no particular order, they should be taken as a whole. Doing one without the others to excess creates problems the same as doing all except one
 
 ## Teams need to collaborate.
 Finance moves at the speed and granularity of IT
