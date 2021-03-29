@@ -11,27 +11,46 @@
     <link rel="icon" type="image/png" sizes="16x16" href="https://www.finops.org/wp-content/themes/finops/favicon-16x16.png?2">
     <link rel="stylesheet" href="/css/main.css">
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,600,700" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
     <meta property="og:image" content="https://www.finops.org/wp-content/uploads/2019/02/ff-social.png" />
+    
   </head>
   <body>
+    <div class="relative mb-10 max-w-screen-xl mx-auto border-b border-gray-lightest border-solid">
+      <div class="mx-auto px-4 sm:px-6">
+        <div class="flex justify-between items-center py-8 md:justify-start md:space-x-10">
+          <div class="flex justify-start lg:w-0 lg:flex-1">
+            <a href="/">
+              <img class="h-8 w-auto sm:h-10" src="/img/finops-logo-horizontal.svg?3" alt="FinOps Foundation Logo">
+            </a>
+          </div>
 
-    <div class="container px-4 my-6">
-      <!-- Logo and header elements  -->
-      Logo and header elements
+          <nav class="hidden md:flex space-x-10">
+            <a href="jsjdhfj" id="js-menu-1" class="btn">
+              Join the Community
+            </a>
+
+            <a href="jsjdhfj" id="js-menu-1" class="btn btn-outline">
+              Main Website
+            </a>
+          </nav>
+        </div>
+      </div>
     </div>
 
-    <div class="flex flex-row px-4"><!-- Main container -->
+
+    <div class="flex flex-row px-4 max-w-screen-xl sm:px-6"><!-- Main container -->
       <div><!-- Sidebar Nav -->
-        <ul>
+        <ul class="pt-2">
         {% for item in site.data.navigation_side %}
           <li>
-            <span class="font-medium">{{ item.name }}</span>
+            <h3 class="font-medium lg:text-sm uppercase mb-0">{{ item.name }}</h3>
             {% if item.children != null %}
-            <ul class="pl-2 mt-4 mb-6">
+            <ul class="mt-2 mb-8">
               {% for child in item.children %}
                 <li>
-                  <a href="/{{ item.name | downcase }}/{{ child.name | replace: ' ', '-' | downcase }}">{{ child.name }}</a>
+                  <a class="lg:text-sm font-normal text-gray-600 hover:text-gray-900 transition-colors duration-200" href="/{{ item.name | downcase }}/{{ child.name | replace: ' ', '-' | downcase }}">{{ child.name }}</a>
                 </li>
               {% endfor %}
             </ul>

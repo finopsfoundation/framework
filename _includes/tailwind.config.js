@@ -6,29 +6,42 @@ module.exports = {
   purge: [],
   theme: {
     colors: {
-      'blueGray-lighter': '#47617b',
-      'blueGray': '#2e3f50',
-      'blueGray-dark': '#222e3a',
-      'yellow-lighter': '#f7c948',
-      'yellow': '#f5ba17',
-      'yellow-dark': '#f1b30a',
-      'green-lighter': '#24c099',
-      'green': '#1fa382',
-      'green-dark': '#1a866b',
-      'blue-lighter': '#0097cd',
-      'blue': '#007eab',
-      'blue-dark': '#006589',
-      'gray-lightest': '#edeeed',
-      'gray-light': '#cacdca',
-      'gray': '#9ea49e',
-      'gray-dark': '#cccecd',
-      'gray-darkest': '#525752',
-      'white': '#ffffff',
+      transparent: 'transparent',
+      current: 'currentColor',
+
+      black: '#000',
+      white: '#fff',
+
+      gray: {
+        100: '#f7fafc',
+        200: '#edf2f7',
+        300: '#e2e8f0',
+        400: '#cbd5e0',
+        500: '#a0aec0',
+        600: '#718096',
+        700: '#4a5568',
+        800: '#2d3748',
+        900: '#1a202c',
+      },
+
+      green: {
+        100: '#f0fff4',
+        200: '#c6f6d5',
+        300: '#9ae6b4',
+        400: '#24c099',
+        500: '#1fa382',
+        600: '#1a866b',
+        700: '#2f855a',
+        800: '#276749',
+        900: '#22543d',
+      }
     },
     fontFamily: {
        'sans': ['Roboto', 'sans-serif']
     }
   },
   variants: {},
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/typography'),
+  ],
 }
