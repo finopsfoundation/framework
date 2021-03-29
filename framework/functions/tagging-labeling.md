@@ -1,3 +1,8 @@
+---
+
+layout: default
+
+---
 # Tagging & Labelling
 
 ## Introduction
