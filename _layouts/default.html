@@ -40,8 +40,8 @@
     </div>
 
 
-    <div class="flex flex-row px-4 max-w-screen-xl sm:px-6"><!-- Main container -->
-      <div><!-- Sidebar Nav -->
+    <div class="flex flex-row px-4 max-w-screen-xl mx-auto sm:px-6"><!-- Main container -->
+      <div class="w-3/12"><!-- Sidebar Nav -->
         <ul class="pt-2">
         {% for item in site.data.navigation_side %}
           <li>
@@ -59,7 +59,7 @@
         {% endfor %}
         </ul>
       </div>
-      <div class="px-4"><!-- Main content area -->
+      <div class="px-4 w-7/12 prose"><!-- Main content area -->
         {{ content }}
       </div>
     </div>
