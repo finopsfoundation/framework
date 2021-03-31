@@ -1,0 +1,10 @@
+There are three core methods for adding cost allocation data to usage and billing data:
+ 
+Resource-level tag
+Applied by engineers or the cloud platform provider directly to the cloud resources.
+
+Accounts/projects/subscriptions
+Provided by the vendor and represented in the bill.
+
+Post bill data constructs
+Uncovered by mutating the billing data and supplementing in extra detail using a third-party analytics tool like Apptio Cloudability or self-managed data processing.
