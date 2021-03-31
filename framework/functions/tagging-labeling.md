@@ -3,6 +3,8 @@
 layout: default
 
 ---
+[Propose changes or additions to this page](https://github.com/finopsfoundation/fodo/edit/master/framework/functions/tagging-labeling.md)
+
 # Tagging & Labelling
 
 ## Introduction
@@ -64,18 +66,28 @@ These links are provided as potentially relevant industry resources. The FinOps 
 
 ### Cloud Specific Best Practices
 
-- https://docs.aws.amazon.com/general/latest/gr/aws_tagging.html
-- https://cloud.google.com/compute/docs/labeling-resources
-- https://docs.microsoft.com/en-us/azure/virtual-machines/tag-portal
+- [AWS](https://docs.aws.amazon.com/general/latest/gr/aws_tagging.html)
+- [GCP](https://cloud.google.com/compute/docs/labeling-resources)
+- [Azure](https://docs.microsoft.com/en-us/azure/virtual-machines/tag-portal)
 
 ### Platform Best Practices
-- https://support.cloudability.com/hc/en-us/articles/360004517234-Tag-Explorer (KB)
-- https://www.cloudhealthtech.com/blog/creating-multicloud-tagging-strategies (blog)
-- XYZ
+- [Cloudability](https://support.cloudability.com/hc/en-us/articles/360004517234-Tag-Explorer) (KB)
+- [Cloudhealth](https://www.cloudhealthtech.com/blog/creating-multicloud-tagging-strategies) (blog)
 
 ### FCSP Consultancies
 - Blogs or Docs or Capabilities etc
 
 ### Open Source
-- [www.cloudcustodian.com](Cloud Custodian)
+- [Cloud Custodian](https://cloudcustodian.io/docs/aws/examples/tagcompliance.html)
+
+### Education & Training
+- [FinOps Certified Practitioner (FOCP)](https://www.finops.org/certification/)
+
+### Books
+
+- [Cloud FinOps Chapters 8 & 9](https://www.amazon.com/Cloud-FinOps-Collaborative-Real-Time-Management/dp/1492054623)
+
+### Contributors to this page:
+
+- e.g., https://github.com/thodorisbais/markdown-contributors
 
