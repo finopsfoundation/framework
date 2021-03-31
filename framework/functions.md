@@ -7,7 +7,7 @@ layout: default
 # Functions
 
 - [Tagging/Labeling](tagging-labeling)
-- Account Hierachy
+- [Resource Hierarchy (Accounts, Subscriptions & Projects)](resource-hierarchy)
 - Shared Cost Management 
 - Anomaly Detection 
 - Recommendations
