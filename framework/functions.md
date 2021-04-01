@@ -10,7 +10,7 @@ layout: default
 - [Resource Hierarchy (Accounts, Subscriptions & Projects)](resource-hierarchy)
 - [Shared Cost Management](shared-costs)
 - [Anomaly Detection](anomaly-detection)
-- [Infrastructure Rightsizing](recommendations) 
+- [Optimization Recommendations](recommendations) 
 - [Architecture Refactoring](architecture)
 - [Commitment Discounts (Reservations, Savings Plans, CUDs)](commitments)
 - [Usage Volume Discounts (Usage Tiers, SUDs)](usage-volume-discounts)
@@ -27,7 +27,6 @@ layout: default
 - Committment Tracking
 - Marketplace
 - Policy Management
-- Storage Class Management
 - Trending & Variance Analysis
 - Containers Capabilities
 - Software Asset Management
