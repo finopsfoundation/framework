@@ -6,7 +6,7 @@ layout: default
 
 # Functions
 
-- [Resource Meta Data (Tagging/Labeling)](tagging-labeling)
+- [Resource Metadata (Tagging/Labeling)](tagging-labeling)
 - [Resource Hierarchy (Accounts, Subscriptions & Projects)](resource-hierarchy)
 - [Shared Cost Management](shared-costs)
 - [Anomaly Detection](anomaly-detection)
