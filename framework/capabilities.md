@@ -6,12 +6,12 @@ layout: default
 
 # Capabilities
 
-- Allocate
-- Report
-- Forecast
-- Usage Optimization
-- Rate Optimization
-- Organisational Alignment	
+- [Allocate](allocate)
+- [Report](report)
+- [Forecast](forecast)
+- [Usage Optimization](usage-optimization)
+- [Rate Optimization](rate-optimization)
+- [Organisational Alignment](organisational-alignment)	
 											
 											
 											
