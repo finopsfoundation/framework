@@ -47,5 +47,11 @@ Changes to each respective section of this site will be reviewed during FinOps F
 
 The FinOps Foundation team uses automation tools to rebuild the site multiple times a week to capture the latest changes or to make small updates to maintain the site.
 
+### Review cycles and timing
+
+The FinOps Foundation's core operating members maintain the organization as a business. Its technical components, however, must be reviewed and voted upon by a greater group of community members. These meetings are scheduled throughout the month and the timeliness of reviewing commits and changes will vary depending on when these meetings occur.
+
+Issues and small changes like link fixes and typos might occur immediately, as those don't require a significant amount of code review, voting, and/or approval.
+
 ## Licensing
 ...
