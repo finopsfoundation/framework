@@ -54,4 +54,4 @@ The FinOps Foundation's core operating members maintain the organization as a bu
 Issues and small changes like link fixes and typos might occur immediately, as those don't require a significant amount of code review, voting, and/or approval.
 
 ## Licensing
-...
+TBD
