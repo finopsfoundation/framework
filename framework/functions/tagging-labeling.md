@@ -1,6 +1,7 @@
 ---
 
 layout: default
+tag: tagging-labeling
 
 ---
 [Propose changes or additions to this page](https://github.com/finopsfoundation/fodo/edit/master/framework/functions/tagging-labeling.md)
@@ -53,7 +54,11 @@ Most successful cost allocation strategies do not rely on tags but instead begin
 - Post Bill Processing
 - Continuous Improvement
 
-# Resources
+
+{% include story-loop.md %}
+
+
+## Resources
 
 These links are provided as potentially relevant industry resources. The FinOps Foundation does not recommend any individual technology vendor and is not responsible for the content below.
 
