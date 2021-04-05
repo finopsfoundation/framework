@@ -4,7 +4,7 @@ layout: default
 
 ---
 
-# Calculating container costs
+# Calculating Container Costs
 
 ![](/img/container-costs/header.png)
 
