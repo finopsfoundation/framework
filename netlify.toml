@@ -6,3 +6,9 @@
 
 [context.deploy-preview.environment]
   JEKYLL_ENV = "staging"
+
+[[redirects]]
+  from = "/"
+  to = "/introduction/what-is-finops/"
+  status = 302
+  force = true
