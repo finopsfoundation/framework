@@ -46,17 +46,3 @@ With timely delivery of notifications to teams via:
 - Continuous Improvement
 
 {% include story-loop.md %}
-
-## Resources
-
-These links are provided as potentially relevant industry resources. The FinOps Foundation does not recommend any individual technology vendor and is not responsible for the content below.
-
-### Cloud Native Tooling
-### Relevant FinOps Certified Platforms
-### Open Source
-### Education
-### Cloud Specific Best Practices
-### Relevant FinOps Training Partners
-### Reading List
-### Relevant FinOps Certified Service Providers
-
