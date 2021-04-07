@@ -18,10 +18,9 @@ This is a human-readable summary of (and not a substitute for) the license. Disc
 - Adapt — remix, transform, and build upon the material for any purpose, even commercially.
 
 ## Under the following terms:
-- Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use. 
+- Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made.  
 
-## Giving Attribution Credit
-
+## How to give attribution credit:
 If you were to share or adapt content from the Tagging & Labeling page you would need to include the following attribution:
 
 - [Tagging & Labeling](https://framework.finops.org/framework/functions/tagging-labeling/) by [FinOps Foundation](https://finops.org")
@@ -30,5 +29,4 @@ If referencing multiple pieces or general concepts from the Framework you can al
 
 - [FinOps Framework](https://framework.finops.org/) by [FinOps Foundation](https://finops.org")
 
-
-In all cases, please include a link to the FinOps Framework regardless of format.
+In all cases, please include a link to the [FinOps Framework](https://framework.finops.org/) regardless of format.
