@@ -28,6 +28,6 @@ If you were to share or adapt content from the Tagging & Labeling page you would
 
 If referencing multiple pieces or general concepts from the Framework you can also use:
 
-- ["FinOps Framework"](https://framework.finops.org/) by [FinOps Foundation](https://finops.org")"
+- ["FinOps Framework"](https://framework.finops.org/) by [FinOps Foundation](https://finops.org")
 
 
