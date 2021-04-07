@@ -44,4 +44,7 @@ exclude:
 permalink: pretty
 
 collections:
-  - stories
+  stories:
+    output: true
+
+include: [_redirects]

@@ -18,7 +18,9 @@
     
   </head>
   <body>
-    <div class="relative mb-10 max-w-screen-xl mx-auto border-b border-gray-lightest border-solid">
+    <div class="bg-green-500 fixed w-full z-10"><a class="font-normal block px-4 py-1 text-white text-sm font-light text-center" href="/introduction/how-can-you-use/">This work is licensed under <span class="font-semibold">Attribution 4.0 International</span> - Read more on how you can use this content</a>
+    </div>
+    <div class="relative mb-10 max-w-screen-xl mx-auto border-b border-gray-lightest border-solid pt-6">
       <div class="mx-auto px-4 sm:px-6">
         <div class="flex justify-between items-center py-8 md:justify-start md:space-x-10">
           <div class="flex justify-start lg:w-0 lg:flex-1">
@@ -60,8 +62,16 @@
         {% endfor %}
         </ul>
       </div>
-      <div class="px-4 w-7/12 prose"><!-- Main content area -->
-        {{ content }}
+      <div class="px-4 w-7/12"><!-- Main content area -->
+        <div class="text-right text-sm no-underline text-gray-900 mb-6">
+          <a href="https://github.com/finopsfoundation/fodo" class="rounded-md hover:bg-gray-200 py-2 px-4 opacity-50 hover:opacity-100 transition duration-200 ease-in-out">
+            <img src="/img/icons/github.svg" width="16" class="inline-block align-text-bottom mr-1"> Propose Edits
+          </a>
+        </div>
+
+        <div class="prose">
+          {{ content }}
+        </div>
       </div>
     </div>
     {% include copyright.html %}

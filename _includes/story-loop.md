@@ -4,8 +4,9 @@
 	{% endif %}
 	{% for tag in story.tags %}
 		{% if tag == page.tag %}
-	
-{{ story.content | markdownify }}    
+<h3>{{ story.title }}</h3>
+{{ story.content | truncatewords: 50 }}
+<a href="{{ story.url }}">read more</a>
 	
 		{% endif %}
 	{% endfor %}
