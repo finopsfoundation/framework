@@ -53,35 +53,15 @@ Most successful cost allocation strategies do not rely on tags but instead begin
 - Post Bill Processing
 - Continuous Improvement
 
+{% include story-loop.md %}
+
 ## Resources
 
 These links are provided as potentially relevant industry resources. The FinOps Foundation does not recommend any individual technology vendor and is not responsible for the content below.
 
+### Open Source Tooling
+### Cloud Native Tooling
 ### Cloud Specific Best Practices
-
-- [AWS](https://docs.aws.amazon.com/general/latest/gr/aws_tagging.html)
-- [GCP](https://cloud.google.com/compute/docs/labeling-resources)
-- [Azure](https://docs.microsoft.com/en-us/azure/virtual-machines/tag-portal)
-
-### Platform Best Practices & Features
-- [Cloudability Tag Explorer](https://support.cloudability.com/hc/en-us/articles/360004517234-Tag-Explorer) (KB)
-- [Cloudhealth Tagging Strategis](https://www.cloudhealthtech.com/blog/creating-multicloud-tagging-strategies) (blog)
-
-### Consultancies Best Practices
-- Blogs or Docs or Capabilities etc
-
-### Open Source
-- [Cloud Custodian Tag Compliance](https://cloudcustodian.io/docs/aws/examples/tagcompliance.html)
-
-### Education & Training
-- [FinOps Certified Practitioner (FOCP)](https://www.finops.org/certification/)
-
-### Books
-
-- [Cloud FinOps Chapters 8 & 9](https://www.amazon.com/Cloud-FinOps-Collaborative-Real-Time-Management/dp/1492054623)
-
-### Contributors to this page:
-
-- e.g., https://github.com/thodorisbais/markdown-contributors
-
-{% include story-loop.md %}
+### FinOps Certified Platforms
+### FinOps Training Partners
+### FinOps Certified Service Providers

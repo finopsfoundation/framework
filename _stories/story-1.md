@@ -4,15 +4,15 @@ layout: stories
 title: Story about tagging labeling
 tags: 
 - tagging-labeling
+- anomaly-detection
 persona:
 stage:
 company:
 
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+A remote engineering team at a multinational pharmaceutical company spun up three x1e.32xlarge instances in Sydney for testing of in-memory databases. At the time, that goliath of an instance cost just over $44 per hour. The three of them together cost over $3,000 per day, or around $98,000 per month. These seem like big numbers until you consider that their monthly cloud bill was over $3,500,000. So, this change would have resulted in a paltry 2% increase in spend and wouldn’t have been easily visible in high-level reporting.
+
+Potentially further obscuring this spend anomaly, the central team had just purchased RIs for another set of machines, a transaction that effectively canceled out the spend delta of the new x1e’s. However, because the FinOps team had machine learning–based anomaly detection, they found out about the use of the large instances the same day, and could have an immediate conversation about whether or not so much horsepower was needed. Unsurprisingly, it turned out that it was not.
+
+Granted, this is a story of a Run stage company. A Walk stage company typically starts with simple daily spend visibility that shows teams their respective spend. Even that amount of visibility still begins to influence their behavior accordingly.
