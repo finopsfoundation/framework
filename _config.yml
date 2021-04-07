@@ -40,7 +40,7 @@ exclude:
   - netlify.toml
   - bin
   - .gitignore
-
+  - vendor
 permalink: pretty
 
 collections:
