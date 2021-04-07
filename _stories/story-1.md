@@ -1,7 +1,7 @@
 ---
 
 layout: stories
-title: Story about tagging labeling
+title: Anomaly Detection
 tags: 
 - tagging-labeling
 - anomaly-detection
