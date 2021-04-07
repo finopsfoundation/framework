@@ -1,7 +1,6 @@
 - name: Introduction
   children:
   - name: What is FinOps
-  - name: How to Start
   - name: How to Contribute
   - name: How to Use
 - name: Framework
