@@ -5,3 +5,5 @@ _site
 node_modules
 yarn.lock
 Gemfile.lock
+.bundle/
+vendor/
