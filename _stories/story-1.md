@@ -1,6 +1,7 @@
 ---
 
-layout: default
+layout: stories
+title: Story about tagging labeling
 tags: 
 - tagging-labeling
 persona:
@@ -8,8 +9,6 @@ stage:
 company:
 
 ---
-
-### Story about tagging labeling
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
