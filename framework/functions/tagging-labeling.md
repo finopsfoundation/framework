@@ -59,22 +59,9 @@ Most successful cost allocation strategies do not rely on tags but instead begin
 
 These links are provided as potentially relevant industry resources. The FinOps Foundation does not recommend any individual technology vendor and is not responsible for the content below.
 
-## Tooling
+### Open Source Tooling
 ### Cloud Native Tooling
-### Relevant FinOps Certified Platforms
-### Open Source
-- [Cloud Custodian Tag Compliance](https://cloudcustodian.io/docs/aws/examples/tagcompliance.html)
-
-## Education
 ### Cloud Specific Best Practices
-
-- [AWS](https://docs.aws.amazon.com/general/latest/gr/aws_tagging.html)
-- [GCP](https://cloud.google.com/compute/docs/labeling-resources)
-- [Azure](https://docs.microsoft.com/en-us/azure/virtual-machines/tag-portal
-### Relevant FinOps Training Partners
-- [FinOps Certified Practitioner (FOCP)](https://www.finops.org/certification/)
-### Reading List
-- [Cloud FinOps Chapters 8 & 9](https://www.amazon.com/Cloud-FinOps-Collaborative-Real-Time-Management/dp/1492054623)
-
-### Relevant FinOps Certified Service Providers
-
+### FinOps Certified Platforms
+### FinOps Training Partners
+### FinOps Certified Service Providers
