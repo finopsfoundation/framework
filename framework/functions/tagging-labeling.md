@@ -4,7 +4,6 @@ layout: default
 tag: tagging-labeling
 
 ---
-[Propose changes or additions to this page](https://github.com/finopsfoundation/fodo/edit/master/framework/functions/tagging-labeling.md)
 
 # Tagging & Labeling (Resource Level Meta Data)
 
