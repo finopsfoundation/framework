@@ -3,16 +3,13 @@
 layout: stories
 title: Story about autoscaling
 tags: 
-- autoscaling
+- anomaly-detection
 persona:
 stage:
 company:
 
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Bitcoin miners take over federal government Azure accounts, run up $75K in charges in unauthorized regions before being shut down. 
+An x1 instance is turned on for testing, and left on mistakenly over the weekend, racking up thousands in charges for a science fair project. 
+An errant EBS volume backup process creates 60,000 snapshots that no one notices. 
