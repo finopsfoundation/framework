@@ -24,10 +24,11 @@ This is a human-readable summary of (and not a substitute for) the license. Disc
 
 If you were to share or adapt content from the Tagging & Labeling page you would need to include the following attribution:
 
-- ["Tagging & Labeling"](https://framework.finops.org/framework/functions/tagging-labeling/) by [FinOps Foundation](https://finops.org")
+- [Tagging & Labeling](https://framework.finops.org/framework/functions/tagging-labeling/) by [FinOps Foundation](https://finops.org")
 
 If referencing multiple pieces or general concepts from the Framework you can also use:
 
-- ["FinOps Framework"](https://framework.finops.org/) by [FinOps Foundation](https://finops.org")
+- [FinOps Framework](https://framework.finops.org/) by [FinOps Foundation](https://finops.org")
 
 
+In all cases, please include a link to the FinOps Framework regardless of format.
