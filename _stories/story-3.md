@@ -3,7 +3,6 @@
 layout: stories
 title: Story about tagging labeling 2
 tags: 
-- tagging-labeling
 persona:
 stage:
 company:

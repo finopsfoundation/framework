@@ -17,7 +17,7 @@ plugins:
 # jekyll-seo-tag configuration
 author: ""
 url: ""
-title: ""
+title: "FinOps Framework"
 description: ""
 twitter:
   username: ""

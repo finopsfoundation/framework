@@ -3,9 +3,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{ page.title }}</title>
-    <meta name="description" content="{{ page.description }}">
-    <meta name="robots" content="noindex" />
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+    <meta name="robots" content="noindex, nofollow" />
     <link rel="shortcut icon" href="https://www.finops.org/wp-content/themes/finops/favicon.ico?32" />
     <link rel="apple-touch-icon" sizes="180x180" href="https://www.finops.org/wp-content/themes/finops/apple-touch-icon.png?2">
     <link rel="icon" type="image/png" sizes="32x32" href="https://www.finops.org/wp-content/themes/finops/favicon-32x32.png?2">
@@ -22,14 +22,14 @@
     </div>
     <div class="relative mb-10 max-w-screen-xl mx-auto border-b border-gray-lightest border-solid pt-6">
       <div class="mx-auto px-4 sm:px-6">
-        <div class="flex justify-between items-center py-8 md:justify-start md:space-x-10">
-          <div class="flex justify-start lg:w-0 lg:flex-1">
+        <div class="flex flex-col md:flex-row md:justify-between items-center py-8 md:justify-start md:space-x-10">
+          <div class="flex justify-start py-4 lg:w-0 lg:flex-1 md:p-0">
             <a href="/">
-              <img class="h-8 w-auto sm:h-10" src="/img/finops-logo-horizontal.svg?3" alt="FinOps Foundation Logo">
+              <img class="h-10 w-auto" src="/img/finops-logo-horizontal.svg?3" alt="FinOps Foundation Logo">
             </a>
           </div>
 
-          <nav class="hidden md:flex space-x-10">
+          <nav class="md:flex pt-2 space-x-10 md:pt-0">
             <a href="https://www.finops.org/membership/" class="btn">
               Join the Community
             </a>
@@ -42,27 +42,23 @@
       </div>
     </div>
 
+    <div class="px-4">
+      <div class="px-4 bg-gray-200 py-4 mb-4
+       md:hidden">
+        <a href="#" data-collapse-target="mob-nav" data-collapse-initial-state="hidden" data-collapse-expand-text="View Menu" data-collapse-collapse-text="Hide Menu" >View Menu</a>
+        <div id="mob-nav" style="display: none;" class="mt-4">
+          {% include nav.html %}
+        </div>
+        
+      </div>
+    </div>
+
 
     <div class="flex flex-row px-4 max-w-screen-xl mx-auto sm:px-6"><!-- Main container -->
-      <div class="w-3/12"><!-- Sidebar Nav -->
-        <ul class="pt-2">
-        {% for item in site.data.navigation_side %}
-          <li>
-            <h3 class="font-medium lg:text-sm uppercase mb-0">{{ item.name }}</h3>
-            {% if item.children != null %}
-            <ul class="mt-2 mb-8">
-              {% for child in item.children %}
-                <li>
-                  <a class="lg:text-sm font-normal text-gray-600 hover:text-gray-900 transition-colors duration-200" href="/{{ item.name | downcase }}/{{ child.name | replace: ' ', '-' | downcase }}">{{ child.name }}</a>
-                </li>
-              {% endfor %}
-            </ul>
-            {% endif %}
-          </li>
-        {% endfor %}
-        </ul>
+      <div class="hidden md:block w-3/12"><!-- Sidebar Nav -->
+        {% include nav.html %}
       </div>
-      <div class="px-4 w-7/12"><!-- Main content area -->
+      <div class="px-4 w-100 md:w-7/12"><!-- Main content area -->
         <div class="text-right text-sm no-underline text-gray-900 mb-6">
           <a href="https://github.com/finopsfoundation/fodo" class="rounded-md hover:bg-gray-200 py-2 px-4 opacity-50 hover:opacity-100 transition duration-200 ease-in-out">
             <img src="/img/icons/github.svg" width="16" class="inline-block align-text-bottom mr-1"> Propose Edits

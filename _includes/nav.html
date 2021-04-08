@@ -1,0 +1,17 @@
+
+<ul class="pt-2">
+{% for item in site.data.navigation_side %}
+  <li>
+    <h3 class="font-medium lg:text-sm uppercase mb-0">{{ item.name }}</h3>
+    {% if item.children != null %}
+    <ul class="mt-2 mb-8">
+      {% for child in item.children %}
+        <li>
+          <a class="lg:text-sm font-normal text-gray-600 hover:text-gray-900 transition-colors duration-200" href="/{{ item.name | downcase }}/{{ child.name | replace: ' ', '-' | downcase }}">{{ child.name }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+  </li>
+{% endfor %}
+</ul>
