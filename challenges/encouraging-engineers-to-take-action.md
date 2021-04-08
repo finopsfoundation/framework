@@ -1,5 +1,7 @@
 ---
 
+title: Encouraging engineers to take action
+description: We gathered our FinOps experts to address the challenge of encouraging and enabling engineers to get more involved. It's not just a challenge for engineers-- everyone has a role to play.
 layout: default
 
 ---
@@ -253,6 +255,23 @@ Define the business outcome and success metrics. What is the ultimate goal of ou
 * **Define the game economy -** that is, the rewards the players receive for engaging with the game.  For most gamified solutions, the primary currency will be self-esteem and social capital and these need to be explicitly recognised and designed into the gamified experience at the outset.
 
 In summary, gamification offers a clear and compelling route to empowering engineering action on cloud cost optimisation.  It can act as a purposeful way to create cost awareness, promote ownership and accountability, establish standardised approaches and policies and motivate engineers to embrace cost engineering as a key element in their cloud-enabled future.
+
+---
+
+## Acknowledgements
+The FinOps Foundation extends a huge thank you to the members of the Special Interest Group that broke ground on this documentation:
+
+* Riley Jenkins
+* Jeremy Campbell
+* John Renne 
+* Stephen Arthur
+* Jan Karstens
+* Brent Eubanks
+* Assaf Flatto
+* Jason Rhoades
+* Mike Bradbury
+
+If we've missed anyone, let us know. We thank you all for your contributions.
 
 ---
 
