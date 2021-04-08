@@ -8,6 +8,10 @@ layout: default
 
 ## Introduction
 
+Datacenter costs are traditionally comprised of large upfront spend and smaller more consistent monthly charges, in comparison cloud spend is way more complex with its variable cost model. This variable cost model is often perceived as a problem with immature FinOps practices, however as companies develop their processes the variable cost model is a benefit. Forecasting cloud spend is a pain point that is first felt when moving to this new model of IT spending. 
+
+Especially when combined with anomaly detection, organizations that have forecasting models able to predict cloud spend in the single digits of accuracy feel more in control of cloud spend and have more time to react to cloud spend trending outside of expectations.
+
 
 ## Contributing Functions
 

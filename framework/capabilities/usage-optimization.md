@@ -8,6 +8,10 @@ layout: default
 
 ## Introduction
 
+Remember the cloud bill is formulated by cost = usage * rate. The two methods of reducing the cloud bill is reducing usage and reducing the rate you pay. Usage optimization is the usage reduction part of the equation. Usage optimisation stands to save the most on a per-resource level as much as 100% by removing the resource all together which is what is recommended with idle resources you no longer need/use. 
+
+Recommendations for resources/workloads that appear to be resizable should be provided to engineers in a relevant and easy manner. Engineers should have the motivation to remove cloud waste and the business should set aside time for engineers to investigate and action the recommendations in order to maintain cloud efficiency. 
+
 
 ## Contributing Functions
 
