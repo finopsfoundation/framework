@@ -11,6 +11,7 @@
   - name: Capabilities
   - name: Functions
   - name: KPIs
+  - name: Job Descriptions
 - name: Challenges
   children:
   - name: Encouraging Engineers to Take Action
