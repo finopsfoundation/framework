@@ -1,16 +1,13 @@
 - name: Introduction
   children:
   - name: What is FinOps
-  - name: How to Start
   - name: How to Contribute
   - name: How to Use
 - name: Framework
   children:
-  - name: Outline
   - name: Principles
   - name: Personas
   - name: Lifecycle
-  - name: Abilities
   - name: Capabilities
   - name: Functions
   - name: KPIs

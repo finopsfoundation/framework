@@ -13,8 +13,6 @@ While usage optimization is about reducing resource usage to avoid costs, rate o
 
 By now, you know that not all cloud providers are created equal. With multiple purchasing options, billing in different time increments, and a slew of payment structures and commitments, each provider brings with it a variety of financial ramifications for customers.
 
-{% include story-loop.md %}
-
 ## Maturity Examples
 
 How to get started and what great looks like.
@@ -29,6 +27,8 @@ How to get started and what great looks like.
 - Savings Plan Coverage
 - Committed Use Discount coverage
 - Commitment/RI utilization
+
+{% include story-loop.md %}
 
 ## Resources
 
