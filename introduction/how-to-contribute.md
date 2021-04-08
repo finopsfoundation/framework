@@ -17,6 +17,7 @@ Ways to submit changes:
 * Create an issue that recommends a way to edit or fix something in the FinOps Framework that might need some help
 * Report typos or broken links
 * Add your own FinOps story to one of our challenge playbooks
+* Check the project board on the FinOps.org GitHub repo to find ways to help
 
 ## Review process
 
