@@ -8,6 +8,7 @@ persona:
 stage:
 company:
 
+---
 
 I worked with an FTSE 100 UK retailer who had millions of dollars a month of cloud spending, but zero RIs. They knew that by buying even a modest amount of RIs, they could save a lot of money. In fact, working closely with their team to analyze the company’s infrastructure, I found they could save millions over the coming three years. Because they’re a retailer, margins were tight, and the RI purchase could help them achieve critical cost reduction goals mandated by leadership. 
 
