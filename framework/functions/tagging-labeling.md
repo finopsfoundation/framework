@@ -67,14 +67,14 @@ These links are provided as potentially relevant industry resources. The FinOps 
 
 ### Cloud Native Tooling
 
-- [AWS Organizations] https://aws.amazon.com/organizations/
-- [GCP Data Labeling] (https://console.cloud.google.com/data-labeling)
+- [AWS Organizations](https://aws.amazon.com/organizations/)
+- [GCP Data Labeling](https://console.cloud.google.com/data-labeling)
 
 ### Relevant FinOps Certified Platforms
 
 - [Cloudability Business Mappings](https://www.cloudability.com/product/features/business-mapping/)
 - [Cloudhealth Perspectives](https://www.cloudhealthtech.com/blog/understanding-cloudhealth-perspectives)
-- [Densify Grouping Billing Data](https://www.densify.com/docs/Content/Densify_Com/Grouping_and_Filtering_Your_Billing_Data.htm_
+- [Densify Grouping Billing Data](https://www.densify.com/docs/Content/Densify_Com/Grouping_and_Filtering_Your_Billing_Data.htm)
 - [PyraCloud Tagging](https://help.pyracloud.com/knowledge-base/managing-tags-and-resources/)
 
 ### Relevant FinOps Certified Service Providers
@@ -89,6 +89,3 @@ These links are provided as potentially relevant industry resources. The FinOps 
 ### Reading List
 
 - [Cloud FinOps Chapters 8 & 9](https://www.amazon.com/Cloud-FinOps-Collaborative-Real-Time-Management/dp/1492054623)
-
-
-{% include story-loop.md %}
