@@ -11,7 +11,7 @@ layout: default
 - [Forecast](forecast)
 - [Usage Optimization](usage-optimization)
 - [Rate Optimization](rate-optimization)
-- [Organisational Alignment](organisational-alignment)	
+- [Organizational Alignment](organizational-alignment)	
 											
 											
 											
