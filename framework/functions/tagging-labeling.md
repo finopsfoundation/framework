@@ -59,9 +59,36 @@ Most successful cost allocation strategies do not rely on tags but instead begin
 
 These links are provided as potentially relevant industry resources. The FinOps Foundation does not recommend any individual technology vendor and is not responsible for the content below.
 
-### Open Source Tooling
-### Cloud Native Tooling
 ### Cloud Specific Best Practices
-### FinOps Certified Platforms
-### FinOps Training Partners
-### FinOps Certified Service Providers
+
+- [AWS](https://docs.aws.amazon.com/general/latest/gr/aws_tagging.html)
+- [GCP](https://cloud.google.com/compute/docs/labeling-resources)
+- [Azure](https://docs.microsoft.com/en-us/azure/virtual-machines/tag-portal)
+
+### Cloud Native Tooling
+
+- [AWS Organizations] https://aws.amazon.com/organizations/
+- [GCP Data Labeling] (https://console.cloud.google.com/data-labeling)
+
+### Relevant FinOps Certified Platforms
+
+- [Cloudability Business Mappings](https://www.cloudability.com/product/features/business-mapping/)
+- [Cloudhealth Perspectives](https://www.cloudhealthtech.com/blog/understanding-cloudhealth-perspectives)
+- [Densify Grouping Billing Data](https://www.densify.com/docs/Content/Densify_Com/Grouping_and_Filtering_Your_Billing_Data.htm_
+- [PyraCloud Tagging](https://help.pyracloud.com/knowledge-base/managing-tags-and-resources/)
+
+### Relevant FinOps Certified Service Providers
+
+
+### Relevant FinOps Training Partners
+- [FinOps Certified Practitioner (FOCP)](https://www.finops.org/certification/)
+
+### Open Source
+- [Cloud Custodian Tag Compliance](https://cloudcustodian.io/docs/aws/examples/tagcompliance.html)
+
+### Reading List
+
+- [Cloud FinOps Chapters 8 & 9](https://www.amazon.com/Cloud-FinOps-Collaborative-Real-Time-Management/dp/1492054623)
+
+
+{% include story-loop.md %}
