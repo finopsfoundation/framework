@@ -5,7 +5,6 @@
   - name: How to Use
 - name: Framework
   children:
-  - name: Outline
   - name: Principles
   - name: Personas
   - name: Lifecycle
