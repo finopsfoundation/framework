@@ -4,7 +4,7 @@ layout: default
 
 ---
 
-# kpis
+# KPIs
 
 This project collects the outputs from conversations in the Slack [#KPIs room](https://finopsfoundation.slack.com/archives/CM25PLFD5).
 
@@ -32,7 +32,7 @@ This project collects the outputs from conversations in the Slack [#KPIs room](h
 * % untagged resources
 * % wrongly tagged resources
 * % total tag coverage
-* * % taggable items tagged
+* % taggable items tagged
 * % of spend that is untaggable 
 * Hours between cost incurred and cost displayed to end team
 * Frequency of data updates
