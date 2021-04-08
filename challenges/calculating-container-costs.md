@@ -5,6 +5,13 @@ description: Typical cloud costs are difficult enough to track at scale, and con
 layout: default
 
 ---
+### Playbook Details
+
+- Status: Graduated
+- Slack room: https://finopsfoundation.slack.com/archives/C0180PC67T2
+- SIG Ownership: [Kubernetes](https://github.com/finopsfoundation/sig-containers)
+- Chairperson: 
+- TAC Liaison: Eugene Khvostov
 
 # Calculating Container Costs
 
