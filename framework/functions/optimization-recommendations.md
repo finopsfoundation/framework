@@ -12,7 +12,8 @@ Optimizations may consist in areas of resource type, size and number, and also s
 In addition, organizations often find it challenging to actually execute or action recommendations, so consideration must be given to removing barriers.
 
 ## Sample Implementation
-[TODO]
+![image](https://user-images.githubusercontent.com/82024117/114154023-4e55f400-9963-11eb-9080-f51355a78db6.png)
+
 
 ## Common Approaches
 -	Right sizing – the size of the resource is decreased to remove excess overhead
