@@ -1,46 +1,8 @@
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-    <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-    <meta name="robots" content="noindex, nofollow" />
-    <link rel="shortcut icon" href="https://www.finops.org/wp-content/themes/finops/favicon.ico?32" />
-    <link rel="apple-touch-icon" sizes="180x180" href="https://www.finops.org/wp-content/themes/finops/apple-touch-icon.png?2">
-    <link rel="icon" type="image/png" sizes="32x32" href="https://www.finops.org/wp-content/themes/finops/favicon-32x32.png?2">
-    <link rel="icon" type="image/png" sizes="16x16" href="https://www.finops.org/wp-content/themes/finops/favicon-16x16.png?2">
-    <link rel="stylesheet" href="/css/main.css">
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
-    <meta property="og:image" content="https://www.finops.org/wp-content/uploads/2019/02/ff-social.png" />
-    
-  </head>
+  {% include head.html %}
   <body>
-    <div class="bg-green-500 fixed w-full z-10"><a class="font-normal block px-4 py-1 text-white text-sm font-light text-center" href="/introduction/how-to-use/">This work is licensed under <span class="font-semibold">CC BY 4.0</span> - Read how use or adaptation requires attribution</a>
-    </div>
-    <div class="relative mb-10 max-w-screen-xl mx-auto border-b border-gray-lightest border-solid pt-6">
-      <div class="mx-auto px-4 sm:px-6">
-        <div class="flex flex-col md:flex-row md:justify-between items-center py-8 md:justify-start md:space-x-10">
-          <div class="flex justify-start py-4 lg:w-0 lg:flex-1 md:p-0">
-            <a href="/">
-              <img class="h-10 w-auto" src="/img/finops-logo-horizontal.svg?3" alt="FinOps Foundation Logo">
-            </a>
-          </div>
 
-          <nav class="md:flex pt-2 space-x-10 md:pt-0">
-            <a href="https://www.finops.org/membership/" class="btn">
-              Join the Community
-            </a>
-
-            <a href="https://www.finops.org/" class="btn btn-outline">
-              Main Website
-            </a>
-          </nav>
-        </div>
-      </div>
-    </div>
+    {% include header.html %}
 
     <div class="px-4">
       <div class="px-4 bg-gray-200 py-4 mb-4
@@ -49,7 +11,6 @@
         <div id="mob-nav" style="display: none;" class="mt-4">
           {% include nav.html %}
         </div>
-        
       </div>
     </div>
 
@@ -77,5 +38,3 @@
     {% endif %}
   </body>
 </html>
-
-

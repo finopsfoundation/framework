@@ -1,0 +1,17 @@
+<html>
+  {% include head.html %}
+  <body>
+
+    {% include header.html %}
+
+    <div class="prose mx-auto">
+      {{ content }}
+    </div>
+
+    {% include copyright.html %}
+
+    {% if jekyll.environment == 'production' %}
+      {% include analytics.html %}
+    {% endif %}
+  </body>
+</html>
