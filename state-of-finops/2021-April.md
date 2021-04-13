@@ -23,6 +23,7 @@ This nascent work group has started their abstract and kicked off a panel discus
 
 ## [Accurate Forecasting](https://framework.finops.org/challenges/accurate-forecasts/)
 
+This upcoming working group needs a chair person! To nominate yourself or someone else, drop a note in #forecasting.
 
 ## [Financial Services SIG](#)
 
