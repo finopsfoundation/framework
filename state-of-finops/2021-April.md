@@ -1,8 +1,12 @@
 # April State of FinOps Update
 
+## Member Call Recording
+
+All of the great stuff below was covered and discussed on the member call. Read about each of them below or [watch the recording] (gated to members): 
+
 ## FinOps Framework
 
-The MVP is live at [framework.finops.org](https://framework.finops.org)! Caveat: with lots of holes. Please take a look and propose changes. It's all open source on Github and available for pull requests.
+The staging site is live at [framework.finops.org](https://framework.finops.org)! Caveat: with lots of holes still!. Please take a look to propose changes and contributions. It's all open source on Github and available for pull requests.
 
 ## Education and Training
 
@@ -17,21 +21,21 @@ The Eng Action group has proposed the first draft of their playbook on solving t
 
 This nascent work group has started their abstract and kicked off a panel discussion in this month's call. Look for the first draft to be shared at the May member call! Slack conversation at #cloud-finance.
 
-## [Accurate Forecasting](https://framework.finops.org/challenges/identifying-shared-costs/)
+## [Accurate Forecasting](https://framework.finops.org/challenges/accurate-forecasts/)
 
-## [Financial Services SIG](foo)
-The first of our vertical groups is kicking off this month. Check out #financialservices-sig
+
+## [Financial Services SIG](#)
+
+The first of our vertical groups is kicking off this month. Check out #financialservices-sig in Slack.
 
 ## Elections!
 
-TAC is adding three new seats. Send an email to tac@finops.org to nominate someone.
+The [TAC]https://github.com/finopsfoundation/tac is adding three new seats. Send an email to tac@finops.org to nominate a thought leader.
 
 # May 2021 Call Agenda
 
 - Forecasting Panel (panelists split by cloud, one from each)
 - Shared Cost launch (panelist split by cloud, one from each)
-- Google thread through all the content, contrasting to AWS/Azure concepts 
-- Announce #gcp-wg
-- Announce upcoming relevant vendor webinars (GCP, HCL, Doit, Ternary, etc)
-- Breakouts into SIGs
-
+- Announce #gcp-wg: to align terminology in framework in relation to AWS & Azure
+- Announce upcoming relevant vendor webinars (e.g., GCP, HCL, Doit, Ternary, etc)
+- Breakout rooms in the end tied to WGs/SIGs
