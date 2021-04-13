@@ -24,5 +24,14 @@ The first of our vertical groups is kicking off this month. Check out #financial
 
 ## Elections!
 
-TAC is adding three new seats.
+TAC is adding three new seats. Send an email to tac@finops.org to nominate someone.
+
+# May 2021 Call Agenda
+
+- Forecasting Panel (panelists split by cloud, one from each)
+- Shared Cost launch (panelist split by cloud, one from each)
+- Google thread through all the content, contrasting to AWS/Azure concepts 
+- Announce #gcp-wg
+- Announce upcoming relevant vendor webinars (GCP, HCL, Doit, Ternary, etc)
+- Breakouts into SIGs
 
