@@ -81,22 +81,121 @@ Set very specific goals, e.g. if a specific team that is building a SaaS service
 ### How to Transition to Team-Centric Cost Ownership
 *Riley Jenkins, Domo*
 
-One of the foundational principles of FinOps is that "everyone takes ownership of their cloud usage." For companies born in the cloud with a Devops culture, teams owning their systems cost can be natural, as ownership is already centered on development teams. For a company transitioning to the cloud or companies that have yet to push ownership to their teams, transitioning to team-centric cost ownership can be a challenging task to complete.
+One of the foundational principles of FinOps is that \"everyone takes ownership of their cloud usage.\" For companies born in the cloud with a Devops culture, teams owning their systems cost can be natural, as
+ownership is already centered on development teams. For a company
+transitioning to the cloud or companies that have yet to push ownership
+to their teams, transitioning ownership can be a challenging task to
+complete.
 
 Steps:
-* Research and Understand your current ownership structure
-* Identify opportunities 
-* Formulate your plan
-* Gain executive buy-off
+
+1.  Research
+
+2.  Identify opportunities
+
+3.  Formulate your plan
+
+4.  Gain Leadership buy-off
+
+5.  Roll out
 
 #### Research
-No matter where your company is at, a good starting point is to research where ownership currently lies. Gaining answers to a few key questions can illustrate the current ownership of cloud costs:
-* Who reports on cloud costs currently
-* Who sets budgets for cloud costs
-* Who is able to make configuration changes to your deployed resources
-* How are cost initiatives prioritized? By who?
-* How are inefficiencies identified? By who?
-* Who decides to act on committed spend decisions such as reservations or savings plans? 
+
+No matter where your company is at, a good starting point is to research
+where ownership currently lies. Gaining answers to a few key questions
+can highlight the current ownership of cloud costs from multiple
+perspectives:
+
+-   Who reports on cloud costs currently?
+
+-   Who sets budgets for cloud costs?
+
+-   Who is able to make configuration changes to your deployed
+    > resources?
+
+-   How are cost initiatives prioritized? By who?
+
+-   How are inefficiencies identified? By who?
+
+-   Who decides to act on committed spend decisions such as reservations
+    > or savings plans?
+
+#### Identify Opportunities
+
+Shifting ownership takes careful deliberate work. In order to
+prioritize, gain support, and change ownership, the reasons for making
+such a change should be identified. Lack of ownership by those that use
+the cloud can impact many areas of the business. Areas of consideration
+include:
+
+-   Where can better insight improve cost savings initiatives?
+
+-   Does committed spend coverage suffer from split ownership?
+
+-   Are their operational benefits?
+
+-   Are their technical benefits?
+
+-   Are goals difficult to achieve due to ownership challenges?
+
+#### Formulate Your Plan
+
+Understanding your current ownership paradigm and identifying
+opportunities enables you to plan out phases to adopt usage based cost
+ownership. Some areas of consideration:
+
+-   Timeframe
+
+-   Stakeholders
+
+-   Phases
+
+-   Foundational changes like tagging and reporting policies
+
+-   Centralize function team\'s role (e.g. Cloud Infrastructure Teams)
+
+-   KPIs to measure success
+
+-   Kickoff
+
+-   Approaches such as gamification
+
+-   Training
+
+#### Gain Leadership Buy Off
+
+Without support and sponsorship from senior leadership, prioritization
+and alignment amongst the stakeholders will make adoption of a
+transformation of ownership much more difficult. Some changes can impact
+the day to day work of your team. Cultural opposition from stakeholders
+can lead to opposition among teams. Ensure that your leadership
+understands the current state and what is to be gained by following your
+plan. Some considerations:
+
+-   Executive sponsorship
+
+-   Messaging
+
+-   Rollout amongst leadership
+
+-   Feedback
+
+#### Rollout
+
+Making ownership changes can be met with many different challenges along
+the way. As your initiative is progressing keep the following in mind:
+
+-   What wins can you share with teams in flight?
+
+-   What cost savings opportunities have been identified as a result?
+
+-   Trainings and office hours
+
+-   KPIs to ensure you are headed in the right direction
+
+-   How quick is your feedback loop for improvement?
+
+### How Tagging and Reporting Should Map to Ownership of Costs
 
 What helps us at our organization is to implement what’s called “team centric cost ownership.” It  can be achieved using two components.
 
