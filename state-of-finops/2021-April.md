@@ -23,23 +23,23 @@ This nascent work group has started their abstract and kicked off a panel discus
 
 ## [Accurate Forecasting](https://framework.finops.org/challenges/accurate-forecasts/)
 
-This upcoming working group needs a chair person! To nominate yourself or someone else, drop a note in #forecasting.
+This upcoming working group needs a chair person! To nominate yourself or someone else, drop a note in slack in #forecasting.
 
-## [Financial Services SIG](#)
+## [Financial Services SIG]
 
 The first of our vertical groups is kicking off this month. Check out #financialservices-sig in Slack.
 
 ## Elections!
 
-The [TAC]https://github.com/finopsfoundation/tac is adding three new seats. Send an email to tac@finops.org to nominate a thought leader.
+The [TAC](https://github.com/finopsfoundation/tac) is adding three new seats. Send an email to tac@finops.org to nominate a thought leader.
 
 # May 2021 Call Agenda
 May 13 at 8am Pacific. Watch for your invite via email!
 - Forecasting Panel (panelists split by cloud, one from each)
 - Shared Cost launch (panelist split by cloud, one from each)
 - Announce #gcp-wg: to align terminology in framework in relation to AWS & Azure
-- Announce upcoming relevant vendor webinars (e.g., GCP, HCL, Doit, Ternary, etc)
-- Framework updates
+- Announce upcoming relevant vendor webinars 
+- Framework updates: adding your story
 - Breakout rooms in the end tied to WGs/SIGs
 
 # Events
