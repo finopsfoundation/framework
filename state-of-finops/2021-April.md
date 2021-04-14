@@ -39,6 +39,7 @@ The [TAC]https://github.com/finopsfoundation/tac is adding three new seats. Send
 - Shared Cost launch (panelist split by cloud, one from each)
 - Announce #gcp-wg: to align terminology in framework in relation to AWS & Azure
 - Announce upcoming relevant vendor webinars (e.g., GCP, HCL, Doit, Ternary, etc)
+- Framework updates
 - Breakout rooms in the end tied to WGs/SIGs
 
 # Just the Links
