@@ -34,7 +34,7 @@ The first of our vertical groups is kicking off this month. Check out #financial
 The [TAC]https://github.com/finopsfoundation/tac is adding three new seats. Send an email to tac@finops.org to nominate a thought leader.
 
 # May 2021 Call Agenda
-
+May 13 at 8am Pacific. Watch for your invite via email!
 - Forecasting Panel (panelists split by cloud, one from each)
 - Shared Cost launch (panelist split by cloud, one from each)
 - Announce #gcp-wg: to align terminology in framework in relation to AWS & Azure
@@ -42,8 +42,6 @@ The [TAC]https://github.com/finopsfoundation/tac is adding three new seats. Send
 - Framework updates
 - Breakout rooms in the end tied to WGs/SIGs
 
-# Just the Links
-FinOps for Engineers links courtesy of Mr. Andrew Sledge ...
-- [Rightsizing Recommendations Script](#)
-- [Is cost optimization “Good Housekeeping” or not](#)
-- Read more...
+# Events
+
+<iframe src="https://calendar.google.com/calendar/embed?height=300&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FLos_Angeles&amp;src=Zmlub3BzLm9yZ19hMGV0aDV2amZlcHRkMWQ5dTQ2bjN2OW1jZ0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&amp;color=%23AD1457&amp;mode=AGENDA" style="border:solid 1px #777" width="800" height="300" frameborder="0" scrolling="no"></iframe>
