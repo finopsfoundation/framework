@@ -62,3 +62,4 @@ These links are provided as potentially relevant industry resources. The FinOps 
 ### FinOps Certified Platforms
 ### FinOps Training Partners
 ### FinOps Certified Service Providers
+
