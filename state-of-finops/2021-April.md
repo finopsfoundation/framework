@@ -40,3 +40,9 @@ The [TAC]https://github.com/finopsfoundation/tac is adding three new seats. Send
 - Announce #gcp-wg: to align terminology in framework in relation to AWS & Azure
 - Announce upcoming relevant vendor webinars (e.g., GCP, HCL, Doit, Ternary, etc)
 - Breakout rooms in the end tied to WGs/SIGs
+
+# Just the Links
+FinOps for Engineers links courtesy of Mr. Andrew Sledge ...
+- [Rightsizing Recommendations Script](#)
+- [Is cost optimization “Good Housekeeping” or not](#)
+- Read more...
