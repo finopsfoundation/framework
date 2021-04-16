@@ -11,14 +11,30 @@
       </div>
 
       <nav class="md:flex pt-2 space-x-10 md:pt-0">
+        {% for item in site.data.navigation_main %}
+          <li>
+            <a class="font-medium lg:text-sm uppercase mb-0">{{ item.name }}</a>
+            {% if item.children != null %}
+            <ul class="mt-2 mb-8">
+              {% for child in item.children %}
+              <li>
+                <a class="lg:text-sm font-normal text-gray-600 hover:text-gray-900 transition-colors duration-200" href="/{{ item.url }}">{{ child.name }}</a>
+              </li>
+              {% endfor %}
+            </ul>
+            {% endif %}
+          </li>
+        {% endfor %}
+      </nav>
+      <div>
         <a href="https://www.finops.org/membership/" class="btn">
           Join the Community
         </a>
 
         <a href="https://www.finops.org/" class="btn btn-outline">
-          Main Website
+          Slack Login
         </a>
-      </nav>
+      </div>
     </div>
   </div>
 </div>

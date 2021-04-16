@@ -1,19 +1,22 @@
+- name: Education
+  children:
+  - name: Intro to FinOps
+    url: https://training.linuxfoundation.org/training/introduction-to-finops-lfs175/
+  - name: FinOps Certified Practitioner (FOCP)
+    url: /education/finops-certified-practitioner
+  - name: Training Events
+    url: /events/
 - name: Resources
   children:
   - name: State of FinOps
     url: https://data.finops.org/
   - name: O’Reilly FinOps Book
-    url:
-  - name: Swag Store
-    url: https://store.finops.org/
+    url: /resources/oreilly-finOps-book
+  - name: Regional Meetups
+    url: https://www.meetup.com/pro/finops/
+  - name: Logo and Artwork
+    url: https://github.com/finopsfoundation/artwork
   - name: Overview Slides
     url: https://github.com/finopsfoundation/decks
-- name: Certification
-  children:
-  - name: Intro to FinOps
-    url: https://training.linuxfoundation.org/training/introduction-to-finops-lfs175/
-  - name: FinOps Certified Practitioner (FOCP)
-  - name: Training Events
-  - name: FinOps Certified Platform (FCP)
-  - name: FinOps Certified Service Provider (FCSP)
-  - name: FinOps Training Partner (FTP)
+  - name: Swag Store
+    url: https://store.finops.org/
