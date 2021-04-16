@@ -2,32 +2,35 @@
 
 ## Member Call Recording
 
-All of the great stuff below was covered and discussed on the member call. Read about each of them below or [watch the recording] (gated to members): 
+Here is a summary of what was covered on the member call this month. Read below or [watch the recording](https://finopsfoundation.slack.com/archives/CHZ9QE1U0) in slack at [#member-calls](https://finopsfoundation.slack.com/archives/CHZ9QE1U0) (members only). 
+
+The next member call is May 13th, details at the bottom of this update.
 
 ## FinOps Framework
 
-The staging site is live at [framework.finops.org](https://framework.finops.org)! Caveat: with lots of holes still!. Please take a look to propose changes and contributions. It's all open source on Github and available for pull requests.
+The staging site is live at [framework.finops.org](https://framework.finops.org)! Caveat: with lots of holes still! Propose changes and contributions: it's all open source on Github. Special shoutout to recent [contributors](https://github.com/finopsfoundation/framework/graphs/contributors) Nathan Besh, Andrew Sledge, Andrew Midgely, Riley Jenkins, Epic Vinny, and others.
 
 ## Education and Training
 
-- FinOps for Engineers has launched! OK, it's just the curriculum for now but the actual course will be available on May 31. [Pre-sale for 30% off available here](https://www.eventbrite.com/e/finops-for-engineering-training-self-paced-course-course-pre-sale-tickets-149961353445)
-- Live FinOps Certified Practitioner Course – with Ben De Mora from Sky UK is April 20-21, 2021 - [Five seats left here](https://www.eventbrite.com/e/finops-certified-practitioner-course-w-ben-sky-uk-tickets-145114638791)
+- **[FinOps for Engineers](https://www.eventbrite.com/e/finops-for-engineering-training-self-paced-course-course-pre-sale-tickets-149961353445)** has launched! OK, it's just the curriculum for now but the actual course will be available on May 31. [Pre-sale for 30% off available here]
+- **[Live FinOps Certified Practitioner Course](https://www.eventbrite.com/e/finops-certified-practitioner-course-w-ben-sky-uk-tickets-145114638791)** – featuring [Ben De Mora](https://www.linkedin.com/in/bendemora?originalSubdomain=uk)) from Sky UK is April 20-21, 2021 - [Three seats left here](https://www.eventbrite.com/e/finops-certified-practitioner-course-w-ben-sky-uk-tickets-145114638791)
+- **[Self-Paced FinOps Certified Practitioner Course](https://www.eventbrite.com/e/finops-certified-practitioner-self-paced-course-tickets-150987081425)** (featuring [Rob Martin](https://www.linkedin.com/in/robmartin3)): Access to 6 hours of video training as well as an included exam voucher for FinOps Certfied Practitioner.
 
 ## [Engineering Action Work Group](https://framework.finops.org/challenges/encouraging-engineers-to-take-action/)
 
-The Eng Action group has proposed the first draft of their playbook on solving this top State of FinOps challenge. Read their first draft on [Encouraging engineers to take action](https://framework.finops.org/challenges/encouraging-engineers-to-take-action/). Slack conversation at #finops-for-engineers.
+The Eng Action group has proposed the first draft of their playbook on solving this top State of FinOps challenge. Read their first draft on [Encouraging engineers to take action](https://framework.finops.org/challenges/encouraging-engineers-to-take-action/). Slack conversation at [#finops-for-engineers](https://finopsfoundation.slack.com/archives/C014CFZTE1W).
 
 ## [Dealing with Shared Costs](https://framework.finops.org/challenges/identifying-shared-costs/)
 
-This nascent work group has started their abstract and kicked off a panel discussion in this month's call. Look for the first draft to be shared at the May member call! Slack conversation at #cloud-finance.
+This nascent work group has started their abstract and kicked off a panel discussion in this month's call. Look for the first draft to be shared at the May member call! Slack conversation at [#cloud-finance](https://finopsfoundation.slack.com/archives/C013NCE3WD8).
 
 ## [Accurate Forecasting](https://framework.finops.org/challenges/accurate-forecasts/)
 
-This upcoming working group needs a chair person! To nominate yourself or someone else, drop a note in slack in #forecasting.
+This upcoming working group needs a chair person! To nominate yourself or someone else, drop a note in slack in [#forecasting](https://finopsfoundation.slack.com/archives/C01T6BW6TFZ).
 
-## [Financial Services SIG]
+## [Financial Services SIG](https://finopsfoundation.slack.com/archives/C01SWA5RWHZ)
 
-The first of our vertical groups is kicking off this month. Check out #financialservices-sig in Slack.
+The first of our vertical groups is kicking off this month. Check out [#financialservices-sig](https://finopsfoundation.slack.com/archives/C01SWA5RWHZ) in Slack.
 
 ## Elections!
 
