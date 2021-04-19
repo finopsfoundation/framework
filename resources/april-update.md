@@ -1,3 +1,9 @@
+---
+
+layout: default
+
+---
+
 # April State of FinOps Update
 
 ## Member Call Recording

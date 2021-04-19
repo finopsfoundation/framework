@@ -17,8 +17,7 @@
   - name: Identifying Shared Costs
   - name: Calculating Container Costs
   - name: Accurate Forecasts
-- name: State of FinOps
+- name: Resources
   children:
-  - name: Data.FinOps.org
   - name: April Update
 
