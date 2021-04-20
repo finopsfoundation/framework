@@ -10,24 +10,26 @@
         </a>
       </div>
 
-      <nav class="md:flex pt-2 space-x-10 md:pt-0">
+      <nav class="md:flex pt-2 space-x-10 mt-2 md:pt-0">
+        <ul class="list-none">
         {% for item in site.data.navigation_main %}
-          <li>
-            <a class="font-medium lg:text-sm uppercase mb-0">{{ item.name }}</a>
+          <li class="inline-block align-top relative nav-dropdown">
+            <a class="font-medium lg:text-sm uppercase mb-0 nav-dropdown-link p-4">{{ item.name }}</a>
             {% if item.children != null %}
-            <ul class="mt-2 mb-8">
+            <ul class="mt-2 mb-8 nav-list py-4">
               {% for child in item.children %}
-              <li>
-                <a class="lg:text-sm font-normal text-gray-600 hover:text-gray-900 transition-colors duration-200" href="/{{ item.url }}">{{ child.name }}</a>
+              <li class="relative block">
+                <a class="lg:text-sm font-normal text-gray-600 hover:text-gray-900 transition-colors duration-200 block px-4 py-2" href="{{ child.url }}">{{ child.name }}</a>
               </li>
               {% endfor %}
             </ul>
             {% endif %}
           </li>
         {% endfor %}
+        </ul>
       </nav>
       <div>
-        <a href="https://www.finops.org/membership/" class="btn">
+        <a href="https://www.finops.org/membership/" class="btn mr-2">
           Join the Community
         </a>
 
