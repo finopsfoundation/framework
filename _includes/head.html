@@ -5,6 +5,9 @@
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
   <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
   <meta name="robots" content="noindex, nofollow" />
+  {% if jekyll.environment != 'production' %}
+    <meta name="robots" content="noindex, nofollow" />
+  {% endif %}
   <link rel="shortcut icon" href="/img/favicons/favicon.ico?32" />
   <link rel="apple-touch-icon" sizes="180x180" href="/img/favicons/apple-touch-icon.png?2">
   <link rel="icon" type="image/png" sizes="32x32" href="/img/favicons/favicon-32x32.png?2">
