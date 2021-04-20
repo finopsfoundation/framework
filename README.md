@@ -20,6 +20,7 @@ FinOps Framework content, including concepts, principles, best practices, and ot
 ## How to contribute
 
 Contributing to finops.org and the FinOps Framework can include:
+* Participating in FinOps Foundation Special Interest Groups (SIGs) to create new content or edits for the Framework
 * Creating issues to identify problems or errors with the finops.org or the FinOps Framework
 * Edits to FinOps Framework content, definitions, images, etc.
 * Edits to playbooks, reports
@@ -27,11 +28,7 @@ Contributing to finops.org and the FinOps Framework can include:
 * Reporting broken links or link updates
 * and other content-related fixes
 
-If you want to contribute changes or commits to the State of FinOps report, see this repo.
-
-If you want to design materials and slide templates for a FinOps Meetup, see this repo.
-
-### Formatting issues
+### Creating and formatting issues
 
 If submitting an issue, please use the issue title to identify what is not working as intended.
 
