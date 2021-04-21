@@ -1,6 +1,6 @@
 ---
 
-layout: stories
+layout: collection
 title: Anomaly Detection
 tags: 
 - tagging-labeling

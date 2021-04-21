@@ -1,6 +1,6 @@
 ---
 
-layout: stories
+layout: collection
 title: Story about autoscaling
 tags: 
 - anomaly-detection

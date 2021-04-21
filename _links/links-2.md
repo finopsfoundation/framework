@@ -1,12 +1,11 @@
 ---
 
-layout: default
+layout: collection
 title: Just the Links - Volume 8
+description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
 persona: engineering
 
 ---
-
-# Resource Links
 
 ## [Performance and Price Comparison (on EC2)](https://www.performancemagic.com/2021/02/27/performance-price-comparison/)
 A great independent review of the different EC2 types using a Wordpress installation. If anything, it proves out the Graviton processors are a real solution that should be considered given the performance and cost.

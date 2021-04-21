@@ -1,6 +1,6 @@
 ---
 
-layout: stories
+layout: collection
 title: Story about tagging labeling 2
 tags: 
 persona:
