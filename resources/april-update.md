@@ -18,7 +18,7 @@ The staging site is live at [framework.finops.org](https://framework.finops.org)
 
 ## [Education and Training](https://finops.org/certification)
 
-- **[FinOps for Engineers](https://www.eventbrite.com/e/finops-for-engineering-training-self-paced-course-course-pre-sale-tickets-149961353445)** has launched! OK, it's just the curriculum for now but the actual course will be available on May 31. [Pre-sale for 30% off available here]
+- **[FinOps for Engineers](https://www.eventbrite.com/e/finops-for-engineering-training-self-paced-course-course-pre-sale-tickets-149961353445)** has launched! OK, it's just the curriculum for now but the actual course will be available on May 31. [Pre-sale for 30% off available here](https://www.eventbrite.com/e/149961353445/?discount=EarlyBird)
 - **[Live FinOps Certified Practitioner Course](https://www.eventbrite.com/e/finops-certified-practitioner-course-w-ben-sky-uk-tickets-145114638791)** – featuring [Ben De Mora](https://www.linkedin.com/in/bendemora?originalSubdomain=uk) from Sky UK is April 20-21, 2021 - [Three seats left here](https://www.eventbrite.com/e/finops-certified-practitioner-course-w-ben-sky-uk-tickets-145114638791)
 - **[Self-Paced FinOps Certified Practitioner Course](https://www.eventbrite.com/e/finops-certified-practitioner-self-paced-course-tickets-150987081425)** - featuring [Rob Martin](https://www.linkedin.com/in/robmartin3) - Access to 6 hours of video training as well as an included exam voucher for FinOps Certfied Practitioner.
 
@@ -32,7 +32,7 @@ This nascent work group has started their abstract and kicked off a panel discus
 
 ## [Accurate Forecasting](https://framework.finops.org/challenges/accurate-forecasts/)
 
-This upcoming working group needs a chair person! To nominate yourself or someone else, drop a note in slack in [#forecasting](https://finopsfoundation.slack.com/archives/C01T6BW6TFZ).
+Melanie Edwards (CVS) and Dieter Matzion (Roku) will be co-chairing the upcoming working group. We're also going to add 4-5 SMEs who want to contribute to authoring the first version. Interested? Put your hand up in [#forecasting](https://finopsfoundation.slack.com/archives/C01T6BW6TFZ).
 
 ## [Financial Services SIG](https://finopsfoundation.slack.com/archives/C01SWA5RWHZ)
 
