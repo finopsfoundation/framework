@@ -1,6 +1,7 @@
 ---
 
 layout: default
+title: April State of FinOps Update
 
 ---
 
