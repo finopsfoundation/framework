@@ -2,7 +2,7 @@
 
 layout: collection
 title: Just the Links - Volume 7
-description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+description: Originally published April 7, 2021 at https://finopsforengineers.substack.com/p/just-the-links-051
 persona: engineering
 
 ---
@@ -77,3 +77,5 @@ Plan, Optimize, Remediate, Rinse, Repeat. That’s the way it’s done right?
 
 ## [CapEx vs OpEx: Capital Expenditures & Operating Expenses Explained](https://www.bmc.com/blogs/capex-vs-opex/)
 As if we needed another reason to understand the benefits of OpEx over CapEx. I think this is more for our finance friends.
+
+This material provided in association with the [FinOps for Engineers](https://finopsforengineers.substack.com/p/just-the-links-volume-9) newsletter. Like what you see? Consider signing up!

@@ -2,7 +2,7 @@
 
 layout: collection
 title: Just the Links - Volume 8
-description: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+description: Originally published April 21, 2021 at https://finopsforengineers.substack.com/p/just-the-links-volume-8 
 persona: engineering
 
 ---
@@ -75,3 +75,4 @@ Seems to be a popular topic recently (see above), but this one is authored by AW
 ## [AWS vs Azure vs GCP](https://www.veritis.com/blog/aws-vs-azure-vs-gcp-the-cloud-platform-of-your-choice/)
 A feature and cost-wise comparison of the three major cloud providers. Has some decent charts to reference.
 
+This material provided in association with the [FinOps for Engineers](https://finopsforengineers.substack.com/p/just-the-links-volume-9) newsletter. Like what you see? Consider signing up!
