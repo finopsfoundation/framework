@@ -259,7 +259,7 @@ Due to company accounting policy and a desire to make our direct chargeback as t
 ---
 
 ### Non-technical/Market/Environmental/Corporate Governance Influencing Factors on How to Track, Process and Share Costs
-*Anonymous user*
+*Neil May, FinOps Director, Wish Star*
 
 **Vendor pricing strategies** - complex, ever evolving software and service licensing models from multiple vendors to flow through predictions and usage accounting.
 
