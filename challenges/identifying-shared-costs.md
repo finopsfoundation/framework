@@ -60,6 +60,8 @@ The software engineer Linus had no clue until last month how much he owns of all
 Engineering: Engineering Manager or Director
 Suchandra is responsible for all costs incurred in her team or department, including the portion of shared costs that her team is charged.
 
+<div id="1"></div>
+
 ## How to take on this challenge
 ### Step 1: Identify what kinds of costs are shared 
 For the purpose of this document, we are primarily concerned with shared cost as the total amount billed to a customer by a cloud provider. That is, a cloud bill is shared at the organizational level and must be allocated for accounting purposes. Shared cost may be allocated to a centralized budget within the technology org; alternatively it can be allocated to cost centers throughout the business and technology organizations. From a finance perspective, we may also refer to shared cloud costs as a type of direct operating expense.  
@@ -75,6 +77,8 @@ Modern architecture has also introduced more shared costs with the rise of share
 * Enterprise level support
 * Enterprise level discounts
 * Licensing, 3rd party SaaS costs (out of scope for this document, but hope to add in a future revision)
+
+<div id="2"></div>
 
 ### Step 2: Learn how to split up these costs
 There are typically three ways to split up shared costs:
@@ -146,6 +150,8 @@ The fixed proportion model attempts to provide a more equitable distribution of 
 * Engineering—QA will be accountable for a total of $33,600 ($30,000 direct cost + $3,600 support charge allocation).
 * Engineering will be accountable for a total of $23,000 ($20,000 direct cost + $3,000 support charge allocation).
 
+<div id="3"></div>
+
 ### Step 3: Apply Shared Cost Models
 Combining multiple types of shared costs with multiple approaches to splitting shared costs can quickly become complicated. Not every type of shared cost needs to follow the same method to splitting shared costs. Some charges like support fees, might seem to work better under a proportional model, but other costs like shared resources, or dev/test environments might make sense under the even split or fixed proportion approach.
 There is no best approach model; a company will need to decide what works best for them, and what makes the most sense based on their budgeting and accounting methodology. Typically, more mature organisations rely on proportional or direct usage based appropriations, but not always.
@@ -159,8 +165,9 @@ AWS has switched to a model where enterprise discounts are applied on a per reso
 
 So there may be no need to discount the Shared Cost amount, which is to be allocated to a Cost Center. The process may not be the same for GCP and Azure, however.
 
-### Step 4: Reporting Shared Costs
+<div id="4"></div>
 
+### Step 4: Reporting Shared Costs
 If you are currently not allocating out 100% of the expense, it is important to bring attention to the unallocated shared costs through reporting. Without proper attention, shared costs can quickly grow from immaterial cost adjustments to extremely material budget overruns. Proper attention and management of shared costs can be driven by effective reporting.
 
 Effective reporting on shared costs will show:
@@ -178,6 +185,8 @@ As Cloud Services are Moved, Added, Changed or Deleted (MACD) each month the fix
 Keeping track of these cost changes is handled through Bill Reconciliation, where Cloud Service Order Reports and Request for Change (RFC) Records are used to track the movement of charges. The effective End/Start Dates are checked against the Bill/Invoice Period to verify if change is reflected in the Bill Amount for the Invoice Period. If charge change can not be mapped to Invoice period, then Order and RFC records are held over to the next bill period reconciliation.The latter action may result in Credit Adjustments/Credit Notes for over charged periods.
 
 One challenge to accurate accounting is knowing when to stop with shared costs.  It’s easy to say something is a shared cost and soon the bucket of shared costs that need to be split can get pretty large. You should have a scheduled, regular review of shared costs to make sure resources that have been marked shared are still relevant, and the resources still needed.  Since no one pays directly for these costs, it can be easy for these resources to be left on, because no one business unit feels the impact of their cost. Make sure you regularly challenge the need for those resources.
+
+<div id="5"></div>
 
 ### Step 5: Sustaining Your Approach
 You’ve done it. You figured out what your shared costs are, how you want to split them up, how it gets reported, and you have passed your first month where shared costs have been allocated. Nobody hoisted you on their shoulders in celebration, but everybody understands the new approach, appreciates the transparency, and is even on-board with the process.
@@ -199,27 +208,27 @@ As mentioned above, the process of spreading out shared costs is iterative, and 
 Tracking is essential to view progress on splitting shared costs. In addition to tracking cost splits, you should also develop KPIs that consider how much of the shared cost is accurately distributed, and not based on the models proposed above. Consider some example KPIs that correspond to the suggested approach above:
 
 #### Shared vs. dedicated cost tagging and labeling coverage in %
-*Try this to track success on Step 1*
+*Try this to track success on [Step 1](#1)*
 
 As the classification of shared vs. dedicated costs should result in tagging and labelling, this KPI can track the progress.
 
 #### Shared cost model distribution in %
-*Try this to track success on Step 2*
+*Try this to track success on [Step 2](#2)*
 
 Your company will employ different methods of shared cost over time: even split, fixed %, or proportional. To track the maturity of your modeling, you can track percentage spend under each approach, and match it against company goals. This approach will result in three or more values that will add up to 100%.
 
 #### Applied shared cost distribution on all shared resources in %
-*Try this to track success on Step 3*
+*Try this to track success on [Step 3](#3)*
 
 Having cloud resources only identified as shared and having them tagged as such does not mean they are allocated explicitly and accurately using an appropriated model so this KPI can track your completeness and maturity.
 
 #### Shared vs. dedicated costs in % 
-*Try this to track success on Step 4*
+*Try this to track success on [Step 4](#4)*
 
 This can be used for trending, and tracking whether your shared costs have exploded relative to your dedicated costs. It requires baseline evaluation before it can be accurately used.
 
 #### Shared cost maturity aggregation of previously detailed KPIs
-*Try this to track success on Step 5*
+*Try this to track success on [Step 5](#5)*
 
 An aggregation of the KPIs listed above, this one number gives a holistic view of all parts necessary in tracking shared cost.
 
@@ -368,6 +377,7 @@ As the platform for the product teams is shared most of the resources in the pla
 * Log-Management where teams ingest different volumes and velocity along with different usage/query patterns
 
 **Example of shared cost allocation strategy for Log-Management**
+
 | Strategy     | Crawl                            | Walk                                 | Run                            |
 |--------------|----------------------------------|--------------------------------------|--------------------------------|
 | Proportional |                                  | Log-Mgmt Costs / Directcost-per-Team |                                |
