@@ -57,7 +57,8 @@ Quinn is the business owner of a shared platform which enables many product team
 
 ### Engineering: Software Engineer
 The software engineer Linus had no clue until last month how much he owns of all the shared platform costs that have occurred. Nowadays cost optimization is simply part of a sprint delivery.
-Engineering: Engineering Manager or Director
+
+### Engineering: Engineering Manager or Director
 Suchandra is responsible for all costs incurred in her team or department, including the portion of shared costs that her team is charged.
 
 <div id="1"></div>
