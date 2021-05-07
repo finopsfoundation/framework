@@ -4,11 +4,48 @@
 
     {% include header.html %}
 
-    <div class="prose mx-auto">
-      {{ content }}
-    </div>
+    <nav id="off-canvas" class="md:hidden">
+      <ul>
+        {% for item in site.data.navigation_side %}
+        <li>{{ item.name }}
+          {% if item.children != null %}
+          <ul>
+            {% for child in item.children %}
+            <li>
+              <a href="/{{ item.name | downcase }}/{{ child.name | replace: ' ', '-' | downcase }}">{{ child.name }}</a>
+            </li>
+            {% endfor %}
+           </ul>
+          {% endif %}
+        </li>
+        {% endfor %}
 
-    {% include copyright.html %}
+        {% for item in site.data.navigation_footer %}
+        <li>{{ item.name }}
+          {% if item.children != null %}
+          <ul>
+            {% for child in item.children %}
+            <li>
+              <a href="/{{ item.name | downcase }}/{{ child.name | replace: ' ', '-' | downcase }}">{{ child.name }}</a>
+            </li>
+            {% endfor %}
+           </ul>
+          {% endif %}
+        </li>
+        {% endfor %}
+      </ul>
+    </nav>
+
+    {{ content }}    
+
+    {% include footer.html %}
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="/js/hc-offcanvas-nav.js?3"></script>
+    <script src="/js/slick.js"></script>
+
+    <script src="/js/main.js?78"></script>
 
     {% if jekyll.environment == 'production' %}
       {% include analytics.html %}

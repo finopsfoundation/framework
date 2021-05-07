@@ -3,32 +3,17 @@
 </div>
 <div class="relative mb-10 max-w-screen-xl mx-auto border-b border-gray-lightest border-solid pt-6">
   <div class="mx-auto px-4 sm:px-6">
-    <div class="flex flex-col md:flex-row md:justify-between items-center py-8 md:justify-start md:space-x-10">
+    <div class="flex flex-col md:flex-row md:justify-between py-8 md:justify-start md:space-x-10">
       <div class="flex justify-start py-4 lg:w-0 lg:flex-1 md:p-0">
         <a href="/">
           <img class="h-10 w-auto" src="/img/finops-logo-horizontal.svg?3" alt="FinOps Foundation Logo">
         </a>
       </div>
 
-      <nav class="md:flex pt-2 space-x-10 mt-2 md:pt-0">
-        <ul class="list-none">
-        {% for item in site.data.navigation_main %}
-          <li class="inline-block align-top relative nav-dropdown">
-            <a class="font-medium lg:text-sm uppercase mb-0 nav-dropdown-link p-4">{{ item.name }}</a>
-            {% if item.children != null %}
-            <ul class="mt-2 mb-8 nav-list py-4">
-              {% for child in item.children %}
-              <li class="relative block">
-                <a class="lg:text-sm font-normal text-gray-600 hover:text-gray-900 transition-colors duration-200 block px-4 py-2" href="{{ child.url }}">{{ child.name }}</a>
-              </li>
-              {% endfor %}
-            </ul>
-            {% endif %}
-          </li>
-        {% endfor %}
-        </ul>
-      </nav>
-      <div>
+      <div class="md:flex pt-2 space-x-10 mt-2 md:pt-0">
+        <!-- <a href="/certification/">Get Certified</a> -->
+      </div>
+      <div class="text-center">
         <a href="https://www.finops.org/membership/" class="btn mr-2">
           Join the Community
         </a>

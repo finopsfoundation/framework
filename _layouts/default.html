@@ -1,41 +1,37 @@
-<html>
-  {% include head.html %}
-  <body>
+---
 
-    {% include header.html %}
+layout: basic
 
-    <div class="px-4">
-      <div class="px-4 bg-gray-200 py-4 mb-4
-       md:hidden">
-        <a href="#" data-collapse-target="mob-nav" data-collapse-initial-state="hidden" data-collapse-expand-text="View Menu" data-collapse-collapse-text="Hide Menu" >View Menu</a>
-        <div id="mob-nav" style="display: none;" class="mt-4">
-          {% include nav.html %}
-        </div>
-      </div>
+---
+
+<div class="flex flex-row px-4 max-w-screen-xl mx-auto sm:px-6"><!-- Main container -->
+  <div class="hidden md:block w-3/12"><!-- Sidebar Nav -->
+    {% include nav.html %}
+    
+    <div class="bg-gray-200 rounded-lg px-6 pb-6 pt-2 mr-6">
+      <span class="text-gray-400 inline-block mb-2">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 mt-2" viewBox="0 0 20 20" fill="currentColor">
+          <path d="M10.394 2.08a1 1 0 00-.788 0l-7 3a1 1 0 000 1.84L5.25 8.051a.999.999 0 01.356-.257l4-1.714a1 1 0 11.788 1.838L7.667 9.088l1.94.831a1 1 0 00.787 0l7-3a1 1 0 000-1.838l-7-3zM3.31 9.397L5 10.12v4.102a8.969 8.969 0 00-1.05-.174 1 1 0 01-.89-.89 11.115 11.115 0 01.25-3.762zM9.3 16.573A9.026 9.026 0 007 14.935v-3.957l1.818.78a3 3 0 002.364 0l5.508-2.361a11.026 11.026 0 01.25 3.762 1 1 0 01-.89.89 8.968 8.968 0 00-5.35 2.524 1 1 0 01-1.4 0zM6 18a1 1 0 001-1v-2.065a8.935 8.935 0 00-2-.712V17a1 1 0 001 1z" />
+        </svg>
+      </span>
+      <h3 class="text-sm font-semibold text-gray-700 tracking-wider uppercase">Ready to Get FinOps Certified?</h3>
+      <a href="/certification/finops-certified-practitioner/" class="text-sm text-green-500 mt-4 block">Learn More</a>
     </div>
-
-
-    <div class="flex flex-row px-4 max-w-screen-xl mx-auto sm:px-6"><!-- Main container -->
-      <div class="hidden md:block w-3/12"><!-- Sidebar Nav -->
-        {% include nav.html %}
-      </div>
-      <div class="px-4 w-100 md:w-7/12"><!-- Main content area -->
-        {% if page.github-link != false %}
-        <div class="text-right text-sm no-underline text-gray-900 mb-6">
-          <a href="https://github.com/finopsfoundation/fodo" class="rounded-md hover:bg-gray-200 py-2 px-4 opacity-50 hover:opacity-100 transition duration-200 ease-in-out">
-            <img src="/img/icons/github.svg" width="16" class="inline-block align-text-bottom mr-1"> Propose Edits
-          </a>
-        </div>
-        {% endif %}
-        <div class="prose">
-          {{ content }}
-        </div>
-      </div>
+  </div>
+  {% if page.width == 'wide' %}<!-- Main content area -->
+    <div class="px-4 w-100 md:w-9/12">
+  {% else %}
+    <div class="px-4 w-100 md:w-7/12">
+  {% endif %}
+    {% if page.github-link != false %}
+    <div class="text-right text-sm no-underline text-gray-900 mb-6">
+      <a href="https://github.com/finopsfoundation/fodo" class="rounded-md hover:bg-gray-200 py-2 px-4 opacity-50 hover:opacity-100 transition duration-200 ease-in-out">
+        <img src="/img/icons/github.svg" width="16" class="inline-block align-text-bottom mr-1"> Propose Edits
+      </a>
     </div>
-    {% include copyright.html %}
-
-    {% if jekyll.environment == 'production' %}
-      {% include analytics.html %}
     {% endif %}
-  </body>
-</html>
+    <div class="prose {% if page.width == 'wide' %} max-w-full {% endif %}">
+      {{ content }}
+    </div>
+  </div>
+</div>

@@ -1,11 +1,10 @@
-- name: Education
+- name: Certification
   children:
-  - name: Intro to FinOps
+  - name: Introduction to FinOps Course
     url: https://training.linuxfoundation.org/training/introduction-to-finops-lfs175/
-  - name: FinOps Certified Practitioner (FOCP)
-    url: /education/finops-certified-practitioner
-  - name: Training Events
-    url: /events/
+  - name: FinOps Certified Practitioner
+    url: /certification/finops-certified-practitioner/
+
 - name: Resources
   children:
   - name: State of FinOps
@@ -20,3 +19,14 @@
     url: https://github.com/finopsfoundation/decks
   - name: Swag Store
     url: https://store.finops.org/
+
+- name: Company
+  children:
+  - name: About
+    url: /about/
+  - name: Privacy
+    url: /privacy/
+  - name: Terms
+    url: /terms/
+
+
