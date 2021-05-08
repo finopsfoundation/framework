@@ -32,7 +32,7 @@ Approved members will receive an invite with zoom details. Didn't get one? Email
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ck8EbE38MNs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-
+<br/><br/>
 
 # April State of FinOps Update
 
