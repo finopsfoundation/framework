@@ -36,9 +36,17 @@ function doScrolling(element, duration) {
   })
 }
 
-document.getElementById('js-training-1').addEventListener('click', doScrolling.bind(null, '#focp-certification-exam--300', 1000));
+if(document.getElementById('js-training-1')) {
+  document.getElementById('js-training-1').addEventListener('click', doScrolling.bind(null, '#focp-certification-exam--300', 1000));
+}
+
+if(document.getElementById('js-training-2')) {
 document.getElementById('js-training-2').addEventListener('click', doScrolling.bind(null, '#self-paced-online-course---499', 1500));
+}
+
+if(document.getElementById('js-training-3')) {
 document.getElementById('js-training-3').addEventListener('click', doScrolling.bind(null, '#instructor-led-live-training--890', 2000));
+}
 
 
 
@@ -54,6 +62,16 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 
 });
+
+
+// Modal
+
+function toggleModal(modalID){
+  document.getElementById(modalID).classList.toggle("hidden");
+  document.getElementById(modalID + "-backdrop").classList.toggle("hidden");
+  document.getElementById(modalID).classList.toggle("flex");
+  document.getElementById(modalID + "-backdrop").classList.toggle("flex");
+}
 
 
 

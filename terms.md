@@ -1,6 +1,6 @@
 ---
 
-layout: basic
+layout: page
 
 ---
 
