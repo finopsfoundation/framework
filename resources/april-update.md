@@ -1,15 +1,44 @@
 ---
 
 layout: default
-title: April State of FinOps Update
+title: State of FinOps Update
 
 ---
+
+# May State of FinOps Update
+
+In April, we had 492 people join our live FinOps member call (April summary here). We're back with a packed line-up for the May!!
+
+## May Member Summit Agenda 
+
+This month's member summit is on May 13th from 8am - 10am Pacific Time. 
+
+- [#Intros](https://finopsfoundation.slack.com/archives/CHJRT5M8Q): 30 second practitioner and vendor intros led by Stacy (FinOps)
+- [Accurate Forecasting](https://framework.finops.org/challenges/accurate-forecasts/): panel discussion and playbook preview led by Melanie (CVS) and Dieter (Roku)
+- [Engineering Action](https://framework.finops.org/challenges/encouraging-engineers-to-take-action/): demo of [Unikraft](https://unikraft.org/): cost optimization at the Kernel level with Felipe (NEC Labs)
+- [State of FinOps](https://data.finops.org/): Vendor profiles preview (mapping the FinOps Ecosytem) led by Joe Daly (Nationwide)
+- [Google Cloud](https://finopsfoundation.slack.com/archives/CNK7WDDEH): The GCP team kicks off a working group to normalize cloud terminology led by Kenneth (King.com) and Kim (Target)
+- [Dealing with Shared Costs](https://framework.finops.org/challenges/identifying-shared-costs/): reveal of the new playbook by Tracy (Scout24)
+- [Training & Certification](https://www.finops.org/events): This month's instructor led FinOps Practitioner Certification is led by Alex Hullah (HSBC)
+- 30 minute breakout rooms on each topic at the end!
+
+Approved members will receive an invite with zoom details. Didn't get one? Email membership@finops.org or check [#events](https://finopsfoundation.slack.com/archives/CHM83DGQ4) in Slack.
+
+## Upcoming Events
+
+<iframe src="https://calendar.google.com/calendar/embed?height=300&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FLos_Angeles&amp;src=Zmlub3BzLm9yZ19hMGV0aDV2amZlcHRkMWQ5dTQ2bjN2OW1jZ0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&amp;color=%23AD1457&amp;mode=AGENDA" style="border:solid 1px #777" width="800" height="300" frameborder="0" scrolling="no"></iframe>
+
+## April Summit Recording
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ck8EbE38MNs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
 
 # April State of FinOps Update
 
 ## Member Call Recording
 
-Here is a summary of what was covered on the member call this month. Read below or [watch the recording](https://finopsfoundation.slack.com/archives/CHZ9QE1U0) in slack at [#member-calls](https://finopsfoundation.slack.com/archives/CHZ9QE1U0) (members only). 
+Here is a summary of what was covered on the member call this month. 
 
 The next member call is May 13th, details at the bottom of this update.
 
@@ -52,6 +81,4 @@ May 13 at 8am Pacific. Watch for your invite via email!
 - Framework updates: adding your story
 - Breakout rooms in the end tied to WGs/SIGs
 
-# Events
 
-<iframe src="https://calendar.google.com/calendar/embed?height=300&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FLos_Angeles&amp;src=Zmlub3BzLm9yZ19hMGV0aDV2amZlcHRkMWQ5dTQ2bjN2OW1jZ0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&amp;color=%23AD1457&amp;mode=AGENDA" style="border:solid 1px #777" width="800" height="300" frameborder="0" scrolling="no"></iframe>
