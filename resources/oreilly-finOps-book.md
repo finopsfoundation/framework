@@ -1,12 +1,15 @@
 ---
 
-layout: default
+layout: page
 github-link: false
+title: Cloud FinOps O’Reilly Book - FinOps Foundation
+description: Learn about the O’Reilly Cloud FinOps book with expert insights added by members and where you can order it today.
 
 ---
 
 # Cloud FinOps O’Reilly Book
 
+[Available on Amazon Now](https://www.amazon.com/Cloud-FinOps-Collaborative-real-time-management/dp/1492054623)
 
 ## Your Business Operating Manual for the Cloud
 
