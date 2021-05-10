@@ -7,13 +7,13 @@ module.exports = {
     require("autoprefixer"),
     ...(jekyllEnv != "development"
       ? [
-          // require("@fullhuman/postcss-purgecss")({
-          //   content: ["!(_site|node_modules)/**/*.+(html|js|md)", "*.html", "**/*.html", "**//**/*.html"],
-          //   whitelistPatternsChildren: [/highlight/],
-          //   defaultExtractor: (content) =>
-          //     content.match(/[\w-/:]+(?<!:)/g) || [],
-          // }),
-          // require("cssnano")({ preset: "default" }),
+          require("@fullhuman/postcss-purgecss")({
+            content: ["!(_site|node_modules)/**/*.+(html|js|md)", "*.html", "**/*.html", "**//**/*.html"],
+            whitelistPatternsChildren: [/highlight/],
+            defaultExtractor: (content) =>
+              content.match(/[\w-/:]+(?<!:)/g) || [],
+          }),
+          require("cssnano")({ preset: "default" }),
         ]
       : [])
   ]
