@@ -197,32 +197,48 @@ the way. As your initiative is progressing keep the following in mind:
 
 ### How Tagging and Reporting Should Map to Ownership of Costs
 
-What helps us at our organization is to implement what’s called “team centric cost ownership.” It  can be achieved using two components.
 
-The agreed upon grouping criteria should be transparent as prepared by the FinOps team members. Many examples over the years have shown descriptors like Product Name, Project, Department, Cost Center, Business Unit, etc.. You can then map the current people names that have business leadership responsibilities and technical leadership accountability.
+####Tagging
 
-When you agree to assign or map a business owner and technical owner it provides a common ground upon which FinOps can set up new dashboards and widgets to show back the various costs, consumption, waste, suggestions, and shame/winners by these new team views during the monthly spend review process. The transparency from senior managers, VP/Directors, and the engineering community is to be open and understand that now the whole company has visibility into these costs and the potential amounts that are not efficient, and able to help drive management decisions around staffing up more people.
+Designing a tagging structure to meet a company's goals is one of the 
+foundational steps of a healthy FinOps practice. This is because cost 
+identification is a crucial component of giving teams ownership of 
+their costs through visibility. The structure of the organization’s 
+tagging taxonomy must consider cloud spend ownership, system structure, 
+and the needs of the business as whole. It also depends on your 
+company's organizational structure, account structure, and team 
+capabilities. 
 
-#### An example
+#####Keep in mind:
 
-Say you remove $50,000 per month of waste: what does this actually mean? With team-centric cost ownership, FinOps teams can help see a trend where the waste and spend is growing faster, and whether that is ok or action needs to be taken within a business context and/or a technical context. The ability to help prioritize the engineering staff tasks and priorities over the quarter is where these FinOps measures shine. You should be having open dialog with how the team will do which tasks to obtain the best value, or the most amount of work done per cloud dollar spent at the budget given.
+-   What tagging is already in place? Tagging is not only a FinOps discipline. 
+-   Do existing tags affect monitoring, usage tracking, system functionality?
+-   Does your tagging structure allow finance, engineering, and ops, to have accurate reports about their usage and cost?
+-   Do you have other differentiating components such as containerization, regions,  account boundaries, etc?
+-   Do you want direct ownership tagging via teams or individuals or do you want to map your tags to owners?
+-   How much of your spend vs how many resources are untagged? 
+-   How much of your spend vs how many resources do not align with your tagging policy?
+-   What dimensions do you require for your cost reporting and analysis? (e.g. Environment, Customer, Department, Product Code, Team)
 
----
+Simulating and testing your tagging structure are great ways to ensure 
+that the outcome of your tagging strategy enables you to accomplish your
+reporting and ownership goals.  Providing a simulated dataset to finance,
+operations, engineers, as well as the FinOps team, can provide insight 
+into any potential issues.
 
-### How Tagging and Reporting Should Map to Ownership of Costs
-*Anonymous member*
+####Reporting
 
-Designing a tagging structure to meet a company's goals is one of the foundational steps of a healthy Finops practice. The structure of the organization’s tagging taxonomy must consider cloud spend ownership, system structure, and the needs of the business as whole. It also depends on your company's organizational structure, account structure, and team capabilities.  Keep in mind that tagging is not just a FinOps discipline. Resource tagging can affect usage tracking, monitoring, resource identification and even system functionality.
+Effective reporting that seeks to empower teams to understand their cloud
+costs and identify opportunties is vital to for oranizations to have a 
+self sustaining FinOps practice. While the tools and methodologies vary, 
+here are a few concepts to keep in mind:
 
-The difference in organizational structure is key when it comes to routing the waste, scaling, rightsizing, and service level optimization suggestions from FinOps tools and datasets to the proper technology or service layer owner who can take action. When you are able to align tag mapping with the way your business is staffed, your tagging hierarchies and mapping setup will help ensure a more self-service ability by the many different personas in the company.
-
-The routing of the workload optimization recommendations getting to the right owner via reliable tagging structure also lends itself towards improving cloud cost visibility and accountability to specific teams, managers, projects, directors, or product code. Review how your company is currently estimating public cloud costs and spend approvals to ensure all parties involved are on the same layer of technologies and services being included.
-
-**Example:** You have a $100 per month budget for a sandbox for the namespace tenant containerized application use, but who should specifically be seeing and managing cost allocation and showback for the idle resources? What about items that can’t be tagged, like egress, data transfer, etc.?
-
-**Possible answer:** So you may have to tie your cloud spend estimates by a different tagging layer to services and then use a tenant tag to make it simpler for them to only find the item that they care about and work on. This helps abstract away all the complexities of the FinOps full cloud cost control and detailed service level costing mappings across the many different options for cost sharing that could be setup arbitrarily.
-
-Keep it simple for your end users to get what they expect to see that they care about in a dashboard as self service. When you provide them visibility by the proper technology layers they own, the costs, recommendations, and budget awareness charts will make everyone much more productive and the program will grow more quickly.
+-   Teams should have access to their cloud spend, access should reflect ownership and leadership structures
+-   Data should be as up to date as possible, this enables teams to associate code/configuration changes with cloud spend changes
+-   Understand that costs can vary widely with constructs outside of a individual teams control (RIs, SPs, etc...). Seek to normalize these to avoid confusion
+-   Amortization can cause confusion due to either prepay or monthly billing allocation, data that normalizes this can prevent confusion
+-   Centralized disciplines like RIs/SPs should be reported by the team responsible for their management, not the individual teams 
+-   Mechanisms that allow teams to report inaccurracies will aid in refining data over time 
 
 ---
 
