@@ -268,13 +268,13 @@ We’ve worked out some milestones that we think make sense at the Crawl, Walk, 
 | Challenges                     | Multiple CSP Bill Formats Cloud Product Charges Billing Models Tagging Reconciliation | Bill Reconciliation Bill Reporting Shared Cost Model Show Back Reporting Charge Back Reporting | Shared Cost Policy Shared Cost Design Patterns               |
 
 <table style="width:100%;">
-<th>
-<td></td>
-<td>Crawl</td>
-<td>Walk</td>
-<td>Run</td>
-</th>
-
+<thead>
+<th></th>
+<th>Crawl</th>
+<th>Walk</th>
+<th>Run</th>
+</thead>
+<tbody>
 <tr>
  <td>Focus</td>
 <td>Identifying shared costs Developing cost split strategy</td>
@@ -302,7 +302,7 @@ We’ve worked out some milestones that we think make sense at the Crawl, Walk, 
 <td>Bill Reconciliation Bill Reporting Shared Cost Model Show Back Reporting Charge Back Reporting</td>
 <td>Shared Cost Policy, Shared Cost Design Patterns</td>
 </tr>
-
+</tbody>
 </table>
 
 <span id="stories"></span>
