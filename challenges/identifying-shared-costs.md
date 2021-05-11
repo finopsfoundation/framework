@@ -269,13 +269,13 @@ We’ve worked out some milestones that we think make sense at the Crawl, Walk, 
 
 <table style="width:100%;">
 <thead>
-<th></th>
+<th style="width:25%;"></th>
 <th>Crawl</th>
 <th>Walk</th>
 <th>Run</th>
 </thead>
 <tbody>
-<tr>
+<tr style="background-color:lightgray">
  <td>Focus</td>
 <td>Identifying shared costs Developing cost split strategy</td>
 <td>Applying shared cost models</td>
@@ -289,7 +289,7 @@ We’ve worked out some milestones that we think make sense at the Crawl, Walk, 
 <td>Proportional or Multi-Pronged</td>
 </tr>
 
-<tr>
+<tr style="background-color:lightgray">
 <td>Shared costs that may be split</td>
 <td>Enterprise support charges</td>
 <td>Crawl + Platform Charges</td>
