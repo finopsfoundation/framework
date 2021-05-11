@@ -53,7 +53,7 @@ Most successful cost allocation strategies do not rely on tags but instead begin
 - Post Bill Processing
 - Continuous Improvement
 
-{% include story-loop.md %}
+{% include story-loop.md content='tagging-labeling' %}
 
 ## Resources
 
