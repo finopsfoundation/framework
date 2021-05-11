@@ -260,22 +260,15 @@ The best way to know if you’re on the right track is to evaluate how the proce
 
 We’ve worked out some milestones that we think make sense at the Crawl, Walk, and Run stage of your journey through shared costs; they may help you to consider how to approach shared costs if you’re just beginning. The model is not proscriptive, many companies have implemented walk strategies before crawl or vice versa.  Cost is complex and different costs have varying impacts depending on your company infrastructure. 
 
-|                                | Crawl                                                                                 | Walk                                                                                           | Run                                                          |
-|--------------------------------|---------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|--------------------------------------------------------------|
-| Focus                          | Identifying shared costs Developing cost split strategy                               | Applying shared cost models                                                                    | Refining shared cost approach  Long-term strategy Automation |
-| Splitting shared cost approach | None or Even-Split                                                                    | Fixed Proportion or Proportional                                                               | Proportional or Multi-Pronged                                |
-| Shared costs that may be split | Enterprise support charges                                                            | Crawl + Platform Charges                                                                                               | Walk + cloud volume discounts, RIs and SPs                   |
-| Challenges                     | Multiple CSP Bill Formats Cloud Product Charges Billing Models Tagging Reconciliation | Bill Reconciliation Bill Reporting Shared Cost Model Show Back Reporting Charge Back Reporting | Shared Cost Policy Shared Cost Design Patterns               |
-
 <table style="width:100%;">
 <thead>
-<th style="width:25%;"></th>
+<th style="width:22.5%;"></th>
 <th>Crawl</th>
 <th>Walk</th>
 <th>Run</th>
 </thead>
 <tbody>
-<tr style="background-color:lightgray">
+<tr>
  <td>Focus</td>
 <td>Identifying shared costs Developing cost split strategy</td>
 <td>Applying shared cost models</td>
@@ -289,7 +282,7 @@ We’ve worked out some milestones that we think make sense at the Crawl, Walk, 
 <td>Proportional or Multi-Pronged</td>
 </tr>
 
-<tr style="background-color:lightgray">
+<tr>
 <td>Shared costs that may be split</td>
 <td>Enterprise support charges</td>
 <td>Crawl + Platform Charges</td>
