@@ -459,6 +459,7 @@ The FinOps Foundation extends a huge thank you to the members of the Special Int
 - Tracy Roesler 
 - Vik Saluja
 - David Sterz
+- Joe Daly
 - Deana Solis
 - Anthony Johnson
 - Chris Greenham
