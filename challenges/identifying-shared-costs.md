@@ -4,9 +4,23 @@ layout: default
 
 ---
 
+*NOTE: This playbook is live for an upcoming member demonstration, but undergoing review by the Technical Advisory Council. Contributions are not welcome to this project yet until it passes review*
+
 # A Guide to Spreading Out Shared Costs
 
 Every organization has shared IT costs, and these span multiple business departments. As organizations increase their adoption of public cloud resources, it becomes increasingly difficult to assign shared cloud resources to specific business owners, to understand how to properly and fairly allocate costs, and to actually forecast future business unit budgets.
+
+## Table of Contents
+* [Before you begin](#begin)
+* [Relevant FinOps Framwork components](#components)
+* [Why allocated shared costs?](#why-allocate)
+* [Who might care about shared cost allocation?](#who-cares)
+* [How to take on this challenge?](#challenge)
+* [How do you know you're on the right track?](#kpis)
+* [Real world stories](#stories)
+* [Acknowledgements](#acknowledgements)
+
+<span id="begin"></span>
 
 ## Before you begin
 You should understand the basics of how cloud computing works, know the key services on your cloud providers, including their common use cases, and have a basic understanding of billing and pricing models. Being able to describe the basic value proposition of running in the cloud and understand the core concept of using a pay-as-you-go consumption model are also necessary.
@@ -14,6 +28,8 @@ You should understand the basics of how cloud computing works, know the key serv
 You’ll also need to have a base level of knowledge of at least one of the three main public cloud providers (AWS, Azure, Google Cloud). For AWS, we recommend AWS Business Professional training or, even better, the AWS Cloud Practitioner certification. For Google, check out the Google Cloud Platform Fundamentals course. For Azure, try the Azure Fundamentals learning path. Each can usually be completed in a full day workshop.
 
 You should also have a solid understanding of several things within your company. First, you should know the high-level architecture of the technical systems within your company; be able to identify and understand them, as well as what may be used by more than one team. You should have a foundational understanding of how your Accounting and Finance departments handle IT Operation costs, specifically cloud.  You should be able to identify and understand your products and their usage internally. 
+
+<span id="components"></span>
 
 ## Relevant FinOps framework components
 To get the most out of this document, please review the following first:
@@ -34,6 +50,8 @@ If you have a strong handle on these subjects, continue on to better understand 
 * AWS/GCP Marketplace costs
 ...and more in future revisions
 
+<span id="why-allocate"></span>
+
 ## Why allocate shared costs?
 A foundational principle of FinOps is: “everyone takes ownership for their cloud usage.” The true key to understanding total cost of ownership is built upon transparency and accuracy, but unallocated shared costs hinders both of these. Without appropriately splitting costs that are shared, engineers and product managers lack a complete picture of how much their products are really costing.
 
@@ -43,6 +61,8 @@ Imagine Rajesh, Susan, and Marcus decide to have a private pizza party. Marcus b
 After the party, Rajesh and Susan are excited to have another party because “it cost everybody less than $15!”; meanwhile the whole evening has cost $1,505 for poor Marcus. Because Rajesh and Susan didn’t understand that the cost of the venue was foundational to their party, they don’t know they grossly overpaid for pizza.
 
 Failing to distribute shared costs and make them visible to the consumer can result in a disconnect between engineering (the consumer) and the financial impacts of their decisions. If costs are visible, consumption and ownership responsibility are aligned, and engineers are supplied with the feedback loop to guide them in making better decisions.
+
+<span id="who-cares"></span>
 
 ## Who might care about shared cost allocation?
 
@@ -62,6 +82,7 @@ The software engineer Linus had no clue until last month how much he owns of all
 Suchandra is responsible for all costs incurred in her team or department, including the portion of shared costs that her team is charged.
 
 <div id="1"></div>
+<span id="challenge"></span>
 
 ## How to take on this challenge
 ### Step 1: Identify what kinds of costs are shared 
@@ -202,6 +223,8 @@ It can be easy to relax and think the difficult work is over, but process sustai
 * How much documentation do you have for your processes?
 * How many people know the system that has been implemented? Is there sufficient shared knowledge so it does not rest in too small of a group?
 
+<span id="kpis"></span>
+
 ## How do you know you’re on the right track?
 
 As mentioned above, the process of spreading out shared costs is iterative, and evolves over time. The goal of splitting these costs is that products have a complete and holistic view of their actual running costs. As the process becomes more mature, confidence in the accuracy of the distribution should grow. Cost centers or teams should have a greater ability to be able to optimize or influence these shared costs.
@@ -241,8 +264,10 @@ We’ve worked out some milestones that we think make sense at the Crawl, Walk, 
 |--------------------------------|---------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------|--------------------------------------------------------------|
 | Focus                          | Identifying shared costs Developing cost split strategy                               | Applying shared cost models                                                                    | Refining shared cost approach  Long-term strategy Automation |
 | Splitting shared cost approach | None or Even-Split                                                                    | Fixed Proportion or Proportional                                                               | Proportional or Multi-Pronged                                |
-| Shared costs that may be split | Enterprise support charges                                                            |                                                                                                | Walk + cloud volume discounts, RIs and SPs                   |
+| Shared costs that may be split | Enterprise support charges                                                            | Crawl + Platform Charges                                                                                               | Walk + cloud volume discounts, RIs and SPs                   |
 | Challenges                     | Multiple CSP Bill Formats Cloud Product Charges Billing Models Tagging Reconciliation | Bill Reconciliation Bill Reporting Shared Cost Model Show Back Reporting Charge Back Reporting | Shared Cost Policy Shared Cost Design Patterns               |
+
+<span id="stories"></span>
 
 ## Real World Stories
 Here is a collection of stories from FinOps teams of all shapes, sizes, cloud utilization level, and FinOps maturity. Read on to see how other teams take on the challenge of identifying shared costs at scale.
@@ -394,6 +419,7 @@ Other Accounts provide services that are shared across all teams.
 * The CI runners are building software for various teams, some of them are dedicated to a team as they have specific requirements
 
 ---
+<span id="acknowledgements"></span>
 
 ## Acknowledgements
 
