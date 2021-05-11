@@ -9,6 +9,10 @@ title: State of FinOps Update
 
 In April, we had 492 people join our live FinOps member call (April summary here). We're back with a packed line-up for the May!!
 
+## May Preview Video
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Dq4CaYwq8gw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## May Member Summit Agenda 
 
 This month's member summit is on May 13th from 8am - 10am Pacific Time. 
