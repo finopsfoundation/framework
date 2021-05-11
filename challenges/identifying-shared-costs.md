@@ -267,6 +267,44 @@ We’ve worked out some milestones that we think make sense at the Crawl, Walk, 
 | Shared costs that may be split | Enterprise support charges                                                            | Crawl + Platform Charges                                                                                               | Walk + cloud volume discounts, RIs and SPs                   |
 | Challenges                     | Multiple CSP Bill Formats Cloud Product Charges Billing Models Tagging Reconciliation | Bill Reconciliation Bill Reporting Shared Cost Model Show Back Reporting Charge Back Reporting | Shared Cost Policy Shared Cost Design Patterns               |
 
+<table style="width:100%;">
+<th>
+<td></td>
+<td>Crawl</td>
+<td>Walk</td>
+<td>Run</td>
+</th>
+
+<tr>
+ <td>Focus</td>
+<td>Identifying shared costs Developing cost split strategy</td>
+<td>Applying shared cost models</td>
+<td>Refining shared cost approach, Long-term strategy Automation</td>
+ </tr>
+
+<tr>
+<td>Splitting shared cost approach</td>
+<td>None or Even-Split</td>
+<td>Fixed Proportion or Proportional</td>
+<td>Proportional or Multi-Pronged</td>
+</tr>
+
+<tr>
+<td>Shared costs that may be split</td>
+<td>Enterprise support charges</td>
+<td>Crawl + Platform Charges</td>
+<td>Walk + cloud volume discounts, RIs and SPs</td>
+</tr>
+
+<tr>
+<td>Challenges</td>
+<td>Multiple CSP Bill Formats Cloud Product Charges Billing Models Tagging Reconciliation</td>
+<td>Bill Reconciliation Bill Reporting Shared Cost Model Show Back Reporting Charge Back Reporting</td>
+<td>Shared Cost Policy, Shared Cost Design Patterns</td>
+</tr>
+
+</table>
+
 <span id="stories"></span>
 
 ## Real World Stories
