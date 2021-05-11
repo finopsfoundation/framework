@@ -4,7 +4,7 @@ layout: default
 
 ---
 
-*NOTE: This playbook is live for an upcoming member demonstration, but undergoing review by the Technical Advisory Council. Contributions are not welcome to this project yet until it passes review*
+*NOTE: This playbook is in a draft format and is not final. It is published to preview for an upcoming member demonstration, but undergoing review by the Technical Advisory Council. Expect more changes to come.*
 
 # A Guide to Spreading Out Shared Costs
 
