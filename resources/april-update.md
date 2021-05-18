@@ -13,7 +13,11 @@ In April, we had 492 people join our live FinOps member call (April summary here
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Dq4CaYwq8gw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## May Member Summit Agenda 
+## Summit Recording
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/meWi2xj1JGY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## May FinOps Mini-Summit Agenda 
 
 This month's member summit is on May 13th from 8am - 10am Pacific Time. 
 
