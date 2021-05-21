@@ -4,11 +4,15 @@
     url: https://training.linuxfoundation.org/training/introduction-to-finops-lfs175/
   - name: FinOps Certified Practitioner
     url: /certification/finops-certified-practitioner/
+  - name: Vendor Member Certification
+    url: /certification/vendor-certification/
 
 - name: Resources
   children:
   - name: State of FinOps
     url: https://data.finops.org/
+  - name: Events
+    url: /resources/events/
   - name: O’Reilly FinOps Book
     url: /resources/oreilly-finOps-book
   - name: Regional Meetups
@@ -24,9 +28,13 @@
   children:
   - name: About
     url: /about/
+  - name: Principles
+    url: /principles/
+  - name: Technical Charter
+    url: https://github.com/finopsfoundation/tac/blob/master/charter.md
+  - name: Code of Conduct
+    url: https://github.com/finopsfoundation/tac/blob/master/codeofconduct.md
   - name: Privacy
     url: /privacy/
   - name: Terms
     url: /terms/
-
-

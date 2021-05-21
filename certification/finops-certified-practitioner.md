@@ -141,7 +141,10 @@ Fill in the form and we will notify you of opportunities to gain the FinOps Cert
 <script>
   hbspt.forms.create({
 	portalId: "5432286",
-	formId: "213c2cf1-3814-4c55-ba56-c75d563dc178"
+	formId: "213c2cf1-3814-4c55-ba56-c75d563dc178",
+  onFormSubmit: function($form) {
+  ga('send', 'event', 'forms', 'submit', 'certified practitioner');
+},
 });
 </script>
 
