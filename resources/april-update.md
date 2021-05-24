@@ -5,6 +5,71 @@ title: State of FinOps Update
 
 ---
 
+# June State of FinOps Update
+
+596 people joined our May FinOps Summit last week. Watch the recording on YouTube! In case you missed it: Welcome to @Rob Martin (FinOps Foundation) who joined the FinOps Foundation as our Director of Learning.
+
+## June Summit Agenda
+
+This month's member summit is on June 10 from 8am - 10am Pacific Time. There will be an Asia Pacific timezone friendly event the following week.
+
+- [#Intros](https://finopsfoundation.slack.com/archives/CHJRT5M8Q): 30 second practitioner and vendor intros led by Stacy (FinOps)
+- New Working Group Kick-Off (TBD)
+- [Container Cost Playbook](https://framework.finops.org/challenges/calculating-container-costs/) Kick-Off
+- Change to Membership Criteria: Consultants/vendors must be certified to participate.
+- Vendor Showcases: Members voted to approve vendor profiles on the last call, see the first batch led by Joe Daly (Nationwide)
+- [Accurate Forecasting](https://framework.finops.org/challenges/accurate-forecasts/): first draft preview of playbook plus member stories by Melanie (CVS) and Dieter (Roku)
+- [Google Cloud](https://finopsfoundation.slack.com/archives/CNK7WDDEH): See an outline of the Working Group's first efforts led by Kim (Target)
+- [Training & Certification](https://www.finops.org/events): This month's instructor led FinOps Practitioner Certification is led by Ashley Hromatko (Pearson) with Rob Martin (FinOps Foundation, former AWS)
+- Elections! For real this time… (Tracy)
+- Updates to the FinOps Foundation Team: more new hires!
+- 30 minute breakout rooms on each topic at the end!
+
+Approved members will receive an invite with zoom details. Didn't get one? Complete or update your info at https://www.finops.org/membership/ or check [#events](https://finopsfoundation.slack.com/archives/CHM83DGQ4) in Slack.
+
+## May Summit Recording
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/meWi2xj1JGY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Upcoming Events
+
+<iframe src="https://calendar.google.com/calendar/embed?height=300&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FLos_Angeles&amp;src=Zmlub3BzLm9yZ19hMGV0aDV2amZlcHRkMWQ5dTQ2bjN2OW1jZ0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&amp;color=%23AD1457&amp;mode=AGENDA" style="border:solid 1px #777" width="800" height="300" frameborder="0" scrolling="no"></iframe>
+
+## New Members
+
+A warm welcome to our new Slack members in #intros :
+@Adriana Vazquez  (YPF, Argentina)
+@Drew Lowe (Hulu) (USA)
+@Nikolay Druganov (Telstra, Australia)
+@Tom Cutajar (Atlassian) (Australia)
+@Luke de Merindol (Maquarie Cloud Services) (Australia)
+@Michel Declercq (Devoteam BE) (Belgium)
+@Nilton Tetsuo Ideriha (CIandT) (CI&T, Brazil)
+@Carlos Alberto (Valcann, Brazil)
+@Stoyan Zulyamski (Costimize) (Bulgaria)
+@Daniel Zivkovic (Serverless Toronto, Canada)
+@Colin Maynard (Telus Health Solutions, Canada)
+@Kevin LaRoche (Canada)
+@Krista MacDonald ( Jazz Aviation LP, Canada)
+@Paweł Damian (Allegro, Poland)
+@Nathan Graham (Western Cape Government, South Africa)
+@Rakesh Limbachia (ReAssure, UK)
+@Yujun Liang (AIG, UK)
+@Ryan Scott (Thomson Reuters, USA)
+@Ron Tatro (Target) (Target, USA)
+@TM Hew (Utegration) (USA)
+@Noe Zuniga (JP Morgan Chase) (USA)
+@Joan Kreca (Lennar Corp, USA)
+@Kevin Scheer (Cardinal Health, USA)
+@David Hoff (Google Cloud) (USA)
+@Puja Kosarkar (Epsilon, USA)
+@Austin Farris (Command Alkon Inc.) (USA)
+@Robert Wellman (Granicus, USA)
+@John Livingston (Mindbody) (USA)
+@Jerry Hess (Hennepin County, USA)
+@Huey How (Ivanti, USA)
+--> Friendly reminder to all to make say hi in #intros and to rename your user to {Name} (Company). Like this: @Stacy Case (FinOps Foundation).
+
 # May State of FinOps Update
 
 In April, we had 492 people join our live FinOps member call (April summary here). We're back with a packed line-up for the May!!
@@ -12,10 +77,6 @@ In April, we had 492 people join our live FinOps member call (April summary here
 ## May Preview Video
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Dq4CaYwq8gw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-## Summit Recording
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/meWi2xj1JGY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## May FinOps Mini-Summit Agenda 
 
@@ -31,10 +92,6 @@ This month's member summit is on May 13th from 8am - 10am Pacific Time.
 - 30 minute breakout rooms on each topic at the end!
 
 Approved members will receive an invite with zoom details. Didn't get one? Email membership@finops.org or check [#events](https://finopsfoundation.slack.com/archives/CHM83DGQ4) in Slack.
-
-## Upcoming Events
-
-<iframe src="https://calendar.google.com/calendar/embed?height=300&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FLos_Angeles&amp;src=Zmlub3BzLm9yZ19hMGV0aDV2amZlcHRkMWQ5dTQ2bjN2OW1jZ0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&amp;color=%23AD1457&amp;mode=AGENDA" style="border:solid 1px #777" width="800" height="300" frameborder="0" scrolling="no"></iframe>
 
 ## April Summit Recording
 
