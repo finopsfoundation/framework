@@ -48,6 +48,18 @@ if(document.getElementById('js-training-3')) {
 document.getElementById('js-training-3').addEventListener('click', doScrolling.bind(null, '#instructor-led-live-training--890', 2000));
 }
 
+if(document.getElementById('js-cert-1')) {
+  document.getElementById('js-cert-1').addEventListener('click', doScrolling.bind(null, '#finops-certified-platform', 1000));
+}
+
+if(document.getElementById('js-cert-2')) {
+document.getElementById('js-cert-2').addEventListener('click', doScrolling.bind(null, '#finops-certified-service-provider', 1500));
+}
+
+if(document.getElementById('js-cert-3')) {
+document.getElementById('js-cert-3').addEventListener('click', doScrolling.bind(null, '#finops-training-partner', 2000));
+}
+
 
 
 // Off canvas menu
