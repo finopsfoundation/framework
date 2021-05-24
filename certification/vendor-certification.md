@@ -105,6 +105,14 @@ FinOps Foundation recognizes a select group of FinOps Training Partners (FTP). T
 - If you are teaching instructor-led courses that also map to the FOCP exam, all instructors must pass the FOCP train-the-trainer program before teaching the course.
 
 
+### Curriculum
+If you are interested in creating your own FinOps training courses, FinOps Foundation has open sourced the [curriculum](https://github.com/finopsfoundation/curriculum) around which that exam has been created for the benefit of companies offering training.
+
+If you don’t want to build you own course from scratch, the instructor-led version of FinOps Practitioner Training is already available and can be re-sold by Authorized Training Partners (ATP). FinOps Practitioner Training is updated frequently and already maps directly to the FOCP exam.
+
+If you are interested in becoming an exam reseller, we also offer wholesale pricing on our exams to training companies purchasing in bulk.
+
+
 ## Interested in becoming FinOps Certified?
 If your company is interested in becoming a Certified provider, please complete the following steps:
 
