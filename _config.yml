@@ -46,5 +46,7 @@ permalink: pretty
 collections:
   stories:
     output: true
+  links:
+    output: true
 
 include: [_redirects]

@@ -1,6 +1,6 @@
 ---
 
-layout: stories
+layout: collection
 title: Fear of commitment and the pain of waiting
 tags: 
 - commitment-discounts
