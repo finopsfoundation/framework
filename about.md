@@ -12,6 +12,13 @@ description: Learn more about the FinOps Foundation - The FinOps Foundation is a
 
 The FinOps Foundation is a program of the [The Linux Foundation](http://linuxfoundation.org) (alongside organizations like [Cloud Native Computing Foundation](http://cncf.io)) dedicated to advancing the discipline of cloud financial management through best practices, education and standards. The FinOps Foundation includes 3500+ individual members, representing more than 1500 companies. It provides a variety of training and certificaton programs including the [FinOps Certified Practitioner](https://staging.framework.finops.org/certification/finops-certified-practitioner/) designation. It counts dozens of major service and platform providers as part of our vendor certification programs such as [FinOps Certified Platform](https://staging.framework.finops.org/certification/vendor-certification/) and [FinOps Certified Service Provider](https://staging.framework.finops.org/certification/vendor-certification/) programs. 
 
+- Mission
+- Structure
+- Technical Advisory Council
+- Governing Board
+- Staff
+- FAQs
+
 # Mission of the FinOps Foundation
 
 We are here to advance the people who do cloud financial management:
@@ -82,7 +89,7 @@ As defined by the FinOps Foundation Participation Agreement, the Governing Board
 
 Those on the Governing Board have no vote on the TAC and vice versa, with the exception of the TAC Chairperson who sits on both boards.
 
-## Staff
+## FinOps Foundation Staff
 
 - J.R. Storment, Executive Director
 - Stacy Case, Director of Operations
