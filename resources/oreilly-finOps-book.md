@@ -61,21 +61,4 @@ I've spent the last 20 years solving problems with technology and the last 8 wor
 Principal Systems Engineer @ Atlassian
 Experienced Principal System Engineer at Atlassian with a demonstrated history of working in the computer software industry. Strong engineering professional skilled in AWS, Python, Linux System Administration, DevOps, Atlassian Suite, Security and Cloud Cost Optimisation.
 
-
-<div class="md:max-w-xl bg-gray-200 mx-auto px-4 md:px-8 overflow-auto mt-10" markdown="1">
-
-## Stay in the Know
-
-Sign up below to get all the best FinOps articles and O'Reilly book updates.
-
-<!--[if lte IE 8]>
-<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
-<![endif]-->
-<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
-<script>
-  hbspt.forms.create({
-	portalId: "5432286",
-	formId: "5dbf2084-6d0a-4c65-b58f-ede3c8755885"
-});
-</script>
-</div>
+# [Order on Amazon](https://www.amazon.com/Cloud-FinOps-Collaborative-real-time-management/dp/1492054623)
