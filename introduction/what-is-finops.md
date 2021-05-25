@@ -6,7 +6,7 @@ layout: default
 
 # What is FinOps
 
-<iframe width="1120" height="630" src="https://www.youtube.com/embed/UEnixksZgmw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br/><br/>
+<iframe width="840" height="472" src="https://www.youtube.com/embed/UEnixksZgmw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br/><br/>
 
 FinOps is shorthand for "Cloud Financial Operations" or "Cloud Financial Management" or "Cloud Cost Management". It is the practice of bringing financial accountability to the variable spend model of cloud, enabling distributed teams to make business trade-offs between speed, cost, and quality.
 
