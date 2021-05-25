@@ -11,7 +11,7 @@
   - name: Capabilities
   - name: Functions
   - name: KPIs
-- name: Challenges
+- name: Playbooks
   children:
   - name: Encouraging Engineers to Take Action
   - name: Identifying Shared Costs
@@ -19,5 +19,6 @@
   - name: Accurate Forecasts
 - name: Resources
   children:
-  - name: April Update
-
+  - name: April Update 
+  - name: Events
+  - name: FinOps Book
