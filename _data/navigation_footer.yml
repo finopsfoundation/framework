@@ -1,7 +1,5 @@
 - name: Certification
   children:
-  - name: Introduction to FinOps Course
-    url: https://training.linuxfoundation.org/training/introduction-to-finops-lfs175/
   - name: FinOps Certified Practitioner
     url: /certification/finops-certified-practitioner/
   - name: Vendor Member Certification
@@ -17,24 +15,16 @@
     url: /resources/oreilly-finOps-book
   - name: Regional Meetups
     url: https://www.meetup.com/pro/finops/
-  - name: Logo and Artwork
-    url: https://github.com/finopsfoundation/artwork
-  - name: Overview Slides
-    url: https://github.com/finopsfoundation/decks
   - name: Swag Store
     url: https://store.finops.org/
 
-- name: Company
+- name: FinOps Foundation
   children:
   - name: About
     url: /about/
-  - name: Principles
-    url: /principles/
   - name: Technical Charter
     url: https://github.com/finopsfoundation/tac/blob/master/charter.md
   - name: Code of Conduct
     url: https://github.com/finopsfoundation/tac/blob/master/codeofconduct.md
-  - name: Privacy
+  - name: Privacy & Terms
     url: /privacy/
-  - name: Terms
-    url: /terms/
