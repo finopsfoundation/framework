@@ -99,6 +99,8 @@ An exam can be purchased to attempt the certification through the Linux Foundati
 - Exam-only path is only recommended for those with considerable real world FinOps expertise who also have deep knowledge with the FinOps lifecycle as laid out in the Cloud FinOps book by O’Reilly.
 - Again, no study or prep materials come with the exam purchase.
 
+*[Purchase Exam](https://training.linuxfoundation.org/certification/certified-finops/)*
+
 ### Self-Paced Online Course  – $499
 - Instructor-led video recordings of the complete course (approximately 6 hours of video)
 - 12 Months of Access to Online Course materials
@@ -108,6 +110,8 @@ An exam can be purchased to attempt the certification through the Linux Foundati
 - Student Handbook PDF with learning outcomes to prepare for the exam
 - Includes an exam code to take the FinOps Certified Practitioner exam at the Linux Foundation ($300 value)
 
+*[Purchase Self-Paced](https://www.eventbrite.com/e/finops-certified-practitioner-self-paced-course-tickets-150987081425)*
+
 ### Instructor Led Live Training – $890
 - Live (virtual) 2 day instructor-led workshop (10 hrs total)
 - Lead instructor is a real-world practicing FinOps leader in their organization
@@ -116,23 +120,39 @@ An exam can be purchased to attempt the certification through the Linux Foundati
 - An exam code to take the FinOps Certified Practitioner exam at the Linux Foundation, with free retake option
 - Includes all the digital, video and course materials in the self-paced course for study or review ($499 value)
 
-## Curriculum of the training and certification
+*[Find Live Events](https://staging.framework.finops.org/resources/events/)*
+
+### FinOps for Engineering Training 
+
+Includes:
+
+- Instructor-led video recordings of the complete course (approximately 3 hours of video)
+- 12 Months of Access to Online Course
+- Upon successful completion, a verified FinOps for Engineer Trained badge and certificate of completion for your LinkedIn
+- Complete speaker notes and takeaways from the instructor deck for each slide
+- Instructions to access 7 day access to digital version of the Cloud FinOps book via O'Reilly
+- Invite to an office hours session with a certified FinOps trainer to ask questions in real time before the exam
+- Student Handbook PDF with learning outcomes
+
+*[Buy Course Pre-Sale](https://www.eventbrite.com/e/finops-for-engineering-training-self-paced-course-course-pre-sale-tickets-149961353445)*
+
+### Private Courses
+Contact us for details about running a private or semi-private course at your organization.
+
+### Curriculum of the training and certification
 
 For an overview of the the general domains and competencies covered by the training and certification exam, see the [Linux Foundation’s FinOps certification page](https://training.linuxfoundation.org/certification/certified-finops/). It is based on the open source curriculum which resides on [Github](https://github.com/finopsfoundation/curriculum).
 
-## Private Courses
-Contact us for details about running a private or semi-private course at your organization.
-
-## What level of prerequisite knowledge do I need?
+### What level of prerequisite knowledge do I need?
 You should understand the basics of how cloud computing works, know the key services on your cloud providers, including their common use cases, and have a basic understanding of billing and pricing models. You should already be able to describe the basic value proposition of running in cloud and understand the core concept of using a pay-as-you-go consumption model.
 
 You’ll also need to have a base level of knowledge of at least one of the three main public cloud providers (AWS, Azure, Google Cloud). For AWS, we recommend AWS Business Professional training or, even better, the AWS Cloud Practitioner certification. For Google, check out the Google Cloud Platform Fundamentals course. For Azure, try the Azure Fundamentals learning path. Each can usually be completed in a full day workshop.
 
 <div class="md:max-w-xl bg-gray-200 mx-auto px-4 md:px-8 overflow-auto mt-10" markdown="1">
 
-## Certification Notifications
+### Certification Notifications
 
-Fill in the form and we will notify you of opportunities to gain the FinOps Certification.
+Not ready to get certified yet? Fill in the form and we will notify you of future opportunities to gain the FinOps Certification.
 
 <!--[if lte IE 8]>
 <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
