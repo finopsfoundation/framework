@@ -47,3 +47,9 @@ The above diagram demonstrates how, for organizations operating on the FinOps mo
 At its core, FinOps is a cultural practice. This operating model is the most efficient way for teams to manage their cloud costs. Using FinOps, teams can come together to deliver faster while gaining financial and operational control.
 
 Distributed decision making coupled with the move to variable spending in cloud allows technology teams to efficiently partner with finance and business teams to make informed decisions that drive continual optimization. FinOps processes enable these teams to operate at high velocity while improving the unit economics of cloud. This shift enables and empowers teams at the edge and allows team members in every part of the business to participate in the process of increasing efficiency, optimizing utilization and reducing spend.
+
+## Resources to Learn More
+
+- [O’Reilly FinOps Book](/resources/oreilly-finOps-book)
+- [Introduction to FinOps Course on EdX](https://training.linuxfoundation.org/training/introduction-to-finops-lfs175/)
+- [FinOps Certified Practitioner Course](X)
