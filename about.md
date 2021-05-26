@@ -10,7 +10,7 @@ description: Learn more about the FinOps Foundation - The FinOps Foundation is a
 
 # About The FinOps Foundation
 
-The FinOps Foundation is a program of the [The Linux Foundation](http://linuxfoundation.org) (alongside organizations like [Cloud Native Computing Foundation](http://cncf.io)) dedicated to advancing the discipline of cloud financial management through best practices, education and standards. The FinOps Foundation includes 3500+ individual members, representing more than 1500 companies. It provides a variety of training and certificaton programs including the [FinOps Certified Practitioner](https://staging.framework.finops.org/certification/finops-certified-practitioner/) designation. It counts dozens of major service and platform providers as part of our vendor certification programs such as [FinOps Certified Platform](https://staging.framework.finops.org/certification/vendor-certification/) and [FinOps Certified Service Provider](https://staging.framework.finops.org/certification/vendor-certification/) programs. 
+The FinOps Foundation is a program of the [The Linux Foundation](http://linuxfoundation.org) (alongside organizations like [Cloud Native Computing Foundation](http://cncf.io)) dedicated to advancing the discipline of cloud financial management through best practices, education and standards. The FinOps Foundation includes 3500+ individual members, representing more than 1500 companies. It provides a variety of training and certificaton programs including the [FinOps Certified Practitioner](/certification/finops-certified-practitioner/) designation. It counts dozens of major service and platform providers as part of our vendor certification programs such as [FinOps Certified Platform](/certification/vendor-certification/) and [FinOps Certified Service Provider](/certification/vendor-certification/) programs. 
 
 - Mission
 - Structure
@@ -19,7 +19,7 @@ The FinOps Foundation is a program of the [The Linux Foundation](http://linuxfou
 - Staff
 - FAQs
 
-# Mission of the FinOps Foundation
+## Mission of the FinOps Foundation
 
 We are here to advance the people who do cloud financial management:
 
@@ -100,13 +100,13 @@ Those on the Governing Board have no vote on the TAC and vice versa, with the ex
 - William Ospina, Ambassador Program
 - TBD: Director of Product Management
 
-# FAQs
+## FAQs
 
-## Why are we a part of the Linux Foundation?
+### Why are we a part of the Linux Foundation?
 
 As part of the LF, FinOps has access to a large scale open source non-profit engine. The LF has over 200 employees and large scale training, marketing and events teams. Its work today extends far beyond Linux, fostering innovation in every layer of the software stack. The Linux Foundation hosts projects spanning enterprise IT, embedded systems, consumer electronics, cloud, networking, and more. A few of these high-velocity projects that are helping redefine what’s possible include Hyperledger for cross-industry blockchain technologies; Automotive Grade Linux, the open software platform for automotive applications; the Open Network Automation Platform project (ONAP) for real-time, policy-driven software automation of virtual network functions; and Kubernetes, the Cloud Native Computing Foundation project for production-grade container orchestration.
 
-## What does this mean for the cloud financial management space?
+### What does this mean for the cloud financial management space?
 
 By increasing awareness and education of FinOps, the Foundation’s efforts will help to grow this space and the opportunities for everyone. The focus of our work is on the practitioner, educating and empowering them to make a difference in their organizations and in their own careers. Similar to previously nascent but burgeoning disciplines like DevOps, when you empower the individual, the entire ecosystem benefits. We are solving the challenges of cloud financial management together, as a community, and there are opportunities for all contributors to this space to participate and grow.
 

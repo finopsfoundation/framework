@@ -11,7 +11,7 @@
   - name: Capabilities
   - name: Functions
   - name: KPIs
-- name: Playbooks
+- name: Projects
   children:
   - name: Encouraging Engineers to Take Action
   - name: Identifying Shared Costs
@@ -22,3 +22,7 @@
   - name: April Update 
   - name: Events
   - name: FinOps Book
+  - name: State of FinOps
+    url: https://data.finops.org/
+  - name: External Resource Links
+    url: /resources/finops-links/
