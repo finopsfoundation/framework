@@ -1,6 +1,7 @@
 ---
 
 layout: default
+tag: resource-hierarchy
 
 ---
 [Propose changes or additions to this page](https://github.com/finopsfoundation/fodo/edit/master/framework/functions/tagging-labeling.md)
