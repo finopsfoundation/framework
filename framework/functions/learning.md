@@ -8,38 +8,70 @@ tag: learning
 # Learning
 
 ## Introduction
-Introduce the framework function within one to two paragraphs. There are more sections below to go into greater detail.
+Learning is essential for a workforce to understand cloud and its impacts on the organization and its customers.
 
-Be brief and concise, assume there will be a minimal level of knowledge of the subject area by the reader. There will also be more detailed documentation such as whitepapers on the topic for depth, so focus on the most impactful points.
- 
-The goal here is to ease them into the topic and get them in the right mindset. Things you need to cover:
-- Define the function topic: in 1 sentence explain what it is you are managing/implementing. Consider the following format: Automation replaces repetitive tasks with code.
-- Explain what it does and why its required: add the benefit to the previous sentence. Consider the following format: Automation replaces repetitive tasks with code, this removes operational overhead reducing your costs and allows you to scale faster.
-- Define the main areas of the topic: (if required) list the main areas in order that they need to be considered/implemented, they will be defined/explained later. Consider: Automation has 3 parts: identify , deployment, maintenance reviews.
+Widespread use of Agile software development, DevOps strategies, and public cloud represents a massive change in the IT industry. Our workforce must understand many new concepts, new terminology, new methods of building IT systems and new ways to deliver value digitally. This changes isn't entirely, or even predominantly technological. Changes to the way companies purchase, manage vendor relationships, manage assets, license software, build their virtual infrastructure, and account and pay for these thing will change. A large percentage of our workforce will need to become proficient, not just building in cloud, but managing it effectively. A comprehensive plan for learning -- not only for technology staffs, but also for finance, procurement, product management, even management -- is essential to success. 
+
+A learning plan to support large-scale cloud adoption will ideally allow our workforce to learn
+* Cloud Concepts and basics for our public cloud providers
+* How our company uses and achieves value from the use of cloud (our cloud strategy)
+* How our company manages and implements cloud (our cloud operating models)
+* How each persona or functional group will be impacted
+* Deeper levels of information about cloud, cloud providers, cloud-aware processes, cloud support as necessary by persona or role
+* Using a combination of mandated, recommended, and on-demand learning options available at any point in a career at the company
+* Using a combination of delivered, virtual, and self-serve models to suit the needs of various learners
+* With clear and direct executive support, and clear job outcomes that will result from learning
 
 ## Sample Implementation
-Give an example of how the function is implemented in a FinOps practice. Feel free to use images, figures, charts, and/or graphs to explain it.
+* Create a learning plan for the organization, or adapt an existing one, to outline the training and development needs necessary for cloud adoption
+* Identify needs by persona, or engage different personas to assess needs
+* Identify any certifications or mandatory training that is necessary by persona 
+* Coordinate with recruiting or HR to include knowledge or skill requirements for new hires, contractors, or onboarding
+* Identify training budget or existing training materials or contracts which could be used for this purpose
+* Identify training methods that will be applicable for training existing workforces
+  *  Informal methods such as lunch n learns, informal webinars, ad hoc training by cloud provider or partners, certification prep meetups, etc.
+  *  Formal training such as in person or virtual classes, industry training, conference training opportunities, specific vendor or technology training
+  *  Continuing education on changes that occur to cloud provided by cloud providers, partners, or third parties
+* Consider partnering with a training partner or provider such as A Cloud Guru, Udemy, CloudAcademy, Coursera, Linux Foundation (no recommendations just list)
+* Establish or write guidelines for managers in technology, finance, product domains to understand what learning objectives need to be met in their domains
+* Assess learning objectives by persona, and adjust as needed. 
 
-Place a simple diagram of what a sample implementation or cycle would look like, it should have no more than 12 components in it.
 
 ## Common Approaches
-List common approaches for using this function within a FinOps practice.
+* The FinOps Foundation can provide FinOps certification at the Practitioner level which provides a common baseline of understanding about cloud for anyone
+* FinOps Persona based training provided by the Foundation can address the learning needs of specific personas
+* Technical certifications for each cloud provider are available from a practitioner level to more expert advanced levels. Consider requiring certification for technical architects, developers, engineering and operations personnel working with a specific cloud
+* Corporate memberships for many of the online training providers can provide greatly reduced or free access to many courses relevant to cloud adoption. Evaluate the effectiveness and applicability of content from these providers, each has a variety of training models and requirements for the creation/inclusion of training courses
 
 ## Maturity Examples
-Explain how this function may differ depending on the maturity level of the FinOps practice.
-
-In each phase (crawl, walk, run) identify one incorrect practice that people are doing at this stage, to help them identify where they are at. If there are many, simply state the most common, easiest & most impactful one that will be identified by most organizations. Just state the incorrect practice, do not address why its bad or the impact. There will always be 1 incorrect practice at the crawl, there may not be incorrect practices at walk/run.
-State the incorrect practice in a positive way - do not state the opposite of the best practice. Consider: Users are doing repetitve tasks manually. Do not use: Users are *not doing* things programatically.
- 
-Then state what customers should be doing at this stage to rectify the issue. If there are multilpe things to do - group them into a higher level concept, or state the most common and simple things. Each activity must result in a change or have something implemented, and be completed in the stage. Tasks like *Planning*, *considering*, or *producing* will not result in a change and should not be used. Partially completing an activity or completing an activity on a small scale such as *automate simple tasks* or *automate some tasks* followed by *automate all tasks* should not be used.
-keep it simple, 1 or 2 sentences for each, focus on the outcomes or what is delivered, do not specify the busy tasks required to produce the output.
-
 * **Crawl:**
+* At the crawl phase of Learning
+* Individuals are likely self-serving, and may be determining for themselves what certifications to attempt, what training to take, and what learning objectives they should strive for
+* Individuals are self-funding training themselves as an investment in their own skill development, or requesting company payment through non-specific training budgets. Motivated employees may feel this will provide an opportunity for them to apply these skills elsewhere. 
+* Employees may be meeting together informally to learn about cloud, or to discuss its impact on the company. 
+
+To move to walk phase, develop a learning strategy at a very high level that addresses each of the broad personas in the company, and identifies a few basic learning options for each. 
+
 * **Walk:**
+At the walk phase of Learning:
+* Employees are learning about cloud generically and are not applying these cloud concepts to the actual mission or objectives of the company
+* Cloud training is focusing only on the technical or cloud development teams and may not be available to finance, product, or other functions, or even to those in technology roles supporting datacenters or legacy technology
+
+To move to run phase, incorporate training into every persona, and include both generic training as well as customized or tailored content focused on how your organization is implementing or benefiting from cloud. Begin to require certifications and baseline content for all employees, and provide learning objectives at a persona level that are more granular. Provide the financial and managerial support for learning which will allow the organization to adopt cloud more effectively and develop the culture of accountability to manage its use going forward. 
+
 * **Run:**
+At the Run phase of Learning:
+* Employees in all domains -- technology, finance, product, management, etc. -- and at all stages of employment -- prehire, new hire, experienced employee -- understand how adopting Agile, DevOps and Public Cloud will affect the company, how the company will deliver value by adopting it, and how their role plays into that value equation for their customers. 
+
+
 
 ## Common KPIs
-List and explain common KPIs that help track the effectiveness of the function. Alternatively, list favorable outcomes that represent success if specific KPIs aren’t clear enough.
+* Number of certifications
+  * FinOps certifications
+  * Cloud Service Provider certifications
+  * Third party tool or methodology certifications 
+* Percent of Personnel trained on cloud (if mandatory or recommended training is developed)
+
 
 ## Cautionary Tales
 Explain to users what to look out for or any pitfalls to avoid when building and implementing the function into their FinOps practice.
