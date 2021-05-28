@@ -183,7 +183,9 @@ Are planned cloud workloads that currently do not yet exist in the cloud. Their 
 Tools are very helpful when it comes to forecasting because they have sophisticated algorithms to apply to your usage/cost data.
 
 ## Real-world stories
-(collect from member group or we can add our own)
+We're still editing our user stories for this project. Hang tight. Thanks to everyone who contributed a story!
+
+{% include story-loop.md content='cloud-forecasting' %}
 
 ## Acknowledgements
 The FinOps Foundation extends a huge thank you to the members of the Special Interest Group that broke ground on this documentation:
