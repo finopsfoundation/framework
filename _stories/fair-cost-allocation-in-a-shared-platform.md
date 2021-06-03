@@ -9,8 +9,6 @@ stage:
 company:
 
 ---
-
-### Fair cost allocation in a shared Platform (as a Service)
 *by David Sterz, Solutions Architect and FinOps Lead, Mindcurv*
 
 #### Setup

@@ -9,8 +9,6 @@ stage:
 company:
 
 ---
-
-### One Way to Put it All Together
 *by Chris Greenham, healthAlliance*
 
 Shared Costs should be identified upfront as part of Service Design. Just as the Service Design is subject to design approval, the Shared Cost Model needs approval from FinOps.
