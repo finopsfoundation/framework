@@ -49,4 +49,31 @@ collections:
   links:
     output: true
 
+defaults:
+  - scope:
+      path: "framework"
+      type: "pages"
+    values:
+      identifier: "framework"
+  - scope:
+      path: "projects"
+      type: "pages"
+    values:
+      identifier: "projects"
+  - scope:
+      path: "introduction"
+      type: "pages"
+    values:
+      identifier: "introduction"
+  - scope:
+      path: "resources"
+      type: "pages"
+    values:
+      identifier: "resources"
+  - scope:
+      path: "certification"
+      type: "pages"
+    values:
+      identifier: "certification"
+
 include: [_redirects]

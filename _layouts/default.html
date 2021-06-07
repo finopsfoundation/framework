@@ -4,7 +4,7 @@ layout: basic
 
 ---
 
-<div class="flex flex-row px-4 max-w-screen-xl mx-auto sm:px-6"><!-- Main container -->
+<div class="flex flex-row px-4 max-w-screen-xl mx-auto sm:px-6 mt-12"><!-- Main container -->
   <div class="hidden md:block w-3/12"><!-- Sidebar Nav -->
     {% include nav.html %}
     
@@ -19,7 +19,7 @@ layout: basic
     </div>
   </div>
     <div class="px-4 w-100 md:w-7/12">
-    {% if page.github-link != false %}
+    {% if page.identifier == 'framework' or page.identifier == 'projects' %}
     <div class="text-right text-sm no-underline text-gray-900 mb-6">
       <a href="https://github.com/finopsfoundation/fodo" class="rounded-md hover:bg-gray-200 py-2 px-4 opacity-50 hover:opacity-100 transition duration-200 ease-in-out">
         <img src="/img/icons/github.svg" width="16" class="inline-block align-text-bottom mr-1"> Propose Edits
@@ -27,6 +27,15 @@ layout: basic
     </div>
     {% endif %}
     <div class="prose {% if page.width == 'wide' %} max-w-full {% endif %}">
+      {% if page.identifier == 'framework' or page.identifier == 'projects' %}
+        <div class="relative">
+          <img src="/img/community/page-decor.svg" class="absolute right-img h-32">
+        </div>
+      {% elsif page.identifier == 'resources' or page.identifier == 'certification' %}
+        <div class="relative">
+          <img src="/img/corp/page-decor.svg" class="absolute right-img h-20">
+        </div>
+      {% endif %}
       {{ content }}
     </div>
   </div>

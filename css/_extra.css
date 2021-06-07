@@ -7,6 +7,10 @@ b, strong {
   font-weight: bold;
 }
 
+.right-img {
+  right: -175px;
+}
+
 .videoWrapper {
   position: relative;
   padding-bottom: 56.25%; /* 16:9 */
