@@ -4,6 +4,22 @@ layout: basic
 
 ---
 
-<div class="prose mx-auto max-w-3xl mt-8">
+<div class="prose mx-auto max-w-3xl mt-12">
+  {% if page.identifier == 'framework' or page.identifier == 'projects' %}
+    <div class="relative">
+      <script>
+        var comm_random_number = Math.floor(Math.random() * 4) + 1;
+        document.write( '<img src="/img/community/page-decor-' + comm_random_number + '.svg" class="absolute right-img h-32">');
+      </script>
+      
+    </div>
+  {% elsif page.identifier == 'resources' or page.identifier == 'certification' %}
+    <div class="relative">
+      <script>
+        var comm_random_number = Math.floor(Math.random() * 2) + 1;
+        document.write( '<img src="/img/corp/page-decor-' + comm_random_number + '.svg" class="absolute right-img h-32">');
+      </script>
+    </div>
+  {% endif %}
   {{ content }}
 </div>

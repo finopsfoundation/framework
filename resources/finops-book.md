@@ -1,7 +1,6 @@
 ---
 
-layout: page
-github-link: false
+layout: default
 title: Cloud FinOps O’Reilly Book - FinOps Foundation
 description: Learn about the O’Reilly Cloud FinOps book with expert insights added by members and where you can order it today.
 

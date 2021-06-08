@@ -1,19 +1,19 @@
-<footer class="bg-white">
+<footer class="bg-white sm:mt-10 lg:mt-16">
   
-  {% if page.identifier == 'framework' %}
+  {% if page.identifier == 'framework' or page.identifier == 'projects' %}
   <div>
-    <img src="" class="w-full">
+    <img src="/img/community/footer-1.svg" class="w-full">
   </div>
   {% else %}
   <div>
-    <img src="" class="w-full">
+    <img src="/img/corp/footer-1.svg" class="w-full">
   </div>
   {% endif %}
   
-  <div class="border-t border-gray-300 max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 sm:mt-10 lg:mt-16">
+  <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
     <div class="xl:grid xl:grid-cols-3 xl:gap-8">
       <div class="space-y-8 xl:col-span-1">
-        <img class="h-10" src="/img/finops-icon_gray.svg" alt="FinOps Foundation">
+        <img class="h-10" src="/img/finops-icon_gray.svg?2" alt="FinOps Foundation">
         <p class="text-gray-600 text-base">
           FinOps.org delivers real world stories, expertise, and inspiration for and by FinOps leaders and practitioners.
         </p>
@@ -48,7 +48,7 @@
                   {% if item.children != null %}
                     {% for child in item.children %}
                     <li>
-                      <a href="{{ child.url }}" class="lg:text-sm font-normal text-gray-600 hover:text-gray-900">
+                      <a href="{{ child.url }}" class="lg:text-sm font-normal text-gray-600 hover:text-gray-800 transition-colors duration-200">
                       {{ child.name }}
                       </a>
                     </li>
@@ -71,7 +71,7 @@
                   {% if item.children != null %}
                     {% for child in item.children %}
                     <li>
-                      <a href="{{ child.url }}" class="lg:text-sm font-normal text-gray-600 hover:text-gray-900">
+                      <a href="{{ child.url }}" class="lg:text-sm font-normal text-gray-600 hover:text-gray-800 transition-colors duration-200">
                       {{ child.name }}
                       </a>
                     </li>
@@ -93,7 +93,7 @@
                   {% if item.children != null %}
                     {% for child in item.children %}
                     <li>
-                      <a href="{{ child.url }}" class="lg:text-sm font-normal text-gray-600 hover:text-gray-900">
+                      <a href="{{ child.url }}" class="lg:text-sm font-normal text-gray-600 hover:text-gray-800 transition-colors duration-200">
                       {{ child.name }}
                       </a>
                     </li>
