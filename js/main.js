@@ -131,3 +131,12 @@ $(function(){
     });
   });
 });
+
+
+// Clickable divs
+$('div[data-url]').each(function(){
+  $(this).click(function(){
+    var url = $(this).attr('data-url');
+    window.location.href = url;
+  })
+});

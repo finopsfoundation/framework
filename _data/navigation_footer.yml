@@ -7,8 +7,6 @@
 
 - name: Resources
   children:
-  - name: State of FinOps
-    url: https://data.finops.org/
   - name: Events
     url: /resources/events/
   - name: O’Reilly FinOps Book
