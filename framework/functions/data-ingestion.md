@@ -8,19 +8,27 @@ tag: data-ingestion
 # Data Ingestion
 
 ## Introduction
-Introduce the framework function within one to two paragraphs. There are more sections below to go into greater detail.
+Effective FinOps practice requires access to regular streams of detailed usage data, which can be categorized and analyzed to drive decision making. Unlike the world of on-premises data centers, there is no shortage of data on cloud usage. Cloud vendors produce massive amounts of very granular usage and cost data on which to base a FinOps practice. Monitoring platforms, security platforms, and business operations applications can also provide data that will inform on utilization, location, value and usage, oftentimes at similar levels of volume and granularity. 
 
-Be brief and concise, assume there will be a minimal level of knowledge of the subject area by the reader. There will also be more detailed documentation such as whitepapers on the topic for depth, so focus on the most impactful points.
- 
-The goal here is to ease them into the topic and get them in the right mindset. Things you need to cover:
-- Define the function topic: in 1 sentence explain what it is you are managing/implementing. Consider the following format: Automation replaces repetitive tasks with code.
-- Explain what it does and why its required: add the benefit to the previous sentence. Consider the following format: Automation replaces repetitive tasks with code, this removes operational overhead reducing your costs and allows you to scale faster.
-- Define the main areas of the topic: (if required) list the main areas in order that they need to be considered/implemented, they will be defined/explained later. Consider: Automation has 3 parts: identify , deployment, maintenance reviews.
+So while the issue many data centers experienced was a lack of detailed data, the challenge faced by cloud users is oftentimes that there is too much. An effective strategy of data ingestion should strive to provide the FinOps team with the right combination of data from:
+- the right source systems
+- at the right timeliness to support the cadence of decision making
+- at the right level of granularity to support aggregate reporting and drill down investigation
+- with the appropriate standardization, augmentation, normalization, etc. 
+
+The strategy for data ingestion will be driven largely by the needs of the reporting, cost allocation and optimization reporting needs. Data required to make decisions at a more coarsely-grained manner will not need as detailed or granular information. FinOps teams which manage or allocate costs at a resource level may require multiple sources of data to gather resource information for some clouds providers which don't natively provide it. 
 
 ## Sample Implementation
-Give an example of how the function is implemented in a FinOps practice. Feel free to use images, figures, charts, and/or graphs to explain it.
+The basic data required for FinOps practice will typically come from the cloud provider's billing or cost and usage management systems.
 
-Place a simple diagram of what a sample implementation or cycle would look like, it should have no more than 12 components in it.
+For AWS, this will be data provided either via Cost Explorer interfaces or the Cost and Usage Report (CUR) at some level of granularity as exported to S3. (additional vendor data required here)
+For Azure, this will typically be data which is provided via the Billing API, typically as accessed via PowerBI. (additional vendor data required here)
+For GCP, this will typically be data provided in the Billing API as exported to BigQuery. (additional vendor data required here)
+
+Additional data sources that may be required might include:
+- Utilization data showing CPU, Memory, Disk, and/or Network utilization at a resource or resource group level
+- Transactional data from logs or systems which record the number or quantity of use of types of resources (often shared resources)
+- Value or outcome based reporting which provides data on the number of transactions or increments of value created by or represented by the operation of the systems. This information can provide the denominator for unit economics KPIs. 
 
 ## Common Approaches
 List common approaches for using this function within a FinOps practice.
