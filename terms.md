@@ -1,6 +1,8 @@
 ---
 
 layout: page
+title: Terms of Service
+description: Learn more about our Terms of Service at the FinOps Foundation.
 
 ---
 

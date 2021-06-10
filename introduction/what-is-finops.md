@@ -1,6 +1,8 @@
 ---
 
 layout: default
+title: What is FinOps? - FinOps Foundation
+description: Find out what FinOps is and more about the operating model for the cloud. Understand the three phases of FinOps - Inform, Optimize and Operate.
 
 ---
 
@@ -45,13 +47,13 @@ Finance and procurement team members, including Technology Procurement Manager, 
 
 The above diagram demonstrates how, for organizations operating on the FinOps model, a cross-functional team known as a Cloud Cost Center of Excellence (CCoE) interacts with the rest of the business to manage the cloud strategy, governance, and best practices that the rest of the organization can leverage to transform the business using the cloud.
 
-# FinOps Requires a Cultural Shift
+## FinOps Requires a Cultural Shift
 At its core, FinOps is a cultural practice. This operating model is the most efficient way for teams to manage their cloud costs. Using FinOps, teams can come together to deliver faster while gaining financial and operational control.
 
 Distributed decision making coupled with the move to variable spending in cloud allows technology teams to efficiently partner with finance and business teams to make informed decisions that drive continual optimization. FinOps processes enable these teams to operate at high velocity while improving the unit economics of cloud. This shift enables and empowers teams at the edge and allows team members in every part of the business to participate in the process of increasing efficiency, optimizing utilization and reducing spend.
 
 ## Resources to Learn More
 
-- [O’Reilly FinOps Book](/resources/oreilly-finOps-book)
+- [O’Reilly FinOps Book](/resources/finops-book)
 - [Introduction to FinOps Course on EdX](https://training.linuxfoundation.org/training/introduction-to-finops-lfs175/)
-- [FinOps Certified Practitioner Course](X)
+- [FinOps Certified Practitioner Course](/certification/finops-certified-practitioner/)

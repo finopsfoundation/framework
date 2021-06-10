@@ -1,6 +1,8 @@
 ---
 
 layout: default
+title: Forecasting | FinOps Framework
+description: Learn the best practices to use and pitfalls to avoid in creating accurate cloud cost forecasts.
 
 ---
 

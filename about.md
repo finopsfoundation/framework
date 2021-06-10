@@ -1,9 +1,8 @@
 ---
 
 layout: page
-github-link: false
 title: About the FinOps Foundation
-description: Learn more about the FinOps Foundation - The FinOps Foundation is a non-profit trade association made up of FinOps practitioners around the world.
+description: The FinOps Foundation is a non-profit trade association made up of FinOps practitioners around the world - learn more today.
 
 
 ---

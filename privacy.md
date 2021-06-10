@@ -1,6 +1,8 @@
 ---
 
 layout: page
+title: Privacy Policy
+description: Learn more about our Privacy Policy at the FinOps Foundation.
 
 ---
 
