@@ -1,7 +1,7 @@
 ---
 
 layout: stories
-title: Migrating 15 Million Lines of Code from Six Data Centers Worldwide in Six Months
+title: What Spotify Learned at a Massive FinOps Scale
 tags: 
 - cloud-migration
 - google-cloud-platform
