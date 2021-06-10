@@ -1,15 +1,32 @@
 ---
 
 layout: default
+title: Contribute to the FinOps Community
+description: There are multiple ways to contribute to the FinOps community, from becoming a member to join the conversation to proposing changes to the best practices and standards in the framework.
 
 ---
 
 # How to contribute
-FinOps is gaining in popularity and is now a requirement at many large organizations, but it's also nascent and constantly growing and changing. This means that its best practices and principles will change over time as practitioners learn new skills, make new discoveries, and find new way to better operationalize cloud cost management.
+FinOps has become a required practice at many large organizations, but it's also a nascent discipline and constantly evolving with cloud. This means that its best practices and principles will change over time as practitioners learn new skills, make new discoveries, and find new way to better operationalize cloud cost management.
 
-We want to document these changes to best practices here, but we need your help.
+[The FinOps Foundation](/about/), a [Linux Foundation](https://linuxfoundation.org) program, is committed to advancing the careers of those doing cloud financial management work through community, education, and best practices. 
 
-## Make changes to the framework
+Ways to get involved:
+
+- [Cloud FinOps Book](https://www.amazon.com/Cloud-FinOps-Collaborative-Real-Time-Management/dp/1492054623): Read the O'Reilly Book
+- [State of FinOps](https://data.finops.org): Read or Take the Survey
+- [FinOps Framework](https://www.finops.org): Read or Contribute to best practices
+- [Join the Community](/membership/): Learn from thousands of practitioners
+- [FinOps Certified Practitioner](/certification/finops-certified-practitioner/): Get certified as an individual
+- [FinOps for Engineers](/certification/finops-certified-practitioner/): Train your teams to consider cost
+- [Monthly FinOps Mini-Summits](/april-update): Hear the latest from the community
+- FinOps Certified Providers: Get certified as a vendor
+- Vendor Ecosystem Profiles: Coming Soon
+- FinOps Summit 2021 in October: Coming Soon
+
+## Make changes to the FinOps Framework
+The open source FinOps Framework documents these changes to best practices here, but we need your help.
+
 One way to contribute is to commit changes to the FinOps Framework. If you see something that needs to be updated, augmented, or removed, we want to hear about it. This project is by the community and for the community and your voice matters.
 
 Ways to submit changes:

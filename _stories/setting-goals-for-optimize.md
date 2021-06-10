@@ -1,6 +1,6 @@
 ---
 
-layout: stories
+layout: collection
 title: Setting goals for optimize
 tags: 
 - tagging-labeling

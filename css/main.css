@@ -7,6 +7,7 @@
 
 /* Write your styles below this line. */
 
+@import "css/hc-offcanvas-nav_carbon";
 @import "css/slick-theme";
 @import "css/_extra";
 
@@ -25,14 +26,21 @@
 @layer base {
 
   .btn {
-    @apply inline-flex justify-center py-2 px-4 border shadow-sm text-sm font-medium rounded-md text-white bg-green-500 font-normal
+    @apply inline-flex justify-center py-2 px-4 border shadow-sm text-sm font-medium rounded-sm text-white bg-green-500 font-normal
   }
 
   .btn-outline {
-    @apply inline-flex justify-center py-2 px-4 border shadow-sm text-sm font-medium rounded-md text-green-500 bg-white border border-green-500 font-normal
+    @apply inline-flex justify-center py-2 px-4 border shadow-sm text-sm font-medium rounded-sm text-green-500 bg-white border border-green-500 font-normal
   }
+}
 
-
+@layer base {
+  table thead {
+    @apply border-b-2 border-gray-200 border-solid
+  }
+  table thead th, table tr td {
+    @apply px-5 py-2
+  }
 }
 
 /* Write your styles above this line. */

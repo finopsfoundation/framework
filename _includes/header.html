@@ -1,0 +1,38 @@
+{% if page.identifier == 'framework' or page.identifier == 'projects' %}
+<div class="bg-green-500 fixed w-full z-20">
+  <a class="font-normal block px-4 py-1 text-white text-sm font-light text-center" href="/introduction/how-to-use/">This work is licensed under <span class="font-semibold">CC BY 4.0</span> - Read how use or adaptation requires attribution</a>
+</div>
+{% endif %}
+<div class="w-full bg-gray-600">
+  <div class="relative max-w-screen-xl mx-auto {% if page.identifier == 'framework' or page.identifier == 'projects' %}pt-6 {% endif %}">
+    <div class="mx-auto px-4 sm:px-6">
+      <div class="flex flex-col md:flex-row md:justify-between py-8 md:justify-start md:space-x-10">
+        <div class="flex items-center mb-6 lg:w-0 lg:flex-1 md:p-0 md:mb-0">
+          <a href="/" class="block">
+            <img class="h-16 w-auto" src="/img/finops-logo_white.svg?3" alt="FinOps Foundation Logo">
+          </a>
+        </div>
+        <div class="text-center">
+          <div>
+          
+            <a href="/membership/" class="inline-flex justify-center py-2 px-4 border text-sm font-medium rounded-sm text-white border border-white font-normal hover:bg-white hover:text-green-500 transition-colors duration-200 mr-2">
+              Join the Community
+            </a>
+
+            <a href="https://finopsfoundation.slack.com" class="inline-flex justify-center py-2 px-4 border text-sm font-medium rounded-sm text-white border border-white font-normal hover:bg-green-500 hover:border-green-500 transition-colors duration-200">
+              Slack Login
+            </a>
+
+          </div>
+
+          <div class="mt-4 lg:text-xs text-sm text-gray-400">
+            <a href="/certification/finops-certified-practitioner/" class="hover:text-white  transition-colors duration-200 border-solid border-b border-gray-400 pb-px">Get Certified</a> or <a href="https://www.amazon.com/Cloud-FinOps-Collaborative-Real-Time-Management/dp/1492054623" class="hover:text-white  transition-colors duration-200 border-solid border-b border-gray-400 pb-px">
+            Order the FinOps Book
+            </a>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

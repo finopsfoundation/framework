@@ -11,13 +11,18 @@
   - name: Capabilities
   - name: Functions
   - name: KPIs
-- name: Challenges
+- name: Projects
   children:
+  - name: State of FinOps
+    url: https://data.finops.org/
   - name: Encouraging Engineers to Take Action
   - name: Identifying Shared Costs
   - name: Calculating Container Costs
   - name: Accurate Cloud Forecasts
 - name: Resources
   children:
-  - name: April Update
-
+  - name: Monthly Update 
+  - name: Events
+  - name: FinOps Book
+  - name: Blogs and Articles
+    url: /resources/finops-links/

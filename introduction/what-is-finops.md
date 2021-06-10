@@ -1,16 +1,22 @@
 ---
 
 layout: default
+title: What is FinOps? - FinOps Foundation
+description: Find out what FinOps is and more about the operating model for the cloud. Understand the three phases of FinOps - Inform, Optimize and Operate.
 
 ---
 
 # What is FinOps
 
+<div class="videoWrapper mb-10">
+	<iframe width="560" height="315" src="https://www.youtube.com/embed/VDrcgEne6lU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+FinOps is shorthand for "Cloud Financial Operations" or "Cloud Financial Management" or "Cloud Cost Management". It is the practice of bringing financial accountability to the variable spend model of cloud, enabling distributed teams to make business trade-offs between speed, cost, and quality.
+
+At its core, FinOps is a cultural practice. It’s the way for teams to manage their cloud costs, where everyone takes ownership of their cloud usage supported by a central best-practices group. Cross-functional teams in IT, Finance, Product, etc work together to enable faster product delivery, while at the same time gaining more financial control and predictability.
+
 ![image](https://www.finops.org/wp-content/uploads/2020/08/Screen-Shot-2020-08-19-at-6.51.53-PM-1024x766.png)
-
-FinOps is shorthand for Cloud Financial Operations or Cloud Financial Management. It is the practice of bringing financial accountability to the variable spend model of cloud, enabling distributed teams to make business trade-offs between speed, cost, and quality.
-
-At its core, FinOps is a cultural practice. It’s the most efficient way in the world for teams to manage their cloud costs, where everyone takes ownership of their cloud usage supported by a central best-practices group. Cross-functional teams work together to enable faster delivery, while at the same time gaining more financial and operational control.
 
 No longer is a siloed procurement team identifying costs and signing off on them. Instead, a cross-functional FinOps team adopts a definitive series of procurement best practices, enabling them to pull together technology, business, and finance in order to optimize cloud vendor management, rate, and discounting. With FinOps, each operational team (workload, service, product owner) can access the near-real-time data they need to influence their spend and help them make intelligent decisions that ultimately result in efficient cloud costs balanced against the speed/performance and quality/availability of services.
 
@@ -41,7 +47,13 @@ Finance and procurement team members, including Technology Procurement Manager, 
 
 The above diagram demonstrates how, for organizations operating on the FinOps model, a cross-functional team known as a Cloud Cost Center of Excellence (CCoE) interacts with the rest of the business to manage the cloud strategy, governance, and best practices that the rest of the organization can leverage to transform the business using the cloud.
 
-# FinOps Requires a Cultural Shift
+## FinOps Requires a Cultural Shift
 At its core, FinOps is a cultural practice. This operating model is the most efficient way for teams to manage their cloud costs. Using FinOps, teams can come together to deliver faster while gaining financial and operational control.
 
 Distributed decision making coupled with the move to variable spending in cloud allows technology teams to efficiently partner with finance and business teams to make informed decisions that drive continual optimization. FinOps processes enable these teams to operate at high velocity while improving the unit economics of cloud. This shift enables and empowers teams at the edge and allows team members in every part of the business to participate in the process of increasing efficiency, optimizing utilization and reducing spend.
+
+## Resources to Learn More
+
+- [O’Reilly FinOps Book](/resources/finops-book)
+- [Introduction to FinOps Course on EdX](https://training.linuxfoundation.org/training/introduction-to-finops-lfs175/)
+- [FinOps Certified Practitioner Course](/certification/finops-certified-practitioner/)

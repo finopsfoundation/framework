@@ -1,6 +1,8 @@
 ---
 
 layout: default
+title: FinOps FinOps Principles
+description: Understand the principles to FinOps, the core values that drive the cloud financial movement.
 
 ---
 

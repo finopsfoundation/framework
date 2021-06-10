@@ -1,0 +1,28 @@
+- name: Certification
+  children:
+  - name: FinOps Certified Practitioner
+    url: /certification/finops-certified-practitioner/
+  - name: Vendor Member Certification
+    url: /certification/vendor-certification/
+
+- name: Resources
+  children:
+  - name: Events
+    url: /resources/events/
+  - name: O’Reilly FinOps Book
+    url: /resources/finOps-book
+  - name: Regional Meetups
+    url: https://www.meetup.com/pro/finops/
+  - name: Swag Store
+    url: https://store.finops.org/
+
+- name: FinOps Foundation
+  children:
+  - name: About
+    url: /about/
+  - name: Technical Charter
+    url: https://github.com/finopsfoundation/tac/blob/master/charter.md
+  - name: Code of Conduct
+    url: https://github.com/finopsfoundation/tac/blob/master/codeofconduct.md
+  - name: Privacy & Terms
+    url: /privacy/
