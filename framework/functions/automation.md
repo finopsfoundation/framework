@@ -1,6 +1,7 @@
 ---
 
 layout: default
+tag: automation
 
 ---
 

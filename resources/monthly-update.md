@@ -7,23 +7,28 @@ title: State of FinOps Update
 
 # June State of FinOps Update
 
-596 people joined our May FinOps Summit last week. Watch the recording on YouTube! In case you missed it: Welcome to @Rob Martin (FinOps Foundation) who joined the FinOps Foundation as our Director of Learning.
+596 people joined our May FinOps Summit last week. Watch the recording on YouTube! In case you missed it: Welcome to Rob Martin who joined the FinOps Foundation full time as our Director of Learning.
+
+## (Casual) June Preview Video
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/utfmuoGbmJw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<br/>**Note from J.R.:** I had a conundrum this Saturday: go on a much needed hike or film the June FinOps Summit video. I decided to kill two birds with one stone.
+
 
 ## June Summit Agenda
 
 This month's member summit is on June 10 from 8am - 10am Pacific Time. There will be an Asia Pacific timezone friendly event the following week.
 
-- [#Intros](https://finopsfoundation.slack.com/archives/CHJRT5M8Q): 30 second practitioner and vendor intros led by Stacy (FinOps)
-- New Working Group Kick-Off (TBD)
-- [Container Cost Playbook](https://framework.finops.org/challenges/calculating-container-costs/) Kick-Off
-- Change to Membership Criteria: Consultants/vendors must be certified to participate.
-- Vendor Showcases: Members voted to approve vendor profiles on the last call, see the first batch led by Joe Daly (Nationwide)
-- [Accurate Forecasting](https://framework.finops.org/challenges/accurate-forecasts/): first draft preview of playbook plus member stories by Melanie (CVS) and Dieter (Roku)
-- [Google Cloud](https://finopsfoundation.slack.com/archives/CNK7WDDEH): See an outline of the Working Group's first efforts led by Kim (Target)
-- [Training & Certification](https://www.finops.org/events): This month's instructor led FinOps Practitioner Certification is led by Ashley Hromatko (Pearson) with Rob Martin (FinOps Foundation, former AWS)
-- Elections! For real this time… (Tracy)
-- Updates to the FinOps Foundation Team: more new hires!
-- 30 minute breakout rooms on each topic at the end!
+- **[#Intros](https://finopsfoundation.slack.com/archives/CHJRT5M8Q)**: 30 second new practitioner and vendor intros led by Stacy (FinOps)
+- **[Accurate Forecasting-WG](https://framework.finops.org/challenges/accurate-forecasts/)**: first draft preview of playbook plus member stories by Melanie (CVS) and Dieter (Roku) with user stories from Scott Linn (Chevron) and Drew Lowe (Hulu)
+- **Tracking Cloud TCO** with Anthony Tambasco, NBC Universal/Comcast
+- **[Multi-Cloud-WG](https://finopsfoundation.slack.com/archives/CNK7WDDEH)**: See an outline of the Working Group's first efforts to normalize billing terminology between cloud providers led by Kim (Target)
+- **FinOps for Engineers**: 10 minute crash course on enabling engineers on cost consciousness by Rob Martin (FinOps Foundation, former AWS)
+- **[Container Cost Playbook](https://framework.finops.org/challenges/calculating-container-costs/)**: Restarting last year's working group to update the whitepaper and playbook
+- **Growing the FinOps Foundation Team:** more new FTE hires including a product leader for the Framework!
+- **[Training & Certification](https://www.finops.org/events)**: This month's instructor led FinOps Practitioner Certification is led by Ashley Hromatko (Pearson)
+- **Breakouts**: 30 minute breakout rooms on each main topic at the end!
 
 Approved members will receive an invite with zoom details. Didn't get one? Complete or update your info at https://www.finops.org/membership/ or check [#events](https://finopsfoundation.slack.com/archives/CHM83DGQ4) in Slack.
 

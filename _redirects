@@ -6,6 +6,9 @@
 /our-members/ /about/
 /finops-ambassador/ /about/
 /blog /
+/blog/* /
 /cloud-finops-oreilly-book/ /resources/finops-book/
 /certification/ /certification/finops-certified-practitioner/
 /resources/april-update/ /resources/monthly-update/
+/challenges/* /projects/:splat
+/projects/accurate-forecasts/ /projects/accurate-cloud-forecasts/
