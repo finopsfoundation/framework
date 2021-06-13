@@ -12,3 +12,4 @@
 /resources/april-update/ /resources/monthly-update/
 /challenges/* /projects/:splat
 /projects/accurate-forecasts/ /projects/accurate-cloud-forecasts/
+/what-is-finops/ /introduction/what-is-finops/
