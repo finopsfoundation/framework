@@ -1,6 +1,6 @@
 ---
 
-layout: stories
+layout: collection
 title: What Spotify Learned at a Massive FinOps Scale
 tags: 
 - cloud-migration

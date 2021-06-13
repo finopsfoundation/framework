@@ -4,7 +4,6 @@ layout: default
 tag: resource-hierarchy
 
 ---
-[Propose changes or additions to this page](https://github.com/finopsfoundation/fodo/edit/master/framework/functions/tagging-labeling.md)
 
 # Resource Hierarchy (Accounts, Subscriptions and Projects)
 
@@ -23,7 +22,7 @@ Accounts are mutually exclusive, whereas tags are not. Accounts should be your p
 
 In this common cost allocation strategy for AWS accounts, we’re using accounts to break out individual products and their respective environments. This is important, because different products or applications often represent different cost centers or budgets.    
 
-![image](https://user-images.githubusercontent.com/66805995/113222576-30d6ab00-923c-11eb-94fe-e799865a285b.png)
+![image](/img/framework/resource-hierarchy.png)
 
 ## Common Approaches
 

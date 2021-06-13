@@ -21,13 +21,13 @@ title: State of FinOps Update
 This month's member summit is on June 10 from 8am - 10am Pacific Time. There will be an Asia Pacific timezone friendly event the following week.
 
 - **[#Intros](https://finopsfoundation.slack.com/archives/CHJRT5M8Q)**: 30 second new practitioner and vendor intros led by Stacy (FinOps)
-- **[Accurate Forecasting-WG](https://framework.finops.org/challenges/accurate-forecasts/)**: first draft preview of playbook plus member stories by Melanie (CVS) and Dieter (Roku) with user stories from Scott Linn (Chevron) and Drew Lowe (Hulu)
+- **[Accurate Forecasting-WG](/projects/accurate-cloud-forecasts/)**: first draft preview of playbook plus member stories by Melanie (CVS) and Dieter (Roku) with user stories from Scott Linn (Chevron) and Drew Lowe (Hulu)
 - **Tracking Cloud TCO** with Anthony Tambasco, NBC Universal/Comcast
 - **[Multi-Cloud-WG](https://finopsfoundation.slack.com/archives/CNK7WDDEH)**: See an outline of the Working Group's first efforts to normalize billing terminology between cloud providers led by Kim (Target)
 - **FinOps for Engineers**: 10 minute crash course on enabling engineers on cost consciousness by Rob Martin (FinOps Foundation, former AWS)
-- **[Container Cost Playbook](https://framework.finops.org/challenges/calculating-container-costs/)**: Restarting last year's working group to update the whitepaper and playbook
+- **[Container Cost Playbook](/projects/calculating-container-costs/)**: Restarting last year's working group to update the whitepaper and playbook
 - **Growing the FinOps Foundation Team:** more new FTE hires including a product leader for the Framework!
-- **[Training & Certification](https://www.finops.org/events)**: This month's instructor led FinOps Practitioner Certification is led by Ashley Hromatko (Pearson)
+- **[Training & Certification](/events)**: This month's instructor led FinOps Practitioner Certification is led by Ashley Hromatko (Pearson)
 - **Breakouts**: 30 minute breakout rooms on each main topic at the end!
 
 Approved members will receive an invite with zoom details. Didn't get one? Complete or update your info at https://www.finops.org/membership/ or check [#events](https://finopsfoundation.slack.com/archives/CHM83DGQ4) in Slack.
@@ -88,12 +88,12 @@ In April, we had 492 people join our live FinOps member call (April summary here
 This month's member summit is on May 13th from 8am - 10am Pacific Time. 
 
 - [#Intros](https://finopsfoundation.slack.com/archives/CHJRT5M8Q): 30 second practitioner and vendor intros led by Stacy (FinOps)
-- [Accurate Forecasting](https://framework.finops.org/challenges/accurate-forecasts/): panel discussion and playbook preview led by Melanie (CVS) and Dieter (Roku)
-- [Engineering Action](https://framework.finops.org/challenges/encouraging-engineers-to-take-action/): demo of [Unikraft](https://unikraft.org/): cost optimization at the Kernel level with Felipe (NEC Labs)
+- [Accurate Forecasting](/projects/accurate-cloud-forecasts/): panel discussion and playbook preview led by Melanie (CVS) and Dieter (Roku)
+- [Engineering Action](/projects/encouraging-engineers-to-take-action/): demo of [Unikraft](https://unikraft.org/): cost optimization at the Kernel level with Felipe (NEC Labs)
 - [State of FinOps](https://data.finops.org/): Vendor profiles preview (mapping the FinOps Ecosytem) led by Joe Daly (Nationwide)
 - [Google Cloud](https://finopsfoundation.slack.com/archives/CNK7WDDEH): The GCP team kicks off a working group to normalize cloud terminology led by Kenneth (King.com) and Kim (Target)
-- [Dealing with Shared Costs](https://framework.finops.org/challenges/identifying-shared-costs/): reveal of the new playbook by Tracy (Scout24)
-- [Training & Certification](https://www.finops.org/events): This month's instructor led FinOps Practitioner Certification is led by Alex Hullah (HSBC)
+- [Dealing with Shared Costs](/projects/identifying-shared-costs/): reveal of the new playbook by Tracy (Scout24)
+- [Training & Certification](/events): This month's instructor led FinOps Practitioner Certification is led by Alex Hullah (HSBC)
 - 30 minute breakout rooms on each topic at the end!
 
 Approved members will receive an invite with zoom details. Didn't get one? Email membership@finops.org or check [#events](https://finopsfoundation.slack.com/archives/CHM83DGQ4) in Slack.
@@ -112,25 +112,25 @@ Here is a summary of what was covered on the member call this month.
 
 The next member call is May 13th, details at the bottom of this update.
 
-## [FinOps Framework](https://framework.finops.org)
+## [FinOps Framework](https://www.finops.org)
 
-The staging site is live at [framework.finops.org](https://framework.finops.org)! Caveat: with lots of holes still! Propose changes and contributions: it's all open source on Github. Special shoutout to recent [contributors](https://github.com/finopsfoundation/framework/graphs/contributors) Nathan Besh, Andrew Sledge, Andrew Midgely, Riley Jenkins, Epic Vinny, and others.
+The staging site is now live at [finops.org](https://www.finops.org)! Caveat: with lots of holes still! Propose changes and contributions: it's all open source on Github. Special shoutout to recent [contributors](https://github.com/finopsfoundation/framework/graphs/contributors) Nathan Besh, Andrew Sledge, Andrew Midgely, Riley Jenkins, Epic Vinny, and others.
 
-## [Education and Training](https://finops.org/certification)
+## [Education and Training](/certification/finops-certified-practitioner/)
 
 - **[FinOps for Engineers](https://www.eventbrite.com/e/finops-for-engineering-training-self-paced-course-course-pre-sale-tickets-149961353445)** has launched! OK, it's just the curriculum for now but the actual course will be available on May 31. [Pre-sale for 30% off available here](https://www.eventbrite.com/e/149961353445/?discount=EarlyBird)
 - **[Live FinOps Certified Practitioner Course](https://www.eventbrite.com/e/finops-certified-practitioner-course-w-ben-sky-uk-tickets-145114638791)** – featuring [Ben De Mora](https://www.linkedin.com/in/bendemora?originalSubdomain=uk) from Sky UK is April 20-21, 2021 - [Three seats left here](https://www.eventbrite.com/e/finops-certified-practitioner-course-w-ben-sky-uk-tickets-145114638791)
 - **[Self-Paced FinOps Certified Practitioner Course](https://www.eventbrite.com/e/finops-certified-practitioner-self-paced-course-tickets-150987081425)** - featuring [Rob Martin](https://www.linkedin.com/in/robmartin3) - Access to 6 hours of video training as well as an included exam voucher for FinOps Certfied Practitioner.
 
-## [Engineering Action Work Group](https://framework.finops.org/challenges/encouraging-engineers-to-take-action/)
+## [Engineering Action Work Group](/projects/encouraging-engineers-to-take-action/)
 
-The Eng Action group has proposed the first draft of their playbook on solving this top State of FinOps challenge. Read their first draft on [Encouraging engineers to take action](https://framework.finops.org/challenges/encouraging-engineers-to-take-action/). Slack conversation at [#finops-for-engineers](https://finopsfoundation.slack.com/archives/C014CFZTE1W).
+The Eng Action group has proposed the first draft of their playbook on solving this top State of FinOps challenge. Read their first draft on [Encouraging engineers to take action](/projects/encouraging-engineers-to-take-action/). Slack conversation at [#finops-for-engineers](https://finopsfoundation.slack.com/archives/C014CFZTE1W).
 
-## [Dealing with Shared Costs](https://framework.finops.org/challenges/identifying-shared-costs/)
+## [Dealing with Shared Costs](/projects/identifying-shared-costs/)
 
 This nascent work group has started their abstract and kicked off a panel discussion in this month's call. Look for the first draft to be shared at the May member call! Slack conversation at [#cloud-finance](https://finopsfoundation.slack.com/archives/C013NCE3WD8).
 
-## [Accurate Forecasting](https://framework.finops.org/challenges/accurate-forecasts/)
+## [Accurate Forecasting](/projects/accurate-cloud-forecasts/)
 
 Melanie Edwards (CVS) and Dieter Matzion (Roku) will be co-chairing the upcoming working group. We're also going to add 4-5 SMEs who want to contribute to authoring the first version. Interested? Put your hand up in [#forecasting](https://finopsfoundation.slack.com/archives/C01T6BW6TFZ).
 

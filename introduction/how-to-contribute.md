@@ -19,7 +19,7 @@ Ways to get involved:
 - [Join the Community](/membership/): Learn from thousands of practitioners
 - [FinOps Certified Practitioner](/certification/finops-certified-practitioner/): Get certified as an individual
 - [FinOps for Engineers](/certification/finops-certified-practitioner/): Train your teams to consider cost
-- [Monthly FinOps Mini-Summits](/april-update): Hear the latest from the community
+- [Monthly FinOps Mini-Summits](/resources/monthly-update): Hear the latest from the community
 - FinOps Certified Providers: Get certified as a vendor
 - Vendor Ecosystem Profiles: Coming Soon
 - FinOps Summit 2021 in October: Coming Soon

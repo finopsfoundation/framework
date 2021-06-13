@@ -35,14 +35,14 @@ You should also have a solid understanding of several things within your company
 
 ## Relevant FinOps framework components
 To get the most out of this document, please review the following first:
-* [Tagging and labeling](https://framework.finops.org/framework/functions/tagging-labeling/)
-* [Cost allocation](https://framework.finops.org/framework/capabilities/allocate/)
-* [Budgeting and forecasting](https://framework.finops.org/framework/capabilities/forecast)
-* [Reserved instances, spot pricing, and savings plans](https://framework.finops.org/framework/capabilities/rate-optimization)
+* [Tagging and labeling](/framework/functions/tagging-labeling/)
+* [Cost allocation](/framework/capabilities/allocate/)
+* [Budgeting and forecasting](/framework/capabilities/forecast)
+* [Reserved instances, spot pricing, and savings plans](/framework/capabilities/rate-optimization)
 * Enterprise discount programs
 * Accounting Models
 * Invoice and Billing Reporting
-* [Chargeback and Showback Reporting](https://framework.finops.org/framework/capabilities/report)
+* [Chargeback and Showback Reporting](/framework/capabilities/report)
 * ...and more (please feel free to add or correct any links as a contribution to this playbook)
 
 If you have a strong handle on these subjects, continue on to better understand how to approach this challenge.

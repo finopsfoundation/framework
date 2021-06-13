@@ -1,6 +1,6 @@
 ---
 
-layout: stories
+layout: collection
 title: Why FinOps Still Has a Long Way to Go in Hong Kong
 tags: 
 - organizational-alignment

@@ -1,6 +1,6 @@
 ---
 
-layout: stories
+layout: collection
 title: Rate Optimization Options from Google Cloud Platform
 tags: 
 - rate-optimization

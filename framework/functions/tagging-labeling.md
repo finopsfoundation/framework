@@ -15,7 +15,7 @@ Think of it as describing a bunch of shirts. Each shirt might have a tag key of 
 
 ## Sample Implementation      
 
-![image](https://user-images.githubusercontent.com/66805995/112911099-96466280-90a9-11eb-9443-a7d2ddb0ebfc.png)
+![image](/img/framework/tagging-labeling.png)
 
 ## Common Approaches
 

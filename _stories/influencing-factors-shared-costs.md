@@ -1,6 +1,6 @@
 ---
 
-layout: stories
+layout: collection
 title: Non-technical/Market/Environmental/Corporate Governance Influencing Factors on How to Track, Process and Share Costs
 tags: 
 - shared-costs

@@ -1,6 +1,6 @@
 ---
 
-layout: stories
+layout: collection
 title: When Do Cloud Savings Start to Kick in?
 tags: 
 - commitment-discounts
