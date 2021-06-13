@@ -2,8 +2,7 @@
 
 layout: default
 title: How to use the FinOps Framework
-description: Understand how to use the FinOps Framework which is licensed under a
-Creative Commons Attribution 4.0 International License.
+description: Understand how to use the FinOps Framework which is licensed under a Creative Commons Attribution 4.0 International License.
 
 ---
 

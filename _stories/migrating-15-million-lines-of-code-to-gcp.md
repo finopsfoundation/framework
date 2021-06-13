@@ -1,6 +1,6 @@
 ---
 
-layout: stories
+layout: collection
 title: Migrating 15 Million Lines of Code from Six Data Centers Worldwide in Six Months
 tags: 
 - cloud-migration

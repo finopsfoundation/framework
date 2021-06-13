@@ -1,6 +1,6 @@
 ---
 
-layout: stories
+layout: collection
 title: Avoid and Simplify
 tags: 
 - shared-costs

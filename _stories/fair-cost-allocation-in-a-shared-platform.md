@@ -1,6 +1,6 @@
 ---
 
-layout: stories
+layout: collection
 title: Fair cost allocation in a shared Platform (as a Service)
 tags: 
 - shared-costs

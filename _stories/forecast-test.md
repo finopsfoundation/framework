@@ -1,6 +1,6 @@
 ---
 
-layout: stories
+layout: collection
 title: Forecasting test story
 tags: 
 - cloud-forecasting

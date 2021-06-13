@@ -1,6 +1,6 @@
 ---
 
-layout: stories
+layout: collection
 title: One Way to Put it All Together
 tags: 
 - shared-costs
