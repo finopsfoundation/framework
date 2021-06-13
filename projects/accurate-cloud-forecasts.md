@@ -30,13 +30,13 @@ Depending on the cloud providers your organization is using, you can gain some o
 
 ## Relevant FinOps Framework components
 To get the most out of this document, please review the following first:
-* [Tagging and labeling](https://framework.finops.org/framework/functions/tagging-labeling/)
-* [Cost allocation](https://framework.finops.org/framework/capabilities/allocate/)
+* [Tagging and labeling](/framework/functions/tagging-labeling/)
+* [Cost allocation](/framework/capabilities/allocate/)
 * Cost-centric ownership
-* [Implementing FinOps training for engineers](https://framework.finops.org/framework/functions/learning/)
-* [Business metrics / KPIs](https://framework.finops.org/framework/kpis/)
-* [Building a FinOps culture](https://framework.finops.org/framework/principles/)
-* [Organizational Alignment](https://framework.finops.org/framework/capabilities/organizational-alignment/)
+* [Implementing FinOps training for engineers](/framework/functions/learning/)
+* [Business metrics / KPIs](/framework/kpis/)
+* [Building a FinOps culture](/framework/principles/)
+* [Organizational Alignment](/framework/capabilities/organizational-alignment/)
 
 If you have a strong handle on these subjects, please continue on to better understand how to approach this challenge.
 

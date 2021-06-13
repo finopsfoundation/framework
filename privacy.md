@@ -104,12 +104,7 @@ Our websites and content may contain links to other websites. As such, FinOps Fo
 
 Your Information may be transferred to — and maintained on — computers located outside of your state, province, country or other governmental jurisdiction where the privacy laws may not be as protective as those in your jurisdiction. If you are located outside the United States and choose to provide information to us, FinOps Foundation transfers Personal Information to the United States and processes it there.
 
-FinOps Foundation commits to resolve complaints about your privacy and our collection or use of your personal information. European Union or Swiss individuals with inquiries or complaints regarding this privacy policy should first contact us via email [contact@finops.org](mailto:contact@finops.org), or via mail at:
-
-FinOps Foundation (Cloudability)  
-Attn: Privacy Officer  
-334 NW 11th Ave.  
-Portland, OR 97209
+FinOps Foundation commits to resolve complaints about your privacy and our collection or use of your personal information. European Union or Swiss individuals with inquiries or complaints regarding this privacy policy should first contact us via email [contact@finops.org](mailto:contact@finops.org).
 
 ## Children
 

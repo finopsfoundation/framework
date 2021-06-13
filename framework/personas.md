@@ -20,6 +20,6 @@ Finance and procurement team members, including Technology Procurement Manager, 
 
 ## FinOps Team Structures
 
-![image](https://user-images.githubusercontent.com/66805995/112906090-6fcff980-90a0-11eb-8784-b2ec8aa34ecd.png)
+![image](/img/resources/finops-team-structure.png)
 
 The above diagram demonstrates how, for organizations operating on the FinOps model, a cross-functional team known as a Cloud Cost Center of Excellence (CCoE) interacts with the rest of the business to manage the cloud strategy, governance, and best practices that the rest of the organization can leverage to transform the business using the cloud.
