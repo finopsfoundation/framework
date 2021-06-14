@@ -7,7 +7,7 @@ title: State of FinOps Update
 
 # June State of FinOps Update
 
-596 people joined our May FinOps Summit last week. Watch the recording on YouTube! In case you missed it: Welcome to Rob Martin who joined the FinOps Foundation full time as our Director of Learning.
+596 people joined our May FinOps Summit last week. Watch the recording on YouTube! In case you missed it: Welcome to Rob Martin who joined the FinOps Foundation full time as our Director of Learning. So great to have you here.
 
 ## (Casual) June Preview Video
 
