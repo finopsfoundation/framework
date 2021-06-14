@@ -1,4 +1,4 @@
-https://framework.finops.org https://www.finops.org
+https://framework.finops.org/* https://www.finops.org/:splat 301!
 /finops-foundation-values/ /principles/
 /events/ /resources/events/
 /jobs/ /
