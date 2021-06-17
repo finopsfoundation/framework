@@ -5,6 +5,7 @@ layout: default
 ---
 
 # Functions
+Functions are the more detailed processes that make up a FinOps practice. Functions are generally grouped into Capabilities, though there are instances where one Function may be performed as part of multiple Capabilities. 
 
 - [Resource Metadata (Tagging/Labeling)](tagging-labeling)
 - [Resource Hierarchy (Accounts, Subscriptions & Projects)](resource-hierarchy)
