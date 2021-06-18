@@ -120,7 +120,7 @@ An exam can be purchased to attempt the certification through the Linux Foundati
 - An exam code to take the FinOps Certified Practitioner exam at the Linux Foundation, with free retake option
 - Includes all the digital, video and course materials in the self-paced course for study or review ($499 value)
 
-*[Find Live Events](https://staging.framework.finops.org/resources/events/)*
+*[Find Live Events](/resources/events/#events-training)*
 
 ### FinOps for Engineering Training 
 
