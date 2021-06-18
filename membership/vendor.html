@@ -88,7 +88,10 @@ description: Technology vendor membership is for those who provide platforms or 
 						portalId: "5432286",
 						formId: "687d9643-f9b3-46f8-9e86-7a9b48c1c9ea",
             onFormSubmit: function($form){
-              ga('send', 'event', 'membership form', 'submit', 'vendor');
+              gtag('event', 'submit', {
+                'event_category': 'membership form',
+                'event_label': 'vendor'
+              });
             },
 					});
 					</script>
