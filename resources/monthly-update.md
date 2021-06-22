@@ -29,19 +29,9 @@ This month's member summit is on June 10 from 8am - 10am Pacific Time. There wil
 
 Approved members will receive an invite with zoom details. Didn't get one? Complete or update your info at https://www.finops.org/membership/ or check [#events](https://finopsfoundation.slack.com/archives/CHM83DGQ4) in Slack.
 
-## (Casual) June Preview Video
-
-<br/>**Note from J.R.:** I had a conundrum this Saturday: go on a much needed hike or film the June FinOps Summit video. I decided to kill two birds with one stone.
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/utfmuoGbmJw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 ## May Summit Recording
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/meWi2xj1JGY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-## Upcoming Events
-
-<iframe src="https://calendar.google.com/calendar/embed?height=300&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=America%2FLos_Angeles&amp;src=Zmlub3BzLm9yZ19hMGV0aDV2amZlcHRkMWQ5dTQ2bjN2OW1jZ0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t&amp;color=%23AD1457&amp;mode=AGENDA" style="border:solid 1px #777" width="800" height="300" frameborder="0" scrolling="no"></iframe>
 
 ## New Members
 
