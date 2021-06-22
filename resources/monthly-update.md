@@ -13,13 +13,6 @@ title: State of FinOps Update
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/FziyJt-GIDY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## (Casual) June Preview Video
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/utfmuoGbmJw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<br/>**Note from J.R.:** I had a conundrum this Saturday: go on a much needed hike or film the June FinOps Summit video. I decided to kill two birds with one stone.
-
-
 ## June Summit Agenda
 
 This month's member summit is on June 10 from 8am - 10am Pacific Time. There will be an Asia Pacific timezone friendly event the following week.
@@ -35,6 +28,12 @@ This month's member summit is on June 10 from 8am - 10am Pacific Time. There wil
 - **Breakouts**: 30 minute breakout rooms on each main topic at the end!
 
 Approved members will receive an invite with zoom details. Didn't get one? Complete or update your info at https://www.finops.org/membership/ or check [#events](https://finopsfoundation.slack.com/archives/CHM83DGQ4) in Slack.
+
+## (Casual) June Preview Video
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/utfmuoGbmJw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<br/>**Note from J.R.:** I had a conundrum this Saturday: go on a much needed hike or film the June FinOps Summit video. I decided to kill two birds with one stone.
 
 ## May Summit Recording
 
