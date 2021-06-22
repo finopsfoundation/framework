@@ -31,9 +31,9 @@ Approved members will receive an invite with zoom details. Didn't get one? Compl
 
 ## (Casual) June Preview Video
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/utfmuoGbmJw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 <br/>**Note from J.R.:** I had a conundrum this Saturday: go on a much needed hike or film the June FinOps Summit video. I decided to kill two birds with one stone.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/utfmuoGbmJw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## May Summit Recording
 
