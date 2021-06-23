@@ -12,17 +12,17 @@ The pace of innovation in the public cloud is rapid. New services and features a
 
 Historically, more modern versions of public cloud resources, such as new generations of compute instances, make available more powerful and capable resources for a lower price than previous generation offerings. 
 
-In addition, public cloud providers can and do deprecate older generations services and resources after a finite period of time, often more rapidly than equipment or software would be refreshed in an on-premises data center environment. 
+In addition, public cloud providers can and do deprecate older-generation services and resources after a finite period of time, often more rapidly than equipment or software would be refreshed in an on-premises data center environment. 
 
 FinOps teams must be able to track and follow these changes from the cloud providers and react to them by modernizing resources. There is often a financial or cost performance benefit to doing so as well. 
 
 ## Sample Implementation
 An example of resource modernization can be seen in upgrading the compute instances from older generation to newer. Each of the public clouds denotes generations of compute resources differently. 
 
-AWS Example
-Memory-optimized compute resources are in the "r" family. "r3" denotes the third generation of this compute family. In 2019 AWS began to offer the "r5" generation of this compute instance. An equivalent (similar memory, similar number of processor cores) r5 instance costs, on average, 24% less than an r3 instance. In addition, the r5 instance is running on physical hardware and with memory and processors using faster clock speeds which makes them more performant per processor core. So there can be an advantage of moving from r3 instances to r5 instances not only in cost but in performance. If an application were using 10 r3 instances to handle peak workload, scaling might only need to create 8 r5 instances, increasing the savings. 
+### AWS Example
+Memory-optimized compute resources are in the "r" family. "r3" denotes the third generation of this compute family. In 2019, AWS began to offer the "r5" generation of this compute instance. An equivalent (similar memory, similar number of processor cores) r5 instance costs, on average, 24% less than an r3 instance. In addition, the r5 instance is running on physical hardware and with memory and processors using faster clock speeds which makes them more performant per processor core. So there can be an advantage of moving from r3 instances to r5 instances not only in cost, but in performance. If an application uses 10 r3 instances to handle peak workload, scaling might only need to create 8 r5 instances, increasing the savings. 
 
-The process of determining when to modernize would follow several steps
+The process of determining when to modernize would follow several steps:
 * Identification of "older" resources in the public cloud being used
 * Reporting on current use to identify previous generation resources in use
 * Comparison of newest generation resources to previous generation resources in use
@@ -63,6 +63,8 @@ List existing related functions and link to them here.
 
 ## Related FinOps Stories
 ** These stories are curated via site metadata and are sourced from the Stories repo. Visit that part of the FinOps Framework to contribute a story. **
+
+{% include story-loop.md content='modernize-resources' %}
 
 ## Resources
 These links are provided as potentially relevant industry resources. The FinOps Foundation does not recommend any individual technology vendor and is not responsible for the content below.
