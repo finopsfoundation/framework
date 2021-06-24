@@ -4,7 +4,6 @@ layout: default
 title: State of FinOps Update
 
 ---
-<!--<script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>-->
 
 # July FinOps Summit Agenda
 
