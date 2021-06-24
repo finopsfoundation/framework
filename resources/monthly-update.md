@@ -13,13 +13,20 @@ This month's member summit is on July 8 from 8am - 10am Pacific Time. There will
 ## Main Topics:
 
 - **[Adopting FinOps](/projects/adopting-finops)**: Learn how to promote the cultural change and gain executive buy-in needed to setup your CFM practice, new working group led by Ashley Hromatko (Pearson)
+ 
+- **[Unit Cost](/projects/unit-cost)**: or "Marrying cloud spend to the rest of your business data" by Run-stage FinOps leader, Jason Rhoades from Intuit. 
+
+- **[State of FinOps for Kubernetes](/projects/calculating-container-costs/)** get a first look at the new Kubernetes cost survey results (spend patterns, challenges, tooling and more!) from Cloud Native Computing Foundations's CTO, Chris Aniszczyk
+
+## Working Group Updates
 - **[#Intros](https://finopsfoundation.slack.com/archives/CHJRT5M8Q)**: 30 second new practitioner and vendor intros led by Stacy (FinOps)
-- **[Unit Cost](/projects/unit-cost)**: or "Marrying cloud spend to the rest of your business data" by Run-stage FinOps leader, Jason Rhoades from Intuit
-- **[State of Kubernetes FinOps Survey Results]((/projects/calculating-container-costs/)** hear from Chris Aniszczyk what the Cloud Native Computing Foundation learned in their recent survey.
 - **[Multi-Cloud-WG](https://finopsfoundation.slack.com/archives/CNK7WDDEH)**: Get an update on the group's efforts to normalize billing terminology between cloud providers led by Kim (Target)
-- **FinOps Framework** - Vas Markanastasakis (FinOps Foundation) shares the latest revision to the FinOps Framework.
-- **[Training & Certification](/events)**: This month's instructor led FinOps Practitioner Certification is led by Ashley Hromatko (Pearson)
+- **[FinOps Framework*](/)** - Vas Markanastasakis (FinOps Foundation) shares the latest revision to the FinOps Framework.
+- **[Education](/resources/events/#events-training)**: This month's instructor led FinOps Practitioner Certification is led by Ben De Mora (Sky UK)
 - **Breakouts**: 30 minute breakout rooms on each main topic at the end!
+
+## Vendor Showcases
+- The top 3 vendors from the FinOps for Kubernetes survey show off their tooling for managing Kubernetes costs.
 
 ## Speakers
 
@@ -29,9 +36,9 @@ This month's member summit is on July 8 from 8am - 10am Pacific Time. There will
 
 <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="jasongrhoades" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/jasongrhoades?trk=profile-badge">Jason Rhoades</a></div>
 
-<div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="ashley-hromatko-1b532613" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/ashley-hromatko-1b532613?trk=profile-badge">Ashley Hromatko</a></div>
+<div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="ashley-hromatko-1b532613" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/ashley-hromatko-1b532613?trk=profile-badge">Ashley Hromatko</a></div>  
 
-            
+## Giveaways
 
 # June State of FinOps Update
 
