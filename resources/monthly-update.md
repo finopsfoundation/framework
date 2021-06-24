@@ -5,9 +5,53 @@ title: State of FinOps Update
 
 ---
 
+# July FinOps Summit Agenda
+
+This month's member summit is on July 8 from 8am - 10am Pacific Time. There will be an Asia Pacific timezone friendly event the following week.
+
+## Keynotes:
+
+- **[Getting to Unit Cost (Activity Based Costing)](/projects/unit-cost)**: or "Marrying cloud spend to the rest of your business data" by Run-stage FinOps leader, Jason Rhoades (Intuit).
+
+- **[Adopting FinOps in the Enterprise](/projects/adopting-finops)**: Learn how to promote the cultural change and gain executive buy-in needed to setup your CFM practice, new working group led by Ashley Hromatko (Pearson).
+
+- **[State of FinOps for Kubernetes](/projects/calculating-container-costs/)** get a first look at the new Kubernetes cost survey results (spend patterns, challenges, tooling and more!) from Cloud Native Computing Foundations's CTO, Chris Aniszczyk as well as a panel discussion on best practices with Kapil (Expedia) and Jay (Nationwide)
+
+## Working Group Updates
+- **[#Intros](https://finopsfoundation.slack.com/archives/CHJRT5M8Q)**: 30 second new practitioner and vendor intros led by Stacy (FinOps)
+- **New Premier Member**: Last month we welcomed Deloitte to our Governing Board, this month we will be announcing another Big 4 firm who is joining the FinOps Foundation as a premier member. Come find out who it is!
+- **[Multi-Cloud-WG](https://finopsfoundation.slack.com/archives/CNK7WDDEH)**: Get an update on the group's efforts to normalize billing terminology between cloud providers led by Kim (Target)
+- **[FinOps Framework](/)** - Vas Markanastasakis (FinOps Foundation) shares the latest revision to the FinOps Framework.
+- **[Education](/resources/events/#events-training)**: This month's instructor led FinOps Practitioner Certification is led by Ben De Mora (Sky UK)
+- **Breakouts**: 30 minute breakout rooms on each main topic at the end!
+
+## Vendor Showcases
+- You told us you wanted vendor showcases (91% yes!). The top 3 voted platform vendors from CNCF's FinOps for Kubernetes survey (Kubecost, Cloudability, Cloudhealth) show off their tooling for managing Kubernetes costs back-to-back. 8 minutes each. Go...
+
+## Breakout Rooms - _Must have Zoom client installed_
+
+- **Adopting FinOps**
+- **Unit Cost**
+- **Kubernetes (includes Vendor Showcases)**
+- **Multi-Cloud**
+
+## Speakers
+
+<div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="caniszczyk" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/caniszczyk?trk=profile-badge">Chris Aniszczyk</a></div>
+
+<div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="jrstorment" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/jrstorment?trk=profile-badge">J.R. Storment</a></div>
+
+<div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="jasongrhoades" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/jasongrhoades?trk=profile-badge">Jason Rhoades</a></div>
+
+<div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="ashley-hromatko-1b532613" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/ashley-hromatko-1b532613?trk=profile-badge">Ashley Hromatko</a></div>  
+
+## Giveaways
+
+The first 100 people on the zoom get a coupon for a free t-shirt and 25% off self-paced training.
+
 # June State of FinOps Update
 
-596 people joined our May FinOps Summit last week. Watch the recording on YouTube! In case you missed it: Welcome to Rob Martin who joined the FinOps Foundation full time as our Director of Learning. So great to have you here.
+Over 500 people joined our June FinOps Summit last week. Watch the recording on YouTube! In case you missed it: Welcome to Rob Martin who joined the FinOps Foundation full time as our Director of Learning. So great to have you here.
 
 ## June FinOps Summit Recording
 
