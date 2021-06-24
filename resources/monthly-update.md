@@ -29,7 +29,7 @@ This month's member summit is on July 8 from 8am - 10am Pacific Time. There will
 ## Vendor Showcases
 - You told us you wanted vendor showcases (91% yes!). The top 3 voted platform vendors from CNCF's FinOps for Kubernetes survey (Kubecost, Cloudability, Cloudhealth) show off their tooling for managing Kubernetes costs back-to-back. 8 minutes each. Go...
 
-## Breakout Rooms
+## Breakout Rooms - _Must have Zoom client installed_
 
 - **Adopting FinOps**
 - **Unit Cost**
