@@ -24,5 +24,8 @@
   - name: Monthly Update 
   - name: Events
   - name: FinOps Book
+  - name: Vendor Members
+    url: /members/
   - name: Blogs and Articles
     url: /resources/finops-links/
+

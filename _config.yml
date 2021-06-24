@@ -48,6 +48,8 @@ collections:
     output: true
   links:
     output: true
+  vendor-members:
+    output: true
 
 defaults:
   - scope:
