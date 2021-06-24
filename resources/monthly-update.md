@@ -4,10 +4,38 @@ layout: default
 title: State of FinOps Update
 
 ---
+<script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
+
+# July FinOps Summit Agenda
+
+This month's member summit is on July 8 from 8am - 10am Pacific Time. There will be an Asia Pacific timezone friendly event the following week.
+
+## Main Topics:
+
+- **[Adopting FinOps](/projects/adopting-finops)**: Learn how to promote the cultural change and gain executive buy-in needed to setup your CFM practice, new working group led by Ashley Hromatko (Pearson)
+- **[#Intros](https://finopsfoundation.slack.com/archives/CHJRT5M8Q)**: 30 second new practitioner and vendor intros led by Stacy (FinOps)
+- **[Unit Cost](/projects/unit-cost)**: or "Marrying cloud spend to the rest of your business data" by Run-stage FinOps leader, Jason Rhoades from Intuit
+- **[State of Kubernetes FinOps Survey Results]((/projects/calculating-container-costs/)** hear from Chris Aniszczyk what the Cloud Native Computing Foundation learned in their recent survey.
+- **[Multi-Cloud-WG](https://finopsfoundation.slack.com/archives/CNK7WDDEH)**: Get an update on the group's efforts to normalize billing terminology between cloud providers led by Kim (Target)
+- **FinOps Framework** - Vas Markanastasakis (FinOps Foundation) shares the latest revision to the FinOps Framework.
+- **[Training & Certification](/events)**: This month's instructor led FinOps Practitioner Certification is led by Ashley Hromatko (Pearson)
+- **Breakouts**: 30 minute breakout rooms on each main topic at the end!
+
+## Speakers
+
+<div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="caniszczyk" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/caniszczyk?trk=profile-badge">Chris Aniszczyk</a></div>
+
+<div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="jrstorment" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/jrstorment?trk=profile-badge">J.R. Storment</a></div>
+
+<div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="jasongrhoades" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/jasongrhoades?trk=profile-badge">Jason Rhoades</a></div>
+
+<div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="ashley-hromatko-1b532613" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/ashley-hromatko-1b532613?trk=profile-badge">Ashley Hromatko</a></div>
+
+            
 
 # June State of FinOps Update
 
-596 people joined our May FinOps Summit last week. Watch the recording on YouTube! In case you missed it: Welcome to Rob Martin who joined the FinOps Foundation full time as our Director of Learning. So great to have you here.
+Over 500 people joined our June FinOps Summit last week. Watch the recording on YouTube! In case you missed it: Welcome to Rob Martin who joined the FinOps Foundation full time as our Director of Learning. So great to have you here.
 
 ## June FinOps Summit Recording
 
