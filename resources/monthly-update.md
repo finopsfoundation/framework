@@ -38,31 +38,42 @@ This month's member summit is on July 8 from 8am - 10am Pacific Time. There will
 ## Speakers
 
 <div>
-  <div class="inline-block mr-6">
-    <a href="https://www.linkedin.com/in/caniszczyk">
-      <img src="/img/updates/speaker-2.png" width="250">
-    </a>
-    <a href="https://www.linkedin.com/in/caniszczyk">Chris Aniszczyk</a>
-  </div>
-  <div class="inline-block mr-6">
+  <div class="inline-block mr-6 m:w-1/2">
     <a href="https://www.linkedin.com/in/ashley-hromatko-1b532613">
       <img src="/img/updates/speaker-3.png" width="250">
     </a>
     <a href="https://www.linkedin.com/in/ashley-hromatko-1b532613">Ashley Hromatko</a>
   </div>
-  <div class="inline-block mr-6">
+
+  <div class="inline-block mr-6 m:w-1/2">
     <a href="https://www.linkedin.com/in/jasongrhoades">
-      <img src="/img/updates/speaker-4.png" width="250">
+      <img src="/img/updates/speaker-4.png?2" width="290">
     </a>
     <a href="https://www.linkedin.com/in/jasongrhoades">Jason Rhoades</a>
   </div>
-  <div class="inline-block mr-6">
+
+  <div class="inline-block mr-6 m:w-1/2">
+    <a href="https://www.linkedin.com/in/neosyzlenski/">
+      <img src="/img/updates/speaker-5.png" width="250">
+    </a>
+    <a href="https://www.linkedin.com/in/neosyzlenski/">Kapil Sharma</a>
+  </div>
+
+  <div class="inline-block mr-6 m:w-1/2">
+    <a href="https://www.linkedin.com/in/caniszczyk">
+      <img src="/img/updates/speaker-2.png" width="265">
+    </a>
+    <a href="https://www.linkedin.com/in/caniszczyk">Chris Aniszczyk</a>
+  </div>
+  
+  <div class="inline-block mr-6 m:w-1/2">
     <a href="https://www.linkedin.com/in/jrstorment">
       <img src="/img/updates/speaker-1.png" width="250">
     </a>
     <a href="https://www.linkedin.com/in/jrstorment">J.R. Storment</a>
   </div>
 </div>
+
 
 ## Giveaways
 
