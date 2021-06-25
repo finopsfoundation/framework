@@ -39,11 +39,13 @@ This month's member summit is on July 8 from 8am - 10am Pacific Time. There will
 
 <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="caniszczyk" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/caniszczyk?trk=profile-badge">Chris Aniszczyk</a></div>
 
-<div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="jrstorment" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/jrstorment?trk=profile-badge">J.R. Storment</a></div>
+<div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="neosyzlenski" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/caniszczyk?trk=profile-badge">Kapil Sharma</a></div>
 
 <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="jasongrhoades" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/jasongrhoades?trk=profile-badge">Jason Rhoades</a></div>
 
 <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="ashley-hromatko-1b532613" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/ashley-hromatko-1b532613?trk=profile-badge">Ashley Hromatko</a></div>  
+
+<div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="jrstorment" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/jrstorment?trk=profile-badge">J.R. Storment</a></div>
 
 ## Giveaways
 
