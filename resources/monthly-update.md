@@ -37,17 +37,38 @@ This month's member summit is on July 8 from 8am - 10am Pacific Time. There will
 
 ## Speakers
 
-<div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="caniszczyk" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/caniszczyk?trk=profile-badge">Chris Aniszczyk</a></div>
-
-<div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="jrstorment" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/jrstorment?trk=profile-badge">J.R. Storment</a></div>
-
-<div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="jasongrhoades" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/jasongrhoades?trk=profile-badge">Jason Rhoades</a></div>
-
-<div class="badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="ashley-hromatko-1b532613" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/ashley-hromatko-1b532613?trk=profile-badge">Ashley Hromatko</a></div>  
+<div>
+  <div class="inline-block mr-6">
+    <a href="https://www.linkedin.com/in/caniszczyk">
+      <img src="/img/updates/speaker-2.png" width="250">
+    </a>
+    <a href="https://www.linkedin.com/in/caniszczyk">Chris Aniszczyk</a>
+  </div>
+  <div class="inline-block mr-6">
+    <a href="https://www.linkedin.com/in/ashley-hromatko-1b532613">
+      <img src="/img/updates/speaker-3.png" width="250">
+    </a>
+    <a href="https://www.linkedin.com/in/ashley-hromatko-1b532613">Ashley Hromatko</a>
+  </div>
+  <div class="inline-block mr-6">
+    <a href="https://www.linkedin.com/in/jasongrhoades">
+      <img src="/img/updates/speaker-4.png" width="250">
+    </a>
+    <a href="https://www.linkedin.com/in/jasongrhoades">Jason Rhoades</a>
+  </div>
+  <div class="inline-block mr-6">
+    <a href="https://www.linkedin.com/in/jrstorment">
+      <img src="/img/updates/speaker-1.png" width="250">
+    </a>
+    <a href="https://www.linkedin.com/in/jrstorment">J.R. Storment</a>
+  </div>
+</div>
 
 ## Giveaways
 
 The first 100 people on the zoom get a coupon for a free t-shirt and 25% off self-paced training.
+
+---
 
 # June State of FinOps Update
 
@@ -55,7 +76,9 @@ Over 500 people joined our June FinOps Summit last week. Watch the recording on 
 
 ## June FinOps Summit Recording
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/FziyJt-GIDY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="videoWrapper mb-10">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/FziyJt-GIDY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 ## June Summit Agenda
 
@@ -73,52 +96,60 @@ This month's member summit is on June 10 from 8am - 10am Pacific Time. There wil
 
 Approved members will receive an invite with zoom details. Didn't get one? Complete or update your info at https://www.finops.org/membership/ or check [#events](https://finopsfoundation.slack.com/archives/CHM83DGQ4) in Slack.
 
-## May Summit Recording
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/meWi2xj1JGY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-## New Members
-
-A warm welcome to our new Slack members in #intros :
-@Adriana Vazquez  (YPF, Argentina)
-@Drew Lowe (Hulu) (USA)
-@Nikolay Druganov (Telstra, Australia)
-@Tom Cutajar (Atlassian) (Australia)
-@Luke de Merindol (Maquarie Cloud Services) (Australia)
-@Michel Declercq (Devoteam BE) (Belgium)
-@Nilton Tetsuo Ideriha (CIandT) (CI&T, Brazil)
-@Carlos Alberto (Valcann, Brazil)
-@Stoyan Zulyamski (Costimize) (Bulgaria)
-@Daniel Zivkovic (Serverless Toronto, Canada)
-@Colin Maynard (Telus Health Solutions, Canada)
-@Kevin LaRoche (Canada)
-@Krista MacDonald ( Jazz Aviation LP, Canada)
-@Paweł Damian (Allegro, Poland)
-@Nathan Graham (Western Cape Government, South Africa)
-@Rakesh Limbachia (ReAssure, UK)
-@Yujun Liang (AIG, UK)
-@Ryan Scott (Thomson Reuters, USA)
-@Ron Tatro (Target) (Target, USA)
-@TM Hew (Utegration) (USA)
-@Noe Zuniga (JP Morgan Chase) (USA)
-@Joan Kreca (Lennar Corp, USA)
-@Kevin Scheer (Cardinal Health, USA)
-@David Hoff (Google Cloud) (USA)
-@Puja Kosarkar (Epsilon, USA)
-@Austin Farris (Command Alkon Inc.) (USA)
-@Robert Wellman (Granicus, USA)
-@John Livingston (Mindbody) (USA)
-@Jerry Hess (Hennepin County, USA)
-@Huey How (Ivanti, USA)
---> Friendly reminder to all to make say hi in #intros and to rename your user to {Name} (Company). Like this: @Stacy Case (FinOps Foundation).
+---
 
 # May State of FinOps Update
 
 In April, we had 492 people join our live FinOps member call (April summary here). We're back with a packed line-up for the May!!
 
+## May Summit Recording
+
+<div class="videoWrapper mb-10">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/meWi2xj1JGY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+## New Members
+
+A warm welcome to our new Slack members in #intros :  
+@Adriana Vazquez  (YPF, Argentina)  
+@Drew Lowe (Hulu) (USA)  
+@Nikolay Druganov (Telstra, Australia)  
+@Tom Cutajar (Atlassian) (Australia)  
+@Luke de Merindol (Maquarie Cloud Services) (Australia)  
+@Michel Declercq (Devoteam BE) (Belgium)  
+@Nilton Tetsuo Ideriha (CIandT) (CI&T, Brazil)  
+@Carlos Alberto (Valcann, Brazil)  
+@Stoyan Zulyamski (Costimize) (Bulgaria)  
+@Daniel Zivkovic (Serverless Toronto, Canada)  
+@Colin Maynard (Telus Health Solutions, Canada)  
+@Kevin LaRoche (Canada)  
+@Krista MacDonald ( Jazz Aviation LP, Canada)  
+@Paweł Damian (Allegro, Poland)  
+@Nathan Graham (Western Cape Government, South Africa)  
+@Rakesh Limbachia (ReAssure, UK)  
+@Yujun Liang (AIG, UK)  
+@Ryan Scott (Thomson Reuters, USA)  
+@Ron Tatro (Target) (Target, USA)  
+@TM Hew (Utegration) (USA)  
+@Noe Zuniga (JP Morgan Chase) (USA)  
+@Joan Kreca (Lennar Corp, USA)  
+@Kevin Scheer (Cardinal Health, USA)  
+@David Hoff (Google Cloud) (USA)  
+@Puja Kosarkar (Epsilon, USA)  
+@Austin Farris (Command Alkon Inc.) (USA)  
+@Robert Wellman (Granicus, USA)  
+@John Livingston (Mindbody) (USA)  
+@Jerry Hess (Hennepin County, USA)  
+@Huey How (Ivanti, USA)  
+
+--> Friendly reminder to all to make say hi in #intros and to rename your user to {Name} (Company). Like this: @Stacy Case (FinOps Foundation).
+
+
 ## May Preview Video
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Dq4CaYwq8gw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<div class="videoWrapper mb-10">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/Dq4CaYwq8gw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 ## May FinOps Mini-Summit Agenda 
 
@@ -135,13 +166,15 @@ This month's member summit is on May 13th from 8am - 10am Pacific Time.
 
 Approved members will receive an invite with zoom details. Didn't get one? Email membership@finops.org or check [#events](https://finopsfoundation.slack.com/archives/CHM83DGQ4) in Slack.
 
-## April Summit Recording
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ck8EbE38MNs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<br/><br/>
+---
 
 # April State of FinOps Update
+
+## April Summit Recording
+
+<div class="videoWrapper mb-10">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/ck8EbE38MNs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 ## Member Call Recording
 
@@ -187,5 +220,3 @@ May 13 at 8am Pacific. Watch for your invite via email!
 - Announce upcoming relevant vendor webinars 
 - Framework updates: adding your story
 - Breakout rooms in the end tied to WGs/SIGs
-
-
