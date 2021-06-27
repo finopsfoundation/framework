@@ -6,7 +6,7 @@ layout: member
 name: DoiT International
 logo-url: "/vendor-members/logos/doit-logo.svg"
 linkedin-url: "https://www.linkedin.com/company/doitintl/"
-webiste-url: "https://www.doit-intl.com/"
+website-url: "https://www.doit-intl.com/"
 
 # Maximum character count is 350 the rest will be truncated and hidden automatically on your page
 company-description: DoiT International is a global multi-cloud software and managed service provider with deep expertise in Kubernetes, Machine Learning, and Big Data and the leading global cloud consulting company and strategic partner of Google Cloud and AWS. We tackle complex problems with a unique portfolio of technology, products and services to support fast-growing companies to scale their businesses in the cloud.
@@ -23,30 +23,29 @@ certified-status:
 
 
 # Product(s) or service overview maximum character count is 1000 the rest will be truncated and hidden automatically on your page
-product-overview: "The DoiT Cloud Management Platform (CMP) is an ML-powered, intelligent platform that enables FinOps-minded companies to:
+product-overview: | 
+  The DoiT Cloud Management Platform (CMP) is an ML-powered, intelligent platform that enables FinOps-minded companies to:  
 
-1) Allocate, budget, forecast, and report on cloud costs in a manner that aligns directly to how their business is organized
+  1) Allocate, budget, forecast, and report on cloud costs in a manner that aligns directly to how their business is organized  
 
-2) Find opportunities to optimize their multi-cloud spend and directly save operating costs
+  2) Find opportunities to optimize their multi-cloud spend and directly save operating costs  
 
-3) Define the rules by which their cloud environment should operate, proactively alert them when things inevitably change, and take corrective action appropriately
+  3) Define the rules by which their cloud environment should operate, proactively alert them when things inevitably change, and take corrective action appropriately  
 
-4) Automatically detect operating anomalies that clients may not be looking for
+  4) Automatically detect operating anomalies that clients may not be looking for  
 
-5) Create and manage temporary cloud environments that are securely governed
+  5) Create and manage temporary cloud environments that are securely governed  
 
-6) Maintain a direct line of support and services communication to our global team of Cloud Ops and FinOps experts at DoiT"
+  6) Maintain a direct line of support and services communication to our global team of Cloud Ops and FinOps experts at DoiT  
 
 product-video-url: Available upon request
 
 # Related product or service resources, the titles will have associated URLs, e.g. product 
 product-resources:
-- title:
+- title: Help Center for all things Cloud Management Platform
   url: "https://help.doit-intl.com/"
-- title:
+- title: Cloud Management Platform API Developer Hub
   url: "https://developer.doit-intl.com/"
-- title:
-  url:
 
 # Supported functions in the framework by the product(s) or service, these need to match the menu spelling to add a link automatically, ones listed are examples
 supported-functions:
@@ -84,13 +83,10 @@ member-year: 2020
 recent-finops-activity:
 - title: Flexible Reservations for AWS - 
   url: "https://blog.doit-intl.com/flexible-reservations-3529c9c95ea0"
-  date: 21st May 2021
 - title: The Hidden Costs of Google Compute Engine IPs
   url: "https://blog.doit-intl.com/the-hidden-costs-of-google-compute-engine-ips-2376f9fdc832"
-  date: 5th May 2021
 - title: 7 Tips for Forecasting Cloud Costs
   url: "https://blog.doit-intl.com/seven-tips-for-predicting-the-future-with-facebooks-prophet-51cf8d6c89dc"
-  date: 8th February 2021
 
 # Dedicated slack channel
 slack:
@@ -102,6 +98,5 @@ number-of-focp:
 
 # List the key contribution areas in the FinOps Foundation, examples listed 
 contribution-areas:
-- 
 
 ---

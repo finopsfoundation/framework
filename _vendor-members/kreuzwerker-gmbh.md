@@ -6,7 +6,7 @@ layout: member
 name: Kreuzwerker GmbH
 logo-url: /vendor-members/logos/kreuzwerker-logo.png
 linkedin-url: "https://www.linkedin.com/company/2392223/"
-webiste-url: "https://kreuzwerker.de/en"
+website-url: "https://kreuzwerker.de/en"
 
 # Maximum character count is 350 the rest will be truncated and hidden automatically on your page
 company-description: Digital technology is a genuine and honest craft for us. We migrate, accelerate, network, make everything more agile and smooth - we also provide clarity for complex problems. We advise and coach digital autonomy. We plan and implement digital technologies that make companies more successful beyond these technologies.
@@ -18,25 +18,22 @@ type:
 - Service Provider
 
 certified-status:
-- FCSP
+- FinOps Certified Service Provider
 
 # Product(s) or service overview maximum character count is 1000 the rest will be truncated and hidden automatically on your page 
-product-overview: "Cloud Engineering Consulting
+product-overview: |
+  Cloud Engineering Consulting
 
-- Individual Engineering
-- Agile Consulting & Coaching
-- Atlassian Consulting
-- Cloud Consulting
-- (Managed) Operations"
+  - Individual Engineering
+  - Agile Consulting & Coaching
+  - Atlassian Consulting
+  - Cloud Consulting
+  - (Managed) Operations"
 
 product-video-url:
 
 # Related product or service resources, the titles will have associated URLs, e.g. product
 product-resources:
-- title:
-  url:
-- title:
-  url:
 - title:
   url:
 
@@ -54,13 +51,10 @@ member-year:
 recent-finops-activity:
 - title: "(Interview) Eurocloud and Oliver Gehrmann: FinOps: Mehr Werte aus der Cloud schöpfen"
   url: "https://www.eurocloudnative.de/finops-mehr-werte-aus-der-cloud-schoepfen/"
-  date:
 - title: (Case Study) Destination Cost Optimization - FinOps @ Deutsche Bahn Traveler Information
   url: "https://kreuzwerker.de/en/case/Destination-Cost-Optimization-FinOps-at-Deutsche-Bahn"
-  date:
 - title: (Webinar) Getting started with FinOps - Oliver Gehrmann & J.R. Storment
   url: "https://vimeo.com/505120777"
-  date:
 
 
 # Dedicated slack channel

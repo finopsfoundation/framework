@@ -6,7 +6,7 @@ layout: member
 name: Apptio
 logo-url: "https://assets.apptio.com/m/37072584dc77c730/original/Apptio-Product-Logo-Cloudability-with-Apptio-Horizontal-Black-Vector.svg"
 linkedin-url: "https://www.linkedin.com/company/apptio/"
-webiste-url: "https://www.apptio.com/"
+website-url: "https://www.apptio.com/"
 
 # Maximum character count is 350 the rest will be truncated and hidden automatically on your page
 company-description: Founded in 2007, Apptio is the leading provider of cloud-based IT financial management software. Our applications connect technology investments to business priorities, engage business stakeholders to drive cross-functional accountability, and improve the efficiency of hybrid IT resources. Cloudability by Apptio is the original FinOps solution.
@@ -77,13 +77,10 @@ member-year: 2019
 recent-finops-activity:
 - title: The State of FinOps 2021 How to build out a FinOps Practice
   url: "https://www.apptio.com/resources/webinars/state-finops-2021-how-to-build-finops-practice/"
-  date:
 - title: Policy Driven Rightsizing – Enabling Engineers to Take Action with Apptio and Atlassian
   url: "https://www.apptio.com/blog/policy-driven-rightsizing/"
-  date:
 - title: Tackling Three Leading FinOps Challenges with Apptio Cloudability
   url: "https://www.apptio.com/blog/tackling-three-leading-finops-challenges/"
-  date:
 
 # Dedicated slack channel
 slack:

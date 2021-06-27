@@ -6,7 +6,7 @@ layout: member
 name: Kubecost
 logo-url: "/vendor-members/logos/kubecost-logo.png"
 linkedin-url: "https://www.linkedin.com/company/stackwatch/"
-webiste-url: "https://www.kubecost.com/"
+website-url: "https://www.kubecost.com/"
 
 # Maximum character count is 350 the rest will be truncated and hidden automatically on your page
 company-description: Kubecost is the leading open source Kubernetes cloud cost monitoring tool. Built for teams running Kubernetes, deployable in 5 minutes, Kubecost makes it easy for developers to monitor and optimize cloud infrastructure spend. We empower over 1000 teams to manage spend—helping them balance cost, performance, and reliability.
@@ -18,12 +18,12 @@ type:
 - Service Provider
 
 certified-status:
-- FCP
+- FinOps Certified Platform
 
 # Product(s) or service overview maximum character count is 1000 the rest will be truncated and hidden automatically on your page 
 product-overview: Kubecost is the easiest way for engineers to manage cloud costs, empowering teams to monitor and optimize their Kubernetes environment. Available as open source (Apache v2), it can be installed with a helm command in less than 5 minutes on any Kubernetes cluster. It provides a comprehensive view of all in-cluster and out-of-cluster cloud spend, enabling accurate showbacks, chargebacks, monitoring, and alerting. With AWS, Azure, and GCP billing integrations, Kubecost gives teams full visibility into the cost and efficiency of their modern multi-cloud infrastructure. We support on-premise and air-gapped environments for teams operating within the strictest security requirements and data export regulations. Our customer-favorite rightsizing recommendations provide customized guidance based on the user's environment and behavior patterns. With Enterprise, users get additional support for multi-cluster, SSO/SAML, unlimited data retention, added alerting capabilities, and dedicated support.
 
-product-video-url: "https://youtu.be/OGwb_-Nkfek"
+product-video-url: "https://www.youtube.com/embed/OGwb_-Nkfek"
 
 # Related product or service resources, the titles will have associated URLs, e.g. product -->
 product-resources:
@@ -73,13 +73,6 @@ member-year: 2020
 recent-finops-activity:
 - title: "Member Call: FinOps for Kubernetes Whitepaper Panel Discussion, Nov 2020"
   url: "https://www.finops.org/blog/member-call-finops-for-kubernetes-whitepaper-panel-discussion/"
-  date:
-- title:
-  url:
-  date:
-- title:
-  url:
-  date:
 
 # Dedicated slack channel
 slack:

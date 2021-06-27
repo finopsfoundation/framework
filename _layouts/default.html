@@ -56,11 +56,12 @@ layout: basic
 
   {% if page.collection == 'vendor-members' %}
     <div class="w-100 md:w-2/12">
-      <div class="p-4 bg-gray-100 rounded-md">
+      <div class="p-4 bg-gray-100 rounded-md mb-6 shadow-md">
         <h1 class="text-md font-semibold text-gray-700 tracking-wider uppercase mb-2">{{ page.name }}</h1>
         <ul>
           <li class="text-sm"><span class="font-semibold">Joined:</span> {{ page.member-year }}</li>
-          <li class="text-sm"><span class="font-semibold">Supports:</span> 
+          {% if page.clouds-supported != undefined %}
+            <li class="text-sm"><span class="font-semibold">Supports:</span> 
             {% for cloud in page.clouds-supported %} 
               {% if forloop.last %}
                 {{ cloud }}
@@ -68,9 +69,19 @@ layout: basic
                 {{ cloud }},
               {% endif %}
             {% endfor %}</li>
-          <li class="text-sm"><span class="font-semibold">Certified FinOps Practitioners:</span> {{ page.number-of-focp }}</li>
-          <li class="text-sm"><span class="font-semibold">Slack channel:</span> <a href="{{ page.slack.url }}" class="hover:text-green-500">{{ page.slack.title }}</a></li>
+          {% endif %}
+          {% if page.number-of-focp != undefined %}
+            <li class="text-sm"><span class="font-semibold">Certified FinOps Practitioners:</span> {{ page.number-of-focp }}</li>
+          {% endif %}
+          {% if page.slack.url != undefined %}
+            <li class="text-sm"><span class="font-semibold">Slack channel:</span> <a href="{{ page.slack.url }}" class="hover:text-green-500">{{ page.slack.title }}</a></li>
+          {% endif %}
         </ul>
+      </div>
+      <div class="text-center">
+        {% if page.website-url != undefined %}
+          <a href="{{ page.website-url  }}" class="btn">Visit website</a>
+        {% endif %}
       </div>
     </div>
   {% endif %}

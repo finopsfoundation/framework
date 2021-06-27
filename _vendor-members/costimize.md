@@ -6,7 +6,7 @@ layout: member
 name: Costimize
 logo-url: "/vendor-members/logos/costimize-logo.png"
 linkedin-url: "https://www.linkedin.com/company/costimize"
-webiste-url: "https://costimize.io/"
+website-url: "https://costimize.io/"
 
 # Maximum character count is 350 the rest will be truncated and hidden automatically on your page
 company-description: "Costimize vision and mission is to proactively simplify the complexity of managing Google Cloud ecosystems. We want to make Google Cloud easy for everyone to participate, so the engineering and financial hurdles get visualized and acted upon.
@@ -22,12 +22,13 @@ type:
 - Platform Provider
 
 certified-status:
-- FCP
+- FinOps Certified Platform
 
 # Product(s) or service overview maximum character count is 1000 the rest will be truncated and hidden automatically on your page 
-product-overview: "Costimize.io is an enterprise SaaS solution for Governance, FinOps, and Cost Management in Google Cloud. You can sign-up in under 3 minutes, start using the standardized and automated processes with action-driven recommendations, and save up to 70% of your total cost. It provides a set of specialized solutions that lays out the right technical and financial foundation for your DevOps & FinOps teams to manage cloud cost seamlessly and achieve budget compliance.
+product-overview: | 
+  Costimize.io is an enterprise SaaS solution for Governance, FinOps, and Cost Management in Google Cloud. You can sign-up in under 3 minutes, start using the standardized and automated processes with action-driven recommendations, and save up to 70% of your total cost. It provides a set of specialized solutions that lays out the right technical and financial foundation for your DevOps & FinOps teams to manage cloud cost seamlessly and achieve budget compliance.
 
-Costimize.io is built on top of GCP with the latest cloud-native and SaaS concepts for best security, availability, and scalability."
+  Costimize.io is built on top of GCP with the latest cloud-native and SaaS concepts for best security, availability, and scalability.
 
 
 product-video-url:
@@ -76,13 +77,8 @@ member-year: 2021
 recent-finops-activity:
 - title: GCP Labeling — get better observability of your cloud resources
   url: "https://medium.com/costimize/labelling-c5d39581eba8"
-  date: Dec 7, 2020
 - title: How to efficiently manage your BigQuery spend … And automate it
   url: "https://medium.com/costimize/how-to-efficiently-manage-your-bigquery-spend-7a2310e2265a"
-  date: Mar 29, 2021
-- title:
-  url:
-  date:
 
 # Dedicated slack channel
 slack:

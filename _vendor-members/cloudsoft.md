@@ -6,7 +6,7 @@ layout: member
 name: Cloudsoft
 logo-url: "https://cloudsoft.io/hubfs/Cloudsoft_darklogo_RGB@2x.png"
 linkedin-url: "https://www.linkedin.com/company/1400731"
-webiste-url: "https://www.cloudsoft.io"
+website-url: "https://www.cloudsoft.io"
 
 # Maximum character count is 350 the rest will be truncated and hidden automatically on your page
 company-description: Cloudsoft specialise in applications, automation and the cloud. Our top-down, application-centric approach empowers our customers to tame their IT estates and drive value. This expertise is embedded in Tempo cloud services, helping our clients to transform faster and exploit the benefits of cloud. We’re an AWS Advanced Consulting Partner.
@@ -18,7 +18,7 @@ type:
 - Service Provider
 
 certified-status:
-- FCSP
+- FinOps Certified Service Provider
 
 # Product(s) or service overview maximum character count is 1000 the rest will be truncated and hidden automatically on your page
 product-overview: Services for success. Cloudsoft provide expert professional and managed services around cloud strategy, migration, modernisation, cost optimisation and much more. We recognise that cloud is not just an IT project, and cost optimisation is one piece of this puzzle. We work with you to solve both the technical challenges of adopting, migrating to and optimising your use of the Cloud and also to help your organisation embrace the benefits of agility, security and
@@ -69,13 +69,10 @@ member-year: 2019
 recent-finops-activity:
 - title: Webinar on Cloud cost optimisation 
   url: "https://cloudsoft.io/events/cloud-pathway-25-02-2021"
-  date: 25th February 2021
 - title: Blog on Why FinOps matters for Cloud Cost Management
   url: "https://cloudsoft.io/blog/why-finops-matters"
-  date: 4th March 2021
 - title: Blog on Understanding, controlling and reducing Cloud costs
   url: "https://cloudsoft.io/blog/maximise-business-value-with-finops"
-  date: 17th March 2021 
 
 # Dedicated slack channel
 slack:

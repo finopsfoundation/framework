@@ -6,7 +6,7 @@ layout: default
 name: 
 logo-url:
 linkedin-url:
-webiste-url:
+website-url:
 
 # Maximum character count is 350 the rest will be truncated and hidden automatically on your page
 company-description:
@@ -21,9 +21,9 @@ type:
 - Training Provider
  
 certified-status:
-- FCSP
-- FCP
-- FTP
+- FinOps Certified Service Provider
+- FinOps Certified Platform
+- FinOps Training Partner
 
 # Product(s) or service overview maximum character count is 1000 the rest will be truncated and hidden automatically on your page 
 product-overview:

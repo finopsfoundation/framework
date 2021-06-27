@@ -6,7 +6,7 @@ layout: member
 name: TechNative
 logo-url: "https://www.technative.nl/wp-content/uploads/2021/02/img_logo.svg"
 linkedin-url: "https://nl.linkedin.com/company/technative-bv"
-webiste-url: "https://www.technative.nl"
+website-url: "https://www.technative.nl"
 
 # Maximum character count is 350 the rest will be truncated and hidden automatically on your page
 company-description: "At TechNative we enable and guide you to build, optimize, and manage your cloud with the best tools and services. You will get access to real expertise and Finops methodologies needed to make your cloud is more scalable and reliable combined.
@@ -22,8 +22,8 @@ type:
 - Training Provider
 
 certified-status:
-- FCSP
-- FTP
+- FinOps Certified Service Provider
+- FinOps Training Partner
 
 # Product(s) or service overview maximum character count is 1000 the rest will be truncated and hidden automatically on your page
 product-overview: We offer several services including Cloud Financial Management, FinOps trainings and. guidance in adopting FinOps as a methodology
@@ -55,13 +55,10 @@ member-year: 2020
 recent-finops-activity:
 - title:
   url:
-  date:
 - title:
   url:
-  date:
 - title:
   url:
-  date:
 
 # Dedicated slack channel
 slack:

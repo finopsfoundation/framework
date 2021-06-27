@@ -6,7 +6,7 @@ layout: member
 name: Virtasant
 logo-url: "https://uploads-ssl.webflow.com/60483a046027179143a09d64/606e15b95f5633785ffd4d92_Group%20(2).svg"
 linkedin-url: "https://www.linkedin.com/company/65404237/"
-webiste-url: "https://www.virtasant.com"
+website-url: "https://www.virtasant.com"
 
 # Maximum character count is 350 the rest will be truncated and hidden automatically on your page
 company-description: Virtasant is a cloud technology company that specializes in helping organizations leverage the power of public cloud platforms. The company's mission is to provide organizations with the ability to drive outcomes on-demand by leveraging Virtasant's proprietary methods, tools, and automation, supported by a highly-vetted global network of experts.
@@ -21,16 +21,17 @@ type:
 - Training Provider
 
 certified-status:
-- FCSP
-- FCP
-- FTP
+- FinOps Certified Service Provider
+- FinOps Certified Platform
+- FinOps Training Partner
 
 # Product(s) or service overview maximum character count is 1000 the rest will be truncated and hidden automatically on your page
-product-overview: "Virtasant’s Cloud Optimization solution provides end-to-end cloud optimization capabilities to support Cloud FinOps programs. It includes program setup, global cloud expertise, and a proprietary technology platform that offers complete end-to-end automation to manage optimization programs and optimize cloud resources.
+product-overview: |
+  Virtasant’s Cloud Optimization solution provides end-to-end cloud optimization capabilities to support Cloud FinOps programs. It includes program setup, global cloud expertise, and a proprietary technology platform that offers complete end-to-end automation to manage optimization programs and optimize cloud resources.
 
-Our unique platform provides real-time insights into cloud spend, gives recommendations, and implements automated resolutions - reducing costs by over 50%. Continuous cloud optimization goes beyond simple configuration. We identify opportunities to improve scalability and reduce spend through re-architecture, consolidation, and simplification. The platform easily integrates with a wide range of data sources.
+  Our unique platform provides real-time insights into cloud spend, gives recommendations, and implements automated resolutions - reducing costs by over 50%. Continuous cloud optimization goes beyond simple configuration. We identify opportunities to improve scalability and reduce spend through re-architecture, consolidation, and simplification. The platform easily integrates with a wide range of data sources.
 
-Our offering is outcome-based: our fees are based on results, not software licenses or billable hours. If you don’t reduce cloud spend and improve cloud efficiency, you don’t pay. We can do this because we know our solution can help you meet your goals."
+  Our offering is outcome-based: our fees are based on results, not software licenses or billable hours. If you don’t reduce cloud spend and improve cloud efficiency, you don’t pay. We can do this because we know our solution can help you meet your goals.
 
 product-video-url:
 
@@ -78,13 +79,10 @@ member-year: 2020
 recent-finops-activity:
 - title: "How to reduce cloud waste at scale: takeaways from the FinOps webinar"
   url: "https://www.virtasant.com/blog/how-to-reduce-cloud-waste-at-scale-takeaways-from-our-finops-webinar"
-  date:
 - title: How FinOps changed the way businesses approach the cloud
   url: "https://www.virtasant.com/blog/how-finops-changed-the-way-businesses-approach-the-cloud"
-  date:
 - title: Why Cloud Financial Management is core to business survival
   url: "https://www.virtasant.com/blog/why-cloud-financial-management-is-core-to-business-survival"
-  date:
 
 # Dedicated slack channel
 slack:

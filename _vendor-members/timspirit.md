@@ -6,7 +6,7 @@ layout: member
 name: Timspirit
 logo-url: "/vendor-members/logos/timspirit-logo.png"
 linkedin-url: "https://fr.linkedin.com/company/timspirit"
-webiste-url: "https://timspirit.fr/"
+website-url: "https://timspirit.fr/"
 
 # Maximum character count is 350 the rest will be truncated and hidden automatically on your page
 company-description: As a committed consulting firm, Timspirit supports the transformation of IT departments and digital players. For more than 10 years, our consultants have been accompanying our clients to turn their ambitions into business, technical and human success. We support our clients in 4 complementary specialties Smart Sourcing, Agile Xperience, Service Excellence and Transform to Cloud. In all these areas, we provide strategy, transformation, operational support and training.
@@ -19,9 +19,9 @@ type:
 - Training Provider
 
 certified-status:
-- FCSP
-- FCP
-- FTP
+- FinOps Certified Service Provider
+- FinOps Certified Platform
+- FinOps Training Partner
 
 # Product(s) or service overview maximum character count is 1000 the rest will be truncated and hidden automatically on your page
 product-overview:
@@ -54,13 +54,10 @@ member-year: 2020
 recent-finops-activity:
 - title: How to add value to your journey to the Cloud webinar with Apptio
   url: "https://respond.apptio.com/FR-journey-to-cloud-webinar-registration.html"
-  date:
 - title: The first open source framework for FinOps best practices
   url: "https://finops.world"
-  date:
 - title: "FinOps: 4 views on the issues"
   url: "https://www.silicon.fr/finops-4-regards-croises-sur-les-enjeux-404273.html#"
-  date:
 
 # Dedicated slack channel
 slack:

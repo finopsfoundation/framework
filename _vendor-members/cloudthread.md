@@ -6,7 +6,7 @@ layout: member
 name: Cloudthread
 logo-url: "https://static.wixstatic.com/media/cda2cb_4191e1ef227240dab2ccc56f5307c55e~mv2.png"
 linkedin-url: "https://www.linkedin.com/company/cloudthread"
-webiste-url: "https://www.cloudthread.io/"
+website-url: "https://www.cloudthread.io/"
 
 # Maximum character count is 350 the rest will be truncated and hidden automatically on your page
 company-description: Cloudthread makes it easy for engineering teams to be cost conscious and allows cloud finance teams to maintain end-to-end cost accountability.
@@ -18,7 +18,7 @@ type:
 - Platform Provider
 
 certified-status:
-- FCP
+- FinOps Certified Platform
 
 # Product(s) or service overview maximum character count is 1000 the rest will be truncated and hidden automatically on your page
 product-overview: Cloudthread combines cloud billing data with application performance telemetry to report engineering-focused cloud cost unit metrics (e.g. $ / endpoint, $ / query) through the tools engineering teams are already using (e.g. New Relic, Splunk, Datadog). This gives a convenient way for engineering teams to act in accordance with cost efficiency requirements they are increasingly getting from finance teams.
@@ -27,10 +27,6 @@ product-video-url:
 
 # Related product or service resources, the titles will have associated URLs, e.g. product
 product-resources:
-- title:
-  url:
-- title:
-  url:
 - title:
   url:
 
@@ -52,13 +48,10 @@ member-year: 2021
 recent-finops-activity:
 - title:
   url:
-  date:
 - title:
   url:
-  date:
 - title:
   url:
-  date:
 
 # Dedicated slack channel
 slack:
