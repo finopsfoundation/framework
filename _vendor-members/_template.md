@@ -64,13 +64,10 @@ linux-foundation-member-status:
 recent-finops-activity:
 - title:
   url:
-  date:
 - title:
   url:
-  date:
 - title:
   url:
-  date:
 
 # Detail related/dedicated slack channels in the FinOps Foundation Slack 
 slack-channels:
