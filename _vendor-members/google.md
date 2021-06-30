@@ -57,7 +57,7 @@ clouds-supported:
 - Private Cloud
 
 # FinOps Foundation Member since 
-date: 2020-08-01
+date: 2020-08-02
 
 # Show recent related FinOps activity, it can be content, webinars, thought leadership and include external links
 recent-finops-activity:
