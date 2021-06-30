@@ -1,10 +1,11 @@
 ---
 # Please do not alter layout as it will break the vendor page
 layout: member
+temporary: true
 
 # Vendor details
-name: 
-logo-url:
+name: Deloitte 
+logo-url: "/vendor-members/logos/deloitte.svg"
 linkedin-url:
 website-url:
 
@@ -56,7 +57,7 @@ clouds-supported:
 - Private Cloud
 
 # FinOps Foundation Member since 
-member-year: 
+date: 2021-06-01
 
 # Show recent related FinOps activity, it can be content, webinars, thought leadership and include external links
 recent-finops-activity:

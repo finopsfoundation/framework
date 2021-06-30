@@ -1,7 +1,8 @@
 ---
 
 layout: default
-title: vendor test
+title: FinOps Foundation Vendor Members
+description: Find out the details on vendor members and their associated FinOps materials, products and services.
 
 ---
 
@@ -9,8 +10,8 @@ title: vendor test
 <h2>Premier Members</h2>
 
 <div class="flex flex-wrap items-stretch mt-6 mb-10">
-
-{% for vendor in site.vendor-members %}
+{% assign sortedpremier = site.vendor-members | sort: 'date' %}
+{% for vendor in sortedpremier %}
 	{% if vendor.member-level == 'premier' %}
 
 	<div class="md:w-2/6 p-3 flex items-stretch">
@@ -30,7 +31,9 @@ title: vendor test
 
 <div class="flex flex-wrap items-stretch mt-6 mb-10">
 
-{% for vendor in site.vendor-members %}
+{% assign sortedgeneral = site.vendor-members | sort: 'name' %}
+
+{% for vendor in sortedgeneral %}
 	{% if vendor.member-level == 'general' %}
 
 	<div class="md:w-2/6 p-3 flex items-stretch">

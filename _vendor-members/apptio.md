@@ -4,7 +4,7 @@ layout: member
 
 # Vendor details
 name: Apptio
-logo-url: "https://assets.apptio.com/m/37072584dc77c730/original/Apptio-Product-Logo-Cloudability-with-Apptio-Horizontal-Black-Vector.svg"
+logo-url: "/vendor-members/logos/cloudability.svg"
 linkedin-url: "https://www.linkedin.com/company/apptio/"
 website-url: "https://www.apptio.com/"
 
@@ -71,7 +71,7 @@ clouds-supported:
 - Private Cloud
 
 # FinOps Foundation Member since 
-member-year: 2019
+date: 2020-08-01
 
 # Show recent related FinOps activity, it can be content, webinars, thought leadership and include external links
 recent-finops-activity:

@@ -59,7 +59,7 @@ layout: basic
       <div class="p-4 bg-gray-100 rounded-md mb-6 shadow-md">
         <h1 class="text-md font-semibold text-gray-700 tracking-wider uppercase mb-2">{{ page.name }}</h1>
         <ul>
-          <li class="text-sm"><span class="font-semibold">Joined:</span> {{ page.member-year }}</li>
+          <li class="text-sm"><span class="font-semibold">Joined:</span> {{ page.date | date: "%B %Y" }}</li>
           {% if page.clouds-supported != undefined %}
             <li class="text-sm"><span class="font-semibold">Supports:</span> 
             {% for cloud in page.clouds-supported %} 

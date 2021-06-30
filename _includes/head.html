@@ -2,8 +2,8 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-  <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+  <title>{% if page.collection == 'vendor-members' %}{{ page.name | append: " FinOps FOundation Profile" }}{% elsif page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <meta name="description" content="{% if page.collection == 'vendor-members' %}{{ page.company-description | truncate: 155 }}{% elsif page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
   {% if jekyll.environment != 'production' %}
     <meta name="robots" content="noindex, nofollow" />
   {% endif %}

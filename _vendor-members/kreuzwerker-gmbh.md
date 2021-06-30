@@ -12,7 +12,7 @@ website-url: "https://kreuzwerker.de/en"
 company-description: Digital technology is a genuine and honest craft for us. We migrate, accelerate, network, make everything more agile and smooth - we also provide clarity for complex problems. We advise and coach digital autonomy. We plan and implement digital technologies that make companies more successful beyond these technologies.
 
 # Membership level, type and vendor certifications
-member-level: premier
+member-level: general
 
 type: 
 - Service Provider
@@ -45,7 +45,7 @@ clouds-supported:
 - AWS
 
 # FinOps Foundation Member since 
-member-year: 
+date: 2021-01-01
 
 # Show recent related FinOps activity, it can be content, webinars, thought leadership and include external links
 recent-finops-activity:

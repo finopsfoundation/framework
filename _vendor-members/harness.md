@@ -4,7 +4,7 @@ layout: member
 
 # Vendor details
 name: Harness
-logo-url: "https://harness.io/wp-content/themes/harnessio/assets/images/harness-logo.svg"
+logo-url: "/vendor-members/logos/harness.svg"
 linkedin-url: "https://www.linkedin.com/company/harnessinc/mycompany/"
 website-url: "https://harness.io/"
 
@@ -69,7 +69,7 @@ clouds-supported:
 - Private Cloud
 
 # FinOps Foundation Member since 
-member-year: 2021
+date: 2021-01-01
 
 # Show recent related FinOps activity, it can be content, webinars, thought leadership and include external links
 recent-finops-activity:

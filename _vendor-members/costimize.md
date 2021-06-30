@@ -37,10 +37,7 @@ product-video-url:
 product-resources:
 - title: Deep Dive into Cloud Governance
   url: "https://costimize.io/resources/introduction/about-costimize/0/"
-- title:
-  url:
-- title:
-  url:
+
 
 # Supported functions in the framework by the product(s) or service, these need to match the menu spelling to add a link automatically, ones listed are examples
 supported-functions:
@@ -71,7 +68,7 @@ clouds-supported:
 - GCP
 
 # FinOps Foundation Member since 
-member-year: 2021
+date: 2021-01-01
 
 # Show recent related FinOps activity, it can be content, webinars, thought leadership and include external links
 recent-finops-activity:

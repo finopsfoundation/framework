@@ -4,7 +4,7 @@ layout: member
 
 # Vendor details
 name: Cloudsoft
-logo-url: "https://cloudsoft.io/hubfs/Cloudsoft_darklogo_RGB@2x.png"
+logo-url: "/vendor-members/logos/cloudsoft.png"
 linkedin-url: "https://www.linkedin.com/company/1400731"
 website-url: "https://www.cloudsoft.io"
 
@@ -12,7 +12,7 @@ website-url: "https://www.cloudsoft.io"
 company-description: Cloudsoft specialise in applications, automation and the cloud. Our top-down, application-centric approach empowers our customers to tame their IT estates and drive value. This expertise is embedded in Tempo cloud services, helping our clients to transform faster and exploit the benefits of cloud. We’re an AWS Advanced Consulting Partner.
 
 # Membership level, type and vendor certifications
-member-level: premier
+member-level: general
 
 type: 
 - Service Provider
@@ -63,7 +63,7 @@ clouds-supported:
 - AWS
 
 # FinOps Foundation Member since 
-member-year: 2019
+date: 2020-08-01
 
 # Show recent related FinOps activity, it can be content, webinars, thought leadership and include external links
 recent-finops-activity:
