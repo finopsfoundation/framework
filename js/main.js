@@ -86,7 +86,6 @@ function toggleModal(modalID){
 }
 
 
-
 // Accordian
 
 $(function(){
@@ -139,4 +138,29 @@ $('div[data-url]').each(function(){
     var url = $(this).attr('data-url');
     window.location.href = url;
   })
+});
+
+// data attributes and helpers to enable event data on elements
+$(function(){
+  $('.js-label-path').each(function(){
+    var pathname = window.location.pathname;
+    $(this).attr('data-ga-label', pathname);
+  });
+});
+
+// GA event tracking helper
+$('*[data-ga-category]').each(function(){
+  $(this).click(function(){
+    var category = $(this).data('ga-category');
+    var action = $(this).data('ga-action');
+    var label = $(this).data('ga-label');
+    if (typeof gtag !== 'undefined'){
+      gtag('event', action, {
+        'event_category': category,
+        'event_label': label
+      });
+    } else {
+      console.log("Whoa! no ga script");
+    }
+  });
 });
