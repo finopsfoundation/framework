@@ -1,0 +1,98 @@
+---
+
+layout: default
+
+---
+<div class="mb-8 overflow-auto">
+  <img src="{{ page.logo-url }}" alt="{{ page.name }}" width="250" />
+</div>
+
+{% if page.temporary == undefined %}
+
+  <div class="flex flex-wrap">
+  {% for type in page.type %}
+    <div class="bg-gray-100 rounded-md mb-4 mr-4 py-1 px-2 text-sm font-semibold text-gray-700 tracking-wider uppercase">{{ type }}</div>
+  {% endfor %}
+  {% for status in page.certified-status %}
+    <div class="bg-gray-100 rounded-md mb-4 mr-4 py-1 px-2 text-sm font-semibold text-gray-700 tracking-wider uppercase">{{ status }}</div>
+  {% endfor %}
+  </div>
+
+  {% if page.company-description != undefined %}
+    <p>{{ page.company-description }}</p>
+    <hr />
+  {% endif %}
+
+  {% if page.product-overview != undefined %}
+    <h2>Product or Service Overview</h2>
+    <p>{{ page.product-overview | markdownify }}</p>
+  {% endif %}
+
+
+  {% if page.product-video-url != undefined %}
+    <div class="mt-10">
+      {% if page.product-video-url contains 'wistia' %}
+      <!-- example_embed_link.html -->
+      <script charset="ISO-8859-1" src="//fast.wistia.com/assets/external/E-v1.js" async></script>
+      <div class="wistia_embed wistia_async_{{ page.product-video-id }}" style="height:360px;width:640px">&nbsp;</div>
+
+      {% elsif page.product-video-url contains 'youtu' %}
+        <div class="videoWrapper mb-10">
+          <iframe width="560" height="315" src="{{ page.product-video-url }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      {% elsif page.product-video-url contains 'vimeo' %}
+        <div class="videoWrapper mb-10">
+          <iframe src="{{ page.product-video-url }}" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      {% endif %}
+    </div>
+  {% endif %}
+
+  {% if page.product-resources[0].url != undefined %}
+    <h2>Supporting Resources</h2>
+    <ul>
+    {% for resource in page.product-resources %}
+    <li>
+      <a href="{{ resource.url }}" data-ga-category="vendor" data-ga-action="internal link clicks" data-ga-label="{{ page.name }} - {{ resource.title }}">{{ resource.title }}</a>
+    </li>
+    {% endfor %}
+    </ul>
+  {% endif %}
+
+  {% if page.recent-finops-activity[0].url != undefined %}
+    <h2>Recent FinOps Activity</h2>
+    <ul>
+    {% for activity in page.recent-finops-activity %}
+    <li>
+      <a href="{{ activity.url }}" data-ga-category="vendor" data-ga-action="internal link clicks" data-ga-label="{{ page.name }} - {{ activity.title }}">{{ activity.title }}</a>
+    </li>
+    {% endfor %}
+    </ul>
+  {% endif %}
+
+  {% if page.supported-functions != undefined %}
+    <h2>Supported Framework Functions</h2>
+    <ul>
+    {% for function in page.supported-functions %}
+      <li>{{ function }}</li>
+    {% endfor %}
+    </ul>
+  {% endif %}
+
+  {% if page.contribution-areas != undefined %}
+    <div class="bg-gray-100 px-4 pb-4 overflow-auto mt-10">
+      <h2>Contribution Areas</h2>
+      <ul>
+      {% for contribution in page.contribution-areas %}
+        <li>{{ contribution }}</li>
+      {% endfor %}
+      </ul>
+    </div>
+  {% endif %}
+{% else %}
+  <div class="p-4 bg-gray-100 rounded-md mb-6 shadow-sm">
+    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline mr-4 align-text-bottom" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
+    </svg> We are still working in the content, please check back soon.
+  </div>
+{% endif %}
