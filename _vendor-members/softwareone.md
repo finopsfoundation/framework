@@ -65,7 +65,7 @@ clouds-supported:
 - Azure
 
 # FinOps Foundation Member since 
-date: 2020-01-01
+date: 2020-11-01
 
 # Show recent related FinOps activity, it can be content, webinars, thought leadership and include external links
 recent-finops-activity:

@@ -68,7 +68,7 @@ clouds-supported:
 - GCP
 
 # FinOps Foundation Member since 
-date: 2021-01-01
+date: 2020-08-01
 
 # Show recent related FinOps activity, it can be content, webinars, thought leadership and include external links
 recent-finops-activity:

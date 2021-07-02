@@ -1,6 +1,6 @@
 ---
 # Please do not alter layout as it will break the vendor page
-layout: default
+layout: member
 
 # Vendor details
 name: Strategic Blue Services Limited
@@ -60,7 +60,7 @@ clouds-supported:
 - GCP
 
 # FinOps Foundation Member since 
-date: 2021-01-01
+date: 2021-06-01
 
 # Show recent related FinOps activity, it can be content, webinars, thought leadership and include external links
 recent-finops-activity:
