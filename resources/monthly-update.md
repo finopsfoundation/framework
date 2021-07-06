@@ -7,6 +7,8 @@ title: State of FinOps Update
 
 # July FinOps Summit Agenda
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/r-TdtxhPVkg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 This month's member summit is on July 8 from 8am - 10am Pacific Time. There will be an Asia Pacific timezone friendly event the following week.
 
 ## Keynotes:
