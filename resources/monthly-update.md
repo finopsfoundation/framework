@@ -21,7 +21,7 @@ This month's member summit is on July 8 from 8am - 10am Pacific Time. There will
 
 ## Working Group Updates
 - **[#Intros](https://finopsfoundation.slack.com/archives/CHJRT5M8Q)**: 30 second new practitioner and vendor intros led by Stacy (FinOps)
-- **New Premier Member**: Last month we welcomed Deloitte to our Governing Board, this month we will be announcing another Big 4 firm who is joining the FinOps Foundation as a premier member. Come find out who it is!
+- **New Premier Member**: Last month we welcomed Deloitte to our Governing Board, this month we will be announcing another major GSI who is joining the FinOps Foundation as a premier member. Come find out who it is!
 - **[Multi-Cloud-WG](https://finopsfoundation.slack.com/archives/CNK7WDDEH)**: Get an update on the group's efforts to normalize billing terminology between cloud providers led by Kim (Target)
 - **[FinOps Framework](/)** - Vas Markanastasakis (FinOps Foundation) shares the latest revision to the FinOps Framework.
 - **[Education](/resources/events/#events-training)**: This month's instructor led FinOps Practitioner Certification is led by Ben De Mora (Sky UK)
@@ -35,7 +35,6 @@ This month's member summit is on July 8 from 8am - 10am Pacific Time. There will
 - **Adopting FinOps**
 - **Unit Cost**
 - **Kubernetes (includes Vendor Showcases)**
-- **Multi-Cloud**
 
 ## Speakers
 
