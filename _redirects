@@ -14,3 +14,4 @@ https://framework.finops.org/* https://www.finops.org/:splat 301!
 /challenges/* /projects/:splat
 /projects/accurate-forecasts/ /projects/accurate-cloud-forecasts/
 /what-is-finops/ /introduction/what-is-finops/
+/vendor-members/ /members/
