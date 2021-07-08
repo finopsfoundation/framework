@@ -20,7 +20,7 @@ In addition, organizations often find it challenging to actually execute or acti
 -	Right type/purpose – the type of resource is selected so that there is minimum overhead across all attributes of the resource (for example across CPU, memory and disk). Avoid using a generic resource for specialty tasks.
 -	Right number – dynamically add/remove resources within groups (such as behind load balancers or through pools of compute) as demand fluctuates.
 -	Service selection – Switch to managed services or serverless options that inherently perform the scaling.
-- Right Level of use - Identify resources or services which are being used for intended purpose but may be overpriced based on the value received. (https://www.linkedin.com/pulse/who-pays-watchmen-understand-your-azure-monitor-costs-jan-karstens)
+- Right Level of use - Identify resources or services which are being used for intended purpose but may be overpriced based on the value received. See [this article for examples](https://www.linkedin.com/pulse/who-pays-watchmen-understand-your-azure-monitor-costs-jan-karstens).
 
 ## Maturity Examples
 -	Crawl = Review and implement optimizations on an occasional basis, significant savings can be made by removing obvious waste. Initial choice of resources is based on non-workload data such as vendor datasheets. Most recommendations due to incorrect initial selection of resources or teams provisioning resources and forgetting to decommission them.
@@ -53,5 +53,4 @@ As vendors create more resource types, there will potentially be an increasing a
 -	Multi-Cloud – AWS Well-Architected https://docs.aws.amazon.com/wellarchitected/latest/cost-optimization-pillar/cost-effective-resources.html
 -	Getting engineers to take action by implementing policy driven rightsizing https://www.apptio.com/blog/policy-driven-rightsizing/
 - Strategies for rightsizing container workloads running on public cloud https://www.apptio.com/blog/control-kubernetes-costs-optimize-usage/
-
 
