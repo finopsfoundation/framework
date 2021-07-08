@@ -19,7 +19,7 @@ layout: default
   </div>
 
   {% if page.company-description != undefined %}
-    <p>{{ page.company-description }}</p>
+    <p>{{ page.company-description | markdownify }}</p>
     <hr />
   {% endif %}
 
