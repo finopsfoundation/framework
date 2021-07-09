@@ -165,7 +165,8 @@ If we’ve missed anyone, let us know. We thank you all for your contributions.
 
 ## Appendix
 
-### Relevant Terms and Concepts <div span="terms"></div>
+### Relevant Terms and Concepts 
+<div span="terms"></div>
 
 #### Forecasting
 The projections of financial trends that can adjust as new data is available. It is aimed at helping businesses anticipate results and is also used to help create budgets.
