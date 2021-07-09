@@ -2,25 +2,23 @@
 
 layout: default
 tags: cloud-forecasting
+description: A guide that walks through how finance, operations, and executives build models to forecast cloud spend and allocate budgets to business units.
 
 ---
 
-*NOTE: This playbook is in a draft format and is not final. It is published to preview for an upcoming member demonstration, but undergoing review by the Technical Advisory Council. Expect more changes to come.*
+## Playbook Details
+
+- Status: Graduated
+- Slack room: https://finopsfoundation.slack.com/archives/C01T6BW6TFZ
+- SIG Ownership: 
+- Chairpeople: Melanie Edwards, Alex Landis, Dieter Matzion 
+- TAC Liaison: 
 
 # Cloud Forecasting
 
 ## Abstract
 
 How finance, operations, and executives build models to forecast cloud spend and allocate budgets to business units.
-Before you begin
-
-## Playbook Details
-
-- Status: Sandbox
-- Slack room: https://finopsfoundation.slack.com/archives/C01T6BW6TFZ
-- SIG Ownership: 
-- Chairpeople: Melanie Edwards, Alex Landis, Dieter Matzion 
-- TAC Liaison: 
 
 ## Introduction
 
@@ -40,39 +38,7 @@ To get the most out of this document, please review the following first:
 
 If you have a strong handle on these subjects, please continue on to better understand how to approach this challenge.
 
-## Relevant Terms and Concepts
-
-### Forecasting
-The projections of financial trends that can adjust as new data is available. It is aimed at helping businesses anticipate results and is also used to help create budgets.
-
-### Budgeting
-An estimate of revenues and expenses companies plan to spend within a time period. This allows for companies to continually track where they are financially. 
-
-### Cost estimation
-The process of quantifying every resource that will be required to complete a project also used to help create budgets.
-
-### Cost of goods sold (COGS)
-Measures how many dollars of outlay it takes to generate revenues in a specific period. For example if a power company is trucking coal out of storage and into a power plant, it records the cost of the coal burned. That cost has no future benefit, so it’s going to be an expense that is directly traceable to revenue in that period, making it a COGS expense. The test of COGS is: are they directly expensed and directly related to revenues in the same period?
-
-For a company that uses cloud, the COGS are the monthly cloud bill to operate its cloud workloads, salesperson commissions, and support costs. Notably, cloud has the most variable spend model and has a high potential for optimization. You can’t usually materially turn down your sales commissions or terminate your support people, which leaves optimizing your cloud spend without reducing revenue.
-
-### When COGS can become capitalized assets
-There’s potential to reclassify COGS as capital expenses when it comes to how expenses are used. Let’s say a power company takes some of their coal and uses it to make diamonds. If it burned coal to generate power that was sold for revenue, the company accounts for the cost of the coal as COGS. But if it creates diamonds out of the coal, and those diamonds aren’t sold in the period but instead are put into storage as inventory for future periods, the cost of the coal would then be capitalized as an asset. However, as soon as those diamonds are sold, then the cost of the coal switches back to COGS during the period of the sale.
-
-### Capitalized expense (CapEx) versus operational expense (OpEx)
-When you capitalize something, it becomes an asset of the company, whether or not it gets expensed within a specific period. The test you can apply is: if an organization writes a check to acquire something, does that acquisition benefit future periods? If it does, then it can be capitalized. If it benefits only the current period, then it’s an expense that is expended in this period with no future benefit, making it an operational expense. Capitalization causes total outlays to differ from expenses in a similar period, with the delta being that which is capitalized.
-
-### Unblended rates
-Some resources are charged in decreasing rates the more you use them. This means you’re billed different rates for resources as you use more, or for longer periods during the month. By examining your bill, you can see that some resource costs are larger than others, even for the same type of resource or an identical resource. When the rates are presented this way, they’re called unblended.
-
-### Amortized costs
-Some cloud resources and reservations come with an upfront fee. The amortized cost of a resource takes this initial payment into account and distributes it out based on usage, attributing the prorated cost for each hour of billing.
-
-### Fully loaded costs
-Fully loaded costs are amortized, reflect the actual discounted rates a company is paying for cloud resources, equitably factor in shared costs, and are mapped to the business’s organizational structure. In essence, they show the actual costs of your cloud and what is driving them.
-
-### Cost allocation
-The process of splitting up a cloud bill and associating the costs to each cost center. It’s important to have teams understand how costs are being allocated, and to have a centralized, controlled, and consistent cost allocation strategy.
+See also, [Relevant Terms and Concepts](#appendix), now an appendix section to this project.
 
 ## How to address cloud forecasting?
 Fundamentally there is a potential gap between engineers, finance, and procurement where finance has financial reporting responsibilities, and procurement has accounting responsibilities, and both need assistance from engineers and leadership to meet these obligations.
@@ -197,6 +163,38 @@ The FinOps Foundation extends a huge thank you to the members of the Special Int
 
 If we’ve missed anyone, let us know. We thank you all for your contributions.
 
-## Workback Timeline
-- Discussion Panel: May 13 2021
-- Launch: Likely June
+## Appendix
+
+### Relevant Terms and Concepts
+
+#### Forecasting
+The projections of financial trends that can adjust as new data is available. It is aimed at helping businesses anticipate results and is also used to help create budgets.
+
+#### Budgeting
+An estimate of revenues and expenses companies plan to spend within a time period. This allows for companies to continually track where they are financially. 
+
+#### Cost estimation
+The process of quantifying every resource that will be required to complete a project also used to help create budgets.
+
+#### Cost of goods sold (COGS)
+Measures how many dollars of outlay it takes to generate revenues in a specific period. For example if a power company is trucking coal out of storage and into a power plant, it records the cost of the coal burned. That cost has no future benefit, so it’s going to be an expense that is directly traceable to revenue in that period, making it a COGS expense. The test of COGS is: are they directly expensed and directly related to revenues in the same period?
+
+For a company that uses cloud, the COGS are the monthly cloud bill to operate its cloud workloads, salesperson commissions, and support costs. Notably, cloud has the most variable spend model and has a high potential for optimization. You can’t usually materially turn down your sales commissions or terminate your support people, which leaves optimizing your cloud spend without reducing revenue.
+
+#### When COGS can become capitalized assets
+There’s potential to reclassify COGS as capital expenses when it comes to how expenses are used. Let’s say a power company takes some of their coal and uses it to make diamonds. If it burned coal to generate power that was sold for revenue, the company accounts for the cost of the coal as COGS. But if it creates diamonds out of the coal, and those diamonds aren’t sold in the period but instead are put into storage as inventory for future periods, the cost of the coal would then be capitalized as an asset. However, as soon as those diamonds are sold, then the cost of the coal switches back to COGS during the period of the sale.
+
+#### Capitalized expense (CapEx) versus operational expense (OpEx)
+When you capitalize something, it becomes an asset of the company, whether or not it gets expensed within a specific period. The test you can apply is: if an organization writes a check to acquire something, does that acquisition benefit future periods? If it does, then it can be capitalized. If it benefits only the current period, then it’s an expense that is expended in this period with no future benefit, making it an operational expense. Capitalization causes total outlays to differ from expenses in a similar period, with the delta being that which is capitalized.
+
+#### Unblended rates
+Some resources are charged in decreasing rates the more you use them. This means you’re billed different rates for resources as you use more, or for longer periods during the month. By examining your bill, you can see that some resource costs are larger than others, even for the same type of resource or an identical resource. When the rates are presented this way, they’re called unblended.
+
+#### Amortized costs
+Some cloud resources and reservations come with an upfront fee. The amortized cost of a resource takes this initial payment into account and distributes it out based on usage, attributing the prorated cost for each hour of billing.
+
+#### Fully loaded costs
+Fully loaded costs are amortized, reflect the actual discounted rates a company is paying for cloud resources, equitably factor in shared costs, and are mapped to the business’s organizational structure. In essence, they show the actual costs of your cloud and what is driving them.
+
+#### Cost allocation
+The process of splitting up a cloud bill and associating the costs to each cost center. It’s important to have teams understand how costs are being allocated, and to have a centralized, controlled, and consistent cost allocation strategy.

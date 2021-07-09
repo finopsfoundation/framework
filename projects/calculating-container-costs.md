@@ -6,7 +6,7 @@ description: Typical cloud costs are difficult enough to track at scale, and con
 
 ---
 
-### Playbook Details
+## Playbook Details
 
 - Status: Graduated
 - Slack room: https://finopsfoundation.slack.com/archives/C0180PC67T2
