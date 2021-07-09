@@ -6,7 +6,11 @@ description: As organizations increase their adoption of public cloud resources,
 
 ---
 
-*NOTE: This playbook is in a draft format and is not final. It is published to preview for an upcoming member demonstration, but undergoing review by the Technical Advisory Council. Expect more changes to come.*
+- Status: Graduated
+- Slack room: https://finopsfoundation.slack.com/archives/C01QMK31C30
+- SIG Ownership: 
+- Chairperson: 
+- TAC Liaison: Joseph Daly
 
 # A Guide to Spreading Out Shared Costs
 
