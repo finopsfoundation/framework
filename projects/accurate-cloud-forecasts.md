@@ -38,7 +38,7 @@ To get the most out of this document, please review the following first:
 
 If you have a strong handle on these subjects, please continue on to better understand how to approach this challenge.
 
-See also, [Relevant Terms and Concepts](#terms), now an appendix section to this project.
+See also, [Relevant Terms and Concepts](#appendix), now an appendix section to this project.
 
 ## How to address cloud forecasting?
 Fundamentally there is a potential gap between engineers, finance, and procurement where finance has financial reporting responsibilities, and procurement has accounting responsibilities, and both need assistance from engineers and leadership to meet these obligations.
@@ -165,8 +165,7 @@ If we’ve missed anyone, let us know. We thank you all for your contributions.
 
 ## Appendix
 
-### Relevant Terms and Concepts 
-<div id="terms"></div>
+### Relevant Terms and Concepts
 
 #### Forecasting
 The projections of financial trends that can adjust as new data is available. It is aimed at helping businesses anticipate results and is also used to help create budgets.
