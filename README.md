@@ -47,7 +47,7 @@ Please do not assign issues or apply metadata. The FinOps Foundation team will d
 If you're familiar with GitHub and want to commit your own content changes, please feel free to do so using the GitHub GUI.
 
 ### Using a Google Doc
-If you're reading this and don't want to use GitHub to submit a change, please feel free to write out an amendment or edit and inform the FinOps Foundation team on our [Community Slack channel](https://finopsfoundation.slack.com/), or at *** EMAIL ***.
+If you're reading this and don't want to use GitHub to submit a change, please feel free to write out an amendment or edit and inform the FinOps Foundation team on our [Community Slack channel](https://finopsfoundation.slack.com/), or at hello@finops.org.
 
 ### Review process
 

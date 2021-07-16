@@ -15,6 +15,7 @@ layout: default
 - [Automation](automation)
 
 ## Draft Functions
+- [Modernize Resources](modernize-resources)
 - [Usage Volume Discounts (Usage Tiers, SUDs)](usage-volume-discounts)
 - [Architecture Refactoring](architecture-refactoring)
 - [Negotiated Pricing](negotiated-pricing)

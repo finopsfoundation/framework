@@ -11,16 +11,22 @@
           {% if item.children != null %}
           <ul>
             {% for child in item.children %}
-            <li>
-              <a href="/{{ item.name | downcase }}/{{ child.name | replace: ' ', '-' | downcase }}">{{ child.name }}</a>
-            </li>
+              {% if child.url == undefined %}
+                <li>
+                  <a href="/{{ item.name | downcase }}/{{ child.name | replace: ' ', '-' | downcase }}">{{ child.name }}</a>
+                </li>
+                {% else %}
+                <li>
+                  <a href="{{ child.url }}">{{ child.name }}</a>
+                </li>
+              {% endif %}
             {% endfor %}
            </ul>
           {% endif %}
         </li>
         {% endfor %}
 
-        {% for item in site.data.navigation_footer %}
+        <!-- {% for item in site.data.navigation_footer %}
         <li>{{ item.name }}
           {% if item.children != null %}
           <ul>
@@ -32,7 +38,7 @@
            </ul>
           {% endif %}
         </li>
-        {% endfor %}
+        {% endfor %} -->
       </ul>
     </nav>
 

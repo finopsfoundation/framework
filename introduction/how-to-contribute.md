@@ -7,34 +7,20 @@ description: There are multiple ways to contribute to the FinOps community, from
 ---
 
 # How to contribute
-FinOps has become a required practice at many large organizations, but it's also a nascent discipline and constantly evolving with cloud. This means that its best practices and principles will change over time as practitioners learn new skills, make new discoveries, and find new way to better operationalize cloud cost management.
+FinOps has become a required practice at many large organizations, but it's also a nascent discipline and constantly evolving with cloud. This means that its best practices and principles will change over time as practitioners learn new skills, make new discoveries, and find new ways to better operationalize cloud cost management.
 
-[The FinOps Foundation](/about/), a [Linux Foundation](https://linuxfoundation.org) program, is committed to advancing the careers of those doing cloud financial management work through community, education, and best practices. 
+The open source FinOps Framework documents these changes with contributions from FinOps practitioners. This could be adding a FinOps story to one of our projects, fixing a simple typo or helping add completely new content.
 
-Ways to get involved:
+## How to submit changes to the FinOps Framework
 
-- [Cloud FinOps Book](https://www.amazon.com/Cloud-FinOps-Collaborative-Real-Time-Management/dp/1492054623): Read the O'Reilly Book
-- [State of FinOps](https://data.finops.org): Read or Take the Survey
-- [FinOps Framework](https://www.finops.org): Read or Contribute to best practices
-- [Join the Community](/membership/): Learn from thousands of practitioners
-- [FinOps Certified Practitioner](/certification/finops-certified-practitioner/): Get certified as an individual
-- [FinOps for Engineers](/certification/finops-certified-practitioner/): Train your teams to consider cost
-- [Monthly FinOps Mini-Summits](/resources/monthly-update): Hear the latest from the community
-- FinOps Certified Providers: Get certified as a vendor
-- Vendor Ecosystem Profiles: Coming Soon
-- FinOps Summit 2021 in October: Coming Soon
+If you see something that needs to be updated, augmented, or removed, we want to hear about it. This project is by the community and for the community and your voice matters.
 
-## Make changes to the FinOps Framework
-The open source FinOps Framework documents these changes to best practices here, but we need your help.
+There are multiple ways to submit changes:
+* Make a commit using the [GitHub GUI](https://github.com/finopsfoundation/framework) and submit it for review
+* Submit an update or new content via [this Google form](https://forms.gle/it89PbfcFnHHcgPP8) which automatically creates a GitHub issue
+* Create an issue directly [via GitHub](https://github.com/finopsfoundation/framework/issues)
+* Reach out to the members and team in the [#framework](https://finopsfoundation.slack.com/archives/C01UANLEPDW) slack channel
 
-One way to contribute is to commit changes to the FinOps Framework. If you see something that needs to be updated, augmented, or removed, we want to hear about it. This project is by the community and for the community and your voice matters.
-
-Ways to submit changes:
-* Make a commit using the GitHub GUI and submit it for review
-* Create an issue that recommends a way to edit or fix something in the FinOps Framework that might need some help
-* Report typos or broken links
-* Add your own FinOps story to one of our challenge playbooks
-* Check the project board on the FinOps.org GitHub repo to find ways to help
 
 ## Review process
 
@@ -43,6 +29,34 @@ Changes to each respective section of this site will be reviewed during FinOps F
 The FinOps Foundation team uses automation tools to rebuild the site multiple times a week to capture the latest changes or to make small updates to maintain the site.
 
 ## Review cycles and timing
+
 The FinOps Foundation's core operating members maintain the organization as a business. Its technical components, however, must be reviewed and voted upon by a greater group of community members. These meetings are scheduled throughout the month and the timeliness of reviewing commits and changes will vary depending on when these meetings occur.
 
 Issues and small changes like link fixes and typos might occur immediately, as those don't require a significant amount of code review, voting, and/or approval.
+
+---
+
+## Other ways to get involved:
+
+- If you have not already [join the FinOps community](/membership/)
+- [State of FinOps](https://data.finops.org): Read or take the survey
+- [FinOps Certified Practitioner](/certification/finops-certified-practitioner/): Get certified as an individual
+- [Monthly FinOps Mini-Summits](/resources/monthly-update): Hear the latest updates from the community
+- [Cloud FinOps Book](https://www.amazon.com/Cloud-FinOps-Collaborative-Real-Time-Management/dp/1492054623): Read the O'Reilly Book
+- Check the [FinOps Framework project board](https://github.com/finopsfoundation/framework/projects/3) on the GitHub repo to find ways to help with open issues
+- View the [Vendor Ecosystem Profiles](/members/) - with more updates on the roadmap 
+- If you are a vendor get [FinOps Certified](/certification/vendor-certification/)
+- FinOps Summit 2022: More information towards the end of 2021
+
+
+
+
+
+
+
+
+
+
+
+
+
