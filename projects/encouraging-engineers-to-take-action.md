@@ -238,16 +238,13 @@ perspectives:
 
 - Who sets budgets for cloud costs?
 
-- Who is able to make configuration changes to your deployed
-
-  > resources?
+- Who is able to make configuration changes to your deployed resources?
 
 - How are cost initiatives prioritized? By who?
 
 - How are inefficiencies identified? By who?
 
-- Who decides to act on committed spend decisions such as reservations
-  > or savings plans?
+- Who decides to act on committed spend decisions such as reservations or savings plans?
 
 #### Identify Opportunities
 
