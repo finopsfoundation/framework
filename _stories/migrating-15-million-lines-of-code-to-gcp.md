@@ -11,6 +11,7 @@ tags:
 persona:
 stage:
 company:
+order: 1
 
 ---
 *by Scott Snell, Cost Analyst at OpenX*
