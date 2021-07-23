@@ -3,7 +3,7 @@
   - name: What is FinOps
   - name: How to Contribute
   - name: How to Use
-- name: Framework
+- name: FinOps Framework
   children:
   - name: Principles
   - name: Personas
