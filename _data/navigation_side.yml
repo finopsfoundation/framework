@@ -10,7 +10,6 @@
   - name: Phases
   - name: Domains
   - name: Capabilities
-  - name: Maturity Model
 
 - name: Projects
   children:
