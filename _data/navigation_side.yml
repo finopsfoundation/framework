@@ -7,10 +7,11 @@
   children:
   - name: Principles
   - name: Personas
-  - name: Lifecycle
+  - name: Phases
+  - name: Domains
   - name: Capabilities
-  - name: Functions
-  - name: KPIs
+  - name: Maturity Model
+
 - name: Projects
   children:
   - name: State of FinOps
