@@ -18,14 +18,14 @@ Costimize focuses relentlessly on Google Cloud and its tool-set. Therefore, Cost
 # Membership level, type and vendor certifications
 member-level: general
 
-type: 
+type:
 - Platform Provider
 
 certified-status:
-- FinOps Certified Platform
+# - FinOps Certified Platform
 
-# Product(s) or service overview maximum character count is 1000 the rest will be truncated and hidden automatically on your page 
-product-overview: | 
+# Product(s) or service overview maximum character count is 1000 the rest will be truncated and hidden automatically on your page
+product-overview: |
   Costimize.io is an enterprise SaaS solution for Governance, FinOps, and Cost Management in Google Cloud. You can sign-up in under 3 minutes, start using the standardized and automated processes with action-driven recommendations, and save up to 70% of your total cost. It provides a set of specialized solutions that lays out the right technical and financial foundation for your DevOps & FinOps teams to manage cloud cost seamlessly and achieve budget compliance.
 
   Costimize.io is built on top of GCP with the latest cloud-native and SaaS concepts for best security, availability, and scalability.
@@ -33,7 +33,7 @@ product-overview: |
 
 product-video-url:
 
-# Related product or service resources, the titles will have associated URLs, e.g. product 
+# Related product or service resources, the titles will have associated URLs, e.g. product
 product-resources:
 - title: Deep Dive into Cloud Governance
   url: "https://costimize.io/resources/introduction/about-costimize/0/"
@@ -67,7 +67,7 @@ supported-functions:
 clouds-supported:
 - GCP
 
-# FinOps Foundation Member since 
+# FinOps Foundation Member since
 date: 2020-08-01
 
 # Show recent related FinOps activity, it can be content, webinars, thought leadership and include external links
