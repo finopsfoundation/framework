@@ -1,5 +1,5 @@
 ---
-# Please do not alter layout as it will break the vendor page 
+# Please do not alter layout as it will break the vendor page
 layout: member
 
 # Vendor details
@@ -14,14 +14,14 @@ company-description: Harness is a rapidly growing startup that is disrupting the
 # Membership level, type and vendor certifications
 member-level: general
 
-type: 
+type:
 - Platform Provider
 
 certified-status:
-- FinOps Certified Platform
+# - FinOps Certified Platform
 
 # Product(s) or service overview maximum character count is 1000 the rest will be truncated and hidden automatically on your page
-product-overview: | 
+product-overview: |
   Harness Cloud Cost Management helps you understand and optimize your cloud costs. It specializes in providing visibility and cost savings for Kubernetes without requiring engineers to tag resources, in addition to supporting AWS, GCP, and Azure. Customers are getting more value out of their cloud and containers, while putting in less effort. One customer, Relativity, was able to reduce their cloud spend by $8,000 per day - saving them $3M over 5 months.
 
   Harness Cloud Cost Management current supports 3 core use cases:
@@ -33,7 +33,7 @@ product-overview: |
 product-video-url: "https://harness-1.wistia.com/medias/qa7v67eyqq#"
 product-video-id: qa7v67eyqq
 
-# Related product or service resources, the titles will have associated URLs, e.g. product 
+# Related product or service resources, the titles will have associated URLs, e.g. product
 product-resources:
 - title: Product Page
   url: "https://harness.io/platform/cloud-cost-management/"
@@ -61,14 +61,14 @@ supported-functions:
 - Trending & Variance Analysis
 - Containers Capabilities
 
-# Edit as appropriate to display supported clouds 
+# Edit as appropriate to display supported clouds
 clouds-supported:
 - AWS
 - Azure
 - GCP
 - Private Cloud
 
-# FinOps Foundation Member since 
+# FinOps Foundation Member since
 date: 2021-03-01
 
 # Show recent related FinOps activity, it can be content, webinars, thought leadership and include external links
@@ -85,10 +85,10 @@ slack:
 - title:
   url:
 
-# The total number of FinOps Certified Practitioners at the vendor 
-number-of-focp: 
+# The total number of FinOps Certified Practitioners at the vendor
+number-of-focp:
 
-# List the key contribution areas in the FinOps Foundation, examples listed 
+# List the key contribution areas in the FinOps Foundation, examples listed
 contribution-areas:
 
 ---

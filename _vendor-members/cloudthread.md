@@ -14,11 +14,11 @@ company-description: Cloudthread makes it easy for engineering teams to be cost 
 # Membership level, type and vendor certifications
 member-level: general
 
-type: 
+type:
 - Platform Provider
 
 certified-status:
-- FinOps Certified Platform
+# - FinOps Certified Platform
 
 # Product(s) or service overview maximum character count is 1000 the rest will be truncated and hidden automatically on your page
 product-overview: Cloudthread combines cloud billing data with application performance telemetry to report engineering-focused cloud cost unit metrics (e.g. $ / endpoint, $ / query) through the tools engineering teams are already using (e.g. New Relic, Splunk, Datadog). This gives a convenient way for engineering teams to act in accordance with cost efficiency requirements they are increasingly getting from finance teams.
@@ -41,7 +41,7 @@ supported-functions:
 clouds-supported:
 - AWS
 
-# FinOps Foundation Member since 
+# FinOps Foundation Member since
 date: 2021-06-01
 
 # Show recent related FinOps activity, it can be content, webinars, thought leadership and include external links

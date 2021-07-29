@@ -14,13 +14,13 @@ company-description: Digital technology is a genuine and honest craft for us. We
 # Membership level, type and vendor certifications
 member-level: general
 
-type: 
+type:
 - Service Provider
 
 certified-status:
-- FinOps Certified Service Provider
+# - FinOps Certified Service Provider
 
-# Product(s) or service overview maximum character count is 1000 the rest will be truncated and hidden automatically on your page 
+# Product(s) or service overview maximum character count is 1000 the rest will be truncated and hidden automatically on your page
 product-overview: |
   Cloud Engineering Consulting
 
@@ -37,14 +37,14 @@ product-resources:
 - title:
   url:
 
-# Supported functions in the framework by the product(s) or service, these need to match the menu spelling to add a link automatically, ones listed are examples 
+# Supported functions in the framework by the product(s) or service, these need to match the menu spelling to add a link automatically, ones listed are examples
 supported-functions:
 
 # Edit as appropriate to display supported clouds
 clouds-supported:
 - AWS
 
-# FinOps Foundation Member since 
+# FinOps Foundation Member since
 date: 2021-02-01
 
 # Show recent related FinOps activity, it can be content, webinars, thought leadership and include external links
@@ -62,10 +62,10 @@ slack:
 - title:
   url:
 
-# The total number of FinOps Certified Practitioners at the vendor 
+# The total number of FinOps Certified Practitioners at the vendor
 number-of-focp: 4
 
-# List the key contribution areas in the FinOps Foundation, examples listed 
+# List the key contribution areas in the FinOps Foundation, examples listed
 contribution-areas:
 
 ---

@@ -14,12 +14,12 @@ company-description: SADA is a leading global provider of business and technolog
 # Membership level, type and vendor certifications
 member-level: premier
 
-type: 
+type:
 - Service Provider
 
 certified-status:
-- FinOps Certified Service Provider
-- FinOps Certified Platform
+# - FinOps Certified Service Provider
+# - FinOps Certified Platform
 - FinOps Training Partner
 
 # Product(s) or service overview maximum character count is 1000 the rest will be truncated and hidden automatically on your page
@@ -66,10 +66,10 @@ supported-functions:
 clouds-supported:
 - GCP
 
-# FinOps Foundation Member since 
+# FinOps Foundation Member since
 date: 2021-05-01
 
-# Show recent related FinOps activity, it can be content, webinars, thought leadership and include external links 
+# Show recent related FinOps activity, it can be content, webinars, thought leadership and include external links
 recent-finops-activity:
 - title: Why Every Cloud Customer Needs FinOps
   url: "https://www.eweek.com/enterprise-apps/why-every-cloud-customer-needs-finops/"
@@ -79,10 +79,10 @@ slack:
 - title:
   url:
 
-# The total number of FinOps Certified Practitioners at the vendor 
-number-of-focp: 
+# The total number of FinOps Certified Practitioners at the vendor
+number-of-focp:
 
-# List the key contribution areas in the FinOps Foundation, examples listed 
+# List the key contribution areas in the FinOps Foundation, examples listed
 contribution-areas:
 - Kubernetes
 
