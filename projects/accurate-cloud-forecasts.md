@@ -6,13 +6,6 @@ description: A guide that walks through how finance, operations, and executives 
 
 ---
 
-## Playbook Details
-
-- Status: Graduated
-- Slack room: https://finopsfoundation.slack.com/archives/C01T6BW6TFZ
-- SIG Ownership: 
-- Chairpeople: Melanie Edwards, Alex Landis, Dieter Matzion 
-- TAC Liaison: 
 
 # Cloud Forecasting
 
