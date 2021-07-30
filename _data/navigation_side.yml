@@ -13,6 +13,7 @@
   - name: KPIs
 - name: Projects
   children:
+  - name: Overview
   - name: State of FinOps
     url: https://data.finops.org/
   - name: Encouraging Engineers to Take Action
