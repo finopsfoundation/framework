@@ -110,7 +110,7 @@ An exam can be purchased to attempt the certification through the Linux Foundati
 - Student Handbook PDF with learning outcomes to prepare for the exam
 - Includes an exam code to take the FinOps Certified Practitioner exam at the Linux Foundation ($300 value)
 
-*[Purchase Self-Paced](https://www.eventbrite.com/e/finops-certified-practitioner-self-paced-course-tickets-150987081425)*
+*[Purchase Self-Paced](https://www.eventbrite.com/e/finops-certified-practitioner-self-paced-course-tickets-164850966679)*
 
 ### Instructor Led Live Training – $890
 - Live (virtual) 2 day instructor-led workshop (10 hrs total)
