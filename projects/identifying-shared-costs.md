@@ -5,13 +5,6 @@ title: A Guide to Spreading Out Shared Cloud Costs
 description: As organizations increase their adoption of public cloud resources, it becomes increasingly difficult to assign shared cloud resources to specific business owners.
 
 ---
-## Playbook Details
-
-- Status: Graduated
-- Slack room: https://finopsfoundation.slack.com/archives/C01QMK31C30
-- SIG Ownership: 
-- Chairperson: 
-- TAC Liaison: Joseph Daly
 
 # A Guide to Spreading Out Shared Costs
 

@@ -6,14 +6,6 @@ layout: default
 
 ---
 
-## Playbook Details
-
-- Status: Graduated
-- Slack room: https://finopsfoundation.slack.com/archives/G01NQLND9HR
-- SIG Ownership: 
-- Chairperson: 
-- TAC Liaison: Riley Jenkins
-
 # Encouraging engineers to take action
 
 How finance, operations, and executives can work better together at encouraging more cloud cost optimization from their engineering teams.
