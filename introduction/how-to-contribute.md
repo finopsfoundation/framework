@@ -49,14 +49,7 @@ Issues and small changes like link fixes and typos might occur immediately, as t
 - FinOps Summit 2022: More information towards the end of 2021
 
 
+## Working Groups and Special Interest Groups
 
-
-
-
-
-
-
-
-
-
-
+<iframe src="https://view.monday.com/embed/1456709853-a2eea3c69a623b564dbf20b755141330?r=use1" width=770 height=500 style="border: 0; box-shadow: 5px 5px 56px 0px rgba(0,0,0,0.25);"></iframe>
+</P>
