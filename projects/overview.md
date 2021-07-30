@@ -15,3 +15,4 @@ This page contains a list of FinOps Foundation Working Groups (WGs) and Special 
 ## Need help?
 
 Not sure where to start? Email <hello@finops.org> to get plugged in to the right area.
+
