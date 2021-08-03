@@ -130,4 +130,4 @@ An exam can be purchased to attempt the certification through the Linux Foundati
 
 ## Private Courses
 
-Practitioners who take public FinOps Certification courses always provide the feedback how valuable meeting and interacting with peers and practitioners is. Because of the value of this community interaction provides, we highly recommend that practitioners certify using the self-paced or public courses. If you have specific requirements or volume of attendees that would require a private course, please contact us and we'll be happy to connect you with one of our FinOps Certified Training Partners.
+Practitioners who take public FinOps Certification courses always describe how valuable it is meeting and interacting with peers outside of their organization. Because of the value this community interaction provides, we highly recommend that practitioners certify using the self-paced or public courses. If you have specific requirements or volume of attendees that would require a private course, please contact us and we'll be happy to connect you with one of our FinOps Certified Training Partners.

@@ -34,10 +34,6 @@ Persona-based FinOps Training classes self-paced, online and are not a part of t
 - Instructor-led video recordings of the complete course (in most cases approximately 3 hours of video)
 - 12 Months of Access to Online Course
 - Upon successful completion, a verified FinOps Trained badge and certificate of completion for your LinkedIn
-- Complete speaker notes and takeaways from the instructor deck for each slide
-- Instructions to access 7 day access to digital version of the Cloud FinOps book via O’Reilly
-- Invite to an office hours session with a certified FinOps trainer to ask questions in real time before the exam
-- Student Handbook PDF with learning outcomes
 
 
 
