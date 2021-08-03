@@ -11,10 +11,16 @@ description: The FinOps certification allows individuals in a large variety of c
 # FinOps Certified Professional
 The FinOps Certified Professional (FOCF) program allows experienced, senior individuals in cloud-related product, finance and technology roles to validate their FinOps knowledge and enhance their professional credibility. The certification program covers all aspects of FinOps practice and builds a capability to lead significant FinOps practice areas within an organization.
 
-## Facilitated Cohort Program
-The FinOps Certified Professional program is delivered as a multi-week program with between 10 and 20 students working with a Certified Professional and other mentors to facilitate in-depth learning in the entire FinOps practice.
-
-*[Learn More](/url-here)*
+<div class="flow-root bg-gray-100 rounded-lg px-6 pb-8 mb-4">
+  <div>
+    <h2 class="text-xl font-medium text-gray-900 tracking-tight">Facilitated Cohort Program</h2>
+    <p class="text-base text-gray-600">
+      The FinOps Certified Professional program is delivered as a multi-week program with between 10 and 20 students working with a Certified Professional and other mentors to facilitate in-depth learning in the entire FinOps practice.
+    </p>
+    <p><b>The FinOps Certified Professional program will launch in the first quarter of 2022.</b></p>
+    <a class="btn" href="#register-your-interest">Register your interest</a>
+  </div>
+</div>
 
 ## Who should get certified as a FinOps Professional
 
@@ -33,3 +39,26 @@ You should consider this course if you are any of the following:
 - IT Program and Portfolio Management Leader
 - Technology leader, such as a Head of Infrastructure, Head of Cloud Center of Excellence, CTO or CIO Head of IT Finance (CFO of IT, VP/Dir. IT finance) or FP&A professional supporting cloud
 
+
+
+<div class="md:max-w-xl bg-gray-200 mx-auto px-4 md:px-8 overflow-auto mt-10" markdown="1">
+
+## Register your interest
+
+The course is not quite ready but soon as it is we can let you know.
+
+<!--[if lte IE 8]>
+<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
+<![endif]-->
+<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
+<script>
+  hbspt.forms.create({
+  region: "na1",
+  portalId: "5432286",
+  formId: "3a95109b-7c24-40be-9946-bd85fc70cdc8",
+  onFormSubmit: function($form) {
+  ga('send', 'event', 'forms', 'submit', 'FOCF register interest');
+},
+});
+</script>
+</div>

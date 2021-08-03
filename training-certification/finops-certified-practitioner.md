@@ -45,7 +45,7 @@ The FinOps Certified Practitioner (FOCP) course allows individuals in a large va
           </div>
           <h3 class="mt-8 text-lg font-medium text-gray-900 tracking-tight">Self-Paced Courses</h3>
           <p class="mt-5 text-base text-gray-600">
-            Move at your own speed and utilise the community for any support.
+            Move at your own speed and utilize the community for any support.
           </p>
           <a class="btn" href="javascript:void(0)" id="js-training-2">Learn more</a>
         </div>
@@ -126,3 +126,8 @@ An exam can be purchased to attempt the certification through the Linux Foundati
 - Includes all the digital, video and course materials in the self-paced course for study or review ($499 value)
 
 <a class="btn" href="/resources/events/#events-training">Find Live Events</a>
+
+
+## Private Courses
+
+Practitioners who take public FinOps Certification courses always provide the feedback how valuable meeting and interacting with peers and practitioners is. Because of the value of this community interaction provides, we highly recommend that practitioners certify using the self-paced or public courses. If you have specific requirements or volume of attendees that would require a private course, please contact us and we'll be happy to connect you with one of our FinOps Certified Training Partners.
