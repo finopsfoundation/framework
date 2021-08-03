@@ -57,7 +57,7 @@ supported-functions:
 - Data Visualization
 - Data Analytics
 - Budget Alerting
-- Committment Tracking
+- Commitment Tracking
 - Policy Management
 - Trending & Variance Analysis
 - Containers Capabilities

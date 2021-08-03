@@ -56,7 +56,7 @@ supported-functions:
 - Learning
 - Autoscaling
 - Budget Alerting
-- Committment Tracking
+- Commitment Tracking
 - Marketplace
 - Policy Management
 - Trending & Variance Analysis

@@ -27,7 +27,7 @@ layout: default
 - [Data Visualization](data-visualization)
 - [Data Analytics](data-analytics)
 - [Budget Alerting](budget-alerting)
-- [Committment Tracking](committment-tracking)
+- [Commitment Tracking](commitment-tracking)
 - [Marketplace](marketplace)
 - [Policy Management](policy-management)
 - [Trending & Variance Analysis](trending-and-variance-analysis)
