@@ -52,7 +52,7 @@ supported-functions:
 - Data Processing
 - Data Analytics
 - Budget Alerting
-- Committment Tracking
+- Commitment Tracking
 - Marketplace
 - Policy Management
 - Containers Capabilities

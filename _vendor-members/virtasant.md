@@ -62,7 +62,7 @@ supported-functions:
 - Data Processing
 - Data Visualization
 - Data Analytics
-- Committment Tracking
+- Commitment Tracking
 - Trending & Variance Analysis
 
 # Edit as appropriate to display supported clouds
