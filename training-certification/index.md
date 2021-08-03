@@ -33,7 +33,7 @@ The FinOps Foundation offers training courses and certification programs for any
 
 <div class="flow-root bg-gray-100 rounded-lg px-6 pb-8 mb-4">
   <div>
-    <h2 class="text-xl font-medium text-gray-900 tracking-tight">Persona-based FinOps Training X</h2>
+    <h2 class="text-xl font-medium text-gray-900 tracking-tight">Persona-based FinOps Training</h2>
     <p class="text-base text-gray-600">
       If you are not a member of a FinOps team, but will be working with them, consider one of the Persona-based Training courses offered for Engineers, Finance, Product Managers, Procurement, or Executives. These shorter training courses cover the basics of FinOps with examples geared toward a particular persona.
     </p>
