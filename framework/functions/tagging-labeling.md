@@ -62,13 +62,13 @@ These links are provided as potentially relevant industry resources. The FinOps 
 ### Cloud Specific Best Practices
 
 - [AWS](https://docs.aws.amazon.com/general/latest/gr/aws_tagging.html)
-- [GCP](https://cloud.google.com/compute/docs/labeling-resources)
+- [GCP](https://cloud.google.com/resource-manager/docs/creating-managing-labels)
 - [Azure](https://docs.microsoft.com/en-us/azure/virtual-machines/tag-portal)
 
 ### Cloud Native Tooling
 
 - [AWS Organizations](https://aws.amazon.com/organizations/)
-- [GCP Data Labeling](https://console.cloud.google.com/data-labeling)
+- [GCP Resource Manager](https://cloud.google.com/resource-manager)
 
 ### Relevant FinOps Certified Platforms
 
