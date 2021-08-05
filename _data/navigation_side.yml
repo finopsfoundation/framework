@@ -15,7 +15,6 @@
     url: /framework/domains/
   - name: Capabilities
     url: /framework/capabilities/
-
 - name: Projects
   children:
   - name: Overview
