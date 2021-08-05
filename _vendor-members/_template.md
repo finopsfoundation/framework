@@ -5,6 +5,7 @@ layout: member
 # Vendor details
 name: 
 logo-url:
+logo-url-width:
 linkedin-url:
 website-url:
 

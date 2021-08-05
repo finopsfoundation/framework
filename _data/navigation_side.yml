@@ -13,6 +13,7 @@
 
 - name: Projects
   children:
+  - name: Overview
   - name: State of FinOps
     url: https://data.finops.org/
   - name: Encouraging Engineers to Take Action
@@ -22,6 +23,8 @@
 - name: Resources
   children:
   - name: Monthly Update 
+  - name: Training & Certification
+    url: /training-certification/
   - name: Events
   - name: FinOps Book
   - name: Vendor Members
