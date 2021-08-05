@@ -1,6 +1,6 @@
 ---
 
-layout: page
+layout: default
 width: wide
 github-link: false
 title: Vendor Certification

@@ -23,6 +23,8 @@
 - name: Resources
   children:
   - name: Monthly Update 
+  - name: Training & Certification
+    url: /training-certification/
   - name: Events
   - name: FinOps Book
   - name: Vendor Members

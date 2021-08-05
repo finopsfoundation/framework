@@ -1,17 +1,15 @@
 ---
 
-layout: page
-width: wide
+layout: default
 github-link: false
 title: FinOps Certification
-description: The FinOps certification allows individuals in a large variety of cloud, finance and technology roles to validate their FinOps knowledge and enhance their professional credibility.
-
+description: The FinOps practitioner certification allows individuals in a large variety of cloud, finance and technology roles to validate their FinOps knowledge and enhance their professional credibility.
 
 ---
 
-# FinOps Training & Certification
+# FinOps Certified Practitioner
 
-The FinOps Certified Practitioner (FOCP) allows individuals in a large variety of cloud, finance and technology roles to validate their FinOps knowledge and enhance their professional credibility. The certification covers FinOps fundamentals and an overview of key concepts in each of the three sections of the FinOps lifecycle: Inform, Optimize and Operate.
+The FinOps Certified Practitioner (FOCP) course allows individuals in a large variety of cloud, finance and technology roles to validate their FinOps knowledge and enhance their professional credibility. The certification covers FinOps fundamentals and an overview of key concepts in each of the three sections of the FinOps lifecycle: Inform, Optimize and Operate.
 
 <div class="mt-12">
   <div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3">
@@ -26,11 +24,11 @@ The FinOps Certified Practitioner (FOCP) allows individuals in a large variety o
             </svg>
             </span>
           </div>
-          <h3 class="mt-8 text-lg font-medium text-gray-900 tracking-tight">Certification Exam</h3>
-          <p class="mt-5 text-base text-gray-500">
+          <h3 class="mt-8 text-lg font-medium text-gray-900 tracking-tight">Practitioner Certification Exam</h3>
+          <p class="mt-5 text-base text-gray-600">
             If you are ready, take the FOCP exam and get your certification. 
           </p>
-          <a href="javascript:void(0)" id="js-training-1">Learn more</a>
+          <a class="btn" href="javascript:void(0)" id="js-training-1">Learn more</a>
         </div>
       </div>
     </div>
@@ -45,10 +43,10 @@ The FinOps Certified Practitioner (FOCP) allows individuals in a large variety o
             </span>
           </div>
           <h3 class="mt-8 text-lg font-medium text-gray-900 tracking-tight">Self-Paced Courses</h3>
-          <p class="mt-5 text-base text-gray-500">
-            Move at your own speed and utilise the community for any support.
+          <p class="mt-5 text-base text-gray-600">
+            Move at your own speed and utilize the community for any support.
           </p>
-          <a href="javascript:void(0)" id="js-training-2">Learn more</a>
+          <a class="btn" href="javascript:void(0)" id="js-training-2">Learn more</a>
         </div>
       </div>
     </div>
@@ -64,10 +62,10 @@ The FinOps Certified Practitioner (FOCP) allows individuals in a large variety o
             </span>
           </div>
           <h3 class="mt-8 text-lg font-medium text-gray-900 tracking-tight">Instructor Led Courses</h3>
-          <p class="mt-5 text-base text-gray-500">
+          <p class="mt-5 text-base text-gray-600">
             Learn direct from an expert with instructor led training over 2 days. 
           </p>
-          <a href="javascript:void(0)" id="js-training-3">Learn more</a>
+          <a class="btn" href="javascript:void(0)" id="js-training-3">Learn more</a>
         </div>
       </div>
     </div>
@@ -75,11 +73,12 @@ The FinOps Certified Practitioner (FOCP) allows individuals in a large variety o
 </div>
 
 ## Who should get FinOps Certified
-The certification is designed for senior professionals who desire a basic understanding of FinOps and how it’s applied to enhance business value from cloud spend.
+The certification is designed for those who plan to hold a position on a FinOps team or support FinOps or cloud financial management, or if you support FinOps teams as consultants, vendors, or trainers. You will develop an understanding of FinOps, its practice areas, and how it’s applied to enhance business value from cloud spend.
 
 Organizations undergoing a public cloud-first strategy or who are in the midst of a public cloud migration will also benefit greatly.
 
 You should consider this course if you are any of the following:
+
 
 - Cloud Budget Owner
 - FinOps practitioner, such as a FinOps Analyst, Director of Cloud Optimization, Manager of Cloud Operations or Cloud Cost Optimization Data Analyst
@@ -89,17 +88,20 @@ You should consider this course if you are any of the following:
 - Technology leader, such as a Head of Infrastructure, Head of Cloud Center of Excellence, CTO or CIO
 - Head of IT Finance (CFO of IT, VP/Dir. IT finance) or FP&A professional supporting cloud
 
+
 ## Training and Certification Options 
 ### FOCP Certification Exam – $300
-An exam can be purchased to attempt the certification through the Linux Foundation. Note: the exam does not include any study materials or guides.
+An exam can be purchased to attempt the certification through the Linux Foundation. Note: the exam does not include any study materials or guides. 
 
-- Exam format: 60 minutes. The exam can be taken available online at your convenience.
+- Exam format: 60 minutes. The exam can be taken available online at your convenience
 - Based on the FOCP curriculum domain and competencies
-- Upon successful exam completion, a verified FinOps Certified Practitioner badge and certificate of completion for your LinkedIn issued by the Linux Foundation
-- Exam-only path is only recommended for those with considerable real world FinOps expertise who also have deep knowledge with the FinOps lifecycle as laid out in the Cloud FinOps book by O’Reilly.
-- Again, no study or prep materials come with the exam purchase.
+- Upon successful exam completion (score of 70%), a verified FinOps Certified Practitioner badge and certificate of completion for your LinkedIn issued by the Linux Foundation
+- Exam-only path is only recommended for those with considerable real world FinOps expertise who also have deep knowledge of the FinOps lifecycle as laid out in the Cloud FinOps book by O’Reilly.
+- No study or prep materials come with the exam purchase
 
-*[Purchase Exam](https://training.linuxfoundation.org/certification/certified-finops/)*
+<a class="btn" href="https://training.linuxfoundation.org/certification/certified-finops/">Purchase Exam</a>
+
+---
 
 ### Self-Paced Online Course  – $499
 - Instructor-led video recordings of the complete course (approximately 6 hours of video)
@@ -110,7 +112,9 @@ An exam can be purchased to attempt the certification through the Linux Foundati
 - Student Handbook PDF with learning outcomes to prepare for the exam
 - Includes an exam code to take the FinOps Certified Practitioner exam at the Linux Foundation ($300 value)
 
-*[Purchase Self-Paced](https://www.eventbrite.com/e/finops-certified-practitioner-self-paced-course-tickets-164850966679)*
+<a class="btn" href="https://www.eventbrite.com/e/finops-certified-practitioner-self-paced-course-tickets-164850966679">Purchase Self-Paced</a>
+
+---
 
 ### Instructor Led Live Training – $890
 - Live (virtual) 2 day instructor-led workshop (10 hrs total)
@@ -120,52 +124,9 @@ An exam can be purchased to attempt the certification through the Linux Foundati
 - An exam code to take the FinOps Certified Practitioner exam at the Linux Foundation, with free retake option
 - Includes all the digital, video and course materials in the self-paced course for study or review ($499 value)
 
-*[Find Live Events](/resources/events/#events-training)*
+<a class="btn" href="/resources/events/#events-training">Find Live Events</a>
 
-### FinOps for Engineering Training 
 
-Includes:
+## Private Courses
 
-- Instructor-led video recordings of the complete course (approximately 3 hours of video)
-- 12 Months of Access to Online Course
-- Upon successful completion, a verified FinOps for Engineer Trained badge and certificate of completion for your LinkedIn
-- Complete speaker notes and takeaways from the instructor deck for each slide
-- Instructions to access 7 day access to digital version of the Cloud FinOps book via O'Reilly
-- Invite to an office hours session with a certified FinOps trainer to ask questions in real time before the exam
-- Student Handbook PDF with learning outcomes
-
-*[Buy Course Pre-Sale](https://www.eventbrite.com/e/finops-for-engineering-training-self-paced-course-course-pre-sale-tickets-149961353445)*
-
-### Private Courses
-Contact us for details about running a private or semi-private course at your organization.
-
-### Curriculum of the training and certification
-
-For an overview of the the general domains and competencies covered by the training and certification exam, see the [Linux Foundation’s FinOps certification page](https://training.linuxfoundation.org/certification/certified-finops/). It is based on the open source curriculum which resides on [Github](https://github.com/finopsfoundation/curriculum).
-
-### What level of prerequisite knowledge do I need?
-You should understand the basics of how cloud computing works, know the key services on your cloud providers, including their common use cases, and have a basic understanding of billing and pricing models. You should already be able to describe the basic value proposition of running in cloud and understand the core concept of using a pay-as-you-go consumption model.
-
-You’ll also need to have a base level of knowledge of at least one of the three main public cloud providers (AWS, Azure, Google Cloud). For AWS, we recommend AWS Business Professional training or, even better, the AWS Cloud Practitioner certification. For Google, check out the Google Cloud Platform Fundamentals course. For Azure, try the Azure Fundamentals learning path. Each can usually be completed in a full day workshop.
-
-<div class="md:max-w-xl bg-gray-200 mx-auto px-4 md:px-8 overflow-auto mt-10" markdown="1">
-
-### Certification Notifications
-
-Not ready to get certified yet? Fill in the form and we will notify you of future opportunities to gain the FinOps Certification.
-
-<!--[if lte IE 8]>
-<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
-<![endif]-->
-<script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
-<script>
-  hbspt.forms.create({
-	portalId: "5432286",
-	formId: "213c2cf1-3814-4c55-ba56-c75d563dc178",
-  onFormSubmit: function($form) {
-  ga('send', 'event', 'forms', 'submit', 'certified practitioner');
-},
-});
-</script>
-
-</div>
+Practitioners who take public FinOps Certification courses always describe how valuable it is meeting and interacting with peers outside of their organization. Because of the value this community interaction provides, we highly recommend that practitioners certify using the self-paced or public courses. If you have specific requirements or volume of attendees that would require a private course, please contact us and we'll be happy to connect you with one of our FinOps Certified Training Partners.
