@@ -2,9 +2,8 @@
 
 layout: default
 github-link: false
-title: FinOps Certification
-description: The FinOps certification allows individuals in a large variety of cloud, finance and technology roles to validate their FinOps knowledge and enhance their professional credibility.
-
+title: FinOps Certified Professional
+description: The FinOps Certified Professional (FOCF) program allows experienced, senior individuals in cloud-related product, finance and technology roles to validate their FinOps knowledge.
 
 ---
 

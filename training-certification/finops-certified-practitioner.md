@@ -3,8 +3,7 @@
 layout: default
 github-link: false
 title: FinOps Certification
-description: The FinOps certification allows individuals in a large variety of cloud, finance and technology roles to validate their FinOps knowledge and enhance their professional credibility.
-
+description: The FinOps practitioner certification allows individuals in a large variety of cloud, finance and technology roles to validate their FinOps knowledge and enhance their professional credibility.
 
 ---
 

@@ -2,8 +2,8 @@
 
 layout: default
 github-link: false
-title: FinOps Certification
-description: The FinOps certification allows individuals in a large variety of cloud, finance and technology roles to validate their FinOps knowledge and enhance their professional credibility.
+title: FinOps Training & Certification
+description: The FinOps Foundation offers training courses and certification programs for anyone who would like to learn more about FinOps.
 
 ---
 

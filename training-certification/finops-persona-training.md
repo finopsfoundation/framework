@@ -2,9 +2,8 @@
 
 layout: default
 github-link: false
-title: FinOps Certification
-description: The FinOps certification allows individuals in a large variety of cloud, finance and technology roles to validate their FinOps knowledge and enhance their professional credibility.
-
+title: Persona-based FinOps Training
+description: Persona-based FinOps Training classes self-paced, online and are intended for individuals such as Engineers, Finance, Executives, Procurement and Product Managers.
 
 ---
 
