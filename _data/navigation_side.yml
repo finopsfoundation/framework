@@ -6,10 +6,15 @@
 - name: FinOps Framework
   children:
   - name: Principles
+    url: /framework/principles/
   - name: Personas
+    url: /framework/personas/
   - name: Phases
+    url: /framework/phases/
   - name: Domains
+    url: /framework/domains/
   - name: Capabilities
+    url: /framework/capabilities/
 
 - name: Projects
   children:

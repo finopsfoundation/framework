@@ -4,7 +4,7 @@ layout: default
 
 ---
 
-# Lifecycle
+# FinOps Phases
 
 
 The FinOps journey consists of three iterative phases — Inform, Optimize and Operate.
