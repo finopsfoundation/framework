@@ -3,14 +3,18 @@
   - name: What is FinOps
   - name: How to Contribute
   - name: How to Use
-- name: Framework
+- name: FinOps Framework
   children:
   - name: Principles
+    url: /framework/principles/
   - name: Personas
-  - name: Lifecycle
+    url: /framework/personas/
+  - name: Phases
+    url: /framework/phases/
+  - name: Domains
+    url: /framework/domains/
   - name: Capabilities
-  - name: Functions
-  - name: KPIs
+    url: /framework/capabilities/
 - name: Projects
   children:
   - name: Overview
