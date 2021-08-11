@@ -20,7 +20,7 @@ FinOps Framework content, including concepts, principles, best practices, and ot
 ## How to contribute
 
 Contributing to finops.org and the FinOps Framework can include:
-* Participating in FinOps Foundation Special Interest Groups (SIGs) to create new content or edits for the Framework
+* Participating in FinOps Foundation Special Interest Groups (SIGs) and/or Working Groups (WGs) to create new content or edits for the Framework
 * Creating issues to identify problems or errors with the finops.org or the FinOps Framework
 * Edits to FinOps Framework content, definitions, images, etc.
 * Edits to playbooks, reports
