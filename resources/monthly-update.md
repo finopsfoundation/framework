@@ -72,17 +72,24 @@ When we joined the Linux Foundation last summer and held the first FinOps Day on
   </div>
 
   <div class="inline-block mr-6 m:w-1/2 text-center mb-6">
-    <a href="https://www.linkedin.com/in/mikeeisenstein/">
-      <img src="/img/updates/aug/mike.jpg" class="rounded-full" width="175">
-    </a>
-    <a href="https://www.linkedin.com/in/mikeeisenstein/" class="block mt-2">Mike Eisenstein <br/>Accenture</a>
-  </div>
-
-  <div class="inline-block mr-6 m:w-1/2 text-center mb-6">
     <a href="https://www.linkedin.com/in/andrew-britton-57a5385a/">
       <img src="/img/updates/aug/andrew.jpg" class="rounded-full" width="175">
     </a>
     <a href="https://www.linkedin.com/in/andrew-britton-57a5385a/" class="block mt-2">Andrew Britton <br/>Citrix</a>
+  </div>
+
+  <div class="inline-block mr-6 m:w-1/2 text-center mb-6">
+    <a href="https://www.linkedin.com/in/skmeyer/">
+      <img src="/img/updates/aug/scott.jpg" class="rounded-full" width="175">
+    </a>
+    <a href="https://www.linkedin.com/in/skmeyer/" class="block mt-2">Scott Meyer <br/>Spotify</a>
+  </div>
+
+   <div class="inline-block mr-6 m:w-1/2 text-center mb-6">
+    <a href="https://www.linkedin.com/in/mikeeisenstein/">
+      <img src="/img/updates/aug/mike.jpg" class="rounded-full" width="175">
+    </a>
+    <a href="https://www.linkedin.com/in/mikeeisenstein/" class="block mt-2">Mike Eisenstein <br/>Accenture</a>
   </div>
 
   <div class="inline-block mr-6 m:w-1/2 text-center mb-6">
@@ -97,13 +104,6 @@ When we joined the Linux Foundation last summer and held the first FinOps Day on
       <img src="/img/updates/aug/michael.jpg" class="rounded-full" width="175">
     </a>
     <a href="https://www.linkedin.com/in/michaelpkearns/" class="block mt-2">Michael Kearns <br/>Virtasant</a>
-  </div>
-
-  <div class="inline-block mr-6 m:w-1/2 text-center mb-6">
-    <a href="https://www.linkedin.com/in/skmeyer/">
-      <img src="/img/updates/aug/scott.jpg" class="rounded-full" width="175">
-    </a>
-    <a href="https://www.linkedin.com/in/skmeyer/" class="block mt-2">Scott Meyer <br/>Spotify</a>
   </div>
 
   <div class="inline-block mr-6 m:w-1/2 text-center mb-6">
