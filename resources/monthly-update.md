@@ -85,7 +85,7 @@ When we joined the Linux Foundation last summer and held the first FinOps Day on
     <a href="https://www.linkedin.com/in/melvinbrownii/">
       <img src="/img/updates/aug/melvin.jpg" class="rounded-full" width="175">
     </a>
-    <a href="https://www.linkedin.com/in/melvinbrownii/" class="block mt-2">Melvin Brown <br/>(U.S. Office of <br/>Personnel Management)</a>
+    <a href="https://www.linkedin.com/in/melvinbrownii/" class="block mt-2">Melvin Brown <br/>(US Gov OPM)</a>
   </div>
 
   <div class="inline-block mr-6 m:w-1/2 text-center align-top mb-6">
