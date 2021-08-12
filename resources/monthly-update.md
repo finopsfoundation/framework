@@ -19,7 +19,7 @@ description: See the latest updates from the previous and upcoming monthly membe
   <p><a href="/membership/" data-ga-category="links" data-ga-action="internal link clicks" data-ga-label="membership - monthly update">Become a FinOps Foundation member</a> to join the FinOps summit on August 19th</p>
 </div>
 
-This month it happened again, we have too many amazing speakers and content areas to cover! We hope you join hundreds of your peers at our session on Aug 19th, with over a dozen speakers across three topics:
+It happened again this month: we have too many amazing speakers and content areas to cover! We hope you join hundreds of your peers at our session on Aug 19th, with over a dozen speakers across three topics:
 
 ### Keynotes:
 ### #1 Dealing with Data Transfer
