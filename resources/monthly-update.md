@@ -28,7 +28,7 @@ Based on a lively [conversation in Slack](https://finopsfoundation.slack.com/arc
 
 ### #2 Adopting FinOps: Getting Organizational Buy-In
 
-Chairs Ashley Hromatko and Tech Lead Mike Eisenstein are back to present an updated executive buy-in deck for building a FinOps practice that the working group has been tackling. They will also unveil the new FinOps Framework poster that gives a one-page overview of the core tenants of the practice with Vas Markanastasakis. Hear from Melvin Brown (US Gov OPM) and Natalie Daley (HSBC) on their stories and follow-along in [#wg-adopting-finops](https://finopsfoundation.slack.com/archives/C026T4HQK09).
+Chair Member Ashley Hromatko and Tech Lead Mike Eisenstein are back to present an updated executive buy-in deck for building a FinOps practice that the working group has been tackling. They will also unveil the new FinOps Framework poster that gives a one-page overview of the core tenants of the practice with Vas Markanastasakis. Also hear from Melvin Brown (US Gov OPM) and Natalie Daley (HSBC) on their stories and follow-along in [#wg-adopting-finops](https://finopsfoundation.slack.com/archives/C026T4HQK09).
 
 ### #3 Waste Reduction: Mountains vs Molehills
 
