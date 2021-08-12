@@ -32,7 +32,7 @@ Chair Member Ashley Hromatko and Tech Lead Mike Eisenstein are back to present a
 
 ### #3 Waste Reduction: Mountains vs Molehills
 
-Borrowing from Joseph Daly’s post on the topic, we are opening up a conversation about how to tackle and prioritize the little tiny inefficiencies of cloud (molehills) vs. the optimization opportunities that can transform value (mountains). Panel includes Andrew Brixton (Citrix), Melissa Lorton and Michael Kerns from Virtasant, Scott Meyer (Spotify), Teresa Meade (EA) sharing their tales on tackling waste. Check out slack threads in [#aws](https://finopsfoundation.slack.com/archives/CNJPGNMMJ/p1627552385245600) and [#azure](https://finopsfoundation.slack.com/archives/CNJPJ3YDA/p1627552311081500) on this topic.
+Borrowing from Joseph Daly’s post on the topic, we're opening up a conversation about how to tackle and prioritize the tiny inefficiencies of cloud (molehills) vs. the optimization opportunities that can transform value (mountains). Panelists include Andrew Brixton (Citrix), Melissa Lorton and Michael Kerns (Virtasant), Scott Meyer (Spotify), and Teresa Meade (EA) sharing their tales on tackling waste. Check out slack threads in [#aws](https://finopsfoundation.slack.com/archives/CNJPGNMMJ/p1627552385245600) and [#azure](https://finopsfoundation.slack.com/archives/CNJPJ3YDA/p1627552311081500) on this topic.
 
 The event is free to approved FinOps Foundation members - [join here!](https://www.finops.org/membership/) and will also feature breakout rooms on each topic as well as updates from our various working groups and Technical Advisory Council. There will be breakouts sessions during the last 30 minutes.
 
