@@ -53,67 +53,82 @@ When we joined the Linux Foundation last summer and held the first FinOps Day on
 ### Speakers
 
 <div>
-  <div class="inline-block mr-6 m:w-1/2 text-center mb-6">
+  <div class="inline-block mr-6 m:w-1/2 text-center align-top mb-6">
     <a href="https://www.linkedin.com/in/andershagman/">
       <img src="/img/updates/aug/anders.jpg" class="rounded-full" width="175">
     </a>
-    <a href="https://www.linkedin.com/in/andershagman/" class="block mt-2">Anders Hagman <br/>Spotify</a>
+    <a href="https://www.linkedin.com/in/andershagman/" class="block mt-2">Anders Hagman <br/>(Spotify)</a>
   </div>
 
-  <div class="inline-block mr-6 m:w-1/2 text-center mb-6">
+  <div class="inline-block mr-6 m:w-1/2 text-center align-top mb-6">
     <a href="https://www.linkedin.com/in/teresa-meade-0369831b/">
       <img src="/img/updates/aug/teresa.jpg?2" class="rounded-full" width="175">
     </a>
-    <a href="https://www.linkedin.com/in/teresa-meade-0369831b/" class="block mt-2">Teresa Meade <br/>Electronic Arts</a>
+    <a href="https://www.linkedin.com/in/teresa-meade-0369831b/" class="block mt-2">Teresa Meade <br/>(Electronic Arts)</a>
   </div>
 
-  <div class="inline-block mr-6 m:w-1/2 text-center mb-6">
+  <div class="inline-block mr-6 m:w-1/2 text-center align-top mb-6">
     <a href="https://www.linkedin.com/in/ashley-hromatko-1b532613">
       <img src="/img/updates/aug/ashley.jpg" class="rounded-full" width="175">
     </a>
-    <a href="https://www.linkedin.com/in/ashley-hromatko-1b532613" class="block mt-2">Ashley Hromatko <br/> Pearson</a>
+    <a href="https://www.linkedin.com/in/ashley-hromatko-1b532613" class="block mt-2">Ashley Hromatko <br/>(Pearson)</a>
   </div>
 
-  <div class="inline-block mr-6 m:w-1/2 text-center mb-6">
+  <div class="inline-block mr-6 m:w-1/2 text-center align-top mb-6">
+    <a href="https://www.linkedin.com/in/natalie-daley-6b063239/">
+      <img src="/img/updates/aug/natalie.png" class="rounded-full" width="175">
+    </a>
+    <a href="https://www.linkedin.com/in/natalie-daley-6b063239/" class="block mt-2">Natalie Daley <br/>(HSBC)</a>
+  </div>
+
+  <div class="inline-block mr-6 m:w-1/2 text-center align-top mb-6">
+    <a href="https://www.linkedin.com/in/melvinbrownii/">
+      <img src="/img/updates/aug/melvin.jpg" class="rounded-full" width="175">
+    </a>
+    <a href="https://www.linkedin.com/in/melvinbrownii/" class="block mt-2">Melvin Brown <br/>(U.S. Office of <br/>Personnel Management)</a>
+  </div>
+
+  <div class="inline-block mr-6 m:w-1/2 text-center align-top mb-6">
     <a href="https://www.linkedin.com/in/andrew-britton-57a5385a/">
       <img src="/img/updates/aug/andrew.jpg" class="rounded-full" width="175">
     </a>
-    <a href="https://www.linkedin.com/in/andrew-britton-57a5385a/" class="block mt-2">Andrew Britton <br/>Citrix</a>
+    <a href="https://www.linkedin.com/in/andrew-britton-57a5385a/" class="block mt-2">Andrew Britton <br/>(Citrix)</a>
   </div>
 
-  <div class="inline-block mr-6 m:w-1/2 text-center mb-6">
+  <div class="inline-block mr-6 m:w-1/2 text-center align-top mb-6">
     <a href="https://www.linkedin.com/in/skmeyer/">
       <img src="/img/updates/aug/scott.jpg" class="rounded-full" width="175">
     </a>
-    <a href="https://www.linkedin.com/in/skmeyer/" class="block mt-2">Scott Meyer <br/>Spotify</a>
+    <a href="https://www.linkedin.com/in/skmeyer/" class="block mt-2">Scott Meyer <br/>(Spotify)</a>
   </div>
 
-   <div class="inline-block mr-6 m:w-1/2 text-center mb-6">
+
+   <div class="inline-block mr-6 m:w-1/2 text-center align-top mb-6">
     <a href="https://www.linkedin.com/in/mikeeisenstein/">
       <img src="/img/updates/aug/mike.jpg" class="rounded-full" width="175">
     </a>
-    <a href="https://www.linkedin.com/in/mikeeisenstein/" class="block mt-2">Mike Eisenstein <br/>Accenture</a>
+    <a href="https://www.linkedin.com/in/mikeeisenstein/" class="block mt-2">Mike Eisenstein <br/>(Accenture)</a>
   </div>
 
-  <div class="inline-block mr-6 m:w-1/2 text-center mb-6">
+  <div class="inline-block mr-6 m:w-1/2 text-center align-top mb-6">
     <a href="https://www.linkedin.com/in/melissalorton/">
       <img src="/img/updates/aug/melissa.jpg" class="rounded-full" width="175">
     </a>
-    <a href="https://www.linkedin.com/in/melissalorton/" class="block mt-2">Melissa D. Lorton <br/>Virtasant</a>
+    <a href="https://www.linkedin.com/in/melissalorton/" class="block mt-2">Melissa D. Lorton <br/>(Virtasant)</a>
   </div>
 
-  <div class="inline-block mr-6 m:w-1/2 text-center mb-6">
+  <div class="inline-block mr-6 m:w-1/2 text-center align-top mb-6">
     <a href="https://www.linkedin.com/in/michaelpkearns/">
       <img src="/img/updates/aug/michael.jpg" class="rounded-full" width="175">
     </a>
-    <a href="https://www.linkedin.com/in/michaelpkearns/" class="block mt-2">Michael Kearns <br/>Virtasant</a>
+    <a href="https://www.linkedin.com/in/michaelpkearns/" class="block mt-2">Michael Kearns <br/>(Virtasant)</a>
   </div>
 
-  <div class="inline-block mr-6 m:w-1/2 text-center mb-6">
+  <div class="inline-block mr-6 m:w-1/2 text-center align-top mb-6">
     <a href="https://www.linkedin.com/in/jrstorment">
       <img src="/img/updates/aug/jr.jpg" class="rounded-full" width="175">
     </a>
-    <a href="https://www.linkedin.com/in/jrstorment" class="block mt-2">J.R. Storment <br/>FinOps Foundation</a>
+    <a href="https://www.linkedin.com/in/jrstorment" class="block mt-2">J.R. Storment <br/>(FinOps Foundation)</a>
   </div>
 </div>
 
@@ -155,7 +170,7 @@ When we joined the Linux Foundation last summer and held the first FinOps Day on
 - **Unit Cost**
 - **Kubernetes (includes Vendor Showcases)**
 
-### Speakers
+<!-- ### Speakers
 
 <div>
   <div class="inline-block mr-6 m:w-1/2">
@@ -192,7 +207,7 @@ When we joined the Linux Foundation last summer and held the first FinOps Day on
     </a>
     <a href="https://www.linkedin.com/in/jrstorment">J.R. Storment</a>
   </div>
-</div>
+</div> -->
 
 ---
 
