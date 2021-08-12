@@ -45,7 +45,9 @@ The event is free to approved FinOps Foundation members - [join here!](https://w
 
 ### The 2nd annual International FinOps Day
 
-When we joined the Linux Foundation last summer and held the first FinOps Day on Aug 20, 2020, we had around 1500 practitioner members and no vendor members. Today we are proud to host the over 4000 practitioner members and nearly 40 vendor members with a half dozen active workgroups contributing to the FinOps Framework. To celebrate, we are giving 25% off all self-paced training ([FinOps Certified Practitioner](/training-certification/finops-certified-practitioner/) and [FinOps for Engineers](https://www.eventbrite.com/e/finops-for-engineers-training-self-paced-course-tickets-149961353445)) from now until Aug 20.
+When we joined the Linux Foundation last summer and held the first FinOps Day on Aug 20, 2020, we had around 1500 practitioner members and no vendor members. Today we are proud to host the over 4000 practitioner members and nearly 40 vendor members with a half dozen active workgroups contributing to the FinOps Framework.
+
+**To celebrate, we are giving 25% off all self-paced training** ([FinOps Certified Practitioner](/training-certification/finops-certified-practitioner/) and [FinOps for Engineers](https://www.eventbrite.com/e/finops-for-engineers-training-self-paced-course-tickets-149961353445)) from now until Aug 20.
 
 
 ### Speakers
