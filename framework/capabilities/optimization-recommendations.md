@@ -45,7 +45,7 @@ The correct approach with optimization recommendations is to implement recommend
 
 As vendors create more resource types, there will potentially be an increasing amount of recommendations. It is important not to worry about the volume of recommendations and look at value only
 
-## Related Functions
+## Related Capabilities
 
 
 ## Resources
