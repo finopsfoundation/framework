@@ -13,13 +13,13 @@ Datacenter costs are traditionally comprised of large upfront spend and smaller 
 Especially when combined with anomaly detection, organizations that have forecasting models able to predict cloud spend in the single digits of accuracy feel more in control of cloud spend and have more time to react to cloud spend trending outside of expectations.
 
 
-## Contributing Functions
+## Contributing Capabilities
 
- * [Resource Metadata (Tagging/Labeling)](/framework/functions/tagging-labeling/)
- * [Resource Hierarchy (Accounts, Subscriptions & Projects)](/framework/functions/resource-hierarchy/)
- * [Shared Cost Management](/framework/functions/shared-cost-management/)
- * [Data Ingestion](/framework/functions/data-ingestion/)
- * [Data Analytics](/framework/functions/data-analytics/)
+ * [Resource Metadata (Tagging/Labeling)](/framework/capabilities/tagging-labeling/)
+ * [Resource Hierarchy (Accounts, Subscriptions & Projects)](/framework/capabilities/resource-hierarchy/)
+ * [Shared Cost Management](/framework/capabilities/shared-cost-management/)
+ * [Data Ingestion](/framework/capabilities/data-ingestion/)
+ * [Data Analytics](/framework/capabilities/data-analytics/)
 
 
 ## Maturity Examples

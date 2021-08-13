@@ -14,10 +14,10 @@ FinOps is a culture within the organization, it is very important to ensure that
  * Expectations of them
  * How their efforts contribute to success
 
-## Contributing Functions
+## Contributing Capabilities
 
- * [Learning](/framework/functions/learning/)
- * [Policy Management](/framework/functions/policy-management/)
+ * [Learning](/framework/capabilities/learning/)
+ * [Policy Management](/framework/capabilities/policy-management/)
 
 
 ## Maturity Examples

@@ -12,13 +12,13 @@ Reporting forms one of the most important items for the inform phase of the [Fin
 
 Reporting can be provided by cloud service providers, third-party platforms, consultants, or from created by your own FinOps teams. In order for reports to be effective, it is important to define who will read the information, what they are required to monitor within the metrics, and the actions they are expected to take when something is out of the normal range.
 
-## Contributing Functions
+## Contributing Capabilities
 
- * [Resource Metadata (Tagging/Labeling)](/framework/functions/tagging-labeling/)
- * [Resource Hierarchy (Accounts, Subscriptions & Projects)](/framework/functions/resource-hierarchy/)
- * [Shared Cost Management](/framework/functions/shared-cost-management/)
- * [Data Ingestion](/framework/functions/data-ingestion/)
- * [Data Analytics](/framework/functions/data-analytics/)
+ * [Resource Metadata (Tagging/Labeling)](/framework/capabilities/tagging-labeling/)
+ * [Resource Hierarchy (Accounts, Subscriptions & Projects)](/framework/capabilities/resource-hierarchy/)
+ * [Shared Cost Management](/framework/capabilities/shared-cost-management/)
+ * [Data Ingestion](/framework/capabilities/data-ingestion/)
+ * [Data Analytics](/framework/capabilities/data-analytics/)
 
 
 ## Maturity Examples
