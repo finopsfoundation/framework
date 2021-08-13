@@ -25,7 +25,7 @@ It happened again this month: we have too many amazing speakers and content area
 ### Keynotes:
 ### #1 Dealing with Data Transfer
 
-Based on a lively [conversation in Slack](https://finopsfoundation.slack.com/archives/CNJPGNMMJ/p1627071180232200) started by Josh Bauman (EA), we’ve assembled a panel of FinOps experts from heavy streamers to discuss the ins/outs of data transfer cost management: Anders Hagman Spotify, Teresa Meade Electronic Arts, and others.
+Based on a lively [conversation in Slack](https://finopsfoundation.slack.com/archives/CNJPGNMMJ/p1627071180232200) started by Josh Bauman (EA), we’ve assembled a panel of FinOps experts from heavy streamers to discuss the ins/outs of data transfer cost management. This roster includes: Anders Hagman (Spotify), Teresa Meade (Electronic Arts), and others.
 
 ### #2 Adopting FinOps: Getting Organizational Buy-In
 
