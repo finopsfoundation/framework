@@ -38,7 +38,7 @@ With timely delivery of notifications to teams via:
 ## Common KPIs
 
 
-## Related Functions
+## Related Capabilities
 
 - Account Hierachy
 - Shared Cost Management

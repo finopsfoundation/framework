@@ -9,7 +9,7 @@ stage:
 company:
 
 ---
-*by Drew Lowe, Huly (now a part of Disney)*
+*by Drew Lowe, Hulu (now a part of Disney)*
 
 Drew leads the FinOps sourcing team for Hulu with Anthony Logan focusing on the technical aspects of cloud. At the beginning his team had no mandate from the top, which allowed them to focus on policies. FP&A was lacking technical depth while engineers were not concerned with cloud cost. Hulu is primarily using AWS with some workloads in data centers. Drew's team ultimately reports to the CFO.
 

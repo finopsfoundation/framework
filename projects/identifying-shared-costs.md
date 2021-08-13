@@ -33,14 +33,14 @@ You should also have a solid understanding of several things within your company
 
 ## Relevant FinOps framework components
 To get the most out of this document, please review the following first:
-* [Tagging and labeling](/framework/functions/tagging-labeling/)
-* [Cost allocation](/framework/capabilities/allocate/)
-* [Budgeting and forecasting](/framework/capabilities/forecast)
-* [Reserved instances, spot pricing, and savings plans](/framework/capabilities/rate-optimization)
+* [Tagging and labeling](/framework/capabilities/tagging-labeling/)
+* [Cost allocation](/framework/domains/allocate/)
+* [Budgeting and forecasting](/framework/domains/forecast)
+* [Reserved instances, spot pricing, and savings plans](/framework/domains/rate-optimization)
 * Enterprise discount programs
 * Accounting Models
 * Invoice and Billing Reporting
-* [Chargeback and Showback Reporting](/framework/capabilities/report)
+* [Chargeback and Showback Reporting](/framework/domains/report)
 * ...and more (please feel free to add or correct any links as a contribution to this playbook)
 
 If you have a strong handle on these subjects, continue on to better understand how to approach this challenge.
@@ -328,4 +328,4 @@ If we’ve missed anyone, let us know. We thank you all for your contributions.
 ## How to contribute more FinOps stories about this challenge
 There are many more stories to tell. If you have your own perspectives on tackling this challenge, submit your story to the SIG, or contribute to the FinOps Framework GitHub repo.
 
-See our [contribution guidelines](https://framework.finops.org/introduction/how-to-contribute/) for more details.
+See our [contribution guidelines](/introduction/how-to-contribute/) for more details.

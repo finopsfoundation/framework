@@ -52,7 +52,7 @@ How to get started and what great looks like.
 
 Most successful cost allocation strategies do not rely on tags but instead begin with an account/subscription/project approach depending on your cloud provider. While highly flexible, tags and label coverage is hard to enforce at scale.
 
-## Related Functions
+## Related Capabilities
 
 - Tagging / Labeling
 - Shared Cost Management

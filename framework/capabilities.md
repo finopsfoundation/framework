@@ -16,7 +16,7 @@ FinOps Capabilities represents functional areas of activity in support of their 
 - [Optimization Recommendations](optimization-recommendations) 
 - [Automation](automation)
 
-## Draft Functions
+## Draft Capabilities
 - [Modernize Resources](modernize-resources)
 - [Usage Volume Discounts (Usage Tiers, SUDs)](usage-volume-discounts)
 - [Architecture Refactoring](architecture-refactoring)

@@ -10,11 +10,11 @@ layout: default
 
 
 
-## Contributing Functions
+## Contributing Capabilities
 
- * [Resource Metadata (Tagging/Labeling)](/framework/functions/tagging-labeling/)
- * [Resource Hierarchy (Accounts, Subscriptions & Projects)](/framework/functions/resource-hierarchy/)
- * [Shared Cost Management](/framework/functions/shared-cost-management/)
+ * [Resource Metadata (Tagging/Labeling)](/framework/capabilities/tagging-labeling/)
+ * [Resource Hierarchy (Accounts, Subscriptions & Projects)](/framework/capabilities/resource-hierarchy/)
+ * [Shared Cost Management](/framework/capabilities/shared-cost-management/)
 
 
 ## Maturity Examples

@@ -18,13 +18,13 @@ You’ll also need to have a base level of knowledge of at least one of the thre
 ## Relevant FinOps Framework components
 To get the most out of this document, please review the following first:
 
-* [Tagging and labeling](/framework/functions/tagging-labeling/)
-* [Cost allocation](/framework/capabilities/allocate/)
+* [Tagging and labeling](/framework/capabilities/tagging-labeling/)
+* [Cost allocation](/framework/domains/allocate/)
 * Cost-centric ownership
 * [Implementing FinOps training for engineers](https://www.finops.org/certification/)
 * [Business metrics](/framework/abilities/unit-economics/)
-* [Automating savings](/framework/functions/automation/)
-* [Autoscaling](/framework/functions/autoscaling/)
+* [Automating savings](/framework/capabilities/automation/)
+* [Autoscaling](/framework/capabilities/autoscaling/)
 * Rightsizing
 * [Building a FinOps culture]()
 * … and more (please recommend some must-have framework components)

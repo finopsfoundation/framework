@@ -54,7 +54,7 @@ Explain to users what to look out for or any pitfalls to avoid when building and
 
 When looking at what they should do above, they can do the right things in the wrong way, or rely too much on one & not the other. Here you further guide them to ensure they're getting the right outcomes, by adding some more definition or calling out a way that a good thing can result in a bad result.
 
-## Related Functions
+## Related Capabilities
 List existing related functions and link to them here.
 * [example]()
 * [example]()
