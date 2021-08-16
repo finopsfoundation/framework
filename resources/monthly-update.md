@@ -10,11 +10,9 @@ description: See the latest updates from the previous and upcoming monthly membe
 
 ## August Summit: International FinOps Day
 
-<!-- <div class="videoWrapper mb-10">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/M-XiDO1VqT4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div> -->
-
-<img src="/img/updates/aug/finops-summit-august.png" />
+<div class="videoWrapper mb-10">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/wSSARjFiuY0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 <div class="bg-gray-200 rounded-lg px-6 py-4 text-center">
   <p><a href="/membership/" data-ga-category="links" data-ga-action="internal link clicks" data-ga-label="membership - monthly update">Become a FinOps Foundation member</a> to join the FinOps summit on August 19th</p>
