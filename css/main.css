@@ -8,6 +8,7 @@
 
 @import "css/hc-offcanvas-nav_carbon";
 @import "css/slick-theme";
+@import "css/typography";
 @import "css/_extra";
 
 @layer base {
@@ -25,11 +26,11 @@
 @layer base {
 
   .btn {
-    @apply inline-flex justify-center py-2 px-4 border shadow-sm text-sm font-medium rounded-sm text-white bg-green-500 font-normal
+    @apply inline-flex justify-center py-2 px-4 border shadow-sm text-sm font-medium rounded-sm text-white bg-green-500 font-normal no-underline
   }
 
   .btn-outline {
-    @apply inline-flex justify-center py-2 px-4 border shadow-sm text-sm font-medium rounded-sm text-green-500 bg-white border border-green-500 font-normal
+    @apply inline-flex justify-center py-2 px-4 border shadow-sm text-sm font-medium rounded-sm text-green-500 bg-white border border-green-500 font-normal no-underline
   }
 }
 

@@ -12,7 +12,7 @@ website-url: "https://www.virtasant.com"
 company-description: Virtasant is a cloud technology company that specializes in helping organizations leverage the power of public cloud platforms. The company's mission is to provide organizations with the ability to drive outcomes on-demand by leveraging Virtasant's proprietary methods, tools, and automation, supported by a highly-vetted global network of experts.
 
 # Membership level, type and vendor certifications
-member-level: general
+member-level: premier
 
 type: 
 - Platform Provider
@@ -62,7 +62,7 @@ supported-functions:
 - Data Processing
 - Data Visualization
 - Data Analytics
-- Committment Tracking
+- Commitment Tracking
 - Trending & Variance Analysis
 
 # Edit as appropriate to display supported clouds

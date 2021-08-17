@@ -16,21 +16,21 @@ company-description: |
 
   We encourage our clients to adopt everything as code, underpinned by mastering software engineering practices. This should provide benefit of increased speed of delivery, improved reliability, scalability and improvements in security and risk posture.
 
-# Membership level, type and vendor certifications 
+# Membership level, type and vendor certifications
 member-level: general
 
-type: 
+type:
 - Service Provider
- 
-certified-status:
-- FinOps Certified Service Provider
 
-# Product(s) or service overview maximum character count is 1000 the rest will be truncated and hidden automatically on your page 
+certified-status:
+# - FinOps Certified Service Provider
+
+# Product(s) or service overview maximum character count is 1000 the rest will be truncated and hidden automatically on your page
 product-overview:
 
 product-video-url:
 
-# Related product or service resources, the titles will have associated URLs, e.g. product 
+# Related product or service resources, the titles will have associated URLs, e.g. product
 product-resources:
 - title: Solutions Overview
   url: "https://vaxowave.com/solutions/"
@@ -50,7 +50,7 @@ clouds-supported:
 - Azure
 - Private Cloud
 
-# FinOps Foundation Member since 
+# FinOps Foundation Member since
 date: 2020-08-01
 
 # Show recent related FinOps activity, it can be content, webinars, thought leadership and include external links
@@ -58,7 +58,7 @@ recent-finops-activity:
 - title: When Cloud goes wrong – A cost perspective!
   url: "https://drive.google.com/file/d/1kkkNHGATHnAPWQ-ZOAO-xu7PwSKAtpuf/view"
 
-# Detail related/dedicated slack channels in the FinOps Foundation Slack 
+# Detail related/dedicated slack channels in the FinOps Foundation Slack
 slack-channels:
 - title:
   url:
