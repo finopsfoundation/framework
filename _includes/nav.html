@@ -1,22 +1,22 @@
 
-<ul class="pt-2">
+<ul class="plain-list m-0">
 {% for item in site.data.navigation_side %}
-  <li>
+  <li class="mb-8">
     {% if item.url == undefined %}
       <h3 class="text-sm font-semibold text-gray-700 tracking-wider uppercase">{{ item.name }}</h3>
     {% else %}
       <h3 class="text-sm font-semibold text-gray-700 tracking-wider uppercase"><a class="hover:text-green-500 transition-colors duration-200" href="{{ item.url }}">{{ item.name }}</a></h3>
     {% endif %}
     {% if item.children != null %}
-    <ul class="mt-2 mb-8">
+    <ul class="mt-2 mb-8 plain-list m-0">
       {% for child in item.children %}
         {% if child.url == undefined %}
-        <li>
-          <a class="lg:text-sm font-normal text-gray-600 hover:text-gray-800 transition-colors duration-200" href="/{{ item.name | downcase }}/{{ child.name | replace: ' ', '-' | downcase }}">{{ child.name }}</a>
+        <li class="leading-5 my-2">
+          <a class="lg:text-sm font-normal text-gray-600 hover:text-gray-800 transition-colors duration-200" href="/{{ item.name | downcase }}/{{ child.name | replace: ' ', '-' | downcase }}" data-ga-category="nav" data-ga-action="internal link clicks" data-ga-label="{{ child.name }}">{{ child.name }}</a>
         </li>
         {% else %}
-        <li>
-          <a class="lg:text-sm font-normal text-gray-600 hover:text-gray-800 transition-colors duration-200" href="{{ child.url }}">{{ child.name }}</a>
+        <li class="leading-5 my-2">
+          <a class="lg:text-sm font-normal text-gray-600 hover:text-gray-800 transition-colors duration-200" href="{{ child.url }}" data-ga-category="nav" data-ga-action="internal link clicks" data-ga-label="{{ child.name }}">{{ child.name }}</a>
         </li>
         {% endif %}
       {% endfor %}

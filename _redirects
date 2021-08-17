@@ -15,3 +15,13 @@ https://framework.finops.org/* https://www.finops.org/:splat 301!
 /projects/accurate-forecasts/ /projects/accurate-cloud-forecasts/
 /what-is-finops/ /introduction/what-is-finops/
 /vendor-members/ /members/
+/certification/finops-certified-practitioner/ /training-certification/finops-certified-practitioner/
+
+/framework/lifecycle/ /framework/phases/
+/framework/functions/* /framework/capabilities/:splat 301!
+/framework/capabilities/allocate/ /framework/domains/allocate/
+/framework/capabilities/forecast/ /framework/domains/forecast/
+/framework/capabilities/organizational-alignment/ /framework/domains/organizational-alignment/
+/framework/capabilities/rate-optimization/ /framework/domains/rate-optimization/
+/framework/capabilities/report/ /framework/domains/report/
+/framework/capabilities/usage-optimization/ /framework/domains/usage-optimization/

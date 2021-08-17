@@ -1,8 +1,8 @@
 ---
-# Please do not alter layout as it will break the vendor page 
+# Please do not alter layout as it will break the vendor page
 layout: member
 
-# Vendor details 
+# Vendor details
 name: TechNative
 logo-url: "https://www.technative.nl/wp-content/uploads/2021/02/img_logo.svg"
 linkedin-url: "https://nl.linkedin.com/company/technative-bv"
@@ -17,12 +17,12 @@ Working with us, you will effectively improve your cloud, increase performance, 
 # Membership level, type and vendor certifications
 member-level: general
 
-type: 
+type:
 - Service Provider
 - Training Provider
 
 certified-status:
-- FinOps Certified Service Provider
+#- FinOps Certified Service Provider
 - FinOps Training Partner
 
 # Product(s) or service overview maximum character count is 1000 the rest will be truncated and hidden automatically on your page
@@ -48,10 +48,10 @@ clouds-supported:
 - Azure
 - GCP
 
-# FinOps Foundation Member since 
+# FinOps Foundation Member since
 date: 2021-07-01
 
-# Show recent related FinOps activity, it can be content, webinars, thought leadership and include external links 
+# Show recent related FinOps activity, it can be content, webinars, thought leadership and include external links
 recent-finops-activity:
 - title:
   url:

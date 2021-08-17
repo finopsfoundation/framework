@@ -11,21 +11,21 @@ website-url: "https://www.replex.io"
 # Maximum character count is 350 the rest will be truncated and hidden automatically on your page
 company-description: Replex is the first cloud-native FinOps platform for Kubernetes, giving Finance and Engineering teams a unified, real-time view of their cost data and allowing fine grained cost control.
 
-# Membership level, type and vendor certifications 
+# Membership level, type and vendor certifications
 member-level: general
 
-type: 
+type:
 - Platform Provider
- 
-certified-status:
-- FinOps Certified Platform
 
-# Product(s) or service overview maximum character count is 1000 the rest will be truncated and hidden automatically on your page 
+certified-status:
+# - FinOps Certified Platform
+
+# Product(s) or service overview maximum character count is 1000 the rest will be truncated and hidden automatically on your page
 product-overview: Replex’s provides powerful features that provide transparency and FinOps best practices, such as cost trend insights, resource optimization, collaborative insights, cost allocation clarity, show back and chargeback options, and budget management resources.
 
 product-video-url:
 
-# Related product or service resources, the titles will have associated URLs, e.g. product 
+# Related product or service resources, the titles will have associated URLs, e.g. product
 product-resources:
 - title: Cost Allocation
   url: "https://www.replex.io/solution/manage-and-optimize-kubernetes-cluster-costs"
@@ -44,7 +44,7 @@ supported-functions:
 - Data Ingestion
 - Data Visualization
 - Data Analytics
-- Budget Alerting 
+- Budget Alerting
 - Trending & Variance Analysis
 - Containers Capabilities
 
@@ -57,7 +57,7 @@ clouds-supported:
 - Data Center
 - Private Cloud
 
-# FinOps Foundation Member since 
+# FinOps Foundation Member since
 date: 2021-07-01
 
 # Show recent related FinOps activity, it can be content, webinars, thought leadership and include external links
@@ -67,7 +67,7 @@ recent-finops-activity:
 - title: The Ultimate Guide to FinOps
   url: "https://www.replex.io/blog/the-ultimate-guide-to-k8s-cloud-finops"
 
-# Detail related/dedicated slack channels in the FinOps Foundation Slack 
+# Detail related/dedicated slack channels in the FinOps Foundation Slack
 slack-channels:
 - title:
   url:

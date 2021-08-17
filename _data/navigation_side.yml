@@ -3,16 +3,21 @@
   - name: What is FinOps
   - name: How to Contribute
   - name: How to Use
-- name: Framework
+- name: FinOps Framework
   children:
   - name: Principles
+    url: /framework/principles/
   - name: Personas
-  - name: Lifecycle
+    url: /framework/personas/
+  - name: Phases
+    url: /framework/phases/
+  - name: Domains
+    url: /framework/domains/
   - name: Capabilities
-  - name: Functions
-  - name: KPIs
+    url: /framework/capabilities/
 - name: Projects
   children:
+  - name: Overview
   - name: State of FinOps
     url: https://data.finops.org/
   - name: Encouraging Engineers to Take Action
@@ -22,6 +27,8 @@
 - name: Resources
   children:
   - name: Monthly Update 
+  - name: Training & Certification
+    url: /training-certification/
   - name: Events
   - name: FinOps Book
   - name: Vendor Members

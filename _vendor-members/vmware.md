@@ -53,7 +53,7 @@ supported-functions:
 - Data Visualization
 - Data Analytics
 - Budget Alerting
-- Committment Tracking
+- Commitment Tracking
 - Marketplace
 - Policy Management
 - Trending & Variance Analysis
