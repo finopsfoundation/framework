@@ -10,6 +10,7 @@ tags:
 persona:
 stage:
 company:
+order: 1
 
 ---
 *by [Peter Shi](https://www.linkedin.com/in/petershicloud/), Founder of Goldiserv*
