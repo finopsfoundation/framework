@@ -5,7 +5,8 @@ domain-title: Real-Time Decision Making
 domain-desc: This Domain improves stakeholder enablement by curating data in stakeholder-specific contexts,  iteratively improving decision velocity and aligning organizational processes to the realities of operating in the cloud.
 permalink: /framework/domains/real-time-decision-making/
 title: Real-Time Decision Making FinOps Domain
-desc: This Domain improves stakeholder enablement by curating data in stakeholder-specific contexts,  iteratively improving decision velocity and aligning organizational processes to the realities of operating in the cloud.
+description: This Domain improves stakeholder enablement by curating data in stakeholder-specific contexts,  iteratively improving decision velocity and aligning organizational processes to the realities of operating in the cloud.
+order: 3
 
 ---
 

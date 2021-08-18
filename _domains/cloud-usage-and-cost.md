@@ -5,7 +5,8 @@ domain-title: Understanding Cloud Usage and Cost
 domain-desc: Within this Domain, the organization will work to gather all required information about its cloud usage and cost, normalize it, make it available for review, including circulating it to those personas that will use it in other Domains.
 permalink: /framework/domains/cloud-usage-and-cost/
 title: Understanding Cloud Usage and Cost FiOps Domain
-desc: Within this Domain, the organization will work to gather all required information about its cloud usage and cost, normalize it, make it available for review, including circulating it to those personas that will use it in other Domains.
+description: Within this Domain, the organization will work to gather all required information about its cloud usage and cost, normalize it, make it available for review, including circulating it to those personas that will use it in other Domains.
+order: 1
 
 ---
 

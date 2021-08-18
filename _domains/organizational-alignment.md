@@ -5,7 +5,8 @@ domain-title: Organizational Alignment
 domain-desc: Within this domain, the organization acts and automates to manage cloud use within the context of other IT Finance activities, and integrates FinOps capabilities with existing organizational processes, organizational units, and technology.
 permalink: /framework/domains/organizational-alignment/
 title: Organizational Alignment FinOps Domain
-desc: Within this domain, the organization acts and automates to manage cloud use within the context of other IT Finance activities, and integrates FinOps capabilities with existing organizational processes, organizational units, and technology.
+description: Within this domain, the organization acts and automates to manage cloud use within the context of other IT Finance activities, and integrates FinOps capabilities with existing organizational processes, organizational units, and technology.
+order: 6
 
 ---
 

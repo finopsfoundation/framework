@@ -5,7 +5,8 @@ domain-title: Cloud Rate Optimization
 domain-desc: Within this domain, the organization works to define its pricing model goals, uses historical data to make pricing model adjustments by buying commitment based discounts, and works to manage the pricing aspects of services it is using in the cloud.
 permalink: /framework/domains/cloud-rate-optimization/
 title: Cloud Rate Optimization FinOps Domain
-desc: Within this domain, the organization works to define its pricing model goals, uses historical data to make pricing model adjustments by buying commitment based discounts, and works to manage the pricing aspects of services it is using in the cloud.
+description: Within this domain, the organization works to define its pricing model goals, uses historical data to make pricing model adjustments by buying commitment based discounts, and works to manage the pricing aspects of services it is using in the cloud.
+order: 4
 
 ---
 
