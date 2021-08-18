@@ -11,6 +11,7 @@ tags:
 persona:
 stage:
 company:
+order: 1
 
 ---
 *by Scott Meyer and Brendan Greenley, Spotify*

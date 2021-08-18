@@ -7,6 +7,7 @@ tags:
 persona:
 stage:
 company:
+order: 1
 
 ---
 

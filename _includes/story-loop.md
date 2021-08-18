@@ -1,5 +1,6 @@
 {% assign is_stories = false %}
-{% for story in site.stories %}
+{% assign sorted_stories = site.stories | sort:"order" %}
+{% for story in sorted_stories %}
     {% if forloop.first == true %}
 ## Related FinOps Stories	
     {% endif %}
@@ -15,4 +16,3 @@
 {% if is_stories == false %}
 * Willing to add your story - Contibute stories [here](https://github.com/finopsfoundation/fodo/tree/master/_stories) or reach out in the FinOps Foundation Slack
 {% endif %}
-

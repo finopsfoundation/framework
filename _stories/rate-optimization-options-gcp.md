@@ -8,6 +8,7 @@ tags:
 persona:
 stage:
 company:
+order: 1
 
 ---
 *by Pathik Sharma, Senior Technical Account Manager, Google Cloud Platform*
