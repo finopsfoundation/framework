@@ -51,11 +51,18 @@ collections:
     output: true
   vendor-members:
     output: true
+  domains:
+    output: true
 
 defaults:
   - scope:
       path: "framework"
       type: "pages"
+    values:
+      identifier: "framework"
+  - scope:
+      path: ""
+      type: "domains"
     values:
       identifier: "framework"
   - scope:
