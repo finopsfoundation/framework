@@ -24,9 +24,10 @@
   - name: Identifying Shared Costs
   - name: Calculating Container Costs
   - name: Accurate Cloud Forecasts
+  - name: Multi-Cloud Tools and Terms 
 - name: Resources
   children:
-  - name: Monthly Update 
+  - name: Monthly Update
   - name: Training & Certification
     url: /training-certification/
   - name: Events
@@ -35,4 +36,3 @@
     url: /members/
   - name: Blogs and Articles
     url: /resources/finops-links/
-
