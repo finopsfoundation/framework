@@ -1,8 +1,10 @@
 ---
 
 layout: default
-title: Cloud Usage Optimization
+domain-title: Cloud Usage Optimization
+domain-desc:
 permalink: /framework/domains/cloud-usage-optimization/
+title: Cloud Usage Optimization FinOps Domain
 
 ---
 
@@ -13,3 +15,15 @@ Within this domain, the organization identifies and takes action to match runnin
 The Usage Optimization domain contains the set of capabilities to match our actual workload needs to the cloud services we use at any given time as closely as possible. Using the right resources, in the right size, only when we need them to produce business value is ultimately what the variable use model of cloud allows us to do to maximize value to our business.
 
 At its core, this Domain answers the question: How can we change what we’re using and when we’re using it in the cloud to better meet our organizational goals?
+
+## FinOps Capabilities
+
+Reference of Capabilities coming soon.
+
+## FinOps Platforms & Service Providers
+
+Reference of cloud cost management platforms and service providers coming soon.
+
+## FinOps Training
+
+Reference of courses and training partners coming soon.

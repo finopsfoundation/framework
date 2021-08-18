@@ -23,8 +23,8 @@ The Domains are interdependent, and together provide a high level overview of wh
     <a href="{{ domain.url }}" class="m-2 flex items-stretch">
       <div class="p-6 bg-white flex space-x-6 rounded-lg shadow-md hover:-translate-y-2 hover:shadow-lg transition transform duration-500 cursor-pointer">
         <div>
-          <h3 class="text-xl font-bold text-gray-700 mb-2 mt-0">{{ domain.title }}</h3>
-          <p class="text-gray-600 w-80 text-sm">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta cupiditate ut laboriosam!</p>
+          <h3 class="text-xl font-bold text-gray-700 mb-2 mt-0">{{ domain.domain-title }}</h3>
+          <p class="text-gray-600 w-80 text-sm">{{ domain.domain-desc }}</p>
         </div>
       </div>
     </a>
