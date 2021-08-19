@@ -14,7 +14,7 @@ Persona-based FinOps Training classes self-paced, online and are not a part of t
 
 <div class="flow-root bg-gray-100 rounded-lg px-6 pb-8 mb-4">
   <div>
-    <h2 class="text-xl font-medium text-gray-900 tracking-tight">FinOps for Engineers (FOFE)</h2>
+    <h2 class="text-xl font-medium text-gray-900 tracking-tight">FinOps for Engineers</h2>
     <p class="text-base text-gray-600">
       FinOps for Engineers is a training course designed to provide engineers and those who architect, design, construct, and operate software solutions and infrastructure in the public cloud to understand how to work effectively with FinOps teams, finance, procurement, product, and management teams to manage cloud use and cost more efficiently and to derive more business value from cloud.
     </p>
@@ -22,10 +22,10 @@ Persona-based FinOps Training classes self-paced, online and are not a part of t
   </div>
 </div>
 
-- FinOps for Finance (FOFF) (expected 4Q21)
-- FinOps for Executives (FOFX) (expected 4Q21)
-- FinOps for Procurement (FOFR) (expected 2Q22)
-- FinOps for Product Managers (FOFP) (expected 2Q22)
+- FinOps for Finance (expected 4Q21)
+- FinOps for Executives (expected 4Q21)
+- FinOps for Procurement (expected 2Q22)
+- FinOps for Product Managers (expected 2Q22)
 
 
 ## What's included
