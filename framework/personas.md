@@ -21,8 +21,8 @@ layout: default
     <img src="/img/framework/persona-product.svg" alt="FinOps Product Owner Persona" width="150" class="relative" />
   </div>
   <div class="p-4">
-    <h2 class="mt-0">FinOps Practitioners</h2>
-    <p>FinOps practitioners, such as an AWS FinOps Analyst, Director of Cloud Optimization, Manager of Cloud Operations or AWS Cost Optimisation Data Analyst are focused on forecasting cloud spend, allocating and budgeting cloud spend to teams.</p>
+    <h2 class="mt-0">Business/Product Owner</h2>
+    <p>Business and Product Owner team members, such as VP/Head of Infrastructure, VP/Head of Cloud Management and Operations, CTO, CIO.</p>
   </div>
 </div>
 
@@ -41,7 +41,7 @@ layout: default
     <img src="/img/framework/persona-finance.svg" alt="FinOps finance Persona" width="150" class="relative" />
   </div>
   <div class="p-4">
-    <h2 class="mt-0">Engineering and Operations</h2>
+    <h2 class="mt-0">Finance/Procurement</h2>
     <p>Finance and procurement team members, including Technology Procurement Manager, Global Technology Procurement, Financial Planning and Analyst Manager, and Financial Business Advisor, use the reporting provided by the FinOps team for accounting and forecasting. They work closely with FinOps practitioners to understand historic billing data so that they can build out more accurate cost models. They use their forecasts and expertise from the FinOps team to engage in rate negotiations with cloud service providers.</p>
   </div>
 </div>
