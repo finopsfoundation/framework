@@ -8,7 +8,7 @@ description: See the latest updates from the previous and upcoming monthly membe
 
 # FinOps Monthly Updates
 
-## August Summit: International FinOps Day
+## August FinOps Summit: International FinOps Day
 
 <div class="videoWrapper mb-10">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/H1r4TOuMm64" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
