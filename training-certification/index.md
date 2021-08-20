@@ -13,7 +13,7 @@ The FinOps Foundation offers training courses and certification programs for any
 
 <div class="flow-root bg-gray-100 rounded-lg px-6 pb-8 mb-4">
   <div>
-    <h2 class="text-xl font-medium text-gray-900 tracking-tight">FinOps Certified Practitioner (FOCP)</h2>
+    <h2 class="text-xl font-medium text-gray-900 tracking-tight">FinOps Certified Practitioner</h2>
     <p class="text-base text-gray-600">
       The FinOps Certified Practitioner course is designed for those seeking to be a member of a FinOps or cloud financial management team. Companies seeking to hire people to be on a FinOps team would do well to consider Certified Practitioners who will understand the fundamentals of the practice of FinOps.
     </p>
@@ -23,7 +23,7 @@ The FinOps Foundation offers training courses and certification programs for any
 
 <div class="flow-root bg-gray-100 rounded-lg px-6 pb-8 mb-4">
   <div>
-    <h2 class="text-xl font-medium text-gray-900 tracking-tight">FinOps Certified Professional (FOCF)</h2>
+    <h2 class="text-xl font-medium text-gray-900 tracking-tight">FinOps Certified Professional</h2>
     <p class="text-base text-gray-600">
       The FinOps Certified Professional program is a more rigorous program of study, service, and content creation designed for those seeking to lead or support others leading FinOps teams. Companies seeking to start up a FinOps practice, adopt public cloud use, or consult or train FinOps teams would do well to seek out FinOps Certified Professionals who will understand all aspects of FinOps and have practical experience with its implementation.
     </p>

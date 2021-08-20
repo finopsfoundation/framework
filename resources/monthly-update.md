@@ -8,17 +8,15 @@ description: See the latest updates from the previous and upcoming monthly membe
 
 # FinOps Monthly Updates
 
-## August Summit: International FinOps Day
+## August FinOps Summit: International FinOps Day
 
 <div class="videoWrapper mb-10">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/wSSARjFiuY0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/H1r4TOuMm64" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 <div class="bg-gray-200 rounded-lg px-6 py-4 text-center">
-  <p><a href="/membership/" data-ga-category="links" data-ga-action="internal link clicks" data-ga-label="membership - monthly update">Become a FinOps Foundation member</a> to join the FinOps summit on August 19th</p>
+  <p><a href="/membership/" data-ga-category="links" data-ga-action="internal link clicks" data-ga-label="membership - monthly update">Become a FinOps Foundation member</a> to join the next monthly FinOps summit.</p>
 </div>
-
-It happened again this month: we have too many amazing speakers and content areas to cover! We hope you join hundreds of your peers at our session on Aug 19th, with over a dozen speakers across three topics:
 
 ### Keynotes:
 ### #1 Dealing with Data Transfer
@@ -44,9 +42,9 @@ The event is free to approved FinOps Foundation members - [join here!](https://w
 
 ### The 2nd annual International FinOps Day
 
-When we joined the Linux Foundation last summer and held the first FinOps Day on Aug 20, 2020, we had around 1500 practitioner members and no vendor members. Today we are proud to host the over 4000 practitioner members and nearly 40 vendor members with a half dozen active workgroups contributing to the FinOps Framework.
+When we joined the Linux Foundation last summer and held the first FinOps Day on Aug 20, 2020, we had around 1500 practitioner members and no vendor members. Today we are proud to host the over 4100 practitioner members and 40 vendor members with a half dozen active workgroups contributing to the FinOps Framework.
 
-**To celebrate, we are offering 25% off all self-paced training** ([FinOps Certified Practitioner](/training-certification/finops-certified-practitioner/) and [FinOps for Engineers](https://www.eventbrite.com/e/finops-for-engineers-training-self-paced-course-tickets-149961353445)), simply join the Summit to get the discount code and use it through Aug 20.
+**To celebrate, we are offering 25% off all self-paced training** ([FinOps Certified Practitioner](/training-certification/finops-certified-practitioner/) and [FinOps for Engineers](https://www.eventbrite.com/e/finops-for-engineers-training-self-paced-course-tickets-149961353445)), simply watch the Summit to get the discount code and use it through Aug 20.
 
 
 ### Speakers

@@ -1,0 +1,8 @@
+{% for domain in site.domains %}
+
+<a href="{{ domain.url }}" markdown="1">
+  <h3>{{ domain.title }}</h3>
+  <p>{{ domain.desc }}</p>
+</a>
+
+{% endfor %}

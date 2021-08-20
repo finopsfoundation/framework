@@ -9,7 +9,7 @@ description: The FinOps Foundation is a non-profit trade association made up of 
 
 # About The FinOps Foundation
 
-The FinOps Foundation is a program of the [The Linux Foundation](http://linuxfoundation.org) (alongside organizations like [Cloud Native Computing Foundation](http://cncf.io)) dedicated to advancing the discipline of cloud financial management through best practices, education and standards. The FinOps Foundation includes 3500+ individual members, representing more than 1500 companies. It provides a variety of training and certificaton programs including the [FinOps Certified Practitioner](/certification/finops-certified-practitioner/) designation. It counts dozens of major service and platform providers as part of our vendor certification programs such as [FinOps Certified Platform](/certification/vendor-certification/) and [FinOps Certified Service Provider](/certification/vendor-certification/) programs.
+The FinOps Foundation is a program of the [The Linux Foundation](http://linuxfoundation.org) (alongside organizations like [Cloud Native Computing Foundation](http://cncf.io)) dedicated to advancing the discipline of cloud financial management through best practices, education and standards. The FinOps Foundation includes 3500+ individual members, representing more than 1500 companies. It provides a variety of training and certificaton programs including the [FinOps Certified Practitioner](/training-certification/finops-certified-practitioner/) designation. It counts dozens of major service and platform providers as part of our vendor certification programs such as [FinOps Certified Platform](/training-certification/vendor-certification/) and [FinOps Certified Service Provider](/training-certification/vendor-certification/) programs.
 
 - Mission
 - Structure
@@ -44,16 +44,16 @@ The FinOps TAC is the technical governing body of the FinOps Foundation which ov
 
 10 Seats Initially - Mix of Practitioners, GB Appointed, and Premier Members
 
-1. Mike Fuller, Principal Systems Engineer for FinOps at Atlassian (TAC Chairperson through 12/31/2020)
-1. Ashley Hromatko, Sr. Mgr FinOps at Pearson
-1. Eugene Khvostov, VP Product & Eng at Apptio Cloudability (former AWS Insights)
-1. John McLoughlin, Director Product Management for CloudHealth by VMware
-1. Amitai Rottem, Billing Product Management for Google Cloud (former Microsoft)
-1. Joseph Daly, Director of Cloud Optimization at Nationwide
-1. Antoine Lagier, Contributing Editor and Maintainer of FinOps.world, and French SIG chair
-1. Rich Hoyer, Director of FinOps, SADA
-1. Open Seat
-1. Open Seat
+1. Mike Fuller, Principal Systems Engineer for FinOps at Atlassian (Chair)
+2. Joseph Daly, Director of Cloud Optimization at Nationwide
+3. Melvin Brown, Acting Deputy Chief Information Officer at US Government OPM
+4. Anders Hagman, Senior Manager, Cloud FinOps & Technology Procurement at Spotify
+5. Riley Jenkins, Sr. SRE/FinOps Architect at Domo
+6. Amitai Rottem, Billing Product Management for Google Cloud (former Microsoft)
+7. Eugene Khvostov, VP Product & Eng at Apptio Cloudability (former AWS Insights)
+8. John McLoughlin, Director Product Management for CloudHealth by VMware
+9. Antoine Lagier, Contributing Editor and Maintainer of FinOps.world, and French SIG chair
+10. Rich Hoyer, Director of FinOps, SADA
 
 As defined by the Technical Charter, The Technical Advisory Council (the "TAC") will have ten members determined as follows:
 
@@ -68,15 +68,17 @@ The FinOps Governing Board and Directed Fund supports the Technical Advisory Cou
 
 The GB currently consists of these representatives:
 
-1. Mike Fuller, Principal Systems Engineer at Atlassian (TAC Chair)
-2. Jen Hays, VP FinOps at Fidelity
-3. Deb MacCallum, VP Engineering at VMware Cloudhealth
-4. Amitai Rottem, Billing Product Management at Google Cloud
+1. Jen Hays, VP FinOps at Fidelity (Chair)
+2. Mike Fuller, Principal Systems Engineer at Atlassian (TAC Chair)
+8. Scott Linn, Cloud Services and Optimization Manager at Chevron
+9. Natalie Daley, Director Of Operations at HSBC for CTO Shared Services and Cloud
+4. Abuna Demoz, Senior Engineering Manager at Google Cloud
 5. Miles Ward, CTO at SADA
 6. Rakinder Sembhi, Principal at Deloitte
+9. Michael Kearns, CEO at Virtasant
+9. Mike Eisenstein, Global Cloud Optimization Lead at Accenture
+3. Deb MacCallum, VP Engineering at VMware Cloudhealth
 7. J.R. Storment, Executive Director of FinOps Foundation
-8. Open General Member Seat
-9. Open General Member Seat
 
 As defined by the FinOps Foundation Participation Agreement, the Governing Board voting members will consist of:
 
@@ -98,6 +100,7 @@ Those on the Governing Board have no vote on the TAC and vice versa, with the ex
 - Tracy Roesler, Program Manager
 - William Ospina, Ambassador Program
 - Vas Markanastasakis, Principal, FinOps Practice Management
+- Steve Trask, Director of Marketing
 
 ## FAQs
 
