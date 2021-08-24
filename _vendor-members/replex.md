@@ -18,7 +18,7 @@ type:
 - Platform Provider
 
 certified-status:
-# - FinOps Certified Platform
+- FinOps Certified Solution
 
 # Product(s) or service overview maximum character count is 1000 the rest will be truncated and hidden automatically on your page
 product-overview: Replex’s provides powerful features that provide transparency and FinOps best practices, such as cost trend insights, resource optimization, collaborative insights, cost allocation clarity, show back and chargeback options, and budget management resources.
