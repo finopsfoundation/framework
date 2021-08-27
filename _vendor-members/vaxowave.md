@@ -23,7 +23,7 @@ type:
 - Service Provider
 
 certified-status:
-# - FinOps Certified Service Provider
+- FinOps Certified Service Provider
 
 # Product(s) or service overview maximum character count is 1000 the rest will be truncated and hidden automatically on your page
 product-overview:
