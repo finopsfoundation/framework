@@ -12,16 +12,17 @@ website-url: 'https://thebescloud.com/'
 # Maximum character count is 350 the rest will be truncated and hidden automatically on your page
 company-description: Thebes Cloud Management helps businesses to analyse their cloud & on-premise environments to make informed, data-driven decisions on technology investments. With customised reporting and clear insights focused on business outcomes that are aligned to client goals, we drive value whilst providing cost transparency and optimising technology spend.
 
-# Membership level, type and vendor certifications 
+# Membership level, type and vendor certifications
 member-level: general
 
-type: 
+type:
 - Service Provider
 - Training Provider
- 
-certified-status:
 
-# Product(s) or service overview maximum character count is 1000 the rest will be truncated and hidden automatically on your page 
+certified-status:
+- FinOps Certified Service Provider
+
+# Product(s) or service overview maximum character count is 1000 the rest will be truncated and hidden automatically on your page
 product-overview: |
   As a committed FinOps Foundation Partner we work with our clients to identify where their cloud spend is, to drive efficiency and unlock investment opportunities with the following services.
 
@@ -35,7 +36,7 @@ product-overview: |
 
 product-video-url:
 
-# Related product or service resources, the titles will have associated URLs, e.g. product 
+# Related product or service resources, the titles will have associated URLs, e.g. product
 product-resources:
 - title: Cloud Cost Optimisation
   url: 'https://thebescloud.com/cloud-cost-optimisation/'
@@ -63,7 +64,7 @@ clouds-supported:
 - Data Center
 - Private Cloud
 
-# FinOps Foundation Member since 
+# FinOps Foundation Member since
 date: 2021-05-01
 
 # Show recent related FinOps activity, it can be content, webinars, thought leadership and include external links
@@ -71,7 +72,7 @@ recent-finops-activity:
 - title: Cloud Cost Management Webinar
   url: 'https://www.youtube.com/watch?v=qHfp-8RSP8g'
 
-# Detail related/dedicated slack channels in the FinOps Foundation Slack 
+# Detail related/dedicated slack channels in the FinOps Foundation Slack
 slack-channels:
 
 # The total number of FinOps Certified Practitioners at the vendor
