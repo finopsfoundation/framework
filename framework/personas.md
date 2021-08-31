@@ -22,7 +22,7 @@ layout: default
   </div>
   <div class="p-4">
     <h2 class="mt-0">Business/Product Owner</h2>
-    <p>Business and Product Owner team members, such as VP/Head of Infrastructure, VP/Head of Cloud Management and Operations, CTO, CIO.</p>
+    <p>Business and Product Owner team members, such as Director of Cloud Optimization, Cloud Analyst, Business Operations Manager.</p>
   </div>
 </div>
 
