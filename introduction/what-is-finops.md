@@ -18,7 +18,7 @@ At its core, FinOps is a cultural practice. It’s the way for teams to manage t
 
 ![image](/img/resources/finops-poster.png)
 
-[Download the PDF](/img//resources/FinOps Poster_190821.pdf){:target="_blank"}
+[Download the PDF](/img//resources/FinOps Poster_310821.pdf){:target="_blank"}
 
 No longer is a siloed procurement team identifying costs and signing off on them. Instead, a cross-functional FinOps team adopts a definitive series of procurement best practices, enabling them to pull together technology, business, and finance in order to optimize cloud vendor management, rate, and discounting. With FinOps, each operational team (workload, service, product owner) can access the near-real-time data they need to influence their spend and help them make intelligent decisions that ultimately result in efficient cloud costs balanced against the speed/performance and quality/availability of services.
 

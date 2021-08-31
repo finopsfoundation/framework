@@ -12,7 +12,7 @@ This work is licensed under a
 # FinOps.org / FinOps Framework
 This repo contains the code and content that builds the finops.org and FinOps Framework websites.
 
-##About contributions
+## About contributions
 Content and sections about the FinOps Foundation are maintained by the team and related members of the Linux Foundation.
 
 FinOps Framework content, including concepts, principles, best practices, and other related content are open source and contributions are warmly welcomed. Contributions should be focused on editing, updating, and maintaining content, definitions, and usability of this website. Actual building, testing, and production of this property are done by the FinOps Foundation team.
@@ -28,6 +28,12 @@ Contributing to finops.org and the FinOps Framework can include:
 * Reporting broken links or link updates
 * and other content-related fixes
 
+There are multiple ways to submit changes:
+* Make a commit using the [GitHub GUI](https://github.com/finopsfoundation/framework) and submit it for review
+* Submit an update or new content via [this Google form](https://forms.gle/it89PbfcFnHHcgPP8) which automatically creates a GitHub issue
+* Create an issue directly [via GitHub](https://github.com/finopsfoundation/framework/issues)
+* Reach out to the members and team in the [#framework](https://finopsfoundation.slack.com/archives/C01UANLEPDW) slack channel
+
 ### Creating and formatting issues
 
 If submitting an issue, please use the issue title to identify what is not working as intended.
@@ -41,13 +47,6 @@ Use the body of the issue to add additional context, link relevant information a
 If you don't know how to resolve the issue, that's okay. Reporting it is a very helpful first step.
 
 Please do not assign issues or apply metadata. The FinOps Foundation team will do these for you.
-
-### Formatting commits
-
-If you're familiar with GitHub and want to commit your own content changes, please feel free to do so using the GitHub GUI.
-
-### Using a Google Doc
-If you're reading this and don't want to use GitHub to submit a change, please feel free to write out an amendment or edit and inform the FinOps Foundation team on our [Community Slack channel](https://finopsfoundation.slack.com/), or at hello@finops.org.
 
 ### Review process
 
