@@ -21,7 +21,7 @@ There are four areas to which vendors can certify their qualifications and align
           </div>
           <h3 class="mt-8 text-lg font-medium text-gray-900 tracking-tight">FinOps Certified Platform</h3>
           <p class="mt-5 text-base text-gray-500">
-            Tier of technology providers who provide a tool to help people successfully adopt cloud financial management practices aligned with many of the FinOps standards 
+            Tier of technology providers who provide a tool to help people successfully adopt cloud financial management practices aligned with the FinOps standards. 
           </p>
           <!-- <a href="/members/certified-platforms">Learn more</a> -->
         </div>
@@ -35,7 +35,7 @@ There are four areas to which vendors can certify their qualifications and align
           </div>
           <h3 class="mt-8 text-lg font-medium text-gray-900 tracking-tight">FinOps Certified Solution</h3>
           <p class="mt-5 text-base text-gray-500">
-            Providers who offer a subset of the FinOps tools to help people successfully solve specific challenges in their cloud financial management practices
+            Providers who offer tooling or a platform that specializes in helping FinOps practitioners solve a specific subset of their cloud cost management challenges.
           </p>
          <!-- <a href="/members/certified-solutions">Learn more</a> -->
         </div>
@@ -54,7 +54,7 @@ There are four areas to which vendors can certify their qualifications and align
           </div>
           <h3 class="mt-8 text-lg font-medium text-gray-900 tracking-tight">FinOps Certified Service Provider</h3>
           <p class="mt-5 text-base text-gray-500">
-            Vetted service providers who have experience helping enterprises adopt cloud financial management practices.
+            FinOps experienced professional service providers that consult with enterprises about cloud financial management and help their clients with best practices.
           </p>
           <!-- <a href="/members/certified-service-providers">Learn more</a> -->
         </div>
@@ -77,14 +77,6 @@ There are four areas to which vendors can certify their qualifications and align
   </div>
 </div>
 
-## Certification Process
-
-- Have an active [vendor profile](/members/) if you don't please reach out to the FinOps Foundation team.
-
-- Make sure you have all the requirements in the relevant section below
-
-- Reach out to [Vas](https://finopsfoundation.slack.com/archives/D02374NCE3Y) on the FinOps Foundation Team with the details of the certification to start the vetting process.
-
 
 ## Certification Requirements
 
@@ -93,24 +85,23 @@ Current certifications will be soft-vetted by the FinOps staff and then presente
 
 ### FinOps Certified Platform
 
-You meet this criteria if you provide a tool to help people successfully adopt cloud financial management practices aligned with many of the FinOps open source standards. You can address a number of use cases and be rolled out quickly across an organization. You also have:
+You meet this criteria if you provide a tool to help FinOps practitioners successfully adopt cloud financial management practices aligned with many the FinOps open source standards. You can address a number of use cases and be rolled out quickly across an organization. You also have:  practices aligned with the FinOps standards
 
 - Be a FinOps Foundation and Linux Foundation member
 - Publicly listed FinOps solution offering
 - Publicly listed feature or documentation pages that map to FinOps functions
-- Documentation providing demonstration of successful implementation by multiple mid-to-large corporate customers (either through case studies or public references)
+- Multiple case studies or public references of implementation by multiple mid-to-large corporate customers
 - Number of FinOps Certified Practitioners tied to company size (see table below)
 - Participation in a Special Interest Group or Working Group
 
 
 ### FinOps Certified Solution
 
-You meet this criteria if you offer a subset of the FinOps tools to help people successfully solve specific challenges in their cloud financial management practices. You also have:
+You meet this criteria if you offer a subset of the FinOps tools to help FinOps practitioners successfully solve specific challenges in their cloud financial management practices. You also have:
 
 - Be a FinOps Foundation and Linux Foundation member
-- Reputation as best in class for this area
-- A Dedicated FinOps solution offering
-- Documentation providing demonstration of successful implementation by multiple customers (either through case studies or public references)
+- Dedicated solution focusing on one area of FinOps
+- Multiple case studies or public references of implementation by multiple customers
 - Number of FinOps Certified Practitioners tied to company size (see table below)
 - Participation in a Special Interest Group or Working Group
 
