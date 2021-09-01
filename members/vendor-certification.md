@@ -21,7 +21,7 @@ There are four areas to which vendors can certify their qualifications and align
           </div>
           <h3 class="mt-8 text-lg font-medium text-gray-900 tracking-tight">FinOps Certified Platform</h3>
           <p class="mt-5 text-base text-gray-500">
-            Tier of technology providers who provide tooling or platform to help people successfully adopt cloud financial management practices aligned with the FinOps standards. 
+            Tier of technology providers that license and deliver a software product to help people successfully adopt cloud financial management practices aligned with the FinOps standards. 
           </p>
           <!-- <a href="/members/certified-platforms">Learn more</a> -->
         </div>
@@ -35,7 +35,7 @@ There are four areas to which vendors can certify their qualifications and align
           </div>
           <h3 class="mt-8 text-lg font-medium text-gray-900 tracking-tight">FinOps Certified Solution</h3>
           <p class="mt-5 text-base text-gray-500">
-            Providers who offer solutions that specialize in helping FinOps practitioners solve a specific subset of their cloud cost management challenges.
+            Providers that deliver solutions that contain a subset of the functionality found in the Certified Platforms which solve a specific part of a cloud cost management challenge.
           </p>
          <!-- <a href="/members/certified-solutions">Learn more</a> -->
         </div>
@@ -85,7 +85,7 @@ Current certifications will be soft-vetted by the FinOps staff and then presente
 
 ### FinOps Certified Platform
 
-You meet this criteria if you provide tooling or a platform to help FinOps practitioners successfully adopt cloud financial management practices aligned with the FinOps open source standards. You can address a number of use cases and be rolled out quickly across an organization. You also have:  
+Tier of technology providers that license and deliver a software product to help FinOps practitioners successfully adopt cloud financial management practices aligned with the FinOps open source standards. You can address a number of use cases and be rolled out quickly across an organization. You also have:  
 
 - Be a FinOps Foundation and Linux Foundation member
 - Publicly listed FinOps solution offering
