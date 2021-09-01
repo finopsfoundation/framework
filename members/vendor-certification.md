@@ -108,7 +108,7 @@ You meet this criteria if you offer tooling or a platform that specialize in hel
 
 ### FinOps Certified Service Provider
 
-A pre-qualified tier of vetted service providers who have deep experience helping enterprises successfully adopt cloud financial management practices. The FCSP partners offer FinOps support, consulting, professional services and training for organizations embarking on their cloud financial management journey.
+A pre-qualified tier of vetted service providers who have deep experience helping enterprises successfully adopt cloud financial management practices. The FinOps certified service providers offer FinOps support, consulting, professional services and training for organizations embarking on their cloud financial management journey.
 
 - Be a FinOps Foundation and Linux Foundation member
 - Must have a dedicated FinOps or cloud financial management offering listed online
@@ -118,7 +118,7 @@ A pre-qualified tier of vetted service providers who have deep experience helpin
 
 
 ### FinOps Training Partner
-FinOps Foundation recognizes a select group of FinOps Training Partners (FTP). This is a tier of vetted training providers who have deep experience in cloud financial management training. 
+FinOps Foundation recognizes a select group of FinOps Training Partners. This is a tier of vetted training providers who have deep experience in cloud financial management training. 
 
 - Be a FinOps Foundation and Linux Foundation member
 - Ability to demonstrate your training capabilities by meeting strict benchmarks for experience and quality, including the ability to provide references from students who have completed your training courses and from major organizations that have used your training services.
