@@ -128,7 +128,7 @@ FinOps Foundation recognizes a select group of FinOps Training Partners. This is
 - If you are teaching instructor-led courses that also map to the FinOps Certified Practitioner exam, all instructors must pass the FinOps Certified Practitioner train-the-trainer program before teaching the course.
 
 
-## FinOps Certified Practitioner Certifications Required
+## FinOps Practitioner Certifications Requirements
 
 | Company Size | Certs Required |
 |---|---|
