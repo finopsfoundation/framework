@@ -97,7 +97,7 @@ You meet this criteria if you provide tooling or a platform to help FinOps pract
 
 ### FinOps Certified Solution
 
-You meet this criteria if you offer tooling or a platform that specialize in helping FinOps practitioners solve a specific subset of their cloud cost management challenges. You also have:
+Tier of technology providers that license and deliver a software product that contains a subset of the functionality found in the Certified Platform products and is specialized for helping FinOps practitioners solve a specific subset of their cloud cost management challenges.
 
 - Be a FinOps Foundation and Linux Foundation member
 - Dedicated solution focusing on one area of FinOps
@@ -121,11 +121,13 @@ A pre-qualified tier of vetted service providers who have deep experience helpin
 FinOps Foundation recognizes a select group of FinOps Training Partners. This is a tier of vetted training providers who have deep experience in cloud financial management training. 
 
 - Be a FinOps Foundation and Linux Foundation member
-- Ability to demonstrate your training capabilities by meeting strict benchmarks for experience and quality, including the ability to provide references from students who have completed your training courses and from major organizations that have used your training services.
+- Ability to demonstrate your training capabilities by meeting strict benchmarks for experience and quality, including the ability to provide references from students who have completed your training courses and from mid-to-large organizations that have used your training services.
 - Are an existing FinOps Certified Service Provider, including deep knowledge of FinOps/CFM and involvement in the community.
 - Reseller of the FinOps Certified Practitioner exam.
 - Have a public available landing page that includes information on your CFM/FinOps training offering.
-- If you are teaching instructor-led courses that also map to the FinOps Certified Practitioner exam, all instructors must pass the FinOps Certified Practitioner train-the-trainer program before teaching the course.
+- If you are teaching instructor-led courses instructors must pass the FinOps Certified Practitioner train-the-trainer program.
+
+Email [partners@finops.org](mailto:partners@finops.org) to learn more about certified partners and the complete set of requirements.
 
 
 ## FinOps Practitioner Certifications Requirements
