@@ -35,7 +35,7 @@ There are four areas to which vendors can certify their qualifications and align
           </div>
           <h3 class="mt-8 text-lg font-medium text-gray-900 tracking-tight">FinOps Certified Solution</h3>
           <p class="mt-5 text-base text-gray-500">
-            Providers that deliver solutions that contain a subset of the functionality found in the Certified Platforms which solve a specific part of a cloud cost management challenge.
+            For providers that deliver solutions that contain a subset of the functionality found in the Certified Platforms which solve a specific part of a cloud cost management challenge.
           </p>
          <!-- <a href="/members/certified-solutions">Learn more</a> -->
         </div>
