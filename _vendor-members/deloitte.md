@@ -101,6 +101,5 @@ number-of-focp: 25
 
 # List the key contribution areas in the FinOps Foundation, examples listed
 contribution-areas:
-- Kubernetes
 
 ---
