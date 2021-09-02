@@ -25,3 +25,5 @@ https://framework.finops.org/* https://www.finops.org/:splat 301!
 /framework/capabilities/rate-optimization/ /framework/domains/rate-optimization/
 /framework/capabilities/report/ /framework/domains/report/
 /framework/capabilities/usage-optimization/ /framework/domains/usage-optimization/
+
+/training-certification/vendor-certification/ /members/vendor-certification/
