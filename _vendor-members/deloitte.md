@@ -1,6 +1,7 @@
 ---
 # Please do not alter layout as it will break the vendor page
 layout: member
+temporary: true
 
 # Vendor details
 name: Deloitte Consulting LLP
