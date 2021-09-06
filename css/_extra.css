@@ -1,11 +1,3 @@
-
-.prose hr {
-  display: block;
-  border: 0;
-  height: 10px;
-  background-image: url('../img/community/ruler-2.svg');
-}
-
 .right-img {
   right: -175px;
 }
@@ -29,6 +21,15 @@ ul.plain-list > li, ul[role=menu] > li {
 
 ul.plain-list > li::before, ul[role=menu] > li::before {
   content: none;
+}
+
+hr.basic {
+  display: block;
+  border: 0;
+  height: 5px;
+  margin-top: 3em;
+  margin-bottom: 3em;
+  background-image:  none;
 }
 
 /*.nav-dropdown-link:after {
