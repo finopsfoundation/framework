@@ -98,6 +98,7 @@ hr {
   border: 0;
   height: 10px;
   background-image: url('../img/community/ruler-2.svg');
+  background-repeat:  no-repeat;
   margin-top: 3em;
   margin-bottom: 3em;
 }

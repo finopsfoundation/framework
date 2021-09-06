@@ -20,6 +20,8 @@
   children:
   - name: About
     url: /about/
+  - name: Media Coverage & Resources
+    url: /about/media/
   - name: Technical Charter
     url: https://github.com/finopsfoundation/tac/blob/master/charter.md
   - name: Code of Conduct

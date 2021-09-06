@@ -20,23 +20,22 @@ The FinOps Foundation is a program of the [The Linux Foundation](http://linuxfou
 
 ## Mission of the FinOps Foundation
 
+To build a **community** where we advance members by empowering them with **standards and best practices** through **education** so they can understand cloud financials as they shift over time.
+
 We are here to advance the people who do cloud financial management:
 
-- Prove a central community for cloud financial management
- (through virtual events, meetups, and slack)
+- Central community for cloud financial management through virtual events, meetups, slack and other channels
 
-- Advance careers of FinOps practitioners
-(through career development, training and certification)
+- Advance careers of FinOps practitioners through career development, training and certification
 
-- Define cloud financial management standards
-(through open source collaboration)
+- Define cloud financial management standards through open source collaboration
 
-Grounded in real world stories, expertise and inspiration for and by FinOps practitioners, the FinOps Foundation is focused on codifying and promoting cloud financial management best practices and standards to help the community members and their teams become better at cloud financial management.
 
 ## How is the FinOps Foundation structured?
 
 The FinOps Foundation includes a Governing Board and Technical Advisory Board, as well as a variety of committees such as education.
-![](/img/pages/about.png)
+
+![](/img/pages/about.png?2)
 
 ## Technical Advisory Council (TAC)
 

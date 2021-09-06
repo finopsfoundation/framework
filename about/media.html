@@ -1,0 +1,65 @@
+---
+
+layout: default
+title: Media Coverage and Resources for the FinOps Foundation
+description: See where the FinOps Foundation have been listed in the medai recently and also find media resources such as logos.
+
+---
+
+<h1>Media Coverage and Resources</h1>
+
+<h2>Logos and Guidelines</h2>
+<p>By downloading our logos you agree not to edit, change or manipulate them in ways that break our <a href="/img/media/f2-logos/FinOps-LogoGuide_2021AUG09.pdf" _target="_blank">simple guidelines.</a></p>
+
+<div class="flex mt-16 mb-20">
+  <div>
+    <img src="/img/media/f2-logos/svg/f2-logo-full-blue.svg" class="w-4/5 p-2">
+    <div class="mt-4">
+      <a href="/img/media/f2-logos/svg/f2-logo-full-blue.svg">SVG</a>
+      <span class="inline-block my-2">|</span>
+      <a href="/img/media/f2-logos/png/f2-logo-full-blue.png">PNG</a>
+    </div>
+  </div>
+
+  <div>
+    <img src="/img/media/f2-logos/svg/f2-logo-full-white.svg" class="w-4/5 bg-gray-700 p-2">
+    <div class="mt-4">
+      <a href="/img/media/f2-logos/svg/f2-logo-full-white.svg">SVG</a>
+      <span class="inline-block my-2">|</span>
+      <a href="/img/media/f2-logos/png/f2-logo-full-white.png">PNG</a>
+    </div>
+  </div>
+
+  <div>
+    <img src="/img/media/f2-logos/svg/f2-logo-full-2-color.svg" class="w-4/5 p-2">
+    <div class="mt-4">
+      <a href="/img/media/f2-logos/svg/f2-logo-full-2-color.svg">SVG</a>
+      <span class="inline-block my-2">|</span>
+      <a href="/img/media/f2-logos/png/f2-logo-full-2-color.png">PNG</a>
+    </div>
+  </div>
+
+</div>
+
+<hr />
+
+<h2>Media Coverage</h2>
+
+
+<ul class="plain-list">
+
+{% for article in site.data.media %}
+<li class="flex border-gray-200 border-b-2 border-solid">
+  <div class="w-1/4 px-4 flex items-center ">
+    <img src="/img/media/outlets/{{ article.logo-url }}">
+  </div>
+  <div class="w-3/4"> 
+    <h3 class="leading-snug"><a href="{{ article.url }}" class="hover:text-green-500 transition-colors duration-200">{{ article.title }}</a></h3>
+    <p>{{ article.date }}</p>
+  </div>
+</li>
+{% endfor %}
+
+</ul>
+
+
