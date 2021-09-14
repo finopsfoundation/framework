@@ -13,6 +13,7 @@ company-description: VMware is a leading innovator in enterprise software. We po
 
 # Membership level, type and vendor certifications 
 member-level: premier
+member-order: 1
 
 type: 
 - Platform Provider

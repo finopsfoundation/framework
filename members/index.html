@@ -10,7 +10,7 @@ description: Find out the details on vendor members and their associated FinOps 
 <h2>Premier Members</h2>
 
 <div class="flex flex-wrap items-stretch mt-6 mb-10">
-{% assign sortedpremier = site.vendor-members | sort: 'date' %}
+{% assign sortedpremier = site.vendor-members | sort: 'member-order' %}
 {% for vendor in sortedpremier %}
 	{% if vendor.member-level == 'premier' %}
 

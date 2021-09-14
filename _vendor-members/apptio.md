@@ -13,6 +13,7 @@ company-description: Founded in 2007, Apptio is the leading provider of cloud-ba
 
 # Membership level, type and vendor certifications
 member-level: premier
+member-order: 7
 
 type: 
 - Platform Provider

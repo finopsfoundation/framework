@@ -15,6 +15,7 @@ company-description: Accenture provides global professional services with leadin
 
 # Membership level, type and vendor certifications
 member-level: premier
+member-order: 5
 
 type:
 - Service Provider

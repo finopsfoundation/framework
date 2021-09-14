@@ -13,6 +13,7 @@ company-description: SADA is a leading global provider of business and technolog
 
 # Membership level, type and vendor certifications
 member-level: premier
+member-order: 3
 
 type:
 - Service Provider
