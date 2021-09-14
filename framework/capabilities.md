@@ -6,8 +6,35 @@ layout: default
 
 # FinOps Capabilities
 
-FinOps Capabilities represents functional areas of activity in support of their corresponding [FinOps Domain](/framework/domains/). Functional activities are tasks or processes that allow one to meet the demands of a FinOps practice iteratively through the [lifecycle phases](/framework/phases/). These functional activities and processes are intended to be in service of enablement, education, knowledge sharing, advocacy, actionable tasks, business objectives, FinOps maturity improvement
+FinOps Capabilities represents functional areas of activity in support of their corresponding [FinOps Domain](/framework/domains/). Functional activities are tasks or processes that allow one to meet the demands of a FinOps practice iteratively through the [lifecycle phases](/framework/phases/). These functional activities and processes are intended to be in service of enablement, education, knowledge sharing, advocacy, actionable tasks, business objectives, FinOps maturity improvement.
 
+## List of Capabilities
+
+- Cost Allocation (metadata & hierarchy)
+
+- Manage Anomalies
+
+- Manage Shared Cost
+
+- Data Visualization and Showback
+
+- Forecasting
+
+- Budget Modeling
+
+- Workload Management & Automation
+
+- Commitment Based Discounts
+
+- Resource Utilization & Rightsizing
+
+- Unit Economics
+
+- Data Normalization
+
+- IT Asset Management
+
+### Historic Capabilities 
 - [Resource Metadata (Tagging/Labeling)](tagging-labeling)
 - [Resource Hierarchy (Accounts, Subscriptions & Projects)](resource-hierarchy)
 - [Shared Cost Management](shared-cost-management)
@@ -16,7 +43,7 @@ FinOps Capabilities represents functional areas of activity in support of their 
 - [Optimization Recommendations](optimization-recommendations) 
 - [Automation](automation)
 
-## Draft Capabilities
+#### Draft Capabilities
 - [Modernize Resources](modernize-resources)
 - [Usage Volume Discounts (Usage Tiers, SUDs)](usage-volume-discounts)
 - [Architecture Refactoring](architecture-refactoring)
