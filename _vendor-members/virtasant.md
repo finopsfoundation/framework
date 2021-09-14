@@ -13,6 +13,7 @@ company-description: Virtasant is a cloud technology company that specializes in
 
 # Membership level, type and vendor certifications
 member-level: premier
+member-order: 6
 
 type: 
 - Platform Provider

@@ -15,9 +15,9 @@ company-description: Deloitte provides industry-leading audit, consulting, tax a
 
 # Membership level, type and vendor certifications
 member-level: premier
+member-order: 4
 
 type:
-- Platform Provider
 - Service Provider
 
 certified-status:

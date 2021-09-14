@@ -13,6 +13,7 @@ company-description: "Google Cloud accelerates organizations’ ability to digit
 
 # Membership level, type and vendor certifications 
 member-level: premier
+member-order: 2
 
 type: 
 - Cloud Provider

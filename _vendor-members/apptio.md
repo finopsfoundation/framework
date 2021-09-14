@@ -12,7 +12,8 @@ website-url: "https://www.apptio.com/"
 company-description: Founded in 2007, Apptio is the leading provider of cloud-based IT financial management software. Our applications connect technology investments to business priorities, engage business stakeholders to drive cross-functional accountability, and improve the efficiency of hybrid IT resources. Cloudability by Apptio is the original FinOps solution.
 
 # Membership level, type and vendor certifications
-member-level: general
+member-level: premier
+member-order: 7
 
 type: 
 - Platform Provider
@@ -71,7 +72,7 @@ clouds-supported:
 - Private Cloud
 
 # FinOps Foundation Member since 
-date: 2020-08-01
+date: 2020-08-02
 
 # Show recent related FinOps activity, it can be content, webinars, thought leadership and include external links
 recent-finops-activity:
