@@ -10,14 +10,32 @@ description:  a glossary of FinOps concepts and terminology.
 # FinOps Terminology
 
 ## Cloud Cost Management Terminology
-Waste
-> Any usage or cost of resources which provide no value to an organization
+Allocation Metadata
+> The information used to categorize costs and is encapuslated within CSP constructs like resource tags (AWS; Azure) or labels (GCP). In this context, metadata can be differentiated between "Resource Metadata" where an individual resource is tagged or labelled or "Hierarchy Metadata" where categorization is applied to some other construct that provides grouping of resources.  Examples of allocation metadata include:
+* GCP "labels" and "billing accounts";
+* AWS  "resource tags", "Linked Accounts" and "Organizations";
+* Azure "Subscriptions", "Resource Groups" and "resource tags"
+
+Commitment Based Discount
+> Each CSP provides customers the ability to discount on demand rates for cloud services used in exchange for a commitment to use minimum level of resources for a specified term. Depending on CSP and the cloud services used, the commitment may be based on the upfront payment for a certain number of resource units, time units or monetary value,  with various payment options and timeframes.  Examples of commitment based discounts include:
+* GCP "Committed Use Discount" (CUD) for Compute Engine and "Reservations" for BigQuery
+* AWS "Reserved Instance" (RI) for EC2 and "Savings Plans" (SP) for SageMaker
+* Azure "Reserved instances" (RI) for VMs
+
+Cost & Usage Data
+> The datasource to which CSPs publish and from which native cost data can be derived when billable cloud services are consumed.  Examples of datasources include:
+* AWS CUR (Cost & Usage Report)
+* Azure Consuption API; Azure Cost Management Exports
+* GCP BigQuery Cloud Billing Data Tables; GCP Cloud Billing Report
 
 Resources
 > a generic term used to describe any service or instance of a service purchased from a cloud service provider
 
 Vacancy
 > the amount of a commitment-based discount that went unused for a given timeframe
+
+Waste
+> Any usage or cost of resources which provide no value to an organization
 
 ## Business Terminology
 Cloud Center of Excellence (CCOE)
@@ -78,6 +96,12 @@ Instance Type, Family, Generation, Size (AWS)
 
 Metadata, Tags, Labels
 > Tags are metadata attached to a specific instance, bucket, resource group, account or other resource running in a cloud environment. AWS and Azure refer to these as Tags, while GCP refers to them as Labels. They are meant to provide contextual information about the resource. Tags can be created with the resource in most cases or added after the fact manually or systematically. Tags are useful for identifying the type of resource, the environment it supports (Dev, Prod, Test, etc.) the owner, the cost center, the operational parameters, etc. Tags can be queried or accessed in a wide variety of ways and can be used to drive automation, divide costs, or for other important purposes. Most large cloud-using organizations will at some point establish governance policies around tag use and require specific tags be used on all resources.
+
+Preemptible Instances/VMs
+>  many CSPs offer compute instances/VMs that can be created and used at deeply discounted rates from traditional on demand compute VMs; however, in exchange for the discounted costs, a characteristic of these VMs is that if the cloud provider requires access to the resources being used by preemptible VMs, they will stop those instances.   Examples of terms used to describe preemptible compute instances/VMs include:
+* GCP Preemptible Compute Engine VM
+* AWS Spot instance
+* Azure Spot instance
 
 Project (GCP)
 > GCP services are housed within GCP Projects
