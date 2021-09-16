@@ -39,11 +39,7 @@ Each Cloud Service Provider has different tools available to help FinOps practit
 
 
 ## Cost Management Terminology
-Cloud Service Providers utilize different terms to mean the same or similar things.  This can make understanding cloud concepts across providers difficult.  The Cost Management Terminology Across CSPs tools was  created to help FinOps practitioners translate these common terms across Cloud Service Providers.  
-
-| _Coming Soon..._ |
-|---|
-| _Cost Management Terminology Across CSPs_ |
+Cloud Service Providers utilize different terms to mean the same or similar things.  This can make understanding cloud concepts across providers difficult.  This terminology generated from this project was created to help FinOps practitioners translate these common terms across Cloud Service Providers and has been incorporated into [the FinOps Terminology page here](https://www.finops.org/resources/terminology/).
 
 
 #### Three Letter Acronyms
