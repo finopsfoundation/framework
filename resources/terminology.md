@@ -19,7 +19,7 @@ Allocation Metadata
 Commitment Based Discount
 > Each CSP provides customers the ability to discount on demand rates for cloud services used in exchange for a commitment to use minimum level of resources for a specified term. Depending on CSP and the cloud services used, the commitment may be based on the upfront payment for a certain number of resource units, time units or monetary value,  with various payment options and timeframes.  Examples of commitment based discounts include:
 * GCP "Committed Use Discount" (CUD) for Compute Engine and "Reservations" for BigQuery
-* AWS "Reserved Instance" (RI) for EC2 and "Savings Plans" (SP) for Sagemaker
+* AWS "Reserved Instance" (RI) for EC2 and "Savings Plans" (SP) for SageMaker
 * Azure "Reserved instances" (RI) for VMs
 
 Cost & Usage Data
