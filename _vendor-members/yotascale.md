@@ -12,19 +12,19 @@ website-url: "https://yotascale.com/"
 # Maximum character count is 350 the rest will be truncated and hidden automatically on your page
 company-description: Designed and founded by engineers in 2015, Yotascale optimizes the world's cloud computing spend, making cloud computing profitable and sustainable, for every organization. It creates cloud cost visibility and enables resource transparency by empowering engineering teams. Yotascale's next-generation cloud cost management solution identifies resource waste, enables cross-functional collaboration, improves optimization by 5x, and reduces yearly costs by 50%.
 
-# Membership level, type and vendor certifications 
+# Membership level, type and vendor certifications
 member-level: general
 
-type: 
+type:
 - Platform Provider
 - Service Provider
- 
+
 certified-status:
 # - FinOps Certified Service Provider
-# - FinOps Certified Platform
+- FinOps Certified Platform
 # - FinOps Training Partner
 
-# Product(s) or service overview maximum character count is 1000 the rest will be truncated and hidden automatically on your page 
+# Product(s) or service overview maximum character count is 1000 the rest will be truncated and hidden automatically on your page
 product-overview: |
   All-in-one View of Your Cloud, Mapped to Your Business Context
 
@@ -38,7 +38,7 @@ product-overview: |
 
 product-video-url:
 
-# Related product or service resources, the titles will have associated URLs, e.g. product 
+# Related product or service resources, the titles will have associated URLs, e.g. product
 product-resources:
 - title: Discover Dynamic Cloud Cost Management
   url: "https://yotascale.com/cloud-cost-management/"
@@ -76,7 +76,7 @@ clouds-supported:
 - AWS
 - Azure
 
-# FinOps Foundation Member since 
+# FinOps Foundation Member since
 date: 2021-08-01
 
 # Show recent related FinOps activity, it can be content, webinars, thought leadership and include external links
@@ -88,7 +88,7 @@ recent-finops-activity:
 - title:
   url:
 
-# Detail related/dedicated slack channels in the FinOps Foundation Slack 
+# Detail related/dedicated slack channels in the FinOps Foundation Slack
 slack-channels:
 - title:
   url:
