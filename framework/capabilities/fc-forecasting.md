@@ -1,20 +1,20 @@
 ---
 
-title: Data Visualization and Showback
+title: Forecasting
 layout: default
-permalink: /framework/capabilities/data-visualization-and-showback
+permalink: /framework/capabilities/fc-forecasting
 tags:
 - tag1
 - tag2
 capability-domains:
 - Domain-1
 - Domain-2
-capability-title: Data Visualization and Showback
+capability-title: Forecasting
 capability-desc: A description for this capability.
 order: 1
 
 ---
-# Data Visualization and Showback
+# Forecasting
 
 ---
 ## Domains

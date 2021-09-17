@@ -1,20 +1,20 @@
 ---
 
-title: Forecasting
+title: Budget Modeling
 layout: default
-permalink: /framework/capabilities/forecasting
+permalink: /framework/capabilities/fc-budget-modeling
 tags:
 - tag1
 - tag2
 capability-domains:
 - Domain-1
 - Domain-2
-capability-title: Forecasting
+capability-title: Budget Modeling
 capability-desc: A description for this capability.
 order: 1
 
 ---
-# Forecasting
+# Budget Modeling
 
 ---
 ## Domains

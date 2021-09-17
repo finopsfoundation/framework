@@ -2,7 +2,7 @@
 
 title: Data Normalization
 layout: default
-permalink: /framework/capabilities/data-normalization
+permalink: /framework/capabilities/fc-data-normalization
 tags:
 - tag1
 - tag2

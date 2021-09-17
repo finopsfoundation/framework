@@ -1,20 +1,20 @@
 ---
 
-title: Commitment Based Discounts
+title: Unit Economics
 layout: default
-permalink: /framework/capabilities/commitment-based-discounts
+permalink: /framework/capabilities/fc-unit-economics
 tags:
 - tag1
 - tag2
 capability-domains:
 - Domain-1
 - Domain-2
-capability-title: Commitment Based Discounts
+capability-title: Unit Economics
 capability-desc: A description for this capability.
 order: 1
 
 ---
-# Commitment Based Discounts
+# Unit Economics
 
 ---
 ## Domains

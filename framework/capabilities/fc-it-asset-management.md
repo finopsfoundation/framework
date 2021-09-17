@@ -1,20 +1,20 @@
 ---
 
-title: Unit Economics
+title: IT Asset Management
 layout: default
-permalink: /framework/capabilities/unit-economics
+permalink: /framework/capabilities/fc-it-asset-management
 tags:
 - tag1
 - tag2
 capability-domains:
 - Domain-1
 - Domain-2
-capability-title: Unit Economics
+capability-title: IT Asset Management
 capability-desc: A description for this capability.
 order: 1
 
 ---
-# Unit Economics
+# IT Asset Management
 
 ---
 ## Domains

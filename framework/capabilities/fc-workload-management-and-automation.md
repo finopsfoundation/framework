@@ -2,7 +2,7 @@
 
 title: Workload Management & Automation
 layout: default
-permalink: /framework/capabilities/workload-management-and-automation
+permalink: /framework/capabilities/fc-workload-management-and-automation
 tags:
 - tag1
 - tag2

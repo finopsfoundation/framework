@@ -1,20 +1,20 @@
 ---
 
-title: Budget Modeling
+title: Commitment Based Discounts
 layout: default
-permalink: /framework/capabilities/budget-modeling
+permalink: /framework/capabilities/fc-commitment-based-discounts
 tags:
 - tag1
 - tag2
 capability-domains:
 - Domain-1
 - Domain-2
-capability-title: Budget Modeling
+capability-title: Commitment Based Discounts
 capability-desc: A description for this capability.
 order: 1
 
 ---
-# Budget Modeling
+# Commitment Based Discounts
 
 ---
 ## Domains

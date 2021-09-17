@@ -1,20 +1,20 @@
 ---
 
-title: Cost Allocation (Metadata & Hierarchy)
+title: Manage Anomalies
 layout: default
-permalink: /framework/capabilities/cost-allocation-metadata-and-hierarchy
+permalink: /framework/capabilities/fc-manage-anomalies
 tags:
 - tag1
 - tag2
 capability-domains:
 - Domain-1
 - Domain-2
-capability-title: Cost Allocation (Metadata & Hierarchy)
+capability-title: Manage Anomalies
 capability-desc: A description for this capability.
 order: 1
 
 ---
-# Cost Allocation (Metadata & Hierarchy)
+# Manage Anomalies
 
 ---
 ## Domains

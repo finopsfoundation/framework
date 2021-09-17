@@ -2,7 +2,7 @@
 
 title: Resource Utilization & Rightsizing
 layout: default
-permalink: /framework/capabilities/resource-utilization-and-rightsizing
+permalink: /framework/capabilities/fc-resource-utilization-and-rightsizing
 tags:
 - tag1
 - tag2

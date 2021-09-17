@@ -1,20 +1,20 @@
 ---
 
-title: IT Asset Management
+title: Data Visualization and Showback
 layout: default
-permalink: /framework/capabilities/it-asset-management
+permalink: /framework/capabilities/fc-data-visualization-and-showback
 tags:
 - tag1
 - tag2
 capability-domains:
 - Domain-1
 - Domain-2
-capability-title: IT Asset Management
+capability-title: Data Visualization and Showback
 capability-desc: A description for this capability.
 order: 1
 
 ---
-# IT Asset Management
+# Data Visualization and Showback
 
 ---
 ## Domains
