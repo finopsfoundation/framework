@@ -3,7 +3,7 @@
 layout: default
 github-link: false
 title: FinOps Terminology
-description:  a glossary of FinOps concepts and terminology.
+description: A glossary of FinOps concepts and terminology.
 
 ---
 
