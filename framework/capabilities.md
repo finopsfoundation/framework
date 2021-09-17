@@ -10,29 +10,29 @@ FinOps Capabilities represents functional areas of activity in support of their 
 
 ## List of Capabilities
 
-- [Cost Allocation (Metadata & Hierarchy)](cost-allocation-metadata-and-hierarchy)
+- [Cost Allocation (Metadata & Hierarchy)](_cost-allocation-metadata-and-hierarchy)
 
-- [Manage Anomalies](manage-anomalies)
+- [Manage Anomalies](_manage-anomalies)
 
-- [Manage Shared Cost](manage-shared-cost)
+- [Manage Shared Cost](_manage-shared-cost)
 
-- [Data Visualization and Showback](data-visualization-and-showback)
+- [Data Visualization and Showback](_data-visualization-and-showback)
 
-- [Forecasting](forecasting)
+- [Forecasting](_forecasting)
 
-- [Budget Modeling](budget-modeling)
+- [Budget Modeling](_budget-modeling)
 
-- [Workload Management & Automation](workload-management-and-automation)
+- [Workload Management & Automation](_workload-management-and-automation)
 
-- [Commitment Based Discounts](commitment-based-discounts)
+- [Commitment Based Discounts](_commitment-based-discounts)
 
-- [Resource Utilization & Rightsizing](resource-utilization-and-rightsizing)
+- [Resource Utilization & Rightsizing](_resource-utilization-and-rightsizing)
 
-- [Unit Economics](unit-economics)
+- [Unit Economics](_unit-economics)
 
-- [Data Normalization](data-normalization)
+- [Data Normalization](_data-normalization)
 
-- [IT Asset Management](it-asset-management)
+- [IT Asset Management](_it-asset-management)
 
 ### Historical Capabilities
 - [Resource Metadata (Tagging/Labeling)](tagging-labeling)
