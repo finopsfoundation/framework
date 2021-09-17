@@ -10,37 +10,37 @@ FinOps Capabilities represents functional areas of activity in support of their 
 
 ## List of Capabilities
 
-- Cost Allocation (metadata & hierarchy)
+- [Cost Allocation (Metadata & Hierarchy)](cost-allocation-metadata-and-hierarchy)
 
-- Manage Anomalies
+- [Manage Anomalies](manage-anomalies)
 
-- Manage Shared Cost
+- [Manage Shared Cost](manage-shared-cost)
 
-- Data Visualization and Showback
+- [Data Visualization and Showback](data-visualization-and-showback)
 
-- Forecasting
+- [Forecasting](forecasting)
 
-- Budget Modeling
+- [Budget Modeling](budget-modeling)
 
-- Workload Management & Automation
+- [Workload Management & Automation](workload-management-and-automation)
 
-- Commitment Based Discounts
+- [Commitment Based Discounts](commitment-based-discounts)
 
-- Resource Utilization & Rightsizing
+- [Resource Utilization & Rightsizing](resource-utilization-and-rightsizing)
 
-- Unit Economics
+- [Unit Economics](unit-economics)
 
-- Data Normalization
+- [Data Normalization](data-normalization)
 
-- IT Asset Management
+- [IT Asset Management](it-asset-management)
 
-### Historic Capabilities 
+### Historical Capabilities
 - [Resource Metadata (Tagging/Labeling)](tagging-labeling)
 - [Resource Hierarchy (Accounts, Subscriptions & Projects)](resource-hierarchy)
 - [Shared Cost Management](shared-cost-management)
 - [Anomaly Detection](anomaly-detection)
 - [Commitment Discounts (Reservations, Savings Plans, CUDs)](commitment-discounts)
-- [Optimization Recommendations](optimization-recommendations) 
+- [Optimization Recommendations](optimization-recommendations)
 - [Automation](automation)
 
 #### Draft Capabilities
@@ -50,7 +50,7 @@ FinOps Capabilities represents functional areas of activity in support of their 
 - [Negotiated Pricing](negotiated-pricing)
 - [Continuous Improvement](continuous-improvement)
 - [Learning](learning)
-- [Autoscaling](autoscaling) 
+- [Autoscaling](autoscaling)
 - [Data Ingestion](data-ingestion)
 - [Data Processing](data-processing)
 - [Data Visualization](data-visualization)
@@ -62,5 +62,3 @@ FinOps Capabilities represents functional areas of activity in support of their 
 - [Trending & Variance Analysis](trending-and-variance-analysis)
 - [Containers Capabilities](containers-capabilities)
 - [Software Asset Management](software-asset-management)
-													
-													
