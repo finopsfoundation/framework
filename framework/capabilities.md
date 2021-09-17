@@ -14,7 +14,7 @@ FinOps Capabilities represents functional areas of activity in support of their 
 
 - [Manage Anomalies](_manage-anomalies)
 
-- [Manage Shared Cost](_manage-shared-cost)
+- [Manage Shared Cost](fc-manage-shared-cost)
 
 - [Data Visualization and Showback](_data-visualization-and-showback)
 

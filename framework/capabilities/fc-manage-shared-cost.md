@@ -2,7 +2,7 @@
 
 title: Manage Shared Cost
 layout: default
-permalink: /framework/capabilities/manage-shared-cost
+permalink: /framework/capabilities/fc-manage-shared-cost
 tags:
 - tag1
 - tag2
