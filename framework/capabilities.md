@@ -10,57 +10,13 @@ FinOps Capabilities represents functional areas of activity in support of their 
 
 ## List of Capabilities
 
-- Cost Allocation (metadata & hierarchy)
 
-- Manage Anomalies
 
-- Manage Shared Cost
+{% assign sorted_capabilities = site.capabilities sort:"order" %}
+{% for domain in sorted_capabilities %}
 
-- Data Visualization and Showback
 
-- Forecasting
+<a class="text-lg hover:text-green-500 transition-colors duration-200 p-4" href="{{ domain.url }}">{{ domain.title }}</a>
 
-- Budget Modeling
 
-- Workload Management & Automation
-
-- Commitment Based Discounts
-
-- Resource Utilization & Rightsizing
-
-- Unit Economics
-
-- Data Normalization
-
-- IT Asset Management
-
-### Historic Capabilities 
-- [Resource Metadata (Tagging/Labeling)](tagging-labeling)
-- [Resource Hierarchy (Accounts, Subscriptions & Projects)](resource-hierarchy)
-- [Shared Cost Management](shared-cost-management)
-- [Anomaly Detection](anomaly-detection)
-- [Commitment Discounts (Reservations, Savings Plans, CUDs)](commitment-discounts)
-- [Optimization Recommendations](optimization-recommendations) 
-- [Automation](automation)
-
-#### Draft Capabilities
-- [Modernize Resources](modernize-resources)
-- [Usage Volume Discounts (Usage Tiers, SUDs)](usage-volume-discounts)
-- [Architecture Refactoring](architecture-refactoring)
-- [Negotiated Pricing](negotiated-pricing)
-- [Continuous Improvement](continuous-improvement)
-- [Learning](learning)
-- [Autoscaling](autoscaling) 
-- [Data Ingestion](data-ingestion)
-- [Data Processing](data-processing)
-- [Data Visualization](data-visualization)
-- [Data Analytics](data-analytics)
-- [Budget Alerting](budget-alerting)
-- [Commitment Tracking](commitment-tracking)
-- [Marketplace](marketplace)
-- [Policy Management](policy-management)
-- [Trending & Variance Analysis](trending-and-variance-analysis)
-- [Containers Capabilities](containers-capabilities)
-- [Software Asset Management](software-asset-management)
-													
-													
+{% endfor %}

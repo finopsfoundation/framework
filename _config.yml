@@ -53,6 +53,8 @@ collections:
     output: true
   domains:
     output: true
+  capabilities:
+    output: true
 
 defaults:
   - scope:
@@ -63,6 +65,11 @@ defaults:
   - scope:
       path: ""
       type: "domains"
+    values:
+      identifier: "framework"
+  - scope:
+      path: ""
+      type: "capabilities"
     values:
       identifier: "framework"
   - scope:

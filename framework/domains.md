@@ -31,6 +31,3 @@ The Domains are interdependent, and together provide a high level overview of wh
   </div>
   {% endfor %}
 </div>
-
-
-  
