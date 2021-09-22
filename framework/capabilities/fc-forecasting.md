@@ -20,9 +20,9 @@ order: 1
 
 ---
 ## Domains
-[Performance Tracking & Benchmarking](domains/tracking-and-benchmarking/)
-[Understanding Cloud Usage and Cost](domains/cloud-usage-and-cost/)
-[Cloud Rate Optimization](domains/cloud-rate-optimization/)
+>##### [Performance Tracking & Benchmarking](domains/tracking-and-benchmarking/)
+>##### [Understanding Cloud Usage and Cost](domains/cloud-usage-and-cost/)
+>##### [Cloud Rate Optimization](domains/cloud-rate-optimization/)
 
 
 ## Definition
