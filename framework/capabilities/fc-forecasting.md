@@ -4,6 +4,7 @@ title: Forecasting
 layout: default
 permalink: /framework/capabilities/fc-forecasting
 tags:
+- cloud-forecasting
 - forecasting
 - cost allocation
 - budgets
@@ -13,6 +14,12 @@ capability-domains:
 - domains/cloud-rate-optimization/
 capability-title: Forecasting
 capability-desc: This FinOps Capability represents the practice of understanding how future cloud infrastructure and application lifecycle changes may impact current budgets and influence budget planning and future cloud investment decisions.
+member-practioner-list:
+- scott_linn
+- bharat_chadha
+- drew_lowe
+member-vendor-list:
+- vendor_member_name
 order: 1
 
 ---
@@ -131,7 +138,7 @@ _We're still collecting stories & how-to's - stay tuned - in the meantime get in
 
 
 ## Get Involved
-Get involved and share your experiences by joining the conversation about this Capability in [the Slack #forecasting channel](https://finopsfoundation.slack.com/archives/C01T6BW6TFZ).  Contribute to the community by sharing a forecasting related story or providing a playbook for how you have implemented cloud cost forecasting best practices in your organization.  Stories/How-tos can be in the context of a specific cloud provider, can describe processes including any KPIs,  how you're leveraging toolin, from the perspective of your industry, [the personas involved](https://www.finops.org/framework/personas/), or current maturity level.  Additionally, you can submit stories, how-tos and suggest improvements [using one of the options for contributing here](https://www.finops.org/introduction/how-to-contribute/).
+Get involved and share your experiences by joining the conversation about this Capability in [the Slack #forecasting channel](https://finopsfoundation.slack.com/archives/C01T6BW6TFZ).  Contribute to the community by sharing a forecasting related story or providing a playbook for how you have implemented cloud cost forecasting best practices in your organization.  Stories/How-tos can be in the context of a specific cloud provider, can describe processes including any KPIs,  how you're leveraging tooling, from the perspective of your industry, [the personas involved](https://www.finops.org/framework/personas/), or current maturity level.  Additionally, you can submit stories, how-tos and suggest improvements [using one of the options for contributing here](https://www.finops.org/introduction/how-to-contribute/).
 
 
 ---
