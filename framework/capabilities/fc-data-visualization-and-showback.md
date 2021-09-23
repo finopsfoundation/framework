@@ -6,11 +6,11 @@ permalink: /framework/capabilities/fc-data-visualization-and-showback
 tags:
 - tag1
 - tag2
-capability-domains:
-- Domain-1
-- Domain-2
-capability-title: Data Visualization and Showback
-capability-desc: A description for this capability.
+framework-domain-list:
+- domain-name
+- domain-name
+framework-capability-title: Data Visualization and Showback
+framework-capability-desc: A description for this capability.
 member-practioner-list:
 - practitioner_name
 member-vendor-list:

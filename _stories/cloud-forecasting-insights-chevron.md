@@ -5,19 +5,19 @@ title: Cloud Forecasting Insights from Chevron
 tags:
 - cloud-forecasting
 - forecasting
-- cost allocation
+- cost-allocation
 - budgets
 persona:
 stage:
 company:
 member-practioner-list:
-- scott_linn
+- scott-linn
 member-vendor-list:
-- vendor_member_name
-capability-domains:
-- domains/tracking-and-benchmarking/
-- domains/cloud-usage-and-cost/
-- domains/cloud-rate-optimization/
+- vendor-member-name
+framework-domain-list:
+- tracking-and-benchmarking
+- cloud-usage-and-cost
+- cloud-rate-optimization
 
 ---
 *by Scott Linn, Chevron*     

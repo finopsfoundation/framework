@@ -2,18 +2,25 @@
 
 layout: collection
 title: Fear of commitment and the pain of waiting
-tags: 
+tags:
 - commitment-discounts
 persona:
 stage:
 company:
+member-practioner-list:
+- practitioner-member-name
+member-vendor-list:
+- vendor-member-name
+framework-domain-list:
+- domain-name
+- domain-name
 order: 1
 
 ---
 
-I worked with an FTSE 100 UK retailer who had millions of dollars a month of cloud spending, but zero RIs. They knew that by buying even a modest amount of RIs, they could save a lot of money. In fact, working closely with their team to analyze the company’s infrastructure, I found they could save millions over the coming three years. Because they’re a retailer, margins were tight, and the RI purchase could help them achieve critical cost reduction goals mandated by leadership. 
+I worked with an FTSE 100 UK retailer who had millions of dollars a month of cloud spending, but zero RIs. They knew that by buying even a modest amount of RIs, they could save a lot of money. In fact, working closely with their team to analyze the company’s infrastructure, I found they could save millions over the coming three years. Because they’re a retailer, margins were tight, and the RI purchase could help them achieve critical cost reduction goals mandated by leadership.
 
-However, despite all of this, it still took them a full nine months to buy their first RIs. What happened? Why was the organization so slow to adopt such an obvious cost-savings measure despite aggressive top-down cost-cutting goals? The answer is because they had to educate—and align—many stakeholders in the organization around what buying RIs meant, and, in the process, dispel many misconceptions cemented during years of data center hardware purchasing. 
+However, despite all of this, it still took them a full nine months to buy their first RIs. What happened? Why was the organization so slow to adopt such an obvious cost-savings measure despite aggressive top-down cost-cutting goals? The answer is because they had to educate—and align—many stakeholders in the organization around what buying RIs meant, and, in the process, dispel many misconceptions cemented during years of data center hardware purchasing.
 
 First, they had to get their finance team on board with how to financially account for RIs. Upfront payments for RIs appear to be capital expenditure (CapEx) spending that finance should depreciate as a physical asset. However, RIs are intangible prepayments of operational expenditures (OpEx) that need to be amortized over the period they’re used.
 
