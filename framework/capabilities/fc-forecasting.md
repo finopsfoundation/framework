@@ -105,12 +105,13 @@ reliably and accurately, cloud cost forecasting will inform investment and opera
 
 
 ## Measure(s) of Success
-* cloud costs can be categorized and allocated, including shared costs
-* forecast models leverage discount-adjusted, amortized cloud usage data
-* forecast frequency that includes intermediate forecasts to update budgets based on business drivers
-* forecast cost vs actual cost trends within established percentage threshold of variance
-* stakeholder notifications for forecast variance threshold exceeded & risk of budget overspend
+* The majority of cloud costs can be categorized and allocated, including shared costs.  According to [the FinOps Community of Practitioners](https://data.finops.org/), comprehensive allocation translates to at least 80% of cloud spend is allocated for a FinOps practice operating at a Crawl maturity level; and 90% for a FinOps practice operating at a Run maturity level
+* Forecast models leverage discount-adjusted, amortized cloud usage data
+* Forecast cost vs actual cost trends within established percentage threshold of variance.  According to [the FinOps Community of Practitioners](https://data.finops.org/), acceptable levels of forecasting accuracy translates to a maximum 20% variance from actual spend for a FinOps practice operating at a Crawl maturity level; a 15% variance for a FinOps practice operating at a Walk maturity level; and 12% variance for a FinOps practice operating at a Run maturity level.
+* Stakeholder notifications for forecast variance threshold exceeded & risk of budget overspend
+* Forecast frequency that includes intermediate forecasts to update budgets based on business drivers
 * Teams and Business Units are responsible for managing their budgets based on forecast data
+
 
 
 
@@ -127,13 +128,25 @@ reliably and accurately, cloud cost forecasting will inform investment and opera
 
 
 ## Stories/How-To
-_We're still collecting stories & how-to's - stay tuned - in the meantime get involved and help the community by sharing your real world examples and/or a “how to” for this capability. Information here may apply to:_
-> * _apply to one or more cloud providers_
-* _include specific types of cloud services used) (compute, storage, database, etc...)_
-* _describe a combination of  tooling, platform or vendor_
-* _describe the industry the organization belongs to_
-* _describe the complexity of the organization (global, enterprise, etc…)_
-* _include the FinOps personas involved and any other organizational roles_
+| | |
+| --: | --- |
+| **Chevron** <br/> Industry: Energy <br/> FinOps Maturity Level: Run <br/> FinOps Member: [Scott Linn](https://www.linkedin.com/in/scottlinn925/) | **[Cloud Forecasting Insights from Chevron](https://www.finops.org/stories/cloud-forecasting-insights-chevron/)** |
+| | |
+| **Comcast Freewheel** <br/> Industry: Advertising/Media <br/> FinOps Maturity Level: Walk <br/> FinOps Member: [Bharat Chadha](https://www.linkedin.com/in/bharatchadha1/) | **[Cloud Forecasting Insights from Comcast Freewheel](https://www.finops.org/stories/cloud-forecasting-insights-freewheel/)** |
+| | |
+| **Hulu Disney** <br/> Industry: Video Streaming/Internet <br/> FinOps Maturity Level: Run <br/> FinOps Member: [Drew Lowe](https://www.linkedin.com/in/andrewlowe2/) | **[Cloud Forecasting Insights from Hulu](https://www.finops.org/stories/cloud-forecasting-insights-hulu/)** |
+
+
+
+
+Get involved and help the community by sharing your real world examples and/or a “how to” for this capability. Information here may apply to:
+>* one or more cloud providers
+* the types of cloud services used (compute, storage, database, etc...)
+* describe a combination of  tooling, platform or vendor
+* the industry the organization belongs to
+* the complexity of the organization (global, enterprise, etc…)
+* FinOps personas involved / organizational roles
+
 
 
 
