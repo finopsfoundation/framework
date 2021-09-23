@@ -131,7 +131,7 @@ reliably and accurately, cloud cost forecasting will inform investment and opera
 
 |  |  |
 | --: | --- |
-| **Chevron**  | [Cloud Forecasting Insights from Comcast Freewheel](https://www.finops.org/stories/cloud-forecasting-insights-freewheel/) |
+| **Chevron**  <br/> Industry: Energy | [Cloud Forecasting Insights from Comcast Freewheel](https://www.finops.org/stories/cloud-forecasting-insights-freewheel/) |
 | | |
 
 
