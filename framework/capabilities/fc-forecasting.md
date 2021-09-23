@@ -134,6 +134,8 @@ reliably and accurately, cloud cost forecasting will inform investment and opera
 | **Chevron**  <br/> Industry: Energy <br/> FinOps Maturity Level: Run <br/> FinOps Member: [Scott Linn](https://www.linkedin.com/in/scottlinn925/) | [**Cloud Forecasting Insights from Chevron**](https://www.finops.org/stories/cloud-forecasting-insights-chevron/) |
 | | |
 | **Comcast Freewheel** <br/> Industry: Advertising/Media <br/> FinOps Maturity Level: Walk <br/> FinOps Member: [Bharat Chadha**](https://www.linkedin.com/in/bharatchadha1/) | [**Cloud Forecasting Insights from Comcast Freewheel**](https://www.finops.org/stories/cloud-forecasting-insights-freewheel/) |
+| **Hulu Disney** <br/> Industry: Video Streaming/Internet <br/> FinOps Maturity Level: Run <br/> FinOps Member: [Drew Lowe**](https://www.linkedin.com/in/andrewlowe2/) | [**Cloud Forecasting Insights from Hulu**](https://www.finops.org/stories/cloud-forecasting-insights-hulu/) |
+| | |
 
 
 
