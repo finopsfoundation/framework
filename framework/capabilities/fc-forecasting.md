@@ -9,9 +9,9 @@ tags:
 - cost allocation
 - budgets
 capability-domains:
-- domains/tracking-and-benchmarking/
-- domains/cloud-usage-and-cost/
-- domains/cloud-rate-optimization/
+- tracking-and-benchmarking
+- cloud-usage-and-cost
+- cloud-rate-optimization
 capability-title: Forecasting
 capability-desc: This FinOps Capability represents the practice of understanding how future cloud infrastructure and application lifecycle changes may impact current budgets and influence budget planning and future cloud investment decisions.
 member-practioner-list:
