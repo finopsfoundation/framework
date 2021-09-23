@@ -11,6 +11,10 @@ capability-domains:
 - Domain-2
 capability-title: Cost Allocation (Metadata & Hierarchy)
 capability-desc: A description for this capability.
+member-practioner-list:
+- practitioner_name
+member-vendor-list:
+- vendor_member_name
 order: 1
 
 ---
