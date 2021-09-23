@@ -128,28 +128,24 @@ reliably and accurately, cloud cost forecasting will inform investment and opera
 
 
 ## Stories/How-To
-| column_header_1 | column_header_2 |
+
+|  |  |
 | --: | --- |
-| **Chevron** <br/> Industry: Energy <br/> FinOps Maturity Level: Run <br/> FinOps Member: [Scott Linn](https://www.linkedin.com/in/scottlinn925/) | **[Cloud Forecasting Insights from Chevron](https://www.finops.org/stories/cloud-forecasting-insights-chevron/)** |
-| **Comcast Freewheel** <br/> Industry: Advertising/Media <br/> FinOps Maturity Level: Walk <br/> FinOps Member: [Bharat Chadha](https://www.linkedin.com/in/bharatchadha1/) | **[Cloud Forecasting Insights from Comcast Freewheel](https://www.finops.org/stories/cloud-forecasting-insights-freewheel/)** |
-| **Hulu Disney** <br/> Industry: Video Streaming/Internet <br/> FinOps Maturity Level: Run <br/> FinOps Member: [Drew Lowe](https://www.linkedin.com/in/andrewlowe2/) | **[Cloud Forecasting Insights from Hulu](https://www.finops.org/stories/cloud-forecasting-insights-hulu/)** |
-
-
-
-
-Get involved and help the community by sharing your real world examples and/or a “how to” for this capability. Information here may apply to:
->* one or more cloud providers
-* the types of cloud services used (compute, storage, database, etc...)
-* describe a combination of  tooling, platform or vendor
-* the industry the organization belongs to
-* the complexity of the organization (global, enterprise, etc…)
-* FinOps personas involved / organizational roles
-
+| Chevron  | Cloud Forecasting Insights from Chevron |
+| | |
 
 
 
 ## Get Involved
-Get involved and share your experiences by joining the conversation about this Capability in [the Slack #forecasting channel](https://finopsfoundation.slack.com/archives/C01T6BW6TFZ).  Contribute to the community by sharing a forecasting related story or providing a playbook for how you have implemented cloud cost forecasting best practices in your organization.  Stories/How-tos can be in the context of a specific cloud provider, can describe processes including any KPIs,  how you're leveraging tooling, from the perspective of your industry, [the personas involved](https://www.finops.org/framework/personas/), or current maturity level.  Additionally, you can submit stories, how-tos and suggest improvements [using one of the options for contributing here](https://www.finops.org/introduction/how-to-contribute/).
+Get involved and contribute to the community by sharing a forecasting related story or providing a playbook for how you have implemented cloud cost forecasting best practices in your organization. Your real world story or how-to can be provided in the context of:
+>* one or more cloud providers
+* the types of cloud services used (compute, storage, database, etc...)
+* describe a combination of  tooling, platform or vendor, and processes including KPIs
+* the industry the organization belongs to
+* the complexity of the organization (global enterprise, start-up, etc…)
+* [the FinOps personas involved](https://www.finops.org/framework/personas/) involved / organizational roles
+
+Join the conversation about this Capability in [the Slack #forecasting channel](https://finopsfoundation.slack.com/archives/C01T6BW6TFZ). You can submit stories, how-tos and suggest improvements [using one of the options for contributing listed here](https://www.finops.org/introduction/how-to-contribute/).
 
 
 ---
