@@ -147,7 +147,7 @@ Get involved and contribute to the community by sharing a forecasting related st
 * describe a combination of  tooling, platform or vendor, and processes including KPIs
 * the industry the organization belongs to
 * the complexity of the organization (global enterprise, start-up, etc…)
-* [the FinOps personas involved](https://www.finops.org/framework/personas/) involved / organizational roles
+* the [FinOps personas](https://www.finops.org/framework/personas/) involved / organizational roles
 
 Join the conversation about this Capability in [the Slack #forecasting channel](https://finopsfoundation.slack.com/archives/C01T6BW6TFZ). You can submit stories, how-tos and suggest improvements [using one of the options for contributing listed here](https://www.finops.org/introduction/how-to-contribute/).
 
