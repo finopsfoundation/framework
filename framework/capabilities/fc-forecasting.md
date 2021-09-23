@@ -33,7 +33,7 @@ order: 1
 
 
 ## Definition
-This FinOps Capability represents the practice of understanding how future cloud infrastructure and application lifecycle changes may impact current budgets and influence budget planning and future cloud investment decisions.
+Forecasting is the practice of predicting future spending, usually based on a combination of historical spending and an evaluation of future plans. understanding how future cloud infrastructure and application lifecycle changes may impact current budgets and influence budget planning and future cloud investment decisions.
 
 This capability also involves collaboration between stakeholder teams like Finance, Engineering, and Executives to build agreed upon forecast models and KPIs from which to establish budgets that align with business goals.
 
