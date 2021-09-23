@@ -6,11 +6,11 @@ permalink: /framework/capabilities/fc-cost-allocation-metadata-and-hierarchy
 tags:
 - tag1
 - tag2
-capability-domains:
-- Domain-1
-- Domain-2
-capability-title: Cost Allocation (Metadata & Hierarchy)
-capability-desc: A description for this capability.
+framework-domain-list:
+- domain-name
+- domain-name
+framework-capability-title: Cost Allocation (Metadata & Hierarchy)
+framework-capability-desc: A description for this capability.
 member-practioner-list:
 - practitioner_name
 member-vendor-list:

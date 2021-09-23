@@ -2,11 +2,18 @@
 
 layout: collection
 title: One Way to Put it All Together
-tags: 
+tags:
 - shared-costs
 persona:
 stage:
 company:
+member-practioner-list:
+- practitioner-member-name
+member-vendor-list:
+- vendor-member-name
+framework-domain-list:
+- domain-name
+- domain-name
 order: 1
 
 ---
@@ -24,13 +31,13 @@ To manage the Cloud costs ownership over the lifetime of the Cloud Service. FinO
 
 This Change Control provides the audit reporting and visibility required by Finance to enable the tracking of change in cloud cost ownership, and the when and how cloud shared costs were applied. The Stop/Start Date can then be used to determine how proration of charges should be applied, when the change ownership occurs part way through a CSP Billing Period.
 
-The final stage is the Reconciliation of Charges between ‘Actuals and Expected’. This step is to ensure all CSP Cloud Charges that have been apportioned against a Shared Cost Model, all balance out against the CSP Month Bill.  Once the balance of charges has been confirmed and approved by FinOps, then Showback and/or Chargeback reports should be issued to each of the cost centres outlining a breakdown of their monthly cloud charges, for the Cloud Bill Period. 
+The final stage is the Reconciliation of Charges between ‘Actuals and Expected’. This step is to ensure all CSP Cloud Charges that have been apportioned against a Shared Cost Model, all balance out against the CSP Month Bill.  Once the balance of charges has been confirmed and approved by FinOps, then Showback and/or Chargeback reports should be issued to each of the cost centres outlining a breakdown of their monthly cloud charges, for the Cloud Bill Period.
 
-Acting as a Cloud Service Broker (CSB) to support IaaS and Public Cloud Solutions, for multiple District Hospitals. Finance manages the General Ledger, which supports a set of Accounts with Cost Centre Codes. The Cost Centres cover Projects (CapEx) and BAU (OpEx) budgets under a set of Accounts. Each Hospital sets their planned Cloud Budgets CapEx and OpEx, for the year, which is then divided across Cloud and IT Services that  each Hospital requires to operate with. 
+Acting as a Cloud Service Broker (CSB) to support IaaS and Public Cloud Solutions, for multiple District Hospitals. Finance manages the General Ledger, which supports a set of Accounts with Cost Centre Codes. The Cost Centres cover Projects (CapEx) and BAU (OpEx) budgets under a set of Accounts. Each Hospital sets their planned Cloud Budgets CapEx and OpEx, for the year, which is then divided across Cloud and IT Services that  each Hospital requires to operate with.
 
 The CSP bill (invoice) is received by Finance and posted to the Accounts Payable Account, for each CSP (Bill to Pay). The CSP (Statement of Charges/Billing Report) is then retrieved from each CSP at the end of each bill period. The set of charges are then normalised (currency conversion), for local handling, which includes reconciliation of Actuals vs Expected (Cloud Moves, Adds Changes and Deletes aka MACD’s over the bill period). The Billing report includes a Machine ID, which is recorded in CMDB under an Implementation. Each Implementation is then appended with a Charge Code Config Item.    
 
-The reconciled charges are then apportioned to a Charge Code Item(s) identified for the Implementation item in CMDB. This identifies the active Charging Party over the Bill Period (Caters for Proration of Charges for Project to BAU Handover). The Charge Code Item is stored in a CMDB as a Configuration Item (CI). The Charge Code CI is attached to each Implementation (CI), which inturn is linked to each VM Instance (CI) for IaaS CSP. 
+The reconciled charges are then apportioned to a Charge Code Item(s) identified for the Implementation item in CMDB. This identifies the active Charging Party over the Bill Period (Caters for Proration of Charges for Project to BAU Handover). The Charge Code Item is stored in a CMDB as a Configuration Item (CI). The Charge Code CI is attached to each Implementation (CI), which inturn is linked to each VM Instance (CI) for IaaS CSP.
 
 The Charge Code item contains a number of attributes, which are configured as part of the provisioning process for service establishment. CSP Orders are noted with the VM Instance and Charge Code (CI.s). Order Reports are generated to reconcile the Bill for any Cloud MACD changes that occurred during the bill period to verify the Actuals with Expected.
 

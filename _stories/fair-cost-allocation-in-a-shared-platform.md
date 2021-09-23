@@ -2,11 +2,17 @@
 
 layout: collection
 title: Fair cost allocation in a shared Platform (as a Service)
-tags: 
+tags:
 - shared-costs
 persona:
 stage:
 company:
+member-practioner-list:
+- david-sterz
+member-vendor-list:
+- vendor-member-name
+framework-domain-list:
+- cloud-usage-and-cost
 order: 1
 
 ---
@@ -21,7 +27,7 @@ order: 1
 
 ![](/img/shared-costs/david-story.png)
 
-#### Goals 
+#### Goals
 * Business: Provide accurate cloud costs per product to be consumed as part of a Unit Metric Aggregation
 * Finance: 80%-100% direct cost allocation to cost center codes from public cloud spent across Foundation- and  Product Teams
 * Engineering: Cost ownership through full transparency and enablement to optimize themself towards business KPIs
@@ -36,8 +42,8 @@ The cloud resources that are needed by the product teams are provisioned by the 
 
 While organisational units and the account per team setup gives a good baseline for cost transparency there are various shared costs almost everywhere.
 
-##### Product Team Accounts 
-Most costs can be allocated directly to the product team on product level. Higher granularity down to application and sub-service level is achieved through tagging and labeling. 
+##### Product Team Accounts
+Most costs can be allocated directly to the product team on product level. Higher granularity down to application and sub-service level is achieved through tagging and labeling.
 
 A small percentage of costs occur in every product team account which is part of the platform teams tooling that provide observability, security and compliance services as part of the platform services.
 
@@ -48,7 +54,7 @@ A small percentage of costs occur in every product team account which is part of
 
 ##### Platform Team Accounts
 
-As the platform for the product teams is shared most of the resources in the platform account is shared. 
+As the platform for the product teams is shared most of the resources in the platform account is shared.
 
 **Examples**
 * DNS with many records split in nonproduction and production
@@ -69,7 +75,7 @@ As the platform for the product teams is shared most of the resources in the pla
 | Fixed        | Log-Mgmt Costs by Traffic %      | Log-Mgmt Costs by Log-Storage %      | Log-Mgmt Costs by Read/Write % |
 
 #### Shared Accounts
-Other Accounts provide services that are shared across all teams. 
+Other Accounts provide services that are shared across all teams.
 
 **Examples**
 * The version control system (VCS) is used by many teams where they store source code, build artifacts and documentation

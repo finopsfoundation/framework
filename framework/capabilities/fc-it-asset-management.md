@@ -6,11 +6,11 @@ permalink: /framework/capabilities/fc-it-asset-management
 tags:
 - tag1
 - tag2
-capability-domains:
-- Domain-1
-- Domain-2
-capability-title: IT Asset Management
-capability-desc: A description for this capability.
+framework-domain-list:
+- domain-name
+- domain-name
+framework-capability-title: IT Asset Management
+framework-capability-desc: A description for this capability.
 member-practioner-list:
 - practitioner_name
 member-vendor-list:

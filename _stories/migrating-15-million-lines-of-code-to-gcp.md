@@ -2,7 +2,7 @@
 
 layout: collection
 title: Migrating 15 Million Lines of Code from Six Data Centers Worldwide in Six Months
-tags: 
+tags:
 - cloud-migration
 - google-cloud-platform
 - organizational-alignment
@@ -11,6 +11,13 @@ tags:
 persona:
 stage:
 company:
+member-practioner-list:
+- practitioner-member-name
+member-vendor-list:
+- vendor-member-name
+framework-domain-list:
+- domain-name
+- domain-name
 order: 1
 
 ---
@@ -23,4 +30,3 @@ In our original cloud model: we had 70% preemptible, 30% committed use discount 
 ![](/img/stories/open-x.jpeg)
 
 Our FinOps team prioritize cloud finance opportunities and initiatives by level of effort with cost optimization benefits. From the graph you can see that flat-rate BigQuery and CUDS have the highest cost optimization benefits with the lowest effort.
-

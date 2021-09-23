@@ -2,7 +2,7 @@
 
 layout: collection
 title: What Spotify Learned at a Massive FinOps Scale
-tags: 
+tags:
 - cloud-migration
 - google-cloud-platform
 - organizational-alignment
@@ -11,6 +11,13 @@ tags:
 persona:
 stage:
 company:
+member-practioner-list:
+- practitioner-member-name
+member-vendor-list:
+- vendor-member-name
+framework-domain-list:
+- domain-name
+- domain-name
 order: 1
 
 ---

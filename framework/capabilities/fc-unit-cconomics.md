@@ -6,11 +6,11 @@ permalink: /framework/capabilities/fc-unit-economics
 tags:
 - tag1
 - tag2
-capability-domains:
-- Domain-1
-- Domain-2
-capability-title: Unit Economics
-capability-desc: A description for this capability.
+framework-domain-list:
+- domain-name
+- domain-name
+framework-capability-title: Unit Economics
+framework-capability-desc: A description for this capability.
 member-practioner-list:
 - practitioner_name
 member-vendor-list:
