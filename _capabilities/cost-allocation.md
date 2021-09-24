@@ -7,9 +7,15 @@ permalink: /framework/capabilities/cost-allocation/
 tags:
 - tag1
 - tag2
-capability-domains:
-- Domain-1
-- Domain-2
+framework-domain-list:
+- domain-name
+- domain-name
+framework-capability-title: Cost Allocation (Metadata & Hierarchy)
+framework-capability-desc: A description for this capability.
+member-practioner-list:
+- practitioner_name
+member-vendor-list:
+- vendor_member_name
 order: 1
 
 ---
