@@ -5,16 +5,18 @@ title: Anomaly Detection
 tags:
 - tagging-labeling
 - anomaly-detection
-persona:
-stage:
 company:
-member-practioner-list:
-- practitioner-member-name
-member-vendor-list:
+industry:
+author:
+tooling-services:
 - vendor-member-name
+framework-persona:
+framework-maturity:
 framework-domain-list:
 - real-time-decision-making
 - cloud-usage-and-cost
+framework-capability-list:
+framework-project-list:
 order: 1
 
 ---
