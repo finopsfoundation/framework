@@ -2,12 +2,19 @@
 
 layout: collection
 title: Rate Optimization Options from Google Cloud Platform
-tags: 
+tags:
 - rate-optimization
 - google-cloud-platform
 persona:
 stage:
 company:
+member-practioner-list:
+- practitioner-member-name
+member-vendor-list:
+- vendor-member-name
+framework-domain-list:
+- domain-name
+- domain-name
 order: 1
 
 ---

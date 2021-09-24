@@ -2,11 +2,18 @@
 
 layout: collection
 title: Avoid and Simplify
-tags: 
+tags:
 - shared-costs
 persona:
 stage:
 company:
+member-practioner-list:
+- joseph-daly
+member-vendor-list:
+- vendor-member-name
+framework-domain-list:
+- domain-name
+- domain-name
 order: 1
 
 ---

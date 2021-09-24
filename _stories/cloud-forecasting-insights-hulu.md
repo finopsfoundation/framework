@@ -2,11 +2,22 @@
 
 layout: collection
 title: Cloud Forecasting Insights from Hulu
-tags: 
+tags:
 - cloud-forecasting
+- forecasting
+- cost-allocation
+- budgets
 persona:
 stage:
 company:
+member-practioner-list:
+- drew-lowe
+member-vendor-list:
+- vendor-member-name
+framework-domain-list:
+- tracking-and-benchmarking
+- cloud-usage-and-cost
+- cloud-rate-optimization
 
 ---
 *by Drew Lowe, Hulu (now a part of Disney)*

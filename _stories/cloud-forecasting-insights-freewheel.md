@@ -2,11 +2,22 @@
 
 layout: collection
 title: Cloud Forecasting Insights from Freewheel
-tags: 
+tags:
 - cloud-forecasting
+- forecasting
+- cost-allocation
+- budgets
 persona:
 stage:
 company:
+member-practioner-list:
+- bharat-chadha
+member-vendor-list:
+- vendor-member-name
+framework-domain-list:
+- tracking-and-benchmarking
+- cloud-usage-and-cost
+- cloud-rate-optimization
 
 ---
 *by Bharat Chadha, Freewheel, a Comcast Company*

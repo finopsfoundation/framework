@@ -3,7 +3,7 @@
 layout: default
 github-link: false
 title: FinOps Training & Certification
-description: The FinOps Foundation offers training courses and certification programs for anyone who would like to learn more about FinOps.
+description: The Foundation offers FinOps training courses and FinOps certification programs for anyone who would like to learn more about the practice.
 
 ---
 

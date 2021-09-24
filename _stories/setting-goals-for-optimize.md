@@ -2,12 +2,19 @@
 
 layout: collection
 title: Setting goals for optimize
-tags: 
+tags:
 - tagging-labeling
 - budget-alerting
 persona:
 stage:
 company:
+member-practioner-list:
+- practitioner-member-name
+member-vendor-list:
+- vendor-member-name
+framework-domain-list:
+- domain-name
+- domain-name
 order: 2
 
 ---
