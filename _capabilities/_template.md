@@ -1,18 +1,13 @@
 ---
 
 layout: default
+
 title: 
 description:
 permalink: /framework/capabilities/
-tooling-services:
-framework-persona:
-framework-maturity:
 framework-capability-title: 
 framework-capability-desc: 
-framework-domains:
-- domain-name
-- domain-name
-order: 12
+order: 1
 
 ---
 

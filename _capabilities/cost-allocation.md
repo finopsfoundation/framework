@@ -1,21 +1,12 @@
 ---
 
 layout: default
+
 title: Cost Allocation (Metadata & Hierarchy)
 description:
 permalink: /framework/capabilities/cost-allocation/
-tags:
-- tag1
-- tag2
-framework-domain-list:
-- domain-name
-- domain-name
 framework-capability-title: Cost Allocation (Metadata & Hierarchy)
-framework-capability-desc: A description for this capability.
-member-practioner-list:
-- practitioner_name
-member-vendor-list:
-- vendor_member_name
+framework-capability-desc: 
 order: 1
 
 ---

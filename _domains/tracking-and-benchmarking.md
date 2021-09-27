@@ -1,11 +1,14 @@
 ---
 
 layout: default
-domain-title: Performance Tracking & Benchmarking
-domain-desc: Within this domain, the organization sets and maps its usage and cost to budgets, uses historical information to forecast, and establishes and measures KPIs and other performance indicators, including benchmarking.
-permalink: /framework/domains/tracking-and-benchmarking/
+
 title: Performance Tracking & Benchmarking FinOps Domain
 description: Within this domain, the organization sets and maps its usage and cost to budgets, uses historical information to forecast, and establishes and measures KPIs and other performance indicators, including benchmarking.
+permalink: /framework/domains/tracking-and-benchmarking/
+framework-domain-title: Performance Tracking & Benchmarking
+framework-domain-desc: Within this domain, the organization sets and maps its usage and cost to budgets, uses historical information to forecast, and establishes and measures KPIs and other performance indicators, including benchmarking.
+framework-capabilities:
+- Forecasting
 order: 2
 
 ---
@@ -20,7 +23,9 @@ At its core, this Domain answers the question: Does what we’re using/spending 
 
 ## FinOps Capabilities
 
-Reference of Capabilities coming soon.
+{% include capabilities-loop.md %}
+
+Reference of more Capabilities coming soon.
 
 ## FinOps Platforms & Service Providers
 

@@ -1,11 +1,13 @@
 ---
 
 layout: default
-domain-title: Cloud Usage Optimization
-domain-desc: Within this domain, the organization identifies and takes action to match running cloud resources to the actual demand of the workloads running at any given time. This work involves predictive rightsizing of resources, managing workloads to align with the correct number of scaling resources, turning resources off when not in use, and other techniques.
-permalink: /framework/domains/cloud-usage-optimization/
+
 title: Cloud Usage Optimization FinOps Domain
 description: Within this domain, the organization identifies and takes action to match running cloud resources to the actual demand of the workloads running at any given time. This work involves predictive rightsizing of resources, managing workloads to align with the correct number of scaling resources, turning resources off when not in use, and other techniques.
+permalink: /framework/domains/cloud-usage-optimization/
+framework-domain-title: Cloud Usage Optimization
+framework-domain-desc: Within this domain, the organization identifies and takes action to match running cloud resources to the actual demand of the workloads running at any given time. This work involves predictive rightsizing of resources, managing workloads to align with the correct number of scaling resources, turning resources off when not in use, and other techniques.
+framework-capabilities:
 order: 5
 
 ---
@@ -19,6 +21,8 @@ The Usage Optimization domain contains the set of capabilities to match our actu
 At its core, this Domain answers the question: How can we change what we’re using and when we’re using it in the cloud to better meet our organizational goals?
 
 ## FinOps Capabilities
+
+{% include capabilities-loop.md %}
 
 Reference of Capabilities coming soon.
 

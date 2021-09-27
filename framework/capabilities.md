@@ -14,9 +14,9 @@ FinOps Capabilities represents functional areas of activity in support of their 
 
 {% assign sorted_capabilities = site.capabilities | sort:"order" %}
 
-{% for domain in sorted_capabilities %}
+{% for capability in sorted_capabilities %}
 
-<a class="text-lg hover:text-green-500 transition-colors duration-200 p-4" href="{{ domain.url }}">{{ domain.title }}</a>
+<a class="text-lg hover:text-green-500 transition-colors duration-200 p-4" href="{{ capability.url }}">{{ capability.framework-capability-title }}</a>
 
 {% endfor %}
 

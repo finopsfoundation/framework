@@ -1,21 +1,12 @@
 ---
 
 layout: default
+
 title: IT Asset Management
 description:
 permalink: /framework/capabilities/asset-management/
-tags:
-- tag1
-- tag2
-framework-domain-list:
-- domain-name
-- domain-name
 framework-capability-title: IT Asset Management
-framework-capability-desc: A description for this capability.
-member-practioner-list:
-- practitioner_name
-member-vendor-list:
-- vendor_member_name
+framework-capability-desc: 
 order: 12
 
 ---

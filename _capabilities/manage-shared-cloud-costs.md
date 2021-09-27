@@ -1,21 +1,12 @@
 ---
 
 layout: default
+
 title: Manage Shared Cost
 description:
 permalink: /framework/capabilities/manage-shared-cloud-cost/
-tags:
-- tag1
-- tag2
-framework-domain-list:
-- domain-name
-- domain-name
 framework-capability-title: Manage Shared Cost
-framework-capability-desc: A description for this capability.
-member-practioner-list:
-- practitioner_name
-member-vendor-list:
-- vendor_member_name
+framework-capability-desc: 
 order: 4
 
 ---
