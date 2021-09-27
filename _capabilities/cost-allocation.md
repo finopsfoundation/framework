@@ -67,29 +67,28 @@ An important prerequisite to effective cost allocation is the metadata strategy,
 
 ## Functional Activity
 #### As someone in a FinOps Practitioner role, I will…
-* Develop the Naming Standards for all required and optional layers of hierarchical groupings
-* Develop compliance standards for various groups
+* develop the Naming Standards for all required and optional layers of hierarchical groupings
+* develop compliance standards for various groups
 
 
 #### As someone in a Business/Product role, I will…
-* Provide feedback on cost allocations made to products within my control
+* provide feedback on cost allocations made to products within my control
 
 #### As someone in a Finance role, I will…
-* Determine the organizational and budgetary units to which cost will be allocated
-* Determine how to allocate percentages of any shared cost items
+* determine the organizational and budgetary units to which cost will be allocated
+* determine how to allocate percentages of any shared cost items
 
 
 #### As someone in an Engineering/Operations role, I will...
-* Determine how and when metadata will be applied to hierarchical groupings and resources
-* Enforce and automate metadata standards for cost allocation metadata
-* Identify and provide all metadata sources required for analysis and cost allocation
+* determine how and when metadata will be applied to hierarchical groupings and resources
+* enforce and automate metadata standards for cost allocation metadata
+* identify and provide all metadata sources required for analysis and cost allocation
 
 
 #### As someone in an Executive role, I will…
-* eone in an Executive role, I will…
-* Review and approve cost allocations assigned to organizations within my control
-* Review and approve cost allocation strategies
-* Determine and provide feedback when cost allocation must become more granular or mature
+* review and approve cost allocations assigned to organizations within my control
+* review and approve cost allocation strategies
+* determine and provide feedback when cost allocation must become more granular or mature
 
 
 
@@ -129,7 +128,7 @@ An important prerequisite to effective cost allocation is the metadata strategy,
 
 
 ## Get Involved
-Get involved and contribute to the community by sharing a forecasting related story or providing a playbook for how you have implemented cloud cost forecasting best practices in your organization. Your real world story or how-to can be provided in the context of:
+Get involved and contribute to the community by sharing a related story or providing a playbook for how you have implemented cloud cost allocation and metadata best practices in your organization. Your real world story or how-to can be provided in the context of:
 >* one or more cloud providers
 * the types of cloud services used (compute, storage, database, etc...)
 * describe a combination of  tooling, platform or vendor, and processes including KPIs

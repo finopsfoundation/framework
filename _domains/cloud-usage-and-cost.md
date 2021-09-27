@@ -11,6 +11,7 @@ framework-domain-desc: Within this Domain, the organization will work to gather 
 framework-capabilities:
 - capability_forecasting
 - capability_allocation
+- capability_anomalies
 order: 1
 
 ---
