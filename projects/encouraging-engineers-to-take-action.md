@@ -1,7 +1,12 @@
 ---
-title: Encouraging engineers to take action
-description: We gathered our FinOps experts to address the challenge of encouraging and enabling engineers to get more involved. It's not just a challenge for engineers-- everyone has a role to play.
+
 layout: default
+
+title: Encouraging Engineers to Take Action
+description: We gathered our FinOps experts to address the challenge of encouraging and enabling engineers to get more involved. It's not just a challenge for engineers-- everyone has a role to play.
+project-title: Encouraging Engineers to Take Action
+project-description: We gathered our FinOps experts to address the challenge of encouraging and enabling engineers to get more involved. It's not just a challenge for engineers-- everyone has a role to play.
+
 ---
 
 ## Playbook Details
@@ -12,7 +17,7 @@ layout: default
 - Chairperson:
 - TAC Liaison: Riley Jenkins
 
-# Encouraging engineers to take action
+# Encouraging Engineers to Take Action
 
 How finance, operations, and executives can work better together at encouraging more cloud cost optimization from their engineering teams.
 

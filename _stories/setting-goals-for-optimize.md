@@ -1,21 +1,24 @@
 ---
 
 layout: collection
-title: Setting goals for optimize
+
+title: Setting Goals for Optimize
+description:
+author:
+company:
+industry:
+cloud-provider:
+tooling-services:
+framework-persona:
+framework-maturity:
+framework-domains:
+framework-capabilities:
+framework-projects:
+order: 2
+
 tags:
 - tagging-labeling
 - budget-alerting
-persona:
-stage:
-company:
-member-practioner-list:
-- practitioner-member-name
-member-vendor-list:
-- vendor-member-name
-framework-domain-list:
-- domain-name
-- domain-name
-order: 2
 
 ---
 

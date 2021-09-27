@@ -1,13 +1,16 @@
 ---
 
 layout: default
-tags: cloud-forecasting
+
+title: Accurate Cloud Forecasts
 description: A guide that walks through how finance, operations, and executives build models to forecast cloud spend and allocate budgets to business units.
+project-title: Accurate Cloud Forecasts
+project-description: A guide that walks through how finance, operations, and executives build models to forecast cloud spend and allocate budgets to business units.
 
 ---
 
 
-# Cloud Forecasting
+# Accurate Cloud Forecasts
 
 ## Abstract
 

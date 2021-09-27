@@ -1,20 +1,23 @@
 ---
 
 layout: collection
+
 title: One Way to Put it All Together
+description:
+author: Chris Greenham
+company: healthAlliance
+industry:
+cloud-provider:
+tooling-services:
+framework-persona:
+framework-maturity:
+framework-domains:
+framework-capabilities:
+framework-projects:
+order: 1
+
 tags:
 - shared-costs
-persona:
-stage:
-company:
-member-practioner-list:
-- practitioner-member-name
-member-vendor-list:
-- vendor-member-name
-framework-domain-list:
-- domain-name
-- domain-name
-order: 1
 
 ---
 *by Chris Greenham, healthAlliance*

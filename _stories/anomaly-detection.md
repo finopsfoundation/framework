@@ -1,22 +1,26 @@
 ---
 
 layout: collection
+
 title: Anomaly Detection
+description:
+author:
+company:
+industry:
+cloud-provider:
+tooling-services:
+framework-persona:
+framework-maturity:
+framework-domains:
+- Understanding Cloud Usage and Cost
+- Real-Time Decision Making
+framework-capabilities:
+framework-projects:
+
 tags:
 - tagging-labeling
 - anomaly-detection
-company:
-industry:
-author:
-tooling-services:
-- vendor-member-name
-framework-persona:
-framework-maturity:
-framework-domain-list:
-- real-time-decision-making
-- cloud-usage-and-cost
-framework-capability-list:
-framework-project-list:
+
 order: 1
 
 ---

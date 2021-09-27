@@ -1,19 +1,24 @@
 ---
 
 layout: collection
+
 title: Fair cost allocation in a shared Platform (as a Service)
+description:
+author: David Sterz
+company: Mindcurv
+industry:
+cloud-provider:
+tooling-services:
+framework-persona:
+framework-maturity:
+framework-domains:
+- Understanding Cloud Usage and Cost
+framework-capabilities:
+framework-projects:
+order: 1
+
 tags:
 - shared-costs
-persona:
-stage:
-company:
-member-practioner-list:
-- david-sterz
-member-vendor-list:
-- vendor-member-name
-framework-domain-list:
-- cloud-usage-and-cost
-order: 1
 
 ---
 *by David Sterz, Solutions Architect and FinOps Lead, Mindcurv*

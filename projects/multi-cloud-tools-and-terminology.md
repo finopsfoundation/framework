@@ -1,8 +1,11 @@
 ---
 
 layout: default
-tags: multi-cloud-tools
+
+title: Multi-Cloud Tools and Terminology
 description: A guide that translates native cost management tool concepts across multiple cloud service providers.
+project-title: Multi-Cloud Tools and Terminology
+project-description: A guide that translates native cost management tool concepts across multiple cloud service providers.
 
 ---
 

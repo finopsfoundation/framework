@@ -1,24 +1,27 @@
 ---
 
 layout: collection
+
 title: Migrating 15 Million Lines of Code from Six Data Centers Worldwide in Six Months
+description:
+author: Scott Snell
+company: OpenX
+industry:
+cloud-provider:
+tooling-services:
+framework-persona:
+framework-maturity:
+framework-domains:
+framework-capabilities:
+framework-projects:
+order: 1
+
 tags:
 - cloud-migration
 - google-cloud-platform
 - organizational-alignment
 - cost-visibility
 - rate-optimization
-persona:
-stage:
-company:
-member-practioner-list:
-- practitioner-member-name
-member-vendor-list:
-- vendor-member-name
-framework-domain-list:
-- domain-name
-- domain-name
-order: 1
 
 ---
 *by Scott Snell, Cost Analyst at OpenX*

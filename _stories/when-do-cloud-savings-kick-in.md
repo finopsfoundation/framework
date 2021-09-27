@@ -1,23 +1,26 @@
 ---
 
 layout: collection
+
 title: When Do Cloud Savings Start to Kick in?
+description:
+author: Peter Shi
+company: Goldiserv
+industry:
+cloud-provider:
+tooling-services:
+framework-persona:
+framework-maturity:
+framework-domains:
+framework-capabilities:
+framework-projects:
+order: 1
+
 tags:
 - commitment-discounts
 - usage-optimization
 - rate-optimization
 - organizational-alignment
-persona:
-stage:
-company:
-member-practioner-list:
-- practitioner-member-name
-member-vendor-list:
-- vendor-member-name
-framework-domain-list:
-- domain-name
-- domain-name
-order: 1
 
 ---
 *by [Peter Shi](https://www.linkedin.com/in/petershicloud/), Founder of Goldiserv*

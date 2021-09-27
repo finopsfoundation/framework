@@ -1,20 +1,23 @@
 ---
 
 layout: collection
+
 title: Avoid and Simplify
+description:
+author: Joe Daly
+company:
+industry:
+cloud-provider:
+tooling-services:
+framework-persona:
+framework-maturity:
+framework-domains:
+framework-capabilities:
+framework-projects:
+order: 1
+
 tags:
 - shared-costs
-persona:
-stage:
-company:
-member-practioner-list:
-- joseph-daly
-member-vendor-list:
-- vendor-member-name
-framework-domain-list:
-- domain-name
-- domain-name
-order: 1
 
 ---
 *by Joseph Daly, Nationwide*

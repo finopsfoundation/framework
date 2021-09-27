@@ -1,26 +1,32 @@
 ---
 
 layout: collection
+
 title: What Spotify Learned at a Massive FinOps Scale
+description:
+author:
+- Scott Meyer
+- Brendan Greenley
+company: Spotify
+industry:
+cloud-provider:
+tooling-services:
+framework-persona:
+framework-maturity:
+framework-domains:
+framework-capabilities:
+framework-projects:
+order: 1
+
 tags:
 - cloud-migration
 - google-cloud-platform
 - organizational-alignment
 - cost-visibility
 - rate-optimization
-persona:
-stage:
-company:
-member-practioner-list:
-- practitioner-member-name
-member-vendor-list:
-- vendor-member-name
-framework-domain-list:
-- domain-name
-- domain-name
-order: 1
 
 ---
+
 *by Scott Meyer and Brendan Greenley, Spotify*
 
 Here are a few tips that we've learned at Spotify as we utilizes GCP at a massive scale. Even at a massive scale of utilization, we're only  in the step of automating their cost optimization.

@@ -1,23 +1,29 @@
 ---
 
 layout: collection
+
 title: Cloud Forecasting Insights from Chevron
+description:
+author: Scott Linn
+company: Chevron
+industry:
+cloud-provider:
+tooling-services:
+framework-persona:
+framework-maturity:
+framework-domains:
+- Performance Tracking & Benchmarking
+- Understanding Cloud Usage and Cost
+- Cloud Usage Optimization
+framework-capabilities:
+framework-projects:
+order:
+
 tags:
 - cloud-forecasting
 - forecasting
 - cost-allocation
 - budgets
-persona:
-stage:
-company:
-member-practioner-list:
-- scott-linn
-member-vendor-list:
-- vendor-member-name
-framework-domain-list:
-- tracking-and-benchmarking
-- cloud-usage-and-cost
-- cloud-rate-optimization
 
 ---
 *by Scott Linn, Chevron*     

@@ -1,20 +1,23 @@
 ---
 
 layout: collection
+
 title: Non-technical/Market/Environmental/Corporate Governance Influencing Factors on How to Track, Process and Share Costs
+description:
+author: Neil May
+company: Wish Star
+industry:
+cloud-provider:
+tooling-services:
+framework-persona:
+framework-maturity:
+framework-domains:
+framework-capabilities:
+framework-projects:
+order: 1
+
 tags:
 - shared-costs
-persona:
-stage:
-company:
-member-practioner-list:
-- practitioner-member-name
-member-vendor-list:
-- vendor-member-name
-framework-domain-list:
-- domain-name
-- domain-name
-order: 1
 
 ---
 *by Neil May, FinOps Director, Wish Star*
