@@ -114,7 +114,6 @@ reliably and accurately, cloud cost forecasting will inform investment and opera
 
 
 ## Stories/How-To
-_the objective here is to capture the "How" for this Capability.  a collection of real world examples and/or "how to" for this Capability;_
 
 |  |  |
 | --: | --- |
