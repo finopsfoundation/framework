@@ -5,10 +5,11 @@ layout: default
 title: Performance Tracking & Benchmarking FinOps Domain
 description: Within this domain, the organization sets and maps its usage and cost to budgets, uses historical information to forecast, and establishes and measures KPIs and other performance indicators, including benchmarking.
 permalink: /framework/domains/tracking-and-benchmarking/
+page-identifier: domain_benchmarking
 framework-domain-title: Performance Tracking & Benchmarking
 framework-domain-desc: Within this domain, the organization sets and maps its usage and cost to budgets, uses historical information to forecast, and establishes and measures KPIs and other performance indicators, including benchmarking.
 framework-capabilities:
-- Forecasting
+- capability_forecasting
 order: 2
 
 ---

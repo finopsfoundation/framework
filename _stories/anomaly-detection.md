@@ -11,9 +11,6 @@ cloud-provider:
 tooling-services:
 framework-persona:
 framework-maturity:
-framework-domains:
-- Understanding Cloud Usage and Cost
-- Real-Time Decision Making
 framework-capabilities:
 framework-projects:
 

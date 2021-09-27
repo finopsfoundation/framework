@@ -5,6 +5,7 @@ layout: default
 title: 
 description:
 permalink: /framework/capabilities/
+page-identifier:
 framework-capability-title: 
 framework-capability-desc: 
 order: 1

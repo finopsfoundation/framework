@@ -8,17 +8,16 @@ author: Pathik Sharma
 company: Google Cloud Platform
 industry:
 cloud-provider:
+- Google Cloud Platform
 tooling-services:
 framework-persona:
 framework-maturity:
-framework-domains:
 framework-capabilities:
 framework-projects:
 order: 1
 
 tags:
 - rate-optimization
-- google-cloud-platform
 
 ---
 *by Pathik Sharma, Senior Technical Account Manager, Google Cloud Platform*

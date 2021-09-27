@@ -11,14 +11,10 @@ cloud-provider:
 tooling-services:
 framework-persona:
 framework-maturity:
-framework-domains:
-- Understanding Cloud Usage and Cost
 framework-capabilities:
 framework-projects:
+- project_shared-costs
 order: 1
-
-tags:
-- shared-costs
 
 ---
 *by David Sterz, Solutions Architect and FinOps Lead, Mindcurv*

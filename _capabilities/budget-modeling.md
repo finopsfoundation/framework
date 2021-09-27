@@ -5,6 +5,7 @@ layout: default
 title: Budget Modeling
 description:
 permalink: /framework/capabilities/budget-modeling/
+page-identifier: capability_budget-modeling
 framework-capability-title: Budget Modeling
 framework-capability-desc: 
 order: 6

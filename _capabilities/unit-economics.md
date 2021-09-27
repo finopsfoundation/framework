@@ -5,6 +5,7 @@ layout: default
 title: Unit Economics
 description:
 permalink: /framework/capabilities/unit-economics/
+page-identifier: capability_unit-economics
 framework-capability-title: Unit Economics
 framework-capability-desc: 
 order: 10

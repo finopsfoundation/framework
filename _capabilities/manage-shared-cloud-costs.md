@@ -5,6 +5,7 @@ layout: default
 title: Manage Shared Cost
 description:
 permalink: /framework/capabilities/manage-shared-cloud-cost/
+page-identifier: capability_shared-cost
 framework-capability-title: Manage Shared Cost
 framework-capability-desc: 
 order: 4

@@ -5,6 +5,7 @@ layout: default
 title: Workload Management & Automation
 description:
 permalink: /framework/capabilities/workload-management-automation/
+page-identifier: capability_automation
 framework-capability-title: Workload Management & Automation
 framework-capability-desc: 
 order: 7

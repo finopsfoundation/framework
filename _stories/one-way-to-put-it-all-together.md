@@ -11,15 +11,13 @@ cloud-provider:
 tooling-services:
 framework-persona:
 framework-maturity:
-framework-domains:
 framework-capabilities:
 framework-projects:
+- project_shared-costs
 order: 1
 
-tags:
-- shared-costs
-
 ---
+
 *by Chris Greenham, healthAlliance*
 
 Shared Costs should be identified upfront as part of Service Design. Just as the Service Design is subject to design approval, the Shared Cost Model needs approval from FinOps.

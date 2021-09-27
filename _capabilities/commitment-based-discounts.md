@@ -5,6 +5,7 @@ layout: default
 title: Commitment Based Discounts
 description:
 permalink: /framework/capabilities/commitment-based-discounts/
+page-identifier: capability_commitment-discounts
 framework-capability-title: Commitment Based Discounts
 framework-capability-desc: 
 order: 8

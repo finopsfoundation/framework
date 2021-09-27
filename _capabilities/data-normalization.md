@@ -5,6 +5,7 @@ layout: default
 title: Data Normalization
 description:
 permalink: /framework/capabilities/data-normalization/
+page-identifier: capability_normalization
 framework-capability-title: Data Normalization
 framework-capability-desc: 
 order: 11

@@ -11,17 +11,12 @@ cloud-provider:
 tooling-services:
 framework-persona:
 framework-maturity:
-framework-domains:
-- Performance Tracking & Benchmarking
-- Cloud Usage Optimization
-- Understanding Cloud Usage and Cost
 framework-capabilities:
 framework-projects:
+- project_forecast
 order:
 
 tags:
-- cloud-forecasting
-- forecasting
 - cost-allocation
 - budgets
 

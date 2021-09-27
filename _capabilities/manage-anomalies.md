@@ -5,6 +5,7 @@ layout: default
 title: Manage Anomalies
 description:
 permalink: /framework/capabilities/manage-anomalies/
+page-identifier: capability_anomalies
 framework-capability-title: Manage Anomalies
 framework-capability-desc: 
 order: 3

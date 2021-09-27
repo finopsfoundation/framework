@@ -11,7 +11,6 @@ cloud-provider:
 tooling-services:
 framework-persona:
 framework-maturity:
-framework-domains:
 framework-capabilities:
 framework-projects:
 order: 2

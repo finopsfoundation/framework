@@ -5,6 +5,7 @@ layout: default
 title: Data Visualization and Showback
 description:
 permalink: /framework/capabilities/visualization-showback/
+page-identifier: capability_showback
 framework-capability-title: Data Visualization and Showback
 framework-capability-desc: 
 order: 2

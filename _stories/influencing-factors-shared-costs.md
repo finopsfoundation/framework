@@ -11,15 +11,13 @@ cloud-provider:
 tooling-services:
 framework-persona:
 framework-maturity:
-framework-domains:
 framework-capabilities:
 framework-projects:
+- project_shared-costs
 order: 1
 
-tags:
-- shared-costs
-
 ---
+
 *by Neil May, FinOps Director, Wish Star*
 
 **Vendor pricing strategies** - complex, ever evolving software and service licensing models from multiple vendors to flow through predictions and usage accounting.

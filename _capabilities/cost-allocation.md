@@ -5,6 +5,7 @@ layout: default
 title: Cost Allocation (Metadata & Hierarchy)
 description:
 permalink: /framework/capabilities/cost-allocation/
+page-identifier: capability_allocation
 framework-capability-title: Cost Allocation (Metadata & Hierarchy)
 framework-capability-desc: 
 order: 1
