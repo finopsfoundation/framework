@@ -4,7 +4,7 @@ layout: default
 
 title: Measure Efficiency
 description:
-permalink: /framework/capabilities/
+permalink: /framework/capabilities/measure-efficiency/
 page-identifier: capability_measure-efficiency
 framework-capability-title: Measure Efficiency
 framework-capability-desc:
