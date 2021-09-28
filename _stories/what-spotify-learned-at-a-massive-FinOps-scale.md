@@ -10,6 +10,7 @@ author:
 company: Spotify
 industry:
 cloud-provider:
+- Google Cloud Platform
 tooling-services:
 framework-persona:
 framework-maturity:

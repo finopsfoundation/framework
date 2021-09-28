@@ -12,6 +12,7 @@ tooling-services:
 framework-persona:
 framework-maturity:
 framework-capabilities:
+- capability_forecasting
 framework-projects:
 - project_forecast
 order:

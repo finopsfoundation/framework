@@ -6,12 +6,13 @@ title: Cloud Forecasting Insights from Chevron
 description:
 author: Scott Linn
 company: Chevron
-industry:
+industry: Energy
 cloud-provider:
 tooling-services:
 framework-persona:
-framework-maturity:
+framework-maturity: Run
 framework-capabilities:
+- capability_forecasting
 framework-projects:
 - project_forecast
 order:

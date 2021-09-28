@@ -13,6 +13,7 @@ tooling-services:
 framework-persona:
 framework-maturity:
 framework-capabilities:
+- capability_rightsizing
 framework-projects:
 order: 1
 

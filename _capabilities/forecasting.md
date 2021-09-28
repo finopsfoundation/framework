@@ -111,7 +111,7 @@ reliably and accurately, cloud cost forecasting will inform investment and opera
 * Stakeholder real-time visibility into cost and usage reporting data
 
 
-
+{% include story-loop.md %}
 
 ## Stories/How-To
 
@@ -123,6 +123,8 @@ reliably and accurately, cloud cost forecasting will inform investment and opera
 | | |
 | **Hulu Disney** <br/> Industry: Video Streaming/Internet <br/> FinOps Maturity Level: Run <br/> FinOps Member: [**Drew Lowe**](https://www.linkedin.com/in/andrewlowe2/) | [**Cloud Forecasting Insights from Hulu**](https://www.finops.org/stories/cloud-forecasting-insights-hulu/) |
 | | |
+
+
 
 
 
