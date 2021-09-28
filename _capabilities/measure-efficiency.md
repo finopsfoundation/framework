@@ -2,17 +2,17 @@
 
 layout: default
 
-title: Chargeback & IT Finance Integration
+title: Measure Efficiency
 description:
-permalink: /framework/capabilities/chargeback/
-page-identifier: capability_chargeback
-framework-capability-title:
+permalink: /framework/capabilities/
+page-identifier: capability_measure-efficiency
+framework-capability-title: Measure Efficiency
 framework-capability-desc:
-order: 12
+order: 13
 
 ---
 
-# Heading Here
+# Measure Efficiency
 
 ## Domains
 _x-ref to the FinOps Domain(s) to which this Capability corresponds_
