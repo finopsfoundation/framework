@@ -113,7 +113,7 @@ reliably and accurately, cloud cost forecasting will inform investment and opera
 
 {% include story-loop.md %}
 
-## Stories/How-To
+## Real World Resources
 
 |  |  |
 | --: | --- |

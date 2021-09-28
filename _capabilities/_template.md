@@ -2,12 +2,12 @@
 
 layout: default
 
-title: 
+title:
 description:
 permalink: /framework/capabilities/
 page-identifier:
-framework-capability-title: 
-framework-capability-desc: 
+framework-capability-title:
+framework-capability-desc:
 order: 1
 
 ---
@@ -46,8 +46,8 @@ _the information used that contributes to the measure(s) of success listed above
 
 
 
-## Stories/How-To
-_the objective here is to capture the "How" for this Capability.  a collection of real world examples and/or "how to" for this Capability;_ information here may:
+## Real World Resources
+_a collection of real world examples, stories and “how to” for this Capability; based on FinOps community member experiences; information here may:
 >* _apply to one or more cloud providers_
 * _include specific types of cloud services used) (compute, storage, database, etc...)_
 * _describe a combination of  tooling, platform or vendor_
