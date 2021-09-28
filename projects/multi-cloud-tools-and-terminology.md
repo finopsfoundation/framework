@@ -35,7 +35,7 @@ Each Cloud Service Provider has different tools available to help FinOps practit
 
 |  | GCP        | AWS           | Azure  |
 | ------------- | ------------- | ------------- | ------------- |
-| **Cloud Cost Planning** | GCP Pricing Calculator | GCP Pricing Calculator | Azure Pricing Calculator |
+| **Cloud Cost Planning** | GCP Pricing Calculator | AWS Pricing Calculator | Azure Pricing Calculator |
 |  |  |  | Azure Pricing Calculator |
 | **Billing and Reporting** | Google Cloud Billing Reports | AWS Cost Explorer | Azure Cost Management + Billing |
 |  | Billing Export (BigQuery) | AWS Cost and Usage Reports | Azure usage and charges report |
