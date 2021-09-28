@@ -14,7 +14,8 @@ website-url: "https://www.mckinsey.com/"
 company-description:
 
 # Membership level, type and vendor certifications 
-member-level: general
+member-level: premier
+member-order: 8
 
 type: 
 - Platform Provider
