@@ -47,7 +47,7 @@ _the information used that contributes to the measure(s) of success listed above
 
 
 ## Real World Resources
-_a collection of real world examples, stories and “how to” for this Capability; based on FinOps community member experiences; information here may:
+_a collection of real world examples, stories and “how to” for this Capability; based on FinOps community member experiences; information here may:_
 >* _apply to one or more cloud providers_
 * _include specific types of cloud services used) (compute, storage, database, etc...)_
 * _describe a combination of  tooling, platform or vendor_
