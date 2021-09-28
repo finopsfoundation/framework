@@ -49,7 +49,7 @@ product-overview: |
 
   6. Tagging Compliance -- Drive accountability for individual business units with organization wide tagging."
 
-product-video-url:
+product-video-url: "https://www.youtube.com/embed/A4GrLmHr00A"
 
 # Related product or service resources, the titles will have associated URLs, e.g. product 
 product-resources:
