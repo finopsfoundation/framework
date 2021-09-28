@@ -2,11 +2,11 @@
 
 layout: default
 
-title: Unit Economics
+title: Measure Unit Costs
 description:
-permalink: /framework/capabilities/unit-economics/
-page-identifier: capability_unit-economics
-framework-capability-title: Unit Economics
+permalink: /framework/capabilities/measure-unit-costs/
+page-identifier: capability_unit-costs
+framework-capability-title: Measure Unit Costs
 framework-capability-desc:
 order: 10
 

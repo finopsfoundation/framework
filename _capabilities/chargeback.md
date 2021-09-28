@@ -2,18 +2,17 @@
 
 layout: default
 
-title: Commitment Based Discounts
+title: Chargeback & IT Finance Integration
 description:
-permalink: /framework/capabilities/commitment-based-discounts/
-page-identifier: capability_commitment-discounts
-framework-capability-title: Commitment Based Discounts
+permalink: /framework/capabilities/chargeback/
+page-identifier: capability_chargeback
+framework-capability-title:
 framework-capability-desc:
-order: 8
+order: 1
 
 ---
 
-# Commitment Based Discounts
-
+# Heading Here
 
 ## Domains
 _x-ref to the FinOps Domain(s) to which this Capability corresponds_

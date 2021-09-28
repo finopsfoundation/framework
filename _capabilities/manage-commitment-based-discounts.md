@@ -2,17 +2,17 @@
 
 layout: default
 
-title: Workload Management & Automation
+title: Manage Commitment Based Discounts
 description:
-permalink: /framework/capabilities/workload-management-automation/
-page-identifier: capability_workload-automation
-framework-capability-title: Workload Management & Automation
+permalink: /framework/capabilities/manage-commitment-based-discounts/
+page-identifier: capability_commitment-discounts
+framework-capability-title: Manage Commitment Based Discounts
 framework-capability-desc:
-order: 7
+order: 8
 
 ---
 
-# Workload Management & Automation
+# Manage Commitment Based Discounts
 
 
 ## Domains

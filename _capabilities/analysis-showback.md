@@ -2,17 +2,17 @@
 
 layout: default
 
-title: Data Visualization and Showback
+title: Data Analysis and Showback
 description:
-permalink: /framework/capabilities/visualization-showback/
+permalink: /framework/capabilities/analysis-showback/
 page-identifier: capability_showback
-framework-capability-title: Data Visualization and Showback
+framework-capability-title: Data Analysis and Showback
 framework-capability-desc:
 order: 2
 
 ---
 
-# Data Visualization and Showback
+# Data Analysis and Showback
 
 
 ## Domains
