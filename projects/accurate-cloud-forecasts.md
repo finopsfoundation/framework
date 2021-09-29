@@ -23,19 +23,19 @@ You should understand the basics of how cloud works, specifically you should kno
 
 Depending on the cloud providers your organization is using, you can gain some of this knowledge through training and certifications. Specifically for AWS we recommend the AWS Cloud Practitioner certification, for Google the Google Cloud Platform Fundamentals course, and for Azure, the Azure Fundamentals learning path.
 
-## Relevant FinOps Framework components
+<!-- ## Relevant FinOps Framework components
 To get the most out of this document, please review the following first:
-* [Tagging and labeling](/framework/capabilities/tagging-labeling/)
-* [Cost allocation](/framework/domains/allocate/)
+* [Tagging and labeling](/framework/archive/v0.1/capabilities/tagging-labeling/)
+* [Cost allocation](/framework/archive/v0.1/domains/allocate/)
 * Cost-centric ownership
 * [Implementing FinOps training for engineers](/framework/capabilities/learning/)
-* [Business metrics / KPIs](/framework/archive/kpis/)
+* [Business metrics / KPIs](/framework/archive/v0.1/kpis/)
 * [Building a FinOps culture](/framework/principles/)
-* [Organizational Alignment](/framework/domains/organizational-alignment/)
+* [Organizational Alignment](/framework/archive/v0.1/domains/organizational-alignment/)
 
 If you have a strong handle on these subjects, please continue on to better understand how to approach this challenge.
 
-See also, [Relevant Terms and Concepts](#appendix), now an appendix section to this project.
+See also, [Relevant Terms and Concepts](#appendix), now an appendix section to this project. -->
 
 ## How to address cloud forecasting?
 Fundamentally there is a potential gap between engineers, finance, and procurement where finance has financial reporting responsibilities, and procurement has accounting responsibilities, and both need assistance from engineers and leadership to meet these obligations.

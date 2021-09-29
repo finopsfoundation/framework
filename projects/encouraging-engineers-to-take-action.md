@@ -28,7 +28,7 @@ You should understand the basics of how cloud computing works, know the key serv
 
 You’ll also need to have a base level of knowledge of at least one of the three main public cloud providers (AWS, Azure, Google Cloud). For AWS, we recommend AWS Business Professional training or, even better, the AWS Cloud Practitioner certification. For Google, check out the Google Cloud Platform Fundamentals course. For Azure, try the Azure Fundamentals learning path. Each can usually be completed in a full day workshop.
 
-## Relevant FinOps Framework components
+<!-- ## Relevant FinOps Framework components
 
 To get the most out of this document, please review the following first:
 
@@ -43,7 +43,7 @@ To get the most out of this document, please review the following first:
 * [Building a FinOps culture]()
 * … and more (please recommend some must-have framework components)
 
-If you have a strong handle on these subjects, continue on to better understand how to approach this challenge.
+If you have a strong handle on these subjects, continue on to better understand how to approach this challenge. -->
 
 ---
 

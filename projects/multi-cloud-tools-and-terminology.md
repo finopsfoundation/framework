@@ -23,16 +23,16 @@ You should understand the basics of how cloud computing works, know the key serv
 
 You'll also need to have a base level of knowledge of at least one of the three main public cloud providers (AWS, Azure, Google Cloud). For AWS, we recommend AWS Business Professional training or, even better, the AWS Cloud Practitioner certification. For Google, check out the Google Cloud Platform Fundamentals course. For Azure, try the Azure Fundamentals learning path. Each can usually be completed in a full day workshop.
 
-## Relevant FinOps Framework components
+<!-- ## Relevant FinOps Framework components
 To get the most out of this document, please review the following first:
-* [Tagging and labeling](/framework/capabilities/tagging-labeling/)
-* [Cost allocation](/framework/domains/allocate/)
+* [Tagging and labeling](/framework/archive/v0.1/capabilities/tagging-labeling/)
+* [Cost allocation](/framework/archive/v0.1/domains/allocate/)
 * [Accurate Cloud Forecasts](/framework/projects/accurate-cloud-forecasts/)
 * Invoice and Billing Reporting
 * Reserved Instances, spot pricing and savings plans
 * [Organizational Alignment](/framework/domains/organizational-alignment/)
 
-If you have a strong handle on these subjects, please continue on to better understand how to approach this challenge.
+If you have a strong handle on these subjects, please continue on to better understand how to approach this challenge. -->
 
 ## FinOps Tools Matrix
 Each Cloud Service Provider has different tools available to help FinOps practitioners learn and practice efficient utilization of cloud resources.  There are tools and reports available that can help FinOps practitioners and companies plan their potential cost in advance of consumption, understand invoices, complete billing analysis, govern cost and optimize cost.  These tools have been enumerated in the FinOps Tools Matrix.
