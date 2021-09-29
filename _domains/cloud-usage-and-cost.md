@@ -12,6 +12,7 @@ framework-capabilities:
 - capability_forecasting
 - capability_allocation
 - capability_anomalies
+- capability_shared-cost
 order: 1
 
 ---

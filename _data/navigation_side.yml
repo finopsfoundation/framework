@@ -11,6 +11,8 @@
     url: /framework/personas/
   - name: Phases
     url: /framework/phases/
+  - name: Maturity Model
+    url: /framework/maturity-model/
   - name: Domains
     url: /framework/domains/
   - name: Capabilities

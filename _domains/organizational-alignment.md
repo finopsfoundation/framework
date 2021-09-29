@@ -9,6 +9,7 @@ page-identifier: domain_org-alignment
 framework-domain-title: Organizational Alignment
 framework-domain-desc: Within this domain, the organization acts and automates to manage cloud use within the context of other IT Finance activities, and integrates FinOps capabilities with existing organizational processes, organizational units, and technology.
 framework-capabilities:
+- capability_chargeback
 order: 6
 
 ---
