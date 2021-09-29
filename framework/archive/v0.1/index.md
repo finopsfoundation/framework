@@ -26,4 +26,15 @@ Please note that previous constructs may not directly align with the current one
 - [Optimization Recommendations](capabilities/optimization-recommendations)
 - [Automation](capabilities/automation)
 
+## Historical Abilities
+- [Unit Economics](abilities/unit-economics)
+- [Chargeback & Showback](abilities/chargeback-and-showback)	
+- [Budget Planning](abilities/budget-planning)	
+- [Socializ(s)ing](abilities/socializing)
+- [Informed Ignoring](abilities/informed-ignoring)
+- [Data in the path of Engineers](abilities/data-in-the-path-of-engineers)
+- [Just In Time Procurement](abilities/just-in-time-procurement)
+- [Incentivisation](abilities/incentivisation)	
+- [Evolve](abilities/evolve)
+
 
