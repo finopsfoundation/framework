@@ -21,4 +21,4 @@ FinOps Capabilities represents functional areas of activity in support of their 
 {% endfor %}
 
 
-View historical [capabilities](/framework/archive/v0.1/)
+View historical [Capabilities](/framework/archive/v0.1/)
