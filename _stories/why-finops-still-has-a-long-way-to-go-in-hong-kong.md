@@ -1,20 +1,22 @@
 ---
 
 layout: collection
+
 title: Why FinOps Still Has a Long Way to Go in Hong Kong
+description:
+author: Steve Schechter
+company: Velocity Technology
+industry:
+cloud-provider:
+tooling-services:
+framework-persona:
+framework-maturity:
+framework-capabilities:
+framework-projects:
+order: 1
+
 tags:
 - organizational-alignment
-persona:
-stage:
-company:
-member-practioner-list:
-- practitioner-member-name
-member-vendor-list:
-- vendor-member-name
-framework-domain-list:
-- domain-name
-- domain-name
-order: 1
 
 ---
 

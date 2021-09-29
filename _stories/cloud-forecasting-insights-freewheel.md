@@ -1,23 +1,25 @@
 ---
 
 layout: collection
+
 title: Cloud Forecasting Insights from Freewheel
+description:
+author: Bharat Chadha
+company: Freewheel, a Comcast Company
+industry:
+cloud-provider:
+tooling-services:
+framework-persona:
+framework-maturity:
+framework-capabilities:
+- capability_forecasting
+framework-projects:
+- project_forecast
+order:
+
 tags:
-- cloud-forecasting
-- forecasting
 - cost-allocation
 - budgets
-persona:
-stage:
-company:
-member-practioner-list:
-- bharat-chadha
-member-vendor-list:
-- vendor-member-name
-framework-domain-list:
-- tracking-and-benchmarking
-- cloud-usage-and-cost
-- cloud-rate-optimization
 
 ---
 *by Bharat Chadha, Freewheel, a Comcast Company*

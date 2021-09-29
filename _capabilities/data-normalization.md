@@ -1,26 +1,21 @@
 ---
 
-title: Commitment Based Discounts
 layout: default
-permalink: /framework/capabilities/fc-commitment-based-discounts
-tags:
-- tag1
-- tag2
-framework-domain-list:
-- domain-name
-- domain-name
-framework-capability-title: Commitment Based Discounts
-framework-capability-desc: A description for this capability.
-member-practioner-list:
-- practitioner_name
-member-vendor-list:
-- vendor_member_name
-order: 1
+
+title: Data Normalization
+description:
+permalink: /framework/capabilities/data-normalization/
+page-identifier: capability_normalization
+framework-capability-title: Data Normalization
+framework-capability-desc:
+order: 11
 
 ---
-# Commitment Based Discounts
+
+# Data Normalization
 
 ---
+
 ## Domains
 _x-ref to the FinOps Domain(s) to which this Capability corresponds_
 
@@ -53,8 +48,8 @@ _the information used that contributes to the measure(s) of success listed above
 
 
 
-## Stories/How-To
-_the objective here is to capture the "How" for this Capability.  a collection of real world examples and/or "how to" for this Capability;_ information here may:
+## Real World Resources
+_a collection of real world examples, stories and “how to” for this Capability; based on FinOps community member experiences; information here may:_
 >* _apply to one or more cloud providers_
 * _include specific types of cloud services used) (compute, storage, database, etc...)_
 * _describe a combination of  tooling, platform or vendor_
@@ -69,6 +64,3 @@ _a list of places where conversations about this Capability are happening.  this
 _for example:_
 >* list slack channel(s)
 * list github repo(s)
-
-
----

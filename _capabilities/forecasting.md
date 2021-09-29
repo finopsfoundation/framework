@@ -1,36 +1,22 @@
 ---
 
-title: Forecasting
 layout: default
-permalink: /framework/capabilities/fc-forecasting
-tags:
-- cloud-forecasting
-- forecasting
-- cost allocation
-- budgets
-framework-domain-list:
-- tracking-and-benchmarking
-- cloud-usage-and-cost
-- cloud-rate-optimization
+
+title: Forecasting | FinOps Framework Capability
+description: Understand forecasting cloud costs - how future cloud infrastructure and application lifecycle changes may impact current budgets and influence budget planning and future cloud investment decisions.
+permalink: /framework/capabilities/forecasting
+page-identifier: capability_forecasting
 framework-capability-title: Forecasting
 framework-capability-desc: This FinOps Capability represents the practice of understanding how future cloud infrastructure and application lifecycle changes may impact current budgets and influence budget planning and future cloud investment decisions.
-member-practioner-list:
-- scott_linn
-- bharat_chadha
-- drew_lowe
-member-vendor-list:
-- vendor_member_name
-order: 1
+order: 5
 
 ---
+
 # Forecasting
 
----
 ## Domains
-[**Performance Tracking & Benchmarking**](/framework/domains/tracking-and-benchmarking/)<br/>
-[**Understanding Cloud Usage and Cost**](/framework/domains/cloud-usage-and-cost/)<br/>
-[**Cloud Rate Optimization**](/framework/domains/cloud-rate-optimization/)
 
+{% include domains-loop.md %}
 
 ## Definition
 Forecasting is the practice of predicting future spending, usually based on a combination of historical spending and an evaluation of future plans. understanding how future cloud infrastructure and application lifecycle changes may impact current budgets and influence budget planning and future cloud investment decisions.
@@ -125,9 +111,9 @@ reliably and accurately, cloud cost forecasting will inform investment and opera
 * Stakeholder real-time visibility into cost and usage reporting data
 
 
+{% include story-loop.md %}
 
-
-## Stories/How-To
+## Real World Resources
 
 |  |  |
 | --: | --- |
@@ -137,6 +123,8 @@ reliably and accurately, cloud cost forecasting will inform investment and opera
 | | |
 | **Hulu Disney** <br/> Industry: Video Streaming/Internet <br/> FinOps Maturity Level: Run <br/> FinOps Member: [**Drew Lowe**](https://www.linkedin.com/in/andrewlowe2/) | [**Cloud Forecasting Insights from Hulu**](https://www.finops.org/stories/cloud-forecasting-insights-hulu/) |
 | | |
+
+
 
 
 

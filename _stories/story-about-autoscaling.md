@@ -1,20 +1,22 @@
 ---
 
 layout: collection
-title: Story about autoscaling
+
+title: Story about Autoscaling
+description:
+author:
+company:
+industry:
+cloud-provider:
+tooling-services:
+framework-persona:
+framework-maturity:
+framework-capabilities:
+framework-projects:
+order: 1
+
 tags:
 - anomaly-detection
-persona:
-stage:
-company:
-member-practioner-list:
-- practitioner-member-name
-member-vendor-list:
-- vendor-member-name
-framework-domain-list:
-- domain-name
-- domain-name
-order: 1
 
 ---
 

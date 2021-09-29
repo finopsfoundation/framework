@@ -1,22 +1,23 @@
 ---
 
 layout: collection
+
 title: One Way to Put it All Together
-tags:
-- shared-costs
-persona:
-stage:
-company:
-member-practioner-list:
-- practitioner-member-name
-member-vendor-list:
-- vendor-member-name
-framework-domain-list:
-- domain-name
-- domain-name
+description:
+author: Chris Greenham
+company: healthAlliance
+industry:
+cloud-provider:
+tooling-services:
+framework-persona:
+framework-maturity:
+framework-capabilities:
+framework-projects:
+- project_shared-costs
 order: 1
 
 ---
+
 *by Chris Greenham, healthAlliance*
 
 Shared Costs should be identified upfront as part of Service Design. Just as the Service Design is subject to design approval, the Shared Cost Model needs approval from FinOps.

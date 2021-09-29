@@ -1,20 +1,21 @@
 ---
 
 layout: collection
+
 title: Avoid and Simplify
-tags:
-- shared-costs
-persona:
-stage:
+description:
+author: Joe Daly
 company:
-member-practioner-list:
-- joseph-daly
-member-vendor-list:
-- vendor-member-name
-framework-domain-list:
-- domain-name
-- domain-name
+industry:
+cloud-provider:
+tooling-services:
+framework-persona:
+framework-maturity:
+framework-capabilities:
+framework-projects:
+- project_shared-costs
 order: 1
+
 
 ---
 *by Joseph Daly, Nationwide*

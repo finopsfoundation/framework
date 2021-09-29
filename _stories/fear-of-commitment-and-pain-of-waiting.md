@@ -1,20 +1,23 @@
 ---
 
 layout: collection
+
 title: Fear of commitment and the pain of waiting
+description:
+author:
+company:
+industry:
+cloud-provider:
+tooling-services:
+framework-persona:
+framework-maturity:
+framework-domains:
+framework-capabilities:
+framework-projects:
+order: 1
+
 tags:
 - commitment-discounts
-persona:
-stage:
-company:
-member-practioner-list:
-- practitioner-member-name
-member-vendor-list:
-- vendor-member-name
-framework-domain-list:
-- domain-name
-- domain-name
-order: 1
 
 ---
 

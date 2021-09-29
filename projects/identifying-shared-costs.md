@@ -1,8 +1,12 @@
 ---
 
 layout: default
+
 title: A Guide to Spreading Out Shared Cloud Costs
 description: As organizations increase their adoption of public cloud resources, it becomes increasingly difficult to assign shared cloud resources to specific business owners.
+page-identifier: project_shared-costs
+project-title: A Guide to Spreading Out Shared Costs
+project-description: As organizations increase their adoption of public cloud resources, it becomes increasingly difficult to assign shared cloud resources to specific business owners.
 
 ---
 
@@ -12,7 +16,7 @@ Every organization has shared IT costs, and these span multiple business departm
 
 ## Table of Contents
 * [Before you begin](#begin)
-* [Relevant FinOps Framwork components](#components)
+<!-- * [Relevant FinOps Framwork components](#components) -->
 * [Why allocated shared costs?](#why-allocate)
 * [Who might care about shared cost allocation?](#who-cares)
 * [How to take on this challenge?](#challenge)
@@ -29,9 +33,9 @@ You’ll also need to have a base level of knowledge of at least one of the thre
 
 You should also have a solid understanding of several things within your company. First, you should know the high-level architecture of the technical systems within your company; be able to identify and understand them, as well as what may be used by more than one team. You should have a foundational understanding of how your Accounting and Finance departments handle IT Operation costs, specifically cloud.  You should be able to identify and understand your products and their usage internally. 
 
-<span id="components"></span>
+<!-- <span id="components"></span> -->
 
-## Relevant FinOps framework components
+<!-- ## Relevant FinOps framework components
 To get the most out of this document, please review the following first:
 * [Tagging and labeling](/framework/capabilities/tagging-labeling/)
 * [Cost allocation](/framework/domains/allocate/)
@@ -43,7 +47,7 @@ To get the most out of this document, please review the following first:
 * [Chargeback and Showback Reporting](/framework/domains/report)
 * ...and more (please feel free to add or correct any links as a contribution to this playbook)
 
-If you have a strong handle on these subjects, continue on to better understand how to approach this challenge.
+If you have a strong handle on these subjects, continue on to better understand how to approach this challenge. -->
 
 ### Shared costs that this document covers
 * Anything related to cloud: Support charges, shared services, etc
@@ -303,7 +307,7 @@ We’ve worked out some milestones that we think make sense at the Crawl, Walk, 
 ## Real World Stories
 Here is a collection of stories from FinOps teams of all shapes, sizes, cloud utilization level, and FinOps maturity. Read on to see how other teams take on the challenge of identifying shared costs at scale.
 
-{% include story-loop.md content='shared-costs' %}
+{% include story-loop.md %}
 
 <span id="acknowledgements"></span>
 

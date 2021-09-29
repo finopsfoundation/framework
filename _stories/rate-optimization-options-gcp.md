@@ -1,21 +1,23 @@
 ---
 
 layout: collection
+
 title: Rate Optimization Options from Google Cloud Platform
+description:
+author: Pathik Sharma
+company: Google Cloud Platform
+industry:
+cloud-provider:
+- Google Cloud Platform
+tooling-services:
+framework-persona:
+framework-maturity:
+framework-capabilities:
+framework-projects:
+order: 1
+
 tags:
 - rate-optimization
-- google-cloud-platform
-persona:
-stage:
-company:
-member-practioner-list:
-- practitioner-member-name
-member-vendor-list:
-- vendor-member-name
-framework-domain-list:
-- domain-name
-- domain-name
-order: 1
 
 ---
 *by Pathik Sharma, Senior Technical Account Manager, Google Cloud Platform*

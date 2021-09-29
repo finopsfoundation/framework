@@ -1,13 +1,17 @@
 ---
 
 layout: default
-tags: cloud-forecasting
+
+title: Accurate Cloud Forecasts
 description: A guide that walks through how finance, operations, and executives build models to forecast cloud spend and allocate budgets to business units.
+page-identifier: project_forecast
+project-title: Accurate Cloud Forecasts
+project-description: A guide that walks through how finance, operations, and executives build models to forecast cloud spend and allocate budgets to business units.
 
 ---
 
 
-# Cloud Forecasting
+# Accurate Cloud Forecasts
 
 ## Abstract
 
@@ -19,19 +23,19 @@ You should understand the basics of how cloud works, specifically you should kno
 
 Depending on the cloud providers your organization is using, you can gain some of this knowledge through training and certifications. Specifically for AWS we recommend the AWS Cloud Practitioner certification, for Google the Google Cloud Platform Fundamentals course, and for Azure, the Azure Fundamentals learning path.
 
-## Relevant FinOps Framework components
+<!-- ## Relevant FinOps Framework components
 To get the most out of this document, please review the following first:
-* [Tagging and labeling](/framework/capabilities/tagging-labeling/)
-* [Cost allocation](/framework/domains/allocate/)
+* [Tagging and labeling](/framework/archive/v0.1/capabilities/tagging-labeling/)
+* [Cost allocation](/framework/archive/v0.1/domains/allocate/)
 * Cost-centric ownership
 * [Implementing FinOps training for engineers](/framework/capabilities/learning/)
-* [Business metrics / KPIs](/framework/archive/kpis/)
+* [Business metrics / KPIs](/framework/archive/v0.1/kpis/)
 * [Building a FinOps culture](/framework/principles/)
-* [Organizational Alignment](/framework/domains/organizational-alignment/)
+* [Organizational Alignment](/framework/archive/v0.1/domains/organizational-alignment/)
 
 If you have a strong handle on these subjects, please continue on to better understand how to approach this challenge.
 
-See also, [Relevant Terms and Concepts](#appendix), now an appendix section to this project.
+See also, [Relevant Terms and Concepts](#appendix), now an appendix section to this project. -->
 
 ## How to address cloud forecasting?
 Fundamentally there is a potential gap between engineers, finance, and procurement where finance has financial reporting responsibilities, and procurement has accounting responsibilities, and both need assistance from engineers and leadership to meet these obligations.
@@ -141,10 +145,7 @@ Are planned cloud workloads that currently do not yet exist in the cloud. Their 
 ## How tools can help with cloud forecasting
 Tools are very helpful when it comes to forecasting because they have sophisticated algorithms to apply to your usage/cost data.
 
-## Real-world stories
-We're still editing our user stories for this project. Hang tight. Thanks to everyone who contributed a story!
-
-{% include story-loop.md content='cloud-forecasting' %}
+{% include story-loop.md %}
 
 ## Acknowledgements
 The FinOps Foundation extends a huge thank you to the members of the Special Interest Group that broke ground on this documentation:

@@ -1,26 +1,20 @@
 ---
 
-title: Manage Shared Cost
 layout: default
-permalink: /framework/capabilities/fc-manage-shared-cost
-tags:
-- tag1
-- tag2
-framework-domain-list:
-- domain-name
-- domain-name
-framework-capability-title: Manage Shared Cost
-framework-capability-desc: A description for this capability.
-member-practioner-list:
-- practitioner_name
-member-vendor-list:
-- vendor_member_name
-order: 1
+
+title: Workload Management & Automation
+description:
+permalink: /framework/capabilities/workload-management-automation/
+page-identifier: capability_workload-automation
+framework-capability-title: Workload Management & Automation
+framework-capability-desc:
+order: 7
 
 ---
-# Manage Shared Cost
 
----
+# Workload Management & Automation
+
+
 ## Domains
 _x-ref to the FinOps Domain(s) to which this Capability corresponds_
 
@@ -53,8 +47,8 @@ _the information used that contributes to the measure(s) of success listed above
 
 
 
-## Stories/How-To
-_the objective here is to capture the "How" for this Capability.  a collection of real world examples and/or "how to" for this Capability;_ information here may:
+## Real World Resources
+_a collection of real world examples, stories and “how to” for this Capability; based on FinOps community member experiences; information here may:_
 >* _apply to one or more cloud providers_
 * _include specific types of cloud services used) (compute, storage, database, etc...)_
 * _describe a combination of  tooling, platform or vendor_
@@ -69,6 +63,3 @@ _a list of places where conversations about this Capability are happening.  this
 _for example:_
 >* list slack channel(s)
 * list github repo(s)
-
-
----

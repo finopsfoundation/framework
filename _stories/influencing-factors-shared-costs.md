@@ -1,22 +1,23 @@
 ---
 
 layout: collection
+
 title: Non-technical/Market/Environmental/Corporate Governance Influencing Factors on How to Track, Process and Share Costs
-tags:
-- shared-costs
-persona:
-stage:
-company:
-member-practioner-list:
-- practitioner-member-name
-member-vendor-list:
-- vendor-member-name
-framework-domain-list:
-- domain-name
-- domain-name
+description:
+author: Neil May
+company: Wish Star
+industry:
+cloud-provider:
+tooling-services:
+framework-persona:
+framework-maturity:
+framework-capabilities:
+framework-projects:
+- project_shared-costs
 order: 1
 
 ---
+
 *by Neil May, FinOps Director, Wish Star*
 
 **Vendor pricing strategies** - complex, ever evolving software and service licensing models from multiple vendors to flow through predictions and usage accounting.
