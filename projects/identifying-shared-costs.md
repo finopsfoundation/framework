@@ -307,7 +307,7 @@ We’ve worked out some milestones that we think make sense at the Crawl, Walk, 
 ## Real World Stories
 Here is a collection of stories from FinOps teams of all shapes, sizes, cloud utilization level, and FinOps maturity. Read on to see how other teams take on the challenge of identifying shared costs at scale.
 
-{% include story-loop.md content='shared-costs' %}
+{% include story-loop.md %}
 
 <span id="acknowledgements"></span>
 
