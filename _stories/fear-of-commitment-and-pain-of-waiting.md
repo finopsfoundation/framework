@@ -1,11 +1,13 @@
 ---
 
-layout: collection
+layout: story
 
 title: Fear of commitment and the pain of waiting
 description:
+story-title: Fear of commitment and the pain of waiting
 author:
 company:
+company-size:
 industry:
 cloud-provider:
 tooling-services:

@@ -1,11 +1,13 @@
 ---
 
-layout: collection
+layout: story
 
 title: Non-technical/Market/Environmental/Corporate Governance Influencing Factors on How to Track, Process and Share Costs
 description:
+story-title: Influencing Factors on How to Track, Process and Share Costs
 author: Neil May
 company: Wish Star
+company-size:
 industry:
 cloud-provider:
 tooling-services:
@@ -17,8 +19,6 @@ framework-projects:
 order: 1
 
 ---
-
-*by Neil May, FinOps Director, Wish Star*
 
 **Vendor pricing strategies** - complex, ever evolving software and service licensing models from multiple vendors to flow through predictions and usage accounting.
 

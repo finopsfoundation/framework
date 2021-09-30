@@ -1,14 +1,16 @@
 ---
 
-layout: collection
+layout: story
 
 title: Rate Optimization Options from Google Cloud Platform
 description:
+story-title: Rate Optimization Options from Google Cloud Platform
 author: Pathik Sharma
 company: Google Cloud Platform
+company-size:
 industry:
 cloud-provider:
-- Google Cloud Platform
+- GCP
 tooling-services:
 framework-persona:
 framework-maturity:
@@ -20,7 +22,6 @@ tags:
 - rate-optimization
 
 ---
-*by Pathik Sharma, Senior Technical Account Manager, Google Cloud Platform*
 
 > “The better optics you have, the more equity you can pinpoint.”
 

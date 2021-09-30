@@ -1,11 +1,13 @@
 ---
 
-layout: collection
+layout: story
 
 title: Fair cost allocation in a shared Platform (as a Service)
 description:
+story-title: Fair cost allocation in a shared Platform (as a Service)
 author: David Sterz
 company: Mindcurv
+company-size:
 industry:
 cloud-provider:
 tooling-services:
@@ -17,7 +19,6 @@ framework-projects:
 order: 1
 
 ---
-*by David Sterz, Solutions Architect and FinOps Lead, Mindcurv*
 
 #### Setup
 * The public cloud mimics the actual organization, departments, teams,products.

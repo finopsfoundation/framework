@@ -1,11 +1,13 @@
 ---
 
-layout: collection
+layout: story
 
 title: Cloud Forecasting Insights from Chevron
 description:
+story-title: Cloud Forecasting Insights from Chevron
 author: Scott Linn
 company: Chevron
+company-size:
 industry: Energy
 cloud-provider:
 tooling-services:
@@ -22,7 +24,6 @@ tags:
 - budgets
 
 ---
-*by Scott Linn, Chevron*     
 
 Scott Linn is a product manager for cloud optimization and modernization at Chevron where he has worked for 23 years and spent the last five and a half in the cloud space. Chevron’s cloud environment currently consists of applications and servers on-premises and in Azure – with the vision to migrate a much as possible to Azure.
 

@@ -1,11 +1,13 @@
 ---
 
-layout: collection
+layout: story
 
 title: Anomaly Detection
 description:
+story-title: Anomaly Detection
 author:
 company:
+company-size:
 industry:
 cloud-provider:
 tooling-services:

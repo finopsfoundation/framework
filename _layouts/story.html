@@ -1,0 +1,13 @@
+---
+
+layout: default
+title: {{ page.title }}
+
+---
+
+
+<h1>{{ page.title }}</h1>
+
+<em>{% if page.author %} by {{ page.author | join: " and " }}{% else %} by a Foundation Member{% endif %}{% if page.company %}, {{ page.company }}{% endif %}</em>
+
+{{ content }}

@@ -1,11 +1,13 @@
 ---
 
-layout: collection
+layout: story
 
 title: Avoid and Simplify
 description:
-author: Joe Daly
-company:
+story-title: Avoid and Simplify
+author: Joseph Daly
+company: Nationwide
+company-size:
 industry:
 cloud-provider:
 tooling-services:
@@ -18,7 +20,6 @@ order: 1
 
 
 ---
-*by Joseph Daly, Nationwide*
 
 Nationwide's strategy to handle shared costs is to avoid them as much as possible. We do this through our account and tagging strategies.  We segment or accounts by department and sometimes by application so that if there are any untaggable expenses are at least identifiable to the account owner. We work with finance to make sure that each account has a default cost center so that 100% of all costs are allocable to the owner.
 

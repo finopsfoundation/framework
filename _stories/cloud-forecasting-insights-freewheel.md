@@ -1,11 +1,13 @@
 ---
 
-layout: collection
+layout: story
 
 title: Cloud Forecasting Insights from Freewheel
 description:
+story-title: Cloud Forecasting Insights from Freewheel
 author: Bharat Chadha
 company: Freewheel, a Comcast Company
+company-size:
 industry:
 cloud-provider:
 tooling-services:
@@ -22,7 +24,6 @@ tags:
 - budgets
 
 ---
-*by Bharat Chadha, Freewheel, a Comcast Company*
 
 Bharat manages IT operations at Freewheel. He is in charge of two teams: one focuses on enterprise applications while the other on vendor management, IT procurement, and FinOps. He has been doing AWS cost management since 2017. This was initially unstructured but is becoming more structured with regards to budgeting.
 

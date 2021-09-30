@@ -1,14 +1,16 @@
 ---
 
-layout: collection
+layout: story
 
 title: Migrating 15 Million Lines of Code from Six Data Centers Worldwide in Six Months
 description:
+story-title: Migrating 15 Million Lines of Code in Six Months
 author: Scott Snell
 company: OpenX
+company-size:
 industry:
 cloud-provider:
-- Google Cloud Platform
+- GCP
 tooling-services:
 framework-persona:
 framework-maturity:
@@ -24,8 +26,6 @@ tags:
 - rate-optimization
 
 ---
-
-*by Scott Snell, Cost Analyst at OpenX*
 
 Our initial challenge: migrating 15 million lines of code from six data centers worldwide in six months. Our team immediately saw a contrast in how to optimize cloud finance and solved this challenge by focusing on building strong governance, cost visibility, and cost optimization policies.
 

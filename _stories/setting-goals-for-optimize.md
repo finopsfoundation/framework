@@ -1,11 +1,13 @@
 ---
 
-layout: collection
+layout: story
 
 title: Setting Goals for Optimize
 description:
+story-title: Setting Goals for Optimize
 author:
 company:
+company-size:
 industry:
 cloud-provider:
 tooling-services:

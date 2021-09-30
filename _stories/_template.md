@@ -6,6 +6,7 @@ title:
 description:
 author:
 company:
+company-size:
 industry:
 cloud-provider:
 tooling-services:

@@ -1,11 +1,13 @@
 ---
 
-layout: collection
+layout: story
 
 title: Story about Autoscaling
 description:
+story-title: Story about Autoscaling
 author:
 company:
+company-size:
 industry:
 cloud-provider:
 tooling-services:
