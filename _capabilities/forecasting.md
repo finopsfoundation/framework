@@ -111,7 +111,7 @@ reliably and accurately, cloud cost forecasting will inform investment and opera
 * Stakeholder real-time visibility into cost and usage reporting data
 
 
-{% include story-loop.md %}
+<!-- {% include story-loop.md %} -->
 
 ## Real World Resources
 
