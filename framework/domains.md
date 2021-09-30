@@ -2,6 +2,9 @@
 
 layout: wide
 
+title: FinOps Domains
+description: FinOps Domains represents a sphere of activity or knowledge. Every organization adopting FinOps will perform activities in all FinOps Domains.
+
 ---
 
 # FinOps Domains
