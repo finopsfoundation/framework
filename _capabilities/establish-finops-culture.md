@@ -2,18 +2,17 @@
 
 layout: default
 
-title: Budget Modeling
+title: Establish FinOps Culture
 description:
-permalink: /framework/capabilities/budget-modeling/
-page-identifier: capability_budget-modeling
-framework-capability-title: Budget Modeling
+permalink: /framework/capabilities/establish-finops-culture
+page-identifier: capability_establish-finops-culture
+framework-capability-title: Establish FinOps Culture
 framework-capability-desc:
-order: 6
+order: 14
 
 ---
 
-# Budget Modeling
-
+# Establish FinOps Culture
 
 ## Domains
 _x-ref to the FinOps Domain(s) to which this Capability corresponds_

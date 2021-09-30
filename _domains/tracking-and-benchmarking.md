@@ -11,6 +11,11 @@ framework-domain-desc: Within this domain, the organization sets and maps its us
 framework-capabilities:
 - capability_forecasting
 - capability_anomalies
+- capability_budget
+- capability_commitment-discounts
+- capability_rightsizing
+- capability_unit-costs
+- capability_measure-efficiency
 order: 2
 
 ---
