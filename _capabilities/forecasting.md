@@ -88,8 +88,6 @@ reliably and accurately, cloud cost forecasting will inform investment and opera
 * ensure successful communication between the FinOps team and Business Units
 
 
-
-
 ## Measure(s) of Success
 * The majority of cloud costs can be categorized and allocated, including shared costs.  According to [the FinOps Community of Practitioners](https://data.finops.org/), comprehensive allocation translates to at least 80% of cloud spend is allocated for a FinOps practice operating at a Crawl maturity level; and 90% for a FinOps practice operating at a Run maturity level
 * Forecast models leverage discount-adjusted, amortized cloud usage data
@@ -97,9 +95,6 @@ reliably and accurately, cloud cost forecasting will inform investment and opera
 * Stakeholder notifications for forecast variance threshold exceeded & risk of budget overspend
 * Forecast frequency that includes intermediate forecasts to update budgets based on business drivers
 * Teams and Business Units are responsible for managing their budgets based on forecast data
-
-
-
 
 
 ## Inputs
@@ -111,7 +106,7 @@ reliably and accurately, cloud cost forecasting will inform investment and opera
 * Stakeholder real-time visibility into cost and usage reporting data
 
 
-<!-- {% include story-loop.md %} -->
+
 
 ## Real World Resources
 
