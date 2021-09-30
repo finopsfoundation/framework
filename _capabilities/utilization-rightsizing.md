@@ -16,8 +16,8 @@ order: 9
 
 
 ## Domains
-_x-ref to the FinOps Domain(s) to which this Capability corresponds_
-
+<!-- _x-ref to the FinOps Domain(s) to which this Capability corresponds_ -->
+{% include domains-loop.md %}
 
 ## Definition
 _definition for this Capability.  the objective here is to capture the "What" (**not** the "How") for this Capability._
