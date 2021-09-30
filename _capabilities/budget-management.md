@@ -2,21 +2,22 @@
 
 layout: default
 
-title: Budget Modeling
+title: Budget Management
 description:
-permalink: /framework/capabilities/budget-modeling/
-page-identifier: capability_budget-modeling
-framework-capability-title: Budget Modeling
+permalink: /framework/capabilities/budget-management/
+page-identifier: capability_budget-management
+framework-capability-title: Budget Management
 framework-capability-desc:
 order: 6
 
 ---
 
-# Budget Modeling
+# Budget Management
 
 
 ## Domains
-_x-ref to the FinOps Domain(s) to which this Capability corresponds_
+<!-- _x-ref to the FinOps Domain(s) to which this Capability corresponds_ -->
+{% include domains-loop.md %}
 
 
 ## Definition

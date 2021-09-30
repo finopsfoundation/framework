@@ -11,6 +11,11 @@ framework-domain-desc: This Domain improves stakeholder enablement by curating d
 framework-capabilities:
 - capability_allocation
 - capability_anomalies
+- capability_budget
+- capability_commitment-discounts
+- capability_rightsizing
+- capability_unit-costs
+- capability_measure-efficiency
 order: 3
 
 ---

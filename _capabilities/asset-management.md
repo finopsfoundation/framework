@@ -8,14 +8,15 @@ permalink: /framework/capabilities/asset-management/
 page-identifier: capability_asset-management
 framework-capability-title: IT Asset Management
 framework-capability-desc:
-order: 14
+order: 15
 
 ---
 
 # IT Asset Management
 
 ## Domains
-_x-ref to the FinOps Domain(s) to which this Capability corresponds_
+<!-- _x-ref to the FinOps Domain(s) to which this Capability corresponds_ -->
+{% include domains-loop.md %}
 
 
 ## Definition

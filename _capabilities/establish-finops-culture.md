@@ -2,18 +2,17 @@
 
 layout: default
 
-title: Manage Shared Cost
+title: Establish FinOps Culture
 description:
-permalink: /framework/capabilities/manage-shared-cloud-cost/
-page-identifier: capability_shared-cost
-framework-capability-title: Manage Shared Cost
+permalink: /framework/capabilities/establish-finops-culture
+page-identifier: capability_establish-finops-culture
+framework-capability-title: Establish FinOps Culture
 framework-capability-desc:
-order: 4
+order: 14
 
 ---
 
-# Manage Shared Cost
-
+# Establish FinOps Culture
 
 ## Domains
 <!-- _x-ref to the FinOps Domain(s) to which this Capability corresponds_ -->
