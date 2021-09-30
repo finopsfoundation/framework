@@ -2,17 +2,18 @@
 
 layout: default
 
-title: IT Asset Management
+title: Budget Management
 description:
-permalink: /framework/capabilities/asset-management/
-page-identifier: capability_asset-management
-framework-capability-title: IT Asset Management
+permalink: /framework/capabilities/budget-management/
+page-identifier: capability_budget-management
+framework-capability-title: Budget Management
 framework-capability-desc:
-order: 15
+order: 6
 
 ---
 
-# IT Asset Management
+# Budget Management
+
 
 ## Domains
 _x-ref to the FinOps Domain(s) to which this Capability corresponds_

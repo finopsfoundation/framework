@@ -13,6 +13,9 @@ framework-capabilities:
 - capability_allocation
 - capability_anomalies
 - capability_shared-cost
+- capability_showback
+- capability_normalization
+- capability_asset-management
 order: 1
 
 ---
