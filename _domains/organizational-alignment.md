@@ -12,6 +12,7 @@ framework-capabilities:
 - capability_chargeback
 - capability_budget-management
 - capability_asset-management
+- capability_establish-finops-culture
 order: 6
 
 ---
