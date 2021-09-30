@@ -15,7 +15,7 @@ order: 3
 # Manage Anomalies
 
 ## Domains
-
+<!-- _x-ref to the FinOps Domain(s) to which this Capability corresponds_ -->
 {% include domains-loop.md %}
 
 
