@@ -70,3 +70,5 @@ _Get involved and contribute to the community by sharing your real world experie
 * _the [FinOps personas](https://www.finops.org/framework/personas/) involved / organizational roles_
 
 _Join the conversation about this Capability in Slack <!-- [insert name and link to Slack channel here] -->. You can submit stories, how-tos and suggest improvements [using one of the options for contributing here](https://www.finops.org/introduction/how-to-contribute/)._
+
+---

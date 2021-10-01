@@ -129,6 +129,7 @@ An important prerequisite to effective cost allocation is the metadata strategy,
 
 
 ## Get Involved
+
 Get involved and contribute to the community by sharing a related story or providing a playbook for how you have implemented cloud cost allocation and metadata best practices in your organization. Your real world story or how-to can be provided in the context of:
 >* one or more cloud providers
 * the types of cloud services used (compute, storage, database, etc...)
