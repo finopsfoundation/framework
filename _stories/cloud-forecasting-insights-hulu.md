@@ -7,13 +7,13 @@ description:
 story-title: Cloud Forecasting Insights from Hulu
 story-date: 2021-06-01
 author: Drew Lowe
-company: Hulu (now a part of Disney)
+company: Hulu Disney
 company-size:
 industry: Media
 cloud-provider:
 tooling-services:
 framework-persona:
-framework-maturity:
+framework-maturity: Run
 framework-capabilities:
 - capability_forecasting
 framework-projects:

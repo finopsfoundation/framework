@@ -14,8 +14,7 @@ order: 12
 
 # Chargeback & IT Finance Integration
 
-## Domains
-<!-- _x-ref to the FinOps Domain(s) to which this Capability corresponds_ -->
+
 {% include domains-loop.md %}
 
 

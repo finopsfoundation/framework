@@ -20,7 +20,7 @@ FinOps Domains are not exclusive to one another or process steps. Multiple Domai
 The Domains are interdependent, and together provide a high level overview of what functional activities are needed to run a FinOps practice. The results of an organization implementing these Domains, will show up in cost and usage reporting, will have an impact on performance, and will allow new opportunities to be identified that can serve as inputs to subsequent iterations through the FinOps Phases.
 
 
-<div class="flex flex-col md:flex-row flex-wrap items-stretch bg-gray-100 p-4 rounded-md">
+<div class="flex flex-col md:flex-row flex-wrap items-stretch bg-gray-200 p-4 rounded-md">
   {% assign sorted_domains = site.domains | sort:"order" %}
 	{% for domain in sorted_domains %}
   <div class="md:w-1/2 flex items-stretch">

@@ -1,6 +1,6 @@
 ---
 
-layout: default
+layout: wide
 
 title: Manage Commitment Based Discounts
 description:
@@ -15,8 +15,6 @@ order: 8
 # Manage Commitment Based Discounts
 
 
-## Domains
-<!-- _x-ref to the FinOps Domain(s) to which this Capability corresponds_ -->
 {% include domains-loop.md %}
 
 

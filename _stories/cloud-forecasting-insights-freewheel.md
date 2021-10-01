@@ -13,7 +13,7 @@ industry: Media
 cloud-provider:
 tooling-services:
 framework-persona:
-framework-maturity:
+framework-maturity: Walk
 framework-capabilities:
 - capability_forecasting
 framework-projects:

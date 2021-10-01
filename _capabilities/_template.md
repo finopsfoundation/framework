@@ -14,8 +14,6 @@ order: 1
 
 # Heading Here
 
-## Domains
-<!-- x-ref to the FinOps Domain(s) to which this Capability corresponds -->
 {% include domains-loop.md %}
 
 

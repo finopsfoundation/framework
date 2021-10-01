@@ -1,6 +1,6 @@
 ---
 
-layout: default
+layout: wide
 
 title: Data Normalization
 description:
@@ -14,10 +14,7 @@ order: 11
 
 # Data Normalization
 
----
 
-## Domains
-<!-- _x-ref to the FinOps Domain(s) to which this Capability corresponds_ -->
 {% include domains-loop.md %}
 
 

@@ -1,6 +1,6 @@
 ---
 
-layout: default
+layout: wide
 
 title: Measure Unit Costs
 description:
@@ -15,8 +15,6 @@ order: 10
 # Unit Economics
 
 
-## Domains
-<!-- _x-ref to the FinOps Domain(s) to which this Capability corresponds_ -->
 {% include domains-loop.md %}
 
 

@@ -1,6 +1,6 @@
 ---
 
-layout: default
+layout: wide
 
 title: IT Asset Management
 description:

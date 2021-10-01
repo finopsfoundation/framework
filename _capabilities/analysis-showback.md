@@ -1,6 +1,6 @@
 ---
 
-layout: default
+layout: wide
 
 title: Data Analysis and Showback
 description:
@@ -15,8 +15,6 @@ order: 2
 # Data Analysis and Showback
 
 
-## Domains
-<!-- _x-ref to the FinOps Domain(s) to which this Capability corresponds_ -->
 {% include domains-loop.md %}
 
 
