@@ -5,10 +5,11 @@ layout: story
 title: Cloud Forecasting Insights from Freewheel
 description:
 story-title: Cloud Forecasting Insights from Freewheel
+story-date: 2021-06-01
 author: Bharat Chadha
 company: Freewheel, a Comcast Company
 company-size:
-industry:
+industry: Media
 cloud-provider:
 tooling-services:
 framework-persona:

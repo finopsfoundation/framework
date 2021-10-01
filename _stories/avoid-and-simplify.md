@@ -2,14 +2,16 @@
 
 layout: story
 
-title: Avoid and Simplify
+title: Avoid and Simplify Shared Costs
 description:
-story-title: Avoid and Simplify
+story-title: Avoid and Simplify Shared Costs
+story-date: 2021-06-01
 author: Joseph Daly
 company: Nationwide
 company-size:
-industry:
+industry: Financial Services
 cloud-provider:
+- AWS
 tooling-services:
 framework-persona:
 framework-maturity:

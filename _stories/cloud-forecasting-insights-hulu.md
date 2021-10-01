@@ -5,10 +5,11 @@ layout: story
 title: Cloud Forecasting Insights from Hulu
 description:
 story-title: Cloud Forecasting Insights from Hulu
+story-date: 2021-06-01
 author: Drew Lowe
 company: Hulu (now a part of Disney)
 company-size:
-industry:
+industry: Media
 cloud-provider:
 tooling-services:
 framework-persona:

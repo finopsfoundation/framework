@@ -5,6 +5,7 @@ layout: story
 title: Non-technical/Market/Environmental/Corporate Governance Influencing Factors on How to Track, Process and Share Costs
 description:
 story-title: Influencing Factors on How to Track, Process and Share Costs
+story-date: 2021-06-01
 author: Neil May
 company: Wish Star
 company-size:

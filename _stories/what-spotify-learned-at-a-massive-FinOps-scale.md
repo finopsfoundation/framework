@@ -5,6 +5,7 @@ layout: story
 title: What Spotify Learned at a Massive FinOps Scale
 description:
 story-title: What Spotify Learned at a Massive FinOps Scale
+story-date:
 author:
 - Scott Meyer
 - Brendan Greenley

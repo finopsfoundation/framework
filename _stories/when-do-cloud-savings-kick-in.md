@@ -5,6 +5,7 @@ layout: story
 title: When Do Cloud Savings Start to Kick in?
 description:
 story-title: When Do Cloud Savings Start to Kick in?
+story-date: 2021-06-01
 author: Peter Shi
 company: Goldiserv
 company-size:

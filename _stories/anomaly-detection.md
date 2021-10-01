@@ -2,17 +2,19 @@
 
 layout: story
 
-title: Anomaly Detection
+title: Anomaly Detection at Scale
 description:
-story-title: Anomaly Detection
+story-title: Anomaly Detection at Scale
+story-date: 2021-06-01
 author:
 company:
 company-size:
-industry:
+industry: Life Sciences
 cloud-provider:
+- AWS
 tooling-services:
 framework-persona:
-framework-maturity:
+framework-maturity: Run
 framework-capabilities:
 framework-projects:
 

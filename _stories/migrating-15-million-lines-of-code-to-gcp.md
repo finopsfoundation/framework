@@ -5,6 +5,7 @@ layout: story
 title: Migrating 15 Million Lines of Code from Six Data Centers Worldwide in Six Months
 description:
 story-title: Migrating 15 Million Lines of Code in Six Months
+story-date: 2021-06-01
 author: Scott Snell
 company: OpenX
 company-size:

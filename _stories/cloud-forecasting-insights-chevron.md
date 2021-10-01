@@ -5,11 +5,13 @@ layout: story
 title: Cloud Forecasting Insights from Chevron
 description:
 story-title: Cloud Forecasting Insights from Chevron
+story-date: 2021-06-01
 author: Scott Linn
 company: Chevron
 company-size:
 industry: Energy
 cloud-provider:
+- Azure
 tooling-services:
 framework-persona:
 framework-maturity: Run

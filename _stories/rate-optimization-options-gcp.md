@@ -5,6 +5,7 @@ layout: story
 title: Rate Optimization Options from Google Cloud Platform
 description:
 story-title: Rate Optimization Options from Google Cloud Platform
+story-date: 2021-06-01
 author: Pathik Sharma
 company: Google Cloud Platform
 company-size:
