@@ -1,6 +1,6 @@
 ---
 
-layout: default
+layout: wide
 
 title: Organizational Alignment FinOps Domain
 description: Within this domain, the organization acts and automates to manage cloud use within the context of other IT Finance activities, and integrates FinOps capabilities with existing organizational processes, organizational units, and technology.
@@ -25,11 +25,9 @@ This Domain contains the capabilities we’ll use to continuously improve, to ch
 
 At its core, this Domain answers the question: What changes can I make within my organization to use cloud more effectively?
 
-## FinOps Capabilities
 
 {% include capabilities-loop.md %}
 
-Reference of Capabilities coming soon.
 
 ## FinOps Platforms & Service Providers
 

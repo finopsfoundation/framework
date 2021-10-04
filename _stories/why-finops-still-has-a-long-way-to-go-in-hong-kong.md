@@ -1,13 +1,19 @@
 ---
 
-layout: collection
+layout: story
 
 title: Why FinOps Still Has a Long Way to Go in Hong Kong
 description:
+story-title: Why FinOps Still Has a Long Way to Go in Hong Kong
+story-date: 2021-06-01
 author: Steve Schechter
 company: Velocity Technology
+company-size:
 industry:
 cloud-provider:
+- AWS
+- Azure
+- GCP
 tooling-services:
 framework-persona:
 framework-maturity:
@@ -19,8 +25,6 @@ tags:
 - organizational-alignment
 
 ---
-
-*by Steve Schechter, Director of Cloud Services, at Velocity Technology*
 
 As cloud adoption accelerates around the world, FinOps is increasingly recognized as a critical component of successful cloud management. The Asia Pacific region remains a slightly different story; locally based companies have traditionally been more conservative in adoption of new technologies, often lagging several years behind their western counterparts, and that’s as true with cloud as it was with everything that came before.
 

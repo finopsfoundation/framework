@@ -1,6 +1,6 @@
 ---
 
-layout: default
+layout: wide
 
 title: Resource Utilization & Rightsizing
 description:
@@ -15,8 +15,6 @@ order: 9
 # Resource Utilization & Rightsizing
 
 
-## Domains
-<!-- _x-ref to the FinOps Domain(s) to which this Capability corresponds_ -->
 {% include domains-loop.md %}
 
 ## Definition

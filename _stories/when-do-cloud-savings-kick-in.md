@@ -1,11 +1,14 @@
 ---
 
-layout: collection
+layout: story
 
 title: When Do Cloud Savings Start to Kick in?
 description:
+story-title: When Do Cloud Savings Start to Kick in?
+story-date: 2021-06-01
 author: Peter Shi
 company: Goldiserv
+company-size:
 industry:
 cloud-provider:
 tooling-services:
@@ -22,7 +25,6 @@ tags:
 - organizational-alignment
 
 ---
-*by [Peter Shi](https://www.linkedin.com/in/petershicloud/), Founder of Goldiserv*
 
 When asking a room of IT and Finance professionals who use the cloud: “Is cloud cheaper than on-prem self-managed IT?” Typically, half the room responds “yes, cloud is cheaper” and the other half “no, cloud is more expensive”.
 

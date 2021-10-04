@@ -1,0 +1,23 @@
+---
+
+layout: default
+title: {{ page.title }}
+
+---
+
+
+<h1>{{ page.title }}</h1>
+
+{% if page.cloud-provider %}
+<div class="my-4">
+  {% for cloud in page.cloud-provider %}
+    <div class="bg-gray-200 rounded-lg text-sm font-semibold text-gray-700 tracking-wider uppercase inline-block px-2 py-px">{{ cloud }}</div>
+  {% endfor %}
+</div>
+{% endif %}
+
+<em>{% if page.author %} by {{ page.author | join: " and " }}{% else %} by a Foundation Member{% endif %}{% if page.company %}, {{ page.company }}{% endif %}</em>
+
+
+
+{{ content }}

@@ -1,6 +1,6 @@
 ---
 
-layout: default
+layout: wide
 
 title: Performance Tracking & Benchmarking FinOps Domain
 description: Within this domain, the organization sets and maps its usage and cost to budgets, uses historical information to forecast, and establishes and measures KPIs and other performance indicators, including benchmarking.
@@ -28,11 +28,9 @@ This Domain entails the capabilities that look at our past and current spend, se
 
 At its core, this Domain answers the question: Does what we’re using/spending allow us to achieve our strategic and organizational objectives?
 
-## FinOps Capabilities
 
 {% include capabilities-loop.md %}
 
-Reference of more Capabilities coming soon.
 
 ## FinOps Platforms & Service Providers
 

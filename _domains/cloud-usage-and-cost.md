@@ -1,6 +1,6 @@
 ---
 
-layout: default
+layout: wide
 
 title: Understanding Cloud Usage and Cost FinOps Domain
 description: Within this Domain, the organization will work to gather all required information about its cloud usage and cost, normalize it, make it available for review, including circulating it to those personas that will use it in other Domains.
@@ -30,11 +30,9 @@ This Domain enables an organization to understand what cloud services it’s usi
 
 At its core, this Domain answers the question: What are we spending on cloud and what are we using?
 
-## FinOps Capabilities
 
 {% include capabilities-loop.md %}
 
-Reference of more Capabilities coming soon.
 
 ## FinOps Platforms & Service Providers
 

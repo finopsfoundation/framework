@@ -1,6 +1,6 @@
 ---
 
-layout: default
+layout: wide
 
 title: Cost Allocation (Metadata & Hierarchy)
 description:
@@ -14,9 +14,6 @@ order: 1
 
 # Cost Allocation (Metadata & Hierarchy)
 
-
-## Domains
-<!-- _x-ref to the FinOps Domain(s) to which this Capability corresponds_ -->
 {% include domains-loop.md %}
 
 

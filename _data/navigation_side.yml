@@ -34,9 +34,10 @@
     url: /training-certification/
   - name: Events
   - name: FinOps Book
-  - name: Vendor Members
-    url: /members/
-  - name: Blogs and Articles
-    url: /resources/finops-links/
+  - name: Member Stories
+    url: /resources/stories/
   - name: FinOps Terminology
     url: /resources/Terminology
+  - name: Vendor Members
+    url: /members/
+

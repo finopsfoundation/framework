@@ -1,6 +1,6 @@
 ---
 
-layout: default
+layout: wide
 
 title: Cloud Rate Optimization FinOps Domain
 description: Within this domain, the organization works to define its pricing model goals, uses historical data to make pricing model adjustments by buying commitment based discounts, and works to manage the pricing aspects of services it is using in the cloud.
@@ -24,11 +24,7 @@ The Rate Optimization domain will contain the specialized capabilities to improv
 At its core, this domain answers the question: How can we change what we’re paying and how we’re buying what we use in the cloud to achieve better price performance?
 
 
-## FinOps Capabilities
-
 {% include capabilities-loop.md %}
-
-Reference of more Capabilities coming soon.
 
 
 ## FinOps Platforms & Service Providers

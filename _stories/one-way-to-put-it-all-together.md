@@ -1,11 +1,14 @@
 ---
 
-layout: collection
+layout: story
 
 title: One Way to Put it All Together
 description:
+story-title: One Way to Put it All Together
+story-date: 2021-06-01
 author: Chris Greenham
 company: healthAlliance
+company-size:
 industry:
 cloud-provider:
 tooling-services:
@@ -17,8 +20,6 @@ framework-projects:
 order: 1
 
 ---
-
-*by Chris Greenham, healthAlliance*
 
 Shared Costs should be identified upfront as part of Service Design. Just as the Service Design is subject to design approval, the Shared Cost Model needs approval from FinOps.
 
@@ -53,17 +54,3 @@ The Charge Code CI remains against the Implementation, for the duration of life 
 The above Charge Code Item attributes are then changed as required over the lifetime of the Implementation. Charge Control (RFC) is the mechanism used to request and authorise the change actions.  Charge config attributes change as the Product Instance moves between Project CapEx (Non-Prod) and BAU (Prod) OpEx. The Owner's/Roles, Budgets, Shared Amounts are some of the attributes that will change over the lifetime of the implementation. The RFC provides an audit trail on the financial transactions to meet Account and Audit compliance requirements.  
 
 The above process supports hybrid cloud that employs an aggregation model. The build process includes a financial modelling scenario that identifies how the cost allocation is to be configured before deployment. A showback report can be provided with dummy charge data to validate the shared charge model is applied as expected. The Project/Business owner is then required to accept responsibility for the receipt of charges as identified for shared costs, for the agreed charge period that is to be tracked against an agreed monthly spend budget….’Responsible Cloud Spending’.
-
-### How to Allocate Meter Charges by Type
-*Tom Foegen, Section Head - IT Business Services, Mayo Clinic*
-
-To date, Mayo Clinic is allocating all meter charges to projects. Charges are broken down a few ways:
-* General costs - These are costs that apply to all projects. An example would be security logging costs.  These costs are applied proportionately to the charges.
-* Service costs - Projects are broken down into various service categories such as web app stack, IaaS, data science virtual machine, etc. There are some costs that apply only to each service and those costs for a particular service are allocated only to the costs for that service. An example would be training instances. These are set up to teach customers how to use the tools.
-* Reserved instances - Reserved instance costs (Azure) are directly allocated to each project based on using the meter categories in the billing export for reserved instances.
-
-These costs are applied at a detailed row level within the billing export data in order to be able to rollup up the costs multiple ways. The customer only sees the cost after the costs are allocated. To date, we have not been challenged from anyone on those costs.
-
-Currently we apply these costs at the end of the month but since customers are now starting to receive regular reports (daily, weekly and monthly) we are going to start to apply the overhead costs on a daily basis as charges come in.  The challenge is that the projects need to be defined upfront in order to determine what service category they apply too.
-
-The alternative discussed recently is to use a standard percentage to apply the categories and then true up these costs on a regular basis, maybe quarterly.
