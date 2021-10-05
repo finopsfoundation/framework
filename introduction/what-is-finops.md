@@ -16,9 +16,11 @@ FinOps is shorthand for "Cloud Financial Operations" or "Cloud Financial Managem
 
 At its core, FinOps is a cultural practice. It’s the way for teams to manage their cloud costs, where everyone takes ownership of their cloud usage supported by a central best-practices group. Cross-functional teams in IT, Finance, Product, etc work together to enable faster product delivery, while at the same time gaining more financial control and predictability.
 
-![image](/img/resources/finops-poster.png)
 
-[Download the PDF](/img//resources/FinOps Poster_310821.pdf){:target="_blank"}
+[![FinOps Poster](/img/resources/finops-poster.png)](/img//resources/FinOps Poster_010821.pdf){:target="_blank"}
+
+
+[Download the PDF](/img//resources/FinOps Poster_010821.pdf){:target="_blank"}
 
 No longer is a siloed procurement team identifying costs and signing off on them. Instead, a cross-functional FinOps team adopts a definitive series of procurement best practices, enabling them to pull together technology, business, and finance in order to optimize cloud vendor management, rate, and discounting. With FinOps, each operational team (workload, service, product owner) can access the near-real-time data they need to influence their spend and help them make intelligent decisions that ultimately result in efficient cloud costs balanced against the speed/performance and quality/availability of services.
 
