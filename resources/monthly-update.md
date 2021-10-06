@@ -2,11 +2,100 @@
 
 layout: default
 title: FinOps Monthly Updates
-description: See the latest updates from the previous and upcoming monthly member calls.
+description: See the latest updates from the previous and upcoming monthly FinOps Summits.
 
 ---
 
+
 # FinOps Monthly Updates
+
+## October FinOps Summit
+
+<div class="videoWrapper mb-10">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/O2Apwm3pMnE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<div class="bg-gray-200 rounded-lg px-6 py-4 text-center">
+  <p><a href="/membership/" data-ga-category="links" data-ga-action="internal link clicks" data-ga-label="membership - monthly update">Become a FinOps Foundation member</a> to join the next monthly FinOps summit.</p>
+</div>
+
+Join us on October 21st at 8am-10am (PT) for th next FinOps Summit with another exciting lineup.
+
+### Keynotes:
+### 8 Years of FinOps practice journey
+Jason Fuller (Head of Infrastructure at HERE Technologies, AWS Customer Advisory Board Member, and FinOps Foundation founding board member) tells his story of building 3 cloud financial management practices at 3 large enterprises over nearly a decade. Hear what has changed and what's stayed constant in the space.
+
+### Waste Reduction Index
+A group of big cloud spenders from GLG, Telus, Dell Boomi have been collaborating with cost optimization leaders from AWS, Google, SADA, and Virtasant come together to curate a story-based, cross-cloud list of waste cutting ideas by service. Hear their stories and compare against your list of opportunities. Also check out the slack channel [#wg-reducing-waste](https://finopsfoundation.slack.com/archives/C029SCMA50B) on this topic.
+
+### Adopting FinOps Executive Deck
+A large working group of FinOps leaders from Pearson, Cigna, Citi, Target has been working with thought leaders from over a dozen consulting/platform (Accenture, Deloitte, McKinsey, Flexera, Thebes, Cloudzero, Contino, and more) to build a customizable FinOps pitch deck that can used to speak to a variety of executives with a variety of different drivers which can be customized for your business, and a roadmap which is customized based on RACI within each team. Also check out slack channel [#wg-adopting-finops](https://finopsfoundation.slack.com/archives/CMZG5KZ8Q) on this topic.
+
+### Multi-Cloud Working Group
+Kinjal Tanna & Pathik Sharma from Google Cloud share a first look at some of Google's new FinOps & cost pillar updates connected to resources in the FinOps Framework.
+
+### Event Schedule:
+- 7:30am - Zoom opens for Networking, Icebreakers and Music
+- 8am - Welcome and Introductions
+- 8:15am - 9:30am Keynotes & Panels
+- 9:30am - 10am Breakouts
+- 10am - 10:30am Open Office Hours with FinOps Staff
+
+### Speakers (more coming soon)
+
+<div>
+  <div class="inline-block mr-6 m:w-1/2 text-center align-top mb-6">
+    <a href="https://www.linkedin.com/in/jasonbfuller/">
+      <img src="/img/updates/oct/jfuller.jpg" class="rounded-full" width="175">
+    </a>
+    <a href="https://www.linkedin.com/in/jasonbfuller/" class="block mt-2">Jason Fuller <br/>(Here Technologies)</a>
+  </div>
+
+  <div class="inline-block mr-6 m:w-1/2 text-center align-top mb-6">
+    <a href="https://www.linkedin.com/in/joseph-daly-52789220/">
+      <img src="/img/updates/oct/jdaly.jpg?2" class="rounded-full" width="175">
+    </a>
+    <a href="https://www.linkedin.com/in/joseph-daly-52789220/" class="block mt-2">Joe Daly <br/>(Nationwide)</a>
+  </div>
+
+  <div class="inline-block mr-6 m:w-1/2 text-center align-top mb-6">
+    <a href="https://www.linkedin.com/in/ashley-hromatko-1b532613">
+      <img src="/img/updates/aug/ashley.jpg" class="rounded-full" width="175">
+    </a>
+    <a href="https://www.linkedin.com/in/ashley-hromatko-1b532613" class="block mt-2">Ashley Hromatko <br/>(Pearson)</a>
+  </div>
+
+  <div class="inline-block mr-6 m:w-1/2 text-center align-top mb-6">
+    <a href="https://www.linkedin.com/in/kinjaltanna/">
+      <img src="/img/updates/oct/ktanna.jpg" class="rounded-full" width="175">
+    </a>
+    <a href="https://www.linkedin.com/in/kinjaltanna/" class="block mt-2">Kinjal Tanna <br/>(Google Cloud)</a>
+  </div>
+
+  <div class="inline-block mr-6 m:w-1/2 text-center align-top mb-6">
+    <a href="https://www.linkedin.com/in/pathikvsharma/">
+      <img src="/img/updates/oct/psharma.jpg" class="rounded-full" width="175">
+    </a>
+    <a href="https://www.linkedin.com/in/pathikvsharma/" class="block mt-2">Pathik Sharma <br/>(Google Cloud)</a>
+  </div>
+
+  <div class="inline-block mr-6 m:w-1/2 text-center align-top mb-6">
+    <a href="https://www.linkedin.com/in/eugenekhvostov/">
+      <img src="/img/updates/oct/ekhvostov.jpg" class="rounded-full" width="175">
+    </a>
+    <a href="https://www.linkedin.com/in/eugenekhvostov/" class="block mt-2">Eugene Khvostov<br/>(Apptio Cloudability)</a>
+  </div>
+
+  <div class="inline-block mr-6 m:w-1/2 text-center align-top mb-6">
+    <a href="https://www.linkedin.com/in/jrstorment">
+      <img src="/img/updates/aug/jr.jpg" class="rounded-full" width="175">
+    </a>
+    <a href="https://www.linkedin.com/in/jrstorment" class="block mt-2">J.R. Storment <br/>(FinOps Foundation)</a>
+  </div>
+</div>
+
+---
+
 
 ## August FinOps Summit: International FinOps Day
 
@@ -45,89 +134,6 @@ The event is free to approved FinOps Foundation members - [join here!](https://w
 When we joined the Linux Foundation last summer and held the first FinOps Day on Aug 20, 2020, we had around 1500 practitioner members and no vendor members. Today we are proud to host the over 4100 practitioner members and 40 vendor members with a half dozen active workgroups contributing to the FinOps Framework.
 
 **To celebrate, we are offering 25% off all self-paced training** ([FinOps Certified Practitioner](/training-certification/finops-certified-practitioner/) and [FinOps for Engineers](https://www.eventbrite.com/e/finops-for-engineers-training-self-paced-course-tickets-149961353445)), simply watch the Summit to get the discount code and use it through Aug 20.
-
-
-### Speakers
-
-<div>
-  <div class="inline-block mr-6 m:w-1/2 text-center align-top mb-6">
-    <a href="https://www.linkedin.com/in/andershagman/">
-      <img src="/img/updates/aug/anders.jpg" class="rounded-full" width="175">
-    </a>
-    <a href="https://www.linkedin.com/in/andershagman/" class="block mt-2">Anders Hagman <br/>(Spotify)</a>
-  </div>
-
-  <div class="inline-block mr-6 m:w-1/2 text-center align-top mb-6">
-    <a href="https://www.linkedin.com/in/teresa-meade-0369831b/">
-      <img src="/img/updates/aug/teresa.jpg?2" class="rounded-full" width="175">
-    </a>
-    <a href="https://www.linkedin.com/in/teresa-meade-0369831b/" class="block mt-2">Teresa Meade <br/>(Electronic Arts)</a>
-  </div>
-
-  <div class="inline-block mr-6 m:w-1/2 text-center align-top mb-6">
-    <a href="https://www.linkedin.com/in/ashley-hromatko-1b532613">
-      <img src="/img/updates/aug/ashley.jpg" class="rounded-full" width="175">
-    </a>
-    <a href="https://www.linkedin.com/in/ashley-hromatko-1b532613" class="block mt-2">Ashley Hromatko <br/>(Pearson)</a>
-  </div>
-
-  <div class="inline-block mr-6 m:w-1/2 text-center align-top mb-6">
-    <a href="https://www.linkedin.com/in/natalie-daley-6b063239/">
-      <img src="/img/updates/aug/natalie.png" class="rounded-full" width="175">
-    </a>
-    <a href="https://www.linkedin.com/in/natalie-daley-6b063239/" class="block mt-2">Natalie Daley <br/>(HSBC)</a>
-  </div>
-
-  <div class="inline-block mr-6 m:w-1/2 text-center align-top mb-6">
-    <a href="https://www.linkedin.com/in/melvinbrownii/">
-      <img src="/img/updates/aug/melvin.jpg" class="rounded-full" width="175">
-    </a>
-    <a href="https://www.linkedin.com/in/melvinbrownii/" class="block mt-2">Melvin Brown <br/>(US Gov OPM)</a>
-  </div>
-
-  <div class="inline-block mr-6 m:w-1/2 text-center align-top mb-6">
-    <a href="https://www.linkedin.com/in/andrew-britton-57a5385a/">
-      <img src="/img/updates/aug/andrew.jpg" class="rounded-full" width="175">
-    </a>
-    <a href="https://www.linkedin.com/in/andrew-britton-57a5385a/" class="block mt-2">Andrew Britton <br/>(Citrix)</a>
-  </div>
-
-  <div class="inline-block mr-6 m:w-1/2 text-center align-top mb-6">
-    <a href="https://www.linkedin.com/in/skmeyer/">
-      <img src="/img/updates/aug/scott.jpg" class="rounded-full" width="175">
-    </a>
-    <a href="https://www.linkedin.com/in/skmeyer/" class="block mt-2">Scott Meyer <br/>(Spotify)</a>
-  </div>
-
-
-   <div class="inline-block mr-6 m:w-1/2 text-center align-top mb-6">
-    <a href="https://www.linkedin.com/in/mikeeisenstein/">
-      <img src="/img/updates/aug/mike.jpg" class="rounded-full" width="175">
-    </a>
-    <a href="https://www.linkedin.com/in/mikeeisenstein/" class="block mt-2">Mike Eisenstein <br/>(Accenture)</a>
-  </div>
-
-  <div class="inline-block mr-6 m:w-1/2 text-center align-top mb-6">
-    <a href="https://www.linkedin.com/in/melissalorton/">
-      <img src="/img/updates/aug/melissa.jpg" class="rounded-full" width="175">
-    </a>
-    <a href="https://www.linkedin.com/in/melissalorton/" class="block mt-2">Melissa D. Lorton <br/>(Virtasant)</a>
-  </div>
-
-  <div class="inline-block mr-6 m:w-1/2 text-center align-top mb-6">
-    <a href="https://www.linkedin.com/in/michaelpkearns/">
-      <img src="/img/updates/aug/michael.jpg" class="rounded-full" width="175">
-    </a>
-    <a href="https://www.linkedin.com/in/michaelpkearns/" class="block mt-2">Michael Kearns <br/>(Virtasant)</a>
-  </div>
-
-  <div class="inline-block mr-6 m:w-1/2 text-center align-top mb-6">
-    <a href="https://www.linkedin.com/in/jrstorment">
-      <img src="/img/updates/aug/jr.jpg" class="rounded-full" width="175">
-    </a>
-    <a href="https://www.linkedin.com/in/jrstorment" class="block mt-2">J.R. Storment <br/>(FinOps Foundation)</a>
-  </div>
-</div>
 
 
 ---
