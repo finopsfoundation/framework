@@ -73,11 +73,6 @@ The data ingestion and normalization challenge grows as the complexity and diver
 * Ensure Finance is using the most up to date and appropriate data sources for reporting and decision making
 * Participate in or lead reconciliation and validation efforts to ensure invoices, usage data sources and other information map together as expected (typically monthly invoice reconciliation against usage data, and/or native cloud service provider tool data versus normalized data)
 
-#### As someone in a Finance/Procurement role, I will…
-* Provide access to data sources as required by the FinOps function
-* Ensure Finance is using the most up to date and appropriate data sources for reporting and decision making
-* Participate in or lead reconciliation and validation efforts to ensure invoices, usage data sources and other information map together as expected (typically monthly invoice reconciliation against usage data, and/or native cloud service provider tool data versus normalized data)
-
 #### As someone in an Engineering/Operations role, I will...
 * Provide access to performance and usage monitoring information within the purview of Engineering for use by the FinOps data repository
 
