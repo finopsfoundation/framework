@@ -8,3 +8,23 @@
     We have a script that scans for unattached EBS volumes each night. The night the volume is found it is tagged with that days date. After a certain amount of days, depending on the environment, a snapshot will be taken (if in prod) and the volume will be deleted. - Default to Opt In to cleanup. You have to purposefully opt out (Noel's story)
   info-url: https://aws.amazon.com/blogs/mt/controlling-your-aws-costs-by-deleting-unused-amazon-ebs-volumes/
   code-url: 
+
+- cloud-service: aws
+  cloud-product: Storage
+  cloud-service-name: EBS - Abandoned Volumes
+  type: waste
+  savings-potential: $$-$$$
+  description: |-
+    We have a script that scans for unattached EBS volumes each night. The night the volume is found it is tagged with that days date. After a certain amount of days, depending on the environment, a snapshot will be taken (if in prod) and the volume will be deleted. - Default to Opt In to cleanup. You have to purposefully opt out (Noel's story)
+  info-url: https://aws.amazon.com/blogs/mt/controlling-your-aws-costs-by-deleting-unused-amazon-ebs-volumes/
+  code-url: 
+
+- cloud-service: aws
+  cloud-product: Storage
+  cloud-service-name: EBS - Abandoned Volumes
+  type: waste
+  savings-potential: $$-$$$
+  description: |-
+    We have a script that scans for unattached EBS volumes each night. The night the volume is found it is tagged with that days date. After a certain amount of days, depending on the environment, a snapshot will be taken (if in prod) and the volume will be deleted. - Default to Opt In to cleanup. You have to purposefully opt out (Noel's story)
+  info-url: https://aws.amazon.com/blogs/mt/controlling-your-aws-costs-by-deleting-unused-amazon-ebs-volumes/
+  code-url: 
