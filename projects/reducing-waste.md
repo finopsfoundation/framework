@@ -14,12 +14,13 @@ project-description: A collection of resources to help identify types of cloud c
 
 <h2>AWS</h2>
 
-<div class="flex flex-wrap items-stretch mt-6 mb-10">
+<div class="flex flex-col md:flex-row flex-wrap items-stretch">
 {% for waste-card in site.data.reducing-waste %}
-<div class="md:w-1/3 p-3 flex items-stretch">
-<div data-url="{{ waste-card.url }}" class="w-full bg-gray-100 rounded-lg px-6 py-8 border-solid border-gray-100 border hover:border-green-500 transition-colors duration-200 shadow-sm cursor-pointer">
-<h3 class="my-4 mt-0 text-lg font-normal text-gray-900 tracking-tight">{{ waste-card.cloud-product }}</h3>
-<h4 class="my-4 mt-0 text-lg font-normal text-gray-900 tracking-tight">{{ waste-card.cloud-service-name }}</h3>
+<div class="md:w-1/2 p-3 flex items-stretch">
+<div class="w-full bg-gray-100 rounded-lg px-6 py-8 border-solid border-gray-100 border hover:border-green-500 transition-colors duration-200 shadow-sm cursor-pointer">
+<h3 class="my-4 mt-0 text-lg font-normal text-gray-900 tracking-tight"> {{ waste-card.cloud-product }} </h3>
+<h4 class="my-4 mt-0 text-lg font-normal text-gray-900 tracking-tight"> {{ waste-card.cloud-service-name }} </h4>
+
 <p>{{ waste-card.type }}</p>
 <p>{{ waste-card.savings-potential }}</p>
 <p>{{ waste-card.description }}</p>
