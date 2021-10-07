@@ -1,6 +1,6 @@
 ---
 
-layout: default
+layout: wide
 
 title: Reducing Waste
 description: A collection of resources to help identify types of cloud cost waste by service provider, including links to additional tools.
