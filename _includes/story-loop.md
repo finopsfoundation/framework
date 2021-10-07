@@ -5,14 +5,14 @@
 <!-- Loop over all stories -->
 {% for story in sorted_stories %}
 {% if forloop.first == true %}
-  <h2>Related Real World Resources</h2>
+  <h2>Real World Resources</h2>
 {% endif %}
 <!-- Specific to capability page -->
 {% if page.page-identifier contains 'capability' %}
 {% for tag in story.framework-capabilities %}
 {% if tag == page.page-identifier %}
 {% assign is_stories = true %}
-<div class="bg-gray-100 p-4 rounded-md my-8"> 
+<div class="bg-gray-100 p-4 rounded-md my-8">
   <h3 class="mt-2 mb-4">{{ story.title }}</h3>
   <div class="my-4">
   {% if story.cloud-provider %}
@@ -36,7 +36,7 @@
 {% for tag in story.framework-projects %}
 {% if tag == page.page-identifier %}
 {% assign is_stories = true %}
-<div class="bg-gray-100 p-4 rounded-md my-8"> 
+<div class="bg-gray-100 p-4 rounded-md my-8">
   <h3 class="mt-2 mb-4">{{ story.title }}</h3>
   <div class="my-4">
   {% if story.cloud-provider %}
@@ -47,7 +47,7 @@
   {% if story.industry %}
     <div class="bg-gray-200 rounded-lg text-sm font-semibold text-gray-700 tracking-wider uppercase inline-block px-2 py-px mr-2">Industry: {{ story.industry }}</div>
   {% endif %}
-  {% if story.framework-maturity %} 
+  {% if story.framework-maturity %}
     <div class="bg-gray-200 rounded-lg text-sm font-semibold text-gray-700 tracking-wider uppercase inline-block px-2 py-px mr-2">Maturity: {{ story.framework-maturity }}</div>
   {% endif %}
   </div>
