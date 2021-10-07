@@ -21,7 +21,7 @@ Forecasting is the practice of predicting future spending, usually based on a co
 
 This capability also involves collaboration between stakeholder teams like Finance, Engineering, and Executives to build agreed upon forecast models and KPIs from which to establish budgets that align with business goals.
 
-Accurate financial forecasting depends on an organization's other FinOps Capabilities also being robust in order to provide accurate data as input.  For example, a foundational element of this capability is the capability to fully categorize and allocate cloud costs.
+Accurate financial forecasting depends on an organization's other [FinOps Capabilities](https://www.finops.org/framework/capabilities/) also being robust in order to provide accurate data as input.  For example, a foundational element of this capability is the ability to fully categorize and allocate cloud costs.
 
 When Finance, Engineering, and Executives build models to forecast cloud spend
 reliably and accurately, cloud cost forecasting will inform investment and operational decisions to accelerate an organization's growth.
