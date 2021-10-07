@@ -25,7 +25,10 @@ project-description: A collection of resources to help identify types of cloud c
 <p>{{ waste-card.type }}</p>
 <p>{{ waste-card.savings-potential }}</p>
 <p>{{ waste-card.description }}</p>
+{% if waste-card.info-url %}
 <a class="inline-flex justify-center py-2 px-2 border shadow-sm text-sm font-medium rounded-sm text-white bg-green-500 font-normal leading-none" href="{{ waste-card.info-url }}">More info</a>
+{% else %}
+{% endif %}
 {% if waste-card.code-url %}
 <a class="inline-flex justify-center py-2 px-2 border shadow-sm text-sm font-medium rounded-sm text-white bg-green-500 font-normal leading-none" href="{{ waste-card.code-url }}">Code example</a>
 {% else %}
@@ -107,3 +110,24 @@ project-description: A collection of resources to help identify types of cloud c
 {% endif %}
 {% endfor %}
 </div>
+
+## Thank you to all of our Project contributors
+We're grateful for all of the work, time, and effort from the following FinOps practitioners:
+
+* Joe Daly
+* Noel Crowley
+* Mike Martin
+* Bhups Hirani
+* Eric Mulartrick
+* Dennis Chang
+* Pete Silva
+* Andy Foley
+* AJ Bothe
+* Steph Gooch
+* Noah Abrahams
+* Scott Lapish
+* Rich Hoyer
+
+### Get involved
+
+If you'd like to add a waste or efficiency card, please feel free to suggest a contribution to this page using the link below or above.

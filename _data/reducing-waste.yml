@@ -10,27 +10,54 @@
 
 - cloud-service: aws
   cloud-product: Storage
-  cloud-service-name: EBS - Abandoned Volumes
+  cloud-service-name: S3 - Multipart Uploads
   type: waste
-  savings-potential: $$-$$$
-  description: We have a script that scans for unattached EBS volumes each night. The night the volume is found it is tagged with that days date. After a certain amount of days, depending on the environment, a snapshot will be taken (if in prod) and the volume will be deleted. - Default to Opt In to cleanup. You have to purposefully opt out (Noel's story)
-  info-url: https://aws.amazon.com/blogs/mt/controlling-your-aws-costs-by-deleting-unused-amazon-ebs-volumes/
+  savings-potential: $-$$
+  description: AWS Storage Lens or your dedicated Technical Account Manager can identify MPU's in S3 buckets. Once you identity MPU's on specific buckets, you can configure a lifecycle rule for those S3 buckets to automatically abort 7-day old (or whatever time period you find appropriate) incomplete multipart uploads. I'd argue that lifecycle rules on S3 buckets should be the default, not the exception. A full description of the services and outline of this process can be found in the AWS blog post here.
+  info-url: https://aws.amazon.com/blogs/aws-cloud-financial-management/discovering-and-deleting-incomplete-multipart-uploads-to-lower-amazon-s3-costs/
   code-url: 
 
 - cloud-service: aws
   cloud-product: Storage
-  cloud-service-name: EBS - Abandoned Volumes
+  cloud-service-name: Snapshot Lifecycle
   type: waste
-  savings-potential: $$-$$$
-  description: We have a script that scans for unattached EBS volumes each night. The night the volume is found it is tagged with that days date. After a certain amount of days, depending on the environment, a snapshot will be taken (if in prod) and the volume will be deleted. - Default to Opt In to cleanup. You have to purposefully opt out (Noel's story)
-  info-url: https://aws.amazon.com/blogs/mt/controlling-your-aws-costs-by-deleting-unused-amazon-ebs-volumes/
+  savings-potential: $-$$
+  description: There are multiple ways to attack a lifecycle of snapshots in general.  With EBS, you can use Amazon Data Lifecycle Manager to automate the retention of your snapshots.  You can also use a myriad of 3rd party tools to help manage the data lifecycle of snapshots.  I recommend first establishing a policy within your organization, communicate & collaborate on the policy, and enforce the policy with the ability to opt out.
+  info-url: 
+  code-url: 
+
+- cloud-service: aws
+  cloud-product: Compute
+  cloud-service-name: EC2 - Idle Resources
+  type: waste
+  savings-potential: $ - $$ - $$$
+  description: We look at CPU, memory, disk, and network utilization.  Anything with 0 across all 4 metrics in the last 14 days we flag the resource as being idle.
+  info-url: 
   code-url: 
 
 - cloud-service: gcp
-  cloud-product: Storage
-  cloud-service-name: EBS - Abandoned Volumes
+  cloud-product: Compute
+  cloud-service-name: GKE - Containers and Managing Capacity
   type: waste
-  savings-potential: $$-$$$
-  description: We have a script that scans for unattached EBS volumes each night. The night the volume is found it is tagged with that days date. After a certain amount of days, depending on the environment, a snapshot will be taken (if in prod) and the volume will be deleted. - Default to Opt In to cleanup. You have to purposefully opt out (Noel's story)
-  info-url: https://aws.amazon.com/blogs/mt/controlling-your-aws-costs-by-deleting-unused-amazon-ebs-volumes/
+  savings-potential: $$$$$$$$
+  description: Manage object storage lifecycles to move data to nearlline or coldline when infequenlty accessed; remove obsolete versions / duplicates
+  info-url: 
+  code-url: 
+
+- cloud-service: azure
+  cloud-product: Storage
+  cloud-service-name: Aged Snapshots
+  type: waste
+  savings-potential: $
+  description: Azure portal -> Disks -> Filter where Owner = “-” to list all unattached across all subscriptions you have read access to
+  info-url: https://docs.microsoft.com/en-us/answers/questions/72394/delete-old-snapshots-on-azure-files-using-powershe.html
+  code-url: 
+
+- cloud-service: cross-cloud
+  cloud-product: Compute
+  cloud-service-name: kubernetes Control Plane
+  type: waste
+  savings-potential: $-$$$
+  description: (Application packing places nodes into the "Idle" category, per cloud provider, requires understanding of daemon sets and other non-redistributable pods)
+  info-url: 
   code-url: 
