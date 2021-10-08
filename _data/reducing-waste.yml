@@ -1,11 +1,101 @@
 
 - cloud-service: aws
+  cloud-product: Compute
+  cloud-service-name: EC2 - Idle Resources
+  type: waste
+  savings-potential: $ - $$ - $$$
+  description: Analyze CPU, memory, disk, and network utilization.  Anything with 0 across all 4 metrics in the last 14 days we flag the resource as being idle.
+  info-url: 
+  code-url: 
+
+- cloud-service: aws
+  cloud-product: Database
+  cloud-service-name: Aurora
+  type: efficiency
+  savings-potential:
+  description: Use global clusters for DR
+  info-url:
+  code-url: 
+
+- cloud-service: aws
+  cloud-product: Database
+  cloud-service-name: Dynamo DB Backups
+  type: waste
+  savings-potential: $ - $$
+  description: Check how often you are running full DynamoDB backups; they could be running every 5 minutes with no retention policy. Over time these costs compound. Determine if the business requires this much backup data, if not one option is to switch to a solution of using point-in-time recovery for Dynamo.
+  info-url: https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/PointInTimeRecovery.html
+  code-url: 
+
+- cloud-service: aws
+  cloud-product: Database
+  cloud-service-name: RDS - Idle Resources
+  type: waste
+  savings-potential: $$ - $$$
+  description: Analyze CPU, memory, disk, and network utilization.  Anything with 0 across all 4 metrics in the last 14 days we flag the resource as being idle.
+  info-url: 
+  code-url: 
+
+- cloud-service: aws
+  cloud-product: Marketplace / Licensing
+  cloud-service-name: Marketplace Licenses - Pay as you Go
+  type: waste / efficiency
+  savings-potential: $$$
+  description: Manually investigate the largest vendor spend. Create scripts that swaps out license sizing and the infrastructure underneath.
+  info-url: 
+  code-url: https://github.com/awslabs/tag-policy-setup/tree/main/scp_policies
+
+- cloud-service: aws
+  cloud-product: Monitoring
+  cloud-service-name: CloudWatch
+  type: waste
+  savings-potential: $
+  description: To reduce ingestion costs, stop ingestion of unnecessary logs. To reduce storage costs, change the retention period for your log groups. To reduce ingested log data scanned for CloudWatch Logs Insights queries, run queries for a shorter duration.
+  info-url: https://aws.amazon.com/premiumsupport/knowledge-center/cloudwatch-understand-and-reduce-charges/
+  code-url: https://wellarchitectedlabs.com/cost/300_labs/300_cur_queries/queries/management__governance/
+
+- cloud-service: aws
+  cloud-product: Network
+  cloud-service-name: Load Balancers
+  type: waste
+  savings-potential: $
+  description: Identified through Trusted Advisor in the AWS console.
+  info-url: 
+  code-url: 
+
+- cloud-service: aws
+  cloud-product: Network
+  cloud-service-name: Unattached Elastic IPs
+  type: waste
+  savings-potential: $
+  description: Unattached EIP cost $0.005 an hour. Over time this can compound into a waste of money. Also if there is something causing these EIPs to be unattached this problem will grow.
+  info-url: https://aws.amazon.com/premiumsupport/knowledge-center/elastic-ip-charges/
+  code-url: https://github.com/Road-To-FinOps-Deploy/aws_tf_eip_cleaner
+  
+- cloud-service: aws
+  cloud-product: Storage
+  cloud-service-name: AMI Snapshots
+  type: waste
+  savings-potential: $
+  description: Snapshots created from AMIs that are no longer available. These are no longer being used and so can be removed.
+  info-url: 
+  code-url: https://wellarchitectedlabs.com/cost/300_labs/300_optimization_data_collection/3_deploy_data_collection_modules/
+
+- cloud-service: aws
   cloud-product: Storage
   cloud-service-name: EBS - Abandoned Volumes
   type: waste
   savings-potential: $$-$$$
-  description: We have a script that scans for unattached EBS volumes each night. The night the volume is found it is tagged with that days date. After a certain amount of days, depending on the environment, a snapshot will be taken (if in prod) and the volume will be deleted. - Default to Opt In to cleanup. You have to purposefully opt out (Noel's story)
+  description: Scripts can be implemented to scan and terminate unattached EBS volumes.  Consider taking snapshots in higher environments before terminating the volumes.  Many scripts can be found in github or elsewhere on the Internet. (Noel's story)
   info-url: https://aws.amazon.com/blogs/mt/controlling-your-aws-costs-by-deleting-unused-amazon-ebs-volumes/
+  code-url: 
+
+- cloud-service: aws
+  cloud-product: Storage
+  cloud-service-name: EBS - Migrate to Newer Types
+  type: efficiency
+  savings-potential: $$-$$$
+  description: We saved 20% on some of our EBS costs by migrating from the gp2 to the gp3 EBS volume type. Read more in [Mike Martin's user story](/blah)
+  info-url: https://aws.amazon.com/blogs/storage/migrate-your-amazon-ebs-volumes-from-gp2-to-gp3-and-save-up-to-20-on-costs/
   code-url: 
 
 - cloud-service: aws
@@ -23,15 +113,33 @@
   type: waste
   savings-potential: $-$$
   description: There are multiple ways to attack a lifecycle of snapshots in general.  With EBS, you can use Amazon Data Lifecycle Manager to automate the retention of your snapshots.  You can also use a myriad of 3rd party tools to help manage the data lifecycle of snapshots.  I recommend first establishing a policy within your organization, communicate & collaborate on the policy, and enforce the policy with the ability to opt out.
-  info-url: 
+  info-url: https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/snapshot-lifecycle.html
   code-url: 
 
 - cloud-service: aws
-  cloud-product: Compute
-  cloud-service-name: EC2 - Idle Resources
+  cloud-product: Virtual Desktop
+  cloud-service-name: Workspaces
   type: waste
-  savings-potential: $ - $$ - $$$
-  description: We look at CPU, memory, disk, and network utilization.  Anything with 0 across all 4 metrics in the last 14 days we flag the resource as being idle.
+  savings-potential: $
+  description: A script can identiy Workspaces that have 0 connections.
+  info-url: 
+  code-url: https://github.com/Road-To-FinOps-Deploy/aws_tf_unused_workspaces
+
+- cloud-service: gcp
+  cloud-product: BigQuery
+  cloud-service-name: BigQuery Capacity Commitments
+  type: waste
+  savings-potential: $$$$$$$$
+  description: Failure to purchase org level capacity commitments for BigQuery can result in runaway costs due to on-demand query costs. Purchasing an org level capacity commitment and enabling idle capacity at the org level can ensure stable BigQuery costs across the organization. Consideration also needs to given be to whether the location supports multi-region commitments or if separate commitments will need to be purchased for each region or location where workloads are provisioned.
+  info-url: https://cloud.google.com/bigquery/docs/reservations-intro 
+  code-url: 
+
+- cloud-service: gcp
+  cloud-product: BigQuery
+  cloud-service-name: Database Optimization
+  type: waste
+  savings-potential: $$$$$$$$
+  description: Optimize the structure of queries and tables / databases to limit quantity of data scanned.
   info-url: 
   code-url: 
 
@@ -39,25 +147,70 @@
   cloud-product: Compute
   cloud-service-name: GKE - Containers and Managing Capacity
   type: waste
+  savings-potential: $$
+  description: Provision to balance capacity and requests to prevent inadvertent auto scaling. Leverage [GKE metering](https://cloud.google.com/kubernetes-engine/docs/how-to/cluster-usage-metering) and dashboards to understand the profile of workloads and address under- or over-provisioning.
+  info-url: https://cloud.google.com/blog/products/containers-kubernetes/use-gke-usage-metering-to-combat-over-provisioning
+  code-url: 
+
+- cloud-service: gcp
+  cloud-product: Storage
+  cloud-service-name: Object Storage Lifecycle
+  type: waste
   savings-potential: $$$$$$$$
-  description: Manage object storage lifecycles to move data to nearlline or coldline when infequenlty accessed; remove obsolete versions / duplicates
+  description: Manage object storage lifecycles to move data to nearlline or coldline when infequenlty accessed; remove obsolete versions / duplicates.
   info-url: 
   code-url: 
+
+- cloud-service: azure
+  cloud-product: Compute
+  cloud-service-name: Idle VMs
+  type: waste
+  savings-potential: $$
+  description: Totally inactive compute; Azure Advisor can surface underutilised, look for those with shutdown recommendation and ask teams to validate.
+  info-url: https://docs.microsoft.com/en-us/answers/questions/72394/delete-old-snapshots-on-azure-files-using-powershe.html
+  code-url:
+
+- cloud-service: azure
+  cloud-product: Marketplace / Licensing
+  cloud-service-name: Hybrid Use Benefits
+  type: waste
+  savings-potential: $$
+  description: Manually look in Azure by selecting a virtual machine and then reviewing its properties. See if the AHUB Azure hybrid use benefit box is checked or not.
+  info-url: https://docs.microsoft.com/en-us/azure/virtual-machines/windows/hybrid-use-benefit-licensing
+  code-url:
 
 - cloud-service: azure
   cloud-product: Storage
   cloud-service-name: Aged Snapshots
   type: waste
   savings-potential: $
-  description: Azure portal -> Disks -> Filter where Owner = “-” to list all unattached across all subscriptions you have read access to
+  description: Manually look in Azure portal at a list of all snapshots across all subscriptions you have read access to.
   info-url: https://docs.microsoft.com/en-us/answers/questions/72394/delete-old-snapshots-on-azure-files-using-powershe.html
+  code-url:
+
+- cloud-service: azure
+  cloud-product: Storage
+  cloud-service-name: Unattached Disks
+  type: waste
+  savings-potential: $
+  description: Azure portal -> Disks -> Filter where Owner = “-” to list all unattached across all subscriptions you have read access to.
+  info-url: https://docs.microsoft.com/en-us/azure/virtual-machines/disks-find-unattached-portal
   code-url: 
 
 - cloud-service: cross-cloud
   cloud-product: Compute
   cloud-service-name: kubernetes Control Plane
+  type: efficiency
+  savings-potential: $
+  description: Reduce number of clusters (only GKE and EKS). Abandoned clusters cost $.10 per hour.
+  info-url: 
+  code-url: 
+
+- cloud-service: cross-cloud
+  cloud-product: Compute
+  cloud-service-name: kubernetes Nodes
   type: waste
-  savings-potential: $-$$$
-  description: (Application packing places nodes into the "Idle" category, per cloud provider, requires understanding of daemon sets and other non-redistributable pods)
+  savings-potential: $ - $$$
+  description: Application packing places nodes into the "Idle" category, per cloud provider, requires understanding of daemon sets and other non-redistributable pods.
   info-url: 
   code-url: 
