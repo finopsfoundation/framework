@@ -16,10 +16,8 @@ framework-persona:
 framework-maturity: walk
 framework-capabilities:
 framework-projects:
+- project_reducing-waste
 order:
- 
-tags:
-- reducing-waste
 
 ---
 

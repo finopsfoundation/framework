@@ -16,6 +16,7 @@
   description: Use global clusters for DR
   info-url:
   code-url: 
+  story-url: /stories/managing-your-dr-in-aws/
 
 - cloud-service: aws
   cloud-product: Database
@@ -25,6 +26,7 @@
   description: Check how often you are running full DynamoDB backups; they could be running every 5 minutes with no retention policy. Over time these costs compound. Determine if the business requires this much backup data, if not one option is to switch to a solution of using point-in-time recovery for Dynamo.
   info-url: https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/PointInTimeRecovery.html
   code-url: 
+  story-url: /stories/dynamodb-backups-gone-wild/
 
 - cloud-service: aws
   cloud-product: Database
@@ -43,6 +45,7 @@
   description: Manually investigate the largest vendor spend. Create scripts that swaps out license sizing and the infrastructure underneath.
   info-url: 
   code-url: https://github.com/awslabs/tag-policy-setup/tree/main/scp_policies
+  story-url: /stories/watch-your-licenses/
 
 - cloud-service: aws
   cloud-product: Monitoring
@@ -52,6 +55,7 @@
   description: To reduce ingestion costs, stop ingestion of unnecessary logs. To reduce storage costs, change the retention period for your log groups. To reduce ingested log data scanned for CloudWatch Logs Insights queries, run queries for a shorter duration.
   info-url: https://aws.amazon.com/premiumsupport/knowledge-center/cloudwatch-understand-and-reduce-charges/
   code-url: https://wellarchitectedlabs.com/cost/300_labs/300_cur_queries/queries/management__governance/
+  story-url: /stories/managing-retention-in-cloudwatch/
 
 - cloud-service: aws
   cloud-product: Network
@@ -70,6 +74,7 @@
   description: Unattached EIP cost $0.005 an hour. Over time this can compound into a waste of money. Also if there is something causing these EIPs to be unattached this problem will grow.
   info-url: https://aws.amazon.com/premiumsupport/knowledge-center/elastic-ip-charges/
   code-url: https://github.com/Road-To-FinOps-Deploy/aws_tf_eip_cleaner
+  story-url: /stories/cleaning-up-elastic-ips/
   
 - cloud-service: aws
   cloud-product: Storage
@@ -79,6 +84,7 @@
   description: Snapshots created from AMIs that are no longer available. These are no longer being used and so can be removed.
   info-url: 
   code-url: https://wellarchitectedlabs.com/cost/300_labs/300_optimization_data_collection/3_deploy_data_collection_modules/
+  story-url: /stories/ami-snapshots/
 
 - cloud-service: aws
   cloud-product: Storage
@@ -88,6 +94,7 @@
   description: Scripts can be implemented to scan and terminate unattached EBS volumes.  Consider taking snapshots in higher environments before terminating the volumes.  Many scripts can be found in github or elsewhere on the Internet. (Noel's story)
   info-url: https://aws.amazon.com/blogs/mt/controlling-your-aws-costs-by-deleting-unused-amazon-ebs-volumes/
   code-url: 
+  story-url: /stories/too-many-ebs-volumes/ 
 
 - cloud-service: aws
   cloud-product: Storage
@@ -97,6 +104,7 @@
   description: We saved 20% on some of our EBS costs by migrating from the gp2 to the gp3 EBS volume type. Read more in [Mike Martin's user story](/blah)
   info-url: https://aws.amazon.com/blogs/storage/migrate-your-amazon-ebs-volumes-from-gp2-to-gp3-and-save-up-to-20-on-costs/
   code-url: 
+  story-url: /stories/upgrade-your-ebs/
 
 - cloud-service: aws
   cloud-product: Storage
@@ -115,6 +123,7 @@
   description: There are multiple ways to attack a lifecycle of snapshots in general.  With EBS, you can use Amazon Data Lifecycle Manager to automate the retention of your snapshots.  You can also use a myriad of 3rd party tools to help manage the data lifecycle of snapshots.  I recommend first establishing a policy within your organization, communicate & collaborate on the policy, and enforce the policy with the ability to opt out.
   info-url: https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/snapshot-lifecycle.html
   code-url: 
+  story-url: /stories/managing-ebs-snapshots/
 
 - cloud-service: aws
   cloud-product: Virtual Desktop
@@ -133,6 +142,7 @@
   description: Failure to purchase org level capacity commitments for BigQuery can result in runaway costs due to on-demand query costs. Purchasing an org level capacity commitment and enabling idle capacity at the org level can ensure stable BigQuery costs across the organization. Consideration also needs to given be to whether the location supports multi-region commitments or if separate commitments will need to be purchased for each region or location where workloads are provisioned.
   info-url: https://cloud.google.com/bigquery/docs/reservations-intro 
   code-url: 
+  story-url: /stories/bigquery-capacity-commitments/
 
 - cloud-service: gcp
   cloud-product: BigQuery
@@ -142,6 +152,7 @@
   description: Optimize the structure of queries and tables / databases to limit quantity of data scanned.
   info-url: 
   code-url: 
+  story-url: /stories/eliminating-waste-bigquery/
 
 - cloud-service: gcp
   cloud-product: Compute
@@ -151,6 +162,7 @@
   description: Provision to balance capacity and requests to prevent inadvertent auto scaling. Leverage [GKE metering](https://cloud.google.com/kubernetes-engine/docs/how-to/cluster-usage-metering) and dashboards to understand the profile of workloads and address under- or over-provisioning.
   info-url: https://cloud.google.com/blog/products/containers-kubernetes/use-gke-usage-metering-to-combat-over-provisioning
   code-url: 
+  story-url: /stories/gke-metering/
 
 - cloud-service: gcp
   cloud-product: Storage
@@ -160,6 +172,7 @@
   description: Manage object storage lifecycles to move data to nearlline or coldline when infequenlty accessed; remove obsolete versions / duplicates.
   info-url: 
   code-url: 
+  story-url: /stories/provisioning-storage-gcp/
 
 - cloud-service: azure
   cloud-product: Compute
