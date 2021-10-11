@@ -23,7 +23,6 @@ Stories are shared experiences from individuals or teams that have applied FinOp
             <div class="bg-gray-200 rounded-lg text-sm font-semibold text-gray-700 tracking-wider uppercase inline-block px-2 py-px">{{ cloud }}</div>
           {% endfor %}
         {% endif %}
-        {{ story.framework-projects }}
       </div>
       <div>
         <a class="text-sm text-green-500 transition-colors duration-200" href="{{ story.url }}">View story</a>
