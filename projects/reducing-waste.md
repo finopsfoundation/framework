@@ -38,7 +38,7 @@ Filter:
       {% if item.story-url %}
         <a class="py-1 px-2 shadow-sm text-sm rounded-md text-white bg-green-500 hover:bg-green-600 transition-colors duration-200" href="{{ item.story-url }}">Read the story</a>
       {% endif %}
-      {% if item.info-url %}
+      {% if item.related-url %}
         <a class="py-1 px-2 shadow-sm text-sm rounded-md text-white bg-green-500 hover:bg-green-600 transition-colors duration-200" href="{{ item.related-url }}">Related material</a>
       {% endif %}
       {% if item.code-url %}
