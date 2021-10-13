@@ -12,7 +12,7 @@ layout: default
   </div>
   <div class="p-4">
     <h2 class="mt-0">Executives</h2>
-    <p>Executives like a VP/Head of Infrastructure, Head of Cloud Center of Excellence, CTO or CIO focus on driving accountability and building transparency, ensuring teams are being efficient and not exceeding budgets.</p>
+    <p>Executives, such as a VP/Head of Infrastructure, Head of Cloud Center of Excellence, CTO, or CIO, focus on driving accountability and building transparency, ensuring teams are being efficient, and not exceeding budgets.</p>
   </div>
 </div>
 
@@ -22,7 +22,7 @@ layout: default
   </div>
   <div class="p-4">
     <h2 class="mt-0">Business/Product Owner</h2>
-    <p>Business and Product Owner team members, such as Director of Cloud Optimization, Cloud Analyst, Business Operations Manager.</p>
+    <p>These participants are usually Business and Product Owner team members, such as a Director of Cloud Optimization, Cloud Analyst, or Business Operations Manager.</p>
   </div>
 </div>
 
@@ -32,7 +32,7 @@ layout: default
   </div>
   <div class="p-4">
     <h2 class="mt-0">Engineering and Operations</h2>
-    <p>Engineers and ops team members, such as Lead Software Engineer, Principal Systems Engineer, Cloud Architect, Service Delivery Manager, Engineering Manager, or Director of Platform Engineering, focus on building and supporting services for the organization. Cost is introduced as a metric in the same way other performance metrics are tracked and monitored. Teams consider the efficient design and use of resources via such activities as rightsizing (the process of resizing cloud resources to better match the workload requirements), allocating container costs, finding unused storage and compute, and identifying whether spending anomalies are expected.</p>
+    <p>Engineers and Ops team members, such as Lead Software Engineers, Principal Systems Engineers, Cloud Architects, Service Delivery Managers, Engineering Managers, or Directors of Platform Engineering, focus on building and supporting services for the organization. Cost is introduced as a metric in the same way that other performance metrics are tracked and monitored. Members of these teams consider the efficient design and use of resources via activities like rightsizing (the process of resizing cloud resources to better match the workload requirements), allocating container costs, finding unused storage and compute, and identifying whether spending anomalies are expected.</p>
   </div>
 </div>
 
@@ -42,7 +42,7 @@ layout: default
   </div>
   <div class="p-4">
     <h2 class="mt-0">Finance/Procurement</h2>
-    <p>Finance and procurement team members, including Technology Procurement Manager, Global Technology Procurement, Financial Planning and Analyst Manager, and Financial Business Advisor, use the reporting provided by the FinOps team for accounting and forecasting. They work closely with FinOps practitioners to understand historic billing data so that they can build out more accurate cost models. They use their forecasts and expertise from the FinOps team to engage in rate negotiations with cloud service providers.</p>
+    <p>Finance and procurement team members, including Technology Procurement Managers, Global Technology Procurement, Financial Planning and Analyst Managers, and Financial Business Advisors, use the reporting provided by the FinOps team for accounting and forecasting. They work closely with FinOps practitioners to understand historic billing data so that they can build increasingly accurate cost models. They use their forecasts and expertise from the FinOps team to engage in rate negotiations with cloud service providers.</p>
   </div>
 </div>
 
