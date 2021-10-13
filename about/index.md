@@ -1,6 +1,6 @@
 ---
 
-layout: page
+layout: wide
 title: About the FinOps Foundation
 description: The FinOps Foundation is a non-profit trade association made up of FinOps practitioners around the world - learn more today.
 
@@ -43,16 +43,26 @@ The FinOps TAC is the technical governing body of the FinOps Foundation which ov
 
 10 Seats Initially - Mix of Practitioners, GB Appointed, and Premier Members
 
-1. Mike Fuller, Principal Systems Engineer for FinOps at Atlassian (Chair)
-2. Joseph Daly, Director of Cloud Optimization at Nationwide
-3. Melvin Brown, Acting Deputy Chief Information Officer at US Government OPM
-4. Anders Hagman, Senior Manager, Cloud FinOps & Technology Procurement at Spotify
-5. Riley Jenkins, Sr. SRE/FinOps Architect at Domo
-6. Amitai Rottem, Billing Product Management for Google Cloud (former Microsoft)
-7. Eugene Khvostov, VP Product & Eng at Apptio Cloudability (former AWS Insights)
-8. John McLoughlin, Director Product Management for CloudHealth by VMware
-9. Antoine Lagier, Contributing Editor and Maintainer of FinOps.world, and French SIG chair
-10. Rich Hoyer, Director of FinOps, SADA
+<div class="flex md:flex-row flex-wrap items-stretch p-4 rounded-md mt-4">
+{% for item in site.data.people %}
+  {% if item.group == 'TAC' %}
+     {% for person in item.people %}
+     <div class="w-1/2 md:w-1/3 p-2 flex">
+      <div class="flex flex-col bg-gray-100 w-full items-stretch text-center p-2 rounded-lg shadow-sm border-solid border-gray-200 border hover:-translate-y-1 hover:shadow-lg transition transform duration-500 hover:border-green-500">
+        <div>
+          <img src="{{ person.image }}" alt="{{ person.name }}" width="150" class="rounded-full inline-block" />
+        </div>
+        <div class="flex-grow">
+          <h3 class="mb-1 mt-2">{{ person.name }}</h3>
+          <p class="px-2 mb-1 leading-snug">{{ person.job-title }} at {{ person.company }}</p>
+        </div>
+        <a href="{{ person.linkedin-url }}" class="text-sm text-green-500 hover:text-green-600 transition-colors duration-200">Linkedin Profile</a> 
+      </div>
+    </div>
+     {% endfor %}
+  {% endif %}
+{% endfor %}
+</div>
 
 As defined by the Technical Charter, The Technical Advisory Council (the "TAC") will have ten members determined as follows:
 
@@ -67,17 +77,26 @@ The FinOps Governing Board and Directed Fund supports the Technical Advisory Cou
 
 The GB currently consists of these representatives:
 
-1. Jen Hays, VP FinOps at Fidelity (Chair)
-2. Mike Fuller, Principal Systems Engineer at Atlassian (TAC Chair)
-8. Scott Linn, Cloud Services and Optimization Manager at Chevron
-9. Natalie Daley, Director Of Operations at HSBC for CTO Shared Services and Cloud
-4. Abuna Demoz, Senior Engineering Manager at Google Cloud
-5. Miles Ward, CTO at SADA
-6. Rakinder Sembhi, Principal at Deloitte
-9. Michael Kearns, CEO at Virtasant
-9. Mike Eisenstein, Global Cloud Optimization Lead at Accenture
-3. Deb MacCallum, VP Engineering at VMware Cloudhealth
-7. J.R. Storment, Executive Director of FinOps Foundation
+<div class="flex md:flex-row flex-wrap items-stretch p-4 rounded-md mt-4">
+{% for item in site.data.people %}
+  {% if item.group == 'GB' %}
+     {% for person in item.people %}
+     <div class="w-1/2 md:w-1/3 p-2 flex">
+      <div class="flex flex-col bg-gray-100 w-full items-stretch text-center p-2 rounded-lg shadow-sm border-solid border-gray-200 border hover:-translate-y-1 hover:shadow-lg transition transform duration-500 hover:border-green-500">
+        <div>
+          <img src="{{ person.image }}" alt="{{ person.name }}" width="150" class="rounded-full inline-block" />
+        </div>
+        <div class="flex-grow">
+          <h3 class="mb-1 mt-2">{{ person.name }}</h3>
+          <p class="px-2 mb-1 leading-snug">{{ person.job-title }} at {{ person.company }}</p>
+        </div>
+        <a href="{{ person.linkedin-url }}" class="text-sm text-green-500 hover:text-green-600 transition-colors duration-200">Linkedin Profile</a> 
+      </div>
+    </div>
+     {% endfor %}
+  {% endif %}
+{% endfor %}
+</div>
 
 As defined by the FinOps Foundation Participation Agreement, the Governing Board voting members will consist of:
 
