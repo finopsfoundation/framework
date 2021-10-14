@@ -2,8 +2,8 @@
 
 layout: default
 
-title:
-description:
+title: Capability Title Here
+description: coming soon...
 permalink: /framework/capabilities/
 page-identifier:
 framework-capability-title: Capability Title Here

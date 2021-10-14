@@ -3,7 +3,7 @@
 layout: wide
 
 title: IT Asset Management
-description:
+description: coming soon...
 permalink: /framework/capabilities/asset-management/
 page-identifier: capability_asset-management
 framework-capability-title: IT Asset Management

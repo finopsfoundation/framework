@@ -3,7 +3,7 @@
 layout: wide
 
 title: Workload Management & Automation
-description:
+description: coming soon...
 permalink: /framework/capabilities/workload-management-automation/
 page-identifier: capability_workload-automation
 framework-capability-title: Workload Management & Automation

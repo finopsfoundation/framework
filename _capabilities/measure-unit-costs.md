@@ -3,7 +3,7 @@
 layout: wide
 
 title: Measure Unit Costs
-description:
+description: coming soon...
 permalink: /framework/capabilities/measure-unit-costs/
 page-identifier: capability_unit-costs
 framework-capability-title: Measure Unit Costs

@@ -3,7 +3,7 @@
 layout: wide
 
 title: Manage Commitment Based Discounts
-description:
+description: coming soon...
 permalink: /framework/capabilities/manage-commitment-based-discounts/
 page-identifier: capability_commitment-discounts
 framework-capability-title: Manage Commitment Based Discounts

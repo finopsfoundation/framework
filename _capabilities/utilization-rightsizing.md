@@ -3,7 +3,7 @@
 layout: wide
 
 title: Resource Utilization & Rightsizing
-description:
+description: coming soon...
 permalink: /framework/capabilities/utilization-rightsizing/
 page-identifier: capability_rightsizing
 framework-capability-title: Resource Utilization & Rightsizing

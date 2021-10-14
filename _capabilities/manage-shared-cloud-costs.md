@@ -3,7 +3,7 @@
 layout: wide
 
 title: Manage Shared Cost
-description:
+description: coming soon...
 permalink: /framework/capabilities/manage-shared-cloud-cost/
 page-identifier: capability_shared-cost
 framework-capability-title: Manage Shared Cost

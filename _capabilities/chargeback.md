@@ -3,7 +3,7 @@
 layout: default
 
 title: Chargeback & IT Finance Integration
-description:
+description: coming soon...
 permalink: /framework/capabilities/chargeback/
 page-identifier: capability_chargeback
 framework-capability-title: Chargeback & IT Finance Integration
