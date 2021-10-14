@@ -6,8 +6,8 @@ title:
 description:
 permalink: /framework/capabilities/
 page-identifier:
-framework-capability-title:
-framework-capability-desc:
+framework-capability-title: Capability Title Here
+framework-capability-desc: coming soon...
 order: 1
 
 ---

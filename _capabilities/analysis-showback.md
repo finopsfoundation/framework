@@ -7,7 +7,7 @@ description:
 permalink: /framework/capabilities/analysis-showback/
 page-identifier: capability_showback
 framework-capability-title: Data Analysis and Showback
-framework-capability-desc:
+framework-capability-desc: coming soon...
 order: 2
 
 ---

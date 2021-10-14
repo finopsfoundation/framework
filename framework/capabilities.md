@@ -18,6 +18,10 @@ FinOps Capabilities represents functional areas of activity in support of their 
 <div class="md:w-1/2 flex items-stretch">
     <div class="m-2 w-full bg-white flex space-x-6 border-solid border-gray-200 border rounded-lg shadow-sm hover:border-green-500  transition transform duration-200">
       <a class="text-base font-medium p-2 pl-4 block w-full text-gray-700" href="{{ capability.url }}">{{ capability.framework-capability-title }}</a>
+      <p class="text-gray-600 w-80 text-sm">{{ capability.framework-capability-desc }}</p>
+      <!--
+      <a class="text-base font-medium p-2 pl-4 block w-full text-gray-700" href="{{ capability.url }}">{{ capability.framework-capability-title }}</a>
+       -->
   </div>
 </div>
 {% endfor %}

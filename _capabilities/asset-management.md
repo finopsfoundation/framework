@@ -7,7 +7,7 @@ description:
 permalink: /framework/capabilities/asset-management/
 page-identifier: capability_asset-management
 framework-capability-title: IT Asset Management
-framework-capability-desc:
+framework-capability-desc: coming soon...
 order: 15
 
 ---

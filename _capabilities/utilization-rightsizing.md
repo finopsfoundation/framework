@@ -7,7 +7,7 @@ description:
 permalink: /framework/capabilities/utilization-rightsizing/
 page-identifier: capability_rightsizing
 framework-capability-title: Resource Utilization & Rightsizing
-framework-capability-desc:
+framework-capability-desc: coming soon...
 order: 9
 
 ---

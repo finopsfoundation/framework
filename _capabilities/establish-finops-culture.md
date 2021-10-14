@@ -7,7 +7,7 @@ description:
 permalink: /framework/capabilities/establish-finops-culture
 page-identifier: capability_establish-finops-culture
 framework-capability-title: Establish FinOps Culture
-framework-capability-desc:
+framework-capability-desc: coming soon...
 order: 14
 
 ---

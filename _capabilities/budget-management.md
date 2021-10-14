@@ -7,7 +7,7 @@ description:
 permalink: /framework/capabilities/budget-management/
 page-identifier: capability_budget-management
 framework-capability-title: Budget Management
-framework-capability-desc:
+framework-capability-desc: coming soon...
 order: 6
 
 ---
