@@ -10,6 +10,7 @@ framework-domain-title: Cloud Rate Optimization
 framework-domain-desc: Within this domain, the organization works to define its pricing model goals, uses historical data to make pricing model adjustments by buying commitment based discounts, and works to manage the pricing aspects of services it is using in the cloud.
 framework-capabilities:
 - capability_commitment-discounts
+- capability_showback
 order: 4
 
 ---
