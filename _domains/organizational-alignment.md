@@ -11,7 +11,6 @@ framework-domain-desc: Within this domain, the organization acts and automates t
 framework-capabilities:
 - capability_chargeback
 - capability_budget-management
-- capability_forecasting
 - capability_asset-management
 - capability_establish-finops-culture
 order: 6
