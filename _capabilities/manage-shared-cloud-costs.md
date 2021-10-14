@@ -7,7 +7,7 @@ description:
 permalink: /framework/capabilities/manage-shared-cloud-cost/
 page-identifier: capability_shared-cost
 framework-capability-title: Manage Shared Cost
-framework-capability-desc:
+framework-capability-desc: coming soon...
 order: 4
 
 ---
