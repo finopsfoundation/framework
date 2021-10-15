@@ -3,21 +3,25 @@
 layout: story
 
 title: One Way to Put it All Together
-description:
+description: Shared Costs should be identified upfront as part of Service Design. Just as the Service Design is subject to design approval, the Shared Cost Model needs approval from FinOps.
 story-title: One Way to Put it All Together
 story-date: 2021-06-01
 author: Chris Greenham
 company: healthAlliance
 company-size:
-industry:
+industry: Health Care
 cloud-provider:
 tooling-services:
 framework-persona:
 framework-maturity:
 framework-capabilities:
+- capability_shared-cost
 framework-projects:
 - project_shared-costs
 order: 1
+tags:
+- cost-sharing
+- cost-allocation
 
 ---
 

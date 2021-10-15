@@ -3,11 +3,11 @@
 layout: wide
 
 title: Measure Efficiency
-description:
+description: coming soon...
 permalink: /framework/capabilities/measure-efficiency/
 page-identifier: capability_measure-efficiency
 framework-capability-title: Measure Efficiency
-framework-capability-desc:
+framework-capability-desc: coming soon...
 order: 13
 
 ---

@@ -7,7 +7,7 @@ description: Cost Allocation is the set of practices to divide up a consolidated
 permalink: /framework/capabilities/cost-allocation/
 page-identifier: capability_allocation
 framework-capability-title: Cost Allocation (Metadata & Hierarchy)
-framework-capability-desc: Cost Allocation is the set of practices to divide up a consolidated invoice or bill among those who are responsible for its various component parts. In the context of FinOps this typically involves dividing up consolidated Cloud Service Provider invoices among various IT groups who use cloud within the organization.
+framework-capability-desc: Cost Allocation is the set of practices to divide up a consolidated invoice or bill among those who are responsible for its various component parts.
 order: 1
 
 ---
