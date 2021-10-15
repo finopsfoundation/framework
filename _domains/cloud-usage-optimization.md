@@ -11,6 +11,7 @@ framework-domain-desc: Within this domain, the organization identifies and takes
 framework-capabilities:
 - capability_workload-automation
 - capability_rightsizing
+- capability_showback
 order: 5
 
 ---

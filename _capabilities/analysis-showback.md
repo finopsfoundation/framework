@@ -17,9 +17,16 @@ order: 2
 {% include domains-loop.md %}
 
 ## Definition
-Data analysis and showback is the ability to create a near "real time" reporting mechanism which calls to attention: Total costs for the desired business entity, opportunities for cost avoidance, and KPIs for financial health (e.g. performance of rate reduction commitments, unit cost measures for key services, efficiency metrics aggregated by desired "team" or organization unit, etc.).
+Data analysis and showback is the ability to leverage data, along with metadata on cloud resources and resource hierarchies, to create a near “real time” reporting mechanism for stakeholders which calls to attention: Total costs for the desired business entity, opportunities for cost avoidance, and KPIs for financial health (e.g. performance of rate reduction commitments, unit cost measures for key services, efficiency metrics aggregated by desired “team”,  organizational unit, etc...).
 
-As cost showback is a fundamental aspect of FinOps, all FinOps domains should be considered and accounted for. Hence, reaching the highest maturity level should be considered a work in progress across the various domains.
+In the context of FinOps, this work will typically focus on the cloud cost and usage data. This Capability relies heavily upon adequate [data ingestion and data normalization capabilities](https://www.finops.org/framework/capabilities/data-normalization/). The results from the work for Data Analysis & Showback will typically be available for [Chargeback & IT Finance Integration](https://www.finops.org/framework/capabilities/chargeback/).
+
+It is within the scope of this Capability to create the data repository of normalized, queryable data from which reporting, analysis, and visualization of cloud cost and usage will occur.  Many of the optimization capabilities and alignment with other organizational processes and systems will likewise rely upon the data sources created by this Capability.
+
+In many cases, organizations will rely upon the native cloud-provider tools to satisfy this capability. In other cases, third party tools will provide much of this functionality.
+
+As cost showback is a fundamental aspect of FinOps, all FinOps domains should be considered and accounted for. Hence, reaching the highest maturity level should be considered a work in progress across [the FinOps Domains](https://www.finops.org/framework/domains/).
+
 
 ## Maturity Assessment
 
@@ -58,6 +65,7 @@ use the reporting ecosystem to develop a cost allocation model which accurately 
 
 #### As a *Business/Product Manager*, I will...
 develop KPIs to measure the cost effectiveness in achieving my desired business outcomes. These KPIs will be used in frequent collaboration with my engineering counterparts.
+
 
 ## Measure(s) of Success
 - Overall Tagging Compliance is 90% or above
