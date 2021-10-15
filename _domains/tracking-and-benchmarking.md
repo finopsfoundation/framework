@@ -16,6 +16,7 @@ framework-capabilities:
 - capability_rightsizing
 - capability_unit-costs
 - capability_measure-efficiency
+- capability_showback
 order: 2
 
 ---
