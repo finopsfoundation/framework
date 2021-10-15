@@ -55,16 +55,16 @@ As cost showback is a fundamental aspect of FinOps, all FinOps domains should be
 
 ## Functional Activity
 #### As a *FinOps Practitioner*, I will...
-spend a significant amount of effort in collaboration with Engineering/Finance/Procurement/Product Management to build a cost reporting ecosystem which is aimed at helping consumers understand the important aspects of their spend, as well as, opportunities to optimize their spend.
+* spend a significant amount of effort in collaboration with Engineering/Finance/Procurement/Product Management to build a cost reporting ecosystem which is aimed at helping consumers understand the important aspects of their spend, as well as, opportunities to optimize their spend.
 
 #### As an *Engineering Manager*, I will...
-take an active role in consuming and fully understanding cost reporting so that I may: set achievable cost objectives for my teams, meet KPIs that are meaningful to my business partners, manage development cycles (producing business capabilities vs.implementing optimizations), and provide accurate forecasting.  
+* take an active role in consuming and fully understanding cost reporting so that I may: set achievable cost objectives for my teams, meet KPIs that are meaningful to my business partners, manage development cycles (producing business capabilities vs.implementing optimizations), and provide accurate forecasting.  
 
 #### As a *Finance/Procurement Manager*, I will...
-use the reporting ecosystem to develop a cost allocation model which accurately reflects the total cost of business capabilities, ensure that cloud cost models are allocating dollars to the desired level of the organization, and ensure integration with existing Finance processes.
+* use the reporting ecosystem to develop a cost allocation model which accurately reflects the total cost of business capabilities, ensure that cloud cost models are allocating dollars to the desired level of the organization, and ensure integration with existing Finance processes.
 
 #### As a *Business/Product Manager*, I will...
-develop KPIs to measure the cost effectiveness in achieving my desired business outcomes. These KPIs will be used in frequent collaboration with my engineering counterparts.
+* develop KPIs to measure the cost effectiveness in achieving my desired business outcomes. These KPIs will be used in frequent collaboration with my engineering counterparts.
 
 
 ## Measure(s) of Success
