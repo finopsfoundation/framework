@@ -3,11 +3,11 @@
 layout: wide
 
 title: Data Analysis and Showback
-description: Data analysis and showback is the ability to create a near real-time reporting mechanism which
+description: Data analysis and showback is the ability to create a near real-time reporting mechanism which calls to attention total costs for the desired business entity, opportunities for cost avoidance, and KPIs
 permalink: /framework/capabilities/analysis-showback/
 page-identifier: capability_showback
 framework-capability-title: Data Analysis and Showback
-framework-capability-desc: Data analysis and showback is the ability to create a near real-time reporting mechanism which
+framework-capability-desc: Data analysis and showback is the ability to create a near real-time reporting mechanism which calls to attention total costs for the desired business entity, opportunities for cost avoidance, and KPIs...
 order: 2
 
 ---
@@ -17,7 +17,7 @@ order: 2
 {% include domains-loop.md %}
 
 ## Definition
-Data analysis and showback is the ability to create a near "real time" reporting mechanism which calls to attention: Total costs for the desired business entity, opportunities for cost avoidance, and KPIs for financial health (e.g. performance of rate reduction commitments, unit cost measures for key services, efficiency metrics aggregated by desired “team” or organization unit, etc.).
+Data analysis and showback is the ability to create a near "real time" reporting mechanism which calls to attention: Total costs for the desired business entity, opportunities for cost avoidance, and KPIs for financial health (e.g. performance of rate reduction commitments, unit cost measures for key services, efficiency metrics aggregated by desired "team" or organization unit, etc.).
 
 As cost showback is a fundamental aspect of FinOps, all FinOps domains should be considered and accounted for. Hence, reaching the highest maturity level should be considered a work in progress across the various domains.
 
