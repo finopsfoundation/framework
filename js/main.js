@@ -164,3 +164,16 @@ $('*[data-ga-category]').each(function(){
     }
   });
 });
+
+// Cards filter on waste reduction
+if(document.getElementById('js-waste')) {
+  var mixer = mixitup('.js-waste', {
+    "animation": {
+        "duration": 250,
+        "nudge": true,
+        "reverseOut": false,
+        "effects": "fade translateZ(-100px)"
+    }
+  });
+};
+
