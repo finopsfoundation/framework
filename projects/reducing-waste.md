@@ -10,15 +10,25 @@ project-description: A collection of resources to help identify types of cloud c
 
 ---
 
+## Playbook Details
+* Status: Graduated
+* Slack room: https://finopsfoundation.slack.com/archives/C029SCMA50B
+
+---
+
 # Reducing Waste
 
-Filter by cloud provider: 
+This Project focuses on providing a collection of resources to help identify types of cloud cost waste by service provider, including links to additional tools. You can sort each card by cloud service provider or savings potential.
+
+**Filter by cloud provider:**
+<br>
 <button type="button" class="bg-green-500 rounded-lg text-sm font-semibold text-white tracking-wider uppercase inline-block mr-2 px-2 py-px" data-filter="all">All</button>
 <button type="button" class="bg-green-500 rounded-lg text-sm font-semibold text-white tracking-wider uppercase inline-block mr-2 px-2 py-px" data-filter=".aws">AWS<button>
 <button type="button" class="bg-green-500 rounded-lg text-sm font-semibold text-white tracking-wider uppercase inline-block mr-2 px-2 py-px" data-filter=".gcp">Google Cloud<button>
 <button type="button" class="bg-green-500 rounded-lg text-sm font-semibold text-white tracking-wider uppercase inline-block px-2 py-px" data-filter=".azure">Azure<button>
 
-Filter by saving potential:
+**Filter by saving potential:**
+<br>
 <button type="button" class="bg-green-500 rounded-lg text-sm font-semibold text-white tracking-wider uppercase inline-block mr-2 px-2 py-px" data-filter="all">All</button>
 <button type="button" class="bg-green-500 rounded-lg text-sm font-semibold text-white tracking-wider uppercase inline-block mr-2 px-2 py-px" data-filter=".saving-1">&#36;<button>
 <button type="button" class="bg-green-500 rounded-lg text-sm font-semibold text-white tracking-wider uppercase inline-block mr-2 px-2 py-px" data-filter=".saving-2">&#36;&#36;<button>
