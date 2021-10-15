@@ -14,7 +14,6 @@ framework-capabilities:
 - capability_budget-management
 - capability_asset-management
 - capability_establish-finops-culture
-- capability_showback
 order: 6
 
 ---
