@@ -21,7 +21,7 @@ There are four areas to which vendors can certify their qualifications and align
           </div>
           <h3 class="mt-8 text-lg font-medium text-gray-900 tracking-tight">FinOps Certified Platform</h3>
           <p class="mt-5 text-base text-gray-500">
-            Tier of technology providers that license and deliver a software product to help people successfully adopt cloud financial management practices aligned with the FinOps standards. 
+            Tier of technology providers that license and deliver a software product to help people successfully adopt cloud financial management practices aligned with the FinOps standards.
           </p>
           <!-- <a href="/members/certified-platforms">Learn more</a> -->
         </div>
@@ -68,7 +68,7 @@ There are four areas to which vendors can certify their qualifications and align
           </div>
           <h3 class="mt-8 text-lg font-medium text-gray-900 tracking-tight">FinOps Training Partner</h3>
           <p class="mt-5 text-base text-gray-500">
-             This is a tier of vetted training providers who have deep experience in cloud financial management training. 
+             This is a tier of vetted training providers who have deep experience in cloud financial management training.
           </p>
           <!-- <a href="/members/certified-training-partners">Learn more</a> -->
         </div>
@@ -118,7 +118,7 @@ A pre-qualified tier of vetted service providers who have deep experience helpin
 
 
 ### FinOps Training Partner
-FinOps Foundation recognizes a select group of FinOps Training Partners. This is a tier of vetted training providers who have deep experience in cloud financial management training. 
+FinOps Foundation recognizes a select group of FinOps Training Partners. This is a tier of vetted training providers who have deep experience in cloud financial management training.
 
 - Be a FinOps Foundation and Linux Foundation member
 - Ability to demonstrate your training capabilities by meeting strict benchmarks for experience and quality, including the ability to provide references from students who have completed your training courses and from mid-to-large organizations that have used your training services.
@@ -133,9 +133,8 @@ Email [partners@finops.org](mailto:partners@finops.org) to learn more about cert
 ## FinOps Practitioner Certifications Requirements
 
 | Company Size | Certs Required |
-|---|---|
-| 10000+ | 75 |
-| 5000-9999 | 50 |
+|--:|:--|
+| 5000+ | 50 |
 | 500-4999 | 35 |
 | 100-499 | 10 |
 | 0-99 | 3 |

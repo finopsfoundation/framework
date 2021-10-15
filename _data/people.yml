@@ -1,0 +1,170 @@
+- group: TAC
+  people:
+  - name: Mike Fuller (Chair)
+    job-title: Principal Systems Engineer
+    company: Atlassian
+    linkedin-url: https://www.linkedin.com/in/mikefuller/
+    image: https://media-exp1.licdn.com/dms/image/C4E03AQEhiJqq7hQF1g/profile-displayphoto-shrink_400_400/0/1516318801846?e=1639612800&v=beta&t=IlUwCERmLG3SU0cZyFq6WXcyqugSG_wpJkl2bw0x4KM
+
+  - name: Anders Hagman
+    job-title: Senior Manager, Cloud FinOps & Technology Procurement
+    company: Spotify
+    linkedin-url: https://www.linkedin.com/in/andershagman/
+    image: https://media-exp1.licdn.com/dms/image/C4E03AQGndAATMU-T_A/profile-displayphoto-shrink_400_400/0/1553114879111?e=1639612800&v=beta&t=EU5apttqxjw_AKe0U1x_sM_u719kKt9j7-uMBPgUegs
+
+  - name: Amitai Rottem
+    job-title: Product Manager
+    company: Google
+    linkedin-url: https://www.linkedin.com/in/amitairottem/
+    image: https://media-exp1.licdn.com/dms/image/C5603AQHY3L7G_2vB5w/profile-displayphoto-shrink_400_400/0/1516238543092?e=1639612800&v=beta&t=vmkOUB8GvjHdaK7exPUbenF06ZLWQCdysh9pE9nUYNk
+
+  - name: Joseph Daly
+    job-title: Director, Cloud Optimization Services
+    company: Nationwide
+    linkedin-url: https://www.linkedin.com/in/joseph-daly-52789220/
+    image: https://media-exp1.licdn.com/dms/image/C4E03AQGEbMrrlUOzmg/profile-displayphoto-shrink_400_400/0/1516645604416?e=1639612800&v=beta&t=xG6PHwe5sMv-ekVuy1rRpj9gbUy7oKGMgZ2yi55uoA8
+
+  - name: Melvin Brown
+    job-title: Acting Deputy Chief Information Officer 
+    company: US Government OPM
+    linkedin-url: https://www.linkedin.com/in/melvinbrownii/
+    image: https://media-exp1.licdn.com/dms/image/C4D03AQG17xsqbEaivg/profile-displayphoto-shrink_400_400/0/1516314298836?e=1639612800&v=beta&t=9ZyMxzgXacM7upr7cT5HOWAfXiJviIgqk0kE2wtHX5k
+
+  - name: Jeremy Ung
+    job-title: Vice President, Engineering
+    company: Apptio
+    linkedin-url: https://www.linkedin.com/in/jeremyung/
+    image: https://media-exp1.licdn.com/dms/image/C5603AQH5qdZXm8IdtA/profile-displayphoto-shrink_400_400/0/1604897660509?e=1639612800&v=beta&t=puNkuzPge-Axw5_RbrfurzENbYIBwGJa8IME9g3zIt8
+
+  - name: John McLoughlin
+    job-title: Head of Product
+    company: CloudHealth by VMware
+    linkedin-url: https://www.linkedin.com/in/jttam/
+    image: https://media-exp1.licdn.com/dms/image/C4D03AQEY6DwUhjdH6A/profile-displayphoto-shrink_400_400/0/1516264892611?e=1639612800&v=beta&t=zI1bPTZB9W5gHCTrIsF541ezL_Lhda9nGYTy3sT8OJM
+
+  - name: Antoine Lagier
+    job-title: Senior Cloud Consultant
+    company: Timspirit
+    linkedin-url: https://www.linkedin.com/in/alagier/
+    image: https://media-exp1.licdn.com/dms/image/C4E03AQEFcbO1za_KXQ/profile-displayphoto-shrink_400_400/0/1517697663090?e=1639612800&v=beta&t=R4wNDm0XPZjYRX6IOZMNe7ptCqyT7iXYOJCf1NkSIpM
+
+  - name: Rich Hoyer
+    job-title: Director of Customer FinOps
+    company: SADA
+    linkedin-url: https://www.linkedin.com/in/richhoyer/
+    image: https://media-exp1.licdn.com/dms/image/C5103AQFL7jrViJc2yA/profile-displayphoto-shrink_400_400/0/1516663077742?e=1639612800&v=beta&t=IkoXRpKoQsk-httzXJADBsFVzo0VdHlFfv5Ud4aaEo4
+
+  - name: Riley Jenkins
+    job-title: Sr. SRE/FinOps Architect
+    company: Domo
+    linkedin-url: https://www.linkedin.com/in/riley-jenkins-9884b333/
+    image: https://media-exp1.licdn.com/dms/image/C5603AQEJ9k5K8Tccrg/profile-displayphoto-shrink_400_400/0/1533572023848?e=1639612800&v=beta&t=pz6bV1c-rsHkieGthA6yHDKIxaIMPP1VjcbU7IM3fS8
+
+
+- group: GB
+  people:
+  - name: Jennifer Hays (Chair)
+    job-title: Head of Engineering Efficiency & Assurance
+    company: Fidelity Investments
+    linkedin-url: https://www.linkedin.com/in/jennifer-hays-b2b8a550/
+    image: https://media-exp1.licdn.com/dms/image/C4E03AQEMWJxdgN2ZEQ/profile-displayphoto-shrink_400_400/0/1601672101180?e=1639612800&v=beta&t=WSy3f5HVmiLBNEzcYQ222yOsJp-WjIM1tPQoRm73vqQ
+
+  - name: Abuna Demoz
+    job-title: Senior Manager, Software Engineering
+    company: Google
+    linkedin-url: https://www.linkedin.com/in/abunademoz/
+    image: https://media-exp1.licdn.com/dms/image/C5603AQHwP4N9mS6IyQ/profile-displayphoto-shrink_400_400/0/1585327913736?e=1639612800&v=beta&t=YOSHix0NgTd_RM2uLy8OhhqfK4u0eYDnAYkBN7tE-20
+
+  - name: Mike Fuller (TAC Chair)
+    job-title: Principal Systems Engineer
+    company: Atlassian
+    linkedin-url: https://www.linkedin.com/in/mikefuller/
+    image: https://media-exp1.licdn.com/dms/image/C4E03AQEhiJqq7hQF1g/profile-displayphoto-shrink_400_400/0/1516318801846?e=1639612800&v=beta&t=IlUwCERmLG3SU0cZyFq6WXcyqugSG_wpJkl2bw0x4KM
+
+  - name: Scott Linn
+    job-title: Cloud Services and Optimization Manager 
+    company: Chevron
+    linkedin-url: https://www.linkedin.com/in/scottlinn925/
+    image: https://media-exp1.licdn.com/dms/image/C4E03AQFiCqRdx8G-Iw/profile-displayphoto-shrink_400_400/0/1516345334355?e=1639612800&v=beta&t=Kxflq8Wxsc3kiuOw1zAOWERiU8TMelBS2LKKAJLFtK8
+
+  - name: Natalie Daley
+    job-title: Director Of Operations for CTO Shared Services and Cloud
+    company: HSBC
+    linkedin-url: https://www.linkedin.com/in/natalie-daley-6b063239/
+    image: /img/pages/blank-avatar.png
+
+  - name: Miles Ward
+    job-title: CTO
+    company: SADA
+    linkedin-url: https://www.linkedin.com/in/milesward/
+    image: https://media-exp1.licdn.com/dms/image/C4E03AQEgDO1HdlTJRQ/profile-displayphoto-shrink_400_400/0/1542675164525?e=1639612800&v=beta&t=nAxAlckZKSpohnTbpIIpGC-FUZ2XR0umI6NPFCtZyUo
+
+  - name: Rakinder Sembhi
+    job-title: Principal
+    company: Deloitte
+    linkedin-url: https://www.linkedin.com/in/rakinder-sembhi-40b384/
+    image: https://media-exp1.licdn.com/dms/image/D4E03AQHoUNwD1ug2cA/profile-displayphoto-shrink_400_400/0/1633020357534?e=1639612800&v=beta&t=C6xWhf-IpTNxFXG06rLa-1DoHoFJYAQ20kx0fKUWZxY
+
+  - name: Deb MacCallum
+    job-title: Vice President Of Engineering
+    company: CloudHealth by VMware
+    linkedin-url: https://www.linkedin.com/in/debmaccallum/
+    image: https://media-exp1.licdn.com/dms/image/C4E03AQEsevdEv3xPWg/profile-displayphoto-shrink_400_400/0/1588712305192?e=1639612800&v=beta&t=aX0FUtZcAHuVCe72Jy2Z-DIPWPKEcHM-fCF4U4f-AvM
+
+  - name: Mike Eisenstein
+    job-title: Global Cloud Optimization Lead
+    company: Accenture
+    linkedin-url: https://www.linkedin.com/in/mikeeisenstein/
+    image: https://media-exp1.licdn.com/dms/image/C4D03AQFPlhEflvFBvQ/profile-displayphoto-shrink_400_400/0/1516282893254?e=1639612800&v=beta&t=T_9i1-jDQzRC1BURE5TWorxkrQc2FEbNyWudBiUUys8
+
+  - name: Michael Kearns
+    job-title: Chief Executive Officer 
+    company: Virtasant
+    linkedin-url: https://www.linkedin.com/in/michaelpkearns/
+    image: https://media-exp1.licdn.com/dms/image/C4E03AQEgLnRH7aNr4A/profile-displayphoto-shrink_400_400/0/1584562029033?e=1639612800&v=beta&t=sNQXu7d_ybrbzivNXqg3ReK-1KV406LLTWCfPCV7EAw
+
+  - name: Eugene Khvostov
+    job-title: Vice President, Product and Engineering
+    company: Apptio
+    linkedin-url: https://www.linkedin.com/in/eugenekhvostov/
+    image: https://media-exp1.licdn.com/dms/image/C5603AQFo33NzCjZsOw/profile-displayphoto-shrink_400_400/0/1567705135879?e=1639612800&v=beta&t=O57WbqJorbiowf-DdWe32Fpo3JyclmaWrT0j7oPBfRA
+      
+  - name: Fernando Herrera
+    job-title: Chief Executive Officer 
+    company: Nordcloud an IBM company
+    linkedin-url: https://www.linkedin.com/in/feherrera/
+    image: /img/pages/blank-avatar.png
+
+- group: F2
+  people:
+  - name: J.R. Storment
+    job-title: Executive Director
+    linkedin-url: https://www.linkedin.com/in/jrstorment/
+    image: https://media-exp1.licdn.com/dms/image/C4E03AQEMbsUL50U9nQ/profile-displayphoto-shrink_400_400/0/1559583831098?e=1639612800&v=beta&t=VLPyBWBTwid5FU6HCVKpigpgaFlbDLVld3r402S_Z0w
+
+  - name: Stacy Case
+    job-title: Training & Operations
+    linkedin-url: https://www.linkedin.com/in/stacy-case/
+    image: https://media-exp1.licdn.com/dms/image/C5603AQHx4F2qnCwuFA/profile-displayphoto-shrink_400_400/0/1604952855897?e=1639612800&v=beta&t=i6PMHwrQ1byRGy6N_1R0Ub4EBvcQvOc4uTqVOowgrH4
+
+  - name: Rob Martin
+    job-title: Learning & Curriculums
+    linkedin-url: https://www.linkedin.com/in/robmartin3/
+    image: https://media-exp1.licdn.com/dms/image/C5603AQGWYn4UzioVaw/profile-displayphoto-shrink_400_400/0/1516351880142?e=1639612800&v=beta&t=iIZhwzkYs_E967K5qTMSpUb5tIU6hJ43sJ6Y0WFBzfo
+
+  - name: Vasilio Markanastasakis
+    job-title: Framework & Standards
+    linkedin-url: https://www.linkedin.com/in/vasilio/
+    image: https://media-exp1.licdn.com/dms/image/C5603AQHs14mCs2axpA/profile-displayphoto-shrink_400_400/0/1552674273685?e=1639612800&v=beta&t=yGL_NbrpMQq0PyyF_tfPwkeCjZo-m-wL1nwOntr09Wk
+
+  - name: Kevin Emamy
+    job-title: Vendors & Partners
+    linkedin-url: https://www.linkedin.com/in/kevinemamy/
+    image: https://media-exp1.licdn.com/dms/image/C5103AQFxm_c21rpndg/profile-displayphoto-shrink_400_400/0/1516287422030?e=1639612800&v=beta&t=kGiL15chElDOU9sA2x6fXoIEEJjO-Ctr1IE3W5PtZ2s
+
+  - name: Steve Trask
+    job-title: Digital & Growth
+    linkedin-url: https://www.linkedin.com/in/steventrask/
+    image: https://media-exp1.licdn.com/dms/image/C5103AQFpgMznhuUibA/profile-displayphoto-shrink_400_400/0/1517340701252?e=1639612800&v=beta&t=psPz9kMdwPiRKR-p8ZfHZ_42f-m8SIFHZWoWuCKsae8
+
+

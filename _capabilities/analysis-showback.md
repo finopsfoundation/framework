@@ -16,14 +16,13 @@ order: 2
 
 {% include domains-loop.md %}
 
-
 ## Definition
 Data analysis and showback is the ability to create a near “real time” reporting mechanism which calls to attention: Total costs for the desired business entity, opportunities for cost avoidance, and KPIs for financial health (e.g. performance of rate reduction commitments, unit cost measures for key services, efficiency metrics aggregated by desired “team” or organization unit, etc.).
 
 As cost showback is a fundamental aspect of FinOps, all FinOps domains should be considered and accounted for. Hence, reaching the highest maturity level should be considered a work in progress across the various domains.
 
-
 ## Maturity Assessment
+
 **Crawl**
 - Focus on reporting optimizations for services aligning to your highest spend. Often these will be compute right sizing and idle capacity.
 - Users are tracking costs at the account level.
@@ -47,8 +46,6 @@ As cost showback is a fundamental aspect of FinOps, all FinOps domains should be
 - Tagging is governed and compliance is at high levels opening the doors for more sophisticated costing views.
 - Organization has reached a maturity point in rate optimization where coverage is high, while maintaining consistent savings; this may also go beyond standard compute and database rate reduction into lesser utilized services and potentially even custom rate negotiations have taken place.
 
-
-
 ## Functional Activity
 As a *FinOps Practitioner*, I will spend a significant amount of effort in collaboration with Engineering/Finance/Procurement/Product Management to build a cost reporting ecosystem which is aimed at helping consumers understand the important aspects of their spend, as well as, opportunities to optimize their spend.
 
@@ -58,15 +55,11 @@ As a *Finance/Procurement Manager*, I will use the reporting ecosystem to develo
 
 As a *Business/Product Manager*, I will develop KPIs to measure the cost effectiveness in achieving my desired business outcomes. These KPIs will be used in frequent collaboration with my engineering counterparts.
 
-
-
 ## Measure(s) of Success
 - Overall Tagging Compliance is 90% or above
 - The cloud cost reporting ecosystem becomes a fundamental aspect of the IT department
 - Most product teams are publishing information related to their unit economics
 - FinOps team can define desired level of commitment coverage vs. utilization
-
-
 
 ## Inputs
 - Detailed Billing or Cost and Usage Report
@@ -74,8 +67,6 @@ As a *Business/Product Manager*, I will develop KPIs to measure the cost effecti
 - Business Intelligence application/s
 - Consistent Marketing
 - Organizational Structure
-
-
 
 ## Real World Resources
 _a collection of real world examples, stories and “how to” for this Capability; based on FinOps community member experiences; information here may:_
@@ -85,8 +76,6 @@ _a collection of real world examples, stories and “how to” for this Capabili
 * _describe the industry the organization belongs to_
 * _describe the complexity of the organization (global, enterprise, etc…)_
 * _include the FinOps personas involved and any other organizational roles_
-
-
 
 ## Get Involved
 _Get involved and contribute to the community by sharing your real world experiences related to this Capability in the form of a story or providing a playbook for how you have implemented best practices in your organization. Your real world experiences can be provided in the context of:_
