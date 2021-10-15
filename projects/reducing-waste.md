@@ -11,8 +11,8 @@ project-description: A collection of resources to help identify types of cloud c
 ---
 
 ## Playbook Details
-Status: Graduated
-Slack room: https://finopsfoundation.slack.com/archives/C029SCMA50B
+* Status: Graduated
+* Slack room: https://finopsfoundation.slack.com/archives/C029SCMA50B
 
 ---
 
