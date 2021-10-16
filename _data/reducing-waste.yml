@@ -101,7 +101,7 @@
   cloud-service-name: EBS - Migrate to Newer Types
   type: efficiency
   savings-potential: $$$
-  description: We saved 20% on some of our EBS costs by migrating from the gp2 to the gp3 EBS volume type. Read more in [Mike Martin's user story](/blah)
+  description: We saved 20% on some of our EBS costs by migrating from the gp2 to the gp3 EBS volume type.
   related-url: https://aws.amazon.com/blogs/storage/migrate-your-amazon-ebs-volumes-from-gp2-to-gp3-and-save-up-to-20-on-costs/
   code-url: 
   story-url: /stories/upgrade-your-ebs/
