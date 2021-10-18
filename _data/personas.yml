@@ -1,0 +1,199 @@
+- name: CEO
+  primary-goal: Assurance that cloud investments are aligned with business objectives
+  img:
+  titles:
+  objectives:
+    - item: Accelerate Company Growth YoY
+    - item: Strategic Competitive Advantage
+    - item: Faster time-to-market
+    - item: Deliver innovative, market leading solutions cost effectively
+  frustrations:
+    - item: Unpredictable, sometimes chaotic, cloud spend
+    - item: Unable to see link between engineering initiatives and business objectives
+    - item: Unsure of the return on their company’s cloud investment
+  key-metrics:
+    - item: Revenue Growth
+    - item: Gross Margins
+    - item: COGS (Cost of Goods Sold)
+    - item: Unit Cost Economics
+  finops-benefits:
+    - item: Manage risk
+    - item: Connect engineering decisions with business outcomes
+    - item: Predict how cloud spend will grow as the business grows
+    - item: Guide organization to make good cloud investments
+
+- name: CTO / CIO
+  primary-goal: Leverage technology to give the business a market and competitive advantage
+  img:
+  titles:
+  objectives:
+    - item: Accelerate Company Growth YoY
+    - item: Strategic Competitive Advantage
+    - item: Faster time-to-market
+    - item: Deliver innovative, market leading solutions cost effectively
+  frustrations:
+    - item: Extreme pressure to either justify or bring the cloud bill down
+    - item: No guardrails on spend
+    - item: Unsatisfied engineers
+    - item: Business continuity
+    - item: Reliability
+  key-metrics:
+    - item: Revenue Growth
+    - item: Gross Margins
+    - item: COGS (Cost of Goods Sold)
+    - item: Unit Cost Economics
+    - item: Time to market for new features/product
+    - item: Engineering productivity
+    - item: Track R&D vs. Production spend
+    - item: Maintain operations within budget
+  finops-benefits:
+    - item: Predict how cloud spend will grow as the business grows
+    - item: Drive organization to make good cloud investments
+    - item: Enable engineering organizations to gain more freedom to utilize newer cloud technologies and deliver solutions to market faster
+
+
+- name: CFO
+  primary-goal: 
+  img:
+  titles:
+  objectives:
+    - item: Cost visibility and granularity, and accuracy
+    - item: Overall cost-per-unit / COGS reduction
+    - item: Managing costs during growth, disproportionate cost reduction during flat/declining periods
+  frustrations:
+    - item: Unpredictable, sometimes chaotic, cloud spend
+    - item: Unsure of the return on their company’s cloud investment
+    - item: Cost fluctuations and innovation do not align to budgeting cycles
+  key-metrics:
+    - item: Revenue Growth
+    - item: Gross Margins
+    - item: COGS (Cost of Goods Sold)
+    - item: Unit Cost Economics
+    - item: Predictability
+  finops-benefits:
+    - item: Increased accountability for cloud cost
+    - item: Increased reliance on budget and forecast models
+    - item: Direct impact on company bottom line
+
+- name: Product Owner
+  primary-goal: Quickly bring new products and features to market with an accurate price point.
+  img:
+  titles:
+  objectives:
+    - item: Accelerate Product Growth YoY
+    - item: Increase time to market
+    - item: Deliver innovative, market leading solutions cost effectively
+  frustrations:
+    - item: Unpredictable, sometimes chaotic, cloud spend
+    - item: Cannot predict the costs closely enough for new features and products resulting in pricing misses
+    - item: Cannot predict how costs will change when launching existing products in new regions/markets
+  key-metrics:
+    - item: Revenue Growth
+    - item: Gross Margins
+    - item: COGS (Cost of Goods Sold)
+    - item: Unit Cost Economics - Cost per customer, Cost per product/feature
+  finops-benefits:
+    - item: Manage risk
+    - item: Connect product decisions with business outcomes
+    - item: Predict how much cloud infrastructure will factor into feature/ product price
+    - item: Guide team to make good cloud investments
+
+- name: Engineering Lead
+  primary-goal: Deliver faster and high quality services to the organisation, whilst maintaining business as usual
+  img:
+  titles:
+  objectives:
+    - item: Unsatisfied engineers as their workload keeps rising.
+    - item: Long delivery cycles
+    - item: Cannot predict the impact on the budget
+    - item: Difficult to identify service or application ownership
+    - item: Cannot predict the costs closely enough for developing new features and products.
+  frustrations:
+    - item: Drive accountability to engineering teams that are responsible for the application/services. 
+    - item: Provide guidance to engineering teams to have a cost-effective application/service by identifying anomalies and best practices.
+    - item: Work together with engineering teams to identify rate reductions and possible cost avoidance
+    - item: Cost allocation
+  key-metrics:
+    - item: Revenue by infrastructure costs
+    - item: Cost per deployed service & service utilisation rates
+    - item: Showback & Chargeback of IT costs to the business
+  finops-benefits:
+    - item: Increased visibility to cloud cost
+    - item: Connection to cloud cost and unit economics
+    - item: More accountability for utilization 
+    - item: Incentive towards solid architecture principles to factor efficiency
+
+- name: IT Finance Manager
+  primary-goal: Accurately budget, forecast and report cloud costs
+  img:
+  titles:
+  objectives:
+    - item: Cost out and budget maintenance
+    - item: Prepare accurate forecasts
+    - item: Report actual costs and trends
+    - item: Normalize spend predictability 
+  frustrations:
+    - item: Unpredictable, sometimes chaotic, cloud spend
+    - item: Frustrated team as cloud cost accountability is distributed
+    - item: Challenges with legacy finance models (cap-ex vs op-ex)
+  key-metrics:
+    - item: Revenue Growth
+    - item: Gross Margins
+    - item: COGS (Cost of Goods Sold)
+    - item: Unit Cost Economics
+    - item: Budget and forecast transparency and accuracy
+    - item: Policy compliance
+  finops-benefits:
+    - item: Identify unallocated spend
+    - item: Facilitate showback/chargebacks to increase financial accountability
+    - item: Drive budget and forecast accuracy
+    - item: Guide team to make good cloud investments
+
+- name: Procurement
+  primary-goal: Cloud platform relationship management
+  img:
+  titles:
+  objectives:
+    - item: Negotiate the best win-win cloud contract
+    - item: Exercise enterprise discount / volume commitment programs
+    - item: Manage relationship with Cloud platform provider
+  frustrations:
+    - item: Lack of visibility to cloud cost data
+    - item: Lack of centralized process for cloud commitments
+  key-metrics:
+    - item: Software license optimization 
+    - item: Cost per license
+    - item: Utilization of licenses per team
+    - item: Cost or IT Spend per Vendor to provide possible consolidation opportunities
+  finops-benefits:
+    - item: Obtain the best cloud cost rates available 
+    - item: Translate billing data to activity based costing 
+    - item: Provide visibility and enable understanding of cost per technology license and contracts
+
+- name: FinOps
+  primary-goal: Drive best practices into the organization through education, standardization, and cheerleading
+  img:
+  titles:
+  objectives:
+    - item: Cultural change flag bearer
+    - item: Create cloud cost management best practices
+    - item: Create benchmarks for teams to use
+    - item: Create visibility and transparency to cloud cost
+    - item: Create or inform cloud budgets and forecasts
+  frustrations:
+    - item: Lack of access to needed data
+    - item: Distributed accountability 
+    - item: Building adoption at enterprise scale
+    - item: Tool reliance that does not deliver capabilities needed 
+  key-metrics:
+    - item: Accurate budgets
+    - item: Accurate forecasts
+    - item: Unit Cost Economics
+    - item: Discount/Reservation coverage
+    - item: Percentage untagged resources
+    - item: Efficiency opportunity 
+  finops-benefits:
+    - item: Centralized cloud cost management in single cloud or multi-cloud environment
+    - item: Align accountability to cloud users
+    - item: Build confidence around budgets and forecasts
+    - item: Advance communication throughout the organization
