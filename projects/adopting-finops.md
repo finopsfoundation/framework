@@ -1,6 +1,6 @@
 ---
 
-layout: default
+layout: wide
 title: Adopting FinOps
 description:
 
@@ -21,127 +21,119 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 
 ## RACI / DACI
 
-<table>
-  <th>
-    <td width="200"></td>
-    <td>FinOps Team</td>
-    <td>App Teams</td>
-    <td>IT  Domains</td>
-    <td>Finance</td>
-    <td>Sourcing</td>
-    <td>Business</td>
-  </th>
-
-  <tr>
-    <td width="200">Establishing cloud cost control guardrails</td>
-    <td>A</td>
-    <td>I</td>
-    <td>C</td>
-    <td>C</td>
-    <td></td>
-    <td></td>
-  </tr>
-
-  <tr>
-    <td>Cloud cost tagging standards & compliance</td>
-    <td>A</td>
-    <td>R</td>
-    <td>C</td>
-    <td>R</td>
-    <td>C</td>
-    <td></td>
-  </tr>
-
-  <tr>
-    <td>Cloud cost allocations keys</td>
-    <td>A</td>
-    <td>R</td>
-    <td>C</td>
-    <td>R</td>
-    <td></td>
-    <td></td>
-  </tr>
-
-  <tr>
-    <td>Synchronizing actual & planned cloud spend with official budgets & plans</td>
-    <td>A</td>
-    <td>I</td>
-    <td>C</td>
-    <td></td>
-    <td>R</td>
-    <td>C</td>
-  </tr>
-
-  <tr>
-    <td>Helping Application teams identify work-load level cost efficiency targets</td>
-    <td>A</td>
-    <td>R</td>
-    <td>I</td>
-    <td></td>
-    <td></td>
-    <td>C</td>
-  </tr>
-
-  <tr>
-    <td>Workload-level cost efficiency realization</td>
-    <td>C</td>
-    <td>A</td>
-    <td>I</td>
-    <td></td>
-    <td></td>
-    <td>C</td>
-  </tr>
-
-  <tr>
-    <td>Optimize enterprise-level costs through right-sizing; resource decom; etc</td>
-    <td>A</td>
-    <td>R</td>
-    <td>C</td>
-    <td>I</td>
-    <td></td>
-    <td></td>
-  </tr>
-
-  <tr>
-    <td>Lead buying strategy to capture savings via reserved instances; VM spot pricing; etc.</td>
-    <td>A</td>
-    <td>C</td>
-    <td>C</td>
-    <td></td>
-    <td>R</td>
-    <td>C</td>
-  </tr>
-
-  <tr>
-    <td>IT Planning, forecasting & budgeting</td>
-    <td>C</td>
-    <td>R</td>
-    <td>A</td>
-    <td>R</td>
-    <td></td>
-    <td>C</td>
-  </tr>
-
-  <tr>
-    <td>Bottom-up planning & forecasting</td>
-    <td>C</td>
-    <td>R</td>
-    <td>A</td>
-    <td>R</td>
-    <td></td>
-    <td>C</td>
-  </tr>
-
-  <tr>
-    <td>Business Unit Economics</td>
-    <td>C</td>
-    <td>R</td>
-    <td>A</td>
-    <td>R</td>
-    <td></td>
-    <td>A</td>
-  </tr>
-
+<table class="text-center text-md align-middle adopting-table" style="table-layout:fixed;">
+  <thead>
+    <tr>
+      <th></th>
+      <th width="80">FinOps Team</th>
+      <th width="80">App Teams</th>
+      <th width="80">IT  Domains</th>
+      <th width="80">Finance</th>
+      <th width="80">Sourcing</th>
+      <th width="80">Business</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="text-left">Establishing cloud cost control guardrails</td>
+      <td>A</td>
+      <td>I</td>
+      <td>C</td>
+      <td>C</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td class="text-left">Cloud cost tagging standards & compliance</td>
+      <td>A</td>
+      <td>R</td>
+      <td>C</td>
+      <td>R</td>
+      <td>C</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td class="text-left">Cloud cost allocations keys</td>
+      <td>A</td>
+      <td>R</td>
+      <td>C</td>
+      <td>R</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td class="text-left">Synchronizing actual & planned cloud spend with official budgets & plans</td>
+      <td>A</td>
+      <td>I</td>
+      <td>C</td>
+      <td>-</td>
+      <td>R</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td class="text-left">Helping Application teams identify work-load level cost efficiency targets</td>
+      <td>A</td>
+      <td>R</td>
+      <td>I</td>
+      <td>-</td>
+      <td>-</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td class="text-left">Workload-level cost efficiency realization</td>
+      <td>C</td>
+      <td>A</td>
+      <td>I</td>
+      <td>-</td>
+      <td>-</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td class="text-left">Optimize enterprise-level costs through right-sizing; resource decom; etc</td>
+      <td>A</td>
+      <td>R</td>
+      <td>C</td>
+      <td>I</td>
+      <td>-</td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td class="text-left">Lead buying strategy to capture savings via reserved instances; VM spot pricing; etc.</td>
+      <td>A</td>
+      <td>C</td>
+      <td>C</td>
+      <td>-</td>
+      <td>R</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td class="text-left">IT Planning, forecasting & budgeting</td>
+      <td>C</td>
+      <td>R</td>
+      <td>A</td>
+      <td>R</td>
+      <td>-</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td class="text-left">Bottom-up planning & forecasting</td>
+      <td>C</td>
+      <td>R</td>
+      <td>A</td>
+      <td>R</td>
+      <td>-</td>
+      <td>C</td>
+    </tr>
+    <tr>
+      <td class="text-left">Business Unit Economics</td>
+      <td>C</td>
+      <td>R</td>
+      <td>A</td>
+      <td>R</td>
+      <td>-</td>
+      <td>A</td>
+    </tr>
+  </tbody>
 </table>
 
 

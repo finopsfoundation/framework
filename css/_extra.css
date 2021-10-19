@@ -32,6 +32,16 @@ hr.basic {
   background-image:  none;
 }
 
+.adopting-table td {
+  vertical-align: middle;
+}
+
+.adopting-table tr:nth-child(even) {
+  background: #CCC
+}
+
+
+
 /*.nav-dropdown-link:after {
   border-top-width: 2px;
   border-top-style: solid;
