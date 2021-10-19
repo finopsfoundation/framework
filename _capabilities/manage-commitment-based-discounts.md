@@ -14,6 +14,7 @@ order: 8
 
 # Manage Commitment Based Discounts
 
+{% include contribute-capabiility.md %}
 
 {% include domains-loop.md %}
 

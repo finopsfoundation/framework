@@ -14,6 +14,7 @@ order: 7
 
 # Workload Management & Automation
 
+{% include contribute-capabiility.md %}
 
 {% include domains-loop.md %}
 

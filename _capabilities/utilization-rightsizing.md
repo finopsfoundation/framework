@@ -14,6 +14,7 @@ order: 9
 
 # Resource Utilization & Rightsizing
 
+{% include contribute-capabiility.md %}
 
 {% include domains-loop.md %}
 

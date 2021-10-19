@@ -15,6 +15,8 @@ order: 12
 # Chargeback & IT Finance Integration
 
 
+{% include contribute-capabiility.md %}
+
 {% include domains-loop.md %}
 
 

@@ -14,6 +14,7 @@ order: 4
 
 # Manage Shared Cost
 
+{% include contribute-capabiility.md %}
 
 {% include domains-loop.md %}
 

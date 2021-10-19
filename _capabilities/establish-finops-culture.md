@@ -14,6 +14,7 @@ order: 14
 
 # Establish FinOps Culture
 
+{% include contribute-capabiility.md %}
 
 {% include domains-loop.md %}
 

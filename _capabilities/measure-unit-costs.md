@@ -14,6 +14,7 @@ order: 10
 
 # Measure Unit Costs
 
+{% include contribute-capabiility.md %}
 
 {% include domains-loop.md %}
 

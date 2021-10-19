@@ -14,6 +14,7 @@ order: 6
 
 # Budget Management
 
+{% include contribute-capabiility.md %}
 
 {% include domains-loop.md %}
 
