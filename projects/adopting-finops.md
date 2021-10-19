@@ -21,16 +21,129 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 
 ## RACI / DACI
 
-|   | FinOps Team | App Teams | IT  Domains | Finance | Sourcing | Business |
-|---|---|---|---|---|---|---|
-|   |   |   |   |   |   |   |
-|   |   |   |   |   |   |   |
-|   |   |   |   |   |   |   |
-|   |   |   |   |   |   |   |
-|   |   |   |   |   |   |   |
-|   |   |   |   |   |   |   |
+<table>
+  <th>
+    <td width="200"></td>
+    <td>FinOps Team</td>
+    <td>App Teams</td>
+    <td>IT  Domains</td>
+    <td>Finance</td>
+    <td>Sourcing</td>
+    <td>Business</td>
+  </th>
 
-Accountable  - Ultimately accountable for the results and outcomes; also responsible for specific tasks
-Responsibility  - Responsible for the carrying out and completion of specific task needed to complete workload
-Consulted  - Contacted for opinions & input to the planned scope of work
-Informed  - Kept up-to-date on progress, often only on completion of the task or deliverable
+  <tr>
+    <td width="200">Establishing cloud cost control guardrails</td>
+    <td>A</td>
+    <td>I</td>
+    <td>C</td>
+    <td>C</td>
+    <td></td>
+    <td></td>
+  </tr>
+
+  <tr>
+    <td>Cloud cost tagging standards & compliance</td>
+    <td>A</td>
+    <td>R</td>
+    <td>C</td>
+    <td>R</td>
+    <td>C</td>
+    <td></td>
+  </tr>
+
+  <tr>
+    <td>Cloud cost allocations keys</td>
+    <td>A</td>
+    <td>R</td>
+    <td>C</td>
+    <td>R</td>
+    <td></td>
+    <td></td>
+  </tr>
+
+  <tr>
+    <td>Synchronizing actual & planned cloud spend with official budgets & plans</td>
+    <td>A</td>
+    <td>I</td>
+    <td>C</td>
+    <td></td>
+    <td>R</td>
+    <td>C</td>
+  </tr>
+
+  <tr>
+    <td>Helping Application teams identify work-load level cost efficiency targets</td>
+    <td>A</td>
+    <td>R</td>
+    <td>I</td>
+    <td></td>
+    <td></td>
+    <td>C</td>
+  </tr>
+
+  <tr>
+    <td>Workload-level cost efficiency realization</td>
+    <td>C</td>
+    <td>A</td>
+    <td>I</td>
+    <td></td>
+    <td></td>
+    <td>C</td>
+  </tr>
+
+  <tr>
+    <td>Optimize enterprise-level costs through right-sizing; resource decom; etc</td>
+    <td>A</td>
+    <td>R</td>
+    <td>C</td>
+    <td>I</td>
+    <td></td>
+    <td></td>
+  </tr>
+
+  <tr>
+    <td>Lead buying strategy to capture savings via reserved instances; VM spot pricing; etc.</td>
+    <td>A</td>
+    <td>C</td>
+    <td>C</td>
+    <td></td>
+    <td>R</td>
+    <td>C</td>
+  </tr>
+
+  <tr>
+    <td>IT Planning, forecasting & budgeting</td>
+    <td>C</td>
+    <td>R</td>
+    <td>A</td>
+    <td>R</td>
+    <td></td>
+    <td>C</td>
+  </tr>
+
+  <tr>
+    <td>Bottom-up planning & forecasting</td>
+    <td>C</td>
+    <td>R</td>
+    <td>A</td>
+    <td>R</td>
+    <td></td>
+    <td>C</td>
+  </tr>
+
+  <tr>
+    <td>Business Unit Economics</td>
+    <td>C</td>
+    <td>R</td>
+    <td>A</td>
+    <td>R</td>
+    <td></td>
+    <td>A</td>
+  </tr>
+
+</table>
+
+
+
+https://docs.google.com/presentation/d/17shQqIbmXMbjhAW26nD7qJeM9kqsbaDkTS9WzMk1okg/edit?usp=sharing
