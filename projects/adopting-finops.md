@@ -15,7 +15,7 @@ description: Get guidance and tooling to help your organization unlock the promi
 
   <h3>Resources</h3>
   <ul>
-    <li>Discussion Slack: [#adopting-finops](https://finopsfoundation.slack.com/archives/CMZG5KZ8Q)</li>
+    <li>Discussion Slack: <a href="https://finopsfoundation.slack.com/archives/CMZG5KZ8Q">#adopting-finops</a></li>
     <li>Working Group Slack: <a href="https://finopsfoundation.slack.com/archives/C026T4HQK09">#wg-adopting-finops</a></li>
     <li>Pitch Deck: Google Slides version of the <a href="https://docs.google.com/presentation/d/17shQqIbmXMbjhAW26nD7qJeM9kqsbaDkTS9WzMk1okg/edit?usp=sharing">Adopting FinOps Deck</a></li>
   </ul>
