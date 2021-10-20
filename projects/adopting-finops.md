@@ -5,18 +5,23 @@ title: Adopting FinOps
 description: Get guidance and tooling to help your organization unlock the promise of Cloud Computing and envision a world where efficient, profitable and cost effective cloud systems are made possible by the collaboration of finance, engineering and executive leadership through the FinOps Framework.
 
 ---
-## Project Details
-- Status: Incubating
-- Slack room: https://finopsfoundation.slack.com/archives/CMZG5KZ8Q
+## Adopting FinOps Project Details
 
-# Adopting FinOps
+_The work you see on this page is an output of the *Adopting FinOps* working group. It is an evolving set of materials aiming to provide practical guidance, education and enablement that helps organizations of all sizes and cloud maturity adopt FinOps as the standard for Cloud Financial Operations and Management. Use this project to gain a stronger understanding of how to champion FinOps at your organization, inform and involve various teams and personas, and to access tools (like a roadmap and slide deck) to prepare you to have these conversations._
 
-We see FinOps as the key to unlocking the promise of Cloud Computing and envision a world where efficient, profitable and cost effective cloud systems are made possible by the collaboration of finance, engineering and executive leadership through the FinOps framework.
+### Resources
+- Discussion Slack: [#adopting-finops](https://finopsfoundation.slack.com/archives/CMZG5KZ8Q)
+- Working Group Slack: [#wg-adopting-finops](https://finopsfoundation.slack.com/archives/C026T4HQK09)
+- Pitch Deck: Google Slides version of the [Adopting FinOps Deck](https://docs.google.com/presentation/d/17shQqIbmXMbjhAW26nD7qJeM9kqsbaDkTS9WzMk1okg/edit?usp=sharing)
 
-## Project Mission
-Serve the FinOps community through practical guidance, education and enablement that helps organizations of all sizes and cloud maturity adopt FinOps as the standard for Cloud Financial Operations and Management.
+# How to Jump Start FinOps in your Organization 
 
-Use this project to gain a stronger understanding of how to champion FinOps at your organization, inform and involve various teams and personas, and to access tools (like a roadmap and slide deck) to prepare you to have these conversations.
+One of the biggest challenges in starting a FinOps practice is getting broad executive support and buy-in to dedicate the time and resources needed for the cultural change. We see FinOps as the key to unlocking the promise of Cloud Computing and envision a world where efficient, profitable and cost effective cloud systems are made possible by the collaboration of finance, engineering and executive leadership through the FinOps framework. However without proper organizational support from both the technical and financial leadership of the company, nascent FinOps practices often get stuck in a reactive Walk-stage [maturity](/framework/maturity-model/) battling other priorities in the organization.
+
+- Stage 1 - Planning for FinOps in an Organization (Laying the groundwork)
+- Stage 2 - Socializing FinOps for adoption in an organization 
+- Stage 3 - Preparing the organization for FinOps
+- Accountability and expectations by team (RACI / DACI modeling)
 
 ## The FinOps Driver: the first steps
 
