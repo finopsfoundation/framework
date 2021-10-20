@@ -15,6 +15,8 @@ order: 13
 # Measure Efficiency
 
 
+{% include contribute-capabiility.md %}
+
 {% include domains-loop.md %}
 
 
