@@ -48,6 +48,10 @@
   .badge-dgrey:hover {
     @apply bg-gray-400
   }
+
+  .badge-dgrey svg {
+    @apply text-gray-500 
+  }
 }
 
 @layer base {
