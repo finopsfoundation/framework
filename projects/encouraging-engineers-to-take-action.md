@@ -10,7 +10,7 @@ project-description: We gathered our FinOps experts to address the challenge of 
 
 ---
 
-## Playbook Details
+## Project Details
 
 - Status: Graduated
 - Slack room: https://finopsfoundation.slack.com/archives/G01NQLND9HR

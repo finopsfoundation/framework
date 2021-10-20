@@ -34,6 +34,7 @@
 - name: Resources
   children:
   - name: How to Contribute
+    url: /introduction/how-to-contribute/
   - name: How to Use
   - name: Monthly Update
   - name: Training & Certification

@@ -46,6 +46,11 @@ layout: wide
   </div>
 </div>
 
+## Adopting FinOps: Understanding Executive Personas
+When proposing the adoption of a FinOps function within an organization, there will be a need to brief a variety of personas among the executive team to gain approval, buy-in, and involvement in conducting FinOps and achieving its goals. 
+
+Each Executive team persona is described below, in terms of their goals, concerns, key messaging and useful KPIs. By understanding the motivations of each executive persona, a FinOps champion will be able to describe the value of FinOps more effectively, minimizing the time and effort to gain alignment. Please see [the main Adopting FinOps](/projects/adopting-finops) section for more context.
+
 
 {% for persona in site.data.personas %}
 
