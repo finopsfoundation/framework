@@ -33,9 +33,9 @@ One of the biggest challenges in starting a FinOps practice is getting broad exe
 
 ## The FinOps Driver: the first steps
 
-![Key personas that the Driver must inform](/img/adopting-finops/adopting-finops-driver.png)
-
 A key role toward building FinOps adoption is the Driver. We've outlined key personas to inform and milestones to accomplish as they help build the practice and culture at their organization.
+
+![An example roadmap to follow](/img/adopting-finops/adopting-finops-roadmap.png)
 
 ### Stage 1 - Planning for FinOps in an Organization (Laying the groundwork)
 
@@ -118,6 +118,8 @@ The Working Group continues to refine these Driver milestones. If you'd like to 
 ## Personas
 
 When proposing the adoption of a FinOps function within an organization, there will be a need to brief a variety of personas among the executive team to gain approval, buy-in, and involvement in conducting FinOps and achieving its goals. 
+
+![Key personas that the Driver must inform](/img/adopting-finops/adopting-finops-driver.png)
 
 Each Executive team persona is described below, in terms of their goals, concerns, key messaging and useful KPIs. By understanding the motivations of each executive persona, a FinOps champion will be able to describe the value of FinOps more effectively, minimizing the time and effort to gain alignment.
 
@@ -244,16 +246,3 @@ As cloud technologies and cloud cost management methods change, these various ro
     </tr>
   </tbody>
 </table>
-<<<<<<< HEAD
-
-## Resources and Tooling
-
-### The FinOps Foundation's Adopting FinOps presentation template
-
-![An example of the FinOps roadmap, including in our presentation tooling](/img/adopting-finops/adopting-finops-roadmap.png)
-
-We've provided this starter guide to help you build a presentation to inform other teams, teammates, and stakeholders about the benefits of building a FinOps practice. It includes preparation steps, accountability and expectations per role and persona, a detailed roadmap, and more.
-
-Please find an open source copy of the presentation [here](https://docs.google.com/presentation/d/17shQqIbmXMbjhAW26nD7qJeM9kqsbaDkTS9WzMk1okg/edit?usp=sharing). Get in touch with our Working Group if you'd like to recommend changes or additions to this community tool.
-=======
->>>>>>> 2dfa0597858e1debba0a447f859dcc245650c346
