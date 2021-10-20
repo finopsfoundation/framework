@@ -12,7 +12,7 @@ layout: wide
   </div>
   <div class="p-4">
     <h2 class="mt-0">FinOps</h2>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit officiis molestias, animi, sint, dolor pariatur aut eius ipsam, cumque dolorum nulla illo similique? Velit maiores libero repudiandae cupiditate hic ex.</p>
+    <p>FinOps practitioners bridge business, IT and Finance teams by enabling evidence-based decisions in near-real time to help optimize cloud use and increase business value.  They focus on establishing a FinOps culture and enabling stakeholder teams by demonstrating a working knowledge of the <a href="/framework/principles">Principles</a> and <a href="/framework/capabilities">Capabilities</a> of the FinOps Framework, a prescriptive model of actions and best practices.</p>
     <p>See persona details for: <a href="#finops" class="badge-dgrey">FinOps</a></p>
   </div>
 </div>
