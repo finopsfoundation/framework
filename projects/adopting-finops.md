@@ -7,12 +7,14 @@ description: Get guidance and tooling to help your organization unlock the promi
 ---
 ## Adopting FinOps Project Details
 
-_The work you see on this page is an output of the *Adopting FinOps* working group. It is an evolving set of materials aiming to provide practical guidance, education and enablement that helps organizations of all sizes and cloud maturity adopt FinOps as the standard for Cloud Financial Operations and Management. Use this project to gain a stronger understanding of how to champion FinOps at your organization, inform and involve various teams and personas, and to access tools (like a roadmap and slide deck) to prepare you to have these conversations._
+_We've provided this starter guide to help you build a presentation to inform other teams, teammates, and stakeholders about the benefits of building a FinOps practice. It includes preparation steps, accountability and expectations per role and persona, a detailed roadmap, and more.
+It was created by the the *Adopting FinOps* working group aiming to be an evolving set of materials aiming to provide practical guidance, education and enablement that helps organizations of all sizes and cloud maturity adopt FinOps as the standard for Cloud Financial Management._
 
 ### Resources
 - Discussion Slack: [#adopting-finops](https://finopsfoundation.slack.com/archives/CMZG5KZ8Q)
 - Working Group Slack: [#wg-adopting-finops](https://finopsfoundation.slack.com/archives/C026T4HQK09)
 - Pitch Deck: Google Slides version of the [Adopting FinOps Deck](https://docs.google.com/presentation/d/17shQqIbmXMbjhAW26nD7qJeM9kqsbaDkTS9WzMk1okg/edit?usp=sharing)
+
 
 # How to Jump Start FinOps in your Organization 
 
@@ -234,10 +236,3 @@ As cloud technologies and cloud cost management methods change, these various ro
     </tr>
   </tbody>
 </table>
-
-## Resources and Tooling
-
-### The FinOps Foundation's Adopting FinOps presentation template
-We've provided this starter guide to help you build a presentation to inform other teams, teammates, and stakeholders about the benefits of building a FinOps practice. It includes preparation steps, accountability and expectations per role and persona, a detailed roadmap, and more.
-
-Please find an open source copy of the presentation [here](https://docs.google.com/presentation/d/17shQqIbmXMbjhAW26nD7qJeM9kqsbaDkTS9WzMk1okg/edit?usp=sharing). Get in touch with our Working Group if you'd like to recommend changes or additions to this community tool.
