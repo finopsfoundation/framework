@@ -37,7 +37,11 @@ hr.basic {
 }
 
 .adopting-table tr:nth-child(even) {
-  background: #CCC
+  background: #edf2f7
+}
+
+.adopting-table thead tr th {
+  line-height: 1.3;
 }
 
 

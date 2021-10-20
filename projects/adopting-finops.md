@@ -5,18 +5,31 @@ title: Adopting FinOps
 description: Get guidance and tooling to help your organization unlock the promise of Cloud Computing and envision a world where efficient, profitable and cost effective cloud systems are made possible by the collaboration of finance, engineering and executive leadership through the FinOps Framework.
 
 ---
-## Project Details
-- Status: Graduated
-- Slack room: https://finopsfoundation.slack.com/archives/CMZG5KZ8Q
 
-# Adopting FinOps
+<div class="bg-gray-200 p-4 rounded-md my-8"> 
+  <h2 class="mt-2">Adopting FinOps Project Details</h2>
 
-We see FinOps as the key to unlocking the promise of Cloud Computing and envision a world where efficient, profitable and cost effective cloud systems are made possible by the collaboration of finance, engineering and executive leadership through the FinOps framework.
+  <p><em>We've provided this starter guide to help you build a presentation to inform other teams, teammates, and stakeholders about the benefits of building a FinOps practice. It includes preparation steps, accountability and expectations per role and persona, a detailed roadmap, and more.</em></p>
 
-## Project Mission
-Serve the FinOps community through practical guidance, education and enablement that helps organizations of all sizes and cloud maturity adopt FinOps as the standard for Cloud Financial Operations and Management.
+  <p><em>It was created by the the <b>Adopting FinOps</b> working group aiming to be an evolving set of materials aiming to provide practical guidance, education and enablement that helps organizations of all sizes and cloud maturity adopt FinOps as the standard for Cloud Financial Management.</em></p>
 
-Use this project to gain a stronger understanding of how to champion FinOps at your organization, inform and involve various teams and personas, and to access tools (like a roadmap and slide deck) to prepare you to have these conversations.
+  <h3>Resources</h3>
+  <ul>
+    <li>Discussion Slack: <a href="https://finopsfoundation.slack.com/archives/CMZG5KZ8Q">#adopting-finops</a></li>
+    <li>Working Group Slack: <a href="https://finopsfoundation.slack.com/archives/C026T4HQK09">#wg-adopting-finops</a></li>
+    <li>Pitch Deck: Google Slides version of the <a href="https://docs.google.com/presentation/d/17shQqIbmXMbjhAW26nD7qJeM9kqsbaDkTS9WzMk1okg/edit?usp=sharing">Adopting FinOps Deck</a></li>
+  </ul>
+</div>
+
+# How to Jump Start FinOps in your Organization 
+
+One of the biggest challenges in starting a FinOps practice is getting broad executive support and buy-in to dedicate the time and resources needed for the cultural change. We see FinOps as the key to unlocking the promise of Cloud Computing and envision a world where efficient, profitable and cost effective cloud systems are made possible by the collaboration of finance, engineering and executive leadership through the FinOps framework. However without proper organizational support from both the technical and financial leadership of the company, nascent FinOps practices often get stuck in a reactive [Walk-stage maturity](/framework/maturity-model/) battling other priorities in the organization.
+
+- [Stage 1 - Planning for FinOps in an Organization (Laying the groundwork)](#stage-1---planning-for-finops-in-an-organization-laying-the-groundwork)
+- [Stage 2 - Socializing FinOps for adoption in an organization](#stage-2---socializing-finops-for-adoption-in-an-organization) 
+- [Stage 3 - Preparing the organization for FinOps](#stage-3---preparing-the-organization-for-finops)
+- [Personas](#personas)
+- [Accountability and expectations by team (RACI / DACI modeling)](#accountability-and-expectations-by-team-raci--daci-modeling)
 
 ## The FinOps Driver: the first steps
 
@@ -36,7 +49,7 @@ Seek out the right stakeholders within the organization. As an individual lookin
 #### Create a plan 
 Paint the future-state. This should appeal to the business (valuation of technology like cloud, unit economics, etc.)
 
-* The “What is FinOps Pitch Deck” (available in the section below) is a good starting point for this plan, but must be customized for the organization, the pain points, the org, the culture, etc.
+* The “What is FinOps Pitch Deck” (available in the top section) is a good starting point for this plan, but must be customized for the organization, the pain points, the org, the culture, etc.
 * Identify tool requirements. Determine if existing owned tools can fill the needs of the plan
 * Identify an organizational “home” for the FinOps function. This may be in a CCoE, in finance, or in IT. Depending on the complexity of the organization structure, creating a dedicated FinOps team might take a phased approach. Some organizations might  (1) set up a cross-functional transformation program office and create workstreams / working groups, (2) create a FinOps function as part of the extended Cloud Business Office / Cloud CoE, and (3) evolve into a dedicated Cloud FinOps Team
 * Identify candidate early-adopter teams
@@ -97,7 +110,7 @@ Engage stakeholders:
 * Get some additional early governance wins for getting FinOps implemented (e.g. tagging policy, lease-to-live automation, etc.)
 * Start cadence of regular meetings. FinOps/CCOE team should be talking on a regular basis with the business units, app teams, practitioners and stakeholders to implement best practices and track KPIs. 
 
-Remember that if the organization has multiple business units operating from a federated cloud operating model they will have differing levels of maturity. It is important that the change management considers this and allows them to adopt at differing paces.
+Remember that if the organization has multiple business units operating from a federated cloud operating model they will have differing [levels of maturity](/framework/maturity-model/). It is important that the change management considers this and allows them to adopt at differing paces.
 
 ### More to come
 The Working Group continues to refine these Driver milestones. If you'd like to get involved, get in touch or submit a change via GiHub. You can also learn more about our [Contribution Guidelines](/introduction/how-to-contribute/).
@@ -231,6 +244,7 @@ As cloud technologies and cloud cost management methods change, these various ro
     </tr>
   </tbody>
 </table>
+<<<<<<< HEAD
 
 ## Resources and Tooling
 
@@ -241,3 +255,5 @@ As cloud technologies and cloud cost management methods change, these various ro
 We've provided this starter guide to help you build a presentation to inform other teams, teammates, and stakeholders about the benefits of building a FinOps practice. It includes preparation steps, accountability and expectations per role and persona, a detailed roadmap, and more.
 
 Please find an open source copy of the presentation [here](https://docs.google.com/presentation/d/17shQqIbmXMbjhAW26nD7qJeM9kqsbaDkTS9WzMk1okg/edit?usp=sharing). Get in touch with our Working Group if you'd like to recommend changes or additions to this community tool.
+=======
+>>>>>>> 2dfa0597858e1debba0a447f859dcc245650c346

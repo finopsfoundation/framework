@@ -32,6 +32,26 @@
   .btn-outline {
     @apply inline-flex justify-center py-2 px-4 border shadow-sm text-sm font-medium rounded-sm text-green-500 bg-white border border-green-500 font-normal no-underline
   }
+
+  .badge-grey {
+    @apply bg-gray-200 rounded-lg text-sm font-semibold text-gray-700 tracking-wider uppercase inline-block px-2 py-px no-underline;
+  }
+
+  .badge-grey:hover {
+    @apply bg-gray-400
+  }
+
+  .badge-dgrey {
+    @apply bg-gray-300 rounded-lg text-sm font-semibold text-gray-700 tracking-wider uppercase inline-block px-2 py-px no-underline;
+  }
+  
+  .badge-dgrey:hover {
+    @apply bg-gray-400
+  }
+
+  .badge-dgrey svg {
+    @apply text-gray-500 
+  }
 }
 
 @layer base {

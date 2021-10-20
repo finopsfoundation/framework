@@ -1,4 +1,34 @@
+- name: FinOps Practitioner
+  identifier: finops
+  primary-goal: Drive best practices into the organization through education, standardization, and cheerleading
+  img:
+  titles:
+  objectives:
+    - item: Cultural change flag bearer
+    - item: Create cloud cost management best practices
+    - item: Create benchmarks for teams to use
+    - item: Create visibility and transparency to cloud cost
+    - item: Create or inform cloud budgets and forecasts
+  frustrations:
+    - item: Lack of access to needed data
+    - item: Distributed accountability 
+    - item: Building adoption at enterprise scale
+    - item: Tool reliance that does not deliver capabilities needed 
+  key-metrics:
+    - item: Accurate budgets
+    - item: Accurate forecasts
+    - item: Unit Cost Economics
+    - item: Discount/Reservation coverage
+    - item: Percentage untagged resources
+    - item: Efficiency opportunity 
+  finops-benefits:
+    - item: Centralized cloud cost management in single cloud or multi-cloud environment
+    - item: Align accountability to cloud users
+    - item: Build confidence around budgets and forecasts
+    - item: Advance communication throughout the organization
+
 - name: CEO
+  identifier: ceo
   primary-goal: Assurance that cloud investments are aligned with business objectives
   img:
   titles:
@@ -23,6 +53,7 @@
     - item: Guide organization to make good cloud investments
 
 - name: CTO / CIO
+  identifier: cto
   primary-goal: Leverage technology to give the business a market and competitive advantage
   img:
   titles:
@@ -53,6 +84,7 @@
 
 
 - name: CFO
+  identifier: cfo
   primary-goal: 
   img:
   titles:
@@ -76,6 +108,7 @@
     - item: Direct impact on company bottom line
 
 - name: Product Owner
+  identifier: product-owner
   primary-goal: Quickly bring new products and features to market with an accurate price point.
   img:
   titles:
@@ -99,6 +132,7 @@
     - item: Guide team to make good cloud investments
 
 - name: Engineering Lead
+  identifier: engineering-lead
   primary-goal: Deliver faster and high quality services to the organisation, whilst maintaining business as usual
   img:
   titles:
@@ -124,6 +158,7 @@
     - item: Incentive towards solid architecture principles to factor efficiency
 
 - name: IT Finance Manager
+  identifier: itfm
   primary-goal: Accurately budget, forecast and report cloud costs
   img:
   titles:
@@ -150,6 +185,7 @@
     - item: Guide team to make good cloud investments
 
 - name: Procurement
+  indentifier: procurement
   primary-goal: Cloud platform relationship management
   img:
   titles:
@@ -169,31 +205,3 @@
     - item: Obtain the best cloud cost rates available 
     - item: Translate billing data to activity based costing 
     - item: Provide visibility and enable understanding of cost per technology license and contracts
-
-- name: FinOps
-  primary-goal: Drive best practices into the organization through education, standardization, and cheerleading
-  img:
-  titles:
-  objectives:
-    - item: Cultural change flag bearer
-    - item: Create cloud cost management best practices
-    - item: Create benchmarks for teams to use
-    - item: Create visibility and transparency to cloud cost
-    - item: Create or inform cloud budgets and forecasts
-  frustrations:
-    - item: Lack of access to needed data
-    - item: Distributed accountability 
-    - item: Building adoption at enterprise scale
-    - item: Tool reliance that does not deliver capabilities needed 
-  key-metrics:
-    - item: Accurate budgets
-    - item: Accurate forecasts
-    - item: Unit Cost Economics
-    - item: Discount/Reservation coverage
-    - item: Percentage untagged resources
-    - item: Efficiency opportunity 
-  finops-benefits:
-    - item: Centralized cloud cost management in single cloud or multi-cloud environment
-    - item: Align accountability to cloud users
-    - item: Build confidence around budgets and forecasts
-    - item: Advance communication throughout the organization
