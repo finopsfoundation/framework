@@ -6,7 +6,7 @@ description: Get guidance and tooling to help your organization unlock the promi
 
 ---
 ## Project Details
-- Status: Incubating
+- Status: Graduated
 - Slack room: https://finopsfoundation.slack.com/archives/CMZG5KZ8Q
 
 # Adopting FinOps
@@ -20,7 +20,9 @@ Use this project to gain a stronger understanding of how to champion FinOps at y
 
 ## The FinOps Driver: the first steps
 
-A key role toward building FinOps adoption is the Driver. We've outlined key milestones for a FinOps Driver to accomplish as they help build the practice and culture at their organization.
+![Key personas that the Driver must inform](/img/adopting-finops/adopting-finops-driver.png)
+
+A key role toward building FinOps adoption is the Driver. We've outlined key personas to inform and milestones to accomplish as they help build the practice and culture at their organization.
 
 ### Stage 1 - Planning for FinOps in an Organization (Laying the groundwork)
 
@@ -39,7 +41,7 @@ Paint the future-state. This should appeal to the business (valuation of technol
 * Identify an organizational “home” for the FinOps function. This may be in a CCoE, in finance, or in IT. Depending on the complexity of the organization structure, creating a dedicated FinOps team might take a phased approach. Some organizations might  (1) set up a cross-functional transformation program office and create workstreams / working groups, (2) create a FinOps function as part of the extended Cloud Business Office / Cloud CoE, and (3) evolve into a dedicated Cloud FinOps Team
 * Identify candidate early-adopter teams
 * Identify KPIs that will be used to measure the FinOps function as well as ways to measure engagement and performance of stakeholders like business units and application teams. Note: These are preliminary and will evolve during Stage 2, but it’s important to have a starting set
-Prepare communication plan that will be used in Stage 4
+* Prepare communication plan that will be used in Stage 4
 
 #### Bring cultivated supporters together and explain why it is important to adopt FinOps
 * Highlight current state, pain points, other issues
@@ -233,6 +235,9 @@ As cloud technologies and cloud cost management methods change, these various ro
 ## Resources and Tooling
 
 ### The FinOps Foundation's Adopting FinOps presentation template
+
+![An example of the FinOps roadmap, including in our presentation tooling](/img/adopting-finops/adopting-finops-roadmap.png)
+
 We've provided this starter guide to help you build a presentation to inform other teams, teammates, and stakeholders about the benefits of building a FinOps practice. It includes preparation steps, accountability and expectations per role and persona, a detailed roadmap, and more.
 
 Please find an open source copy of the presentation [here](https://docs.google.com/presentation/d/17shQqIbmXMbjhAW26nD7qJeM9kqsbaDkTS9WzMk1okg/edit?usp=sharing). Get in touch with our Working Group if you'd like to recommend changes or additions to this community tool.
