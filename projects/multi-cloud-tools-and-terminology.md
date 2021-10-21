@@ -84,8 +84,9 @@ Cloud cost management is not void of its own set of TLA's.  As a community the g
 | TAC	| Technical Advisory Council |
 
 
-## Real-world stories
-We're still editing our user stories for this project. Hang tight. Thanks to everyone who contributed a story!
+## Resources
+
+- [Google Cloud Architecture Framework: Cost optimization](https://cloud.google.com/architecture/framework/cost-optimization/){:target="_blank"} 
 
 {% include story-loop.md content='multi-cloud-tools' %}
 
