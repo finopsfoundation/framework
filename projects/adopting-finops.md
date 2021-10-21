@@ -35,7 +35,8 @@ One of the biggest challenges in starting a FinOps practice is getting broad exe
 
 A key role toward building FinOps adoption is the Driver. We've outlined key personas to inform and milestones to accomplish as they help build the practice and culture at their organization.
 
-![An example roadmap to follow](/img/adopting-finops/adopting-finops-roadmap.png)
+[![An example roadmap to follow](/img/adopting-finops/adopting-finops-roadmap.png)](https://docs.google.com/presentation/d/17shQqIbmXMbjhAW26nD7qJeM9kqsbaDkTS9WzMk1okg/edit#slide=id.ged5e228ee8_0_12){:target="_blank"}
+*An example roadmap to follow*
 
 ### Stage 1 - Planning for FinOps in an Organization (Laying the groundwork)
 
@@ -119,7 +120,8 @@ The Working Group continues to refine these Driver milestones. If you'd like to 
 
 When proposing the adoption of a FinOps function within an organization, there will be a need to brief a variety of personas among the executive team to gain approval, buy-in, and involvement in conducting FinOps and achieving its goals. 
 
-![Key personas that the Driver must inform](/img/adopting-finops/adopting-finops-driver.png)
+[![Key personas that the Driver must inform](/img/adopting-finops/adopting-finops-driver.png)](https://docs.google.com/presentation/d/17shQqIbmXMbjhAW26nD7qJeM9kqsbaDkTS9WzMk1okg/edit#slide=id.ged5e228ee8_0_70){:target="_blank"}
+*Key personas that the Driver must inform*
 
 Each Executive team persona is described below, in terms of their goals, concerns, key messaging and useful KPIs. By understanding the motivations of each executive persona, a FinOps champion will be able to describe the value of FinOps more effectively, minimizing the time and effort to gain alignment.
 
