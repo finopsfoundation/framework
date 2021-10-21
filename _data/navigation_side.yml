@@ -1,8 +1,11 @@
 - name: Introduction
   children:
   - name: What is FinOps
-  - name: How to Contribute
-  - name: How to Use
+  - name: Adopting FinOps
+    url: /projects/adopting-finops/
+  - name: FinOps Foundation
+    url: /about/
+
 - name: FinOps Framework
   children:
   - name: Principles
@@ -30,6 +33,9 @@
   - name: Reducing Waste
 - name: Resources
   children:
+  - name: How to Contribute
+    url: /introduction/how-to-contribute/
+  - name: How to Use
   - name: Monthly Update
   - name: Training & Certification
     url: /training-certification/
@@ -41,4 +47,5 @@
     url: /resources/Terminology
   - name: Vendor Members
     url: /members/
+
 
