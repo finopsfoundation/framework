@@ -16,7 +16,6 @@ framework-capabilities:
 - capability_commitment-discounts
 - capability_rightsizing
 - capability_unit-costs
-- capability_measure-efficiency
 order: 3
 
 ---

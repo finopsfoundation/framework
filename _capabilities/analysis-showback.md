@@ -73,6 +73,7 @@ As cost showback is a fundamental aspect of FinOps, all FinOps domains should be
 - Most product teams are publishing information related to their unit economics
 - FinOps team can define desired level of commitment coverage vs. utilization
 
+
 ## Inputs
 - Detailed Billing or Cost and Usage Report
 - Service Specific API pulls
@@ -80,6 +81,8 @@ As cost showback is a fundamental aspect of FinOps, all FinOps domains should be
 - Consistent Marketing
 - Organizational Structure
 
+
+<!-- ####### Real World Resources ####### -->
 ## Real World Resources
 _a collection of real world examples, stories and “how to” for this Capability; based on FinOps community member experiences; information here may:_
 >* _apply to one or more cloud providers_
