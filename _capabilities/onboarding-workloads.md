@@ -2,17 +2,17 @@
 
 layout: wide
 
-title: Measure Efficiency
+title: Onboarding Workloads
 description: coming soon...
-permalink: /framework/capabilities/measure-efficiency/
-page-identifier: capability_measure-efficiency
-framework-capability-title: Measure Efficiency
+permalink: /framework/capabilities/onboarding-workloads/
+page-identifier: capability_onboarding-workloads
+framework-capability-title: Onboarding Workloads
 framework-capability-desc: coming soon...
 order: 13
 
 ---
 
-# Measure Efficiency
+# Onboarding Workloads
 
 
 {% include contribute-capabiility.md %}

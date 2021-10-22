@@ -24,13 +24,78 @@ _definition for this Capability.  the objective here is to capture the "What" (*
 
 
 ## Maturity Assessment
-_description of the characteristics of each maturity level (crawl, walk, run) for this Capability in the context of the organization's FinOps practice._
+#### Crawl
+* Engineers are not familiar with what FinOps is and their role within it
+* FinOps metrics are available to teams but there is no set ritual followed by engineers around the metrics
+* Leadership is sold on the idea of FinOps but is not yet providing the buyin required
+* Finance and engineers are only just starting to meet.
+
+#### Walk
+* Engineers actively engage the FinOps processes, they understand the importance of FinOps within the business.
+* FinOps metrics are “just another operational metric” teams monitor and optimise this metric
+* Leadership is actively supporting FinOps in the organisation. They make decisions on the Iron Triangle by insisting on knowing the cost impact and business value of the decision
+* Engineering and Finance are aware of each other and understand what motivators drive each other
+
+#### Run
+* Engineers are actively looking for FinOps opportunities, reversing the flow of questions from finance to engineers more to engineers towards finance. Engineers proactively confirm budget and highlight changes that will impact costs
+* Unit Metrics are made available to core cloud spend, allowing deeper conversation into cost efficiency
+* Leadership celebrate FinOps success and celebrate/reward teams who have wins
+* Finance feel very comfortable with collaborating with teams
+
 
 
 
 ## Functional Activity
-_written for each persona responsible for the functional activity and processes encapsulated by his Capability.  each one should be associated generally to one of the FinOps Phases (Inform, Optimize, Operate). for example:_
->As a [FinOps Persona], I will [functional activity] so that [desired outcome] is achieved.
+
+#### As someone in a FinOps Practitioner role, I will…
+* Establish cloud cost management best practices
+* Establish benchmarks for stakeholder teams to use
+* Centralized cloud cost management in single cloud or multi-cloud environment
+* Create visibility and transparency to cloud cost
+* Align accountability to cloud users
+* Identify unallocated spend
+* Create and contribute to cloud budgets and forecasts
+* Create and contribute to showback to increase financial accountability
+* Advance communication and socialize FinOps throughout the organization
+
+
+#### As someone in a Business/Product role, I will…
+* Connect product decisions with business outcomes
+* Predict how much cloud infrastructure will factor into feature/ product price
+* Guide team to make good cloud investments
+
+
+#### As someone in a Finance role, I will…
+* Manage analysis and reporting of costs during growth, disproportionate cost reduction during flat/declining periods
+* Increase accountability for cloud cost
+* Increase reliance on budget and forecast models
+* Cost out and budget maintenance
+* Identify unallocated spend
+* Normalize spend predictability
+* Establish showbacks/chargebacks to increase financial accountability
+* Drive budget and forecast accurac
+
+
+#### As someone in a Procurement role, I will…
+* Obtain the best cloud cost rates available
+* Translate billing data to activity based costing
+* Provide visibility and enable understanding of cost per technology license and contracts
+
+
+#### As someone in an Engineering/Operations role, I will...
+* Identify service or application ownership
+* Predict cloud costs closely enough for developing new features and products
+* Provide increased visibility to cloud cost to Engineering teams
+* Connect cloud costs and unit economics
+
+
+#### As someone in an Executive role, I will…
+* Connect engineering decisions with cloud business outcomes
+* Increased accountability for cloud cost
+* Predict how cloud spend will grow as the business grows
+* Guide the organization's cloud investments
+* Enable engineering organizations to gain more freedom to utilize newer cloud technologies and deliver solutions to market faster
+
 
 
 

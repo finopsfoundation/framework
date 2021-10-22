@@ -2,17 +2,17 @@
 
 layout: wide
 
-title: Resource Utilization & Rightsizing
+title: Resource Utilization & Efficiency
 description: coming soon...
-permalink: /framework/capabilities/utilization-rightsizing/
+permalink: /framework/capabilities/utilization-efficiency/
 page-identifier: capability_rightsizing
-framework-capability-title: Resource Utilization & Rightsizing
+framework-capability-title: Resource Utilization & Efficiency
 framework-capability-desc: coming soon...
 order: 9
 
 ---
 
-# Resource Utilization & Rightsizing
+# Resource Utilization & Efficiency
 
 {% include contribute-capabiility.md %}
 

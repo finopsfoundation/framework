@@ -12,6 +12,7 @@ framework-capabilities:
 - capability_workload-automation
 - capability_rightsizing
 - capability_showback
+- capability_onboarding-workloads
 order: 5
 
 ---
