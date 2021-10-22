@@ -111,7 +111,7 @@ _for example:_
 _the information used that contributes to the measure(s) of success listed above; information here may include specific datasources, reports or any relevant input_
 
 
-
+<!-- ####### Real World Resources ####### -->
 ## Real World Resources
 _a collection of real world examples, stories and “how to” for this Capability; based on FinOps community member experiences; information here may:_
 >* _apply to one or more cloud providers_

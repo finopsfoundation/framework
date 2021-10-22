@@ -110,7 +110,7 @@ An important prerequisite to effective cost allocation is the metadata strategy,
 
 
 
-
+<!-- ####### Real World Resources ####### -->
 ## Real World Resources
 
 | An excerpt from a FinOps Foundation Slack discussion |

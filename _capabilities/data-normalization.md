@@ -102,7 +102,7 @@ The data ingestion and normalization challenge grows as the complexity and diver
 
 
 
-
+<!-- ####### Real World Resources ####### -->
 ## Real World Resources
 _a collection of real world examples, stories and “how to” for this Capability; based on FinOps community member experiences; information here may:_
 >* _apply to one or more cloud providers_
