@@ -104,6 +104,9 @@ An exam can be purchased to attempt the certification through the Linux Foundati
 ---
 
 ### Self-Paced Online Course  – $499
+<div class="bg-gray-200 p-4 rounded-md my-8 text-medium"> 
+Enjoy <b>20% off</b> with the code: <b>OctoberF2</b> until 25th October
+</div>
 - Instructor-led video recordings of the complete course (approximately 6 hours of video)
 - 12 Months of Access to Online Course materials
 - Digital access to instructor led training course slides
