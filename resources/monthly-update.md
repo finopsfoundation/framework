@@ -12,17 +12,15 @@ description: See the latest updates from the previous and upcoming monthly FinOp
 ## October FinOps Summit
 
 <div class="videoWrapper mb-10">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/O2Apwm3pMnE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/zFFuuZpN1Hc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 <div class="bg-gray-200 rounded-lg px-6 py-4 text-center">
   <p><a href="/membership/" data-ga-category="links" data-ga-action="internal link clicks" data-ga-label="membership - monthly update">Become a FinOps Foundation member</a> to join the next monthly FinOps summit.</p>
 </div>
 
-Join us on October 21st at 8am-10am (PT) for th next FinOps Summit with another exciting lineup.
-
 ### Keynotes:
-### 8 Years of FinOps practice journey
+### 9 Years of FinOps practice journey
 Jason Fuller (Head of Infrastructure at HERE Technologies, AWS Customer Advisory Board Member, and FinOps Foundation founding board member) tells his story of building 3 cloud financial management practices at 3 large enterprises over nearly a decade. Hear what has changed and what's stayed constant in the space.
 
 ### Waste Reduction Index
@@ -34,65 +32,6 @@ A large working group of FinOps leaders from Pearson, Cigna, Citi, Target has be
 ### Multi-Cloud Working Group
 Kinjal Tanna & Pathik Sharma from Google Cloud share a first look at some of Google's new FinOps & cost pillar updates connected to resources in the FinOps Framework.
 
-### Event Schedule:
-- 7:30am - Zoom opens for Networking, Icebreakers and Music
-- 8am - Welcome and Introductions
-- 8:15am - 9:30am Keynotes & Panels
-- 9:30am - 10am Breakouts
-- 10am - 10:30am Open Office Hours with FinOps Staff
-
-### Speakers (more coming soon)
-
-<div>
-  <div class="inline-block mr-6 m:w-1/2 text-center align-top mb-6">
-    <a href="https://www.linkedin.com/in/jasonbfuller/">
-      <img src="/img/updates/oct/jfuller.jpg" class="rounded-full" width="175">
-    </a>
-    <a href="https://www.linkedin.com/in/jasonbfuller/" class="block mt-2">Jason Fuller <br/>(Here Technologies)</a>
-  </div>
-
-  <div class="inline-block mr-6 m:w-1/2 text-center align-top mb-6">
-    <a href="https://www.linkedin.com/in/joseph-daly-52789220/">
-      <img src="/img/updates/oct/jdaly.jpg?2" class="rounded-full" width="175">
-    </a>
-    <a href="https://www.linkedin.com/in/joseph-daly-52789220/" class="block mt-2">Joe Daly <br/>(Nationwide)</a>
-  </div>
-
-  <div class="inline-block mr-6 m:w-1/2 text-center align-top mb-6">
-    <a href="https://www.linkedin.com/in/ashley-hromatko-1b532613">
-      <img src="/img/updates/aug/ashley.jpg" class="rounded-full" width="175">
-    </a>
-    <a href="https://www.linkedin.com/in/ashley-hromatko-1b532613" class="block mt-2">Ashley Hromatko <br/>(Pearson)</a>
-  </div>
-
-  <div class="inline-block mr-6 m:w-1/2 text-center align-top mb-6">
-    <a href="https://www.linkedin.com/in/kinjaltanna/">
-      <img src="/img/updates/oct/ktanna.jpg" class="rounded-full" width="175">
-    </a>
-    <a href="https://www.linkedin.com/in/kinjaltanna/" class="block mt-2">Kinjal Tanna <br/>(Google Cloud)</a>
-  </div>
-
-  <div class="inline-block mr-6 m:w-1/2 text-center align-top mb-6">
-    <a href="https://www.linkedin.com/in/pathikvsharma/">
-      <img src="/img/updates/oct/psharma.jpg" class="rounded-full" width="175">
-    </a>
-    <a href="https://www.linkedin.com/in/pathikvsharma/" class="block mt-2">Pathik Sharma <br/>(Google Cloud)</a>
-  </div>
-
-  <div class="inline-block mr-6 m:w-1/2 text-center align-top mb-6">
-    <a href="https://www.linkedin.com/in/eugenekhvostov/">
-      <img src="/img/updates/oct/ekhvostov.jpg" class="rounded-full" width="175">
-    </a>
-    <a href="https://www.linkedin.com/in/eugenekhvostov/" class="block mt-2">Eugene Khvostov<br/>(Apptio Cloudability)</a>
-  </div>
-
-  <div class="inline-block mr-6 m:w-1/2 text-center align-top mb-6">
-    <a href="https://www.linkedin.com/in/jrstorment">
-      <img src="/img/updates/aug/jr.jpg" class="rounded-full" width="175">
-    </a>
-    <a href="https://www.linkedin.com/in/jrstorment" class="block mt-2">J.R. Storment <br/>(FinOps Foundation)</a>
-  </div>
-</div>
 
 ---
 
