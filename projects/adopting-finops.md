@@ -12,6 +12,8 @@ description: Get guidance and tooling to help your organization unlock the promi
   <p><em>We've provided this starter guide to help you build a presentation to inform other teams, teammates, and stakeholders about the benefits of building a FinOps practice. It includes preparation steps, accountability and expectations per role and persona, a detailed roadmap, and more.</em></p>
 
   <p><em>It was created by the the <b>Adopting FinOps</b> working group aiming to be an evolving set of materials aiming to provide practical guidance, education and enablement that helps organizations of all sizes and cloud maturity adopt FinOps as the standard for Cloud Financial Management.</em></p>
+  
+  <p><strong>This project is currently a release candidate undergoing a TAC vote on 26 October 2021.</strong></p>
 
   <h3>Resources</h3>
   <ul>
