@@ -21,7 +21,7 @@ type:
 - Service Provider
 
 certified-status:
-# - FinOps Certified Service Provider
+- FinOps Certified Service Provider
 # - FinOps Certified Platform
 # - FinOps Training Partner
 
@@ -103,7 +103,7 @@ slack-channels:
   url:
 
 # The total number of FinOps Certified Practitioners at the vendor
-number-of-focp:
+number-of-focp: 50+
 
 # List the key contribution areas in the FinOps Foundation, examples listed
 contribution-areas:
