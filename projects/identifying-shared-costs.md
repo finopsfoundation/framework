@@ -150,7 +150,7 @@ Under the even split model, the enterprise support charge ($12,000) will be shar
 
 | **Business units**   | **Total Cost** | **Shared Cost Allocation** |
 |------------------|------------|------------------------|
-| Sales operations | $56K       | 33.3%                  |
+| Sales operations | $54K       | 33.3%                  |
 | Engineering—QA   | $34K       | 33.3%                  |
 | Engineering      | $24K       | 33.3%                  |
 | Total            | $112K      | 100%                   |
