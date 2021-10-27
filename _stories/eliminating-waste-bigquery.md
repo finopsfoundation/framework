@@ -3,21 +3,26 @@
 layout: story
 
 title: Eliminating Waste in BigQuery
-description:
+description: The most important skill for eliminating waste on BigQuery is to design database structures and craft queries in a manner that minimizes the amount of data being scanned by queries. We dramatically lowered our BigQuery costs first by partitioning our tables using timestamps, and then by adding a condition to our queries that only scanned the partitions we needed.
 story-title: Eliminating Waste in BigQuery
 story-date: 2021-10-08
 author: Rich Hoyer
-company: 
-company-size:
-industry: 
+company: SADA
+company-size: 200 - 500
+industry: Information Technology & Services
 cloud-provider: GCP
 tooling-services:
-framework-persona:
-framework-maturity:
+framework-persona: FinOps Practitioner
+framework-maturity: Run
 framework-capabilities:
+- capability_rightsizing
 framework-projects:
 - project_reducing-waste
 order:
+tags:
+- rightsizing
+- utilization
+- database
 
 ---
 
