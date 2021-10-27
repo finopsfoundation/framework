@@ -3,18 +3,18 @@
 layout: story
 
 title: Migrating 15 Million Lines of Code from Six Data Centers Worldwide in Six Months
-description:
+description: Our initial challenge: migrating 15 million lines of code from six data centers worldwide in six months. Our team immediately saw a contrast in how to optimize cloud finance and solved this challenge by focusing on building strong governance, cost visibility, and cost optimization policies.
 story-title: Migrating 15 Million Lines of Code in Six Months
 story-date: 2021-06-01
 author: Scott Snell
 company: OpenX
-company-size:
-industry:
+company-size: 201 - 500 Employees
+industry: Internet
 cloud-provider:
 - GCP
 tooling-services:
-framework-persona:
-framework-maturity:
+framework-persona: FinOps Practitioner
+framework-maturity: Run
 framework-capabilities:
 - capability_rightsizing
 framework-projects:
@@ -25,6 +25,8 @@ tags:
 - organizational-alignment
 - cost-visibility
 - rate-optimization
+- rightsizing
+- utilization
 
 ---
 
