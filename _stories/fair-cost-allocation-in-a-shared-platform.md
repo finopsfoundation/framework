@@ -3,7 +3,7 @@
 layout: story
 
 title: Fair cost allocation in a shared Platform (as a Service)
-description:
+description: A central Platform Team is the enabler for the Product Teams to develop value faster and compliant by providing shared platform services as a product (VCS, Container Registry, CI/CD) on a shared deployment target (Kubernetes) along with shared operational services (Dashboarding, Log-management, Metrics, and Tracing + APM, etc.)
 story-title: Fair cost allocation in a shared Platform (as a Service)
 story-date: 2021-06-01
 author: David Sterz

@@ -56,7 +56,7 @@
   </div>
   <em>{% if story.author %} by {{ story.author | join: " and " }}{% else %} by a Foundation Member{% endif %}{% if story.company %}, {{ story.company }}{% endif %}</em>
   <div>
-    {{ story.content | truncatewords: 50 | markdownify}} <a class="text-green-500 text-sm" href="{{ story.url }}">Read more</a>
+    {% if story.description %} {{ story.description | truncatewords: 50 | markdownify}} {% else %} {{ story.content | truncatewords: 50 | markdownify}} <a class="text-green-500 text-sm" href="{{ story.url }}">Read more</a>
   </div>
 </div>
 {% endif %}
