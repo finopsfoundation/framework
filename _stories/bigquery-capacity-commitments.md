@@ -7,17 +7,24 @@ description:
 story-title: Runaway Cost in BigQuery Capacity Commitments
 story-date: 2021-10-08
 author: Scott Lapish
-company: 
+company: Telus
 company-size:
-industry: 
+industry: Telecommunications
 cloud-provider: GCP
 tooling-services:
-framework-persona:
-framework-maturity:
+framework-persona: FinOps Practitioner
+framework-maturity: Run
 framework-capabilities:
+- capability_rightsizing
+- capability_commitment-discounts
 framework-projects:
 - project_reducing-waste
 order:
+tags:
+- rightsizing
+- utilization
+- database
+- dynamodb
 
 ---
 

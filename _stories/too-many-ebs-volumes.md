@@ -7,17 +7,23 @@ description:
 story-title: The Case of too Many EBS Volumes
 story-date: 2021-10-08
 author: Joe Daly
-company: 
-company-size: large
-industry: financial services
+company: Nationwide
+company-size:
+industry: Financial Services
 cloud-provider: AWS
 tooling-services:
-framework-persona:
-framework-maturity: run
+framework-persona: FinOps Practitioner
+framework-maturity: Run
 framework-capabilities:
+- capability_rightsizing
 framework-projects:
 - project_reducing-waste
 order:
+tags:
+- rightsizing
+- utilization
+- storage
+- ebs
 
 ---
 

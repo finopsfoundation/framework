@@ -3,7 +3,7 @@
 layout: story
 
 title: DynamoDB Backups Gone Wild
-description: Check how often you are running full DynamoDB backups; they could be running every 5 minutes with no retention policy. Over time these costs compound. Determine if the business requires this much backup data, if not one option is to switch to a solution of using point-in-time recovery for Dynamo.
+description:
 story-title: DynamoDB Backups Gone Wild
 story-date: 2021-10-08
 author: AJ Bothe
@@ -23,6 +23,7 @@ tags:
 - rightsizing
 - utilization
 - database
+- dynamodb
 
 ---
 
