@@ -2,8 +2,8 @@
 
 layout: story
 
-title: Non-technical/Market/Environmental/Corporate Governance Influencing Factors on How to Track, Process and Share Costs
-description:
+title: Non-technical/Market/Environmental/Corporate Governance Influencing Factors for Share Costs
+description: Influencing factors on how to track, process and share costs using vendor pricing, procurement and pattern spotting
 story-title: Influencing Factors on How to Track, Process and Share Costs
 story-date: 2021-06-01
 author: Neil May
