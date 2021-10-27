@@ -12,14 +12,14 @@ company-size:
 industry: Media
 cloud-provider:
 tooling-services:
-framework-persona:
+framework-persona: FinOps Practitioner
 framework-maturity: Run
 framework-capabilities:
 - capability_forecasting
 framework-projects:
 - project_forecast
 order:
- 
+
 tags:
 - cost-allocation
 - budgets
