@@ -9,15 +9,20 @@ story-date: 2021-06-01
 author: David Sterz
 company: Mindcurv
 company-size:
-industry:
+industry: information Technology & Services
 cloud-provider:
 tooling-services:
-framework-persona:
-framework-maturity:
+framework-persona: Engineering & Operations
+framework-maturity: Run
 framework-capabilities:
+- capability_shared-cost
 framework-projects:
 - project_shared-costs
 order: 1
+tags:
+- cost-sharing
+- cost-allocation
+- cost-visibility
 
 ---
 
