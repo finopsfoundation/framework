@@ -7,17 +7,22 @@ description:
 story-title: Eliminating Waste in BigQuery
 story-date: 2021-10-08
 author: Rich Hoyer
-company: 
+company: SADA
 company-size:
-industry: 
+industry: Information Technology & Services
 cloud-provider: GCP
 tooling-services:
-framework-persona:
-framework-maturity:
+framework-persona: FinOps Practitioner
+framework-maturity: Run
 framework-capabilities:
+- capability_rightsizing
 framework-projects:
 - project_reducing-waste
 order:
+tags:
+- rightsizing
+- utilization
+- database
 
 ---
 

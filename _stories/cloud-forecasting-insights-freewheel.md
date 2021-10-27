@@ -12,7 +12,7 @@ company-size:
 industry: Media
 cloud-provider:
 tooling-services:
-framework-persona:
+framework-persona: Engineering & Operations
 framework-maturity: Walk
 framework-capabilities:
 - capability_forecasting
@@ -23,6 +23,7 @@ order:
 tags:
 - cost-allocation
 - budgets
+- forecasting
 
 ---
 

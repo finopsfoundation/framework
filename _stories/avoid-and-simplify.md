@@ -13,13 +13,17 @@ industry: Financial Services
 cloud-provider:
 - AWS
 tooling-services:
-framework-persona:
-framework-maturity:
+framework-persona: FinOps Practitioner
+framework-maturity: Run
 framework-capabilities:
+- capability_shared-cost
 framework-projects:
 - project_shared-costs
 order: 1
-
+tags:
+- shared-cost
+- cost-allocation
+- cost-visibility
 
 ---
 

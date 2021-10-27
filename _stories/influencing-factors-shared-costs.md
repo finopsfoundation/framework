@@ -2,22 +2,27 @@
 
 layout: story
 
-title: Non-technical/Market/Environmental/Corporate Governance Influencing Factors on How to Track, Process and Share Costs
-description:
+title: Non-technical/Market/Environmental/Corporate Governance Influencing Factors for Share Costs
+description: Influencing factors on how to track, process and share costs using vendor pricing, procurement and pattern spotting
 story-title: Influencing Factors on How to Track, Process and Share Costs
 story-date: 2021-06-01
 author: Neil May
 company: Wish Star
 company-size:
-industry:
+industry: information Technology & Services
 cloud-provider:
 tooling-services:
-framework-persona:
-framework-maturity:
+framework-persona: Executive
+framework-maturity: Run
 framework-capabilities:
+- capability_shared-cost
 framework-projects:
 - project_shared-costs
 order: 1
+tags:
+- cost-sharing
+- cost-allocation
+- cost-visibility
 
 ---
 

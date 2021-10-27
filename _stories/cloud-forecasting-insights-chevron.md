@@ -13,7 +13,7 @@ industry: Energy
 cloud-provider:
 - Azure
 tooling-services:
-framework-persona:
+framework-persona: Business/Product Owner
 framework-maturity: Run
 framework-capabilities:
 - capability_forecasting
@@ -24,6 +24,7 @@ order:
 tags:
 - cost-allocation
 - budgets
+- forecasting
 
 ---
 
