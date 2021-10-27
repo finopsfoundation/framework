@@ -8,7 +8,7 @@ story-title: DynamoDB Backups Gone Wild
 story-date: 2021-10-08
 author: AJ Bothe
 company: Proctor & Gamble
-company-size: >100,000 Employees
+company-size:
 industry: Consumer Goods
 cloud-provider: AWS
 tooling-services:

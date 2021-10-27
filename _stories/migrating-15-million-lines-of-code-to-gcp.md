@@ -8,7 +8,7 @@ story-title: Migrating 15 Million Lines of Code in Six Months
 story-date: 2021-06-01
 author: Scott Snell
 company: OpenX
-company-size: 201 - 500 Employees
+company-size:
 industry: Internet
 cloud-provider:
 - GCP

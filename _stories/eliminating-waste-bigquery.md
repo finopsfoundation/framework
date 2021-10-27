@@ -8,7 +8,7 @@ story-title: Eliminating Waste in BigQuery
 story-date: 2021-10-08
 author: Rich Hoyer
 company: SADA
-company-size: 200 - 500 Employees
+company-size:
 industry: Information Technology & Services
 cloud-provider: GCP
 tooling-services:
