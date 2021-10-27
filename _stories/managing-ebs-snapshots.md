@@ -6,18 +6,26 @@ title: Managing EBS Snapshots
 description:
 story-title: Managing EBS Snapshots
 story-date: 2021-10-08
-author: Eric Mulatrick
-company: 
+author: Eric Mulartrick
+company: Dell Boomi
 company-size:
-industry: 
+industry: Computer Software
 cloud-provider: AWS
 tooling-services:
-framework-persona:
-framework-maturity:
+framework-persona: FinOps Practitioner
+framework-maturity: Run
 framework-capabilities:
+- capability_rightsizing
 framework-projects:
 - project_reducing-waste
 order:
+tags:
+- rightsizing
+- utilization
+- storage
+- ebs
+- snapshots
+- backups
 
 ---
 
