@@ -24,6 +24,10 @@
     <div class="bg-gray-200 rounded-lg text-sm font-semibold text-gray-700 tracking-wider uppercase inline-block px-2 py-px mr-2">Industry: {{ story.industry }}</div>
   {% endif %}
   </div>
+  {% if story.framework-persona %}
+    <div class="bg-gray-200 rounded-lg text-sm font-semibold text-gray-700 tracking-wider uppercase inline-block px-2 py-px mr-2">FinOps Persona: {{ story.framework-persona }}</div>
+  {% endif %}
+  </div>
   <em>{% if story.author %} by {{ story.author | join: " and " }}{% else %} by a Foundation Member{% endif %}{% if story.company %}, {{ story.company }}{% endif %}</em>
   <div>
     {{ story.content | truncatewords: 50 | markdownify}} <a class="text-green-500 text-sm" href="{{ story.url }}">Read more</a>
