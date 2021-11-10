@@ -9,6 +9,46 @@ description: See the latest updates from the previous and upcoming monthly FinOp
 
 # FinOps Monthly Updates
 
+## November FinOps Summit - Cultures of Accountability
+
+<div class="videoWrapper mb-10">
+  <img src="/img/updates/finops-summit.png" alt="November FinOps Summit" />
+</div>
+
+<div class="bg-gray-200 rounded-lg px-6 py-4 text-center">
+  <p>Anyone can join this free event - <a href="https://go.finops.org/finops-foundation-november-summit-cultures-of-accountability" data-ga-category="links" data-ga-action="internal link clicks" data-ga-label="summit - monthly update">simply register to receive the event details.</a></p>
+</div>
+
+### Keynotes:
+### #1 FinOps noob to FinOps leader
+First off, hear from [Amy Race](https://www.linkedin.com/in/amy-jacobs-race-1882054/) (Cloud Governance & FinOps head at Citizen's Bank) on her journey from FinOps noob to FinOps leader over the last couple of years.
+
+### #2 Transform the culture to one of cost accountability 
+Then [Robert Duffy](https://www.linkedin.com/in/robert-duffy-2473153/) (SVP Development at Expedia Group) shares how he is working to transform the culture to one of cost accountability by creating a movement, not a mandate! 
+
+### #3 What's working for FinOps leaders at big vs small companies
+Plus [Yulia Perlis](https://www.linkedin.com/in/yulia-perlis-pmp-1551a032/?originalSubdomain=il) (FinOps Manager at Amdocs, now at Logz.io) who is a central figure in the vibrant Israeli Cloud FinOps scene sharing how the industry has progressed and what's working for FinOps leaders at big vs small companies.
+
+
+### Breakout Rooms - _Must have Zoom client installed_
+
+- **Resource Utilization & Efficiency** definitions, measures, maturity, etc. led by Mike Martin (SRE at GLG) + Joe Daly chair [#wg-reducing-waste](https://finopsfoundation.slack.com/archives/C029SCMA50B)
+  
+- **Container Cost Allocation** when, where and how led by David Sterz (Mindcurv) + Bala K (Apptio) [#wg-cca](https://finopsfoundation.slack.com/archives/C02BDFZR3V4)
+
+### Plus More
+
+#### Education Station
+We're kicking off a Scholarship program for certification. Stacy Case will share the details and Rob Martin will preview the rubrik for the FinOps Professional certification course which will be accepting its first applicants this month!
+
+#### State of FinOps
+Be there for the official kick-off of the 2022 State of FinOps survey. Hear what insights we're looking to pull out and how you can use the data. Plus Bailey Caldwell from McKinsey introduces their upcoming complimentary executive FinOps survey.
+
+**And of course, get there early for networking 30 minutes before the start on Zoom at 7:30am Pacific time - [simply register to receive the event details.](https://go.finops.org/finops-foundation-november-summit-cultures-of-accountability)**
+
+
+---
+
 ## October FinOps Summit
 
 <div class="videoWrapper mb-10">

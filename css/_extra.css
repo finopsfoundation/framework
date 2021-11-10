@@ -169,3 +169,11 @@ hr.basic {
   width: 0%;
   left: 50%;
 }
+
+/*SoF*/
+
+.sof-banner {
+  background: url(../img/temp/landing-page-banner.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
