@@ -12,7 +12,7 @@ description: See the latest updates from the previous and upcoming monthly FinOp
 ## November FinOps Summit - Cultures of Accountability
 
 <div class="videoWrapper mb-10">
-  <img src="/img/updates/finops-summit.png" alt="November FinOps Summit" />
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/pdy5azWEWj4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 <div class="bg-gray-200 rounded-lg px-6 py-4 text-center">
