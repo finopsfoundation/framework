@@ -137,16 +137,16 @@
   img:
   titles:
   objectives:
+    - item: Drive accountability to engineering teams that are responsible for the application/services. 
+    - item: Provide guidance to engineering teams to have a cost-effective application/service by identifying anomalies and best practices.
+    - item: Work together with engineering teams to identify rate reductions and possible cost avoidance
+    - item: Cost allocation
+  frustrations:
     - item: Unsatisfied engineers as their workload keeps rising.
     - item: Long delivery cycles
     - item: Cannot predict the impact on the budget
     - item: Difficult to identify service or application ownership
     - item: Cannot predict the costs closely enough for developing new features and products.
-  frustrations:
-    - item: Drive accountability to engineering teams that are responsible for the application/services. 
-    - item: Provide guidance to engineering teams to have a cost-effective application/service by identifying anomalies and best practices.
-    - item: Work together with engineering teams to identify rate reductions and possible cost avoidance
-    - item: Cost allocation
   key-metrics:
     - item: Revenue by infrastructure costs
     - item: Cost per deployed service & service utilisation rates
