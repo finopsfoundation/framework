@@ -25,9 +25,9 @@ The FinOps Foundation offers training courses and certification programs for any
   <div>
     <h2 class="text-xl font-medium text-gray-900 tracking-tight">FinOps Certified Professional</h2>
     <p class="text-base text-gray-600">
-      The FinOps Certified Professional program is a more rigorous program of study, service, and content creation designed for those seeking to lead or support others leading FinOps teams. Companies seeking to start up a FinOps practice, adopt public cloud use, or consult or train FinOps teams would do well to seek out FinOps Certified Professionals who will understand all aspects of FinOps and have practical experience with its implementation.
+      This is the most in-depth and hands on FinOps training available. The FinOps Certified Professional program is designed for experienced FinOps practitioners who want to move to the next level to further their careers, further their knowledge in their current practice, and round out their FinOps knowledge with other professionals who have similar and varied backgrounds. This is an intensive course with 40-50 hours of anticipated work over several weeks. Much of the work will be self-paced but you will also be required to attend two virtual instructor-led trainings. We are excited for you to sign up and be the first to become a FinOps Certified Professional!
     </p>
-    <a class="btn" href="/training-certification/finops-certified-professional/">Learn more</a>
+    <a class="btn" href="https://learn.finops.org/path/finops-certified-professional">Learn more</a>
   </div>
 </div>
 
