@@ -27,3 +27,5 @@ https://framework.finops.org/* https://www.finops.org/:splat 301!
 /framework/capabilities/usage-optimization/ /framework/domains/usage-optimization/
 
 /training-certification/vendor-certification/ /members/vendor-certification/
+
+/training-certification/finops-certified-professional/  https://learn.finops.org/path/finops-certified-professional
