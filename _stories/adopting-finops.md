@@ -1,6 +1,6 @@
 ---
 
-layout: story
+layout: wide
 
 title: A Guide for Adopting FinOps in Your Organization
 description: One of the biggest challenges in starting a FinOps practice is getting broad executive support and buy-in to dedicate the time and resources needed for the cultural change.
