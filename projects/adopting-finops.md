@@ -6,13 +6,13 @@ description: Get guidance and tooling to help your organization unlock the promi
 
 ---
 
-<div class="bg-gray-200 p-4 rounded-md my-8"> 
+<div class="bg-gray-200 p-4 rounded-md my-8">
   <h2 class="mt-2">Adopting FinOps Project Details</h2>
 
   <p><em>We've provided this starter guide to help you build a presentation to inform other teams, teammates, and stakeholders about the benefits of building a FinOps practice. It includes preparation steps, accountability and expectations per role and persona, a detailed roadmap, and more.</em></p>
 
   <p><em>It was created by the the <b>Adopting FinOps</b> working group aiming to be an evolving set of materials aiming to provide practical guidance, education and enablement that helps organizations of all sizes and cloud maturity adopt FinOps as the standard for Cloud Financial Management.</em></p>
-  
+
   <p><strong>This project is currently a release candidate undergoing a TAC vote on 26 October 2021.</strong></p>
 
   <h3>Resources</h3>
@@ -23,12 +23,12 @@ description: Get guidance and tooling to help your organization unlock the promi
   </ul>
 </div>
 
-# How to Jump Start FinOps in your Organization 
+# How to Jump Start FinOps in your Organization
 
-One of the biggest challenges in starting a FinOps practice is getting broad executive support and buy-in to dedicate the time and resources needed for the cultural change. We see FinOps as the key to unlocking the promise of Cloud Computing and envision a world where efficient, profitable and cost effective cloud systems are made possible by the collaboration of finance, engineering and executive leadership through the FinOps framework. However without proper organizational support from both the technical and financial leadership of the company, nascent FinOps practices often get stuck in a reactive [Walk-stage maturity](/framework/maturity-model/) battling other priorities in the organization.
+One of the biggest challenges in starting a FinOps practice is getting broad executive support and buy-in to dedicate the time and resources needed for the cultural change. We see FinOps as the key to unlocking the promise of Cloud Computing and envision a world where efficient, profitable and cost effective cloud systems are made possible by the collaboration of finance, engineering and executive leadership through the [FinOps Framework](/framework/domains/). However without proper organizational support from both the technical and financial leadership of the company, nascent FinOps practices often get stuck in a reactive [Walk-stage maturity](/framework/maturity-model/) battling other priorities in the organization.
 
 - [Stage 1 - Planning for FinOps in an Organization (Laying the groundwork)](#stage-1---planning-for-finops-in-an-organization-laying-the-groundwork)
-- [Stage 2 - Socializing FinOps for adoption in an organization](#stage-2---socializing-finops-for-adoption-in-an-organization) 
+- [Stage 2 - Socializing FinOps for adoption in an organization](#stage-2---socializing-finops-for-adoption-in-an-organization)
 - [Stage 3 - Preparing the organization for FinOps](#stage-3---preparing-the-organization-for-finops)
 - [Personas](#personas)
 - [Accountability and expectations by team (RACI / DACI modeling)](#accountability-and-expectations-by-team-raci--daci-modeling)
@@ -43,13 +43,13 @@ A key role toward building FinOps adoption is the Driver. We've outlined key per
 ### Stage 1 - Planning for FinOps in an Organization (Laying the groundwork)
 
 #### Do your research
-Seek out the right stakeholders within the organization. As an individual looking to bring FinOps to your organization, you will need senior level sponsorship as well as cultivated supporters to build momentum. 
+Seek out the right stakeholders within the organization. As an individual looking to bring FinOps to your organization, you will need senior level sponsorship as well as cultivated supporters to build momentum.
 
 * Research your possible Advocate/Champion/Executive Sponsor, and have one-on-one conversations with each of them using a customized FinOps introduction deck or initial interview questions to determine adoption strategy.
 * Research pain points being experienced by the organization during your conversations, such as cloud costs breaking business cases, general perception of cost overruns, lack of cost visibility by cloud consumers, etc.
 * Research impacted groups, teams, and individuals during your conversations. Who is affected by the pain points.
 
-#### Create a plan 
+#### Create a plan
 Paint the future-state. This should appeal to the business (valuation of technology like cloud, unit economics, etc.)
 
 * The “What is FinOps Pitch Deck” (available in the top section) is a good starting point for this plan, but must be customized for the organization, the pain points, the org, the culture, etc.
@@ -76,7 +76,7 @@ Paint the future-state. This should appeal to the business (valuation of technol
 * Get budget approval, headcount
 * Procure new tool (if appropriate at this stage of the roadmap)
 
-### Stage 2 - Socializing FinOps for adoption in an organization 
+### Stage 2 - Socializing FinOps for adoption in an organization
 
 How key stakeholders promote FinOps in the organization:
 * Communicate the values that are central to the change
@@ -85,7 +85,7 @@ How key stakeholders promote FinOps in the organization:
 
 Create FinOps conversations with identified impacted teams, such as Finance lead(s), product lead(s) and lead engineer(s) to:
 * Provide an understanding of what FinOps is.
-* Understand their issues and explain/educate on how FinOps could help them. 
+* Understand their issues and explain/educate on how FinOps could help them.
 * Discuss proposed KPIs and adjust per conversation feedback
 * Establish interaction model between FinOps and key partners (IT domains; Controllers; App Teams)
 * Identify future members during socialization for CCoE and Executive SteerCo.
@@ -93,7 +93,7 @@ Create FinOps conversations with identified impacted teams, such as Finance lead
 Define initial FinOps Model (Resources, Operating Model, Cross-Functional Interaction, etc…):
 * Customize FinOps Model (Inform, Optimize and Operate) to the organization.
 * Identify the FinOps team with internal transfers where there is overlap with existing roles or individuals; fill remaining gaps via recruiting / contracting
-* Map the change network for FinOps across the organisation - sponsors, influencers, adopters. Create a clear training and communications strategy that a SteerCo is bought in to, that ensures full coverage of all impacted resources. 
+* Map the change network for FinOps across the organisation - sponsors, influencers, adopters. Create a clear training and communications strategy that a SteerCo is bought in to, that ensures full coverage of all impacted resources.
 * If the organisation is huge to reduce dependency on the central team, one scaling approach is to create a hub-and-spoke change management roll-out model.
 * KPI Roadmap: Finalize first-set of KPIs and reports, and identify and plan for next-gen KPIs and reports
 
@@ -111,7 +111,7 @@ Engage stakeholders:
 * Determine business unit appetite for commitment levels (total cost for enterprise discount negotiations, RI/Savings Plan/CUD/etc.)
 * Engage early adopter team to get optimization wins (e.g. shutting down test environments or instances who are no longer in use to show material savings). These are important for socializing, rolling out, and winning addition adoption later
 * Get some additional early governance wins for getting FinOps implemented (e.g. tagging policy, lease-to-live automation, etc.)
-* Start cadence of regular meetings. FinOps/CCOE team should be talking on a regular basis with the business units, app teams, practitioners and stakeholders to implement best practices and track KPIs. 
+* Start cadence of regular meetings. FinOps/CCOE team should be talking on a regular basis with the business units, app teams, practitioners and stakeholders to implement best practices and track KPIs.
 
 Remember that if the organization has multiple business units operating from a federated cloud operating model they will have differing [levels of maturity](/framework/maturity-model/). It is important that the change management considers this and allows them to adopt at differing paces.
 
@@ -120,7 +120,7 @@ The Working Group continues to refine these Driver milestones. If you'd like to 
 
 ## Personas
 
-When proposing the adoption of a FinOps function within an organization, there will be a need to brief a variety of personas among the executive team to gain approval, buy-in, and involvement in conducting FinOps and achieving its goals. 
+When proposing the adoption of a FinOps function within an organization, there will be a need to brief a variety of personas among the executive team to gain approval, buy-in, and involvement in conducting FinOps and achieving its goals.
 
 [![Key personas that the Driver must inform](/img/adopting-finops/adopting-finops-driver.png)](https://docs.google.com/presentation/d/17shQqIbmXMbjhAW26nD7qJeM9kqsbaDkTS9WzMk1okg/edit#slide=id.ged5e228ee8_0_70){:target="_blank"}
 *Key personas that the Driver must inform*

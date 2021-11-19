@@ -3,11 +3,11 @@
 layout: wide
 
 title: Establish FinOps Culture
-description: coming soon...
+description: This capability is about creating a movement to establish cultures of accountability so that your organization understands the practice of cloud cost management is really about leveraging FinOps to accelerate the creation of business value.
 permalink: /framework/capabilities/establish-finops-culture
 page-identifier: capability_establish-finops-culture
 framework-capability-title: Establish FinOps Culture
-framework-capability-desc: coming soon...
+framework-capability-desc: This capability is about creating a movement to establish cultures of accountability so that your organization understands the practice of cloud cost management is really about leveraging FinOps to accelerate the creation of business value.
 order: 14
 
 ---
@@ -20,28 +20,39 @@ order: 14
 
 
 ## Definition
-_definition for this Capability.  the objective here is to capture the "What" (**not** the "How") for this Capability._
+The word "_Kuleana_" is Hawaiian for "Responsibility".  Kuleana encourages us to be accountable for all that we do and is the "ability to respond" to whatever is happening.
+
+With this in mind, this capability is about creating a movement to establish cultures of accountability so that your organization understands the practice of cloud cost management is really about leveraging FinOps to accelerate the creation of business value.
+
+An organization's FinOps culture embraces a long term roadmap of transformation and continuous improvement across all [the FinOps Domains](https://www.finops.org/framework/domains/) at each stage of [FinOps Maturity](https://www.finops.org/framework/maturity-model/).  
+
+It requires finding allies in the face of opposition, winning over detractors during times of change, defining a common language, creating metrics to prove value, building enablement strategies to elevate stakeholder teams, and developing communication programs to inspire [the FinOps Personas](https://www.finops.org/framework/personas/) in your organization.
+
+At its core, FinOps is a cultural movement because the practice of Finops is more than a technology solution or a checklist you hand to your teams. It’s a living, breathing way of approaching the cloud and cloud financial management made possible by the collaboration of finance, engineering and executive leadership through the FinOps Framework.
+
+
 
 
 ## Maturity Assessment
 #### Crawl
-* Engineers are not familiar with what FinOps is and their role within it
-* FinOps metrics are available to teams but there is no set ritual followed by engineers around the metrics
-* Leadership is sold on the idea of FinOps but is not yet providing the buyin required
+* Engineers are not familiar with what FinOps is and their role within it.
+* FinOps metrics are available to teams but there is no set ritual followed by engineers around the metrics.
+* Leadership is sold on the idea of FinOps but is not yet providing the buyin required.
 * Finance and engineers are only just starting to meet.
 
 #### Walk
 * Engineers actively engage the FinOps processes, they understand the importance of FinOps within the business.
-* FinOps metrics are “just another operational metric” teams monitor and optimise this metric
-* Leadership is actively supporting FinOps in the organisation. They make decisions on the Iron Triangle by insisting on knowing the cost impact and business value of the decision
-* Engineering and Finance are aware of each other and understand what motivators drive each other
+* FinOps metrics are “just another operational metric” teams monitor and optimise this metric.
+* Leadership is actively supporting FinOps in the organisation. They make decisions on the Iron Triangle by insisting on knowing the cost impact and business value of the decision.
+* Engineering and Finance are aware of each other and understand what motivators drive each other.
+* Leadership celebrate FinOps success and celebrate/reward teams who have wins.
 
 #### Run
-* Engineers are actively looking for FinOps opportunities, reversing the flow of questions from finance to engineers more to engineers towards finance. Engineers proactively confirm budget and highlight changes that will impact costs
-* Unit Metrics are made available to core cloud spend, allowing deeper conversation into cost efficiency
-* Leadership celebrate FinOps success and celebrate/reward teams who have wins
-* Finance feel very comfortable with collaborating with teams
-
+* Engineers consider financial impact during each life-cycle.
+* Engineers are actively looking for FinOps opportunities, reversing the flow of questions from finance to engineers more to engineers towards finance. Engineers proactively confirm budget and highlight changes that will impact costs.
+* FinOps team advocates with Engineering teams for investment for solid financial endeavors.
+- Business/Product Owners understand that their design decisions drive cost.
+0000
 
 
 
@@ -50,7 +61,7 @@ _definition for this Capability.  the objective here is to capture the "What" (*
 #### As someone in a FinOps Practitioner role, I will…
 * Establish cloud cost management best practices
 * Establish benchmarks for stakeholder teams to use
-* Centralized cloud cost management in single cloud or multi-cloud environment
+* Centralize cloud cost management in single cloud or multi-cloud environment
 * Create visibility and transparency to cloud cost
 * Align accountability to cloud users
 * Identify unallocated spend
@@ -73,7 +84,7 @@ _definition for this Capability.  the objective here is to capture the "What" (*
 * Identify unallocated spend
 * Normalize spend predictability
 * Establish showbacks/chargebacks to increase financial accountability
-* Drive budget and forecast accurac
+* Drive budget and forecast accuracy
 
 
 #### As someone in a Procurement role, I will…
@@ -91,19 +102,23 @@ _definition for this Capability.  the objective here is to capture the "What" (*
 
 #### As someone in an Executive role, I will…
 * Connect engineering decisions with cloud business outcomes
-* Increased accountability for cloud cost
+* Increase accountability for cloud cost
 * Predict how cloud spend will grow as the business grows
 * Guide the organization's cloud investments
 * Enable engineering organizations to gain more freedom to utilize newer cloud technologies and deliver solutions to market faster
+- Support the prioritization of FinOps objectives.
 
 
 
 
 ## Measure(s) of Success
-_at least one measure of success; should be described in a context of cost; this could be an efficiency KPI or an agreed upon threshold or target._
-_for example:_
->* idle resource costs will not exceed 3% of total monthly cloud spend
-* anomaly costs will not exceed $150/month
+* Engineering teams feel enabled to make cost trade-offs because they have real-time visibility to spend.
+* Education is available and evolving as it relates to Cloud cost management.
+* Active processes for FinOps knowledge sharing among teams.
+* Teams feel they have actionable FinOps tasks available.
+- There are KPI's that quantify the use of rate-optimization constructs.
+* Unit Metrics are made available to track business value of cloud spend, enabling business agility.
+- The number of business leaders FinOps trained or certified.
 
 
 
@@ -112,14 +127,7 @@ _the information used that contributes to the measure(s) of success listed above
 
 
 <!-- ####### Real World Resources ####### -->
-## Real World Resources
-_a collection of real world examples, stories and “how to” for this Capability; based on FinOps community member experiences; information here may:_
->* _apply to one or more cloud providers_
-* _include specific types of cloud services used) (compute, storage, database, etc...)_
-* _describe a combination of  tooling, platform or vendor_
-* _describe the industry the organization belongs to_
-* _describe the complexity of the organization (global, enterprise, etc…)_
-* _include the FinOps personas involved and any other organizational roles_
+{% include story-loop.md %}
 
 
 
