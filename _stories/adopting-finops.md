@@ -1,14 +1,15 @@
 ---
 
 layout: story
+
 title: A Guide for Adopting FinOps in Your Organization
-description: One of the biggest challenges in starting a FinOps practice is getting broad executive support and buy-in to dedicate the time and resources needed for the cultural change. We see FinOps as the key to unlocking the promise of Cloud Computing and envision a world where efficient, profitable and cost effective cloud systems are made possible by the collaboration of finance, engineering and executive leadership through the FinOps Framework
+description: One of the biggest challenges in starting a FinOps practice is getting broad executive support and buy-in to dedicate the time and resources needed for the cultural change.
 story-title: A Guide for Adopting FinOps in Your Organization
 story-date: 2021-10-01
-author: F2 Working Group: Adopting FinOps
+author: F2 Working Group
 company: FinOps Foundation
 company-size:
-industry: Internet, Cloud Computing
+industry: Internet
 cloud-provider:
 - AWS
 - Azure
@@ -19,7 +20,7 @@ framework-maturity: Run
 framework-capabilities:
 - capability_establish-finops-culture
 framework-projects:
-order: 1
+order:
 tags:
 
 ---
