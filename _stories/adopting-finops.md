@@ -19,7 +19,7 @@ framework-maturity: Run
 framework-capabilities:
 - capability_establish-finops-culture
 framework-projects:
-order:
+order: 1
 tags:
 
 ---
