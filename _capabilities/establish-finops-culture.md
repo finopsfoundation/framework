@@ -48,17 +48,11 @@ At its core, FinOps is a cultural movement because the practice of Finops is mor
 * Leadership celebrate FinOps success and celebrate/reward teams who have wins.
 
 #### Run
-* Engineering teams feel enabled to make cost trade-offs because they have real-time visibility to spend.
 * Engineers consider financial impact during each life-cycle.
 * Engineers are actively looking for FinOps opportunities, reversing the flow of questions from finance to engineers more to engineers towards finance. Engineers proactively confirm budget and highlight changes that will impact costs.
-* Education is available and evolving as it relates to Cloud cost management.
-* Active processes for FinOps knowledge sharing among teams.
-* FinOps team advocates with engineer teams for investment for solid financial endeavors.
-* Teams feel they have actionable FinOps tasks available.
-* Unit Metrics are made available to core cloud spend, allowing deeper conversation into cost efficiency.
-- The number of business leaders FinOps trained or certified.
-
-
+* FinOps team advocates with Engineering teams for investment for solid financial endeavors.
+- Business/Product Owners understand that their design decisions drive cost.
+0000
 
 
 
@@ -90,7 +84,7 @@ At its core, FinOps is a cultural movement because the practice of Finops is mor
 * Identify unallocated spend
 * Normalize spend predictability
 * Establish showbacks/chargebacks to increase financial accountability
-* Drive budget and forecast accurac
+* Drive budget and forecast accuracy
 
 
 #### As someone in a Procurement role, I will…
@@ -112,15 +106,19 @@ At its core, FinOps is a cultural movement because the practice of Finops is mor
 * Predict how cloud spend will grow as the business grows
 * Guide the organization's cloud investments
 * Enable engineering organizations to gain more freedom to utilize newer cloud technologies and deliver solutions to market faster
+- Support the prioritization of FinOps objectives.
 
 
 
 
 ## Measure(s) of Success
-_at least one measure of success; should be described in a context of cost; this could be an efficiency KPI or an agreed upon threshold or target._
-_for example:_
->* idle resource costs will not exceed 3% of total monthly cloud spend
-* anomaly costs will not exceed $150/month
+* Engineering teams feel enabled to make cost trade-offs because they have real-time visibility to spend.
+* Education is available and evolving as it relates to Cloud cost management.
+* Active processes for FinOps knowledge sharing among teams.
+* Teams feel they have actionable FinOps tasks available.
+- There are KPI's that quantify the use of rate-optimization constructs.
+* Unit Metrics are made available to track business value of cloud spend, enabling business agility.
+- The number of business leaders FinOps trained or certified.
 
 
 
