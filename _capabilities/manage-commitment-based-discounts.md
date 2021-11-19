@@ -56,7 +56,10 @@ _written for each persona responsible for the functional activity and processes 
 
 
 ## Measure(s) of Success
-* Maintaining a ccommitment based discount utilization threshold around 80%
+* Ability to measure the overall effective savings rate of [Cloud Rate Optimization](https://www.finops.org/framework/domains/cloud-rate-optimization/) efforts for both technology-based and monetary-based commitment discounts
+* For resource-based commitment discounts, maintaining a utilization upper-waterline around 80% for steady-state usage
+* For spend-based commitment discounts, purchasing commitments with at least 90% savings per dollar of commitment for an established threshold of peak variable usage
+* Analysis and purchase decisions for commitments are made in the context of interruptable/batch/highly variable workloads
 * Ability to identify unused commitment based discounts with daily resolution
 * Ability to notify stakeholder teams about expiring commitments with sufficient time to plan a new purchase
 * Purchasing of commitment based discounts are viewed as investments by stakeholder teams like Execs/Productment/Finance; the investment is the cost of the commitment over the entire period, and the return is the savings provided
@@ -64,9 +67,9 @@ _written for each persona responsible for the functional activity and processes 
 * Purchasing commitments that deliver more than 10% return on investment
 * Mitigate risk by purchasing commitments with a break-even within 9 months
 * Analysis and management is done centrally using a holistic view of the organization's cloud estate and not at each individual cloud sub-account level
-* Analysis for making commitment purchases is supplemented with planned workload capacity changes
+* Analysis for making commitment purchases is supplemented with planned infrastructure and/or workload capacity changes
 * Committment purchases are spread over the year to allow for flexibility by always have some % of commitments expiring; this enables re-evaluation of commitment levels at regular intervals informed by forecasted future usage
-
+* Analysis and purchase decisions for commitments are made in the context of any negotiated commercial discounts offered to enterprises by the cloud service provider in exchange for overall cloud spend
 
 
 
