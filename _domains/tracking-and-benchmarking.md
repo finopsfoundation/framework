@@ -16,6 +16,7 @@ framework-capabilities:
 - capability_rightsizing
 - capability_unit-costs
 - capability_showback
+- capability_onboarding-workloads
 order: 2
 
 ---
