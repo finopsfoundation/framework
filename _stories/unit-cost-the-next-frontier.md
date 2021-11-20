@@ -7,11 +7,9 @@ description: Examining the nature of and the need for cloud unit costing with ex
 story-title: Unit Costing - The next frontier in Cloud FinOps
 story-date: 2021-09-30
 author:
-- Rich Hoyer
-- Eric Lam
+- Rich Hoyer (SADA)
+- Eric Lam (Google Cloud)
 company:
-- SADA
-- Google Cloud
 company-size:
 industry: Information Technology & Services
 cloud-provider:
