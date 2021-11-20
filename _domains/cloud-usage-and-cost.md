@@ -16,6 +16,7 @@ framework-capabilities:
 - capability_showback
 - capability_normalization
 - capability_asset-management
+- capability_unit-costs
 order: 1
 
 ---
