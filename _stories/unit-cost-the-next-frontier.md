@@ -9,7 +9,9 @@ story-date: 2021-09-30
 author:
 - Rich Hoyer
 - Eric Lam
-company: SADA
+company:
+- SADA
+- Google Cloud
 company-size:
 industry: Information Technology & Services
 cloud-provider:
