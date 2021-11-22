@@ -115,7 +115,7 @@ Enjoy <b>20% off</b> with the code: <b>OctoberF2</b> until 25th October
 - Student Handbook PDF with learning outcomes to prepare for the exam
 - Includes an exam code to take the FinOps Certified Practitioner exam at the Linux Foundation ($300 value)
 
-<a class="btn" href="https://www.eventbrite.com/e/finops-certified-practitioner-self-paced-course-tickets-164850966679">Purchase Self-Paced</a>
+<a class="btn" href="https://www.eventbrite.com/e/finops-certified-practitioner-self-paced-course-tickets-215378361477">Purchase Self-Paced</a>
 
 ---
 
