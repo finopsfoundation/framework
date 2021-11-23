@@ -11,12 +11,9 @@ description: See the latest updates from the previous and upcoming monthly FinOp
 
 ## November FinOps Summit - Cultures of Accountability
 
-<div class="videoWrapper mb-10">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/pdy5azWEWj4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
 
-<div class="bg-gray-200 rounded-lg px-6 py-4 text-center">
-  <p>Anyone can join this free event - <a href="https://go.finops.org/finops-foundation-november-summit-cultures-of-accountability" data-ga-category="links" data-ga-action="internal link clicks" data-ga-label="summit - monthly update">simply register to receive the event details.</a></p>
+<div class="videoWrapper mb-10">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/__DF0vLDilE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 ### Keynotes:
@@ -53,10 +50,6 @@ Be there for the official kick-off of the 2022 State of FinOps survey. Hear what
 
 <div class="videoWrapper mb-10">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/zFFuuZpN1Hc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-
-<div class="bg-gray-200 rounded-lg px-6 py-4 text-center">
-  <p><a href="/membership/" data-ga-category="links" data-ga-action="internal link clicks" data-ga-label="membership - monthly update">Become a FinOps Foundation member</a> to join the next monthly FinOps summit.</p>
 </div>
 
 ### Keynotes:
