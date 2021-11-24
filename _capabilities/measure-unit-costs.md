@@ -2,17 +2,17 @@
 
 layout: wide
 
-title: Measure Unit Costs
+title: Measuring Unit Costs
 description: coming soon...
 permalink: /framework/capabilities/measure-unit-costs/
 page-identifier: capability_unit-costs
-framework-capability-title: Measure Unit Costs
+framework-capability-title: Measuring Unit Costs
 framework-capability-desc: coming soon...
 order: 10
 
 ---
 
-# Measure Unit Costs
+# Measuring Unit Costs
 
 {% include contribute-capabiility.md %}
 
