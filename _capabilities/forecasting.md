@@ -109,6 +109,15 @@ reliably and accurately, cloud cost forecasting will inform investment and opera
 {% include story-loop.md %}
 
 
+## FinOps Platforms & Service Providers
+_Reference of cloud cost management platforms, tooling and service providers related to this Capability coming soon._
+
+
+## FinOps Training
+_Reference of courses and training partners related to this Capability coming soon._
+
+
+
 ## Get Involved
 
 Get involved and contribute to the community by sharing a forecasting related story or providing a playbook for how you have implemented cloud cost forecasting best practices in your organization. Your real world story or how-to can be provided in the context of:

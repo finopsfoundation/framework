@@ -55,6 +55,14 @@ _a collection of real world examples, stories and “how to” for this Capabili
 * _include the FinOps personas involved and any other organizational roles_
 
 
+## FinOps Platforms & Service Providers
+_Reference of cloud cost management platforms, tooling and service providers related to this Capability coming soon._
+
+
+## FinOps Training
+_Reference of courses and training partners related to this Capability coming soon._
+
+
 
 ## Get Involved
 

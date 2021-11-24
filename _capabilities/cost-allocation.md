@@ -124,6 +124,15 @@ An important prerequisite to effective cost allocation is the metadata strategy,
 
 
 
+## FinOps Platforms & Service Providers
+_Reference of cloud cost management platforms, tooling and service providers related to this Capability coming soon._
+
+
+## FinOps Training
+_Reference of courses and training partners related to this Capability coming soon._
+
+
+
 
 ## Get Involved
 
