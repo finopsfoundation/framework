@@ -2,20 +2,17 @@
 
 layout: default
 
-title: Chargeback & IT Finance Integration
+title: Policy & Governance
 description: coming soon...
-permalink: /framework/capabilities/chargeback/
-page-identifier: capability_chargeback
-framework-capability-title: Chargeback & IT Finance Integration
+permalink: /framework/capabilities/policy-governance
+page-identifier: capability_policy-governance
+framework-capability-title: Policy & Governance
 framework-capability-desc: coming soon...
-order: 12
+order: 16
 
 ---
 
-# Chargeback & IT Finance Integration
-
-
-{% include contribute-capabiility.md %}
+# Policy & Governance
 
 {% include domains-loop.md %}
 

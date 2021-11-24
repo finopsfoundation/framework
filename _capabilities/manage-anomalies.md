@@ -117,6 +117,15 @@ _a collection of real world examples, stories and “how to” for this Capabili
 
 
 
+## FinOps Platforms & Service Providers
+_Reference of cloud cost management platforms, tooling and service providers related to this Capability coming soon._
+
+
+## FinOps Training
+_Reference of courses and training partners related to this Capability coming soon._
+
+
+
 ## Get Involved
 Get involved and contribute to the community by sharing a story or providing a playbook for how you have managed anomalies and established best practices in your organization. Your real world story or how-to can be provided in the context of:
 >* one or more cloud providers
