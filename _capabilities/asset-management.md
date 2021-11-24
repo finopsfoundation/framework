@@ -2,17 +2,17 @@
 
 layout: wide
 
-title: IT Asset Management
+title: IT Asset Management Integration
 description: coming soon...
 permalink: /framework/capabilities/asset-management/
 page-identifier: capability_asset-management
-framework-capability-title: IT Asset Management
+framework-capability-title: IT Asset Management Integration
 framework-capability-desc: coming soon...
 order: 15
 
 ---
 
-# IT Asset Management
+# IT Asset Management Integration
 
 {% include contribute-capabiility.md %}
 
