@@ -1,18 +1,18 @@
 ---
 
-layout: wide
+layout: default
 
-title: Capability Title Here
+title: Policy & Governance
 description: coming soon...
-permalink: /framework/capabilities/
-page-identifier:
-framework-capability-title: Capability Title Here
+permalink: /framework/capabilities/policy-governance
+page-identifier: capability_policy-governance
+framework-capability-title: Policy & Governance
 framework-capability-desc: coming soon...
-order: 1
+order: 16
 
 ---
 
-# Heading Here
+# Policy & Governance
 
 {% include domains-loop.md %}
 
