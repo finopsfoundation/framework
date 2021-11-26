@@ -114,7 +114,6 @@ A pre-qualified tier of vetted service providers who have deep experience helpin
 - Must have a dedicated FinOps or cloud financial management offering listed online
 - Number of FinOps Certified Practitioners tied to company size (see table below)
 - Must have a business model to support enterprise end users
-- Must be a FinOps Foundation and Linux Foundation member
 
 
 ### FinOps Training Partner
