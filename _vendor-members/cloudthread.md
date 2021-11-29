@@ -30,12 +30,12 @@ product-resources:
 - title:
   url:
 
-# Supported functions in the framework by the product(s) or service, these need to match the menu spelling to add a link automatically, ones listed are examples
-supported-functions:
-- Shared Cost Management
-- Anomaly Detection
-- Continuous Improvement
-- Data Analytics
+# Supported capabilities in the framework by the product(s) or services. Match the page-identifier per capability in order for the capability to show up on the vendor page.
+capabilities:
+- capability_shared-cost
+- capability_anomalies
+- capability_workload-automation
+- capability_normalization
 
 # Edit as appropriate to display supported clouds
 clouds-supported:

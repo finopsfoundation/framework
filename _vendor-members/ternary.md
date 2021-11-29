@@ -34,23 +34,17 @@ product-resources:
 - title: Ternary for Partners
   url: "https://ternary.app/partners.html"
 
-# Supported functions in the framework by the product(s) or service, these need to match the menu spelling to add a link automatically, ones listed are examples
-supported-functions:
-- Resource Metadata (Tagging/Labeling)
-- Resource Hierarchy (Accounts, Subscriptions & Projects)
-- Anomaly Detection
-- Commitment Discounts (Reservations, Savings Plans, CUDs)
-- Optimization Recommendations
-- Automation
-- Usage Volume Discounts (Usage Tiers, SUDs)
-- Continuous Improvement
-- Data Ingestion
-- Data Processing
-- Data Visualization
-- Data Analytics
-- Budget Alerting
-- Marketplace
-- Trending & Variance Analysis
+# Supported capabilities in the framework by the product(s) or services. Match the page-identifier per capability in order for the capability to show up on the vendor page.
+capabilities:
+- capability_allocation
+- capability_anomalies
+- capability_commitment-discounts
+- capability_rightsizing
+- capability_workload-automation
+- capability_normalization
+- capability_budget-management
+- capability_asset-management
+- capability_showback
 
 # Edit as appropriate to display supported clouds
 clouds-supported:

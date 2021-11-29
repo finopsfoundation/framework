@@ -39,10 +39,10 @@ product-resources:
 - title: Clear Up Your Cloud Strategy
   url: "https://vaxowave.com/2021/03/16/clear-up-your-cloud-strategy/"
 
-# Supported functions in the framework by the product(s) or services, these need to match the menu spelling to add a link automatically, ones listed are examples
-supported-functions:
-- Optimization Recommendations
-- Continuous Improvement
+# Supported capabilities in the framework by the product(s) or services. Match the page-identifier per capability in order for the capability to show up on the vendor page.
+capabilities:
+- capability_rightsizing
+- capability_workload-automation
 
 # Edit as appropriate to display supported clouds
 clouds-supported:

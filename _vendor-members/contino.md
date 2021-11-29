@@ -46,31 +46,20 @@ product-resources:
   url: "https://www.contino.io/insights/finops-cloud-finance-management"
 
 
-# Supported functions in the framework by the product(s) or services, these need to match the menu spelling to add a link automatically, ones listed are examples
-supported-functions:
-- Resource Metadata (Tagging/Labeling)
-- Resource Hierarchy (Accounts
-- Subscriptions & Projects)
-- Shared Cost Management
-- Commitment Discounts (Reservations, Savings Plans, CUDs)
-- Optimization Recommendations
-- Automation
-- Usage Volume Discounts (Usage Tiers, SUDs)
-- Architecture Refactoring
-- Negotiated Pricing
-- Continuous Improvement
-- Learning, Autoscaling
-- Data Ingestion
-- Data Processing
-- Data Visualization
-- Data Analytics
-- Budget Alerting
-- Commitment Tracking
-- Marketplace
-- Policy Management
-- Trending & Variance Analysis
-- Containers Capabilities
-- Software Asset Management
+# Supported capabilities in the framework by the product(s) or services. Match the page-identifier per capability in order for the capability to show up on the vendor page.
+capabilities:
+- capability_allocation
+- capability_shared-cost
+- capability_commitment-discounts
+- capability_rightsizing
+- capability_workload-automation
+- capability_onboarding-workloads
+- capability_establish-finops-culture
+- capability_normalization
+- capability_budget-management
+- capability_asset-management
+- capability_policy-governance
+- capability_showback
 
 # Edit as appropriate to display supported clouds
 clouds-supported:
