@@ -37,8 +37,8 @@ product-resources:
 - title: Smart Sourcing
   url: "https://timspirit.fr/offre/smart-sourcing/"
 
-# Supported functions in the framework by the product(s) or service, these need to match the menu spelling to add a link automatically, ones listed are examples
-supported-functions:
+# Supported capabilities in the framework by the product(s) or services. Match the page-identifier per capability in order for the capability to show up on the vendor page.
+capabilities:
 
 
 # Edit as appropriate to display supported clouds

@@ -41,22 +41,14 @@ product-resources:
 - title: CloudVane Linkedin
   url: "https://www.linkedin.com/company/cloudvane"
 
-# Supported functions in the framework by the product(s) or service, these need to match the menu spelling to add a link automatically, ones listed are examples
-supported-functions:
-- Resource Metadata (Tagging/Labeling)
-- Resource Hierarchy (Accounts
-- Subscriptions & Projects)
-- Shared Cost Management
-- Optimization Recommendations
-- Automation
-- Autoscaling
-- Data Ingestion
-- Data Processing
-- Data Visualization
-- Data Analytics
-- Budget Alerting
-
-
+# Supported capabilities in the framework by the product(s) or services. Match the page-identifier per capability in order for the capability to show up on the vendor page.
+capabilities:
+- capability_allocation
+- capability_shared-cost
+- capability_rightsizing
+- capability_workload-automation
+- capability_normalization
+- capability_budget-management
 
 # Edit as appropriate to display supported clouds 
 clouds-supported:

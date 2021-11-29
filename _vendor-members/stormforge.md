@@ -38,18 +38,12 @@ product-resources:
 - title: Professional Services
   url: "https://www.stormforge.io/services/"
 
-# Supported functions in the framework by the product(s) or services, these need to match the menu spelling to add a link automatically, ones listed are examples
-supported-functions:
-- Optimization Recommendations
-- Automation
-- Continuous Improvement
-- Learning
-- Autoscaling
-- Data Ingestion
-- Data Processing
-- Data Visualization
-- Data Analytics
-- Containers Capabilities
+# Supported capabilities in the framework by the product(s) or services. Match the page-identifier per capability in order for the capability to show up on the vendor page.
+capabilities:
+- capability_rightsizing
+- capability_workload-automation
+- capability_establish-finops-culture
+- capability_normalization
 
 # Edit as appropriate to display supported clouds
 clouds-supported:
