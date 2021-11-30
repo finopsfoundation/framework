@@ -12,7 +12,6 @@ framework-capabilities:
 - capability_allocation
 - capability_showback
 - capability_anomalies
-- capability_budget
 - capability_commitment-discounts
 - capability_rightsizing
 - capability_unit-costs

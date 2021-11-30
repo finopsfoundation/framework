@@ -35,7 +35,7 @@ If you’re looking to better understand the impact of cloud costs on your busin
 - Explores the need for unit costing
 - Dives into real-world examples that showcase cloud-first organizations who are pioneering this important discipline
 
-[Download the paper here](https://info.sada.com/whitepaper/next-frontier-cloud-finops) to learn why unit costing is the next frontier in managing cloud spend about how you can leverage it to create sustainable business value from the cloud.
+[Download the paper here](https://info.sada.com/hubfs/2021%20Marketing%20Collateral/SADA-UnitCostingExcellence_Whitepaper.pdf) to learn why unit costing is the next frontier in managing cloud spend about how you can leverage it to create sustainable business value from the cloud.
 
 
 

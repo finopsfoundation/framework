@@ -9,13 +9,12 @@ page-identifier: domain_usage-cost
 framework-domain-title: Understanding Cloud Usage and Cost
 framework-domain-desc: Within this Domain, the organization will work to gather all required information about its cloud usage and cost, normalize it, make it available for review, including circulating it to those personas that will use it in other Domains.
 framework-capabilities:
-- capability_forecasting
 - capability_allocation
-- capability_anomalies
-- capability_shared-cost
 - capability_showback
+- capability_shared-cost
 - capability_normalization
-- capability_asset-management
+- capability_anomalies
+- capability_forecasting
 - capability_unit-costs
 order: 1
 
