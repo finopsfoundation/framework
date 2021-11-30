@@ -2,17 +2,17 @@
 
 layout: default
 
-title: Policy & Governance
+title: Cloud Policy & Governance
 description: coming soon...
 permalink: /framework/capabilities/policy-governance
 page-identifier: capability_policy-governance
-framework-capability-title: Policy & Governance
+framework-capability-title: Cloud Policy & Governance
 framework-capability-desc: coming soon...
 order: 16
 
 ---
 
-# Policy & Governance
+# Cloud Policy & Governance
 
 {% include domains-loop.md %}
 
