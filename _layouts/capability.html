@@ -42,11 +42,11 @@ layout: wide
 <div class="hidden overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none justify-center items-center" id="modal-{{ page.page-identifier }}">
   <div class="relative w-auto my-6 mx-auto max-w-3xl">
     <!--content-->
-    <div class="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
+    <div class="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none modal">
       <!--header-->
       <div class="flex p-5 border-b border-solid border-blueGray-200 rounded-t">
         <h3 class="text-xl font-semibold mt-2">
-          FinOps Platforms & Service Providers
+          FinOps Platforms & Service Providers for the {{ page.framework-capability-title }} Capability
         </h3>
         <button class="p-1 ml-auto bg-transparent border-0 text-black opacity-5 float-right text-3xl leading-none font-semibold outline-none focus:outline-none" onclick="toggleModal('modal-{{ page.page-identifier }}')">
           <span class="bg-transparent text-black opacity-5 h-6 w-6 text-2xl block outline-none focus:outline-none">
@@ -73,7 +73,7 @@ layout: wide
             {% endfor %}
             </div>
             {% if is_vendors == false %}
-            <div>Fallback text goes here</div>
+              <div>Fallback text goes here</div>
             {% endif %}
 
           <!-- end form -->
