@@ -57,19 +57,24 @@ layout: wide
       <!--body-->
       <div class="relative p-6 flex-auto">
         <div class="flex flex-wrap">
-        
+          {% assign is_vendors = false %}
           {% assign sorted_vendor = site.vendor-members | sort: 'name' %}
-            {% for vendor in sorted_vendor %}
-              {% if vendor.capabilities contains page.page-identifier %}
+          {% for vendor in sorted_vendor %}
+            {% if vendor.capabilities contains page.page-identifier %}
               <div class="md:w-2/6 p-3 flex items-stretch">
                 <div class="w-full bg-gray-100 rounded-lg border-solid border-gray-100 border hover:border-green-500 transition-colors duration-200 shadow-sm cursor-pointer flex text-centre items-center justify-center">
                   <a href="{{ vendor.url }}" class="block p-6">
                     <img src="{{ vendor.logo-url }}" alt="{{ vendor.name }}" width="{% if vendor.logo-url-width != undefined %}{{ vendor.logo-url-width }}{% else %}150{% endif %}" />
                   </a>
                 </div>
-              </div>  
+              </div>
+              {% assign is_vendors = true %}
               {% endif %}
             {% endfor %}
+            </div>
+            {% if is_vendors == false %}
+            <div>Fallback text goes here</div>
+            {% endif %}
 
           <!-- end form -->
           <hr class="basic" />
