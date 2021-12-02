@@ -31,9 +31,10 @@ layout: basic
     {% if page.identifier == 'framework' or page.identifier == 'projects' %}
     <div class="text-right text-sm no-underline text-gray-900 mb-6">
       <a href="javascript:void(0);" class="rounded-md hover:bg-gray-200 py-2 px-4 opacity-50 hover:opacity-100 transition duration-200 ease-in-out" onclick="toggleModal('modal-contribute')">
-        <img src="/img/icons/github.svg" width="16" class="inline-block align-text-bottom mr-1"> Propose Edits
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 inline" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" /></svg> Make Suggestion
       </a>
     </div>
+
       {% assign url = page.url %}
       {% assign size = url | size | minus: 1 %}
 
@@ -97,3 +98,66 @@ layout: basic
 
 </div>
 
+
+
+<!-- Modal Contribute -->
+
+<div class="hidden overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none justify-center items-center" id="modal-contribute">
+  <div class="relative w-4/5 m:w-2/5 my-6 mx-auto max-w-3xl">
+    <!--content-->
+    <div class="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
+      <!--header-->
+      <div class="flex p-5 border-b border-solid border-blueGray-200 rounded-t">
+        <h3 class="text-xl font-semibold mt-2">
+          Make suggestions to the FinOps Framework
+        </h3>
+        <button class="p-1 ml-auto bg-transparent border-0 text-black opacity-5 float-right text-3xl leading-none font-semibold outline-none focus:outline-none" onclick="toggleModal('modal-contribute')">
+          <span class="bg-transparent text-black opacity-5 h-6 w-6 text-2xl block outline-none focus:outline-none">
+            ×
+          </span>
+        </button>
+      </div>
+      <!--body-->
+      <div class="relative p-6 flex-auto">
+        <div>
+          <!-- form -->
+
+          <form name="contribution" method="POST" data-netlify="true" action="/introduction/how-to-contribute/?fm=ty-contribute">
+            <div class="hidden">
+              <label>Don’t fill this out if you’re human </label>
+              <input name="bot-field" />
+            </div>
+            <div>
+              <label>First Name</label>
+              <input type="text" name="first_name" required />
+            </div>
+            <div>
+              <label>Last Name</label>
+              <input type="text" name="last_name" required />
+            </div>
+            <div>
+              <label>Your Email</label>
+              <input type="email" name="email" required />
+            </div>
+            <div>
+              <label>Proposed edits</label>
+              <textarea name="message" required rows="5"></textarea>
+            </div>
+            <input type="hidden" name="page" value="test page" />
+            <div>
+              <button class="btn" type="submit">Send</button>
+            </div> 
+          </form>
+
+          <!-- end form -->
+          <div class="border-t border-solid border-blueGray-200">
+            <h4>Feel at home with GitHub?</h4>
+            <img src="/img/icons/github.svg" width="20" class="inline-block align-text-bottom mr-1"> <a href="https://github.com/finopsfoundation/framework">Contribute to this page via <span class="underline">GitHub</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Backdrop -->
+<div class="hidden opacity-25 fixed inset-0 z-40 bg-black" id="modal-backdrop"></div>
