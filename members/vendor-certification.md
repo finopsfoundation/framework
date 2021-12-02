@@ -1,6 +1,6 @@
 ---
 
-layout: default
+layout: wide
 github-link: false
 title: Vendor FinOps Certification
 description: Vendor member certifications include FinOps Certified Platforms, Solutions, Training Partners, and Service Providers.
@@ -132,7 +132,7 @@ Email [partners@finops.org](mailto:partners@finops.org) to learn more about cert
 ## FinOps Practitioner Certifications Requirements
 
 | Company Size | Certs Required |
-|--:|:--|
+|:--|:--|
 | 5000+ | 50 |
 | 500-4999 | 35 |
 | 100-499 | 10 |
