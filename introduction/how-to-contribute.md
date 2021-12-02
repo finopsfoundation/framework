@@ -1,10 +1,14 @@
 ---
 
-layout: default
+layout: wide
 title: Contribute to the FinOps Community
 description: There are multiple ways to contribute to the FinOps community, from becoming a member to join the conversation to proposing changes to the best practices and standards in the framework.
 
 ---
+
+<div id="ty-contribute" class="hidden">
+  {% include contribute-thankyou.md %}
+</div>
 
 # How to contribute
 FinOps has become a required practice at many large organizations, but it's also a nascent discipline and constantly evolving with cloud. This means that its best practices and principles will change over time as practitioners learn new skills, make new discoveries, and find new ways to better operationalize cloud cost management.

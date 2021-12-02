@@ -85,7 +85,6 @@ function toggleModal(modalID){
   document.getElementById("modal-backdrop").classList.toggle("flex");
 }
 
-
 // Accordian
 
 $(function(){
@@ -177,3 +176,11 @@ if(document.getElementById('js-waste')) {
   });
 };
 
+// URL var check
+document.addEventListener('DOMContentLoaded', function() {
+  const queryString = window.location.search;
+  const urlParams = new URLSearchParams(queryString);
+  const formName = urlParams.get('fm')
+  document.getElementById(formName).classList.toggle("hidden");
+  document.getElementById(formName).classList.toggle("flex");
+});
