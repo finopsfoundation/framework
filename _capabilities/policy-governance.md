@@ -1,6 +1,6 @@
 ---
 
-layout: default
+layout: wide
 
 title: Cloud Policy & Governance
 description: coming soon...
@@ -13,6 +13,12 @@ order: 16
 ---
 
 # Cloud Policy & Governance
+
+{% include contribute-capabiility.md %}
+
+
+## Domains
+<!-- _x-ref to the FinOps Domain(s) to which this Capability corresponds_ -->
 
 {% include domains-loop.md %}
 
