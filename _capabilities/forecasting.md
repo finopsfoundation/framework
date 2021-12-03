@@ -1,6 +1,6 @@
 ---
 
-layout: wide
+layout: capability
 
 title: Forecasting | FinOps Framework Capability
 description: Understand forecasting cloud costs - how future cloud infrastructure and application lifecycle changes may impact current budgets and influence budget planning and future cloud investment decisions.
@@ -107,28 +107,3 @@ reliably and accurately, cloud cost forecasting will inform investment and opera
 <!-- ####### Real World Resources ####### -->
 
 {% include story-loop.md %}
-
-
-## FinOps Platforms & Service Providers
-_Reference of cloud cost management platforms, tooling and service providers related to this Capability coming soon._
-
-
-## FinOps Training
-_Reference of courses and training partners related to this Capability coming soon._
-
-
-
-## Get Involved
-
-Get involved and contribute to the community by sharing a forecasting related story or providing a playbook for how you have implemented cloud cost forecasting best practices in your organization. Your real world story or how-to can be provided in the context of:
->* one or more cloud providers
-* the types of cloud services used (compute, storage, database, etc...)
-* describe a combination of  tooling, platform or vendor, and processes including KPIs
-* the industry the organization belongs to
-* the complexity of the organization (global enterprise, start-up, etc…)
-* the [FinOps personas](https://www.finops.org/framework/personas/) involved / organizational roles
-
-Join the conversation about this Capability in [the Slack #forecasting channel](https://finopsfoundation.slack.com/archives/C01T6BW6TFZ). You can submit stories, how-tos and suggest improvements [using one of the options for contributing listed here](https://www.finops.org/introduction/how-to-contribute/).
-
-
----
