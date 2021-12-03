@@ -9,7 +9,7 @@ linkedin-url: "https://www.linkedin.com/company/ternaryinc/"
 website-url: "https://ternary.app/"
 
 # Maximum character count is 350 the rest will be truncated and hidden automatically on your page
-company-description: Ternary is the world’s first native FinOps cloud cost optimization tool. Built for Google Cloud on Google Cloud. Make better decisions. Spend wisely and build a culture of accountability, collaboration and trust between Finance and Engineering teams.
+company-description: Ternary is the world’s first native FinOps cloud cost optimization tool. Built for Google Cloud on Google Cloud. Make better decisions. Spend wisely and build a culture of accountability, collaboration, and trust between Finance and Engineering teams.
 
 # Membership level, type and vendor certifications
 member-level: general

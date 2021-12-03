@@ -10,7 +10,7 @@ linkedin-url: "https://www.linkedin.com/company/flexera"
 website-url: "https://www.flexera.com/"
 
 # Maximum character count is 350 the rest will be truncated and hidden automatically on your page
-company-description: Flexera delivers SaaS-based IT management solutions that enable enterprises to accelerate the return on their technology investments. We help organizations inform their IT with total visibility into complex hybrid ecosystems, so they can transform their IT by rightsizing across all platforms, reallocating spend, reducing risk and charting the most effective path to the cloud.
+company-description: Flexera delivers SaaS-based IT management solutions that enable enterprises to accelerate the return on their technology investments. We help organizations inform their IT with total visibility into complex hybrid ecosystems, so they can transform their IT by rightsizing across all platforms, reallocating spend, reducing risk, and charting the most effective path to the cloud.
 
 # Membership level, type and vendor certifications 
 member-level: general

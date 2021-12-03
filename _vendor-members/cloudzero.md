@@ -53,6 +53,7 @@ capabilities:
 - capability_asset-management
 - capability_policy-governance
 - capability_showback
+- capability_unit-costs
 
 # Edit as appropriate to display supported clouds
 clouds-supported:

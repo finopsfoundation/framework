@@ -10,7 +10,7 @@ linkedin-url: "https://www.linkedin.com/company/2785989/"
 website-url: "https://nordcloud.com/"
 
 # Maximum character count is 350 the rest will be truncated and hidden automatically on your page
-company-description: Nordcloud is a European leader in cloud implementation, application development, managed services and training. We’re triple certified and featured in Gartner’s Magic Quadrant.
+company-description: Nordcloud is a European leader in cloud implementation, application development, managed services, and training. We’re triple certified and featured in Gartner’s Magic Quadrant.
 
 # Membership level, type and vendor certifications 
 member-level: premier

@@ -10,7 +10,7 @@ linkedin-url: "https://www.linkedin.com/company/corestack/"
 website-url: "https://www.corestack.io/"
 
 # Maximum character count is 350 the rest will be truncated and hidden automatically on your page
-company-description: CoreStack, an AI-powered multi-cloud governance solution, empowers enterprises to unleash the power of cloud on their terms by helping them rapidly achieve continuous and autonomous cloud governance at scale. CoreStack enables enterprises to realize outcomes across FinOps, SecOps and CloudOps, such as 40% cloud cost reduction, 50% operational efficiency boost and 100% security and compliance assurance.
+company-description: CoreStack, an AI-powered multi-cloud governance solution, empowers enterprises to unleash the power of cloud on their terms by helping them rapidly achieve continuous and autonomous cloud governance at scale. CoreStack enables enterprises to realize outcomes across FinOps, SecOps, and CloudOps, such as 40% cloud cost reduction, 50% operational efficiency boost and 100% security and compliance assurance.
 
 # Membership level, type and vendor certifications 
 member-level: general

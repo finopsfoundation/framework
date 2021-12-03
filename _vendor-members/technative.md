@@ -11,7 +11,7 @@ website-url: "https://www.technative.nl"
 # Maximum character count is 350 the rest will be truncated and hidden automatically on your page
 company-description: "At TechNative we enable and guide you to build, optimize, and manage your cloud with the best tools and services. You will get access to real expertise and Finops methodologies needed to make your cloud is more scalable and reliable combined.
 
-Working with us, you will effectively improve your cloud, increase performance, reduce costs, achieve reliability, operational excellence and control."
+Working with us, you will effectively improve your cloud, increase performance, reduce costs, achieve reliability, operational excellence, and control."
 
 
 # Membership level, type and vendor certifications
@@ -26,7 +26,7 @@ certified-status:
 - FinOps Training Partner
 
 # Product(s) or service overview maximum character count is 1000 the rest will be truncated and hidden automatically on your page
-product-overview: We offer several services including Cloud Financial Management, FinOps trainings and. guidance in adopting FinOps as a methodology
+product-overview: We offer several services including Cloud Financial Management, FinOps trainings, and guidance in adopting FinOps as a methodology.
 
 product-video-url:
 

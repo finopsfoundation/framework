@@ -9,7 +9,7 @@ linkedin-url: "https://www.linkedin.com/company/neos-hr/"
 website-url: "https://www.neos.hr/"
 
 # Maximum character count is 350 the rest will be truncated and hidden automatically on your page
-company-description: "Neos provides business solutions and services covering System Infrastructure, Rapid Application Development, Data Analytics and Cloud Integration based on relational and Big Data platforms in Multicloud and On-premise environments.
+company-description: "Neos provides business solutions and services covering System Infrastructure, Rapid Application Development, Data Analytics, and Cloud Integration based on relational and Big Data platforms in Multicloud and On-premise environments.
 
 Our solutions provide business improvement by implementing Machine Learning, Predictive Analytics and other cutting-edge technologies, turning new technologies into real business value."
 
@@ -30,7 +30,7 @@ product-overview: |
 
   By implementing FinOps methodology through CloudVane features, every customer is facilitated to introduce the best FinOps practices into their company or organisation in the simplest way possible.
 
-  CloudVane is part of the Oracle for Startups, a unique acceleration program that enables mutually beneficial business-building partnerships for startups, Oracle and their customers. The goal of the program is to create a virtuous cycle of innovation through startup technology built on secure, scalable Oracle Cloud Infrastructure.
+  CloudVane is part of the Oracle for Startups, a unique acceleration program that enables mutually beneficial business-building partnerships for startups, Oracle, and their customers. The goal of the program is to create a virtuous cycle of innovation through startup technology built on secure, scalable Oracle Cloud Infrastructure.
 
 product-video-url: "https://www.youtube.com/embed/rpa4nNNkONA"
 

@@ -9,7 +9,7 @@ linkedin-url: "https://www.linkedin.com/company/contino/"
 website-url: "https://www.contino.io/"
 
 # Maximum character count is 350 the rest will be truncated and hidden automatically on your page
-company-description: Contino is a people-first, engineering-led digital transformation consultancy with 450+ employees across our US, UK and Australian offices. We help large, heavily-regulated enterprises to become fast, agile, and competitive. Contino was acquired by Cognizant in late 2019.
+company-description: Contino is a people-first, engineering-led digital transformation consultancy with 450+ employees across our U.S., U.K., and Australian offices. We help large, heavily-regulated enterprises to become fast, agile, and competitive. Contino was acquired by Cognizant in late 2019.
 
 # Membership level, type and vendor certifications 
 member-level: general
@@ -24,17 +24,17 @@ certified-status:
 
 # Product(s) or service overview maximum character count is 1000 the rest will be truncated and hidden automatically on your page 
 product-overview: |
-  Contino provides a proven approach to build a financial operating model and engineering best practices to managing and operating cloud spend by breaking down the silos between engineering, finance and procurement. This includes elements such as: finops policy, cloud benefits, cloud spend management and optimization.
+  Contino provides a proven approach to build a financial operating model and engineering best practices to managing and operating cloud spend by breaking down the silos between engineering, finance, and procurement. This includes elements such as: finops policy, cloud benefits, cloud spend management, and optimization.
 
-  These areas of thought leadership and knowledge pairing/upskilling include,
+  These areas of thought leadership and knowledge pairing/upskilling include:
 
-  Education, Training & Immersion Days
-  Operating Model & Strategy
-  Review, Assessment & Maturity Benchmarking
-  Define Cost Control Policy, Guardrails & Governance
-  Benefits & Business Case Framework
-  Automation, Pipelining, Security Compliance, & Industry best practices
-  Establishment & Implementation strategies
+  * Education, Training & Immersion Days
+  * Operating Model & Strategy
+  * Review, Assessment & Maturity Benchmarking
+  * Define Cost Control Policy, Guardrails & Governance
+  * Benefits & Business Case Framework
+  * Automation, Pipelining, Security Compliance, & Industry best practices
+  * Establishment & Implementation strategies
 
 product-video-url:
 

@@ -11,8 +11,6 @@ website-url: "https://www.accenture.com/"
 # Maximum character count is 350 the rest will be truncated and hidden automatically on your page
 company-description: Accenture provides global professional services with leading capabilities in digital, cloud and security. Combining unmatched experience and specialized skills across more than 40 industries with Strategy & Consulting, Interactive, Technology and Operations services, our 569,000 people deliver on the promise of technology and human ingenuity for clients in more than 120 countries.
 
-
-
 # Membership level, type and vendor certifications
 member-level: premier
 member-order: 5

@@ -28,7 +28,7 @@ certified-status:
 
 # Product(s) or service overview maximum character count is 1000 the rest will be truncated and hidden automatically on your page 
 product-overview: |
-  FinOps at HCL is a framework that focuses on equating cost to the need in cloud operations. With HCL FinOps, we aim to bring consistency, visibility and control throughout cloud operations. To support the three iterative stages of FinOps i.e., inform, optimize and govern, we follow a 6-point approach -
+  FinOps at HCL is a framework that focuses on equating cost to the need in cloud operations. With HCL FinOps, we aim to bring consistency, visibility and control throughout cloud operations. To support the three iterative stages of FinOps i.e., inform, optimize, and govern, we follow a 6-point approach -
 
   1) Cloud Visibility
 
@@ -42,7 +42,7 @@ product-overview: |
 
   6) Health & Compliance
 
-  We ensure real time visibility of cost and consumption and provide recommendations on optimization. Our offerings are in the line of providing high touch concierge service, dedicated FinOps practitioner, advocacy and guidance on account best practices, consultative reviews for cost optimization, instance rightsizing based on consumption trends, RI recommendations to increase savings, capacity analysis, inventory management, budget control, alert management, publishing reports, and ensuring specific security compliances.
+  We ensure real time visibility of cost and consumption and provide recommendations on optimization. Our offerings are in the line of providing high touch concierge service, dedicated FinOps practitioner advocacy and guidance on account best practices, consultative reviews for cost optimization, instance rightsizing based on consumption trends, RI recommendations to increase savings, capacity analysis, inventory management, budget control, alert management, publishing reports, and ensuring specific security compliances.
 
 product-video-url:
 

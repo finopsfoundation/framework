@@ -9,7 +9,7 @@ linkedin-url: "https://www.linkedin.com/company/1400731"
 website-url: "https://www.cloudsoft.io"
 
 # Maximum character count is 350 the rest will be truncated and hidden automatically on your page
-company-description: Cloudsoft specialise in applications, automation and the cloud. Our top-down, application-centric approach empowers our customers to tame their IT estates and drive value. This expertise is embedded in Tempo cloud services, helping our clients to transform faster and exploit the benefits of cloud. We’re an AWS Advanced Consulting Partner.
+company-description: Cloudsoft specialise in applications, automation, and the cloud. Our top-down, application-centric approach empowers our customers to tame their IT estates and drive value. This expertise is embedded in Tempo cloud services, helping our clients to transform faster and exploit the benefits of cloud. We’re an AWS Advanced Consulting Partner.
 
 # Membership level, type and vendor certifications
 member-level: general
@@ -21,7 +21,7 @@ certified-status:
 - FinOps Certified Service Provider
 
 # Product(s) or service overview maximum character count is 1000 the rest will be truncated and hidden automatically on your page
-product-overview: Services for success. Cloudsoft provide expert professional and managed services around cloud strategy, migration, modernisation, cost optimisation and much more. We recognise that cloud is not just an IT project, and cost optimisation is one piece of this puzzle. We work with you to solve both the technical challenges of adopting, migrating to and optimising your use of the Cloud and also to help your organisation embrace the benefits of agility, security and
+product-overview: Services for success. Cloudsoft provide expert professional and managed services around cloud strategy, migration, modernisation, cost optimisation, and much more. We recognise that cloud is not just an IT project, and cost optimisation is one piece of this puzzle. We work with you to solve both the technical challenges of adopting, migrating to and optimising your use of the Cloud and also to help your organisation embrace the benefits of agility, security, and more.
 
 product-video-url:
 
