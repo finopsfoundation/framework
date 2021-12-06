@@ -6,11 +6,11 @@
 
 /* Write your styles below this line. */
 
-@import "css/_partials/vendor/hc-offcanvas-nav_carbon";
-@import "css/_partials/vendor/slick-theme";
+
 @import "css/_partials/base/_global";
 @import "css/_partials/base/typography";
 @import "css/_partials/base/forms";
+@import "css/_partials/components/_modals";
 @import "css/_extra";
 
 @layer base {
