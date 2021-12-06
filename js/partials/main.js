@@ -76,15 +76,6 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 
-// Modal
-
-// function toggleModal(modalID){
-//   document.getElementById(modalID).classList.toggle("hidden");
-//   document.getElementById("modal-backdrop").classList.toggle("hidden");
-//   document.getElementById(modalID).classList.toggle("flex");
-//   document.getElementById("modal-backdrop").classList.toggle("flex");
-// }
-
 // Accordian
 
 $(function(){
@@ -185,4 +176,13 @@ document.addEventListener('DOMContentLoaded', function() {
     document.getElementById(formName).classList.toggle("hidden");
     document.getElementById(formName).classList.toggle("flex");
   }
+});
+
+// Add page to contribute form
+
+$(function(){
+  $('.js-label-url').each(function(){
+    var urlname = window.location.href;
+    $(this).val(urlname);
+  });
 });
