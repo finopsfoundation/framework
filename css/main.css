@@ -6,7 +6,7 @@
 
 /* Write your styles below this line. */
 
-
+@import "css/_partials/vendor/hc-offcanvas-nav_carbon";
 @import "css/_partials/base/_global";
 @import "css/_partials/base/typography";
 @import "css/_partials/base/forms";
