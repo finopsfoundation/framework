@@ -2,9 +2,9 @@
 
 layout: wide
 
-title: Unit Costing The next frontier in Cloud FinOps
+title: Unit Costing The Next Frontier in Cloud FinOps
 description: Examining the nature of and the need for cloud unit costing with examples from cloud first organizations who’ve been pioneering this important discipline. Unit costing will become the standard by which FinOps practitioners obtain full business context for their cloud costs.
-story-title: Unit Costing - The next frontier in Cloud FinOps
+story-title: Unit Costing - The Next Frontier in Cloud FinOps
 story-date: 2021-09-30
 author:
 - Rich Hoyer (SADA)
@@ -25,7 +25,7 @@ tags:
 
 ---
 
-## Unit costing: The next frontier in cloud FinOps
+## Unit costing: The next frontier in Cloud FinOps
 
 Whenever it can be implemented, unit costing will be the most effective means of managing and minimizing cloud expenses. With unit costing, a unit measure of consumption of cloud services can be measured per unit of production of a product or service. This practice is most effective at incentivizing efficiency and facilitates far more accurate budgeting and forecasting. As such, unit costing will become the standard by which FinOps practitioners obtain full business context for cloud costs.
 

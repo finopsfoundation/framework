@@ -56,7 +56,7 @@ The FinOps TAC is the technical governing body of the FinOps Foundation which ov
           <h3 class="mb-1 mt-2">{{ person.name }}</h3>
           <p class="px-2 mb-1 leading-snug">{{ person.job-title }} at {{ person.company }}</p>
         </div>
-        <a href="{{ person.linkedin-url }}" class="text-sm text-green-500 hover:text-green-600 transition-colors duration-200">Linkedin Profile</a> 
+        <a href="{{ person.linkedin-url }}" class="text-sm text-green-500 hover:text-green-600 transition-colors duration-200">Linkedin Profile</a>
       </div>
     </div>
      {% endfor %}
@@ -90,7 +90,7 @@ The GB currently consists of these representatives:
           <h3 class="mb-1 mt-2">{{ person.name }}</h3>
           <p class="px-2 mb-1 leading-snug">{{ person.job-title }} at {{ person.company }}</p>
         </div>
-        <a href="{{ person.linkedin-url }}" class="text-sm text-green-500 hover:text-green-600 transition-colors duration-200">Linkedin Profile</a> 
+        <a href="{{ person.linkedin-url }}" class="text-sm text-green-500 hover:text-green-600 transition-colors duration-200">Linkedin Profile</a>
       </div>
     </div>
      {% endfor %}
@@ -119,6 +119,8 @@ Those on the Governing Board have no vote on the TAC and vice versa, with the ex
 - William Ospina, Ambassador Program
 - Vas Markanastasakis, Principal, FinOps Practice Management
 - Steve Trask, Director of Marketing
+- Joe Daly, Director of Community
+
 
 ## FAQs
 
