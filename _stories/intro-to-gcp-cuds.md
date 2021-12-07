@@ -48,9 +48,3 @@ Example: $50 / hour spend in Cloud SQL (Postgres) in us-central1
 * Services supported: Cloud SQL, Cloud Run, VMware Engine, GKE (Autopilot)
 
 A useful CUD monitoring tool is the CUD analysis dashboard which helps you to visualize and evaluate the effectiveness and financial impact of the Committed Use Discounts that you have purchased. In addition, you can use the CUDs cost breakdown chart to monitor CUD costs and answer the ever so popular question”  how much money are CUDs saving me?”
-
-
-
-
-
->_Author: Eric Lam, Head of Cloud FinOps, Google_<br>
