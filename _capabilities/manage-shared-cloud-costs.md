@@ -20,9 +20,6 @@ order: 4
 
 
 ## Definition
-<<<<<<< HEAD
-Managing shared cloud costs is the exercise of identifying and allocating cloud costs back to the teams or organizations that created them. Managing shared IT and cloud costs can spans multiple business departments. As organizations increase cloud resources and scale, it becomes increasingly difficult to assign shared cloud resources to specific business owners.
-=======
 A foundational principle of FinOps is: "Everyone takes ownership for their cloud usage".  The true key to understanding total cost of ownership is built upon transparency and accuracy, but unallocated shared costs hinders both of these. Without appropriately splitting costs that are shared, engineers and product managers lack a complete picture of how much their products are really costing.
 
 The goal of Cost Sharing is can be full allocation; however it can also be the adoption of an informed ignore approach.  The latter is where a business decision is explicitly made about shared platform services coming from a central budget versus a from a portion of each cost center's budget.
@@ -31,38 +28,14 @@ Almost every organization has cloud costs that need to be segmented and allocate
 
 As organizations increase their adoption of public cloud, without a strategy and processes in place to assign shared cloud resource costs to specific business owners, it becomes increasingly difficult to understand how to properly and fairly allocate costs, and to actually forecast and budget.
 
->>>>>>> master
 
-Without appropriately splitting costs that are shared, engineers and product managers lack a complete picture of how much their products are really costing.
-
-Please see the ["Identifying Shared Cost" project](/projects/identifying-shared-costs/) for more information and context.
 
 ## Maturity Assessment
-Shared costs can vary from organization to organization, and also depend on the maturity and size within the company itself. However, there are a standard set of costs that generally appear on every company’s balance sheet, and it becomes the responsibility of the company to determine whether they should be considered shared or not.
+_description of the characteristics of each maturity level (crawl, walk, run) for this Capability in the context of the organization's FinOps practice._
 
-Some shared costs apply to the entire organization, while others may be shared only among those cost centers that use them. In terms of accounting however, most cases of “shared costs” in the cloud are actually accrued and charged within one account, and it can be challenging to determine which costs should be shared.
 
-**TBD:** definitions of shared cost by FinOps maturity level-- contributions welcome!
 
 ## Functional Activity
-<<<<<<< HEAD
-Here are key personas that have expectations, activities, or stakeholdership in identifying and managing shared costs.
-
-### Finance: Controlling
-This person supports Executives to make better decisions. They typically want all costs accurately allocated according to cause and their respective cost centers where special attention is paid to shared costs.
-
-### Business: Program Manager
-This role is responsible for accurate reporting from all the products of their program that they manage. Not having shared costs distributed correctly could create a financial disadvantage for product budgets.
-
-### Business: Product Owner Platform
-This is a business owner of a shared platform which enables many product teams to deliver business value fast, reliable and secure. They have an obligation to showback or chargeback the costs that have been caused by the product teams by using their platform.
-
-### Engineering: Software Engineer
-This role typically operates workloads that create these costs but might be the last person to review or observe the charges.
-
-### Engineering: Engineering Manager or Director
-This leadership role is responsible for all costs incurred in their team or department, including the portion of shared costs that their team is charged.
-=======
 #### As someone in a Business/Product role, I will…
 * identify shared services/infrastructure which are part of my product and engage with stakeholder FinOps personas to determine how to
 * understand cloud providers common use cases, and have a basic understanding of billing and pricing models
@@ -83,7 +56,6 @@ This leadership role is responsible for all costs incurred in their team or depa
 
 #### As someone in an Executive role, I will…
 * 
->>>>>>> master
 
 
 ## Measure(s) of Success
