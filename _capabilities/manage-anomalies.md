@@ -2,17 +2,17 @@
 
 layout: wide
 
-title: Manage Anomalies
+title: Managing Anomalies
 description: Anomaly Management is the ability to detect, identify, clarify, alert and manage unexpected or unforecasted cloud cost events in a timely manner, in order to minimize detrimental impact to the business, cost or otherwise. Anomalies in the context of FinOps are unpredicted variations (usually increases) in cloud spending that are larger than would be expected given historical spending patterns.
 permalink: /framework/capabilities/manage-anomalies/
 page-identifier: capability_anomalies
-framework-capability-title: Manage Anomalies
+framework-capability-title: Managing Anomalies
 framework-capability-desc: Anomaly Management is the ability to detect, identify, clarify, alert and manage unexpected or unforecasted cloud cost events in a timely manner...
 order: 3
 
 ---
 
-# Manage Anomalies
+# Managing Anomalies
 
 {% include domains-loop.md %}
 
@@ -114,6 +114,15 @@ _a collection of real world examples, stories and “how to” for this Capabili
 * _describe the industry the organization belongs to_
 * _describe the complexity of the organization (global, enterprise, etc…)_
 * _include the FinOps personas involved and any other organizational roles_
+
+
+
+## FinOps Platforms & Service Providers
+_Reference of cloud cost management platforms, tooling and service providers related to this Capability coming soon._
+
+
+## FinOps Training
+_Reference of courses and training partners related to this Capability coming soon._
 
 
 

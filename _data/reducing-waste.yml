@@ -215,7 +215,7 @@
   - GCP
   - Azure
   cloud-product: Compute
-  cloud-service-name: kubernetes Control Plane
+  cloud-service-name: Kubernetes Control Plane
   type: efficiency
   savings-potential: $
   description: Reduce number of clusters (only GKE and EKS). Abandoned clusters cost $.10 per hour.
@@ -227,9 +227,19 @@
   - GCP
   - Azure
   cloud-product: Compute
-  cloud-service-name: kubernetes Nodes
+  cloud-service-name: Kubernetes Nodes
   type: waste
   savings-potential: $$$
   description: Application packing places nodes into the "Idle" category, per cloud provider, requires understanding of daemon sets and other non-redistributable pods.
   related-url: 
+  code-url: 
+
+- cloud-provider:
+  - Azure
+  cloud-product: Database
+  cloud-service-name: Azure SQL Database & SQL Managed Instance
+  type: waste
+  savings-potential: $$$
+  description: You can exchange your existing licenses for discounted rates on Azure SQL Database and Azure SQL Managed Instance. Save up to 30%. For new databases, during creation, select Configure database on the Basics tab and select the option to Save Money. For existing databases, select Compute + Storage in the Settings menu and select the option to Save Money.
+  related-url: https://docs.microsoft.com/en-us/azure/azure-sql/azure-hybrid-benefit
   code-url: 

@@ -2,17 +2,17 @@
 
 layout: wide
 
-title: Measure Unit Costs
+title: Measuring Unit Costs
 description: coming soon...
 permalink: /framework/capabilities/measure-unit-costs/
 page-identifier: capability_unit-costs
-framework-capability-title: Measure Unit Costs
+framework-capability-title: Measuring Unit Costs
 framework-capability-desc: coming soon...
 order: 10
 
 ---
 
-# Measure Unit Costs
+# Measuring Unit Costs
 
 {% include contribute-capabiility.md %}
 
@@ -20,17 +20,38 @@ order: 10
 
 
 ## Definition
-_definition for this Capability.  the objective here is to capture the "What" (**not** the "How") for this Capability._
+A common definition for unit economics is direct revenues and costs, associated with a particular business model, that are specifically expressed on a per-unit basis. Metrics enable you to determine the revenue you’ll gain from a single unit of your business and the cost associated with servicing it, ultimately revealing the business value of spend. For a customer-facing application, that unit might be a user or customer subscription; for an ecommerce platform, it might be a transaction; and for an airline, it might be a seat.
+
+By calculating cloud spend for total revenue, you can attach growth in cloud spending to your overall business growth. When these are in line, it makes sense that cloud spend isn’t wasted. When cloud spend is growing faster than the business, there may be cause for concern.
+
 
 
 ## Maturity Assessment
-_description of the characteristics of each maturity level (crawl, walk, run) for this Capability in the context of the organization's FinOps practice._
+#### Crawl
+- Measure cloud spend for a particular application against the total revenue for that application or service (e.g., cloud spend is 9% of revenue)
+
+#### Walk
+- Tie outputs of a product or service to an associated unit of activity (e.g., each API call costs us $0.01)
+
+#### Run
+- Measure how much it costs to perform a revenue-producing activity (e.g., each transaction costs us $0.05)
+
 
 
 
 ## Functional Activity
-_written for each persona responsible for the functional activity and processes encapsulated by his Capability.  each one should be associated generally to one of the FinOps Phases (Inform, Optimize, Operate). for example:_
->As a [FinOps Persona], I will [functional activity] so that [desired outcome] is achieved.
+#### As someone in a Business/Product role, I will…
+- Make decisions using unit cost about what changes I can make to my application through the lens of the business value it brings
+
+#### As someone in a Finance/FinOps role, I will…
+- Be able to determine if spend is increasing due to waste or due to growth in the business and determine if cost variances are ‘good’ or ‘bad’
+
+#### As someone in an Engineering/Operations role, I will...
+- Separate increases in usage/waste from increases in rate so that I can determine the best architecture changes to make, and potentially even move to a more expensive service when associated revenue increases
+
+#### As someone in an Executive role, I will…
+- Move past trying to determine how efficient my teams are being and instead focus on increases the bottom line and understand how cloud decisions affect my margins and ultimately profitability
+
 
 
 
@@ -47,14 +68,17 @@ _the information used that contributes to the measure(s) of success listed above
 
 
 <!-- ####### Real World Resources ####### -->
-## Real World Resources
-_a collection of real world examples, stories and “how to” for this Capability; based on FinOps community member experiences; information here may:_
->* _apply to one or more cloud providers_
-* _include specific types of cloud services used) (compute, storage, database, etc...)_
-* _describe a combination of  tooling, platform or vendor_
-* _describe the industry the organization belongs to_
-* _describe the complexity of the organization (global, enterprise, etc…)_
-* _include the FinOps personas involved and any other organizational roles_
+
+{% include story-loop.md %}
+
+
+
+## FinOps Platforms & Service Providers
+_Reference of cloud cost management platforms, tooling and service providers related to this Capability coming soon._
+
+
+## FinOps Training
+_Reference of courses and training partners related to this Capability coming soon._
 
 
 
@@ -69,6 +93,6 @@ _Get involved and contribute to the community by sharing your real world experie
 * _the complexity of the organization (global enterprise, start-up, etc…)_
 * _the [FinOps personas](https://www.finops.org/framework/personas/) involved / organizational roles_
 
-_Join the conversation about this Capability in Slack <!-- [insert name and link to Slack channel here] -->. You can submit stories, how-tos and suggest improvements [using one of the options for contributing here](https://www.finops.org/introduction/how-to-contribute/)._
+_Join the conversation about this Capability in the Slack channel [#wg-unit-cost](https://finopsfoundation.slack.com/archives/C02775P6KDL). You can submit stories, how-tos and suggest improvements [using one of the options for contributing here](https://www.finops.org/introduction/how-to-contribute/)._
 
 ---

@@ -9,13 +9,12 @@ page-identifier: domain_benchmarking
 framework-domain-title: Performance Tracking & Benchmarking
 framework-domain-desc: Within this domain, the organization sets and maps its usage and cost to budgets, uses historical information to forecast, and establishes and measures KPIs and other performance indicators, including benchmarking.
 framework-capabilities:
-- capability_forecasting
-- capability_anomalies
-- capability_budget
+- capability_unit-costs
 - capability_commitment-discounts
 - capability_rightsizing
-- capability_unit-costs
-- capability_showback
+- capability_forecasting
+- capability_budget-management
+- capability_anomalies
 order: 2
 
 ---

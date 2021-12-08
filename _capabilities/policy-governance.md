@@ -1,21 +1,24 @@
 ---
 
-layout: default
+layout: wide
 
-title: Chargeback & IT Finance Integration
+title: Cloud Policy & Governance
 description: coming soon...
-permalink: /framework/capabilities/chargeback/
-page-identifier: capability_chargeback
-framework-capability-title: Chargeback & IT Finance Integration
+permalink: /framework/capabilities/policy-governance
+page-identifier: capability_policy-governance
+framework-capability-title: Cloud Policy & Governance
 framework-capability-desc: coming soon...
-order: 12
+order: 16
 
 ---
 
-# Chargeback & IT Finance Integration
-
+# Cloud Policy & Governance
 
 {% include contribute-capabiility.md %}
+
+
+## Domains
+<!-- _x-ref to the FinOps Domain(s) to which this Capability corresponds_ -->
 
 {% include domains-loop.md %}
 

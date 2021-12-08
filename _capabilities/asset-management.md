@@ -2,17 +2,17 @@
 
 layout: wide
 
-title: IT Asset Management
+title: IT Asset Management Integration
 description: coming soon...
 permalink: /framework/capabilities/asset-management/
 page-identifier: capability_asset-management
-framework-capability-title: IT Asset Management
+framework-capability-title: IT Asset Management Integration
 framework-capability-desc: coming soon...
 order: 15
 
 ---
 
-# IT Asset Management
+# IT Asset Management Integration
 
 {% include contribute-capabiility.md %}
 
@@ -57,6 +57,15 @@ _a collection of real world examples, stories and “how to” for this Capabili
 * _describe the industry the organization belongs to_
 * _describe the complexity of the organization (global, enterprise, etc…)_
 * _include the FinOps personas involved and any other organizational roles_
+
+
+
+## FinOps Platforms & Service Providers
+_Reference of cloud cost management platforms, tooling and service providers related to this Capability coming soon._
+
+
+## FinOps Training
+_Reference of courses and training partners related to this Capability coming soon._
 
 
 

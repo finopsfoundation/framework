@@ -17,7 +17,7 @@ order: 5
 {% include domains-loop.md %}
 
 ## Definition
-Forecasting is the practice of predicting future spending, usually based on a combination of historical spending and an evaluation of future plans. understanding how future cloud infrastructure and application lifecycle changes may impact current budgets and influence budget planning and future cloud investment decisions.
+Forecasting is the practice of predicting future spending, usually based on a combination of historical spending and an evaluation of future plans, understanding how future cloud infrastructure and application lifecycle changes may impact current budgets and influence budget planning and future cloud investment decisions.
 
 This capability also involves collaboration between stakeholder teams like Finance, Engineering, and Executives to build agreed upon forecast models and KPIs from which to establish budgets that align with business goals.
 
@@ -107,6 +107,15 @@ reliably and accurately, cloud cost forecasting will inform investment and opera
 <!-- ####### Real World Resources ####### -->
 
 {% include story-loop.md %}
+
+
+## FinOps Platforms & Service Providers
+_Reference of cloud cost management platforms, tooling and service providers related to this Capability coming soon._
+
+
+## FinOps Training
+_Reference of courses and training partners related to this Capability coming soon._
+
 
 
 ## Get Involved

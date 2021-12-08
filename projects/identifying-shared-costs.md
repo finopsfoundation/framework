@@ -12,7 +12,7 @@ project-description: As organizations increase their adoption of public cloud re
 
 # A Guide to Spreading Out Shared Costs
 
-Every organization has shared IT costs, and these span multiple business departments. As organizations increase their adoption of public cloud resources, it becomes increasingly difficult to assign shared cloud resources to specific business owners, to understand how to properly and fairly allocate costs, and to actually forecast future business unit budgets.
+Every organization has [shared IT costs](/framework/capabilities/manage-shared-cloud-cost/), and these span multiple business departments. As organizations increase their adoption of public cloud resources, it becomes increasingly difficult to assign shared cloud resources to specific business owners, to understand how to properly and fairly allocate costs, and to actually forecast future business unit budgets.
 
 ## Table of Contents
 * [Before you begin](#begin)
@@ -57,7 +57,7 @@ If you have a strong handle on these subjects, continue on to better understand 
 <span id="why-allocate"></span>
 
 ## Why allocate shared costs?
-A foundational principle of FinOps is: “everyone takes ownership for their cloud usage.” The true key to understanding total cost of ownership is built upon transparency and accuracy, but unallocated shared costs hinders both of these. Without appropriately splitting costs that are shared, engineers and product managers lack a complete picture of how much their products are really costing.
+A foundational principle of FinOps is: “everyone takes ownership for their cloud usage.” The true key to understanding total cost of ownership is built upon transparency and accuracy, but [unallocated shared costs](/framework/capabilities/manage-shared-cloud-cost/) hinders both of these. Without appropriately splitting costs that are shared, engineers and product managers lack a complete picture of how much their products are really costing.
 
 ### Let’s think of it in terms of a pizza
 Imagine Rajesh, Susan, and Marcus decide to have a private pizza party. Marcus books Palatable Pizza for $1,500 - which includes music, a private room, free drinks, and 90% discount on their mini pizzas, and then everybody pays for their own food, $5 per mini pizza. Rajesh buys 3 ($15), Susan buys 2 ($10), and Marcus buys 1 ($5).
@@ -70,6 +70,8 @@ Failing to distribute shared costs and make them visible to the consumer can res
 
 ## Who might care about shared cost allocation?
 
+Here are the roles that are involved with identifying shared costs and how they might affect overall [cost allocation](/framework/capabilities/cost-allocation/).
+
 ### Finance: Controlling
 Chris, the leading digital controller from the finance department is supporting Executives to make better decisions. He loves to have all costs accurately allocated according to cause and their respective cost centers where special attention is paid to shared costs.
 
@@ -77,7 +79,7 @@ Chris, the leading digital controller from the finance department is supporting 
 Sr. Program Manager Stacy is responsible for accurate reporting from all the products of her program she manages. Not having shared costs distributed correctly could create a financial disadvantage for product budgets.
 
 ### Business: Product Owner Platform
-Quinn is the business owner of a shared platform which enables many product teams to deliver business value fast, reliable and secure. He has an obligation to showback or chargeback the costs that have been caused by the product teams by using his platform so he has not to pay the party on his own.
+Quinn is the business owner of a shared platform which enables many product teams to deliver business value fast, reliable and secure. He has an obligation to showback or [chargeback](/framework/capabilities/chargeback/) the costs that have been caused by the product teams by using his platform so he has not to pay the party on his own.
 
 ### Engineering: Software Engineer
 The software engineer Linus had no clue until last month how much he owns of all the shared platform costs that have occurred. Nowadays cost optimization is simply part of a sprint delivery.
@@ -90,12 +92,12 @@ Suchandra is responsible for all costs incurred in her team or department, inclu
 
 ## How to take on this challenge
 ### Step 1: Identify what kinds of costs are shared 
-For the purpose of this document, we are primarily concerned with shared cost as the total amount billed to a customer by a cloud provider. That is, a cloud bill is shared at the organizational level and must be allocated for accounting purposes. Shared cost may be allocated to a centralized budget within the technology org; alternatively it can be allocated to cost centers throughout the business and technology organizations. From a finance perspective, we may also refer to shared cloud costs as a type of direct operating expense.  
+For the purpose of this document, we are primarily concerned with [shared cost](/framework/capabilities/manage-shared-cloud-cost/) as the total amount billed to a customer by a cloud provider. That is, a cloud bill is shared at the organizational level and must be allocated for accounting purposes. Shared cost may be allocated to a centralized budget within the technology org; alternatively it can be allocated to cost centers throughout the business and technology organizations. From a finance perspective, we may also refer to shared cloud costs as a type of direct operating expense.  
 
 What classifies as a shared cost can vary from organization to organization, and also depend on the maturity and size within the company itself. However, there are a standard set of costs that generally appear on every company’s balance sheet, and it becomes the responsibility of the company to determine whether they should be considered shared or not. The company can even define different types of shared costs -- some shared costs apply to the entire organization, while others may be shared only among those cost centers that use them. In terms of accounting however, most cases of “shared costs” in the cloud are actually accrued and charged within one account, and it can be challenging to determine which costs should be shared.
 
 Support charges are a typical example of this challenge. Cloud vendor support charges are generally applied at the parent account level. Some organizations choose to cover this charge with a Central IT/Cloud team’s budget, but that approach isn’t standard. More commonly, a Central IT/Cloud team is considered a supporting organization (being a cost center) and therefore needs to allocate its cost to its customers: business units or application owners.
-Modern architecture has also introduced more shared costs with the rise of shared platforms. These platforms have multiple teams working with the same core resources, such as data lakes built in commonly shared S3 buckets or Kubernetes systems running on shared clusters. At first glance, chargeback and showback for these platforms can seem impossible, but proper tagging can help with splitting shared costs correctly.
+Modern architecture has also introduced more shared costs with the rise of shared platforms. These platforms have multiple teams working with the same core resources, such as data lakes built in commonly shared S3 buckets or Kubernetes systems running on shared clusters. At first glance, [chargeback](/framework/capabilities/chargeback/) and showback for these platforms can seem impossible, but proper tagging can help with splitting shared costs correctly.
 
 #### Common types of shared costs are:
 * Shared resources(network,shared-storage)
@@ -171,7 +173,7 @@ The fixed proportion method relies on using a set percentage to attribute shared
 | Engineering      | $23K       | 25%                    |
 | Total            | $112K      | 100%                   |
 
-The fixed proportion model attempts to provide a more equitable distribution of shared costs than even split, but still leaves allocation easy to calculate. Unfortunately, it does rely on analysis of historical data to appropriately weight the allocations, but once done it can be a good approach.
+The fixed proportion model attempts to provide a more equitable distribution of shared costs than even split, but still leaves allocation easy to calculate. Unfortunately, it does rely on [analysis of historical data](/framework/capabilities/analysis-showback/) to appropriately weight the allocations, but once done it can be a good approach.
 * Sales operations will be accountable for a total of $55,400 ($50,000 direct cost + $5,400 support charge allocation).
 * Engineering—QA will be accountable for a total of $33,600 ($30,000 direct cost + $3,600 support charge allocation).
 * Engineering will be accountable for a total of $23,000 ($20,000 direct cost + $3,000 support charge allocation).
@@ -180,7 +182,7 @@ The fixed proportion model attempts to provide a more equitable distribution of 
 
 ### Step 3: Apply Shared Cost Models
 Combining multiple types of shared costs with multiple approaches to splitting shared costs can quickly become complicated. Not every type of shared cost needs to follow the same method to splitting shared costs. Some charges like support fees, might seem to work better under a proportional model, but other costs like shared resources, or dev/test environments might make sense under the even split or fixed proportion approach.
-There is no best approach model; a company will need to decide what works best for them, and what makes the most sense based on their budgeting and accounting methodology. Typically, more mature organisations rely on proportional or direct usage based appropriations, but not always.
+There is no best approach model; a company will need to decide what works best for them, and what makes the most sense based on their [budgeting and accounting methodology](/framework/capabilities/budget-management/). Typically, more mature organisations rely on proportional or direct usage based appropriations, but not always.
 Don’t become frustrated if you are struggling to determine how to apply shared costs. In the 2021 State of FinOps report, companies across the Crawl, Walk, and Run states all listed allocating Shared Costs as the second biggest challenge they are facing. The best approach is usually iterative in nature, and becomes more robust over time.
 
 Start with your organization’s largest shared costs and determine how to allocate the spend. Work with finance and accounting to develop a process for how these shared costs will show up on budgets. Communicate with the impacted business units so they understand what the change is, and why this change is good for them.

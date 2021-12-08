@@ -4,7 +4,7 @@ layout: member
 
 # Vendor details
 name: TechNative
-logo-url: "https://www.technative.nl/wp-content/uploads/2021/02/img_logo.svg"
+logo-url: "https://www.technative.nl/wp-content/uploads/2021/10/TechNative_logo_colour_RGB.svg"
 linkedin-url: "https://nl.linkedin.com/company/technative-bv"
 website-url: "https://www.technative.nl"
 

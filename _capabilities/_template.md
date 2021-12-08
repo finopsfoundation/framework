@@ -1,6 +1,6 @@
 ---
 
-layout: default
+layout: wide
 
 title: Capability Title Here
 description: coming soon...
@@ -53,6 +53,14 @@ _a collection of real world examples, stories and “how to” for this Capabili
 * _describe the industry the organization belongs to_
 * _describe the complexity of the organization (global, enterprise, etc…)_
 * _include the FinOps personas involved and any other organizational roles_
+
+
+## FinOps Platforms & Service Providers
+_Reference of cloud cost management platforms, tooling and service providers related to this Capability coming soon._
+
+
+## FinOps Training
+_Reference of courses and training partners related to this Capability coming soon._
 
 
 
