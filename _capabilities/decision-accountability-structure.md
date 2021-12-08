@@ -2,17 +2,17 @@
 
 layout: wide
 
-title: Capability Title Here
+title: Establishing a FinOps Decision & Accountability Structure
 description: coming soon...
-permalink: /framework/capabilities/
-page-identifier:
-framework-capability-title: Capability Title Here
+permalink: /framework/capabilities/decision-accountability-structure
+page-identifier: capability_decision-accountability-structure
+framework-capability-title: Establishing a FinOps Decision & Accountability Structure
 framework-capability-desc: coming soon...
-order: 1
+order: 17
 
 ---
 
-# Capability Name Heading Here
+# Establishing a FinOps Decision & Accountability Structure
 
 {% include contribute-capabiility.md %}
 
