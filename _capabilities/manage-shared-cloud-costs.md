@@ -20,7 +20,7 @@ order: 4
 
 
 ## Definition
-A foundational principle of FinOps is: "Everyone takes ownership for their cloud usage".  The true key to understanding total cost of ownership is built upon transparency and accuracy, but unallocated shared costs hinders both of these. Without appropriately splitting costs that are shared, engineers and product managers lack a complete picture of how much their products are really costing.
+A foundational [Principle of FinOps](https://www.finops.org/framework/principles/) is: "Everyone takes ownership for their cloud usage".  The true key to understanding total cost of ownership is built upon transparency and accuracy, but unallocated shared costs hinders both of these. Without appropriately splitting costs that are shared, engineers and product managers lack a complete picture of how much their products are really costing.
 
 The goal of Cost Sharing is can be full allocation; however it can also be the adoption of an informed ignore approach.  The latter is where a business decision is explicitly made about shared platform services coming from a central budget versus a from a portion of each cost center's budget.
 
@@ -58,6 +58,7 @@ As organizations increase their adoption of public cloud, without a strategy and
 
 
 ## Functional Activity
+
 #### As someone in a Business/Product role, I will…
 * identify shared services/infrastructure which are part of my product and engage with stakeholder FinOps personas to determine how to
 * understand cloud providers common use cases, and have a basic understanding of billing and pricing models
