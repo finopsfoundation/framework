@@ -8,7 +8,7 @@ story-title: An Introduction to GCP Committed Use Discounts
 story-date: 2021-11-29
 author:
 - Eric Lam
-company: Google Cloud
+company: Google Cloud Platform
 company-size:
 industry: Information Technology & Services
 cloud-provider:
