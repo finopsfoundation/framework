@@ -14,6 +14,10 @@ order: 1
 
 # Cost Allocation (Metadata & Hierarchy)
 
+{% include contribute-capabiility.md %}
+
+## Domains
+<!-- _x-ref to the FinOps Domain(s) to which this Capability corresponds_ -->
 {% include domains-loop.md %}
 
 
