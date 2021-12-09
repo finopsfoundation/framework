@@ -10,7 +10,6 @@ project-description: A guide that walks through how finance, operations, and exe
 
 ---
 
-
 # Accurate Cloud Forecasts
 
 ## Abstract
@@ -19,7 +18,7 @@ How finance, operations, and executives build models to forecast cloud spend and
 
 ## Introduction
 
-You should understand the basics of how cloud works, specifically you should know the key services around compute and storage for the cloud providers your organization is using and their billing and pricing models. You will also need to understand financial processes around forecasting, budgeting, procurement, and allocations.
+You should understand the basics of how cloud works, specifically you should know the key services around compute and storage for the cloud providers your organization is using and their billing and pricing models. You will also need to understand financial processes around [forecasting](/framework/capabilities/forecasting), [budgeting](/framework/capabilities/budget-management/), procurement, and [allocations](/framework/capabilities/cost-allocation/).
 
 Depending on the cloud providers your organization is using, you can gain some of this knowledge through training and certifications. Specifically for AWS we recommend the AWS Cloud Practitioner certification, for Google the Google Cloud Platform Fundamentals course, and for Azure, the Azure Fundamentals learning path.
 
@@ -40,7 +39,7 @@ See also, [Relevant Terms and Concepts](#appendix), now an appendix section to t
 ## How to address cloud forecasting?
 Fundamentally there is a potential gap between engineers, finance, and procurement where finance has financial reporting responsibilities, and procurement has accounting responsibilities, and both need assistance from engineers and leadership to meet these obligations.
 
-In this section we are going to analyze the challenge around cloud forecasting to identify how we can overcome it and we will also provide examples of how companies of different types and FinOps maturity levels tackle cloud forecasting.
+In this section we are going to analyze the challenge around [cloud forecasting](/framework/capabilities/forecasting) to identify how we can overcome it and we will also provide examples of how companies of different types and [FinOps maturity levels](/framework/phases/) tackle cloud forecasting.
 
 ## What are the challenges with cloud forecasting?
 Unfortunately there is no one forecasting method that fits all situations.
@@ -49,11 +48,11 @@ Cloud spend is variable which is inherently difficult to predict. Specifically e
 
 Forecasting cloud-provider consumption as product or service consumption requires specific data and tooling to be consistently available. Billing and reporting from cloud providers is difficult to understand and explain to traditional finance teams. 
 
-Workloads need to be clearly defined whether through tagging or account structures so that cost can be attributed back to them and their owners.
+Workloads need to be clearly defined whether through tagging or account structures so that cost can be [attributed back to them and their owners](/framework/capabilities/chargeback/).
 
 ## Breaking the challenge into addressable parts
 ### Tagging and cost allocation
-Tagging or labeling is the foundation of telling apart workloads in the cloud, identifying ownership, and attributing costs to teams. Depending on the maturity of the organization, tagging may be manual, use automated tag hygiene monitoring, or integrated in CI/CD pipelines with tag-or-terminate policies in place.
+[Tagging or labeling](/framework/capabilities/cost-allocation/) is the foundation of telling apart workloads in the cloud, identifying ownership, and attributing costs to teams. Depending on the maturity of the organization, tagging may be manual, use automated tag hygiene monitoring, or integrated in CI/CD pipelines with tag-or-terminate policies in place.
 
 Even in a best case scenario where everything taggable has been tagged in the cloud, not all cloud resources support tagging. This means that untaggable costs, like network traffic, need to be apportioned to the workloads responsible for incurring their cost.
 
@@ -62,7 +61,7 @@ To be able to identify ownership and attribute cost back to teams, additional ta
 Tags may also change over time, when applications are decomposed into micro services, or when organizational changes require a renaming of tags. Any system relying on tags needs to be able to handle versioning of tags to follow these changes and represent cost data accurately.
 
 ### Communication
-A key capability of FinOps is to enable communication between executives, finance, business, and engineers. FinOps practitioners need to strive to build a culture of communication to enable fast and high quality decision making.
+A key capability of FinOps is to enable communication between executives, finance, business, and engineers. FinOps practitioners need to strive to build a [culture of communication](/framework/capabilities/establish-finops-culture) to enable fast and high quality decision making.
 
 A common challenge in cloud forecasting related to communication is that the people working on a forecast are not being included in decisions that substantially impact the forecast. This includes project scope changes that affect cloud spend.
 
@@ -73,7 +72,7 @@ Finance will have specific requirements of when forecasting is due and how frequ
 Depending on the maturity of an organization, specific prediction models will be easier to implement, for example trend based forecasting versus driver based forecasting. Finance will also have requirements around forecast granularity and frequency depending on their fiscal reporting requirements.
 
 ### Forecast accuracy
-Identifying workloads performing substantially over or under when comparing forecast to actuals. For driver based forecasting identifying why workloads scale differently from their drivers. Layering in discounts, optimizations, and prepayments.
+Identifying workloads performing substantially over or under when comparing forecast to actuals. For driver based forecasting identifying why workloads scale differently from their drivers. Layering in [discounts](/framework/capabilities/manage-commitment-based-discounts/), optimizations, and prepayments.
 
 Cloud spend materiality defines where the organization focuses their resources. Lack of cloud forecasting accuracy will not be addressed until it has become a larger problem and has executive attention and sponsorship.
 
@@ -90,12 +89,16 @@ An iterative approach is recommended where the engineer revises the initial mode
 Once a forecast is created FinOps can add value by configuring Budget alerts in AWS or spending quota in Azure to support accountability of actuals versus budget.
 
 ### Cost Optimization
-You want to analyze your cloud cost and make sure people are not wasting resources. It is best to look at your data and see if there are any improvements that can be made to your infrastructure. This helps in getting an accurate baseline to be able to forecast from.
+You want to analyze your cloud cost and make sure people are [not wasting resources](/framework/capabilities/utilization-efficiency/). It is best to look at your data and see if there are any improvements that can be made to your infrastructure. This helps in getting an accurate baseline to be able to forecast from.
 
 ### Training and improving maturity
 FinOps & Technology training (e.g. cheaper services replacing more expensive ones)
 
 ## Identifying ownership and accountability
+Here are common FinOps roles and their responsibilities and expectations as they relate to building accurate cloud forecasts.
+
+See also, [*Establishing a FinOps Decision & Accountability Structure*](/framework/capabilities/decision-accountability-structure)
+
 ### Executives
 Are the primary sponsors for process improvements around cloud usage. FinOps needs their understanding, buy-in, and support so that improvements can trickle down the organizational hierarchy.
 
@@ -191,4 +194,6 @@ Some cloud resources and reservations come with an upfront fee. The amortized co
 Fully loaded costs are amortized, reflect the actual discounted rates a company is paying for cloud resources, equitably factor in shared costs, and are mapped to the business’s organizational structure. In essence, they show the actual costs of your cloud and what is driving them.
 
 #### Cost allocation
-The process of splitting up a cloud bill and associating the costs to each cost center. It’s important to have teams understand how costs are being allocated, and to have a centralized, controlled, and consistent cost allocation strategy.
+The process of splitting up a cloud bill and [associating the costs to each cost center](/framework/capabilities/cost-allocation/). It’s important to have teams understand how costs are being allocated, and to have a centralized, controlled, and consistent cost allocation strategy.
+
+See also, *[Shared Costs](/framework/capabilities/manage-shared-cloud-cost/)*.
