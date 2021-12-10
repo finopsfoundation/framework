@@ -14,7 +14,12 @@ order: 5
 
 # Forecasting
 
+{% include contribute-capabiility.md %}
+
+## Domains
+<!-- _x-ref to the FinOps Domain(s) to which this Capability corresponds_ -->
 {% include domains-loop.md %}
+
 
 ## Definition
 Forecasting is the practice of predicting future spending, usually based on a combination of historical spending and an evaluation of future plans, understanding how future cloud infrastructure and application lifecycle changes may impact current budgets and influence budget planning and future cloud investment decisions.

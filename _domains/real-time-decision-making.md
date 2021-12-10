@@ -15,6 +15,7 @@ framework-capabilities:
 - capability_commitment-discounts
 - capability_rightsizing
 - capability_unit-costs
+- capability_decision-accountability-structure
 order: 3
 
 ---

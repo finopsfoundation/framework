@@ -2,17 +2,17 @@
 
 layout: wide
 
-title: Capability Title Here
+title: FinOps Education & Enablement
 description: coming soon...
-permalink: /framework/capabilities/
-page-identifier:
-framework-capability-title: Capability Title Here
+permalink: /framework/capabilities/education-enablement
+page-identifier: capability_education-enablement
+framework-capability-title: FinOps Education & Enablement
 framework-capability-desc: coming soon...
-order: 1
+order: 18
 
 ---
 
-# Capability Name Heading Here
+# FinOps Education & Enablement
 
 {% include contribute-capabiility.md %}
 
