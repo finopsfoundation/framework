@@ -21,7 +21,7 @@
     @apply font-light
   }
   li {
-  	@apply text-base font-light mb-2 pr-4
+  	@apply font-light mb-2 pr-4
   }
 }
 

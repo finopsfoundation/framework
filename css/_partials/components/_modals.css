@@ -96,9 +96,3 @@
   }
 }
 
-/*.c-modal_mt {
-  @include min-break($medium) {
-    margin-top: 24px;
-  }
-}*/
-

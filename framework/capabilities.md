@@ -21,8 +21,8 @@ FinOps Capabilities represent functional areas of activity in support of their c
       {% if capability.framework-capability-desc contains 'coming soon' %}
         <span class="text-white font-medium bg-green-500 rounded-md py-1 px-2 inline-block uppercase text-xs leading-tight">Help define</span>
       {% endif %}
-      <p class="text-gray-600">{{ capability.framework-capability-desc }}</p>
-      <a class="text-gray-600 hover:text-green-500 underline" href="{{ capability.url }}">Read more</a>
+      <p class="text-gray-600 text-sm leading-relaxed">{{ capability.framework-capability-desc }}</p>
+      <a class="text-gray-600 hover:text-green-500 text-sm leading-relaxed underline" href="{{ capability.url }}">Read more</a>
   </div>
 </div>
 {% endfor %}
