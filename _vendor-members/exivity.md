@@ -10,7 +10,7 @@ linkedin-url: "https://www.linkedin.com/company/exivity"
 website-url: "https://exivity.com/"
 
 # Maximum character count is 350 the rest will be truncated and hidden automatically on your page
-company-description: Exivity is a cloud agnostic metering and billing software solution for hybrid cloud environments. By retrieving data from any public and on-premises cloud, Exivity creates a 360 view across all IT consumption supporting any MSP/CSP customer billing or enterprise chargeback/showback use case.
+company-description: Exivity is a cloud agnostic metering and billing software solution for hybrid cloud environments. By retrieving data from any public and on-premises cloud, Exivity creates a 360-degree view across all IT consumption supporting any MSP/CSP customer billing or enterprise chargeback/showback use case.
 
 # Membership level, type and vendor certifications 
 member-level: general
@@ -25,7 +25,7 @@ certified-status:
 
 # Product(s) or service overview maximum character count is 1000 the rest will be truncated and hidden automatically on your page 
 product-overview: |
-  'Exivity is a flexible metering and billing tool capable of satisfying the requirements of any IT service delivery model, whether deployed on-premise, in public or in hybrid clouds. In addition to services provided by the cloud Exivity can retrieve data from associated systems such as a CMDB and use this to create custom services such as VM t-shirt sizes, backups, etc. Exivity gives you control over your assets and financial insights to automate your IT delivery:
+  Exivity is a flexible metering and billing tool capable of satisfying the requirements of any IT service delivery model, whether deployed on-premise, in public or in hybrid clouds. In addition to services provided by the cloud, Exivity can retrieve data from associated systems such as a CMDB and use this to create custom services such as VM t-shirt sizes, backups, etc.. Exivity gives you control over your assets and financial insights to automate your IT delivery:
 
   • Report on consumption per client and BU
 
@@ -58,25 +58,18 @@ product-resources:
 - title: Exivity API documentation
   url: "https://api.exivity.com/"
 
-# Supported functions in the framework by the product(s) or services, these need to match the menu spelling to add a link automatically, ones listed are examples
-supported-functions:
-- Resource Metadata (Tagging/Labeling)
-- Resource Hierarchy (Accounts, Subscriptions & Projects)
-- Shared Cost Management
-- Anomaly Detection
-- Commitment Discounts (Reservations
-- Savings Plans, CUDs)
-- Automation
-- Usage Volume Discounts (Usage Tiers, SUDs)
-- Data Processing
-- Data Visualization
-- Data Analytics
-- Budget Alerting
-- Commitment Tracking
-- Marketplace
-- Trending & Variance Analysis
-- Containers Capabilities
-- Software Asset Management
+# Supported capabilities in the framework by the product(s) or services. Match the page-identifier per capability in order for the capability to show up on the vendor page.
+capabilities:
+- capability_allocation
+- capability_shared-cost
+- capability_anomalies
+- capability_workload-automation
+- capability_commitment-discounts
+- capability_normalization
+- capability_budget-management
+- capability_asset-management
+- capability_showback
+- capability_rightsizing
 
 # Edit as appropriate to display supported clouds
 clouds-supported:

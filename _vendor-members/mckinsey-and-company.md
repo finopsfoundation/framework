@@ -24,9 +24,9 @@ type:
 - Training Provider
  
 certified-status:
-- FinOps Certified Service Provider
-- FinOps Certified Platform
-- FinOps Training Partner
+#- FinOps Certified Service Provider
+#- FinOps Certified Platform
+#- FinOps Training Partner
 
 # Product(s) or service overview maximum character count is 1000 the rest will be truncated and hidden automatically on your page 
 product-overview:
@@ -42,12 +42,10 @@ product-resources:
 - title:
   url:
 
-# Supported functions in the framework by the product(s) or services, these need to match the menu spelling to add a link automatically, ones listed are examples
-supported-functions:
-- Resource Metadata 
-- Resource Hierarchy
-- Dashboarding
-- Analytics
+# Supported capabilities in the framework by the product(s) or services. Match the page-identifier per capability in order for the capability to show up on the vendor page.
+capabilities:
+- capability_allocation
+- capability_normalization
 
 # Edit as appropriate to display supported clouds
 clouds-supported:

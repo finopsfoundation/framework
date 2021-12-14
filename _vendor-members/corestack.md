@@ -10,7 +10,7 @@ linkedin-url: "https://www.linkedin.com/company/corestack/"
 website-url: "https://www.corestack.io/"
 
 # Maximum character count is 350 the rest will be truncated and hidden automatically on your page
-company-description: CoreStack, an AI-powered multi-cloud governance solution, empowers enterprises to unleash the power of cloud on their terms by helping them rapidly achieve continuous and autonomous cloud governance at scale. CoreStack enables enterprises to realize outcomes across FinOps, SecOps and CloudOps, such as 40% cloud cost reduction, 50% operational efficiency boost and 100% security and compliance assurance.
+company-description: CoreStack, an AI-powered multi-cloud governance solution, empowers enterprises to unleash the power of cloud on their terms by helping them rapidly achieve continuous and autonomous cloud governance at scale. CoreStack enables enterprises to realize outcomes across FinOps, SecOps, and CloudOps, such as 40% cloud cost reduction, 50% operational efficiency boost and 100% security and compliance assurance.
 
 # Membership level, type and vendor certifications 
 member-level: general
@@ -50,22 +50,18 @@ product-resources:
 - title:
   url:
 
-# Supported functions in the framework by the product(s) or services, these need to match the menu spelling to add a link automatically, ones listed are examples
-supported-functions:
-- Resource Metadata (Tagging/Labeling)
-- Resource Hierarchy (Accounts, Subscriptions & Projects)
-- Anomaly Detection
-- Commitment Discounts (Reservations, Savings Plans, CUDs)
-- Optimization Recommendations
-- Automation
-- Continuous Improvement
-- Autoscaling
-- Data Visualization
-- Data Analytics
-- Budget Alerting
-- Marketplace
-- Policy Management
-- Trending & Variance Analysis
+# Supported capabilities in the framework by the product(s) or services. Match the page-identifier per capability in order for the capability to show up on the vendor page.
+capabilities:
+- capability_allocation
+- capability_anomalies
+- capability_commitment-discounts
+- capability_rightsizing
+- capability_workload-automation
+- capability_normalization
+- capability_budget-management
+- capability_asset-management
+- capability_policy-governance
+- capability_showback
 
 # Edit as appropriate to display supported clouds
 clouds-supported:

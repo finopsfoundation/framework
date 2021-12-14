@@ -28,7 +28,7 @@ certified-status:
 
 # Product(s) or service overview maximum character count is 1000 the rest will be truncated and hidden automatically on your page 
 product-overview: |
-  FinOps at HCL is a framework that focuses on equating cost to the need in cloud operations. With HCL FinOps, we aim to bring consistency, visibility and control throughout cloud operations. To support the three iterative stages of FinOps i.e., inform, optimize and govern, we follow a 6-point approach -
+  FinOps at HCL is a framework that focuses on equating cost to the need in cloud operations. With HCL FinOps, we aim to bring consistency, visibility and control throughout cloud operations. To support the three iterative stages of FinOps i.e., inform, optimize, and govern, we follow a 6-point approach -
 
   1) Cloud Visibility
 
@@ -42,7 +42,7 @@ product-overview: |
 
   6) Health & Compliance
 
-  We ensure real time visibility of cost and consumption and provide recommendations on optimization. Our offerings are in the line of providing high touch concierge service, dedicated FinOps practitioner, advocacy and guidance on account best practices, consultative reviews for cost optimization, instance rightsizing based on consumption trends, RI recommendations to increase savings, capacity analysis, inventory management, budget control, alert management, publishing reports, and ensuring specific security compliances.
+  We ensure real time visibility of cost and consumption and provide recommendations on optimization. Our offerings are in the line of providing high touch concierge service, dedicated FinOps practitioner advocacy and guidance on account best practices, consultative reviews for cost optimization, instance rightsizing based on consumption trends, RI recommendations to increase savings, capacity analysis, inventory management, budget control, alert management, publishing reports, and ensuring specific security compliances.
 
 product-video-url:
 
@@ -53,32 +53,21 @@ product-resources:
 - title: "Cloud Economics Management: Enabling Enterprise Agility and Financial Accountability"
   url: "https://www.hcltech.com/blogs/cloud-economics-management-enabling-enterprise-agility-and-financial-accountability"
 
-# Supported functions in the framework by the product(s) or services, these need to match the menu spelling to add a link automatically, ones listed are examples
-supported-functions:
-- Resource Metadata (Tagging/Labeling)
-- Resource Hierarchy (Accounts, Subscriptions & Projects)
-- Shared Cost Management
-- Anomaly Detection
-- Commitment Discounts (Reservations, Savings Plans, CUDs)
-- Optimization Recommendations
-- Automation
-- Usage Volume Discounts (Usage Tiers, SUDs)
-- Architecture Refactoring
-- Negotiated Pricing
-- Continuous Improvement
-- Learning
-- Autoscaling
-- Data Ingestion
-- Data Processing
-- Data Visualization
-- Data Analytics
-- Budget Alerting
-- Commitment Tracking
-- Marketplace
-- Policy Management
-- Trending & Variance Analysis
-- Containers Capabilities
-- Software Asset Management
+# Supported capabilities in the framework by the product(s) or services. Match the page-identifier per capability in order for the capability to show up on the vendor page.
+capabilities:
+- capability_allocation
+- capability_shared-cost
+- capability_anomalies
+- capability_commitment-discounts
+- capability_rightsizing
+- capability_workload-automation
+- capability_onboarding-workloads
+- capability_establish-finops-culture
+- capability_normalization
+- capability_budget-management
+- capability_asset-management
+- capability_policy-governance
+- capability_showback
 
 # Edit as appropriate to display supported clouds
 clouds-supported:

@@ -9,7 +9,7 @@ linkedin-url: "https://www.linkedin.com/company/1400731"
 website-url: "https://www.cloudsoft.io"
 
 # Maximum character count is 350 the rest will be truncated and hidden automatically on your page
-company-description: Cloudsoft specialise in applications, automation and the cloud. Our top-down, application-centric approach empowers our customers to tame their IT estates and drive value. This expertise is embedded in Tempo cloud services, helping our clients to transform faster and exploit the benefits of cloud. We’re an AWS Advanced Consulting Partner.
+company-description: Cloudsoft specialise in applications, automation, and the cloud. Our top-down, application-centric approach empowers our customers to tame their IT estates and drive value. This expertise is embedded in Tempo cloud services, helping our clients to transform faster and exploit the benefits of cloud. We’re an AWS Advanced Consulting Partner.
 
 # Membership level, type and vendor certifications
 member-level: general
@@ -21,7 +21,7 @@ certified-status:
 - FinOps Certified Service Provider
 
 # Product(s) or service overview maximum character count is 1000 the rest will be truncated and hidden automatically on your page
-product-overview: Services for success. Cloudsoft provide expert professional and managed services around cloud strategy, migration, modernisation, cost optimisation and much more. We recognise that cloud is not just an IT project, and cost optimisation is one piece of this puzzle. We work with you to solve both the technical challenges of adopting, migrating to and optimising your use of the Cloud and also to help your organisation embrace the benefits of agility, security and
+product-overview: Services for success. Cloudsoft provide expert professional and managed services around cloud strategy, migration, modernisation, cost optimisation, and much more. We recognise that cloud is not just an IT project, and cost optimisation is one piece of this puzzle. We work with you to solve both the technical challenges of adopting, migrating to and optimising your use of the Cloud and also to help your organisation embrace the benefits of agility, security, and more.
 
 product-video-url:
 
@@ -34,29 +34,20 @@ product-resources:
 - title: Cloud Migration
   url: "https://cloudsoft.io/services/cloud-migration"
 
-# Supported functions in the framework by the product(s) or service, these need to match the menu spelling to add a link automatically, ones listed are examples
-supported-functions:
-- Resource Metadata (Tagging/Labeling)
-- Resource Hierarchy (Accounts, Subscriptions & Projects)
-- Shared Cost Management
-- Anomaly Detection
-- Commitment Discounts (Reservations, Savings Plans, CUDs)
-- Optimization Recommendations
-- Automation
-- Draft Functions
-- Usage Volume Discounts (Usage Tiers, SUDs)
-- Architecture Refactoring
-- Continuous Improvement
-- Learning, Autoscaling
-- Data Ingestion
-- Data Processing
-- Data Analytics
-- Budget Alerting
-- Commitment Tracking
-- Marketplace
-- Policy Management
-- Containers Capabilities
-- Software Asset Management
+# Supported capabilities in the framework by the product(s) or services. Match the page-identifier per capability in order for the capability to show up on the vendor page.
+capabilities:
+- capability_allocation
+- capability_shared-cost
+- capability_anomalies
+- capability_commitment-discounts
+- capability_rightsizing
+- capability_workload-automation
+- capability_onboarding-workloads
+- capability_establish-finops-culture
+- capability_normalization
+- capability_budget-management
+- capability_asset-management
+- capability_policy-governance
 
 # Edit as appropriate to display supported clouds
 clouds-supported:

@@ -15,7 +15,7 @@ company-description: |
 
   Our journey can be defined based on the stages of our evolution. At the start in 2017, we were Centilytics 1.0 -- a Cost Management Product. Centilytics 1.0 focused on ensuring our customers have full understanding of their public cloud expenditure and realize savings with our help.
 
-  In 2018, we entered Centilytics 2.0 where we evolved to become a Cloud Management Platform. Centilytics introduced new product lines such as Security & Health, Cloud Automation, Tag Management. We became a part of Stanford’s StartX program and grew to 25 people.
+  In 2018, we entered Centilytics 2.0 where we evolved to become a Cloud Management Platform. Centilytics introduced new product lines such as Security & Health, Cloud Automation, and Tag Management. We became a part of Stanford’s StartX program and grew to 25 people.
 
   Today we are Centilytics 3.0, where we have become a Cloud Management Company that focuses on delivering end-to-end cloud management including FinOps to all our customers. We are a 150 people strong team with a global footprint. We are also a Red Herring Top 100 Asia Winner while we handle $750 million in cloud consumption thanks to our valued customer-partner ecosystem.
 
@@ -61,25 +61,18 @@ product-resources:
   url: "https://www.centilytics.com/solutions/security-and-health.html"
 
 
-# Supported functions in the framework by the product(s) or services, these need to match the menu spelling to add a link automatically, ones listed are examples
-supported-functions:
-- Resource Metadata (Tagging/Labeling)
-- Resource Hierarchy (Accounts, Subscriptions & Projects)
-- Shared Cost Management
-- Anomaly Detection
-- Commitment Discounts (Reservations, Savings Plans, CUDs)
-- Optimization Recommendations
-- Automation
-- Usage Volume Discounts (Usage Tiers, SUDs)
-- Negotiated Pricing
-- Continuous Improvement
-- Learning
-- Data Ingestion
-- Data Processing
-- Data Visualization
-- Data Analytics
-- Budget Alerting
-- Marketplace
+# Supported capabilities in the framework by the product(s) or services. Match the page-identifier per capability in order for the capability to show up on the vendor page.
+capabilities:
+- capability_allocation
+- capability_shared-cost
+- capability_anomalies
+- capability_commitment-discounts
+- capability_rightsizing
+- capability_workload-automation
+- capability_establish-finops-culture
+- capability_normalization
+- capability_budget-management
+- capability_asset-management
 
 # Edit as appropriate to display supported clouds
 clouds-supported:

@@ -11,8 +11,6 @@ website-url: "https://www.accenture.com/"
 # Maximum character count is 350 the rest will be truncated and hidden automatically on your page
 company-description: Accenture provides global professional services with leading capabilities in digital, cloud and security. Combining unmatched experience and specialized skills across more than 40 industries with Strategy & Consulting, Interactive, Technology and Operations services, our 569,000 people deliver on the promise of technology and human ingenuity for clients in more than 120 countries.
 
-
-
 # Membership level, type and vendor certifications
 member-level: premier
 member-order: 5
@@ -50,31 +48,18 @@ product-resources:
 - title:
   url:
 
-# Supported functions in the framework by the product(s) or services, these need to match the menu spelling to add a link automatically, ones listed are examples
-supported-functions:
-- Resource Metadata (Tagging/Labeling)
-- Resource Hierarchy (Accounts, Subscriptions & Projects)
-- Shared Cost Management
-- Anomaly Detection
-- Commitment Discounts (Reservations, Savings Plans, CUDs)
-- Optimization Recommendations
-- Automation
-- Usage Volume Discounts (Usage Tiers, SUDs)
-- Architecture Refactoring
-- Negotiated Pricing
-- Continuous Improvement
-- Autoscaling
-- Data Ingestion
-- Data Processing
-- Data Visualization
-- Data Analytics
-- Budget Alerting
-- Commitment Tracking
-- Marketplace
-- Policy Management
-- Trending & Variance Analysis
-- Containers Capabilities
-- Software Asset Management
+# Supported capabilities in the framework by the product(s) or services. Match the page-identifier per capability in order for the capability to show up on the vendor page.
+capabilities:
+- capability_allocation
+- capability_shared-cost
+- capability_anomalies
+- capability_commitment-discounts
+- capability_rightsizing
+- capability_workload-automation
+- capability_onboarding-workloads
+- capability_normalization
+- capability_policy-governance
+- capability_asset-management
 
 # Edit as appropriate to display supported clouds
 clouds-supported:

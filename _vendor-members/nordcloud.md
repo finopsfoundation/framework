@@ -10,7 +10,7 @@ linkedin-url: "https://www.linkedin.com/company/2785989/"
 website-url: "https://nordcloud.com/"
 
 # Maximum character count is 350 the rest will be truncated and hidden automatically on your page
-company-description: Nordcloud is a European leader in cloud implementation, application development, managed services and training. We’re triple certified and featured in Gartner’s Magic Quadrant.
+company-description: Nordcloud is a European leader in cloud implementation, application development, managed services, and training. We’re triple certified and featured in Gartner’s Magic Quadrant.
 
 # Membership level, type and vendor certifications 
 member-level: premier
@@ -107,29 +107,19 @@ product-resources:
 - title: Our Services 
   url: "https://nordcloud.com/our-services/"
 
-# Supported functions in the framework by the product(s) or services, these need to match the menu spelling to add a link automatically, ones listed are examples
-supported-functions:
-- Resource Metadata (Tagging/Labeling)
-- Resource Hierarchy (Accounts, Subscriptions & Projects)
-- Shared Cost Management
-- Anomaly Detection
-- Commitment Discounts (Reservations, Savings Plans, CUDs)
-- Optimization Recommendations
-- Automation
-- Usage Volume Discounts (Usage Tiers, SUDs)
-- Architecture Refactoring
-- Negotiated Pricing
-- Continuous Improvement
-- Autoscaling
-- Data Ingestion
-- Data Processing
-- Data Visualization
-- Data Analytics
-- Budget Alerting
-- Commitment Tracking
-- Policy Management
-- Trending & Variance Analysis
-- Containers Capabilities
+# Supported capabilities in the framework by the product(s) or services. Match the page-identifier per capability in order for the capability to show up on the vendor page.
+capabilities:
+- capability_allocation
+- capability_shared-cost
+- capability_anomalies
+- capability_commitment-discounts
+- capability_rightsizing
+- capability_workload-automation
+- capability_onboarding-workloads
+- capability_normalization
+- capability_budget-management
+- capability_policy-governance
+- capability_showback
 
 # Edit as appropriate to display supported clouds
 clouds-supported:

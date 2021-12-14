@@ -1,6 +1,6 @@
 ---
 
-layout: wide
+layout: capability
 
 title: Cost Allocation (Metadata & Hierarchy)
 description: Cost Allocation is the set of practices to divide up a consolidated invoice or bill among those who are responsible for its various component parts. In the context of FinOps this typically involves dividing up consolidated Cloud Service Provider invoices among various IT groups who use cloud within the organization.
@@ -126,29 +126,3 @@ An important prerequisite to effective cost allocation is the metadata strategy,
 | _Every org is different, but I like a scheme that moves from most granular to least - something like this: <br/> \<org\>-\<provider\>-\<department\>-\<application\>-\<environment\>_ |
 | _This gives you stuff like: <br/> * myorg-aws-finance-payroll-prod <br/> * myorg-gcp-flightops-flightbag-staging_ |
 
-
-
-## FinOps Platforms & Service Providers
-_Reference of cloud cost management platforms, tooling and service providers related to this Capability coming soon._
-
-
-## FinOps Training
-_Reference of courses and training partners related to this Capability coming soon._
-
-
-
-
-## Get Involved
-
-Get involved and contribute to the community by sharing a related story or providing a playbook for how you have implemented cloud cost allocation and metadata best practices in your organization. Your real world story or how-to can be provided in the context of:
->* one or more cloud providers
-* the types of cloud services used (compute, storage, database, etc...)
-* describe a combination of  tooling, platform or vendor, and processes including KPIs
-* the industry the organization belongs to
-* the complexity of the organization (global enterprise, start-up, etc…)
-* the [FinOps personas](https://www.finops.org/framework/personas/) involved / organizational roles
-
-Join the conversation about this Capability in Slack. Examples of channels discussing allocation challenges and solutions include [the Slack #shared-cost channel](https://finopsfoundation.slack.com/archives/C022JKKCK0Q), [the #tools-and-services channel](https://finopsfoundation.slack.com/archives/CK3UAH2P7) and [the #ask-a-question channel](https://finopsfoundation.slack.com/archives/C02EEAUTPGV).  You can submit stories, how-tos and suggest improvements [using one of the options for contributing listed here](https://www.finops.org/introduction/how-to-contribute/).
-
-
----

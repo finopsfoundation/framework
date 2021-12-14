@@ -9,12 +9,18 @@ layout: default
 
 {% if page.temporary == undefined %}
 
+
   <div class="flex flex-wrap">
-  {% for type in page.type %}
-    <div class="bg-gray-100 rounded-md mb-4 mr-4 py-1 px-2 text-sm font-semibold text-gray-700 tracking-wider uppercase">{{ type }}</div>
-  {% endfor %}
   {% for status in page.certified-status %}
-    <div class="bg-gray-100 rounded-md mb-4 mr-4 py-1 px-2 text-sm font-semibold text-gray-700 tracking-wider uppercase">{{ status }}</div>
+    {% if status contains 'FinOps Certified Service Provider' %}
+      <a class="badge-dgrey" href="/members/finops-certified-service-provider/">FinOps Certified Service Provider</a>
+    {% elsif status contains 'FinOps Certified Platform' %}
+      <a class="badge-dgrey" href="/members/finops-certified-platform/">FinOps Certified Platform</a>
+    {% elsif status contains 'FinOps Training Partner' %}
+      <a class="badge-dgrey" href="/members/finops-certified-training-partner/">FinOps Training Partner</a>
+    {% elsif status contains 'FinOps Certified Solution' %}
+      <a class="badge-dgrey" href="/members/finops-certified-solution/">FinOps Certified Solution</a>
+    {% endif %}
   {% endfor %}
   </div>
 
@@ -48,6 +54,22 @@ layout: default
     </div>
   {% endif %}
 
+  {% if page.capabilities != undefined %}
+    {% assign sorted_capabilities = site.capabilities | sort:"order" %}
+    <h2>Supported Framework Capabilities</h2>
+    <div class="flex flex-wrap">
+    {% for tag in page.capabilities %}
+
+      {% for capability in sorted_capabilities %}
+        {% if tag == capability.page-identifier %}
+          <a class="badge-dgrey" href="{{ capability.url }}">{{ capability.framework-capability-title }}</a>
+        {% endif %}
+      {% endfor %}
+
+    {% endfor %}
+   </div>
+  {% endif %}
+
   {% if page.product-resources[0].url != undefined %}
     <h2>Supporting Resources</h2>
     <ul>
@@ -66,15 +88,6 @@ layout: default
     <li>
       <a href="{{ activity.url }}" data-ga-category="vendor" data-ga-action="internal link clicks" data-ga-label="{{ page.name }} - {{ activity.title }}">{{ activity.title }}</a>
     </li>
-    {% endfor %}
-    </ul>
-  {% endif %}
-
-  {% if page.supported-functions != undefined %}
-    <h2>Supported Framework Functions</h2>
-    <ul>
-    {% for function in page.supported-functions %}
-      <li>{{ function }}</li>
     {% endfor %}
     </ul>
   {% endif %}

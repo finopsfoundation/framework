@@ -9,7 +9,7 @@ linkedin-url: "https://www.linkedin.com/company/deloitte/"
 website-url: "https://www2.deloitte.com/us/en/pages/consulting/solutions/cloud-consulting-services.html"
 
 # Maximum character count is 350 the rest will be truncated and hidden automatically on your page
-company-description: Deloitte provides industry-leading audit, consulting, tax and advisory services to many of the world's most admired brands, including nearly 90% of the Fortune 500® and more than 7,000 private companies. Our people [come together](https://www2.deloitte.com/us/en/pages/about-deloitte/articles/come-together-corporate-social-impact.html?id=us:2el:3pr:cometog:awa:greendot:11112020:boilerplate){:rel=“nofollow”} for the greater good and work across the industry sectors that drive and shape today's marketplace — delivering measurable and lasting results that help reinforce public trust in our capital markets, inspire clients to see challenges as opportunities to transform and thrive, and help lead the way toward a stronger economy and a healthier society. Deloitte is proud to be part of the largest global professional services network serving our clients in the markets that are most important to them. Building on more than 175 years of service, our network of member firms spans more than 150 countries and territories. Learn how Deloitte's more than 330,000 people worldwide connect for impact at [www.deloitte.com](https://www2.deloitte.com/uk/en.html){:rel=“nofollow”}.
+company-description: Deloitte provides industry-leading audit, consulting, tax, and advisory services to many of the world's most admired brands, including nearly 90% of the Fortune 500® and more than 7,000 private companies. Our people [come together](https://www2.deloitte.com/us/en/pages/about-deloitte/articles/come-together-corporate-social-impact.html?id=us:2el:3pr:cometog:awa:greendot:11112020:boilerplate){:rel=“nofollow”} for the greater good and work across the industry sectors that drive and shape today's marketplace — delivering measurable and lasting results that help reinforce public trust in our capital markets, inspire clients to see challenges as opportunities to transform and thrive, and help lead the way toward a stronger economy and a healthier society. Deloitte is proud to be part of the largest global professional services network serving our clients in the markets that are most important to them. Building on more than 175 years of service, our network of member firms spans more than 150 countries and territories. Learn how Deloitte's more than 330,000 people worldwide connect for impact at [www.deloitte.com](https://www2.deloitte.com/uk/en.html){:rel=“nofollow”}.
 
 
 
@@ -42,33 +42,21 @@ product-resources:
 - title:
   url:
 
-# Supported functions in the framework by the product(s) or services, these need to match the menu spelling to add a link automatically, ones listed are examples
-supported-functions:
-- Resource Metadata (Tagging/Labeling)
-- Resource Hierarchy (Accounts, Subscriptions & Projects)
-- Shared Cost Management
-- Anomaly Detection
-- Commitment Discounts (Reservations, Savings Plans, CUDs)
-- Optimization Recommendations
-- Automation
-- Draft Functions
-- Usage Volume Discounts (Usage Tiers, SUDs)
-- Architecture Refactoring
-- Negotiated Pricing
-- Continuous Improvement
-- Learning
-- Autoscaling
-- Data Ingestion
-- Data Processing
-- Data Visualization
-- Data Analytics
-- Budget Alerting
-- Commitment Tracking
-- Marketplace
-- Policy Management
-- Trending & Variance Analysis
-- Containers Capabilities
-- Software Asset Management
+# Supported capabilities in the framework by the product(s) or services. Match the page-identifier per capability in order for the capability to show up on the vendor page.
+capabilities:
+- capability_allocation
+- capability_shared-cost
+- capability_anomalies
+- capability_commitment-discounts
+- capability_rightsizing
+- capability_workload-automation
+- capability_onboarding-workloads
+- capability_establish-finops-culture
+- capability_normalization
+- capability_budget-management
+- capability_asset-management
+- capability_policy-governance
+- capability_showback
 
 # Edit as appropriate to display supported clouds
 clouds-supported:

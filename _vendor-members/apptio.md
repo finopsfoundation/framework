@@ -24,7 +24,7 @@ certified-status:
 - FinOps Training Partner
 
 # Product(s) or service overview maximum character count is 1000 the rest will be truncated and hidden automatically on your page
-product-overview: Cloudability<sup>MX</sup> enables FinOps practitioners to unlock the business value realized from their cloud initiatives, satisfying their most pressing cloud financial management needs across all major cloud service providers and elements of cloud spend. Cloudability brings financial accountability to the variable, consumption-based spending model of cloud. Allocation rules easily assign costs back to the business using the Business Mapping engine, ensuring an automated and complete chargeback. The platform provides a single-pane-of-glass, multi-cloud feature set that enables team ownership of spend via AI-backed anomaly detection, curated and customizable dashboards, budgets and forecasts, container analytics and comprehensive optimization recommendations. In addition, with Cloudability<sup>MX</sup>, practitioners can naturally extend FinOps principles to migration planning and SaaS portfolio management.
+product-overview: Cloudability<sup>MX</sup> enables FinOps practitioners to unlock the business value realized from their cloud initiatives, satisfying their most pressing cloud financial management needs across all major cloud service providers and elements of cloud spend. Cloudability brings financial accountability to the variable, consumption-based spending model of cloud. Allocation rules easily assign costs back to the business using the Business Mapping engine, ensuring an automated and complete chargeback. The platform provides a single-pane-of-glass, multi-cloud feature set that enables team ownership of spend via AI-backed anomaly detection, curated and customizable dashboards, budgets and forecasts, container analytics, and comprehensive optimization recommendations. In addition, with Cloudability<sup>MX</sup>, practitioners can naturally extend FinOps principles to migration planning and SaaS portfolio management.
 
 product-video-url: https://apptio-3.wistia.com/medias/9y7l1pupaz
 product-video-id: 9y7l1pupaz
@@ -38,30 +38,23 @@ product-resources:
 - title: Automate Cloud Cost Chargeback with Cloudability Business Mapping
   url: "https://www.apptio.com/products/cloudability/business-mapping/"
 
-# Supported functions in the framework by the product(s) or service, these need to match the menu spelling to add a link automatically, ones listed are examples
-supported-functions:
-- Resource Metadata (Tagging/Labeling)
-- Resource Hierarchy (Accounts, Subscriptions & Projects)
-- Shared Cost Management
-- Anomaly Detection
-- Commitment Discounts (Reservations, Savings Plans, CUDs)
-- Optimization Recommendations
-- Automation
-- Usage Volume Discounts (Usage Tiers, SUDs)
-- Negotiated Pricing
-- Continuous Improvement
-- Learning
-- Autoscaling
-- Data Ingestion
-- Data Processing
-- Data Visualization
-- Data Analytics
-- Budget Alerting
-- Commitment Tracking
-- Marketplace
-- Policy Management
-- Trending & Variance Analysis
-- Containers Capabilities
+# Supported capabilities in the framework by the product(s) or services. Match the page-identifier per capability in order for the capability to show up on the vendor page.
+capabilities:
+- capability_allocation
+- capability_shared-cost
+- capability_anomalies
+- capability_commitment-discounts
+- capability_rightsizing
+- capability_establish-finops-culture
+- capability_workload-automation
+- capability_normalization
+- capability_budget-management
+- capability_asset-management
+- capability_policy-governance
+- capability_showback
+- capability_unit-costs
+- capability_chargeback
+- capability_forecasting
 
 # Edit as appropriate to display supported clouds
 clouds-supported:

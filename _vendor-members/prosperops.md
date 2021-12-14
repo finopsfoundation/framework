@@ -40,18 +40,14 @@ product-resources:
 - title: ProsperOps Console Overview 
   url: "https://vimeo.com/590006262"
 
-# Supported functions in the framework by the product(s) or services, these need to match the menu spelling to add a link automatically, ones listed are examples
-supported-functions:
-- Shared Cost Management
-- Commitment Discounts (Reservations, Savings Plans, CUDs)
-- Optimization Recommendations
-- Automation
-- Negotiated Pricing
-- Data Ingestion
-- Data Processing
-- Data Visualization
-- Commitment Tracking
-- Trending & Variance Analysis
+# Supported capabilities in the framework by the product(s) or services. Match the page-identifier per capability in order for the capability to show up on the vendor page.
+capabilities:
+- capability_shared-cost
+- capability_commitment-discounts
+- capability_rightsizing
+- capability_workload-automation
+- capability_normalization
+- capability_showback
 
 # Edit as appropriate to display supported clouds
 clouds-supported:

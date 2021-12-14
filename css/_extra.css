@@ -177,3 +177,8 @@ hr.basic {
   background-position: center;
   background-size: cover;
 }
+
+.modal {
+  max-height: 80vh;
+  overflow: auto;
+}

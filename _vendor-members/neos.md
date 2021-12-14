@@ -9,7 +9,7 @@ linkedin-url: "https://www.linkedin.com/company/neos-hr/"
 website-url: "https://www.neos.hr/"
 
 # Maximum character count is 350 the rest will be truncated and hidden automatically on your page
-company-description: "Neos provides business solutions and services covering System Infrastructure, Rapid Application Development, Data Analytics and Cloud Integration based on relational and Big Data platforms in Multicloud and On-premise environments.
+company-description: "Neos provides business solutions and services covering System Infrastructure, Rapid Application Development, Data Analytics, and Cloud Integration based on relational and Big Data platforms in Multicloud and On-premise environments.
 
 Our solutions provide business improvement by implementing Machine Learning, Predictive Analytics and other cutting-edge technologies, turning new technologies into real business value."
 
@@ -30,7 +30,7 @@ product-overview: |
 
   By implementing FinOps methodology through CloudVane features, every customer is facilitated to introduce the best FinOps practices into their company or organisation in the simplest way possible.
 
-  CloudVane is part of the Oracle for Startups, a unique acceleration program that enables mutually beneficial business-building partnerships for startups, Oracle and their customers. The goal of the program is to create a virtuous cycle of innovation through startup technology built on secure, scalable Oracle Cloud Infrastructure.
+  CloudVane is part of the Oracle for Startups, a unique acceleration program that enables mutually beneficial business-building partnerships for startups, Oracle, and their customers. The goal of the program is to create a virtuous cycle of innovation through startup technology built on secure, scalable Oracle Cloud Infrastructure.
 
 product-video-url: "https://www.youtube.com/embed/rpa4nNNkONA"
 
@@ -41,22 +41,14 @@ product-resources:
 - title: CloudVane Linkedin
   url: "https://www.linkedin.com/company/cloudvane"
 
-# Supported functions in the framework by the product(s) or service, these need to match the menu spelling to add a link automatically, ones listed are examples
-supported-functions:
-- Resource Metadata (Tagging/Labeling)
-- Resource Hierarchy (Accounts
-- Subscriptions & Projects)
-- Shared Cost Management
-- Optimization Recommendations
-- Automation
-- Autoscaling
-- Data Ingestion
-- Data Processing
-- Data Visualization
-- Data Analytics
-- Budget Alerting
-
-
+# Supported capabilities in the framework by the product(s) or services. Match the page-identifier per capability in order for the capability to show up on the vendor page.
+capabilities:
+- capability_allocation
+- capability_shared-cost
+- capability_rightsizing
+- capability_workload-automation
+- capability_normalization
+- capability_budget-management
 
 # Edit as appropriate to display supported clouds 
 clouds-supported:

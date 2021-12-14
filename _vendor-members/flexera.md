@@ -10,7 +10,7 @@ linkedin-url: "https://www.linkedin.com/company/flexera"
 website-url: "https://www.flexera.com/"
 
 # Maximum character count is 350 the rest will be truncated and hidden automatically on your page
-company-description: Flexera delivers SaaS-based IT management solutions that enable enterprises to accelerate the return on their technology investments. We help organizations inform their IT with total visibility into complex hybrid ecosystems, so they can transform their IT by rightsizing across all platforms, reallocating spend, reducing risk and charting the most effective path to the cloud.
+company-description: Flexera delivers SaaS-based IT management solutions that enable enterprises to accelerate the return on their technology investments. We help organizations inform their IT with total visibility into complex hybrid ecosystems, so they can transform their IT by rightsizing across all platforms, reallocating spend, reducing risk, and charting the most effective path to the cloud.
 
 # Membership level, type and vendor certifications 
 member-level: general
@@ -46,25 +46,18 @@ product-resources:
 - title: Control IT costs with a clear, accurate view of your IT assets
   url: "https://www.youtube.com/watch?v=f-eAAiqAOWg"
 
-# Supported functions in the framework by the product(s) or services, these need to match the menu spelling to add a link automatically, ones listed are examples
-supported-functions:
-- Resource Metadata (Tagging/Labeling)
-- Resource Hierarchy (Accounts, Subscriptions & Projects)
-- Shared Cost Management
-- Anomaly Detection
-- Commitment Discounts (Reservations, Savings Plans, CUDs)
-- Optimization Recommendations
-- Automation
-- Autoscaling
-- Data Ingestion
-- Data Processing
-- Data Visualization
-- Data Analytics
-- Budget Alerting
-- Committment Tracking
-- Policy Management
-- Containers Capabilities
-- Software Asset Management
+# Supported capabilities in the framework by the product(s) or services. Match the page-identifier per capability in order for the capability to show up on the vendor page.
+capabilities:
+- capability_allocation
+- capability_shared-cost
+- capability_anomalies
+- capability_commitment-discounts
+- capability_rightsizing
+- capability_workload-automation
+- capability_normalization
+- capability_budget-management
+- capability_policy-governance
+- capability_asset-management
 
 # Edit as appropriate to display supported clouds
 clouds-supported:

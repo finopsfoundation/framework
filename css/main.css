@@ -36,7 +36,7 @@
   }
 
   .badge-grey {
-    @apply bg-gray-200 rounded-lg text-sm font-semibold text-gray-700 tracking-wider uppercase inline-block px-2 py-px no-underline;
+    @apply bg-gray-200 rounded-lg text-sm font-semibold text-gray-700 tracking-wider uppercase inline-block px-2 py-px no-underline; 
   }
 
   .badge-grey:hover {
@@ -44,15 +44,15 @@
   }
 
   .badge-dgrey {
-    @apply bg-gray-300 rounded-lg text-sm font-semibold text-gray-700 tracking-wider uppercase inline-block px-2 py-px no-underline;
+    @apply bg-gray-300 rounded-lg text-sm font-medium text-gray-700 tracking-wide uppercase inline-block px-2 py-px no-underline my-2 mr-4;
   }
   
   .badge-dgrey:hover {
-    @apply bg-gray-400
+    @apply bg-green-500 text-white transition transform duration-100 cursor-pointer;
   }
 
   .badge-dgrey svg {
-    @apply text-gray-500 
+    @apply text-gray-500; 
   }
 }
 

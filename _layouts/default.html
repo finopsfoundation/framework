@@ -68,6 +68,11 @@ layout: basic
         <div class="p-4 bg-gray-100 rounded-md mb-6 shadow-md">
           <h1 class="text-base font-semibold text-gray-700 tracking-wider uppercase mb-2">{{ page.name }}</h1>
           <ul class="plain-list">
+            {% for type in page.type %}
+            <li class="text-sm">{{ type }}</li>
+            {% endfor %}
+          </ul>
+          <ul class="plain-list">
             <li class="text-sm"><span class="font-semibold">Joined:</span> {{ page.date | date: "%B %Y" }}</li>
             {% if page.clouds-supported != undefined %}
               <li class="text-sm"><span class="font-semibold">Supports:</span> 

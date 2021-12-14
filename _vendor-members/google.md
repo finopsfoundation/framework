@@ -28,24 +28,16 @@ product-video-url:
 # Related product or service resources, the titles will have associated URLs, e.g. product 
 product-resources:
 
-# Supported functions in the framework by the product(s) or services, these need to match the menu spelling to add a link automatically, ones listed are examples
-supported-functions:
-- Resource Metadata (Tagging/Labeling)
-- Resource Hierarchy (Accounts, Subscriptions & Projects)
-- Shared Cost Management
-- Commitment Discounts (Reservations, Savings Plans, CUDs)
-- Optimization Recommendations
-- Automation
-- Usage Volume Discounts (Usage Tiers, SUDs)
-- Negotiated Pricing
-- Autoscaling
-- Data Processing
-- Data Visualization
-- Data Analytics
-- Budget Alerting
-- Commitment Tracking
-- Marketplace
-- Containers Capabilities
+# Supported capabilities in the framework by the product(s) or services. Match the page-identifier per capability in order for the capability to show up on the vendor page.
+capabilities:
+- capability_allocation
+- capability_shared-cost
+- capability_commitment-discounts
+- capability_rightsizing
+- capability_workload-automation
+- capability_normalization
+- capability_budget-management
+- capability_asset-management
 
 # Edit as appropriate to display supported clouds
 clouds-supported:
