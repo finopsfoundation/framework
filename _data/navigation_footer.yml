@@ -1,7 +1,9 @@
 - name: Certification
   children:
   - name: FinOps Certified Practitioner
-    url: /training-certification/finops-certified-practitioner/
+    url: https://learn.finops.org/
+  - name: FinOps Certified Professional
+    url: https://learn.finops.org/path/finops-certified-professional
   - name: Vendor Member Certification
     url: /members/vendor-certification/
 

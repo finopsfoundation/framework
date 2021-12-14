@@ -9,7 +9,7 @@ description: The FinOps Foundation is a non-profit trade association made up of 
 
 # About The FinOps Foundation
 
-The FinOps Foundation is a program of the [The Linux Foundation](http://linuxfoundation.org) (alongside organizations like [Cloud Native Computing Foundation](http://cncf.io)) dedicated to advancing the discipline of cloud financial management through best practices, education and standards. The FinOps Foundation includes 4400+ individual members, representing more than 1500 companies. It provides a variety of training and certification programs including the [FinOps Certified Practitioner](/training-certification/finops-certified-practitioner/) designation. It counts dozens of major service and platform providers as part of our vendor certification programs such as [FinOps Certified Platform](/training-certification/vendor-certification/) and [FinOps Certified Service Provider](/training-certification/vendor-certification/) programs.
+The FinOps Foundation is a program of the [The Linux Foundation](http://linuxfoundation.org) (alongside organizations like [Cloud Native Computing Foundation](http://cncf.io)) dedicated to advancing the discipline of cloud financial management through best practices, education and standards. The FinOps Foundation includes 4400+ individual members, representing more than 1500 companies. It provides a variety of training and certification programs including the [FinOps Certified Practitioner](https://learn.finops.org/) designation. It counts dozens of major service and platform providers as part of our vendor certification programs such as [FinOps Certified Platform](/members/vendor-certification/) and [FinOps Certified Service Provider](/members/vendor-certification/) programs.
 
 - Mission
 - Structure
