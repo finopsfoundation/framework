@@ -1,6 +1,7 @@
 ---
 
 layout: default
+github-link: false
 tags: projects
 description: A guide that walks through all Working Groups and Special Interest Groups
 
