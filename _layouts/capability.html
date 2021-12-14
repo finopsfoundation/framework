@@ -6,20 +6,19 @@ layout: wide
 
 {{ content }}
 
-<div class="flex mt-16">
-
+<!-- Tooling hidden for now -->
+<!-- <div class="flex mt-16">
   <div class="bg-gray-200 rounded-lg px-6 pb-6 pt-2 mr-6">
     <h3>FinOps Platforms & Service Providers</h3>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing, elit. Quasi omnis ducimus tenetur ipsa eveniet molestiae fuga provident.</p>
-    <a class="btn" href="javascript:void(0)" onclick="toggleModal('modal-{{ page.page-identifier }}')">View tooling and services</a>
+    <a class="btn" href="javascript:void(0)" onclick="javascript:modalToggle('modal-cap-tooling')">View tooling and services</a>
   </div>
 
   <div class="bg-gray-200 rounded-lg px-6 pb-6 pt-2 mr-6">
     <h3>FinOps Training</h3>
     <p>Reference of courses related to this Capability coming soon</p>
   </div>
-
-</div>
+</div> -->
 
 <h2>Get Involved</h2>
 
@@ -35,98 +34,3 @@ layout: wide
 </ul>
 
 <p><em>Join the conversation about this Capability in Slack <!-- [insert name and link to Slack channel here] -->. You can submit stories, how-tos and suggest improvements <a href="https://www.finops.org/introduction/how-to-contribute/">using one of the options for contributing here</a>.</em></p>
-
-
-<!-- Modal Contribute -->
-
-  <div class="hidden overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none justify-center items-center" id="modal-{{ page.page-identifier }}">
-    <div class="relative w-auto my-6 mx-auto max-w-3xl">
-      <!--content-->
-      <div class="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none modal">
-        <!--header-->
-        <div class="flex p-5 border-b border-solid border-blueGray-200 rounded-t">
-          <h3 class="text-xl font-semibold mt-2">
-            {{ page.framework-capability-title }} related providers
-          </h3>
-          <button class="p-1 ml-auto bg-transparent border-0 text-black opacity-5 float-right text-3xl leading-none font-semibold outline-none focus:outline-none" onclick="toggleModal('modal-{{ page.page-identifier }}')">
-            <span class="bg-transparent text-black opacity-5 h-6 w-6 text-2xl block outline-none focus:outline-none">
-              ×
-            </span>
-          </button>
-        </div>
-        <!--body-->
-        <div class="relative p-6">
-
-          {% assign platform_array = "" | split: ',' %}
-          {% assign sorted_vendor = site.vendor-members | sort: 'name' %}
-          {% for vendor in sorted_vendor %} 
-            {% if vendor.type contains 'Platform Provider' %}
-              {% if vendor.capabilities contains page.page-identifier %}
-                <!-- Push platform vendor into array -->
-                {% assign platform_array = platform_array | push: vendor %}
-              {% endif %}
-            {% endif %}
-          {% endfor %}
-
-          {% assign has_vendors = false %}
-          {% for vendor in platform_array %}
-            {% if forloop.first == true %}
-              <h2 class="block">Platform Providers</h2>
-              <div class="flex flex-wrap">
-            {% endif %}
-            <div class="md:w-2/6 p-3 flex items-stretch">
-              <div class="w-full bg-gray-100 rounded-lg border-solid border-gray-100 border hover:border-green-500 transition-colors duration-200 shadow-sm cursor-pointer flex text-centre items-center justify-center">
-                <a href="{{ vendor.url }}" class="block p-6">
-                  <img src="{{ vendor.logo-url }}" alt="{{ vendor.name }}" width="{% if vendor.logo-url-width != undefined %}{{ vendor.logo-url-width }}{% else %}150{% endif %}" />
-                </a>
-              </div>
-            </div>
-            {% assign has_vendors = true %}
-            {% if forloop.last == true %}
-               </div>
-            {% endif %}
-          {% endfor %}
-
-
-          {% assign services_array = "" | split: ',' %}
-          {% assign sorted_vendor = site.vendor-members | sort: 'name' %}
-          {% for vendor in sorted_vendor %} 
-            {% if vendor.type contains 'Service Provider' %}
-              {% if vendor.capabilities contains page.page-identifier %}
-                <!-- Push service vendor into array -->
-                {% assign services_array = services_array | push: vendor %}
-              {% endif %}
-            {% endif %}
-          {% endfor %}
-
-          {% assign has_vendors = false %}
-          {% for vendor in services_array %}
-            {% if forloop.first == true %}
-              <h2 class="block">Service Providers</h2>
-              <div class="flex flex-wrap">
-            {% endif %}
-            <div class="md:w-2/6 p-3 flex items-stretch">
-              <div class="w-full bg-gray-100 rounded-lg border-solid border-gray-100 border hover:border-green-500 transition-colors duration-200 shadow-sm cursor-pointer flex text-centre items-center justify-center">
-                <a href="{{ vendor.url }}" class="block p-6">
-                  <img src="{{ vendor.logo-url }}" alt="{{ vendor.name }}" width="{% if vendor.logo-url-width != undefined %}{{ vendor.logo-url-width }}{% else %}150{% endif %}" />
-                </a>
-              </div>
-            </div>
-            {% assign has_vendors = true %}
-            {% if forloop.last == true %}
-               </div>
-            {% endif %}
-          {% endfor %}
-
-          {% if platform_array.size > 0 or services_array.size > 0 %}
-            <hr class="basic" />
-            <h4>Make a suggestion</h4>
-            <p>Don’t see your favourite tooling or service listed here, add a suggestion.</p>
-          {% else %}
-            <p>Looks like we need some suggestions on useful tooling and services listed here, add a suggestion. </p>
-          {% endif %}
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
