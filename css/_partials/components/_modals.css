@@ -1,0 +1,98 @@
+.c-modal {
+  left: 50%;
+  background: white;
+  border: solid 1px $color-border;
+  border-radius: 3px;
+  padding: 30px;
+  display: none;
+  position: absolute;
+  z-index: 11000;
+  width: 95%;
+  @media screen(md) {  
+    width: 65%;
+  }
+  @media screen(lg) {  
+    width: 50%;
+  }
+
+  .c-modal_heading {
+    text-align: center;
+    margin-bottom: 20px;
+    h5 {
+      font-size: 35px;
+      margin: 0 0 10px;
+    }
+    p {
+      margin: 5px 0;
+      font-size: 16px;
+    }
+  }
+  form {
+    margin-top: 20px;
+  }
+  .c-modal_group {
+    display: block;
+    @include clearfix;
+  }
+  .c-modal_col {
+    @media screen(md) {  
+      &:first-child {
+        padding-right: 7px;
+      }
+      &:last-child {
+        padding-left: 7px;
+      }
+    }
+  }
+}
+
+/*.c-modal--small {
+  width: 95%;
+  @include min-break($medium) {
+    width: 50%;
+  }
+  @include min-break(769px) {
+    width: 50%;
+  }
+  @include min-break(1000px) {
+    width: 40%;
+  }
+  @include min-break(1300px) {
+    width: 30%;
+  }
+  @include min-break(1800px) {
+    width: 25%;
+  }
+}*/
+
+
+.c-modal_cta {
+  text-align: center;
+  button {
+    margin-bottom: 15px;
+  }
+}
+
+.c-modal_button {
+  text-align: left;
+  &.c-modal_button--center {
+    text-align: center;
+  }
+}
+
+.c-modal_close {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  a {
+    display: block;
+    font-size: 25px;
+    background: none;
+    color: $color-font;
+    &:hover {
+      cursor: pointer;
+      text-decoration: none;
+    }
+  }
+}
+

@@ -6,9 +6,11 @@
 
 /* Write your styles below this line. */
 
-@import "css/hc-offcanvas-nav_carbon";
-@import "css/slick-theme";
-@import "css/typography";
+@import "css/_partials/vendor/hc-offcanvas-nav_carbon";
+@import "css/_partials/base/_global";
+@import "css/_partials/base/typography";
+@import "css/_partials/base/forms";
+@import "css/_partials/components/_modals";
 @import "css/_extra";
 
 @layer base {
@@ -19,7 +21,7 @@
     @apply font-light
   }
   li {
-  	@apply text-base font-light mb-2 pr-4
+  	@apply font-light mb-2 pr-4
   }
 }
 

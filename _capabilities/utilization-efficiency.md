@@ -16,7 +16,10 @@ order: 9
 
 {% include contribute-capabiility.md %}
 
+## Domains
+<!-- _x-ref to the FinOps Domain(s) to which this Capability corresponds_ -->
 {% include domains-loop.md %}
+
 
 ## Definition
 In context to FinOps, resource utilization is about making sure you are getting sufficient business value for the cost. It is necessary to observe a resource's utilization over time to understand if the performance, availability or other quality metrics are of value for the expense incurred.  

@@ -48,7 +48,7 @@ description: The consultant tier of membership is for those who provide services
 		          </p>
 		        </div>
 		        <div class="order-3 mt-2 flex-shrink-0 w-full sm:order-2 sm:mt-0 sm:w-auto">
-		          <a href="javascript:void(0)" onclick="toggleModal('modal-eligible')" class="flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-green-600 bg-white hover:bg-indigo-50">
+		          <a href="javascript:void(0)" onclick="modalToggle('modal-eligible')" class="flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-green-600 bg-white hover:bg-indigo-50">
 		            Learn more
 		          </a>
 		        </div>
@@ -115,7 +115,7 @@ description: The consultant tier of membership is for those who provide services
             </dt>
             <dd class="mt-2 ml-16 text-base text-gray-600">
               For organizations who provide services in the FinOps and cloud financial management space that want to part of the FinOps Foundation community. This tier offers access to community engagement as well as driving awareness and amplification.
-              <a href="javascript:void(0)" onclick="toggleModal('modal-vendor')" class="text-sm text-green-500 mt-4 block">Details on pricing</a>
+              <a href="javascript:void(0)" onclick="modalToggle('modal-pricing')" class="text-sm text-green-500 mt-4 block">Details on pricing</a>
             </dd>
           </div>
 
@@ -131,7 +131,7 @@ description: The consultant tier of membership is for those who provide services
             </dt>
             <dd class="mt-2 ml-16 text-base text-gray-600">
               This tier provides a unique partnership with the Foundation. Premier members direct input at the board level and technical advisory council level, as well as maximum exposure to our members with individual engagements on multiple levels.
-              <a href="javascript:void(0)" onclick="toggleModal('modal-premier')" class="text-sm text-green-500 mt-4 block">Details and pricing</a>
+              <a href="javascript:void(0)" onclick="modalToggle('modal-premier-benefits')" class="text-sm text-green-500 mt-4 block">Details and pricing</a>
             </dd>
           </div>
         </dl>
@@ -150,157 +150,8 @@ description: The consultant tier of membership is for those who provide services
   </div>
 </div>
 
-<!-- Modal Eligibility -->
-<div class="hidden overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none justify-center items-center" id="modal-eligible">
-  <div class="relative w-auto my-6 mx-auto max-w-3xl">
-    <!--content-->
-    <div class="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
-      <!--header-->
-      <div class="flex items-start justify-between p-5 border-b border-solid border-blueGray-200 rounded-t">
-        <h3 class="text-xl font-semibold">
-          Eligibility
-        </h3>
-        <button class="p-1 ml-auto bg-transparent border-0 text-black opacity-5 float-right text-3xl leading-none font-semibold outline-none focus:outline-none" onclick="toggleModal('modal-eligible')">
-          <span class="bg-transparent text-black opacity-5 h-6 w-6 text-2xl block outline-none focus:outline-none">
-            ×
-          </span>
-        </button>
-      </div>
-      <!--body-->
-      <div class="relative p-6 flex-auto">
-        <p class="my-4 text-blueGray-500 text-lg leading-relaxed">
-          Those in a sales, business development, or marketing roles are not eligible for membership. Those who work for consultancies or cloud-related technology vendors are not eligible for "Practitioner" membership.</p>
+<!-- Modals -->
 
-          <p class="my-4 text-blueGray-500 text-lg leading-relaxed"><b>Practitioner Definition</b><br/>
-          Practitioners must: (i) be actively working in FinOps: (a) in an executive capacity, such as a Chief Information Officer or Chief Technology Officer; (b) in IT/engineering and operations; (c) in finance and/or procurement; (d) as a FinOps practitioner; or (e) in a similar capacity (regardless of title); (ii) not be employed by a FinOps, cloud, or cloud management vendor; and (iii) not have FinOps-related sales, marketing, or business development as their primary business.
-        </p>
-      </div>
-      <!--footer-->
-      <div class="flex items-center justify-end p-6 border-t border-solid border-blueGray-200 rounded-b">
-        <button class="text-red-500 background-transparent font-bold uppercase px-6 py-2 text-sm outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button" onclick="toggleModal('modal-eligible')">
-          Close
-        </button>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- Modal Vendor -->
-<div class="hidden overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none justify-center items-center" id="modal-vendor">
-  <div class="relative w-auto my-6 mx-auto max-w-3xl">
-    <!--content-->
-    <div class="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
-      <!--header-->
-      <div class="flex items-start justify-between p-5 border-b border-solid border-blueGray-200 rounded-t">
-        <h3 class="text-xl font-semibold">
-          Pricing Details
-        </h3>
-        <button class="p-1 ml-auto bg-transparent border-0 text-black opacity-5 float-right text-3xl leading-none font-semibold outline-none focus:outline-none" onclick="toggleModal('modal-vendor')">
-          <span class="bg-transparent text-black opacity-5 h-6 w-6 text-2xl block outline-none focus:outline-none">
-            ×
-          </span>
-        </button>
-      </div>
-      <!--body-->
-      <div class="relative p-6 flex-auto">
-        
-        <table class="table-auto text-sm text-center"> 
-          <thead>
-            <th>Size</th>
-            <th>New to Linux Fdn<sup>*</sup></th>
-            <th>Existing Linux Fdn Member<sup>**</sup></th>
-            <th>FOCPCerts Req<sup>***</sup></th>
-          </thead>
-          <tbody>
-            <tr>
-              <td>10000+</td>
-              <td>$90,000</td>
-              <td>$70,000</td>
-              <td>75</td>
-            </tr>
-            <tr>
-              <td>5000-9999</td>
-              <td>$70,000</td>
-              <td>$50,000</td>
-              <td>50</td>
-            </tr>
-            <tr>
-              <td>500-4999</td>
-              <td>$45,000</td>
-              <td>$30,000</td>
-              <td>35</td>
-            </tr>
-            <tr>
-              <td>100-499</td>
-              <td>$25,000</td>
-              <td>$15,000</td>
-              <td>10</td>
-            </tr>
-            <tr>
-              <td>0-99</td>
-              <td>$10,000</td>
-              <td>$5,000</td>
-              <td>3</td>
-            </tr>
-          </tbody>
-        </table>
-        <p class="my-4 text-blueGray-500 text-sm leading-relaxed">
-          Pricing determined by size or organization and existing membership of the Linux Foundation. Please submit a request for more details.
-        </p>
-        <p><small>* Linux Foundation membership (Silver minimum) is required to join the FinOps Foundation.</small></p>
-        <p><small>** Existing LF members simply need to add a FinOps Participation Agreement to their existing LF membership</small></p>
-        <p><small>*** FCSP, FCP, FTP require minimum FinOps Certified Practitioner certification levels, additional costs will apply</small></p>
-      </div>
-      <!--footer-->
-      <div class="flex items-center justify-end p-6 border-t border-solid border-blueGray-200 rounded-b">
-        <button class="text-red-500 background-transparent font-bold uppercase px-6 py-2 text-sm outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button" onclick="toggleModal('modal-vendor')">
-          Close
-        </button>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- Modal Premier -->
-
-<div class="hidden overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none justify-center items-center" id="modal-premier">
-  <div class="relative w-auto my-6 mx-auto max-w-3xl">
-    <!--content-->
-    <div class="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
-      <!--header-->
-      <div class="flex items-start justify-between p-5 border-b border-solid border-blueGray-200 rounded-t">
-        <h3 class="text-xl font-semibold">
-          Premier Member Details and Pricing
-        </h3>
-        <button class="p-1 ml-auto bg-transparent border-0 text-black opacity-5 float-right text-3xl leading-none font-semibold outline-none focus:outline-none" onclick="toggleModal('modal-premier')">
-          <span class="bg-transparent text-black opacity-5 h-6 w-6 text-2xl block outline-none focus:outline-none">
-            ×
-          </span>
-        </button>
-      </div>
-      <!--body-->
-      <div class="relative p-6 flex-auto">
-        <ul class="list-disc pl-10 mb-4">
-          <li>Participate in all Marketing, Community, Thought Leadership opportunities</li>
-          <li>Appoint one (1) representative to each the Governing Board & Technical Advisory Council to have votes in standards definition</li>
-          <li>Appoint one (1) representative as a voting member in any subcommittees or activities of the Governing Board</li>
-          <li>Enjoy most prominent placement in displays of membership including on the website and in marketing materials</li>
-          <li>Increased access to F2 invitation-only member events</li>
-          <li>Receive ongoing, individual engagement from F2 Board and Staff</li>
-          <li>Included in the press campaign with the Linux Foundation PR team</li>
-        </ul>
-        <p class="my-4 text-blueGray-500 text-lg leading-relaxed">
-          Pricing $125k/yr, minimum two years (includes board and TAC seats)
-        </p>
-      </div>
-      <!--footer-->
-      <div class="flex items-center justify-end p-6 border-t border-solid border-blueGray-200 rounded-b">
-        <button class="text-red-500 background-transparent font-bold uppercase px-6 py-2 text-sm outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button" onclick="toggleModal('modal-premier')">
-          Close
-        </button>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- Backdrop -->
-<div class="hidden opacity-25 fixed inset-0 z-40 bg-black" id="modal-backdrop"></div>
+{% include modals/eligibility.html %}
+{% include modals/pricing.html %}
+{% include modals/premier-benefits.html %}
