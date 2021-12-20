@@ -16,40 +16,15 @@ plugins:
   - jekyll-postcss
 
 # jekyll-seo-tag configuration
-author: ""
-url: ""
 title: "FinOps Foundation - Collaborative, Real-Time Cloud Financial Management"
 description: "Delivering expertise, and inspiration for and by FinOps leaders and practitioners — all aimed at helping members become better at cloud financial management."
-twitter:
-  username: ""
-  card: ""
-logo: "path/to/image"
-
-
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - yarn.lock
-  - package-lock.json
-  - README.md
-  - postcss.config.js
-  - purgecss.config.js
-  - netlify.toml
-  - bin
-  - .gitignore
-  - vendor
-permalink: pretty
 
 collections:
   stories:
     output: true
   links:
     output: true
-  vendor-members:
+  tools-services:
     output: true
   domains:
     output: true
@@ -58,7 +33,7 @@ collections:
 
 defaults:
   - scope:
-      path: "framework"
+      path: "_pages/framework"
       type: "pages"
     values:
       identifier: "framework"
@@ -73,24 +48,42 @@ defaults:
     values:
       identifier: "framework"
   - scope:
-      path: "projects"
+      path: "_pages/projects"
       type: "pages"
     values:
       identifier: "projects"
   - scope:
-      path: "introduction"
+      path: "_pages/introduction"
       type: "pages"
     values:
       identifier: "introduction"
   - scope:
-      path: "resources"
+      path: "_pages/resources"
       type: "pages"
     values:
       identifier: "resources"
-  - scope:
-      path: "certification"
-      type: "pages"
-    values:
-      identifier: "certification"
 
-include: [_redirects]
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+exclude:
+  - tailwind.config.js
+  - postcss.config.js
+  - package.json
+  - package-lock.json
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - yarn.lock
+  - yarn-error.log
+  - .jekyll-cache/
+  - netlify.toml
+  - .gitignore
+
+permalink: pretty
+
+include:
+  - _redirects
+  - _pages/
+
+

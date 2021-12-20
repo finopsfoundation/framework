@@ -1,0 +1,14 @@
+/*Modals*/
+
+.gl-overlay {
+  width: 100%;
+  z-index: 100;
+  position: fixed;
+  visibility: hidden;
+  opacity: 0;
+  top: 0;
+  bottom: 0;
+  transition: opacity 0.5s ease;
+  background: #2B2E38;
+  background: rgba(43,46,56,.6);
+}
