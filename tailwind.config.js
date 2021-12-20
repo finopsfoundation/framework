@@ -3,7 +3,14 @@ const colors = require('tailwindcss/colors')
 module.exports = {
   mode: 'jit',
   content: [
-    './_site/**/*.js',
+    './_capabilities/**/*.{html,js,md}',
+    './_domains/**/*.{html,js,md}',
+    './_includes/**/*.{html,js,md}',
+    './_layouts/**/*.{html,js,md}',
+    './_links/**/*.{html,js,md}',
+    './_pages/**/*.{html,js,md}',
+    './_stories/**/*.{html,js,md}',
+    './_tools-services/**/*.{html,js,md}',
     './_site/**/*.html',
   ],
   darkMode: false, // or 'media' or 'class'
