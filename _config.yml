@@ -22,8 +22,6 @@ description: "Delivering expertise, and inspiration for and by FinOps leaders an
 collections:
   stories:
     output: true
-  links:
-    output: true
   tools-services:
     output: true
   domains:
