@@ -74,8 +74,8 @@ product-video-url:
 product-resources:
 - title: Cloud Services
   url: "https://www.softchoice.com/solutions/cloud-data-center/cloud-migration-adoption-management?utm_source=Google&utm_medium=cpc&utm_campaign=Brand-Q1-21_SoftLaunch-Cloud&utm_term=3303&gclid=CjwKCAjwoP6LBhBlEiwAvCcthDpUwt6K_OSqwX7tRZu9tgDJqiDokau273NdyVeoAfb7yKu2V8KrQBoCzJkQAvD_BwE"
-- title:
-  url:
+- title: Softchoice Managed CloudHealth Services
+  url: "https://resources.softchoice.com/resourcecenter/cloud-migration-and-adoption/cloudhealth-managed-subscription-services/"
 - title:
   url:
 
@@ -108,12 +108,12 @@ date: 2021-10-01
 
 # Show recent related FinOps activity, it can be content, webinars, thought leadership and include external links
 recent-finops-activity:
-- title: FinOps Blog
-  url: "https://www.softchoice.com/blogs/cloud-migration-adoption-management/whitepaper-finops-the-future-of-cloud-economics"
-- title: FinOps Whitepaper
+- title: A practice for cloud accountability & team empowerment (White Paper)
   url: "https://resources.softchoice.com/resourcecenter/cloud-migration-and-adoption/finops-a-practice-for-cloud-accountability-and-team-empowerment-a-softchoice-white-paper/"
-- title:
-  url:
+- title: A procurement professional’s guide to optimizing cloud costs (eGuide)
+  url: "https://resources.softchoice.com/resourcecenter/cloud-management/a-softchoice-guide-a-procurement-professionals-guide-to-optimizing-cloud-costs/"
+- title: Practical FinOps – enabling innovation through cloud cost management (Webinar)
+  url: "https://resources.softchoice.com/resourcecenter/cloud-management/practical-finops-enabling-innovation-through-cloud-cost-management/"
 
 # Detail related/dedicated slack channels in the FinOps Foundation Slack 
 slack-channels:
