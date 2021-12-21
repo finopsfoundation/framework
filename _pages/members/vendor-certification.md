@@ -21,8 +21,8 @@ There are four areas to which vendors can certify their qualifications and align
           <div class="text-center">
             <img class="inline-block" src="/img/certs/finops-certified-platform.png" width="120">
           </div>
-          <h3 class="mt-8 text-lg font-medium text-gray-900 tracking-tight">FinOps Certified Platform</h3>
-          <p class="mt-5 text-base text-gray-500">
+          <h3 class="mt-8 text-lg font-medium">FinOps Certified Platform</h3>
+          <p class="mt-5 text-base">
             Tier of technology providers that license and deliver a software product to help people successfully adopt cloud financial management practices aligned with the FinOps standards.
           </p>
           <a href="/members/finops-certified-platform/" class="btn">View vendors</a>
@@ -35,8 +35,8 @@ There are four areas to which vendors can certify their qualifications and align
           <div class="text-center">
             <img class="inline-block" src="/img/certs/finops-certified-solution.png" width="120">
           </div>
-          <h3 class="mt-8 text-lg font-medium text-gray-900 tracking-tight">FinOps Certified Solution</h3>
-          <p class="mt-5 text-base text-gray-500">
+          <h3 class="mt-8 text-lg font-medium">FinOps Certified Solution</h3>
+          <p class="mt-5 text-base">
             For providers that deliver solutions that contain a subset of the functionality found in the Certified Platforms which solve a specific part of a cloud cost management challenge.
           </p>
          <a href="/members/finops-certified-solution/" class="btn">View vendors</a>
@@ -54,8 +54,8 @@ There are four areas to which vendors can certify their qualifications and align
           <div class="text-center">
             <img class="inline-block" src="/img/certs/finops-certified-service-provider.png" width="120">
           </div>
-          <h3 class="mt-8 text-lg font-medium text-gray-900 tracking-tight">FinOps Certified Service Provider</h3>
-          <p class="mt-5 text-base text-gray-500">
+          <h3 class="mt-8 text-lg font-medium">FinOps Certified Service Provider</h3>
+          <p class="mt-5 text-base">
             FinOps experienced professional service providers that consult with enterprises about cloud financial management and help their clients with best practices.
           </p>
           <a href="/members/finops-certified-service-provider/" class="btn">View vendors</a>
@@ -68,8 +68,8 @@ There are four areas to which vendors can certify their qualifications and align
           <div class="text-center">
             <img class="inline-block" src="/img/certs/finops-certified-training-partner.png" width="120">
           </div>
-          <h3 class="mt-8 text-lg font-medium text-gray-900 tracking-tight">FinOps Training Partner</h3>
-          <p class="mt-5 text-base text-gray-500">
+          <h3 class="mt-8 text-lg font-medium">FinOps Training Partner</h3>
+          <p class="mt-5 text-base">
              This is a tier of vetted training providers who have deep experience in cloud financial management training.
           </p>
           <a href="/members/finops-certified-training-partner/" class="btn">View vendors</a>

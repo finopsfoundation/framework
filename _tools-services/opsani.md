@@ -3,16 +3,14 @@
 layout: member
 
 # Vendor details
-name: Pileus
-logo-url: "https://pileuscloud.com/wp-content/uploads/2019/10/logo-p-color-removebg-preview-1.png.webp"
-logo-url-width: 100
-linkedin-url: "https://www.linkedin.com/company/pileus-cloud"
-website-url: "https://pileuscloud.com"
+name: Opsani
+logo-url: "/tools-services/logos/opsani.jpg"
+logo-url-width:
+linkedin-url: "https://www.linkedin.com/company/opsani"
+website-url: "https://opsani.com"
 
 # Maximum character count is 350 the rest will be truncated and hidden automatically on your page
-company-description: "Pileus is a unique system that helps companies save up to 40% of their cloud billing.
-We developed a smart system that is always learning your companies needs and limitations.
-Pileus provides intelligent recommendations that fits different situations and helps lower your cloud billing significantly."
+company-description: Opsani leverages AI/ML to autonomously adjust cloud workloads' configuration parameters to maximize performance, reliability, and efficiency.
 
 # Membership level, type and vendor certifications 
 member-level: general
@@ -26,30 +24,20 @@ certified-status:
 #- FinOps Training Partner
 
 # Product(s) or service overview maximum character count is 1000 the rest will be truncated and hidden automatically on your page 
-product-overview: Cloud Cost Management platform
+product-overview: Continuous, autonomous cloud-native workload optimization
 
-product-video-url: "https://player.vimeo.com/video/514201441"
+product-video-url: "https://www.youtube.com/embed/sM0NxxYbziU"
 
 # Related product or service resources, the titles will have associated URLs, e.g. product 
 product-resources:
-- title:
-  url:
-- title:
-  url:
-- title:
-  url:
+- title: Product webpage
+  url: "https://opsani.com/product/"
 
 # Supported capabilities in the framework by the product(s) or services. Match the page-identifier per capability in order for the capability to show up on the vendor page.
 capabilities:
-- capability_allocation
-- capability_shared-cost
-- capability_anomalies
-- capability_commitment-discounts
-- capability_rightsizing
 - capability_workload-automation
-- capability_normalization
-- capability_budget-management
-- capability_asset-management
+- capability_rightsizing
+- capability_commitment-discounts
 - capability_showback
 
 # Edit as appropriate to display supported clouds
@@ -57,9 +45,12 @@ clouds-supported:
 - AWS
 - Azure
 - GCP
+- Oracle
+- Private Cloud
+
 
 # FinOps Foundation Member since 
-date: 2020-01-01
+date: 2021-01-01
 
 # Show recent related FinOps activity, it can be content, webinars, thought leadership and include external links
 recent-finops-activity:

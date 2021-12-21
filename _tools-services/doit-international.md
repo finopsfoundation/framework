@@ -5,6 +5,7 @@ layout: member
 # Vendor details
 name: DoiT International
 logo-url: "/tools-services/logos/doit-logo.svg"
+logo-url-width: 100
 linkedin-url: "https://www.linkedin.com/company/doitintl/"
 website-url: "https://www.doit-intl.com/"
 

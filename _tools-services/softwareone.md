@@ -12,7 +12,8 @@ website-url: "https://www.softwareone.com/en/"
 company-description: SoftwareONE is a leading global platform, solutions and services provider with 30 years of experience in software and technology. Our offering spans from software licensing and procurement to software lifecycle management and every aspect of cloud-first advisory, delivery and managed solutions. We have the expertise to support our clients throughout their technology roadmap in today’s digital world.
 
 # Membership level, type and vendor certifications
-member-level: general
+member-level: premier
+member-order: 10
 
 type: 
 - Platform Provider
