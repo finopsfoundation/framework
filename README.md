@@ -50,7 +50,7 @@ Please do not assign issues or apply metadata. The FinOps Foundation team will d
 
 ### Review process
 
-Changes to each respective section of this site will be reviewed during FinOps Foundation team meetings, or meetings with the [Technical Advisory Council.](https://www.finops.org/about/) During these council meetings, commits and Pull Requests can be reviewed and potentially voted upon to be merged.
+Changes to each respective section of this site will be reviewed during FinOps Foundation team meetings, or meetings with the [Technical Advisory Council.](https://www.finops.org/about/) During these council meetings, commits and Pull Requests can be reviewed and voted upon to be merged.
 
 The FinOps Foundation team uses automation tools to rebuild the site multiple times a week to capture the latest changes or to make small updates to maintain the site.
 

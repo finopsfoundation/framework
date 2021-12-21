@@ -22,15 +22,16 @@ The open source FinOps Framework documents these changes with contributions from
 If you see something that needs to be updated, augmented, or removed, we want to hear about it. This project is by the community and for the community and your voice matters.
 
 There are multiple ways to submit changes:
-* Make a commit using the [GitHub GUI](https://github.com/finopsfoundation/framework) and submit it for review
-* Submit an update or new content via [this Google form](https://forms.gle/it89PbfcFnHHcgPP8) which automatically creates a GitHub issue
+* Submit an update via the website page using the button 'Make Suggestion' this automatically creates a GitHub issue
 * Create an issue directly [via GitHub](https://github.com/finopsfoundation/framework/issues)
+* Make a commit using the [GitHub GUI](https://github.com/finopsfoundation/framework) and submit it for review
 * Reach out to the members and team in the [#framework](https://finopsfoundation.slack.com/archives/C01UANLEPDW) slack channel
+
 
 
 ## Review process
 
-Changes to each respective section of this site will be reviewed during FinOps Foundation team meetings, or meetings with the Technical Advisory Council. During these council meetings, commits and Pull Requests will be reviewed and voted upon to be merged.
+Changes to each respective section of this site will be reviewed during FinOps Foundation team meetings, or meetings with the [Technical Advisory Council.](https://www.finops.org/about/) During these council meetings, commits and Pull Requests can be reviewed and voted upon to be merged.
 
 The FinOps Foundation team uses automation tools to rebuild the site multiple times a week to capture the latest changes or to make small updates to maintain the site.
 
@@ -46,13 +47,11 @@ Issues and small changes like link fixes and typos might occur immediately, as t
 
 - If you have not already [join the FinOps community](/membership/)
 - [State of FinOps](https://data.finops.org): Read or take the survey
-- [FinOps Certified Practitioner](/certification/finops-certified-practitioner/): Get certified as an individual
-- [Monthly FinOps Mini-Summits](/resources/monthly-update): Hear the latest updates from the community
+- [FinOps Certified Practitioner](https://learn.finops.org/): Get certified as an individual
 - [Cloud FinOps Book](https://www.amazon.com/Cloud-FinOps-Collaborative-Real-Time-Management/dp/1492054623): Read the O'Reilly Book
 - Check the [FinOps Framework project board](https://github.com/finopsfoundation/framework/projects/3) on the GitHub repo to find ways to help with open issues
 - View the [Vendor Ecosystem Profiles](/members/) - with more updates on the roadmap 
-- If you are a vendor get [FinOps Certified](/certification/vendor-certification/)
-- FinOps Summit 2022: More information towards the end of 2021
+- If you are a vendor get [FinOps Certified](//members/vendor-certification//)
 
 
 ## Working Groups and Special Interest Groups

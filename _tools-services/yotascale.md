@@ -4,7 +4,7 @@ layout: member
 
 # Vendor details
 name: Yotascale
-logo-url: "/tools-services/logos/yotascale.svg"
+logo-url: "/tools-services/logos/yotascale.png"
 logo-url-width:
 linkedin-url: "https://www.linkedin.com/company/yotascale/mycompany/"
 website-url: "https://yotascale.com/"
@@ -20,9 +20,7 @@ type:
 - Service Provider
 
 certified-status:
-# - FinOps Certified Service Provider
 - FinOps Certified Platform
-# - FinOps Training Partner
 
 # Product(s) or service overview maximum character count is 1000 the rest will be truncated and hidden automatically on your page
 product-overview: |
