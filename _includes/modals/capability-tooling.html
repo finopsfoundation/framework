@@ -19,7 +19,7 @@
     <!--body-->
     <div class="relative flex-auto">
       {% assign platform_array = "" | split: ',' %}
-      {% assign sorted_vendor = site.vendor-members | sort: 'name' %}
+      {% assign sorted_vendor = site.tools-services | sort: 'name' %}
       {% for vendor in sorted_vendor %} 
         {% if vendor.type contains 'Platform Provider' %}
           {% if vendor.capabilities contains page.page-identifier %}
@@ -50,7 +50,7 @@
 
 
       {% assign services_array = "" | split: ',' %}
-      {% assign sorted_vendor = site.vendor-members | sort: 'name' %}
+      {% assign sorted_vendor = site.tools-services | sort: 'name' %}
       {% for vendor in sorted_vendor %} 
         {% if vendor.type contains 'Service Provider' %}
           {% if vendor.capabilities contains page.page-identifier %}
