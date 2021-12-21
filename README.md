@@ -10,7 +10,7 @@ This work is licensed under a
 [cc-by-shield]: https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg
 
 # FinOps.org / FinOps Framework
-This repo contains the code and content that builds the finops.org and FinOps Framework websites.
+This repo contains the code and content that builds the finops.org website which contains the FinOps Framework.
 
 ## About contributions
 Content and sections about the FinOps Foundation are maintained by the team and related members of the Linux Foundation.
@@ -20,7 +20,7 @@ FinOps Framework content, including concepts, principles, best practices, and ot
 ## How to contribute
 
 Contributing to finops.org and the FinOps Framework can include:
-* Participating in FinOps Foundation Special Interest Groups (SIGs) and/or Working Groups (WGs) to create new content or edits for the Framework
+* Participating in FinOps Foundation [Special Interest Groups (SIGs) and/or Working Groups (WGs)](https://www.finops.org/projects/overview/) which create new content or edits for the Framework
 * Creating issues to identify problems or errors with the finops.org or the FinOps Framework
 * Edits to FinOps Framework content, definitions, images, etc.
 * Edits to playbooks, reports
@@ -29,9 +29,9 @@ Contributing to finops.org and the FinOps Framework can include:
 * and other content-related fixes
 
 There are multiple ways to submit changes:
-* Make a commit using the [GitHub GUI](https://github.com/finopsfoundation/framework) and submit it for review
-* Submit an update or new content via [this Google form](https://forms.gle/it89PbfcFnHHcgPP8) which automatically creates a GitHub issue
+* Submit an update via the website page using the button 'Make Suggestion' this automatically creates a GitHub issue
 * Create an issue directly [via GitHub](https://github.com/finopsfoundation/framework/issues)
+* Make a commit using the [GitHub GUI](https://github.com/finopsfoundation/framework) and submit it for review
 * Reach out to the members and team in the [#framework](https://finopsfoundation.slack.com/archives/C01UANLEPDW) slack channel
 
 ### Creating and formatting issues
@@ -50,7 +50,7 @@ Please do not assign issues or apply metadata. The FinOps Foundation team will d
 
 ### Review process
 
-Changes to each respective section of this site will be reviewed during FinOps Foundation team meetings, or meetings with the Technical Advisory Council. During these council meetings, commits and Pull Requests will be reviewed and voted upon to be merged.
+Changes to each respective section of this site will be reviewed during FinOps Foundation team meetings, or meetings with the [Technical Advisory Council.](https://www.finops.org/about/) During these council meetings, commits and Pull Requests can be reviewed and potentially voted upon to be merged.
 
 The FinOps Foundation team uses automation tools to rebuild the site multiple times a week to capture the latest changes or to make small updates to maintain the site.
 
