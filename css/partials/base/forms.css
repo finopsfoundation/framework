@@ -1,0 +1,19 @@
+form label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+form input, form textarea {
+  display: block;
+  width: 100%;
+  max-width: 400px;
+  margin-bottom:  15px;
+  border: solid 1px #a0aec0;
+  border-radius: 3px;
+  padding: 6px;
+}
+
+form textarea {
+  max-width: none;
+}

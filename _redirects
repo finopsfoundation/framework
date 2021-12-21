@@ -9,12 +9,10 @@ https://framework.finops.org/* https://www.finops.org/:splat 301!
 /blog /
 /blog/* /
 /cloud-finops-oreilly-book/ /resources/finops-book/
-/certification/ /certification/finops-certified-practitioner/
-/resources/april-update/ /resources/monthly-update/
 /challenges/* /projects/:splat
 /projects/accurate-forecasts/ /projects/accurate-cloud-forecasts/
 /what-is-finops/ /introduction/what-is-finops/
-/vendor-members/ /members/
+/vendor-members/* /tools-services/:splat
 
 /framework/lifecycle/ /framework/phases/
 /framework/functions/* /framework/capabilities/:splat 301!
@@ -28,7 +26,7 @@ https://framework.finops.org/* https://www.finops.org/:splat 301!
 /training-certification/vendor-certification/ /members/vendor-certification/
 
 /training-certification/finops-certified-professional/  https://learn.finops.org/path/finops-certified-professional
-
+/certification/ https://learn.finops.org/
 /training-certification/ https://learn.finops.org/
 /certification/finops-certified-practitioner/ https://learn.finops.org/
 /training-certification/finops-certified-practitioner/ https://learn.finops.org/
