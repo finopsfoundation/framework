@@ -38,6 +38,7 @@ capabilities:
 - capability_workload-automation
 - capability_rightsizing
 - capability_commitment-discounts
+- capability_showback
 
 # Edit as appropriate to display supported clouds
 clouds-supported:
