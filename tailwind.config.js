@@ -13,7 +13,6 @@ module.exports = {
     './_tools-services/**/*.{html,js,md}',
     './_site/**/*.html',
   ],
-  darkMode: false, // or 'media' or 'class'
   theme: {
     colors: {
       transparent: 'transparent',
