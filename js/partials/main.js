@@ -163,6 +163,9 @@ if(document.getElementById('js-waste')) {
         "nudge": true,
         "reverseOut": false,
         "effects": "fade translateZ(-100px)"
+    },
+    multifilter: {
+        enable: true // enable the multifilter extension for the mixer
     }
   });
 };
