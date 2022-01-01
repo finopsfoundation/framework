@@ -1,0 +1,43 @@
+- items:
+  - name: Automotive
+    identifier: automotive
+  - name: Business Services (accounting, consulting, legal, etc.)
+    identifier: business services
+  - name: Consumer Packaged Goods
+    identifier: consumer-goods
+  - name: Construction/Engineering
+    identifier: construction
+  - name: Education (K-12/Primary/Secondary)
+    identifier: education
+  - name: Education (College/University)
+    identifier: higher-education
+  - name: Energy
+    identifier: energy
+  - name: Financial Services (Banking/Insurance/Securities)
+    identifier: financial-services
+  - name: Government (Federal/National)
+    identifier: government
+  - name: Government (State/Province/County/Municipal/other local government)
+    identifier: local-government
+  - name: Health Care
+    identifier: healthcare
+  - name: Information technology (IT vendor or service provider)
+    identifier: information-technology
+  - name: Life Sciences (biotech, pharmaceuticals, etc.)
+    identifier: life-sciences
+  - name: Manufacturing (discrete or process)
+    identifier: manufacturing
+  - name: Media (broadcast communications, entertainment, publishing, web site, social networking, etc.)
+    identifier: media
+  - name: Oil & Gas
+    identifier: oil-gas
+  - name: Professional Services
+    identifier: professional-services
+  - name: Retail & Wholesale
+    identifier: retail
+  - name: Telecommunications / Internet Service Provider (ISP) / Web Hosting
+    identifier: telecommunications
+  - name: Transportation & Logistics (other than automotive)
+    identifier: transportation
+  - name: Utilities (other than energy)
+    identifier: utilities
