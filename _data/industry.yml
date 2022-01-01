@@ -1,4 +1,5 @@
-- items:
+# _data/industry.yml
+items:
   - name: Automotive
     identifier: automotive
   - name: Business Services (accounting, consulting, legal, etc.)
