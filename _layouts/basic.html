@@ -58,6 +58,18 @@
 
     <script src="/js/partials/main.js?{{ site.time | date: '%s%N' }}"></script>
 
+    <script>
+      if (window.netlifyIdentity) {
+        window.netlifyIdentity.on("init", user => {
+          if (!user) {
+            window.netlifyIdentity.on("login", () => {
+              document.location.href = "/admin/";
+            });
+          }
+        });
+      }
+    </script>
+
 
 
     {% if jekyll.environment == 'production' %}
