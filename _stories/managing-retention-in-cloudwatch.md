@@ -9,7 +9,8 @@ story-date: 2021-10-08
 author: Bhupendra Hirani
 company: 
 industry: e-Commerce
-cloud-provider: AWS
+cloud-provider: 
+- AWS
 framework-persona:
 framework-maturity: walk
 framework-capabilities:

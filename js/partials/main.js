@@ -170,6 +170,22 @@ if(document.getElementById('js-waste')) {
   });
 };
 
+// Cards filter on member stories 
+if(document.getElementById('js-stories')) {
+  var mixer = mixitup('.js-stories', {
+    "animation": {
+        "duration": 250,
+        "nudge": true,
+        "reverseOut": false,
+        "effects": "fade translateZ(-100px)"
+    },
+    multifilter: {
+        enable: true // enable the multifilter extension for the mixer
+    }
+  });
+};
+
+
 // URL var check
 document.addEventListener('DOMContentLoaded', function() {
   const queryString = window.location.search;

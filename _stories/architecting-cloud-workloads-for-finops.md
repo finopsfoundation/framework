@@ -11,9 +11,9 @@ author:
 company: SADA
 industry: Information Technology & Services
 cloud-provider:
-- GCP
 - AWS
 - Azure
+- GCP
 framework-persona: FinOps Practitioner
 framework-maturity: Run
 framework-capabilities:

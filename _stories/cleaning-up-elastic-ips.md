@@ -9,7 +9,8 @@ story-date: 2021-10-08
 author: Stephanie Gooch
 company: AWS
 industry: 
-cloud-provider: AWS
+cloud-provider: 
+- AWS
 framework-persona:
 framework-maturity: 
 framework-capabilities:

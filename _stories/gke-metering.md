@@ -9,7 +9,8 @@ story-date: 2021-10-08
 author: Scott Lapish
 company: 
 industry: 
-cloud-provider: GCP
+cloud-provider: 
+- GCP
 framework-persona:
 framework-maturity:
 framework-capabilities:

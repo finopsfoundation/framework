@@ -9,7 +9,8 @@ story-date: 2021-10-08
 author: Eric Mulartrick
 company: Dell Boomi
 industry: Computer Software
-cloud-provider: AWS
+cloud-provider: 
+- AWS
 framework-persona: FinOps Practitioner
 framework-maturity: Run
 framework-capabilities:

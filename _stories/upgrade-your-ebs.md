@@ -9,7 +9,8 @@ story-date: 2021-10-08
 author: Mike Martin
 company: 
 industry: information technology & services
-cloud-provider: AWS
+cloud-provider: 
+- AWS
 framework-persona:
 framework-maturity: walk
 framework-capabilities:
