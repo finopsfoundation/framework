@@ -8,10 +8,8 @@ story-title: Cloud Forecasting Insights from Freewheel
 story-date: 2021-06-01
 author: Bharat Chadha
 company: Freewheel, a Comcast Company
-company-size:
 industry: Media
 cloud-provider:
-tooling-services:
 framework-persona: Engineering & Operations
 framework-maturity: Walk
 framework-capabilities:
@@ -19,11 +17,6 @@ framework-capabilities:
 framework-projects:
 - project_forecast
 order:
-
-tags:
-- cost-allocation
-- budgets
-- forecasting
 
 ---
 

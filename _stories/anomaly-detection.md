@@ -8,20 +8,13 @@ story-title: Anomaly Detection at Scale
 story-date: 2021-06-01
 author:
 company:
-company-size:
 industry: Life Sciences
 cloud-provider:
 - AWS
-tooling-services:
 framework-persona:
 framework-maturity: Run
 framework-capabilities:
 framework-projects:
-
-tags:
-- tagging-labeling
-- anomaly-detection
-
 order: 1
 
 ---

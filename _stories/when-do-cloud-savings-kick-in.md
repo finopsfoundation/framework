@@ -8,24 +8,16 @@ story-title: When Do Cloud Savings Start to Kick in?
 story-date: 2021-06-01
 author: Peter Shi
 company: Goldiserv
-company-size:
 industry: Internet
 cloud-provider:
 - AWS
 - Azure
-tooling-services:
 framework-persona: FinOps Practitioner
 framework-maturity: Run
 framework-capabilities:
 - capability_rightsizing
 framework-projects:
 order: 
-
-tags:
-- commitment-discounts
-- usage-optimization
-- rate-optimization
-- organizational-alignment
 
 ---
 

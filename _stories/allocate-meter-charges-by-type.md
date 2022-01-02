@@ -8,10 +8,8 @@ story-title: How to Allocate Meter Charges by Type
 story-date: 2021-06-01
 author: Tom Foegen
 company: Mayo Clinic
-company-size:
 industry:
 cloud-provider:
-tooling-services:
 framework-persona:
 framework-maturity:
 framework-capabilities:

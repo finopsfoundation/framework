@@ -8,10 +8,8 @@ story-title: Fair cost allocation in a shared Platform (as a Service)
 story-date: 2021-06-01
 author: David Sterz
 company: Mindcurv
-company-size:
 industry: information Technology & Services
 cloud-provider:
-tooling-services:
 framework-persona: Engineering & Operations
 framework-maturity: Run
 framework-capabilities:
@@ -19,10 +17,6 @@ framework-capabilities:
 framework-projects:
 - project_shared-costs
 order: 1
-tags:
-- cost-sharing
-- cost-allocation
-- cost-visibility
 
 ---
 

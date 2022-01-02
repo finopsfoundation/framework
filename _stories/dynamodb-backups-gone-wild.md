@@ -8,10 +8,8 @@ story-title: DynamoDB Backups Gone Wild
 story-date: 2021-10-08
 author: AJ Bothe
 company: Proctor & Gamble
-company-size:
 industry: Consumer Goods
 cloud-provider: AWS
-tooling-services:
 framework-persona: Engineering & Operations
 framework-maturity: Run
 framework-capabilities:
@@ -19,11 +17,6 @@ framework-capabilities:
 framework-projects:
 - project_reducing-waste
 order:
-tags:
-- rightsizing
-- utilization
-- database
-- dynamodb
 
 ---
 

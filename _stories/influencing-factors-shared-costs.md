@@ -8,10 +8,8 @@ story-title: Influencing Factors on How to Track, Process and Share Costs
 story-date: 2021-06-01
 author: Neil May
 company: Wish Star
-company-size:
 industry: information Technology & Services
 cloud-provider:
-tooling-services:
 framework-persona: Executive
 framework-maturity: Run
 framework-capabilities:
@@ -19,10 +17,6 @@ framework-capabilities:
 framework-projects:
 - project_shared-costs
 order: 1
-tags:
-- cost-sharing
-- cost-allocation
-- cost-visibility
 
 ---
 

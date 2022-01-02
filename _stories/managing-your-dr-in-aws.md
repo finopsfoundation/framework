@@ -8,17 +8,14 @@ story-title: Disaster Recovery in AWS
 story-date: 2021-10-08
 author: Eric Mulatrick
 company: 
-company-size:
 industry: 
 cloud-provider: AWS
-tooling-services:
 framework-persona:
 framework-maturity:
 framework-capabilities:
 framework-projects:
 - project_reducing-waste
 order:
-
 
 ---
 

@@ -8,10 +8,8 @@ story-title: Managing Retention in CloudWatch
 story-date: 2021-10-08
 author: Bhupendra Hirani
 company: 
-company-size: large
 industry: e-Commerce
 cloud-provider: AWS
-tooling-services:
 framework-persona:
 framework-maturity: walk
 framework-capabilities:

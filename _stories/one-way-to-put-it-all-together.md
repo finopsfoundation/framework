@@ -8,10 +8,8 @@ story-title: One Way to Put it All Together
 story-date: 2021-06-01
 author: Chris Greenham
 company: healthAlliance
-company-size:
 industry: Health Care
 cloud-provider:
-tooling-services:
 framework-persona: Business/Product Owner
 framework-maturity: Run
 framework-capabilities:
@@ -19,10 +17,6 @@ framework-capabilities:
 framework-projects:
 - project_shared-costs
 order: 1
-tags:
-- cost-sharing
-- cost-allocation
-- cost-visibility
 
 ---
 

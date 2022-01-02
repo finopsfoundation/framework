@@ -8,19 +8,14 @@ story-title: Fear of commitment and the pain of waiting
 story-date: 2021-06-01
 author:
 company:
-company-size:
 industry:
 cloud-provider:
-tooling-services:
 framework-persona:
 framework-maturity:
 framework-domains:
 framework-capabilities:
 framework-projects:
 order: 1
-
-tags:
-- commitment-discounts
 
 ---
 

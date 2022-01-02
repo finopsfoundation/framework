@@ -8,10 +8,8 @@ story-title: Provisioning Storage in GCP
 story-date: 2021-10-08
 author: Scott Lapish
 company: 
-company-size:
 industry: 
 cloud-provider: GCP
-tooling-services:
 framework-persona:
 framework-maturity:
 framework-capabilities:

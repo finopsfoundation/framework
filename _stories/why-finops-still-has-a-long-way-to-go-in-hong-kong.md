@@ -8,21 +8,16 @@ story-title: Why FinOps Still Has a Long Way to Go in Hong Kong
 story-date: 2021-06-01
 author: Steve Schechter
 company: Velocity Technology
-company-size:
 industry:
 cloud-provider:
 - AWS
 - Azure
 - GCP
-tooling-services:
 framework-persona:
 framework-maturity:
 framework-capabilities:
 framework-projects:
 order: 1
-
-tags:
-- organizational-alignment
 
 ---
 

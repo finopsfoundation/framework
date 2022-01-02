@@ -10,23 +10,14 @@ author:
 - Scott Meyer
 - Brendan Greenley
 company: Spotify
-company-size:
 industry:
 cloud-provider:
 - GCP
-tooling-services:
 framework-persona:
 framework-maturity:
 framework-capabilities:
 framework-projects:
 order: 1
-
-tags:
-- cloud-migration
-- google-cloud-platform
-- organizational-alignment
-- cost-visibility
-- rate-optimization
 
 ---
 
