@@ -1,6 +1,6 @@
 ---
 
-layout: default
+layout: wide
 permalink: /projects/overview/
 
 github-link: false

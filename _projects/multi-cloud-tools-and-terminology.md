@@ -1,6 +1,6 @@
 ---
 
-layout: default
+layout: wide
 permalink: /projects/multi-cloud-tools-and-terminology/
 
 title: Multi-Cloud Tools and Terminology
