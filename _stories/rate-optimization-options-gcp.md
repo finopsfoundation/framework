@@ -8,19 +8,15 @@ story-title: Rate Optimization Options from Google Cloud Platform
 story-date: 2021-06-01
 author: Pathik Sharma
 company: Google Cloud Platform
-company-size:
 industry: Internet and Cloud Computing
 cloud-provider:
 - GCP
-tooling-services:
 framework-persona: Business/Product Owner
 framework-maturity: Run
 framework-capabilities:
 - capability_commitment-discounts
 framework-projects:
 order:
-tags:
-- rate-optimization
 
 ---
 

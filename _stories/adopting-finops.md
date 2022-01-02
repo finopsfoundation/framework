@@ -8,20 +8,17 @@ story-title: A Guide for Adopting FinOps in Your Organization
 story-date: 2021-10-01
 author: F2 Working Group
 company: FinOps Foundation
-company-size:
 industry: Internet
 cloud-provider:
 - AWS
 - Azure
 - GCP
-tooling-services:
 framework-persona: FinOps Practitioner
 framework-maturity: Run
 framework-capabilities:
 - capability_establish-finops-culture
 framework-projects:
 order:
-tags:
 
 ---
 

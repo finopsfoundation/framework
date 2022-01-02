@@ -10,18 +10,15 @@ author:
 - Rich Hoyer (SADA)
 - Eric Lam (Google Cloud)
 company:
-company-size:
 industry: Information Technology & Services
 cloud-provider:
 - GCP
-tooling-services:
 framework-persona: FinOps Practitioner
 framework-maturity: Run
 framework-capabilities:
 - capability_unit-costs
 framework-projects:
 order:
-tags:
 
 ---
 

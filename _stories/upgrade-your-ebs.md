@@ -8,10 +8,8 @@ story-title: Upgrade your EBS Volumes
 story-date: 2021-10-08
 author: Mike Martin
 company: 
-company-size: medium
 industry: information technology & services
 cloud-provider: AWS
-tooling-services:
 framework-persona:
 framework-maturity: walk
 framework-capabilities:

@@ -1,6 +1,6 @@
 ---
 
-layout: wide
+layout: story
 
 title: Architecting Cloud Workloads for Financial Reporting
 description: A list of best practices for cloud architects to design systems to optimize FinOps.
@@ -9,13 +9,11 @@ story-date: 2021-10-13
 author:
 - Rich Hoyer
 company: SADA
-company-size:
 industry: Information Technology & Services
 cloud-provider:
 - GCP
 - AWS
 - Azure
-tooling-services:
 framework-persona: FinOps Practitioner
 framework-maturity: Run
 framework-capabilities:
@@ -23,7 +21,6 @@ framework-capabilities:
 - capability_rightsizing
 framework-projects:
 order:
-tags:
 
 ---
 

@@ -8,10 +8,8 @@ story-title: Managing EBS Snapshots
 story-date: 2021-10-08
 author: Eric Mulartrick
 company: Dell Boomi
-company-size:
 industry: Computer Software
 cloud-provider: AWS
-tooling-services:
 framework-persona: FinOps Practitioner
 framework-maturity: Run
 framework-capabilities:
@@ -19,14 +17,6 @@ framework-capabilities:
 framework-projects:
 - project_reducing-waste
 order:
-tags:
-- rightsizing
-- utilization
-- storage
-- ebs
-- snapshots
-- backups
-
 ---
 
 AWS EBS (and other services) snapshots are backups of a system at a current state.  Without using a policy, snapshots will continue to grow and grow in quantity.  Before you know it, you could be sitting on thousands of unused snapshots (waste?) that have no business value.  Do you need a snapshot from 3 years ago?  Is that without your RPO?  If not, then it’s likely a waste.  

@@ -8,10 +8,8 @@ story-title: Leveraging Shared Services in AWS
 story-date: 2021-10-08
 author: Girish Kurup
 company: 
-company-size:
 industry: 
 cloud-provider: AWS
-tooling-services:
 framework-persona:
 framework-maturity:
 framework-capabilities:

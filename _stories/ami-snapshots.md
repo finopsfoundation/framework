@@ -8,10 +8,8 @@ story-title: Removing AMI Snapshots
 story-date: 2021-10-08
 author: Stephanie Gooch
 company: AWS
-company-size: 
 industry: 
 cloud-provider: AWS
-tooling-services:
 framework-persona:
 framework-maturity: 
 framework-capabilities:

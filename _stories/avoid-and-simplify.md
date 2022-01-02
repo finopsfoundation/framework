@@ -8,11 +8,9 @@ story-title: Avoid and Simplify Shared Costs
 story-date: 2021-06-01
 author: Joseph Daly
 company: Nationwide
-company-size:
 industry: Financial Services
 cloud-provider:
 - AWS
-tooling-services:
 framework-persona: FinOps Practitioner
 framework-maturity: Run
 framework-capabilities:
@@ -20,10 +18,6 @@ framework-capabilities:
 framework-projects:
 - project_shared-costs
 order: 1
-tags:
-- shared-cost
-- cost-allocation
-- cost-visibility
 
 ---
 

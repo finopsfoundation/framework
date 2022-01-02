@@ -9,18 +9,15 @@ story-date: 2021-11-29
 author:
 - Eric Lam
 company: Google Cloud Platform
-company-size:
 industry: Information Technology & Services
 cloud-provider:
 - GCP
-tooling-services:
 framework-persona: FinOps Practitioner
 framework-maturity: Walk
 framework-capabilities:
 - capability_commitment-discounts
 framework-projects:
 order:
-tags:
 
 ---
 

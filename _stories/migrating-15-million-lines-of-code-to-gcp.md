@@ -7,24 +7,15 @@ description:
 story-date: 2021-06-01
 author: Scott Snell
 company: OpenX
-company-size:
 industry: Internet
 cloud-provider:
 - GCP
-tooling-services:
 framework-persona: FinOps Practitioner
 framework-maturity: Run
 framework-capabilities:
 - capability_rightsizing
 framework-projects:
 order: 1
-tags:
-- cloud-migration
-- organizational-alignment
-- cost-visibility
-- rate-optimization
-- rightsizing
-- utilization
 
 ---
 
