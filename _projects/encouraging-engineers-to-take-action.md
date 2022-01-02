@@ -1,6 +1,6 @@
 ---
 
-layout: default
+layout: wide
 permalink: /projects/encouraging-engineers-to-take-action/
 
 title: Encouraging Engineers to Take Action

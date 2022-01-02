@@ -28,6 +28,8 @@ collections:
     output: true
   capabilities:
     output: true
+  projects:
+    output: true
 
 defaults:
   - scope:
@@ -46,7 +48,7 @@ defaults:
     values:
       identifier: "framework"
   - scope:
-      path: "_pages/projects"
+      path: "_projects"
       type: "pages"
     values:
       identifier: "projects"

@@ -1,6 +1,6 @@
 ---
 
-layout: default
+layout: wide
 permalink: /projects/calculating-container-costs/
 
 title: Calculating Container Costs

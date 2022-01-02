@@ -17,25 +17,24 @@ collections:
       - {label: "Meta Description", name: "description", widget: "string"}
       - {label: "Permalink", name: "permalink", widget: "string"}
       - {label: "Ientifier", name: "page-identifier", widget: "string"}
-      - {label: "capability Title", name: "framework-capability-title", widget: "string"}
-      - {label: "capability Description", name: "framework-capability-desc", widget: "string"}
+      - {label: "Capability Title", name: "framework-capability-title", widget: "string"}
+      - {label: "Capability Description", name: "framework-capability-desc", widget: "string"}
       - {label: "Order", name: "order", widget: "number", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
-  - name: 'Data'
-    label: 'Data'
-    editor:
-      preview: false
-    files: 
-      - label: 'Industry'
-        name: 'industry' 
-        file: '_data/industry.yml'
-        fields: 
-          - label: "Location Items"
-            name: "items"
-            widget: "list"
-            fields: 
-              - {label: "Name", name: "name", widget: "string"}
-              - {label: "Identifier", name: "identifier", widget: "string"}
+  - name: 'projects'
+    label: 'Projects'
+    folder: '_projects/'
+    create: false
+    hide: false
+    fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "wide"}
+      - {label: "Meta Title", name: "title", widget: "string"}
+      - {label: "Meta Description", name: "description", widget: "string"}
+      - {label: "Permalink", name: "permalink", widget: "string"}
+      - {label: "Identifier", name: "page-identifier", widget: "string"}
+      - {label: "Project Title", name: "project-title", widget: "string"}
+      - {label: "Project Description", name: "project-description", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
   - name: "stories" 
     label: "Stories" 
     folder: "_stories" 
@@ -73,14 +72,31 @@ collections:
           display_fields: ["framework-capability-title"]
         }
       - {
+          label: "Projects",
+          name: "framework-projects",
+          widget: "relation",
+          collection: "projects",
+          search_fields: ["project-title"],
+          value_field: "page-identifier",
+          multiple: true,
+          display_fields: ["project-title"],
+          required: false
+        }
+      - {
           label: "Industry",
           name: "industry",
-          widget: "relation",
-          collection: "industry",
-          search_fields: ["industry.name"],
-          value_field: "industry.identifier",
+          widget: "select",
           multiple: true,
-          display_fields: ["industry.name"]
+          options: ["Automotive", "Business Services", "Consumer Packaged Goods", "Construction/Engineering", "Education", "Higher Education", "Energy", "Financial Services", "Government", "Local Government", "Health Care", "Information Technology", "Life Sciences", "Manufacturing", "Media", "Oil & Gas", "Professional Services", "Retail & Wholesale", "Telecommunications / Internet Service Provider", "Transportation & Logistics", "Utilities"],
+          required: false
+        }
+      - {
+          label: "Persona",
+          name: "framework-persona",
+          widget: "select",
+          multiple: true,
+          options: ["FinOps Practitioner", "Executive", "Engineering and Operations", "Finance", "Procurement", "Product Owner", "Business Owner"],
+          required: false
         }
       - {label: "Order", name: "order", widget: "number", required: false}
       - {label: "Body", name: "body", widget: "markdown"}

@@ -1,6 +1,6 @@
 ---
 
-layout: default
+layout: wide
 permalink: /projects/accurate-cloud-forecasts/
 
 title: Accurate Cloud Forecasts

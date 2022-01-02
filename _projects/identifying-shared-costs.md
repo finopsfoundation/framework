@@ -1,6 +1,6 @@
 ---
 
-layout: default
+layout: wide
 permalink: /projects/identifying-shared-costs/
 
 title: A Guide to Spreading Out Shared Cloud Costs
