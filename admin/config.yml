@@ -25,7 +25,7 @@ collections:
     label: 'Projects'
     folder: '_projects/'
     create: false
-    hide: false
+    hide: true
     fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "wide"}
       - {label: "Meta Title", name: "title", widget: "string"}
