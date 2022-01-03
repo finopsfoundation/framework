@@ -13,7 +13,7 @@ project-description: A collection of resources to help identify types of cloud c
 
 <h1>Reducing Waste</h1>
 
-<p>This Project focuses on providing a collection of resources to help identify types of cloud cost waste by service provider, including links to additional tools. You can sort each card by cloud service provider or savings potential. If you also want to contribute to this page please <a href="javascript:void(0);" onclick="modalToggle('modal-contribute')">make a suggestion</a></p>
+<p>This Project focuses on providing a collection of resources to help identify types of cloud cost waste by service provider, including links to additional tools. You can sort each card by cloud service provider or savings potential. If you also want to contribute to this page please <a href="javascript:void(0);" onclick="modalToggle('modal-contribute')">make a suggestion.</a></p>
 
 <b>Filter by cloud provider:</b>
 <fieldset data-filter-group class="mb-4">
@@ -38,7 +38,7 @@ project-description: A collection of resources to help identify types of cloud c
       <div class="my-2">
         {% if item.cloud-provider %} 
           {% for cloud in item.cloud-provider %}
-            <div class="text-sm font-semibold text-gray-700 tracking-wider uppercase inline-block px-2 py-px">{{ cloud }}</div>
+            <div class="text-sm font-semibold text-gray-700 tracking-wider uppercase inline-block pr-4 py-px">{{ cloud }}</div>
           {% endfor %}
         {% endif %}
         <div class="text-sm font-semibold text-gray-700 tracking-wider uppercase inline-block px-2 py-px">{{ item.savings-potential }}</div>

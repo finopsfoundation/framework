@@ -9,7 +9,8 @@ story-date: 2021-10-08
 author: Joe Daly
 company: Nationwide
 industry: Financial Services
-cloud-provider: AWS
+cloud-provider: 
+- AWS
 framework-persona: FinOps Practitioner
 framework-maturity: Run
 framework-capabilities:

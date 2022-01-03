@@ -9,7 +9,8 @@ story-date: 2021-10-08
 author: AJ Bothe
 company: Proctor & Gamble
 industry: Consumer Goods
-cloud-provider: AWS
+cloud-provider: 
+- AWS
 framework-persona: Engineering & Operations
 framework-maturity: Run
 framework-capabilities:

@@ -9,7 +9,8 @@ story-date: 2021-10-08
 author: Scott Lapish
 company: Telus
 industry: Telecommunications
-cloud-provider: GCP
+cloud-provider: 
+- GCP
 framework-persona: FinOps Practitioner
 framework-maturity: Run
 framework-capabilities:

@@ -9,7 +9,8 @@ story-date: 2021-10-08
 author: Eric Mulatrick
 company: 
 industry: 
-cloud-provider: AWS
+cloud-provider: 
+- AWS
 framework-persona:
 framework-maturity:
 framework-capabilities:

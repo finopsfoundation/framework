@@ -9,7 +9,8 @@ story-date: 2021-10-08
 author: Rich Hoyer
 company: SADA
 industry: Information Technology & Services
-cloud-provider: GCP
+cloud-provider: 
+- GCP
 framework-persona: FinOps Practitioner
 framework-maturity: Run
 framework-capabilities:
