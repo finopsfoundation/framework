@@ -1,0 +1,16 @@
+---
+search-title: nosearch
+permalink: json/capabilities.json
+sitemap: false
+---
+{% assign list_pages = "" %}
+{% for item in site.capabilities %}
+  {% if item.search-title contains 'nosearch' %}
+  {% else %}
+    {% capture list_item %}{"objectID": "{{ forloop.index }}","meta_title": "{{ item.framework-capability-title }}","meta_desc": "{{ item.framework-capability-desc }}","content": "{{ item.content | strip_html | strip_newlines | escape }}","url": "{{ item.url }}, "order": "{{ item.order }}"}{% endcapture %}
+    {% capture list_pages %}{% unless list_pages == "" %}{{ list_pages }},{% endunless %}{{ list_item }}{% endcapture %}
+  {% endif %}
+{% endfor %}
+{% unless list_pages == blank %}
+[{{ list_pages }}]
+{% endunless %}
