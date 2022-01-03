@@ -5,7 +5,7 @@ sitemap: false
 ---
 {% assign list_pages = "" %}
 {% for item in site.capabilities %}
-  {% if item.search-title contains 'nosearch' %}
+  {% if item.search contains 'false' %}
   {% else %}
     {% capture list_item %}{"objectID": "{{ forloop.index }}","meta_title": "{{ item.framework-capability-title }}","meta_desc": "{{ item.framework-capability-desc }}","content": "{{ item.content | strip_html | strip_newlines | escape }}","url": "{{ item.url }}, "order": "{{ item.order }}"}{% endcapture %}
     {% capture list_pages %}{% unless list_pages == "" %}{{ list_pages }},{% endunless %}{{ list_item }}{% endcapture %}
