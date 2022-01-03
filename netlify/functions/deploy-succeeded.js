@@ -12,14 +12,14 @@ exports.handler = (event, context, callback) => {
   // Here we'll use Algolia to get upload
   var client = algoliasearch('64LMXTN0XN', ALGOLIA_KEY);
 	var index = client.initIndex('prod_site-content');
-	var contentJSON = require('../../_site/json/site-content.json');
+	// var contentJSON = require('../../_site/json/site-content.json');
 
-	// var contentJSON = [
-	//   {
-	//   	"objectID": "1",
-	//     "name": "Foo"
-	//   }
-	// ];
+	var contentJSON = [
+	  {
+	  	"objectID": "1",
+	    "name": "Foo"
+	  }
+	];
 
 	index.clearObjects().then(() => {
   // clear done
