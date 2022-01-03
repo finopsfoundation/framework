@@ -23,15 +23,15 @@ description: Tier of technology providers that license and deliver a software pr
 <div class="flex flex-wrap items-stretch mt-6 mb-10">
 {% assign sorted_vendor = site.tools-services | sort: 'name' %}
 {% for vendor in sorted_vendor %}
-	{% if vendor.certified-status contains 'FinOps Certified Platform' %}
-	<div class="md:w-2/6 p-3 flex items-stretch">
-		<div class="w-full bg-gray-100 rounded-lg border-solid border-gray-100 border hover:border-green-500 transition-colors duration-200 shadow-sm cursor-pointer flex text-centre items-center justify-center">
-			<a href="{{ vendor.url }}" class="block p-6">
-				<img src="{{ vendor.logo-url }}" alt="{{ vendor.name }}" width="{% if vendor.logo-url-width != undefined %}{{ vendor.logo-url-width }}{% else %}150{% endif %}" />
-			</a>
-	  </div>
-	</div>
-		
-	{% endif %}
+  {% if vendor.certified-status contains 'FinOps Certified Platform' %}
+  <div class="md:w-2/6 p-3 flex items-stretch">
+    <div class="w-full bg-gray-100 rounded-lg border-solid border-gray-100 border hover:border-green-500 transition-colors duration-200 shadow-sm cursor-pointer flex text-centre items-center justify-center">
+      <a href="{{ vendor.url }}" class="block p-6">
+        <img src="{{ vendor.logo-url }}" alt="{{ vendor.name }}" width="{% if vendor.logo-url-width != undefined %}{{ vendor.logo-url-width }}{% else %}150{% endif %}" />
+      </a>
+    </div>
+  </div>
+
+  {% endif %}
 {% endfor %}
 </div>

@@ -24,7 +24,7 @@ The Domains are interdependent, and together provide a high level overview of wh
 
 <div class="flex flex-col md:flex-row flex-wrap items-stretch bg-gray-200 p-4 rounded-md">
   {% assign sorted_domains = site.domains | sort:"order" %}
-	{% for domain in sorted_domains %}
+  {% for domain in sorted_domains %}
   <div class="md:w-1/2 flex items-stretch">
     <div class="m-2 p-6 bg-white flex space-x-6 border-solid border-gray-200 border rounded-lg shadow-sm">
       <div>
