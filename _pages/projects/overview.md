@@ -2,8 +2,9 @@
 
 layout: wide
 permalink: /projects/overview/
-
+search: true
 github-link: false
+
 tags: projects
 description: A guide that walks through all Working Groups and Special Interest Groups
 

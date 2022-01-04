@@ -2,6 +2,7 @@
 
 layout: wide
 permalink: /resources/stories/
+search: true
 
 ---
 

@@ -2,6 +2,7 @@
 
 layout: wide
 permalink: /framework/personas/
+search: true
 
 ---
 

@@ -2,6 +2,7 @@
 
 layout: default
 permalink: /framework/phases/
+search: true
 
 ---
 

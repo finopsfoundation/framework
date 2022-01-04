@@ -2,6 +2,7 @@
 
 layout: default
 permalink: /introduction/how-to-start/
+search: true
 
 ---
 

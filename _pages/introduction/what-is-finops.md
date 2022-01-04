@@ -2,6 +2,7 @@
 
 layout: default
 permalink: /introduction//what-is-finops/
+search: true
 
 title: What is FinOps? - FinOps Foundation
 description: Find out what FinOps is and more about the operating model for the cloud. Understand the three phases of FinOps - Inform, Optimize and Operate.

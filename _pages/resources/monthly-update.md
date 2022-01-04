@@ -2,6 +2,7 @@
 
 layout: default
 permalink: /resources/monthly-update/
+search: true
 
 title: FinOps Monthly Updates
 description: See the latest updates from the previous and upcoming monthly FinOps Summits.

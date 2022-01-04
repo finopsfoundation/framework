@@ -2,8 +2,9 @@
 
 layout: default
 permalink: /resources/terminology/
-
+search: true
 github-link: false
+
 title: FinOps Terminology
 description: A glossary of FinOps concepts and terminology.
 
