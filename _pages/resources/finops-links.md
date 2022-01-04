@@ -2,6 +2,7 @@
 
 layout: default
 permalink: /resources/finops-links/
+search: true
 
 title: FinOps Resource Links
 

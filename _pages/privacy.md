@@ -2,6 +2,7 @@
 
 layout: page
 permalink: /privacy/
+search: true
 
 title: Privacy Policy
 description: Learn more about our Privacy Policy at the FinOps Foundation.
