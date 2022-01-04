@@ -18,6 +18,7 @@ framework-capabilities:
 - capability_decision-accountability-structure
 - capability_policy-governance
 - capability_asset-management
+image: /img/domains/domain-icons_organization.png
 order: 6
 
 ---

@@ -15,6 +15,7 @@ framework-capabilities:
 - capability_forecasting
 - capability_budget-management
 - capability_anomalies
+image: /img/domains/domain-icons_performance.png
 order: 2
 
 ---

@@ -13,6 +13,7 @@ framework-capabilities:
 - capability_onboarding-workloads
 - capability_rightsizing
 - capability_workload-automation
+image: /img/domains/domain-icons_usage-optimization.png
 order: 5
 
 ---

@@ -16,6 +16,7 @@ framework-capabilities:
 - capability_rightsizing
 - capability_unit-costs
 - capability_decision-accountability-structure
+image: /img/domains/domain-icons_decisions.png
 order: 3
 
 ---
