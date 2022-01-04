@@ -3,9 +3,8 @@
 layout: wide
 permalink: /projects/overview/
 
-github-link: false
-tags: projects
-description: A guide that walks through all Working Groups and Special Interest Groups
+title: Working Groups and Special Interest Groups
+description: View all the current and proposed Working Groups and active Special Interest Groups at the FinOps Foundation.
 
 ---
 

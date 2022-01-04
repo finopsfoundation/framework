@@ -3,9 +3,12 @@
 layout: wide
 permalink: /resources/stories/
 
+titles: Real World FinOps Stories
+description: View the shared stories from individuals and teams that have applied FinOps in a certain situation, allowing others to learn who are facing similar challenges. 
+
 ---
 
-# Member Stories
+# Real World Member Stories
 
 Stories are shared experiences from individuals or teams that have applied FinOps in a certain situation. They allow others who are facing similar challenges and circumstances to learn and gain insights into previous approaches. If you also want to contribute to this page please <a href="javascript:void(0);" onclick="modalToggle('modal-contribute')">make a suggestion.</a>
 
