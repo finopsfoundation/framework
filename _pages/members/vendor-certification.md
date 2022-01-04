@@ -2,6 +2,7 @@
 
 layout: wide
 permalink: /members/vendor-certification/
+search: true
 
 title: Vendor FinOps Certification
 description: Vendor member certifications include FinOps Certified Platforms, Solutions, Training Partners, and Service Providers.

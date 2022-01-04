@@ -2,6 +2,7 @@
 
 layout: wide
 permalink: /resources/stories/
+search: true
 
 titles: Real World FinOps Stories
 description: View the shared stories from individuals and teams that have applied FinOps in a certain situation, allowing others to learn who are facing similar challenges. 

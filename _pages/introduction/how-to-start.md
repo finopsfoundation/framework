@@ -2,6 +2,7 @@
 
 layout: default
 permalink: /introduction/how-to-start/
+search: true
 
 title: How to Start with FinOps
 description: Undertsand trhe basics of when to start using FinOps in your organization and how to build a business case.

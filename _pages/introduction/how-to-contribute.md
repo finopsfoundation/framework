@@ -2,6 +2,7 @@
 
 layout: wide
 permalink: /introduction/how-to-contribute/
+search: true
 
 title: How to contribute to the FinOps Community
 description: There are multiple ways to contribute to the FinOps community, from becoming a member to join the conversation to proposing changes to the best practices and standards in the framework.

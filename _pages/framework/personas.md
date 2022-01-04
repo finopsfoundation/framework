@@ -2,6 +2,7 @@
 
 layout: wide
 permalink: /framework/personas/
+search: true
 
 title: FinOps Personas
 description: The FinOps discipline covers many different personas, understand more about them, their roles and requirements. 

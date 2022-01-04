@@ -2,6 +2,7 @@
 
 layout: wide
 permalink: /framework/capabilities/
+search: true
 
 title: FinOps Capabilities
 description: FinOps Capabilities represents functional areas of activity in support of their corresponding FinOps Domains.
