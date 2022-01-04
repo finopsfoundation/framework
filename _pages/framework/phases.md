@@ -4,6 +4,9 @@ layout: default
 permalink: /framework/phases/
 search: true
 
+title: FinOps Phases
+description: The FinOps journey consists of three iterative phases — Inform, Optimize and Operate. Understand more about each phase and how to get started. 
+
 ---
 
 # FinOps Phases

@@ -4,6 +4,9 @@ layout: wide
 permalink: /framework/maturity-model/
 search: true
 
+title: FinOps Maturity Model
+description: A FinOps approach of “Crawl, Walk, Run” enables organizations to start small, and grow in scale, scope and complexity as the business value warrants maturing a functional activity - learn more about FinOps maturity.
+
 ---
 
 # FinOps Maturity Model
