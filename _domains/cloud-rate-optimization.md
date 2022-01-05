@@ -11,6 +11,7 @@ framework-domain-desc: Within this domain, the organization works to define its 
 framework-capabilities:
 - capability_showback
 - capability_commitment-discounts
+image: /img/domains/domain-icons_rate-optimization.png
 order: 4
 
 ---

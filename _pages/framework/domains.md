@@ -26,11 +26,14 @@ The Domains are interdependent, and together provide a high level overview of wh
 <div class="flex flex-col md:flex-row flex-wrap items-stretch bg-gray-200 p-4 rounded-md">
   {% assign sorted_domains = site.domains | sort:"order" %}
   {% for domain in sorted_domains %}
-  <div class="md:w-1/2 flex items-stretch">
-    <div class="m-2 p-6 bg-white flex space-x-6 border-solid border-gray-200 border rounded-lg shadow-sm">
-      <div>
+  <div class="md:w-1/2">
+    <div class="m-2 p-6 bg-white border-solid border-gray-200 border rounded-lg shadow-sm">
+      <div class="flex flex-col">
+        <div class="text-center mb-2">
+          <img src="{{ domain.image }}" alt="{{ domain.framework-domain-title }} icon" width="300px;" class="inline-block" />
+        </div>
         <h3 class="text-xl font-bold mb-4 mt-0 leading-6">{{ domain.framework-domain-title }}</h3>
-        <p class="text-gray-600 w-80 text-sm leading-relaxed">{{ domain.framework-domain-desc }} <a class="text-sm text-gray-600 font-normal hover:text-green-500 transition-colors duration-200" href="{{ domain.url }}">Read more</a></p>
+        <p class="text-gray-600 text-sm leading-relaxed">{{ domain.framework-domain-desc }} <a class="text-sm text-gray-600 font-normal hover:text-green-500 transition-colors duration-200" href="{{ domain.url }}">Read more</a></p>
         <ul class="mt-4">
           {% assign sorted_capabilities = site.capabilities | sort:"order" %}
           {% for tag in domain.framework-capabilities %}

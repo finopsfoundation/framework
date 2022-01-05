@@ -16,6 +16,7 @@ framework-capabilities:
 - capability_anomalies
 - capability_forecasting
 - capability_unit-costs
+image: /img/domains/domain-icons_cloud-usage.png
 order: 1
 
 ---
