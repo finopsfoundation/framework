@@ -5,9 +5,17 @@ sitemap: false
 ---
 {% assign list_pages = "" %}
 {% for item in site.capabilities %}
-  {% if item.search contains 'false' %}
-  {% else %}
-    {% capture list_item %}{"objectID": "{{ forloop.index }}","meta_title": "{{ item.framework-capability-title }}","meta_desc": "{{ item.framework-capability-desc }}","content": "{{ item.content | strip_html | strip_newlines | escape }}","url": "{{ item.url }}, "order": "{{ item.order }}"}{% endcapture %}
+  {% if item.search %}
+    {% assign domain-titles = "" | split: ',' %}
+    {% for domain in site.domains %}
+      {% for tag in domain.framework-capabilities %}
+        {% if tag == item.page-identifier %}
+          {% assign domain-titles = domain-titles | push: domain.framework-domain-title %}
+        {% endif %}
+      {% endfor %}
+    {% endfor %}
+
+    {% capture list_item %}{"objectID": "{{ forloop.index }}","meta_title": "{{ item.framework-capability-title }}","meta_desc": "{{ item.framework-capability-desc }}","content": "{{ item.content | strip_html | strip_newlines | escape }}", "domains": [{% for domain in domain-titles %} "{{ domain }}"{% unless forloop.last %},{% endunless %}{% endfor %}], "url": "{{ item.url }}", "order": "{{ item.order }}"}{% endcapture %}
     {% capture list_pages %}{% unless list_pages == "" %}{{ list_pages }},{% endunless %}{{ list_item }}{% endcapture %}
   {% endif %}
 {% endfor %}

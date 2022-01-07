@@ -1,10 +1,11 @@
 ---
 
 layout: capability
+permalink: /framework/capabilities/asset-management/
+search: true
 
 title: IT Asset Management Integration
 description: coming soon...
-permalink: /framework/capabilities/asset-management/
 page-identifier: capability_asset-management
 framework-capability-title: IT Asset Management Integration
 framework-capability-desc: coming soon...

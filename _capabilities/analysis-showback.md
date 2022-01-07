@@ -1,10 +1,11 @@
 ---
 
 layout: capability
+permalink: /framework/capabilities/analysis-showback/
+search: true
 
 title: Data Analysis and Showback
 description: Data analysis and showback is the ability to create a near real-time reporting mechanism which calls to attention total costs for the desired business entity, opportunities for cost avoidance, and KPIs
-permalink: /framework/capabilities/analysis-showback/
 page-identifier: capability_showback
 framework-capability-title: Data Analysis and Showback
 framework-capability-desc: Data analysis and showback is the ability to create a near real-time reporting mechanism which calls to attention total costs for the desired business entity, opportunities for cost avoidance, and KPIs...

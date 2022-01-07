@@ -1,10 +1,11 @@
 ---
 
 layout: capability
+permalink: /framework/capabilities/manage-commitment-based-discounts/
+search: true
 
 title: Managing Commitment Based Discounts
 description: coming soon...
-permalink: /framework/capabilities/manage-commitment-based-discounts/
 page-identifier: capability_commitment-discounts
 framework-capability-title: Managing Commitment Based Discounts
 framework-capability-desc: coming soon...

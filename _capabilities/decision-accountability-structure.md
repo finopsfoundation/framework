@@ -1,10 +1,11 @@
 ---
 
 layout: wide
+permalink: /framework/capabilities/decision-accountability-structure
+search: true
 
 title: Establishing a FinOps Decision & Accountability Structure
 description: coming soon...
-permalink: /framework/capabilities/decision-accountability-structure
 page-identifier: capability_decision-accountability-structure
 framework-capability-title: Establishing a FinOps Decision & Accountability Structure
 framework-capability-desc: coming soon...

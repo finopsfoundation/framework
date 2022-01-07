@@ -1,10 +1,11 @@
 ---
 
 layout: wide
+permalink: /framework/capabilities/education-enablement
+search: true
 
 title: FinOps Education & Enablement
 description: coming soon...
-permalink: /framework/capabilities/education-enablement
 page-identifier: capability_education-enablement
 framework-capability-title: FinOps Education & Enablement
 framework-capability-desc: coming soon...
