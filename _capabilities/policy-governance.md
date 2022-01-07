@@ -1,10 +1,11 @@
 ---
 
 layout: capability
+permalink: /framework/capabilities/policy-governance
+search: true
 
 title: Cloud Policy & Governance
 description: coming soon...
-permalink: /framework/capabilities/policy-governance
 page-identifier: capability_policy-governance
 framework-capability-title: Cloud Policy & Governance
 framework-capability-desc: coming soon...

@@ -1,10 +1,11 @@
 ---
 
 layout: capability
+permalink: /framework/capabilities/forecasting
+search: true
 
 title: Forecasting | FinOps Framework Capability
 description: Understand forecasting cloud costs - how future cloud infrastructure and application lifecycle changes may impact current budgets and influence budget planning and future cloud investment decisions.
-permalink: /framework/capabilities/forecasting
 page-identifier: capability_forecasting
 framework-capability-title: Forecasting
 framework-capability-desc: This FinOps Capability represents the practice of understanding how future cloud infrastructure and application lifecycle changes may impact current budgets...

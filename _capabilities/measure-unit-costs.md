@@ -1,10 +1,11 @@
 ---
 
 layout: capability
+permalink: /framework/capabilities/measure-unit-costs/
+search: true
 
 title: Measuring Unit Costs
 description: coming soon...
-permalink: /framework/capabilities/measure-unit-costs/
 page-identifier: capability_unit-costs
 framework-capability-title: Measuring Unit Costs
 framework-capability-desc: coming soon...

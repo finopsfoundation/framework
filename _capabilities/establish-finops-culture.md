@@ -1,10 +1,11 @@
 ---
 
 layout: capability
+permalink: /framework/capabilities/establish-finops-culture
+search: true
 
 title: Establishing FinOps Culture
 description: This capability is about creating a movement to establish cultures of accountability so that your organization understands the practice of cloud cost management is really about leveraging FinOps to accelerate the creation of business value.
-permalink: /framework/capabilities/establish-finops-culture
 page-identifier: capability_establish-finops-culture
 framework-capability-title: Establishing FinOps Culture
 framework-capability-desc: This capability is about creating a movement to establish cultures of accountability so that your organization understands the practice of cloud cost management is really about leveraging FinOps to accelerate the creation of business value.
