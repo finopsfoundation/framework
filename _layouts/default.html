@@ -4,6 +4,12 @@ layout: basic
 
 ---
 
+{% if page.identifier == 'introduction' %}
+  <div class="bg-green-500 w-full sof-banner px-4 py-6 text-center">
+      <a class="text-2xl block bg-white py-2 px-10 text-black inline-flex items-center font-semibold" href="https://www.research.net/r/M388SK3">The State of FinOps 2022 Survey is Now Open <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 ml-2" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" /></svg></a> 
+  </div>
+{% endif %}
+
 <div class="flex flex-wrap flex-row md:flex-nowrap px-4 max-w-screen-xl mx-auto sm:px-6 mt-12"><!-- Main container -->
   <div class="hidden md:block w-3/12"><!-- Sidebar Nav -->
     {% include nav.html %}
