@@ -5,14 +5,13 @@ sitemap: false
 ---
 {% assign list_pages = "" %}
 {% for item in site.tools-services %}
-  gdgd
-    {% assign capability-titles = "" | split: ',' %}
-    {% for capability in site.capabilities %}
-      {% if item.capabilities contains capability.page-identifier %}
-        {% assign capability-titles = capability-titles | push: capability.framework-capability-title %}
-      {% endif %}
-    {% endfor %}
-    
+  {% assign capability-titles = "" | split: ',' %}
+  {% for capability in site.capabilities %}
+    {% if item.capabilities contains capability.page-identifier %}
+      {% assign capability-titles = capability-titles | push: capability.framework-capability-title %}
+    {% endif %}
+  {% endfor %}
+  
   {% capture list_item %}
     {"objectID": "{{ forloop.index }}",
     "name": "{{ item.title }}",
