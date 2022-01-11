@@ -13,8 +13,10 @@ exports.handler = (event, context, callback) => {
   var client = algoliasearch('64LMXTN0XN', ALGOLIA_KEY);
 	var index = client.initIndex('prod_site-content');
 	var index_capabilities = client.initIndex('prod_capabilities');
+	var index_tools = client.initIndex('prod_tooling_services');
 	var contentJSON = require('../../_site/json/site-content.json');
 	var contentJSON_capabilities = require('../../_site/json/capabilities.json');
+	var contentJSON_tooling = require('../../_site/json/tools-services.json');
 
 // Test content
 	// var contentJSON = [
@@ -39,10 +41,25 @@ exports.handler = (event, context, callback) => {
 		  }
 		});
 	});
-		// Capabilities
+	// Capabilities
 	index_capabilities.clearObjects().then(() => {
   // clear done
 	  index_capabilities.saveObjects(contentJSON_capabilities, function(err, content) {
+		  if (err) {
+		    console.error(err);
+		    callback(err);
+		  } else {
+		  	callback(null, {
+			    statusCode: 200,
+			    body: 'Sucess for a better search!',
+			  });
+		  }
+		});
+	});
+	// Tooling
+	index_tools.clearObjects().then(() => {
+  // clear done
+	  index_tools.saveObjects(contentJSON_tooling, function(err, content) {
 		  if (err) {
 		    console.error(err);
 		    callback(err);
