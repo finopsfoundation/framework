@@ -36,7 +36,7 @@ product-overview: |
 
 
 
-product-video-url: "https://www.youtube.com/embed/PacSCKsmOoA"
+product-video-url: "https://www.youtube.com/embed/5czrQdloX6M"
 
 # Related product or service resources, the titles will have associated URLs, e.g. product 
 product-resources:
@@ -85,7 +85,7 @@ slack-channels:
   url:
 
 # The total number of FinOps Certified Practitioners at the vendor
-number-of-focp: 6
+number-of-focp: 32
 
 # List the key contribution areas in the FinOps Foundation, examples listed
 contribution-areas:
