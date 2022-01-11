@@ -5,11 +5,27 @@ sitemap: false
 ---
 {% assign list_pages = "" %}
 {% for item in site.tools-services %}
-  {% if item.search contains 'false' %}
-  {% else %}
-    {% capture list_item %}{"objectID": "{{ forloop.index }}","meta_title": "{{ item.title }}","meta_desc": "{{ item.description }}","content": "{{ item.content | strip_html | strip_newlines | escape }}","url": "{{ item.url }}"}{% endcapture %}
-    {% capture list_pages %}{% unless list_pages == "" %}{{ list_pages }},{% endunless %}{{ list_item }}{% endcapture %}
-  {% endif %}
+  gdgd
+    {% assign capability-titles = "" | split: ',' %}
+    {% for capability in site.capabilities %}
+      {% if item.capabilities contains capability.page-identifier %}
+        {% assign capability-titles = capability-titles | push: capability.framework-capability-title %}
+      {% endif %}
+    {% endfor %}
+    
+  {% capture list_item %}
+    {"objectID": "{{ forloop.index }}",
+    "name": "{{ item.title }}",
+    "logo-url": "{{ item.logo-url }}",
+    "company-description": "{{ item.company-description | strip_newlines | escape }}",
+    "product-overview": "{{ item.product-overview | strip_newlines | escape }}",
+    "url": "{{ item.url }}",
+    "type": [{% for type in item.type %}"{{ type }}"{% unless forloop.last %},{% endunless %}{% endfor %}],
+    "certified-status": [{% for status in item.certified-status %}"{{ status }}"{% unless forloop.last %},{% endunless %}{% endfor %}],
+    "clouds-supported": [{% for cloud in item.clouds-supported %}"{{ cloud }}"{% unless forloop.last %},{% endunless %}{% endfor %}],
+    "capabilities": [{% for item in capability-titles %}"{{ item }}"{% unless forloop.last %},{% endunless %}{% endfor %}]}
+  {% endcapture %}
+  {% capture list_pages %}{% unless list_pages == "" %}{{ list_pages }},{% endunless %}{{ list_item }}{% endcapture %}
 {% endfor %}
 {% unless list_pages == blank %}
 [{{ list_pages }}]
