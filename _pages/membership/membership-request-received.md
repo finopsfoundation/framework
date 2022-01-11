@@ -7,14 +7,13 @@ title: Membership Request Received
 
 ---
 
-# Membership Request Received
+# Thanks, your membership request has been received
 
-Thanks for requesting membership. We process membership requests on a monthly basis so depending on the cycle, it may be a few weeks for you to receive an answer.
+Thanks for requesting membership. We process membership requests as soon as we can so just hang tight for a resply.
 
-Once approved you’ll gain access to the member’s area and member’s slack, as well as invitations to ongoing discussions.
+Once approved you’ll gain access to the Foundation's Slack, as well as the opportunity to be involved in ongoing discussions.
 
 While you wait:
 
-Consider taking a [FinOps Training Course to get certified.](/certification/finops-certified-practitioner/)
-
-We invite you to [order a copy of the FinOps book on Amazon.](https://www.amazon.com/Cloud-FinOps-Collaborative-real-time-management/dp/1492054623)
+* Subscribe to our [YouTube channel](https://www.youtube.com/channel/UCyl26lvnoySlGWlF5oNHvYA) to get notifications whne we add new Summit recordings, you can also catch up on the previous ones.
+* Consider taking a [FinOps Training Course to get certified.](https://learn.finops.org/)
