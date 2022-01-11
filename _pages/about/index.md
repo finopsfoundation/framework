@@ -117,8 +117,6 @@ Those on the Governing Board have no vote on the TAC and vice versa, with the ex
 - Rob Martin, Director of Learning
 - Andrew Nhem, Content Strategist
 - Kevin Emamy, Vendor Partner Advisor
-- Tracy Roesler, Program Manager
-- William Ospina, Ambassador Program
 - Vas Markanastasakis, Principal, FinOps Practice Management
 - Steve Trask, Director of Marketing
 - Joe Daly, Director of Community
