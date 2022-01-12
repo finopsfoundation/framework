@@ -1,0 +1,27 @@
+.ais-Hits-list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ais-Hits-item {
+  margin: 0;
+  padding: 0;
+  width:  48%;
+  display: flex;
+  align-items: stretch;
+  margin: 1%;
+}
+
+.ais-Hits-item:before {
+  content: "";
+}
+
+/*.ais-SearchBox-submitIcon {
+  display: none;
+}*/
+
+.ais-SearchBox-input {
+  max-width: none;
+}
