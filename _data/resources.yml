@@ -1,0 +1,7 @@
+resources:
+  title: Test name
+  description: Lorem ipsum, dolor sit, amet consectetur adipisicing elit. Harum sequi tenetur incidunt dolores sit eligendi a, molestiae, error maiores praesentium repellat qui officiis earum unde, alias dolorem neque, et accusamus.
+  type: Playbook
+  source: 3rd party
+  label: Gated
+  url: https://finops.org
