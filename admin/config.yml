@@ -118,7 +118,7 @@ collections:
                   label: "Type",
                   name: "type",
                   widget: "select",
-                  options: ["Guide", "Video", "Playbook", "Utility"],
+                  options: ["Guide", "Blog", "Whitepaper", "Video", "Playbook", "Utility"],
                 }
               - {
                   label: "Source",
@@ -131,6 +131,7 @@ collections:
                   name: "label",
                   widget: "select",
                   options: ["Gated", "Paywall"],
+                  required: false
                 }
               - {
                   label: "Capabilities",
@@ -140,6 +141,7 @@ collections:
                   search_fields: ["framework-capability-title"],
                   value_field: "framework-capability-title",
                   multiple: true,
-                  display_fields: ["framework-capability-title"]
+                  display_fields: ["framework-capability-title"],
+                  required: false
                 }
               - {label: "URL", name: "url", widget: "string"}
