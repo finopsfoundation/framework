@@ -16,14 +16,13 @@ FinOps Capabilities represent functional areas of activity in support of their c
 
 <div class="ais-InstantSearch">
   <div class="bg-gray-200 p-4 rounded-md my-8">
-    <h3>Search Capabilities</h3>
+    <h3 class="mt-2">Search Capabilities</h3>
     <div id="capability-search"></div>
     <div id="capability-hits"></div>
   </div>
   <div id="pagination"></div>
 </div>
 
-flex flex-col md:flex-row flex-wrap items-stretch 
 
 <!-- <div class="flex flex-col md:flex-row flex-wrap items-stretch bg-gray-200 p-4 rounded-md my-8">
 {% assign sorted_capabilities = site.capabilities | sort:"order" %}

@@ -5,6 +5,14 @@
   flex-wrap: wrap;
 }
 
+.ais-Hits-list li > *:last-child {
+  margin-bottom:  0;
+}
+
+.ais-Hits-list li > *:first-child {
+  margin-top: 0;
+}
+
 .ais-Hits-item {
   margin: 0;
   padding: 0;
@@ -18,10 +26,36 @@
   content: "";
 }
 
-/*.ais-SearchBox-submitIcon {
-  display: none;
+/*.ais-SearchBox-form {
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: .875rem;
+  height: 2.5rem;
+  line-height: 1.25rem;
+  position: relative;
+  width: 100%;
 }*/
+
+.ais-SearchBox-submitIcon {
+  position: relative;
+  top: -33px;
+  left: 12px;
+}
+
+.ais-SearchBox-submitIcon {
+  width: 14px;
+  height: 14px;
+}
 
 .ais-SearchBox-input {
   max-width: none;
+  box-shadow: 0 1px 0 0 rgb(35 38 59 / 5%);
+  margin-bottom: 0;
+  padding: 6px 35px;
+}
+
+.ais-SearchBox-reset {
+  display: none;
 }

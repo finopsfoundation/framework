@@ -14,11 +14,11 @@ search.addWidgets([
     container: '#capability-hits',
     templates: {
       item: `
-        <div class="m-0 p-6 w-full bg-white border-solid border-gray-200 border rounded-lg shadow-sm hover:border-green-500 cursor-pointer transition duration-200" data-url="{{ url }}">
-          <h2 class="text-lg font-medium mt-0">{{ meta_title }}</h2>
-          <p class="text-gray-600 text-sm leading-relaxed">{{ meta_desc }}</p>
-          <a class="text-gray-600 hover:text-green-500 text-sm leading-relaxed underline" href="{{ url }}">Read more</a>
-        </div>
+        <a class="m-0 p-6 w-full bg-white border-solid border-gray-200 border rounded-lg shadow-sm hover:border-green-500 cursor-pointer transition duration-200" href="{{ url }}">
+          <h2 class="text-lg font-medium mt-0 mb-2">{{ meta_title }}</h2>
+          <p class="block text-gray-600 text-sm leading-relaxed mb-2"">{{ meta_desc }}</p>
+          <span class="text-gray-600 hover:text-green-500 text-sm leading-relaxed underline">Read more</span>
+        </a>
       `,
     },
   })
