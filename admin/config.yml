@@ -1,6 +1,6 @@
 backend:
-  name: git-gateway
-  # name: test-repo
+  #name: git-gateway
+  name: test-repo
   branch: master # Branch to update (optional; defaults to master)
 
 publish_mode: editorial_workflow
@@ -104,28 +104,32 @@ collections:
   - name: 'Data'
     label: 'Data Section'
     files: 
-      - name: "resources"
+      - name: "resource lists"
         label: "Resources"
         file: "_data/resources.yml"
         fields:
-          - {label: "Title", name: "Title", widget: "string"}
-          - {label: "Description", name: "description", widget: "string"}
-          - {
-              label: "Type",
-              name: "type",
-              widget: "select",
-              options: ["Guide", "Playbook", "Video", "Utility"],
-            }
-          - {
-              label: "Source",
-              name: "source",
-              widget: "select",
-              options: ["3rd Party", "Vendor", "Member", "FinOps Foundation"],
-            }
-          - {
-              label: "Label",
-              name: "label",
-              widget: "select",
-              options: ["Gated", "Paywall"],
-            }
-          - {label: "URL", name: "url", widget: "string"}
+          - name: "resources"
+            label: "Reource List"
+            widget: "list"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Description", name: "description", widget: "string"}
+              - {
+                  label: "Type",
+                  name: "type",
+                  widget: "select",
+                  options: ["Guide", "Playbook", "Video", "Utility"],
+                }
+              - {
+                  label: "Source",
+                  name: "source",
+                  widget: "select",
+                  options: ["3rd Party", "Vendor", "Member", "FinOps Foundation"],
+                }
+              - {
+                  label: "Label",
+                  name: "label",
+                  widget: "select",
+                  options: ["Gated", "Paywall"],
+                }
+              - {label: "URL", name: "url", widget: "string"}
