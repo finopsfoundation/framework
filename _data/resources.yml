@@ -5,9 +5,17 @@ items:
     source: Vendor
     label: Gated
     url: test.com
+    framework-capabilities:
+      - IT Asset Management Integration
+      - FinOps Education & Enablement
+      - Managing Commitment Based Discounts
   - title: Test 4
     description: test 4 desc
     type: Guide
     source: Vendor
     label: Gated
     url: test.com
+    framework-capabilities:
+      - Cost Allocation (Metadata & Hierarchy)
+      - Budget Management
+      - Chargeback & IT Finance Integration
