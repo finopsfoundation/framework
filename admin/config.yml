@@ -1,6 +1,6 @@
 backend:
-  #name: git-gateway
-  name: test-repo
+  name: git-gateway
+  # name: test-repo
   branch: master # Branch to update (optional; defaults to master)
 
 publish_mode: editorial_workflow
@@ -104,12 +104,12 @@ collections:
   - name: 'Data'
     label: 'Data Section'
     files: 
-      - name: "resource lists"
+      - name: "resources"
         label: "Resources"
         file: "_data/resources.yml"
         fields:
-          - name: "resources"
-            label: "Reource List"
+          - name: "resource"
+            label: "Resource"
             widget: "list"
             fields:
               - {label: "Title", name: "title", widget: "string"}
@@ -118,13 +118,13 @@ collections:
                   label: "Type",
                   name: "type",
                   widget: "select",
-                  options: ["Guide", "Playbook", "Video", "Utility"],
+                  options: ["Guide", "Video", "Ebook"],
                 }
               - {
                   label: "Source",
                   name: "source",
                   widget: "select",
-                  options: ["3rd Party", "Vendor", "Member", "FinOps Foundation"],
+                  options: ["3rd Party", "Vendor", "Member"],
                 }
               - {
                   label: "Label",
