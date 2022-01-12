@@ -68,7 +68,7 @@ collections:
           widget: "relation",
           collection: "capabilities",
           search_fields: ["framework-capability-title"],
-          value_field: "page-identifier",
+          value_field: "framework-capability-title",
           multiple: true,
           display_fields: ["framework-capability-title"]
         }
@@ -131,5 +131,15 @@ collections:
                   name: "label",
                   widget: "select",
                   options: ["Gated", "Paywall"],
+                }
+              - {
+                  label: "Capabilities",
+                  name: "framework-capabilities",
+                  widget: "relation",
+                  collection: "capabilities",
+                  search_fields: ["framework-capability-title"],
+                  value_field: "framework-capability-title",
+                  multiple: true,
+                  display_fields: ["framework-capability-title"]
                 }
               - {label: "URL", name: "url", widget: "string"}
