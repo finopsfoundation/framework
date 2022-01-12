@@ -118,13 +118,13 @@ collections:
                   label: "Type",
                   name: "type",
                   widget: "select",
-                  options: ["Guide", "Video", "Ebook"],
+                  options: ["Guide", "Video", "Playbook", "Utility"],
                 }
               - {
                   label: "Source",
                   name: "source",
                   widget: "select",
-                  options: ["3rd Party", "Vendor", "Member"],
+                  options: ["3rd Party", "Vendor", "Member", "FinOps Foundation"],
                 }
               - {
                   label: "Label",
