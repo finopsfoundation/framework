@@ -1,6 +1,9 @@
 resources:
   - title: Test name
-    description: Lorem ipsum, dolor sit, amet consectetur adipisicing elit. Harum sequi tenetur incidunt dolores sit eligendi a, molestiae, error maiores praesentium repellat qui officiis earum unde, alias dolorem neque, et accusamus
+    description: Lorem ipsum, dolor sit, amet consectetur adipisicing elit. Harum
+      sequi tenetur incidunt dolores sit eligendi a, molestiae, error maiores
+      praesentium repellat qui officiis earum unde, alias dolorem neque, et
+      accusamus
     type: Playbook
     source: 3rd party
     label: Gated
@@ -11,3 +14,10 @@ resources:
     source: Member
     label: Gated
     url: Test.com
+items:
+  - title: Test 3
+    description: test 3 desc
+    type: Guide
+    source: Vendor
+    label: Gated
+    url: test.com
