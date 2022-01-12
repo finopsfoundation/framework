@@ -4,10 +4,10 @@ resources:
     type: Playbook
     source: 3rd party
     label: Gated
-    url: https://finops.org
+    url: https://test.org
   - title: Test 2
     description: test description
-    type: Playbook
+    type: Guide
     source: Member
     label: Gated
     url: Test.com
