@@ -5,3 +5,9 @@ items:
     source: Vendor
     label: Gated
     url: test.com
+  - title: Test 4
+    description: test 4 desc
+    type: Guide
+    source: Vendor
+    label: Gated
+    url: test.com
