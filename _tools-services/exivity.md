@@ -47,7 +47,7 @@ product-overview: |
 
   Integrations are available for Azure, AWS, GCP, Kubernetes, VMware, OpenStack, and others.
 
-product-video-url: "https://www.youtube.com/watch?v=HKtIs0RcweI"
+product-video-url: "https://www.youtube.com/embed/HKtIs0RcweI"
 
 # Related product or service resources, the titles will have associated URLs, e.g. product 
 product-resources:
