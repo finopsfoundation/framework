@@ -9,6 +9,7 @@ description: Anomaly Management is the ability to detect, identify, clarify, ale
 page-identifier: capability_anomalies
 framework-capability-title: Managing Anomalies
 framework-capability-desc: Anomaly Management is the ability to detect, identify, clarify, alert and manage unexpected or unforecasted cloud cost events in a timely manner...
+label:
 order: 3
 
 ---

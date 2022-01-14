@@ -9,6 +9,7 @@ description: coming soon...
 page-identifier: capability_asset-management
 framework-capability-title: IT Asset Management Integration
 framework-capability-desc: coming soon...
+label: Help Define
 order: 15
 
 ---
