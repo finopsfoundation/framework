@@ -56,6 +56,15 @@
   padding: 6px 35px;
 }
 
+[type='search'] {
+  outline-offset: 0;
+}
+
+.ais-SearchBox-input:focus-visible {
+ outline: solid 1px #007eab;
+}
+
 .ais-SearchBox-reset {
   display: none;
 }
+
