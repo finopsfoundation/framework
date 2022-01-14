@@ -9,6 +9,7 @@ description: Chargeback and IT Finance Integration is about pushing spend accoun
 page-identifier: capability_chargeback
 framework-capability-title: Chargeback & IT Finance Integration
 framework-capability-desc: Chargeback and IT Finance Integration is about pushing spend accountability to the edges of the organization that are responsible for creating the expense.
+label:
 order: 12
 
 ---

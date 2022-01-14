@@ -9,6 +9,7 @@ description: coming soon...
 page-identifier: capability_education-enablement
 framework-capability-title: FinOps Education & Enablement
 framework-capability-desc: coming soon...
+label: Help Define
 order: 18
 
 ---

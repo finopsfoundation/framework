@@ -9,6 +9,7 @@ description: Understand forecasting cloud costs - how future cloud infrastructur
 page-identifier: capability_forecasting
 framework-capability-title: Forecasting
 framework-capability-desc: This FinOps Capability represents the practice of understanding how future cloud infrastructure and application lifecycle changes may impact current budgets...
+label:
 order: 5
 
 ---

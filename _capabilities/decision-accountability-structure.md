@@ -9,6 +9,7 @@ description: coming soon...
 page-identifier: capability_decision-accountability-structure
 framework-capability-title: Establishing a FinOps Decision & Accountability Structure
 framework-capability-desc: coming soon...
+label: Help Define
 order: 17
 
 ---
