@@ -16,10 +16,10 @@ company-description:
 member-level: premier
 
 type: 
-- Platform Provider
-- Cloud Provider
-- Service Provider
-- Training Provider
+# - Platform Provider
+# - Cloud Provider
+# - Service Provider
+# - Training Provider
  
 certified-status:
 #- FinOps Certified Service Provider
@@ -46,12 +46,12 @@ capabilities:
 
 # Edit as appropriate to display supported clouds
 clouds-supported:
-- AWS
-- Azure
-- GCP
-- Oracle
-- Data Center
-- Private Cloud
+# - AWS
+# - Azure
+# - GCP
+# - Oracle
+# - Data Center
+# - Private Cloud
 
 # FinOps Foundation Member since 
 date: 
@@ -75,6 +75,5 @@ number-of-focp:
 
 # List the key contribution areas in the FinOps Foundation, examples listed
 contribution-areas:
-- Kubernetes
 
 ---
