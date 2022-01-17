@@ -56,7 +56,6 @@ clouds-supported:
 - GCP
 - Data Center
 - Private Cloud
-- Air-gapped installations
 
 # FinOps Foundation Member since 
 date: 2020-08-01
