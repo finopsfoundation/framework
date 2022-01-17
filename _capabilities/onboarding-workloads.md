@@ -9,6 +9,7 @@ description: This capability is about establishing a cloud front door process to
 page-identifier: capability_onboarding-workloads
 framework-capability-title: Onboarding Workloads
 framework-capability-desc: This capability is about establishing a cloud front door process to onboard brownfield and greenfield applications through financial viability and technical feasibility assessment criteria.
+label:
 order: 13
 
 ---

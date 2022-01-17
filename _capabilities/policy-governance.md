@@ -9,6 +9,7 @@ description: coming soon...
 page-identifier: capability_policy-governance
 framework-capability-title: Cloud Policy & Governance
 framework-capability-desc: coming soon...
+label: Help Define
 order: 16
 
 ---

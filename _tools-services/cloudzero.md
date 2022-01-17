@@ -15,7 +15,7 @@ company-description: CloudZero puts engineering in control of cloud cost, by con
 member-level: general
 
 type: 
-- Platform
+- Platform Provider
 
 certified-status:
 
@@ -58,7 +58,6 @@ capabilities:
 # Edit as appropriate to display supported clouds
 clouds-supported:
 - AWS
-- Snowflake
 
 # FinOps Foundation Member since 
 date: 2021-04-01

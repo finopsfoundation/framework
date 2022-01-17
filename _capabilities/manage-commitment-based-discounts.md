@@ -9,6 +9,7 @@ description: coming soon...
 page-identifier: capability_commitment-discounts
 framework-capability-title: Managing Commitment Based Discounts
 framework-capability-desc: coming soon...
+label: Help Define
 order: 8
 
 ---

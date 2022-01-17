@@ -9,6 +9,7 @@ description: coming soon...
 page-identifier: capability_workload-automation
 framework-capability-title: Workload Management & Automation
 framework-capability-desc: coming soon...
+label: Help Define
 order: 7
 
 ---

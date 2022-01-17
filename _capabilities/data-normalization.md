@@ -9,6 +9,7 @@ description: Data ingestion and normalization in the context of FinOps represent
 page-identifier: capability_normalization
 framework-capability-title: Data Ingestion & Normalization
 framework-capability-desc: Data ingestion and normalization in the context of FinOps represents the set of functional activities involved with processing/transforming  data sets...
+label:
 order: 11
 
 ---

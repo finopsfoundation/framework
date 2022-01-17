@@ -9,6 +9,7 @@ description: Cost Allocation is the set of practices to divide up a consolidated
 page-identifier: capability_allocation
 framework-capability-title: Cost Allocation (Metadata & Hierarchy)
 framework-capability-desc: Cost Allocation is the set of practices to divide up a consolidated invoice or bill among those who are responsible for its various component parts.
+label:
 order: 1
 
 ---

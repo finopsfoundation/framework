@@ -3,7 +3,7 @@
 layout: member
 
 # Vendor details
-name: VMware
+name: Cloudhealth by VMware
 logo-url: "/tools-services/logos/cloudhealth.png"
 linkedin-url: "https://www.linkedin.com/company/cloudhealthtech"
 website-url: "https://www.cloudhealthtech.com/"

@@ -30,12 +30,14 @@ product-video-url:
 
 # Related product or service resources, the titles will have associated URLs, e.g. product
 product-resources:
-- title: Transform To Cloud offer
-  url: "https://www.finops.org/finops-certified-service-provider/"
-- title: Agile Xperience offer
-  url: "https://timspirit.fr/offre/agile-xperience/"
-- title: Smart Sourcing
-  url: "https://timspirit.fr/offre/smart-sourcing/"
+- title: Our FinOps Services
+  url: "https://timspirit.fr/offre/finops/"
+- title: FinOps training
+  url: "https://timspirit.fr/formation/finops-certified-practitioner/"
+- title: Our Transform-To-Cloud Practice
+  url: "https://timspirit.fr/offre/transform-to-cloud/"
+- title: France FinOps meetup
+  url: "https://www.meetup.com/fr-FR/finops-france-sig/"
 
 # Supported capabilities in the framework by the product(s) or services. Match the page-identifier per capability in order for the capability to show up on the vendor page.
 capabilities:

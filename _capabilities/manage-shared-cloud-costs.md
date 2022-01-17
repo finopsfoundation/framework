@@ -9,6 +9,7 @@ description: The true key to understanding total cost of ownership is built upon
 page-identifier: capability_shared-cost
 framework-capability-title: Managing Shared Cost
 framework-capability-desc: The true key to understanding total cost of ownership is built upon transparency and accuracy, but unallocated shared costs hinders both of these. Without appropriately splitting costs that are shared, engineers and product managers lack a complete picture of how much their products are really costing.
+label:
 order: 4
 
 ---

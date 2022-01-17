@@ -18,10 +18,7 @@ member-level: premier
 member-order: 8
 
 type: 
-- Platform Provider
-- Cloud Provider
 - Service Provider
-- Training Provider
  
 certified-status:
 #- FinOps Certified Service Provider
@@ -44,17 +41,17 @@ product-resources:
 
 # Supported capabilities in the framework by the product(s) or services. Match the page-identifier per capability in order for the capability to show up on the vendor page.
 capabilities:
-- capability_allocation
-- capability_normalization
+# - capability_allocation
+# - capability_normalization
 
 # Edit as appropriate to display supported clouds
 clouds-supported:
-- AWS
-- Azure
-- GCP
-- Oracle
-- Data Center
-- Private Cloud
+# - AWS
+# - Azure
+# - GCP
+# - Oracle
+# - Data Center
+# - Private Cloud
 
 # FinOps Foundation Member since 
 date: 2021-07-01
@@ -78,6 +75,6 @@ number-of-focp:
 
 # List the key contribution areas in the FinOps Foundation, examples listed
 contribution-areas:
-- Kubernetes
+
 
 ---
