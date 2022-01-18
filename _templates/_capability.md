@@ -8,6 +8,7 @@ permalink: /framework/capabilities/
 page-identifier:
 framework-capability-title: Capability Title Here
 framework-capability-desc: coming soon...
+label:
 order: 1
 
 ---

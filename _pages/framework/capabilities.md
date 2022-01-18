@@ -14,8 +14,17 @@ description: FinOps Capabilities represents functional areas of activity in supp
 
 FinOps Capabilities represent functional areas of activity in support of their corresponding [FinOps Domain](/framework/domains/). Functional activities are tasks or processes that allow one to meet the demands of a FinOps practice iteratively through the [lifecycle phases](/framework/phases/). These functional activities and processes are intended to be in service of enablement, education, knowledge sharing, advocacy, actionable tasks, business objectives, and FinOps maturity improvement.
 
+<div class="ais-InstantSearch">
+  <div class="bg-gray-200 p-4 rounded-md my-8">
+    <h3 class="mt-2">Search Capabilities</h3>
+    <div id="capability-search"></div>
+    <div id="capability-hits"></div>
+  </div>
+  <div id="pagination"></div>
+</div>
 
-<div class="flex flex-col md:flex-row flex-wrap items-stretch bg-gray-200 p-4 rounded-md my-8">
+
+<!-- <div class="flex flex-col md:flex-row flex-wrap items-stretch bg-gray-200 p-4 rounded-md my-8">
 {% assign sorted_capabilities = site.capabilities | sort:"order" %}
 {% for capability in sorted_capabilities %}
 <div class="md:w-1/2 flex items-stretch">
@@ -30,3 +39,4 @@ FinOps Capabilities represent functional areas of activity in support of their c
 </div>
 {% endfor %}
 </div>
+ -->
