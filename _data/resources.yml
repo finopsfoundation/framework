@@ -1,21 +1,78 @@
 items:
-  - title: Test 3
-    description: test 3 desc
-    type: Guide
-    source: Vendor
-    label: Gated
-    url: test.com
+  - title: Our first ever FinOps vendor showcase
+    description: Vendor members were invited to shortly present their products to the community. Check out this showcase and celebration of all the interesting tools and platforms that help us make sense of cloud costs.
+    type: Video
+    source: FinOps Foundation
+    label: 
+    url: https://youtu.be/1iBY_cfK4Rc
     framework-capabilities:
-      - IT Asset Management Integration
-      - FinOps Education & Enablement
-      - Managing Commitment Based Discounts
-  - title: Test 4
-    description: test 4 desc
-    type: Guide
-    source: Vendor
-    label: Gated
-    url: test.com
+  - title: What the FinOps Foundation learned from AWS re:Invent 2021
+    description: AWS re:Invent 2021 brought back the major cloud event in full. Many members responsibly attended, bringing big learning lessons, insights, and ideas back to our members.
+    type: Video
+    source: FinOps Foundation
+    label: 
+    url: https://youtu.be/fu5QSGEXOUA
     framework-capabilities:
-      - Cost Allocation (Metadata & Hierarchy)
-      - Budget Management
-      - Chargeback & IT Finance Integration
+  - title: November FinOps Summit 2021 - Cultures of Accountability
+    description: View the Summit which includes keynotes on, FinOps noob to FinOps leader, Transform the culture to one of cost accountability and What’s working for FinOps leaders at big vs small companies.
+    type: Video
+    source: FinOps Foundation
+    label: 
+    url: https://youtu.be/__DF0vLDilE
+    framework-capabilities:
+      - Establishing FinOps Culture
+      - Establishing a FinOps Decision & Accountability Structure
+  - title: October FinOps Summit 2021
+    description: View the Summit which includes keynotes on, 9 Years in FinOps Adopting FinOps, Reducing Waste, and Multi-Cloud best practices.
+    type: Video
+    source: FinOps Foundation
+    label: 
+    url: https://youtu.be/zFFuuZpN1Hc
+    framework-capabilities:
+      - Establishing FinOps Culture
+  - title: August FinOps Summit 2021
+    description: View the Summit which includes keynotes on Adopting FinOps, Data Transfer Cost Management, Reducing Waste.
+    type: Video
+    source: FinOps Foundation
+    label: 
+    url: https://youtu.be/H1r4TOuMm64
+    framework-capabilities:
+      - Establishing FinOps Culture
+  - title: July FinOps Summit 2021
+    description: View the Summit which includes keynotes on Getting to Unit Cost (Activity Based Costing),Adopting FinOps in the Enterprise and State of FinOps for Kubernetes.
+    type: Video
+    source: FinOps Foundation
+    label: 
+    url: https://youtu.be/M-XiDO1VqT4
+    framework-capabilities:
+      - Establishing FinOps Culture
+      - Managing Shared Cost
+      - Measuring Unit Costs
+  - title: June FinOps Summit 2021
+    description: View the Summit which includes keynotes on Accurate Forecasting, Tracking Cloud TCO and Multi-Cloud.
+    type: Video
+    source: FinOps Foundation
+    label: 
+    url: https://youtu.be/FziyJt-GIDY
+    framework-capabilities:
+      - Forecasting
+  - title: May FinOps Summit 2021
+    description: View the Summit which includes keynotes on Accurate Forecasting, Google Cloud and Dealing with Shared Costs.
+    type: Video
+    source: FinOps Foundation
+    label: 
+    url: https://youtu.be/meWi2xj1JGY
+    framework-capabilities:
+      - Forecasting
+      - Managing Shared Cost
+  - title: April FinOps Summit 2021
+    description: View the Summit which includes keynotes on Engineering Action Work Group, Accurate Forecasting and with Shared Costs.
+    type: Video
+    source: FinOps Foundation
+    label: 
+    url: https://youtu.be/ck8EbE38MNs
+    framework-capabilities:
+      - Forecasting
+      - Managing Shared Cost
+
+
