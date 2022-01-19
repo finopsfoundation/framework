@@ -1,8 +1,32 @@
 ---
 
-layout: default
+layout: basic
+permalink: /resources/
+search: true
 
 title: FinOps Resources
 description: All the FinOps resources in one place, filter by cloud service provider, type and more. If you know of FinOps resources not listed just make a suggestion.
 
 ---
+<!-- Main container -->
+<div class="flex flex-wrap flex-row md:flex-nowrap px-4 max-w-screen-xl mx-auto sm:px-6 mt-12">
+  <!-- Side column -->
+  <div class="hidden md:block w-3/12">
+    <div id="resources-csp"></div>
+    <div id="resources-type"></div>
+    <div id="resources-source"></div>
+  </div>
+  <!-- Main section -->
+  <div class="px-4 w-full md:w-9/12">
+    <h1>FinOps Resources</h1>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempora molestiae cumque quae optio numquam quisquam ea tenetur ab inventore. Eius, labore, quod! Ab, quisquam, consequatur fugit rerum totam laudantium qui.</p>
+
+    <div class="ais-InstantSearch">
+      <div class="bg-gray-200 p-4 rounded-md my-8">
+        <div id="resources-search"></div>
+        <div id="resources-hits"></div>
+      </div>
+      <div id="pagination"></div>
+    </div>
+  </div>
+</div>
