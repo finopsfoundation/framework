@@ -134,6 +134,13 @@ collections:
                   required: false
                 }
               - {
+                  label: "Cloud Specific",
+                  name: "cloud-provider",
+                  widget: "select",
+                  options: ["Multi-Cloud","Alibaba","AWS", "Azure", "Google Cloud", "IBM Cloud", "Oracle", "Private Cloud"],
+                  required: false
+                }
+              - {
                   label: "Capabilities",
                   name: "framework-capabilities",
                   widget: "relation",
