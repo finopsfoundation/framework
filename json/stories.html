@@ -1,0 +1,24 @@
+---
+search-title: nosearch
+permalink: json/stories.json
+sitemap: false
+---
+{% assign list_pages = "" %}
+{% for item in site.stories %}
+    {% capture list_item %}
+      {"objectID": "{{ forloop.index }}",
+      "meta_title": "{{ item.title }}",
+      "meta_desc": "{{ item.description }}",
+      "author": "{{ item.author }}",
+      "industry": "{{ item.industry:}}",
+      "framework-persona": "{{ item.framework-persona }}",
+      "framework-maturity": "{{ item.framework-maturity }}",
+      "cloud-provider": [{% for cloud in item.cloud-provider %}"{{ cloud }}"{% unless forloop.last %},{% endunless %}{% endfor %}],
+      "content": "{{ item.content | strip_html | strip_newlines | escape }}",
+      "url": "{{ item.url }}"}
+    {% endcapture %}
+    {% capture list_pages %}{% unless list_pages == "" %}{{ list_pages }},{% endunless %}{{ list_item }}{% endcapture %}
+{% endfor %}
+{% unless list_pages == blank %}
+[{{ list_pages }}]
+{% endunless %}

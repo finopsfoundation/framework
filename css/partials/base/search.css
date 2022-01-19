@@ -3,6 +3,7 @@
   padding: 0;
   display: flex;
   flex-wrap: wrap;
+  gap: 20px;
 }
 
 .ais-Hits-list li > *:last-child {
@@ -16,11 +17,19 @@
 .ais-Hits-item {
   margin: 0;
   padding: 0;
-  width:  48%;
   display: flex;
   align-items: stretch;
-  margin: 1%;
 }
+
+#capability-hits .ais-Hits-item {
+  width:  48%;
+  
+}
+
+#resources-hits_capability .ais-Hits-item, #resources-hits_resources .ais-Hits-item  {
+  width:  31%;
+}
+
 
 .ais-Hits-item:before {
   content: "";
