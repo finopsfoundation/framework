@@ -94,7 +94,13 @@ description: Technology vendor membership is for those who provide platforms or 
             hbspt.forms.create({
             region: "na1",
             portalId: "5432286",
-            formId: "c170f099-a4b0-48d7-83e7-e39705c57b18"
+            formId: "c170f099-a4b0-48d7-83e7-e39705c57b18",
+            onFormSubmit: function($form){
+              gtag('event', 'submit', {
+                'event_category': 'membership form',
+                'event_label': 'vendor'
+              });
+            },
           });
           </script>
         </div>
