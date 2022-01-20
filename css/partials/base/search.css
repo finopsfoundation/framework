@@ -19,15 +19,12 @@
   padding: 0;
   display: flex;
   align-items: stretch;
+  width:  31%;
 }
 
 #capability-hits .ais-Hits-item {
   width:  48%;
   
-}
-
-#resources-hits_capability .ais-Hits-item, #resources-hits_resources .ais-Hits-item  {
-  width:  31%;
 }
 
 
