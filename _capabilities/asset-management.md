@@ -5,10 +5,10 @@ permalink: /framework/capabilities/asset-management/
 search: true
 
 title: IT Asset Management Integration
-description: coming soon...
+description: This capability examines the integrations between FinOps and IT Asset Management.  Widespread use of public cloud creates new challenges for both ITAM and configuration management organizations in several regards...
 page-identifier: capability_asset-management
 framework-capability-title: IT Asset Management Integration
-framework-capability-desc: coming soon...
+framework-capability-desc: This capability examines the integrations between FinOps and IT Asset Management. Widespread use of public cloud creates new challenges for both ITAM and configuration management organizations in several regards...
 label: Help Define
 order: 15
 
@@ -24,17 +24,67 @@ order: 15
 
 
 ## Definition
-_definition for this Capability.  the objective here is to capture the "What" (**not** the "How") for this Capability._
+This capability examines the integrations between FinOps and IT Asset Management - including configuration management.
+
+IT Asset Management is a discipline of IT service management (ITSM) used by organizations to track and report upon assets --  hardware, software, software licenses, and other assets both tangible and intangible -- used in the IT infrastructure to deliver value. Typically IT Asset management focuses on ensuring that assets are used in accordance with regulatory and contractual requirements, and that they provide value for money for the organisation.
+
+ITSM configuration management tracks configuration items and their relationships to IT services. The scope of ITSM configuration management is generally broader than IT asset management, and the focus is on ensuring that IT services and their components are tracked and manage to support the provision of high quality IT services to the organisation.
+
+Both disciplines provide inventory information to allow organizations to satisfy security, financial and operational use cases where it is necessary to know what hardware, license, or software element existed, was used, was accessed, or was disposed of - a single pane of glass for all technology components in use within an organisation
+
+Widespread use of public cloud creates new challenges for both ITAM and configuration management organizations in several regards:
+* The number of virtual IT assets created in cloud may be far larger than physical assets tracked traditionally
+* A number of different cloud providers may be used making it difficult to provide a comprehensive view of what is in use within an organisation
+* Virtual cloud assets may be created and destroyed rapidly, making them more ephemeral than physical assets
+* An increasing number of cloud services are not composed of “assets” which have real world analogs and as such may be more ambiguous than real-world assets
+* Software licensing models may differ between cloud and on-premises environments
+* Software utilised by cloud instances may be wholly or partially licenced as part of cloud payments, making it difficult to track license requirements and manage software licensing compliance.
+
+Intersections between the FinOps team, ITSM configuration management and ITAM teams in an organization then will typically be complementary. ITAM teams will face challenges tracking virtual assets in the cloud without the help of FinOps functions to interpret the broad and detailed data. FinOps teams will face challenges meeting the comprehensive asset reporting requirements satisfied by existing and mature ITAM teams.
+
+Not every organization maintains a mature IT Asset Management or configuration management organization and it is common for the two roles to be performed by a single team
+
+
+IT Asset Management as a discipline is defined within the ISO 19770 family of standards and is maintained by working group 21 within ISO.
+
+ITSM Configuration Management is defined within the ISO20000 family of standards.
+
+
 
 
 ## Maturity Assessment
-_description of the characteristics of each maturity level (crawl, walk, run) for this Capability in the context of the organization's FinOps practice._
+#### Crawl
+* FinOps, ITSM configuration management and IT asset management both have their own individual understanding of what assets / resources are in which cloud and how they are being used, including:
+  * How they are licensed (for ITAM) (PaaS / marketplace vs IaaS plus bring your own licenses (BYOL))
+  * which IT / business services the resource / assets support
+  * Whether there are any associated contracts e.g., software support & maintenance, the cloud provider contract / account itself.
+
+
+#### Walk
+* All three disciplines have a shared understanding of what assets / resources are in which cloud and regularly reconcile them to provide a ‘single pane of glass’ for the organisation.
+
+
+#### Run
+* There is a common taxonomy for the management of costs that is used across all CIs, Assets and cloud resources to enable an organisation to build an understanding of the total cost of ownership (TCO) and return on investment of IT and business services.
 
 
 
 ## Functional Activity
 _written for each persona responsible for the functional activity and processes encapsulated by his Capability.  each one should be associated generally to one of the FinOps Phases (Inform, Optimize, Operate). for example:_
 >As a [FinOps Persona], I will [functional activity] so that [desired outcome] is achieved.
+
+#### As a *FinOps Practitioner*, I will...
+*
+
+#### As an *Engineering Manager*, I will...
+*
+
+#### As a *Finance/Procurement Manager*, I will...
+*
+
+#### As a *Business/Product Manager*, I will...
+*
+
 
 
 
