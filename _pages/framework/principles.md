@@ -1,6 +1,6 @@
 ---
 
-layout: default
+layout: wide
 permalink: /framework/principles/
 search: true
 

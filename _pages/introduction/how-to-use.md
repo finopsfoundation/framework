@@ -1,6 +1,6 @@
 ---
 
-layout: default
+layout: wide
 permalink: /introduction/how-to-use/
 search: true
 
