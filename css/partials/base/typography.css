@@ -103,6 +103,16 @@ hr {
   margin-bottom: 3em;
 }
 
+hr.basic {
+  display: block;
+  border: 0;
+  height: 1px;
+  margin-top: 1em;
+  margin-bottom: 1.2em;
+  background-image:  none;
+  background: #ccc;
+}
+
 blockquote {
   font-weight: 500;
   font-style: italic;

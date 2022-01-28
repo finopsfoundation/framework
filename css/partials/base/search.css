@@ -74,3 +74,6 @@
   display: none;
 }
 
+mark.ais-Snippet-highlighted {
+  background-color: transparent;
+}

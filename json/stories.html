@@ -10,7 +10,7 @@ sitemap: false
       "meta_title": "{{ item.title }}",
       "meta_desc": "{{ item.description }}",
       "author": "{{ item.author }}",
-      "industry": "{{ item.industry:}}",
+      "industry": "{{ item.industry }}",
       "framework-persona": "{{ item.framework-persona }}",
       "framework-maturity": "{{ item.framework-maturity }}",
       "cloud-provider": [{% for cloud in item.cloud-provider %}"{{ cloud }}"{% unless forloop.last %},{% endunless %}{% endfor %}],

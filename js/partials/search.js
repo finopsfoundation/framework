@@ -17,7 +17,7 @@ if(document.getElementById('capability-hits')) {
       container: '#capability-hits',
       templates: {
         item: `
-          <a class="m-0 p-6 w-full bg-white border-solid border-gray-200 border rounded-lg shadow-sm hover:border-green-500 cursor-pointer transition duration-200" href="{{ url }}">
+          <a class="m-0 p-6 w-full bg-white border-solid border-gray-200 border rounded-sm shadow-sm hover:border-green-500 cursor-pointer transition duration-200" href="{{ url }}">
             <h2 class="text-lg font-medium mt-0 mb-2">{{ meta_title }}</h2>
             {{#label}}
             <span class="text-white font-medium bg-green-500 rounded-md py-1 px-2 inline-block uppercase text-xs leading-tight">{{ label }}</span>
@@ -56,7 +56,7 @@ if(document.getElementById('resources-hits_capability')) {
       templates: {
         item:
           `
-            <a class="m-0 p-6 w-full bg-white border-solid border-gray-200 border shadow-sm hover:border-green-500 cursor-pointer transition duration-200" href="{{ url }}">
+            <a class="m-0 p-4 w-full bg-white border-solid border-gray-200 border border-l-4 border-l-purple rounded-sm shadow-sm hover:border-purple cursor-pointer transition duration-200" href="{{ url }}">
               <h2 class="text-lg font-medium mt-0 mb-2">{{ meta_title }}</h2>
             </a>
           `,
@@ -74,7 +74,7 @@ if(document.getElementById('resources-hits_capability')) {
           container: '#resources-hits_stories',
           templates: {
             item: `
-            <a class="m-0 p-6 w-full bg-white border-solid border-gray-200 border shadow-sm hover:border-green-500 cursor-pointer transition duration-200" href="{{ url }}">
+            <a class="m-0 p-4 w-full bg-white border-solid border-gray-200 border border-l-4 border-l-blue rounded-sm shadow-sm hover:border-blue cursor-pointer transition duration-200" href="{{ url }}">
               <h2 class="text-lg font-medium mt-0 mb-2">{{ meta_title }}</h2>
             </a>
           `,
@@ -93,10 +93,10 @@ if(document.getElementById('resources-hits_capability')) {
           container: '#resources-hits_resources',
           templates: {
             item:  `
-             <a class="m-0 bg-gray-200 border-solid border-gray-200 border shadow-sm hover:border-green-500 cursor-pointer transition duration-200" href="{{ url }}">
-              <img src="https://via.placeholder.com/300x200.png" />
-              <div class="p-4">
-                <h2 class="text-base font-medium mt-0 mb-2">{{ meta_title }}</h2>
+             <a class="flex text-centre bg-gray-200 items-center justify-center m-0 w-full bg-white border-solid border-gray-200 border rounded-sm shadow-sm hover:border-green-500 cursor-pointer transition duration-200" href="{{ url }}">
+              <img src="https://via.placeholder.com/100x100.png" />
+              <div class="py-2 px-4">
+                <h2 class="text-base font-medium mt-0 mb-2">{{#helpers.snippet}}{ "attribute": "meta_title" }{{/helpers.snippet}}</h2>
                 {{#label}}
                 <span class="text-white font-medium bg-green-500 rounded-md py-1 px-2 inline-block uppercase text-xs leading-tight">{{ label }}</span>
                 {{/label}}
@@ -118,8 +118,9 @@ if(document.getElementById('resources-hits_capability')) {
           container: '#resources-hits_tooling',
           templates: {
             item:  `
-            <a class="m-0 p-6 w-full bg-white border-solid border-gray-200 border shadow-sm hover:border-green-500 cursor-pointer transition duration-200" href="{{ url }}">
-              <h2 class="text-lg font-medium mt-0 mb-2">{{ name }}</h2>
+            <a class="flex text-centre items-center justify-center m-0 p-6 w-full bg-white border-solid border-gray-200 border rounded-sm shadow-sm hover:border-green-500 cursor-pointer transition duration-200" href="{{ url }}">
+              <img src="{{ logo-url }}" alt="{{ name }}" width="170" />
+              <h2 class="text-lg font-medium mt-0 mb-2">{{ logo }}</h2>
             </a>
           `,
           },
