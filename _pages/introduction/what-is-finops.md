@@ -21,7 +21,7 @@ description: Find out what FinOps is and more about the operating model for the 
 
 _(Definition Updated: November 2022 by the FinOps Foundation [Technical Advisory Council]()_
 
-At its core, FinOps is a cultural practice. It’s the way for teams to manage their cloud costs, where everyone takes ownership of their cloud usage supported by a central best-practices group. Cross-functional teams in IT, Finance, Product, etc work together to enable faster product delivery, while at the same time gaining more financial control and predictability.
+At its core, FinOps is a cultural practice. It’s the way for teams to manage their cloud costs, where everyone takes ownership of their cloud usage supported by a central best-practices group. Cross-functional teams in Engineering, Finance, Product, etc work together to enable faster product delivery, while at the same time gaining more financial control and predictability.
 
 > FinOps is a portmanteau of “Finance” and “DevOps” stressing the communications and collaboration business and engineering teams.
 
@@ -35,8 +35,6 @@ Other names for the practice include “Cloud Financial Management”, “Cloud 
 ## Bringing Accountability to Cloud Spend
 
 Regardless of the name, FinOps is the practice of bringing a financial accountability cultural change to the variable spend model of cloud, enabling distributed engineering and business teams to make trade-offs between speed, cost, and quality in their cloud architecture and investment decisions.
-
-At its core, FinOps is a cultural practice. It’s the way for teams to manage their cloud costs, where everyone takes ownership of their cloud usage supported by a central best-practices group. Cross-functional teams in Engineering, Finance, Product, etc work together to enable faster product delivery, while at the same time gaining more financial control and predictability.
 
 > If it seems that FinOps is about saving money, then think again. FinOps is about making money. 
 
