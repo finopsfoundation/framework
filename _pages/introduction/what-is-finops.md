@@ -25,7 +25,9 @@ At its core, FinOps is a cultural practice. It’s the way for teams to manage t
 
 > FinOps is a portmanteau of “Finance” and “DevOps” stressing the communications and collaboration business and engineering teams.
 
-Other names for the practice include “Cloud Financial Management”, “Cloud Financial Engineering” “Cloud Cost Management”, “Cloud Optimization”, or “Cloud Financial Optimization”. It is sometimes incorrectly referred to “Cloud Financial Operations” but that term is falling out of favor due to its ambiguity with the more traditional “Financial Operations” role that exists in Finance. 
+Other names for the practice include “Cloud Financial Management”, “Cloud Financial Engineering” “Cloud Cost Management”, “Cloud Optimization”, or “Cloud Financial Optimization”. 
+
+> It is sometimes incorrectly referred to “Cloud Financial Operations” but that term is falling out of favor due to its ambiguity with the more traditional “Financial Operations” role that exists in Finance. 
 
 
 [![Introduction to FinOps](/img/resources/intro-slide.png?w)](https://docs.google.com/presentation/d/1gt9ev4OU79-N0tkkdx78rrZM0jJPuxQqlL6pCImL4ww/edit?usp=sharing){:target="_blank"}
