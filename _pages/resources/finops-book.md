@@ -1,6 +1,6 @@
 ---
 
-layout: default
+layout: wide
 permalink: /resources/finops-book/
 search: true
 
