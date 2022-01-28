@@ -29,6 +29,7 @@ Other names for the practice include “Cloud Financial Management”, “Cloud 
 
 > It is sometimes incorrectly referred to “Cloud Financial Operations” but that term is falling out of favor due to its ambiguity with the more traditional “Financial Operations” role that exists in Finance. 
 
+## An introduction to FinOps
 
 [![Introduction to FinOps](/img/resources/intro-slide.png?w)](https://docs.google.com/presentation/d/1gt9ev4OU79-N0tkkdx78rrZM0jJPuxQqlL6pCImL4ww/edit?usp=sharing){:target="_blank"}
 
