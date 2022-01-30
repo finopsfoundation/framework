@@ -19,7 +19,7 @@ description: Find out what FinOps is and more about the operating model for the 
 
 > FinOps is an evolving cloud financial management discipline and cultural practice that enables organizations to get maximum business value by helping engineering, finance, technology and business teams to collaborate on data-driven spending decisions.
 
-_(Definition Updated: November 2022 by the FinOps Foundation [Technical Advisory Council]()_
+_(Definition Updated: November 2021 by the FinOps Foundation [Technical Advisory Council]()_
 
 At its core, FinOps is a cultural practice. It’s the way for teams to manage their cloud costs, where everyone takes ownership of their cloud usage supported by a central best-practices group. Cross-functional teams in Engineering, Finance, Product, etc work together to enable faster product delivery, while at the same time gaining more financial control and predictability.
 
