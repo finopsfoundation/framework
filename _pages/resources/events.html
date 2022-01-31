@@ -10,16 +10,27 @@ description: Join the community of members to share experiences and gain FinOps 
 
 <h1>FinOps Foundation Events</h1>
 
+<div class="flex flex-col md:flex-row gap-3">
+  {% for event in site.data.events.items %}
+    <a class="w-1/3 flex text-centre bg-gray-200 items-center justify-center m-0 w-full bg-white border-solid border-gray-200 border rounded-sm shadow-sm hover:border-green-500 cursor-pointer transition duration-200" href="{{ url }}">
+      <img src="https://via.placeholder.com/100x100.png" />
+      <div class="py-2 px-4">
+        <h2 class="text-base font-medium mt-0 mb-2">{{ event.title }}</h2>
+        <span class="text-white font-medium bg-green-500 rounded-md py-1 px-2 inline-block uppercase text-xs leading-tight">{{ event.label }}</span>
+      </div>
+    </a>
+  {% endfor %}
+</div>
 
 
 
-<div class="flex flex-col md:flex-row">
-  <div class="p-4">
-    <h2>Regional Meetup Events</h2>
+<div class="flex flex-col md:flex-row gap-3">
+  <div class="p-4 bg-purple text-white">
+    <h2 class="text-white">Regional Meetup Events</h2>
     <p>Meet FinOps Practitioners close to you in the regional meetup events.</p>
-    <a href="">View meetup events</a>
+    <a href="https://www.meetup.com/pro/finops">View meetup events</a>
   </div>
-  <div>
+  <div class="p-4">
     <h2>Training Events</h2>
     <p>See when instructor led trainings by the Foundation are next on.</p>
     <a href="">View training events</a>
