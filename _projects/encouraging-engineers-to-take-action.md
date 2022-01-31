@@ -134,7 +134,7 @@ The State of FinOps survey data shows the 10 most significant tactics respondent
 9. Metrics, KPIs and Scorecards
 10. Regular Reports, Meetings and Reviews
 
-The tactics chosen will depend on the type of accountability practitioners want to promote. The table below shows the most popular initiatives for each tyype of accountability.
+The tactics chosen will depend on the type of accountability practitioners want to promote. The table below shows the most popular initiatives for each type of accountability.
 
 |     | **Self Accountability**         | **Financial Accountability**       | **Business Accountability**          |
 | --- | ------------------------------- | ---------------------------------- | ------------------------------------ |

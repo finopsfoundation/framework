@@ -16,11 +16,13 @@ exports.handler = (event, context, callback) => {
 	var index_tools = client.initIndex('prod_tooling_services');
 	var index_resources = client.initIndex('prod_resources');
 	var index_stories = client.initIndex('prod_stories');
+	var index_events = client.initIndex('prod_events');
 	var contentJSON = require('../../_site/json/site-content.json');
 	var contentJSON_capabilities = require('../../_site/json/capabilities.json');
 	var contentJSON_tooling = require('../../_site/json/tools-services.json');
 	var contentJSON_resources = require('../../_site/json/resources.json');
 	var contentJSON_stories = require('../../_site/json/stories.json');
+	var contentJSON_events = require('../../_site/json/events.json');
 
 // Test content
 	// var contentJSON = [
@@ -94,6 +96,21 @@ exports.handler = (event, context, callback) => {
 	index_stories.clearObjects().then(() => {
   // clear done
 	  index_stories.saveObjects(contentJSON_stories, function(err, content) {
+	  	if (err) {
+		    console.error(err);
+		    callback(err);
+		  } else {
+		  	callback(null, {
+			    statusCode: 200,
+			    body: 'Sucess for a better search!',
+			  });
+		  }
+		});
+	});
+	// Events
+	index_events.clearObjects().then(() => {
+  // clear done
+	  index_events.saveObjects(contentJSON_events, function(err, content) {
 		  if (err) {
 		    console.error(err);
 		    callback(err);

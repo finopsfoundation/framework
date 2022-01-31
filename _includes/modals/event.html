@@ -1,0 +1,66 @@
+<div class="c-modal js--modal" id="modal-event">
+  <div class="c-modal_close"><a href="javascript:void(0)" onclick="javascript:modalToggle('modal-event');">&#215;</a></div>
+  
+  <!--content-->
+  <div class="flex flex-col">
+    <!--header-->
+    <div class="flex border-b border-solid border-blueGray-200 rounded-t">
+      <h3 class="text-xl font-semibold mt-2">
+        Suggest an event to be listed 
+      </h3>
+      <button class="p-1 ml-auto bg-transparent border-0 text-black opacity-5 float-right text-3xl leading-none font-semibold outline-none focus:outline-none" onclick="modalToggle('modal-event')">
+        <span class="bg-transparent text-black opacity-5 h-6 w-6 text-2xl block outline-none focus:outline-none">
+          ×
+        </span>
+      </button>
+    </div>
+    <!--body-->
+    <div class="relative flex-auto">
+      <div>
+        <!-- form -->
+
+        <form name="event" method="POST" data-netlify="true" action="/resources/events/?fm=ty-event">
+          <div class="hidden">
+            <label>Don’t fill this out if you’re human </label>
+            <input name="bot-field" />
+          </div>
+          <div>
+            <label>First Name</label>
+            <input type="text" name="first_name" required />
+          </div>
+          <div>
+            <label>Last Name</label>
+            <input type="text" name="last_name" required />
+          </div>
+          <div>
+            <label>Your Email</label>
+            <input type="email" name="email" required />
+          </div>
+          <div>
+            <label>Event Name</label>
+            <input type="text" name="event_name" required />
+          </div>
+          <div>
+            <label>Event Host Organization</label>
+            <input type="text" name="event_host" required />
+          </div>
+          <div>
+            <label>Event Date</label>
+            <input type="text" name="event_date" required />
+          </div>
+          <div>
+            <label>Event Page URL</label>
+            <input type="text" name="event_url" required />
+          </div>
+          <div>
+            <label>Additional information</label>
+            <textarea name="message" rows="5"></textarea>
+          </div>
+          <div>
+            <button class="btn" type="submit">Send</button>
+          </div> 
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

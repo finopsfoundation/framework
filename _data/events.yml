@@ -1,0 +1,80 @@
+items:
+  - title: February FinOps Summit
+    date: 10th February
+    label: FinOps Foundation
+    host: FinOps Foundation
+    type: Virtual Event
+    image: event-images_summit.png
+    url: https://go.finops.org/finops-summit
+
+  - title: February FinOps Summit (APAC)
+    date: 11th February
+    label: FinOps Foundation
+    host: FinOps Foundation
+    type: Virtual Event
+    image: event-images_summit.png
+    url: https://go.finops.org/finops-summit
+
+  - title: March FinOps Summit
+    date: 10th March
+    label: FinOps Foundation
+    host: FinOps Foundation
+    type: Virtual Event
+    image: event-images_summit.png
+    url: 
+
+  - title: April FinOps Summit
+    date:  7th April
+    label: FinOps Foundation
+    host: FinOps Foundation
+    type: Virtual Event
+    image: event-images_summit.png
+    url: 
+
+  - title: May FinOps Summit
+    date: 12th May
+    label: FinOps Foundation
+    host: FinOps Foundation
+    type: Virtual Event
+    image: event-images_summit.png
+    url: 
+
+  - title: FinOps Vendor Showcase
+    date: 9th June
+    label: FinOps Foundation
+    host: FinOps Foundation
+    type: Virtual Event
+    image: event-images_summit.png
+    url: 
+
+  - title: July FinOps Summit
+    date: 7th July
+    label: FinOps Foundation
+    host: FinOps Foundation
+    type: Virtual Event
+    image: event-images_summit.png
+    url: 
+
+  - title: September FinOps Summit
+    date: 8th September
+    label: FinOps Foundation
+    host: FinOps Foundation
+    type: Virtual Event
+    image: event-images_summit.png
+    url: 
+
+  - title: October FinOps Summit
+    date: 13 October
+    label: FinOps Foundation
+    host: FinOps Foundation
+    type: Virtual Event
+    image: event-images_summit.png
+    url: 
+
+  - title: Cloud Provider Updates & FinOps Vendor Showcase
+    date: 8th December
+    label: FinOps Foundation
+    host: FinOps Foundation
+    type: Virtual Event
+    image: event-images_summit.png
+    url: 
