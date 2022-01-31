@@ -1,0 +1,23 @@
+---
+search-title: nosearch
+permalink: json/events.json
+sitemap: false
+---
+{% assign list_pages = "" %}
+{% for item in site.data.events.items %}
+    {% capture list_item %}
+      {"objectID": "{{ forloop.index }}",
+      "meta_title": "{{ item.title }}",
+      "date": "{{ item.date }}",
+      "date_timestamp": "{{ item.date | date: '%s' }}",
+      "type": "{{ item.type }}",
+      "host": "{{ item.host }}",
+      "image": "{{ item.image }}",
+      "label": "{{ item.label }}",
+      "url": "{{ item.url }}"}
+    {% endcapture %}
+    {% capture list_pages %}{% unless list_pages == "" %}{{ list_pages }},{% endunless %}{{ list_item }}{% endcapture %}
+{% endfor %}
+{% unless list_pages == blank %}
+[{{ list_pages }}]
+{% endunless %}
