@@ -1,6 +1,7 @@
 items:
   - title: February FinOps Summit
     date: 10th February
+    location: Virtual
     label: FinOps Foundation
     host: FinOps Foundation
     type: Virtual Event
@@ -9,6 +10,7 @@ items:
 
   - title: February FinOps Summit (APAC)
     date: 11th February
+    location: Virtual
     label: FinOps Foundation
     host: FinOps Foundation
     type: Virtual Event
@@ -17,6 +19,7 @@ items:
 
   - title: March FinOps Summit
     date: 10th March
+    location: Virtual
     label: FinOps Foundation
     host: FinOps Foundation
     type: Virtual Event
@@ -25,6 +28,7 @@ items:
 
   - title: April FinOps Summit
     date:  7th April
+    location: Virtual
     label: FinOps Foundation
     host: FinOps Foundation
     type: Virtual Event
@@ -33,6 +37,7 @@ items:
 
   - title: May FinOps Summit
     date: 12th May
+    location: Virtual
     label: FinOps Foundation
     host: FinOps Foundation
     type: Virtual Event
@@ -41,6 +46,7 @@ items:
 
   - title: FinOps Vendor Showcase
     date: 9th June
+    location: Virtual
     label: FinOps Foundation
     host: FinOps Foundation
     type: Virtual Event
@@ -49,6 +55,7 @@ items:
 
   - title: July FinOps Summit
     date: 7th July
+    location: Virtual
     label: FinOps Foundation
     host: FinOps Foundation
     type: Virtual Event
@@ -57,6 +64,7 @@ items:
 
   - title: September FinOps Summit
     date: 8th September
+    location: Virtual
     label: FinOps Foundation
     host: FinOps Foundation
     type: Virtual Event
@@ -65,6 +73,7 @@ items:
 
   - title: October FinOps Summit
     date: 13 October
+    location: Virtual
     label: FinOps Foundation
     host: FinOps Foundation
     type: Virtual Event
@@ -73,8 +82,81 @@ items:
 
   - title: Cloud Provider Updates & FinOps Vendor Showcase
     date: 8th December
+    location: Virtual
     label: FinOps Foundation
     host: FinOps Foundation
     type: Virtual Event
     image: event-images_summit.png
     url: 
+
+  - title: FinOps Certified Practitioner Training
+    date: 8th Feb
+    location: London
+    label: Vendor Member
+    host: Across.Cloud
+    type: Training
+    image: event-images_across-cloud.png
+    url: https://across.cloud/focp/
+
+  - title: FinOps Certified Practitioner Training
+    date: 22nd Feb
+    location: Munich
+    label: Vendor Member
+    host: Across.Cloud
+    type: Training
+    image: event-images_across-cloud.png
+    url: https://across.cloud/focp/
+
+  - title: FinOps Certified Practitioner Training
+    date: 24th Feb
+    location: Virtual
+    label: Vendor Member
+    host: Across.Cloud
+    type: Training
+    image: event-images_across-cloud.png
+    url: https://across.cloud/focp/
+
+  - title: FinOps Certified Practitioner Training
+    date: 8th March
+    location: London
+    label: Vendor Member
+    host: Across.Cloud
+    type: Training
+    image: event-images_across-cloud.png
+    url: https://across.cloud/focp/
+
+  - title: FinOps Certified Practitioner Training
+    date: 10th March
+    location: Berlin
+    label: Vendor Member
+    host: Across.Cloud
+    type: Training
+    image: event-images_across-cloud.png
+    url: https://across.cloud/focp/
+
+  - title: FinOps Certified Practitioner Training
+    date: 24th March
+    location: Stockholm
+    label: Vendor Member
+    host: Across.Cloud
+    type: Training
+    image: event-images_across-cloud.png
+    url: https://across.cloud/focp/
+
+  - title: FinOps Certified Practitioner Training
+    date: 10th March
+    location: London
+    label: Vendor Member
+    host: Across.Cloud
+    type: Training
+    image: event-images_across-cloud.png
+    url: https://across.cloud/focp/
+
+  - title: FinOps Certified Practitioner Training
+    date: 29th March
+    location: Virtual
+    label: Vendor Member
+    host: Across.Cloud
+    type: Training
+    image: event-images_across-cloud.png
+    url: https://across.cloud/focp/

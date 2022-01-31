@@ -34,6 +34,61 @@ if(document.getElementById('capability-hits')) {
 
 }
 
+// Events page
+if(document.getElementById('event-hits')) {
+
+  const event_search = instantsearch({
+    indexName: 'prod_events',
+    searchClient,
+  });
+
+  event_search.addWidgets([
+    instantsearch.widgets.configure({
+      hitsPerPage: 12,
+    }),
+
+    instantsearch.widgets.searchBox({
+      container: '#event-search',
+    }),
+
+    instantsearch.widgets.refinementList({
+      container: '#event-type',
+      attribute: 'type',
+    }),
+
+    instantsearch.widgets.refinementList({
+      container: '#event-label',
+      attribute: 'label',
+    }),
+
+    instantsearch.widgets.hits({
+      container: '#event-hits',
+      templates: {
+        item: `
+         <div>
+          <a class="flex text-centre items-center justify-center m-0 bg-white border-solid border-gray-200 border rounded-sm shadow-sm hover:border-green-500 cursor-pointer transition duration-200" href="{{ url }}" data-ga-category="links" data-ga-action="internal link clicks" data-ga-label="events - {{ meta_title }} {{ event.host }}">
+            <img src="/img/events/{{ image }}" alt="{{ meta_title }}" width="100" />
+            <div class="py-2 px-4 flex-grow">
+              <h2 class="text-base font-medium mt-0 mb-2 leading-tight">{{ meta_title }}</h2>
+              <p class="text-xs leading-tight m-0">{{ date }} - {{ location }}</p>
+              <p class="text-xs leading-tight m-0">Hosted by: {{ host }}</p>
+            </div>
+          </a>
+        </div>
+        `,
+      },
+    }),
+
+    instantsearch.widgets.pagination({
+      container: '#pagination',
+    }),
+
+  ]);
+
+  event_search.start();
+
+}
+
 // Resources page
 if(document.getElementById('resources-hits_capability')) {
 

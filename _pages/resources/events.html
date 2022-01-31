@@ -9,7 +9,7 @@ description: Join the community of members to share experiences and gain FinOps 
 ---
 
 <div class="text-right text-sm no-underline text-gray-900 mb-6">
-  <a href="javascript:void(0);" class="rounded-md hover:bg-gray-200 py-2 px-4 opacity-50 hover:opacity-100 transition duration-200 ease-in-out" onclick="modalToggle('modal-event')">
+  <a href="javascript:void(0);" class="rounded-sm hover:bg-gray-200 py-2 px-4 opacity-50 hover:opacity-100 transition duration-200 ease-in-out" onclick="modalToggle('modal-event')">
     <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 inline" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" /></svg> Suggest an event to be added
   </a>
 </div>
@@ -20,22 +20,17 @@ description: Join the community of members to share experiences and gain FinOps 
 
 <h1>FinOps Events</h1>
 
-<div class="grid grid-cols-1 md:grid-cols-2 gap-3 gap-y-4 mb-8">
-  {% for event in site.data.events.items %}
-    <div>
-      <a class="flex text-centre items-center justify-center m-0 bg-white border-solid border-gray-200 border rounded-sm shadow-sm hover:border-green-500 cursor-pointer transition duration-200" href="{{ event.url }}" data-ga-category="links" data-ga-action="internal link clicks" data-ga-label="events - {{ event.title }} {{ event.host }}">
-        <img src="/img/events/{{ event.image }}" alt="{{ event.title }}" width="100" />
-        <div class="py-2 px-4 flex-grow">
-          <h2 class="text-base font-medium mt-0 mb-2 leading-tight">{{ event.title }}</h2>
-          <p class="text-xs leading-tight m-0">{{ event.date }}</p>
-          <p class="text-xs leading-tight m-0">{{ event.host }}</p>
-        </div>
-      </a>
+<div class="ais-InstantSearch">
+  <div class="bg-gray-200 rounded-sm p-4 mb-6">
+    <h3 class="mt-2">Search Events</h3>
+    <div id="event-search"></div>
+    <div id="event-type"></div>
+    <hr class="basic" />
+    <div id="event-label"></div>
   </div>
-  {% endfor %}
+  <div id="event-hits"></div>
+  <div id="pagination"></div>
 </div>
-
-<hr/ class="basic">
 
 <div class="flex flex-col md:flex-row gap-3">
   <div class="p-4 border-solid border-gray-200 border rounded-sm shadow-sm">
