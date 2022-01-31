@@ -1,6 +1,6 @@
 ---
 
-layout: default
+layout: wide
 permalink: /framework/phases/
 search: true
 
@@ -15,8 +15,9 @@ The FinOps journey consists of three iterative phases — Inform, Optimize and O
 
 Any company may be in multiple phases at any time depending on which business unit, application or team is on the journey.
 
-
-![FinOps Phases](/img/framework/phases.svg)
+{:style="text-align:center;"}
+![FinOps Phases](/img/framework/phases.svg?5){: width="360px" class="inline"}
+{: class="text-center"}
 
 ## Inform
 This is the first phase in the FinOps journey, empowering organizations and teams with visibility, allocation, benchmarking, budgeting, and forecasting. The on-demand and elastic nature of cloud, along with customized pricing and discounts, makes it necessary for accurate and timely visibility for intelligent decisions. Accurate allocation of cloud spend based on tags, accounts, or business mappings enable accurate chargeback and showback. Business and financial stakeholders also want to ensure they are driving ROI while staying within budget and accurately forecasting spend, avoiding surprises. Benchmarking as a cohort and against teams provides organizations with the necessary metrics to develop a high performing team.
