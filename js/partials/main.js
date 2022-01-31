@@ -36,30 +36,6 @@ function doScrolling(element, duration) {
   })
 }
 
-if(document.getElementById('js-training-1')) {
-  document.getElementById('js-training-1').addEventListener('click', doScrolling.bind(null, '#finops-certified-practitioner-certification-exam--300', 1000));
-}
-
-if(document.getElementById('js-training-2')) {
-document.getElementById('js-training-2').addEventListener('click', doScrolling.bind(null, '#self-paced-online-course---499', 1500));
-}
-
-if(document.getElementById('js-training-3')) {
-document.getElementById('js-training-3').addEventListener('click', doScrolling.bind(null, '#instructor-led-live-training--890', 2000));
-}
-
-if(document.getElementById('js-cert-1')) {
-  document.getElementById('js-cert-1').addEventListener('click', doScrolling.bind(null, '#finops-certified-platform', 1000));
-}
-
-if(document.getElementById('js-cert-2')) {
-document.getElementById('js-cert-2').addEventListener('click', doScrolling.bind(null, '#finops-certified-service-provider', 1500));
-}
-
-if(document.getElementById('js-cert-3')) {
-document.getElementById('js-cert-3').addEventListener('click', doScrolling.bind(null, '#finops-training-partner', 2000));
-}
-
 
 
 // Off canvas menu
@@ -186,7 +162,7 @@ if(document.getElementById('js-stories')) {
 };
 
 
-// URL var check
+// URL var check to display id content
 document.addEventListener('DOMContentLoaded', function() {
   const queryString = window.location.search;
   const urlParams = new URLSearchParams(queryString);

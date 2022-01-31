@@ -8,32 +8,45 @@ description: Join the community of members to share experiences and gain FinOps 
 
 ---
 
-<h1>FinOps Foundation Events</h1>
+<div class="text-right text-sm no-underline text-gray-900 mb-6">
+  <a href="javascript:void(0);" class="rounded-md hover:bg-gray-200 py-2 px-4 opacity-50 hover:opacity-100 transition duration-200 ease-in-out" onclick="modalToggle('modal-event')">
+    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 inline" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" /></svg> Suggest an event to be added
+  </a>
+</div>
 
-<div class="flex flex-col md:flex-row gap-3">
+<div id="ty-event" class="hidden">
+  {% include event-thankyou.html %}
+</div>
+
+<h1>FinOps Events</h1>
+
+<div class="grid grid-cols-1 md:grid-cols-2 gap-3 gap-y-4 mb-8">
   {% for event in site.data.events.items %}
-    <a class="w-1/3 flex text-centre bg-gray-200 items-center justify-center m-0 w-full bg-white border-solid border-gray-200 border rounded-sm shadow-sm hover:border-green-500 cursor-pointer transition duration-200" href="{{ url }}">
-      <img src="https://via.placeholder.com/100x100.png" />
-      <div class="py-2 px-4">
-        <h2 class="text-base font-medium mt-0 mb-2">{{ event.title }}</h2>
-        <span class="text-white font-medium bg-green-500 rounded-md py-1 px-2 inline-block uppercase text-xs leading-tight">{{ event.label }}</span>
-      </div>
-    </a>
+    <div>
+      <a class="flex text-centre items-center justify-center m-0 bg-white border-solid border-gray-200 border rounded-sm shadow-sm hover:border-green-500 cursor-pointer transition duration-200" href="{{ event.url }}" data-ga-category="links" data-ga-action="internal link clicks" data-ga-label="events - {{ event.title }} {{ event.host }}">
+        <img src="/img/events/{{ event.image }}" alt="{{ event.title }}" width="100" />
+        <div class="py-2 px-4 flex-grow">
+          <h2 class="text-base font-medium mt-0 mb-2 leading-tight">{{ event.title }}</h2>
+          <p class="text-xs leading-tight m-0">{{ event.date }}</p>
+          <p class="text-xs leading-tight m-0">{{ event.host }}</p>
+        </div>
+      </a>
+  </div>
   {% endfor %}
 </div>
 
-
+<hr/ class="basic">
 
 <div class="flex flex-col md:flex-row gap-3">
-  <div class="p-4 bg-purple text-white">
-    <h2 class="text-white">Regional Meetup Events</h2>
-    <p>Meet FinOps Practitioners close to you in the regional meetup events.</p>
-    <a href="https://www.meetup.com/pro/finops">View meetup events</a>
+  <div class="p-4 border-solid border-gray-200 border rounded-sm shadow-sm">
+    <h2 class="mt-2">Regional Meetup Events</h2>
+    <p>Meet FinOps Practitioners located nearby with regional meetup events.</p>
+    <a href="https://www.meetup.com/pro/finops" class="text-sm text-green-500 mt-4 block" data-ga-category="links" data-ga-action="internal link clicks" data-ga-label="events - meetups">View FinOps Meetup Events</a>
   </div>
-  <div class="p-4">
-    <h2>Training Events</h2>
+  <div class="p-4 border-solid border-gray-200 border rounded-sm shadow-sm">
+    <h2 class="mt-2">Foundation Training Events</h2>
     <p>See when instructor led trainings by the Foundation are next on.</p>
-    <a href="">View training events</a>
+    <a href="https://learn.finops.org/page/finops-certified-practitioner-vilt" class="text-sm text-green-500 mt-4 block" data-ga-category="links" data-ga-action="internal link clicks" data-ga-label="events - training">View Foundation Training Events</a>
   </div>
 </div>
 
@@ -43,3 +56,8 @@ description: Join the community of members to share experiences and gain FinOps 
   <p><small >Please note: FinOps Foundation events are interactive in nature and conducted in a virtual (Zoom-based) environment. Accordingly, certain information that you have provided to Zoom will be shared with the FinOps Foundation, the trainer and other attendees. Zoom may provide details that you have provided including your name, email address or the phone number you use to dial in. You may be able to limit the information Zoom provides by editing your Zoom profile, but during this course any information you do include will be seen by all who attend. Please see https://zoom.us/privacy for further details.</small></p>
   <p><small>Some courses will be recorded for training and development purposes. It will be shared only with FinOps Foundation members who are preparing for instruction or developing course related material. All Foundation ground rules apply with respect to the sharing of private information.</small></p>
 </div>
+
+
+<!-- Modals -->
+
+{% include modals/event.html %}
