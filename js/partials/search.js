@@ -198,7 +198,7 @@ if(document.getElementById('resource-hits')) {
 
   resource_search.addWidgets([
     instantsearch.widgets.configure({
-      hitsPerPage: 12,
+      hitsPerPage: 8,
     }),
 
     instantsearch.widgets.searchBox({
@@ -220,15 +220,17 @@ if(document.getElementById('resource-hits')) {
       templates: {
         item: `
          <div>
-          <a class="flex text-centre items-center justify-center m-0 bg-white border-solid border-gray-200 border rounded-sm shadow-sm hover:border-green-500 cursor-pointer transition duration-200" href="{{ url }}" data-ga-category="links" data-ga-action="internal link clicks" data-ga-label="events - {{ meta_title }} {{ event.host }}">
+          <a class="flex text-centre m-0 bg-white border-solid border-gray-200 border rounded-sm shadow-sm hover:border-green-500 cursor-pointer transition duration-200" href="{{ url }}" data-ga-category="links" data-ga-action="internal link clicks" data-ga-label="events - {{ meta_title }} {{ event.host }}">
             <img src="/img/search-icons/{{ type }}.png" alt="{{ meta_title }}" width="100" />
-            <div class="py-2 px-4 flex-grow">
-              <h2 class="text-base font-medium mt-0 mb-1 leading-tight">{{ meta_title }}</h2>
-              <p class="text-xs leading-tight m-0 mb-1 uppercase">{{ type }}</p>
+            <div class="py-4 px-4 flex-grow">
+              <div class="flex">
+                <h2 class="text-base font-medium mt-0 mb-2 leading-tight flex-grow">{{ meta_title }}</h2>
+                <p class="text-xs leading-tight m-0 mb-1 uppercase font-semibold">{{ type }}</p>
+              </div>
               {{#label}}
                 <span class="text-white font-medium bg-green-500 rounded-md py-1 px-2 inline-block uppercase text-xs leading-tight">{{ label }}</span>
               {{/label}}
-              <p class="text-xs leading-tight m-0">{{#helpers.snippet}}{ "attribute": "meta_desc" }{{/helpers.snippet}}</p>
+              <p class="text-xs leading-tight m-0 md:pr-8">{{#helpers.snippet}}{ "attribute": "meta_desc" }{{/helpers.snippet}}</p>
             </div>
           </a>
         </div>

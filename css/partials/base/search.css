@@ -159,17 +159,8 @@ mark.ais-Snippet-highlighted {
   margin:  0;
 }
 
-#resources-hits_capability .ais-Hits-list, #resources-hits_resources .ais-Hits-list, #resources-hits_tooling .ais-Hits-list, #resources-hits_stories .ais-Hits-list {
-  margin: 0;
-  padding: 0;
-  display: grid;
-  gap: 10px;
-  row-gap: 15px;
-  grid-template-columns: repeat(1, minmax(0, 1fr));
-}
-
 @media screen(md) {
-  #resources-hits_capability .ais-Hits-list, #resources-hits_resources .ais-Hits-list, #resources-hits_tooling .ais-Hits-list, #resources-hits_stories .ais-Hits-list {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+  #resource-hits .ais-Hits-list {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
   }
 }
