@@ -92,4 +92,60 @@ items:
       - Forecasting
       - Managing Shared Cost
 
+  - title: Encouraging Engineers to Take Action
+    description: How finance, operations, and executives can work better together at encouraging more cloud cost optimization from their engineering teams.
+    type: Guide
+    source: FinOps Foundation
+    label: 
+    url: /projects/encouraging-engineers-to-take-action/
+    cloud-provider: Multi-Cloud
+    framework-capabilities:
+
+  - title: A Guide to Spreading Out Shared Costs
+    description: Every organization has shared IT costs, and these span multiple business departments.
+    type: Guide
+    source: FinOps Foundation
+    label: 
+    url: /projects/identifying-shared-costs/
+    cloud-provider: Multi-Cloud
+    framework-capabilities:
+
+  - title: Calculating Container Costs
+    description: Addressing how and why containers complicate how teams manage the visibility and optimization of container costs, and how to apply FinOps best practices to improve cloud financial management.
+    type: Guide
+    source: FinOps Foundation
+    label: 
+    url: /projects/calculating-container-costs/
+    cloud-provider: Multi-Cloud
+    framework-capabilities:
+
+  - title: Accurate Cloud Forecasts
+    description: How finance, operations, and executives build models to forecast cloud spend and allocate budgets to business units.
+    type: Guide
+    source: FinOps Foundation
+    label: 
+    url: /projects/accurate-cloud-forecasts/
+    cloud-provider: Multi-Cloud
+    framework-capabilities:
+
+  - title: Multi-Cloud Tools and Terminology
+    description: Ensure that there are materials that help translate core tools and terminology concepts across multiple cloud service providers.
+    type: Guide
+    source: FinOps Foundation
+    label: 
+    url: /projects/multi-cloud-tools-and-terminology/
+    cloud-provider: Multi-Cloud
+    framework-capabilities:
+
+  - title: Reducing Waste Opportunities
+    description: A collection of resources to help identify types of cloud cost waste by service provider, including links to additional tools. 
+    type: Utility
+    source: FinOps Foundation
+    label: 
+    url: /projects/reducing-waste/
+    cloud-provider: Multi-Cloud
+    framework-capabilities:
+
+
+
 

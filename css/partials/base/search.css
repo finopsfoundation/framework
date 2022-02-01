@@ -65,7 +65,7 @@ mark.ais-Snippet-highlighted {
   display: grid;
   gap: 10px;
   row-gap: 15px;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(1, minmax(0, 1fr));
 }
 
 .ais-Hits-list li > *:last-child {
@@ -79,6 +79,12 @@ mark.ais-Snippet-highlighted {
 .ais-Hits-item {
   margin: 0;
   padding: 0;
+}
+
+@media screen(md) {
+  .ais-Hits-list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
 }
 
 /*Pagination*/
@@ -105,16 +111,17 @@ mark.ais-Snippet-highlighted {
 }*/
 
 
+/*Refinement List*/
+
+.ais-RefinementList-labelText {
+  font-size: 14px;
+}
 
 
 /*Events*/
 
 #event-type .ais-RefinementList-count, #event-label .ais-RefinementList-count {
   display: none;
-} 
-
-#event-type {
-  margin-top: -20px;
 }
 
 #event-type .ais-RefinementList-item, #event-label .ais-RefinementList-item {
@@ -128,5 +135,41 @@ mark.ais-Snippet-highlighted {
 }
 
 #event-type .ais-RefinementList-list, #event-label .ais-RefinementList-list {
-  margin: 10px 0;
+  margin: 0;
+}
+
+
+/*Resources*/
+
+#resource-type .ais-RefinementList-list, #resource-source .ais-RefinementList-list {
+  margin: 0;
+}
+
+#resource-type .ais-RefinementList-item > div, #resource-source .ais-RefinementList-item > div {
+  margin:  0;
+}
+
+#resource-type .ais-RefinementList-count, #resource-source .ais-RefinementList-count {
+  display: none;
+}
+
+#resource-type .ais-RefinementList-item, #resource-source .ais-RefinementList-item {
+  display: inline-block;
+  padding-right:  20px;
+  margin:  0;
+}
+
+#resources-hits_capability .ais-Hits-list, #resources-hits_resources .ais-Hits-list, #resources-hits_tooling .ais-Hits-list, #resources-hits_stories .ais-Hits-list {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 10px;
+  row-gap: 15px;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+@media screen(md) {
+  #resources-hits_capability .ais-Hits-list, #resources-hits_resources .ais-Hits-list, #resources-hits_tooling .ais-Hits-list, #resources-hits_stories .ais-Hits-list {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
 }

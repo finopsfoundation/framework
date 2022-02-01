@@ -1,0 +1,119 @@
+<div class="c-modal js--modal" id="modal-resource">
+  <div class="c-modal_close"><a href="javascript:void(0)" onclick="javascript:modalToggle('modal-resource');">&#215;</a></div>
+  
+  <!--content-->
+  <div class="flex flex-col">
+    <!--header-->
+    <div class="flex border-b border-solid border-blueGray-200 rounded-t">
+      <h3 class="text-xl font-semibold mt-2">
+        Suggest a resource to be listed 
+      </h3>
+      <button class="p-1 ml-auto bg-transparent border-0 text-black opacity-5 float-right text-3xl leading-none font-semibold outline-none focus:outline-none" onclick="modalToggle('modal-resource')">
+        <span class="bg-transparent text-black opacity-5 h-6 w-6 text-2xl block outline-none focus:outline-none">
+          ×
+        </span>
+      </button>
+    </div>
+    <!--body-->
+    <div class="relative flex-auto">
+      <div>
+        <!-- form -->
+
+        <form name="resource" method="POST" data-netlify="true" action="/resources/?fm=ty-resources">
+          <div class="hidden">
+            <label>Don’t fill this out if you’re human </label>
+            <input name="bot-field" />
+          </div>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
+            <div>
+              <label>First Name</label>
+              <input type="text" name="first_name" required />
+            </div>
+            <div>
+              <label>Last Name</label>
+              <input type="text" name="last_name" required />
+            </div>
+          </div>
+
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
+            <div>
+              <label>Your Email</label>
+              <input type="email" name="email" required />
+            </div>
+            <div>
+              <label>Resource Name</label>
+              <input type="text" name="resource_name" required />
+            </div>
+          </div>
+
+          <div>
+            <label>Resource Description</label>
+            <textarea name="resource_desc" rows="3"></textarea>
+          </div>
+
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
+            <div>
+              <div>
+                <label>Source of Resource</label>
+                <select name="source">
+                  <option value="Practiioner">Practitioner Contribution</option>
+                  <option value="saab">Vendor Member Contribution</option>
+                  <option value="saab">End User Member Contribution</option>
+                  <option value="saab">Other</option>
+                </select>
+              </div>
+              <div>
+                <label>Type of Resource</label>
+                <select name="type">
+                  <option value="Blog">Blog</option>
+                  <option value="Guide">Guide</option>
+                  <option value="Playbook">Playbook</option>
+                  <option value="Podcast">Podcast</option>
+                  <option value="Utility">Utility</option>
+                  <option value="Video">Video</option>
+                </select>
+              </div>
+            </div>
+
+            <div>
+              <div>
+                <label>Is the resource gated or behind a paywall?</label>
+                <select name="access">
+                  <option value="Public">Publically available</option>
+                  <option value="Gated">Gated behind a form</option>
+                  <option value="Paywall">Behind Paywall</option>
+                </select>
+              </div>
+              <div>
+                <label>Is this related to a specific cloud provider?</label>
+                <select name="csp">
+                  <option value="Alibaba">Alibaba</option>
+                  <option value="AWS">AWS</option>
+                  <option value="Azure">Azure</option>
+                  <option value="Google Cloud">Google Cloud</option>
+                  <option value="IBM Cloud">IBM Cloud</option>
+                  <option value="Oracle">Oracle</option>
+                  <option value="Private Cloud">Private Cloud</option>
+                  <option value="Not related to a specific provider">Not related to a specific provider</option>
+                </select>
+              </div>
+              <div>
+                <label>Foundation Attribution in Resource</label>
+                <select name="attribution">
+                  <option value="Reference/Link to the Foundation">Reference/Link to the Foundation</option>
+                  <option value="Reference/Link to the Framework Capability">Reference/Link to the Framework Capability</option>
+                  <option value="Refrences/Links to the Foundation AND Capability">Refrences/Links to the Foundation AND Capability</option>
+                  <option value="None">None</option>
+                </select>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <button class="btn" type="submit">Send</button>
+          </div> 
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

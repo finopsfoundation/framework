@@ -17,7 +17,7 @@ if(document.getElementById('capability-hits')) {
       container: '#capability-hits',
       templates: {
         item: `
-          <a class="m-0 p-6 w-full bg-white border-solid border-gray-200 border rounded-sm shadow-sm hover:border-green-500 cursor-pointer transition duration-200" href="{{ url }}">
+          <a class="m-0 p-6 block h-full bg-white border-solid border-gray-200 border rounded-sm shadow-sm hover:border-green-500 cursor-pointer transition duration-200" href="{{ url }}">
             <h2 class="text-lg font-medium mt-0 mb-2">{{ meta_title }}</h2>
             {{#label}}
             <span class="text-white font-medium bg-green-500 rounded-md py-1 px-2 inline-block uppercase text-xs leading-tight">{{ label }}</span>
@@ -111,7 +111,7 @@ if(document.getElementById('resources-hits_capability')) {
       templates: {
         item:
           `
-            <a class="m-0 p-4 w-full bg-white border-solid border-gray-200 border border-l-4 border-l-purple rounded-sm shadow-sm hover:border-purple cursor-pointer transition duration-200" href="{{ url }}">
+            <a class="m-0 p-4 block h-full bg-white border-solid border-gray-200 border border-l-4 border-l-purple rounded-sm shadow-sm hover:border-purple cursor-pointer transition duration-200" href="{{ url }}">
               <h2 class="text-lg font-medium mt-0 mb-2">{{ meta_title }}</h2>
             </a>
           `,
@@ -129,7 +129,7 @@ if(document.getElementById('resources-hits_capability')) {
           container: '#resources-hits_stories',
           templates: {
             item: `
-            <a class="m-0 p-4 w-full bg-white border-solid border-gray-200 border border-l-4 border-l-blue rounded-sm shadow-sm hover:border-blue cursor-pointer transition duration-200" href="{{ url }}">
+            <a class="m-0 p-4 block h-full bg-white border-solid border-gray-200 border border-l-4 border-l-blue rounded-sm shadow-sm hover:border-blue cursor-pointer transition duration-200" href="{{ url }}">
               <h2 class="text-lg font-medium mt-0 mb-2">{{ meta_title }}</h2>
             </a>
           `,
@@ -148,7 +148,7 @@ if(document.getElementById('resources-hits_capability')) {
           container: '#resources-hits_resources',
           templates: {
             item:  `
-             <a class="flex text-centre bg-gray-200 items-center justify-center m-0 w-full bg-white border-solid border-gray-200 border rounded-sm shadow-sm hover:border-green-500 cursor-pointer transition duration-200" href="{{ url }}">
+             <a class="h-full flex text-centre bg-gray-200 items-center justify-center m-0 w-full bg-white border-solid border-gray-200 border rounded-sm shadow-sm hover:border-green-500 cursor-pointer transition duration-200" href="{{ url }}">
               <img src="https://via.placeholder.com/100x100.png" />
               <div class="py-2 px-4">
                 <h2 class="text-base font-medium mt-0 mb-2">{{#helpers.snippet}}{ "attribute": "meta_title" }{{/helpers.snippet}}</h2>
@@ -173,7 +173,7 @@ if(document.getElementById('resources-hits_capability')) {
           container: '#resources-hits_tooling',
           templates: {
             item:  `
-            <a class="flex text-centre items-center justify-center m-0 p-6 w-full bg-white border-solid border-gray-200 border rounded-sm shadow-sm hover:border-green-500 cursor-pointer transition duration-200" href="{{ url }}">
+            <a class="h-full flex text-centre items-center justify-center m-0 p-6 w-full bg-white border-solid border-gray-200 border rounded-sm shadow-sm hover:border-green-500 cursor-pointer transition duration-200" href="{{ url }}">
               <img src="{{ logo-url }}" alt="{{ name }}" width="170" />
               <h2 class="text-lg font-medium mt-0 mb-2">{{ logo }}</h2>
             </a>
@@ -185,5 +185,63 @@ if(document.getElementById('resources-hits_capability')) {
   ]);
 
   search.start();
+
+}
+
+// Resource Library Page
+if(document.getElementById('resource-hits')) {
+
+  const resource_search = instantsearch({
+    indexName: 'prod_resources',
+    searchClient,
+  });
+
+  resource_search.addWidgets([
+    instantsearch.widgets.configure({
+      hitsPerPage: 12,
+    }),
+
+    instantsearch.widgets.searchBox({
+      container: '#resource-search',
+    }),
+
+    instantsearch.widgets.refinementList({
+      container: '#resource-type',
+      attribute: 'type',
+    }),
+
+    instantsearch.widgets.refinementList({
+      container: '#resource-source',
+      attribute: 'source',
+    }),
+
+    instantsearch.widgets.hits({
+      container: '#resource-hits',
+      templates: {
+        item: `
+         <div>
+          <a class="flex text-centre items-center justify-center m-0 bg-white border-solid border-gray-200 border rounded-sm shadow-sm hover:border-green-500 cursor-pointer transition duration-200" href="{{ url }}" data-ga-category="links" data-ga-action="internal link clicks" data-ga-label="events - {{ meta_title }} {{ event.host }}">
+            <img src="/img/search-icons/{{ type }}.png" alt="{{ meta_title }}" width="100" />
+            <div class="py-2 px-4 flex-grow">
+              <h2 class="text-base font-medium mt-0 mb-1 leading-tight">{{ meta_title }}</h2>
+              <p class="text-xs leading-tight m-0 mb-1 uppercase">{{ type }}</p>
+              {{#label}}
+                <span class="text-white font-medium bg-green-500 rounded-md py-1 px-2 inline-block uppercase text-xs leading-tight">{{ label }}</span>
+              {{/label}}
+              <p class="text-xs leading-tight m-0">{{#helpers.snippet}}{ "attribute": "meta_desc" }{{/helpers.snippet}}</p>
+            </div>
+          </a>
+        </div>
+        `,
+      },
+    }),
+
+    instantsearch.widgets.pagination({
+      container: '#pagination',
+    }),
+
+  ]);
+
+  resource_search.start();
 
 }

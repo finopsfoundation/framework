@@ -92,71 +92,71 @@ items:
   - title: FinOps Certified Practitioner Training
     date: 8th Feb
     location: London
-    label: Vendor Member
+    label: Training Partner
     host: Across.Cloud
-    type: Training
+    type: In-person
     image: event-images_across-cloud.png
     url: https://across.cloud/focp/
 
   - title: FinOps Certified Practitioner Training
     date: 22nd Feb
     location: Munich
-    label: Vendor Member
+    label: Training Partner
     host: Across.Cloud
-    type: Training
+    type: In-person
     image: event-images_across-cloud.png
     url: https://across.cloud/focp/
 
   - title: FinOps Certified Practitioner Training
     date: 24th Feb
     location: Virtual
-    label: Vendor Member
+    label: Training Partner
     host: Across.Cloud
-    type: Training
+    type: Virtual Event
     image: event-images_across-cloud.png
     url: https://across.cloud/focp/
 
   - title: FinOps Certified Practitioner Training
     date: 8th March
     location: London
-    label: Vendor Member
+    label: Training Partner
     host: Across.Cloud
-    type: Training
+    type: In-person
     image: event-images_across-cloud.png
     url: https://across.cloud/focp/
 
   - title: FinOps Certified Practitioner Training
     date: 10th March
     location: Berlin
-    label: Vendor Member
+    label: Training Partner
     host: Across.Cloud
-    type: Training
+    type: In-person
     image: event-images_across-cloud.png
     url: https://across.cloud/focp/
 
   - title: FinOps Certified Practitioner Training
     date: 24th March
     location: Stockholm
-    label: Vendor Member
+    label: Training Partner
     host: Across.Cloud
-    type: Training
+    type: In-person
     image: event-images_across-cloud.png
     url: https://across.cloud/focp/
 
   - title: FinOps Certified Practitioner Training
     date: 10th March
     location: London
-    label: Vendor Member
+    label: Training Partner
     host: Across.Cloud
-    type: Training
+    type: In-person
     image: event-images_across-cloud.png
     url: https://across.cloud/focp/
 
   - title: FinOps Certified Practitioner Training
     date: 29th March
     location: Virtual
-    label: Vendor Member
+    label: Training Partner
     host: Across.Cloud
-    type: Training
+    type: Virtual Event
     image: event-images_across-cloud.png
     url: https://across.cloud/focp/
