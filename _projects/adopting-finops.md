@@ -18,8 +18,6 @@ project-description: Get guidance and tooling to help your organization unlock t
 
   <p><em>It was created by the the <b>Adopting FinOps</b> working group aiming to be an evolving set of materials aiming to provide practical guidance, education and enablement that helps organizations of all sizes and cloud maturity adopt FinOps as the standard for Cloud Financial Management.</em></p>
 
-  <p><strong>This project is currently a release candidate undergoing a TAC vote on 26 October 2021.</strong></p>
-
   <h3>Resources</h3>
   <ul>
     <li>Discussion Slack: <a href="https://finopsfoundation.slack.com/archives/CMZG5KZ8Q">#adopting-finops</a></li>
