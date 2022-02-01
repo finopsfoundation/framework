@@ -72,7 +72,7 @@ There are four areas to which vendors can certify their qualifications and align
           <p class="mt-5 text-base">
              This is a tier of vetted training providers who have deep experience in cloud financial management training.
           </p>
-          <a href="/members/finops-certified-training-partner/" class="btn">View vendors</a>
+          <a href="/members/finops-certified-training-provider/" class="btn">View vendors</a>
         </div>
       </div>
     </div>
