@@ -9,7 +9,7 @@ description: Spend-based commitment discounts and resource-based commitment disc
 page-identifier: capability_commitment-discounts
 framework-capability-title: Managing Commitment Based Discounts
 framework-capability-desc: Spend-based commitment discounts and resource-based commitment discounts are the most popular rate optimizations that cloud service providers offer. This is partially because CSP native tooling and FinOps platforms enable you to plan, manage, and benefit from these types of discount constructs...
-label: Help Define
+label:
 order: 8
 
 ---

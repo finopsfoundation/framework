@@ -9,7 +9,7 @@ description: Workload Management & Automation focuses on running resources only 
 page-identifier: capability_workload-automation
 framework-capability-title: Workload Management & Automation
 framework-capability-desc: Workload Management & Automation focuses on running resources only when they are needed, and creating the mechanisms to automatically adjust what resources are running at any given time.
-label: Help Define
+label:
 order: 7
 
 ---
