@@ -17,3 +17,14 @@ form input, form textarea {
 form textarea {
   max-width: none;
 }
+
+select {
+  display: block;
+  width: 100%;
+  max-width: 400px;
+  margin-bottom:  15px;
+  border: solid 1px #a0aec0;
+  border-radius: 3px;
+  padding: 6px;
+  font-size: 14px;
+}

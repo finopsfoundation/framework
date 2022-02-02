@@ -46,11 +46,13 @@ capabilities:
 
 # Edit as appropriate to display supported clouds
 clouds-supported:
+# - Alibaba
 # - AWS
 # - Azure
-# - GCP
-# - Oracle
 # - Data Center
+# - Google Cloud
+# - IBM Cloud
+# - Oracle
 # - Private Cloud
 
 # FinOps Foundation Member since 

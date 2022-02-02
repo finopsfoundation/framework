@@ -23,15 +23,6 @@ ul.plain-list > li::before, ul[role=menu] > li::before {
   content: none;
 }
 
-hr.basic {
-  display: block;
-  border: 0;
-  height: 5px;
-  margin-top: 3em;
-  margin-bottom: 3em;
-  background-image:  none;
-}
-
 .adopting-table td {
   vertical-align: middle;
 }

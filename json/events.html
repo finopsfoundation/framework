@@ -9,6 +9,7 @@ sitemap: false
       {"objectID": "{{ forloop.index }}",
       "meta_title": "{{ item.title }}",
       "date": "{{ item.date }}",
+      "location": "{{ item.location }}",
       "date_timestamp": "{{ item.date | date: '%s' }}",
       "type": "{{ item.type }}",
       "host": "{{ item.host }}",

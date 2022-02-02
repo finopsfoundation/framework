@@ -9,10 +9,13 @@ sitemap: false
       {"objectID": "{{ forloop.index }}",
       "meta_title": "{{ item.title }}",
       "meta_desc": "{{ item.description }}",
+      "date_added": "{{ item.date-added }}",
+      "date_timestamp": "{{ item.date-added | date: '%s' }}",
       "type": "{{ item.type }}",
       "source": "{{ item.source }}",
       "label": "{{ item.label }}",
       "capabilities": [{% for capability in item.framework-capabilities %}"{{ capability }}"{% unless forloop.last %},{% endunless %}{% endfor %}],
+      "cloud-provider": "{{ item.cloud-provider }}",
       "url": "{{ item.url }}"}
     {% endcapture %}
     {% capture list_pages %}{% unless list_pages == "" %}{{ list_pages }},{% endunless %}{{ list_item }}{% endcapture %}

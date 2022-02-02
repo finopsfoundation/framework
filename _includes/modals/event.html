@@ -24,33 +24,42 @@
             <label>Don’t fill this out if you’re human </label>
             <input name="bot-field" />
           </div>
-          <div>
-            <label>First Name</label>
-            <input type="text" name="first_name" required />
+           <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
+            <div>
+              <label>First Name</label>
+              <input type="text" name="first_name" required />
+            </div>
+            <div>
+              <label>Last Name</label>
+              <input type="text" name="last_name" required />
+            </div>
           </div>
-          <div>
-            <label>Last Name</label>
-            <input type="text" name="last_name" required />
+
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
+            <div>
+              <label>Your Email</label>
+              <input type="email" name="email" required />
+            </div>
+            <div>
+              <label>Event Name</label>
+              <input type="text" name="event_name" required />
+            </div>
           </div>
-          <div>
-            <label>Your Email</label>
-            <input type="email" name="email" required />
+
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
+            <div>
+              <label>Event Host Organization</label>
+              <input type="text" name="event_host" required />
+            </div>
+            <div>
+              <label>Event Date</label>
+              <input type="text" name="event_date" required />
+            </div>
           </div>
-          <div>
-            <label>Event Name</label>
-            <input type="text" name="event_name" required />
-          </div>
-          <div>
-            <label>Event Host Organization</label>
-            <input type="text" name="event_host" required />
-          </div>
-          <div>
-            <label>Event Date</label>
-            <input type="text" name="event_date" required />
-          </div>
+
           <div>
             <label>Event Page URL</label>
-            <input type="text" name="event_url" required />
+            <input class="max-w-none" type="text" name="event_url" required />
           </div>
           <div>
             <label>Additional information</label>

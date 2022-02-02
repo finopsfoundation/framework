@@ -14,9 +14,7 @@
   <link rel="stylesheet" href="/css/main.css?{{ site.time | date: '%s%N' }}">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
-  <meta property="og:image" content="/img/social/ff-social.png?2" />
+  <meta property="og:image" content="/img/social/meta-img_{% if page.meta-img %}{{ page.meta-img }}{% else %}ff-social.png?2{% endif %}" />
   <script type="text/javascript" src="//script.crazyegg.com/pages/scripts/0107/1332.js" async="async"></script>
   <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-
-  
 </head>

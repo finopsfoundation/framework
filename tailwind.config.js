@@ -1,5 +1,3 @@
-const colors = require('tailwindcss/colors')
-
 module.exports = {
   mode: 'jit',
   content: [
@@ -10,6 +8,7 @@ module.exports = {
     './_links/**/*.{html,js,md}',
     './_pages/**/*.{html,js,md}',
     './_stories/**/*.{html,js,md}',
+    './js/**/*.js',
     './_tools-services/**/*.{html,js,md}',
     './_site/**/*.html',
   ],
@@ -17,8 +16,12 @@ module.exports = {
     colors: {
       transparent: 'transparent',
       current: 'currentColor',
-      black: colors.black,
-      white: colors.white,
+      black: '#000000',
+      white: '#ffffff',
+      yellow: '#f4ba16',
+      orange: '#ff7600',
+      purple: '#af45f4',
+      blue: '#007eab',
       green: {
         100: '#f0fff4',
         200: '#c6f6d5',
@@ -40,19 +43,7 @@ module.exports = {
         700: '#4d5966',
         800: '#1f2937',
         900: '#2f3f4e',
-      },
-      yellow: {
-        500: '#f4ba16',
-      },
-      orange: {
-        500: '#ff7600',
-      },
-      purple: {
-        500: '#af45f4',
-      },
-      blue: {
-        500: '#007eab',
-      },
+      }
     },
   },
   variants: {},

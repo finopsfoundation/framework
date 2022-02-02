@@ -1,21 +1,163 @@
 items:
-  - title: Test 3
-    description: test 3 desc
-    type: Guide
-    source: Vendor
-    label: Gated
-    url: test.com
+  - title: Our first ever FinOps vendor showcase
+    description: Vendor members were invited to shortly present their products to the community. Check out this showcase and celebration of all the interesting tools and platforms that help us make sense of cloud costs.
+    date-added: Dec 2021
+    type: Video
+    source: FinOps Foundation
+    label: 
+    url: https://youtu.be/1iBY_cfK4Rc
+    cloud-provider: Multi-Cloud
     framework-capabilities:
-      - IT Asset Management Integration
-      - FinOps Education & Enablement
-      - Managing Commitment Based Discounts
-  - title: Test 4
-    description: test 4 desc
-    type: Guide
-    source: Vendor
-    label: Gated
-    url: test.com
+
+  - title: What the FinOps Foundation learned from AWS re:Invent 2021
+    description: AWS re:Invent 2021 brought back the major cloud event in full. Many members responsibly attended, bringing big learning lessons, insights, and ideas back to our members.
+    date-added: 8th Dec 2021
+    type: Video
+    source: FinOps Foundation
+    label: 
+    url: https://youtu.be/fu5QSGEXOUA
+    cloud-provider: Multi-Cloud
     framework-capabilities:
-      - Cost Allocation (Metadata & Hierarchy)
-      - Budget Management
-      - Chargeback & IT Finance Integration
+    date-added: Dec 2021
+
+  - title: November FinOps Summit 2021 - Cultures of Accountability
+    description: View the Summit which includes keynotes on, FinOps noob to FinOps leader, Transform the culture to one of cost accountability and What’s working for FinOps leaders at big vs small companies.
+    date-added: Nov 2021
+    type: Video
+    source: FinOps Foundation
+    label: 
+    url: https://youtu.be/__DF0vLDilE
+    cloud-provider: Multi-Cloud
+    framework-capabilities:
+      - Establishing FinOps Culture
+      - Establishing a FinOps Decision & Accountability Structure
+
+  - title: October FinOps Summit 2021
+    description: View the Summit which includes keynotes on, 9 Years in FinOps Adopting FinOps, Reducing Waste, and Multi-Cloud best practices.
+    date-added: Oct 2021
+    type: Video
+    source: FinOps Foundation
+    label: 
+    url: https://youtu.be/zFFuuZpN1Hc
+    cloud-provider: Multi-Cloud
+    framework-capabilities:
+      - Establishing FinOps Culture
+
+  - title: August FinOps Summit 2021
+    description: View the Summit which includes keynotes on Adopting FinOps, Data Transfer Cost Management, Reducing Waste.
+    date-added: Aug 2021
+    type: Video
+    source: FinOps Foundation
+    label: 
+    url: https://youtu.be/H1r4TOuMm64
+    cloud-provider: Multi-Cloud
+    framework-capabilities:
+      - Establishing FinOps Culture
+
+  - title: July FinOps Summit 2021
+    description: View the Summit which includes keynotes on Getting to Unit Cost (Activity Based Costing),Adopting FinOps in the Enterprise and State of FinOps for Kubernetes.
+    date-added: Jul 2021
+    type: Video
+    source: FinOps Foundation
+    label: 
+    url: https://youtu.be/M-XiDO1VqT4
+    cloud-provider: Multi-Cloud
+    framework-capabilities:
+      - Establishing FinOps Culture
+      - Managing Shared Cost
+      - Measuring Unit Costs
+
+  - title: June FinOps Summit 2021
+    description: View the Summit which includes keynotes on Accurate Forecasting, Tracking Cloud TCO and Multi-Cloud.
+    date-added: Jun 2021
+    type: Video
+    source: FinOps Foundation
+    label: 
+    url: https://youtu.be/FziyJt-GIDY
+    cloud-provider: Multi-Cloud
+    framework-capabilities:
+      - Forecasting
+
+  - title: May FinOps Summit 2021
+    description: View the Summit which includes keynotes on Accurate Forecasting, Google Cloud and Dealing with Shared Costs.
+    date-added: May 2021
+    type: Video
+    source: FinOps Foundation
+    label: 
+    url: https://youtu.be/meWi2xj1JGY
+    cloud-provider: Multi-Cloud
+    framework-capabilities:
+      - Forecasting
+      - Managing Shared Cost
+      
+  - title: April FinOps Summit 2021
+    description: View the Summit which includes keynotes on Engineering Action Work Group, Accurate Forecasting and with Shared Costs.
+    date-added: Apr 2021
+    type: Video
+    source: FinOps Foundation
+    label: 
+    url: https://youtu.be/ck8EbE38MNs
+    cloud-provider: Multi-Cloud
+    framework-capabilities:
+      - Forecasting
+      - Managing Shared Cost
+
+  - title: Encouraging Engineers to Take Action
+    description: How finance, operations, and executives can work better together at encouraging more cloud cost optimization from their engineering teams.
+    date-added: Apr 2021
+    type: Guide
+    source: FinOps Foundation
+    label: 
+    url: /projects/encouraging-engineers-to-take-action/
+    cloud-provider: Multi-Cloud
+    framework-capabilities:
+
+  - title: A Guide to Spreading Out Shared Costs
+    description: Every organization has shared IT costs, and these span multiple business departments.
+    date-added: Apr 2021
+    type: Guide
+    source: FinOps Foundation
+    label: 
+    url: /projects/identifying-shared-costs/
+    cloud-provider: Multi-Cloud
+    framework-capabilities:
+
+  - title: Calculating Container Costs
+    description: Addressing how and why containers complicate how teams manage the visibility and optimization of container costs, and how to apply FinOps best practices to improve cloud financial management.
+    date-added: Oct 2020
+    type: Guide
+    source: FinOps Foundation
+    label: 
+    url: /projects/calculating-container-costs/
+    cloud-provider: Multi-Cloud
+    framework-capabilities:
+
+  - title: Accurate Cloud Forecasts
+    description: How finance, operations, and executives build models to forecast cloud spend and allocate budgets to business units.
+    date-added: Sep 2021
+    type: Guide
+    source: FinOps Foundation
+    label: 
+    url: /projects/accurate-cloud-forecasts/
+    cloud-provider: Multi-Cloud
+    framework-capabilities:
+
+  - title: Multi-Cloud Tools and Terminology
+    description: Ensure that there are materials that help translate core tools and terminology concepts across multiple cloud service providers.
+    date-added: Sep 2021
+    type: Guide
+    source: FinOps Foundation
+    label: 
+    url: /projects/multi-cloud-tools-and-terminology/
+    cloud-provider: Multi-Cloud
+    framework-capabilities:
+
+  - title: Reducing Waste Opportunities
+    description: A collection of resources to help identify types of cloud cost waste by service provider, including links to additional tools.
+    date-added: Oct 2021
+    type: Utility
+    source: FinOps Foundation
+    label: 
+    url: /projects/reducing-waste/
+    cloud-provider: Multi-Cloud
+    framework-capabilities:

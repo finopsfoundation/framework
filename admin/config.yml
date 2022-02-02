@@ -1,6 +1,6 @@
 backend:
-  name: git-gateway
-  # name: test-repo
+  # name: git-gateway
+  name: test-repo
   branch: master # Branch to update (optional; defaults to master)
 
 publish_mode: editorial_workflow
@@ -121,17 +121,20 @@ collections:
                   options: ["Guide", "Blog", "Whitepaper", "Video", "Playbook", "Utility"],
                 }
               - {
-                  label: "Source",
-                  name: "source",
+                  label: "Category",
+                  name: "category",
                   widget: "select",
-                  options: ["3rd Party", "Vendor", "Member", "FinOps Foundation"],
+                  options: ["Gated", "Vendor Contribution", "Practitioner Contribution", "FinOps Foundation Approved"],
+                  required: false,
+                  multiple: true
                 }
               - {
-                  label: "Label",
-                  name: "label",
+                  label: "Cloud Specific",
+                  name: "cloud-provider",
                   widget: "select",
-                  options: ["Gated", "Paywall"],
-                  required: false
+                  options: ["Alibaba", "AWS", "Azure", "Google Cloud", "IBM Cloud", "Oracle", "Private Cloud"],
+                  required: false,
+                  multiple: true
                 }
               - {
                   label: "Capabilities",
@@ -145,3 +148,30 @@ collections:
                   required: false
                 }
               - {label: "URL", name: "url", widget: "string"}
+              - {
+                  label: "Image (600x400)",
+                  name: "thumbnail",
+                  widget: "image",
+                  choose_url: false,
+                  allow_multiple: false
+                }
+              - {
+                  label: "Date Added",
+                  name: "date",
+                  widget: "datetime",
+                  default: "",
+                  date_format: "DD.MM.YYYY",
+                  format: "LL",
+                  time_format: false,
+                  picker_utc: false
+                }
+              - {
+                  label: "Timestamp",
+                  name: "timestamp",
+                  widget: "datetime",
+                  default: "",
+                  date_format: "DD.MM.YYYY",
+                  format: "X",
+                  time_format: false,
+                  picker_utc: false
+                }
