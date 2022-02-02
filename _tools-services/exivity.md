@@ -12,18 +12,18 @@ website-url: "https://exivity.com/"
 # Maximum character count is 350 the rest will be truncated and hidden automatically on your page
 company-description: Exivity is a cloud agnostic metering and billing software solution for hybrid cloud environments. By retrieving data from any public and on-premises cloud, Exivity creates a 360-degree view across all IT consumption supporting any MSP/CSP customer billing or enterprise chargeback/showback use case.
 
-# Membership level, type and vendor certifications 
+# Membership level, type and vendor certifications
 member-level: general
 
-type: 
+type:
 - Platform Provider
- 
+
 certified-status:
 #- FinOps Certified Service Provider
-#- FinOps Certified Platform
+- FinOps Certified Platform
 #- FinOps Training Partner
 
-# Product(s) or service overview maximum character count is 1000 the rest will be truncated and hidden automatically on your page 
+# Product(s) or service overview maximum character count is 1000 the rest will be truncated and hidden automatically on your page
 product-overview: |
   Exivity is a flexible metering and billing tool capable of satisfying the requirements of any IT service delivery model, whether deployed on-premise, in public or in hybrid clouds. In addition to services provided by the cloud, Exivity can retrieve data from associated systems such as a CMDB and use this to create custom services such as VM t-shirt sizes, backups, etc.. Exivity gives you control over your assets and financial insights to automate your IT delivery:
 
@@ -49,7 +49,7 @@ product-overview: |
 
 product-video-url: "https://www.youtube.com/embed/HKtIs0RcweI"
 
-# Related product or service resources, the titles will have associated URLs, e.g. product 
+# Related product or service resources, the titles will have associated URLs, e.g. product
 product-resources:
 - title: Exivity product features
   url: "https://exivity.com/features"
@@ -80,15 +80,15 @@ clouds-supported:
 - Data Center
 - Private Cloud
 
-# FinOps Foundation Member since 
+# FinOps Foundation Member since
 date: 2021-09-01
 
 # Show recent related FinOps activity, it can be content, webinars, thought leadership and include external links
 recent-finops-activity:
-- title: Gain & maintain visibility of costs across hybrid clouds 
+- title: Gain & maintain visibility of costs across hybrid clouds
   url: https://exivity.com/blog/2019/09/gain-and-maintain-visibility-of-costs-across-hybrid-clouds
 
-# Detail related/dedicated slack channels in the FinOps Foundation Slack 
+# Detail related/dedicated slack channels in the FinOps Foundation Slack
 slack-channels:
 - title: #exivity
   url: 'https://finopsfoundation.slack.com/archives/C02Q5U9LCLA'
@@ -97,7 +97,7 @@ slack-channels:
 number-of-focp: 3
 
 # List the key contribution areas in the FinOps Foundation, examples listed
-contribution-areas: 
+contribution-areas:
 - Azure
 
 ---

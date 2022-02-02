@@ -18,15 +18,18 @@ company-description: |
 
   HCL’s innovative cloud-inception framework helps establish, adopt, and manage complex IT environments, combining aspects of people, process, and technology. We are premier and Managed Services partner (MSP) with AWS, Microsoft Azure and Google Cloud. Our skills and expertise in delivering cloud-based products help enterprises plan for digital transformation and embark on a cloud native journey.
 
-# Membership level, type and vendor certifications 
+# Membership level, type and vendor certifications
 member-level: general
 
-type: 
+type:
 - Service Provider
- 
-certified-status:
+- Platform Provider
 
-# Product(s) or service overview maximum character count is 1000 the rest will be truncated and hidden automatically on your page 
+certified-status:
+- FinOps Certified Service Provider
+- FinOps Certified Platform
+
+# Product(s) or service overview maximum character count is 1000 the rest will be truncated and hidden automatically on your page
 product-overview: |
   FinOps at HCL is a framework that focuses on equating cost to the need in cloud operations. With HCL FinOps, we aim to bring consistency, visibility and control throughout cloud operations. To support the three iterative stages of FinOps i.e., inform, optimize, and govern, we follow a 6-point approach -
 
@@ -46,7 +49,7 @@ product-overview: |
 
 product-video-url:
 
-# Related product or service resources, the titles will have associated URLs, e.g. product 
+# Related product or service resources, the titles will have associated URLs, e.g. product
 product-resources:
 - title: FinOps - Cloud Economics Accountability for All
   url: "https://www.hcltech.com/blogs/finops-cloud-economics-accountability-all"
@@ -75,7 +78,7 @@ clouds-supported:
 - Azure
 - GCP
 
-# FinOps Foundation Member since 
+# FinOps Foundation Member since
 date: 2021-07-01
 
 # Show recent related FinOps activity, it can be content, webinars, thought leadership and include external links
@@ -85,13 +88,13 @@ recent-finops-activity:
 - title: "Cloud Economics Management: Enabling Enterprise Agility and Financial Accountability"
   url: "https://www.hcltech.com/blogs/cloud-economics-management-enabling-enterprise-agility-and-financial-accountability"
 
-# Detail related/dedicated slack channels in the FinOps Foundation Slack 
+# Detail related/dedicated slack channels in the FinOps Foundation Slack
 slack-channels:
 - title:
   url:
 
 # The total number of FinOps Certified Practitioners at the vendor
-number-of-focp: 97
+number-of-focp: 99
 
 # List the key contribution areas in the FinOps Foundation, examples listed
 contribution-areas:

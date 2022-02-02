@@ -16,11 +16,14 @@ Our solutions provide business improvement by implementing Machine Learning, Pre
 # Membership level, type and vendor certifications
 member-level: general
 
-type: 
+type:
 - Service Provider
+- Platform Provider
 
 certified-status:
 - FinOps Certified Service Provider
+- FinOps Certified Platform
+
 
 # Product(s) or service overview maximum character count is 1000 the rest will be truncated and hidden automatically on your page
 product-overview: |
@@ -34,8 +37,8 @@ product-overview: |
 
 product-video-url: "https://www.youtube.com/embed/rpa4nNNkONA"
 
-# Related product or service resources, the titles will have associated URLs, e.g. product 
-product-resources: 
+# Related product or service resources, the titles will have associated URLs, e.g. product
+product-resources:
 - title: CloudVane - See through the Multicloud
   url: "https://www.cloudvane.com/"
 - title: CloudVane Linkedin
@@ -50,12 +53,12 @@ capabilities:
 - capability_normalization
 - capability_budget-management
 
-# Edit as appropriate to display supported clouds 
+# Edit as appropriate to display supported clouds
 clouds-supported:
 - Azure
 - Oracle
 
-# FinOps Foundation Member since 
+# FinOps Foundation Member since
 date: 2020-08-01
 
 # Show recent related FinOps activity, it can be content, webinars, thought leadership and include external links
@@ -75,7 +78,7 @@ slack:
 # The total number of FinOps Certified Practitioners at the vendor
 number-of-focp: 6
 
-# List the key contribution areas in the FinOps Foundation, examples listed 
+# List the key contribution areas in the FinOps Foundation, examples listed
 contribution-areas:
 
 ---
