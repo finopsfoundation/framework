@@ -9,7 +9,7 @@ description: This capability examines the integrations between FinOps and IT Ass
 page-identifier: capability_asset-management
 framework-capability-title: IT Asset Management Integration
 framework-capability-desc: This capability examines the integrations between FinOps and IT Asset Management. Widespread use of public cloud creates new challenges for both ITAM and configuration management organizations in several regards...
-label: Help Define
+label:
 order: 15
 
 ---
