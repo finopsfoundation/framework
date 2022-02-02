@@ -5,11 +5,11 @@ permalink: /framework/capabilities/manage-commitment-based-discounts/
 search: true
 
 title: Managing Commitment Based Discounts
-description: coming soon...
+description: Spend-based commitment discounts and resource-based commitment discounts are the most popular rate optimizations that cloud service providers offer. This is partially because CSP native tooling and FinOps platforms enable you to plan, manage, and benefit from these types of discount constructs...
 page-identifier: capability_commitment-discounts
 framework-capability-title: Managing Commitment Based Discounts
-framework-capability-desc: coming soon...
-label: Help Define
+framework-capability-desc: Spend-based commitment discounts and resource-based commitment discounts are the most popular rate optimizations that cloud service providers offer. This is partially because CSP native tooling and FinOps platforms enable you to plan, manage, and benefit from these types of discount constructs...
+label:
 order: 8
 
 ---
@@ -24,7 +24,15 @@ order: 8
 
 
 ## Definition
-_definition for this Capability.  the objective here is to capture the "What" (**not** the "How") for this Capability._
+
+Cloud services have different approaches that leverage spend commitment to offer discounts on services. These vary from customized commercially negotiated discounts, to spend-based commitment discounts like AWS Savings Plans, resource-based commitment discounts like Google CUDs and others.
+
+Spend-based commitment discounts and resource-based commitment discounts are the most popular rate optimizations that cloud service providers offer. This is partially because CSP native tooling and FinOps platforms enable you to plan, manage, and benefit from these types of discount constructs.
+
+Each cloud service provider has a slightly different offering with its own specific rules on how it works and the discounts it provides. You must also consider the implementation models that organizations use, based on their needs, and how the overall process should work inside an organization.
+
+Altogether the implementation of these strategies drives an organizations Effective Savings Rate (ESR). It is important to note that under utilization of a commitment based discount would also negatively impact ESR as would significant usage not covered by discounts.
+
 
 
 ## Maturity Assessment
