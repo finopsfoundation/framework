@@ -5,10 +5,10 @@ permalink: /framework/capabilities/workload-management-automation/
 search: true
 
 title: Workload Management & Automation
-description: coming soon...
+description: Workload Management & Automation focuses on running resources only when they are needed, and creating the mechanisms to automatically adjust what resources are running at any given time.
 page-identifier: capability_workload-automation
 framework-capability-title: Workload Management & Automation
-framework-capability-desc: coming soon...
+framework-capability-desc: Workload Management & Automation focuses on running resources only when they are needed, and creating the mechanisms to automatically adjust what resources are running at any given time.
 label: Help Define
 order: 7
 
@@ -24,7 +24,10 @@ order: 7
 
 
 ## Definition
-_definition for this Capability.  the objective here is to capture the "What" (**not** the "How") for this Capability._
+
+Workload Management & Automation focuses on running resources only when they are needed, and creating the mechanisms to automatically adjust what resources are running at any given time.  This Capability is intended to give FinOps teams the ability to match supply to demand most efficiently, and effectively optimize cloud usage through measurement of workload demand and provisioning capacity dynamically.
+
+
 
 
 ## Maturity Assessment
