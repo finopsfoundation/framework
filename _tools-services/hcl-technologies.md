@@ -94,7 +94,7 @@ slack-channels:
   url:
 
 # The total number of FinOps Certified Practitioners at the vendor
-number-of-focp: 99
+number-of-focp: 102
 
 # List the key contribution areas in the FinOps Foundation, examples listed
 contribution-areas:
