@@ -11,7 +11,7 @@ sitemap: false
       "date": "{{ item.date }}",
       "location": "{{ item.location }}",
       "date_timestamp": "{{ item.date | date: '%s' }}",
-      "type": "{{ item.type }}",
+      "type": [{% for type in item.type %} "{{ type }}"{% unless forloop.last %},{% endunless %}{% endfor %}],
       "host": "{{ item.host }}",
       "image": "{{ item.image }}",
       "label": "{{ item.label }}",

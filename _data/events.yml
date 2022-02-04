@@ -160,3 +160,14 @@ items:
     type: Virtual Event
     image: event-images_across-cloud.png
     url: https://across.cloud/focp/
+
+  - title: Google Next
+    date: 11th - 13th October
+    location: Unknown 
+    label: Cloud Provider
+    host: Google Cloud
+    type: 
+      - Virtual Event
+      - In-person
+    image: event-images_google-cloud.png
+    url: https://cloud.withgoogle.com/next
