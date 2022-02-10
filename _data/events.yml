@@ -183,7 +183,7 @@ items:
     image: event-images_summit.png
     url: https://go.finops.org/london-meetup
 
-  - title: FinOps Certified Practitioner
+  - title: FinOps Certified Practitioner Training
     date: 15th - 16th February
     location: Virtual 
     label: FinOps Foundation Training
@@ -193,7 +193,7 @@ items:
     image: event-images_f2.png
     url: https://learn.finops.org/finops-certified-practitioner-february-15-16
 
-  - title: FinOps Certified Practitioner
+  - title: FinOps Certified Practitioner Training
     date: 15th - 16th March
     location: Virtual 
     label: FinOps Foundation Training
@@ -203,7 +203,7 @@ items:
     image: event-images_f2.png
     url: https://learn.finops.org/finops-certified-practitioner-march-15-16
 
-  - title: FinOps Certified Practitioner
+  - title: FinOps Certified Practitioner Training
     date: 26th - 27th April
     location: Virtual 
     label: FinOps Foundation Training
@@ -213,7 +213,7 @@ items:
     image: event-images_f2.png
     url: https://learn.finops.org/finops-certified-practitioner-april-26-27
 
-  - title: FinOps Certified Practitioner
+  - title: FinOps Certified Practitioner Training
     date: 10th - 11th May
     location: Virtual 
     label: FinOps Foundation Training
@@ -223,7 +223,7 @@ items:
     image: event-images_f2.png
     url: https://learn.finops.org/finops-certified-practitioner-may-10-11
 
-  - title: FinOps Certified Practitioner
+  - title: FinOps Certified Practitioner Training
     date: 14th - 15th June
     location: Virtual 
     label: FinOps Foundation Training
