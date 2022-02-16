@@ -52,7 +52,7 @@ The FinOps TAC is the technical governing body of the FinOps Foundation which ov
      <div class="w-1/2 md:w-1/3 p-2 flex">
       <div class="flex flex-col bg-gray-100 w-full items-stretch text-center p-2 rounded-lg shadow-sm border-solid border-gray-200 border hover:-translate-y-1 hover:shadow-lg transition transform duration-500 hover:border-green-500">
         <div>
-          <img src="{{ person.image }}" alt="{{ person.name }}" width="150" class="rounded-full inline-block" />
+          <img src="/img/people/{{ person.image }}" alt="{{ person.name }}" width="150" class="rounded-full inline-block" />
         </div>
         <div class="flex-grow">
           <h3 class="mb-1 mt-2">{{ person.name }}</h3>
@@ -86,7 +86,7 @@ The GB currently consists of these representatives:
      <div class="w-1/2 md:w-1/3 p-2 flex">
       <div class="flex flex-col bg-gray-100 w-full items-stretch text-center p-2 rounded-lg shadow-sm border-solid border-gray-200 border hover:-translate-y-1 hover:shadow-lg transition transform duration-500 hover:border-green-500">
         <div>
-          <img src="{{ person.image }}" alt="{{ person.name }}" width="150" class="rounded-full inline-block" />
+          <img src="/img/people/{{ person.image }}" alt="{{ person.name }}" width="150" class="rounded-full inline-block" />
         </div>
         <div class="flex-grow">
           <h3 class="mb-1 mt-2">{{ person.name }}</h3>
