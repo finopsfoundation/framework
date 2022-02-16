@@ -32,7 +32,6 @@ We are here to advance the people who do cloud financial management:
 
 - Open standards and best practices through the FinOps.org Framework
 
-
 ## How is the FinOps Foundation structured?
 
 The FinOps Foundation includes a Governing Board and Technical Advisory Board, as well as a variety of committees such as education.
