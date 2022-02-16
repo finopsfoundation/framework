@@ -1,22 +1,4 @@
 items:
-  - title: February FinOps Summit
-    date: 10th February
-    location: Virtual
-    label: FinOps Foundation
-    host: FinOps Foundation
-    type: Virtual Event
-    image: event-images_summit.png
-    url: https://go.finops.org/finops-summit
-
-  - title: February FinOps Summit (APAC)
-    date: 11th February
-    location: Virtual
-    label: FinOps Foundation
-    host: FinOps Foundation
-    type: Virtual Event
-    image: event-images_summit.png
-    url: https://go.finops.org/finops-summit
-
   - title: March FinOps Summit
     date: 10th March
     location: Virtual

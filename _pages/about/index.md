@@ -4,14 +4,14 @@ layout: wide
 permalink: /about/
 search: true
 
-title: About the FinOps Foundation
+title: About the FinOps Foundation, advancing the people who do cloud financial management
 description: The FinOps Foundation is a non-profit trade association made up of FinOps practitioners around the world - learn more today.
 
 ---
 
 # About The FinOps Foundation
 
-The FinOps Foundation is a program of the [The Linux Foundation](http://linuxfoundation.org) (alongside organizations like [Cloud Native Computing Foundation](http://cncf.io)) dedicated to advancing the discipline of cloud financial management through best practices, education and standards. The FinOps Foundation includes 4400+ individual members, representing more than 1500 companies. It provides a variety of training and certification programs including the [FinOps Certified Practitioner](https://learn.finops.org/) designation. It counts dozens of major service and platform providers as part of our vendor certification programs such as [FinOps Certified Platform](/members/vendor-certification/) and [FinOps Certified Service Provider](/members/vendor-certification/) programs.
+The FinOps Foundation is a program of the [The Linux Foundation](http://linuxfoundation.org) (alongside organizations like [Cloud Native Computing Foundation](http://cncf.io)) dedicated to advancing people who practice the discipline of cloud financial management through best practices, education and standards. The FinOps Foundation includes 5300+ individual members, representing more than 1500 companies. It provides a variety of training and certification programs including the [FinOps Certified Practitioner](https://learn.finops.org/) designation. It counts dozens of major service and platform providers as part of our vendor certification programs such as [FinOps Certified Platform](/members/vendor-certification/) and [FinOps Certified Service Provider](/members/vendor-certification/) programs.
 
 - Mission
 - Structure
@@ -26,12 +26,11 @@ To build a **community** where we advance members by empowering them with **stan
 
 We are here to advance the people who do cloud financial management:
 
-- Central community for cloud financial management through virtual events, meetups, slack and other channels
+- Central community for learning FinOps through virtual events, meetups, slack and other channels
 
-- Advance careers of FinOps practitioners through career development, training and certification
+- Career development of practitioners through training and certification
 
-- Define cloud financial management standards through open source collaboration
-
+- Open standards and best practices through the FinOps.org Framework
 
 ## How is the FinOps Foundation structured?
 
@@ -52,7 +51,7 @@ The FinOps TAC is the technical governing body of the FinOps Foundation which ov
      <div class="w-1/2 md:w-1/3 p-2 flex">
       <div class="flex flex-col bg-gray-100 w-full items-stretch text-center p-2 rounded-lg shadow-sm border-solid border-gray-200 border hover:-translate-y-1 hover:shadow-lg transition transform duration-500 hover:border-green-500">
         <div>
-          <img src="{{ person.image }}" alt="{{ person.name }}" width="150" class="rounded-full inline-block" />
+          <img src="/img/people/{{ person.image }}" alt="{{ person.name }}" width="150" class="rounded-full inline-block" />
         </div>
         <div class="flex-grow">
           <h3 class="mb-1 mt-2">{{ person.name }}</h3>
@@ -86,7 +85,7 @@ The GB currently consists of these representatives:
      <div class="w-1/2 md:w-1/3 p-2 flex">
       <div class="flex flex-col bg-gray-100 w-full items-stretch text-center p-2 rounded-lg shadow-sm border-solid border-gray-200 border hover:-translate-y-1 hover:shadow-lg transition transform duration-500 hover:border-green-500">
         <div>
-          <img src="{{ person.image }}" alt="{{ person.name }}" width="150" class="rounded-full inline-block" />
+          <img src="/img/people/{{ person.image }}" alt="{{ person.name }}" width="150" class="rounded-full inline-block" />
         </div>
         <div class="flex-grow">
           <h3 class="mb-1 mt-2">{{ person.name }}</h3>

@@ -1,9 +1,10 @@
 - name: Introduction
   children:
   - name: What is FinOps
+  - name: Getting Started
   - name: Adopting FinOps
     url: /projects/adopting-finops/
-  - name: FinOps Foundation
+  - name: About the Foundation
     url: /about/
 
 - name: FinOps Framework
