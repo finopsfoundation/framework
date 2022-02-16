@@ -231,7 +231,7 @@ body.hc-nav-open {
     -ms-user-select: none;
     user-select: none;
     display: none;
-    top: 80px;
+    top: 50px;
     right: 20px;
     z-index: 9980;
     width: 30px;

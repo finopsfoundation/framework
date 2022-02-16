@@ -4,7 +4,7 @@
 </div>
 {% endif %}
 <div class="w-full bg-gray-900">
-  <div class="relative max-w-screen-xl mx-auto {% if page.identifier == 'framework' or page.identifier == 'projects' %}pt-6 {% endif %}">
+  <div class="container mx-auto {% if page.identifier == 'framework' or page.identifier == 'projects' %}pt-6 {% endif %}">
     <div class="mx-auto px-4 sm:px-6">
       <div class="flex flex-col md:flex-row md:justify-between py-8 md:justify-start md:space-x-10">
         <div class="flex items-center mb-6 lg:w-0 lg:flex-1 md:p-0 md:mb-0">
@@ -12,25 +12,22 @@
             <img class="h-16 w-auto" src="/img/finops-logo_white.svg?3" alt="FinOps Foundation Logo">
           </a>
         </div>
-        <div class="text-center">
+        <div class="text-center flex items-center">
           <div>
           
-            <a href="/membership/" class="inline-flex justify-center py-2 px-4 border text-sm leading-relaxed font-medium rounded-sm text-white border border-white font-normal hover:bg-white hover:text-green-500 transition-colors duration-200 mr-2" data-ga-category="links" data-ga-action="internal link clicks" data-ga-label="membership - header nav button">
+            <a href="/membership/" class="inline-flex justify-center py-2 px-4 text-sm leading-relaxed font-medium rounded-sm text-white border border-green-500 font-normal bg-green-500 hover:bg-green-600 hover:border-green-600 transition-colors duration-200 mr-2" data-ga-category="links" data-ga-action="internal link clicks" data-ga-label="membership - header nav button">
               Join the Community
             </a>
 
-            <a href="https://finopsfoundation.slack.com" class="inline-flex justify-center py-2 px-4 border text-sm leading-relaxed font-medium rounded-sm text-white border border-white font-normal hover:bg-green-500 hover:border-green-500 transition-colors duration-200" data-ga-category="links" data-ga-action="internal link clicks" data-ga-label="header nav - slack">
+            <a href="https://finopsfoundation.slack.com" class="inline-flex justify-center py-2 px-4 border text-sm leading-relaxed font-medium rounded-sm text-white border border-white font-normal hover:bg-orange-500 hover:border-orange-500 transition-colors duration-200 mr-2" data-ga-category="links" data-ga-action="internal link clicks" data-ga-label="header nav - slack">
+              Get Certified
+            </a>
+
+            <a href="https://finopsfoundation.slack.com" class="inline-flex justify-center py-2 px-4 border text-sm leading-relaxed font-medium rounded-sm text-white border border-white font-normal hover:bg-blue hover:border-blue transition-colors duration-200" data-ga-category="links" data-ga-action="internal link clicks" data-ga-label="header nav - slack">
               Slack Login
             </a>
 
           </div>
-
-          <div class="mt-4 lg:text-xs text-sm leading-relaxed  text-gray-400">
-            <a href="https://learn.finops.org/" class="hover:text-white  transition-colors duration-200 border-solid border-b border-gray-400 pb-px" data-ga-category="links" data-ga-action="internal link clicks" data-ga-label="certification - header nav">Get Certified</a> or <a href="https://www.amazon.com/Cloud-FinOps-Collaborative-Real-Time-Management/dp/1492054623" class="hover:text-white  transition-colors duration-200 border-solid border-b border-gray-400 pb-px" data-ga-category="links" data-ga-action="internal link clicks" data-ga-label="header nav - book">
-            Order the FinOps Book
-            </a>
-          </div>
-          
         </div>
       </div>
     </div>

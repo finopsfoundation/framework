@@ -1,6 +1,5 @@
-<footer class="bg-white sm:mt-10 lg:mt-16">
-  
-  {% if page.identifier == 'framework' or page.identifier == 'projects' %}
+<div class="sm:mt-10 lg:mt-16">
+ {% if page.identifier == 'framework' or page.identifier == 'projects' %}
   <div>
     <img src="/img/community/footer-1.svg" class="w-full">
   </div>
@@ -9,81 +8,77 @@
     <img src="/img/corp/footer-1.svg" class="w-full">
   </div>
   {% endif %}
-  
-  <div class="container mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
-    <div class="xl:grid xl:grid-cols-3 xl:gap-8">
-      <div class="space-y-8 xl:col-span-1">
-        <img class="h-10" src="/img/finops-icon_gray.svg?2" alt="FinOps Foundation">
-        <p class="text-gray-600 text-base m-0">
-          FinOps.org delivers real world stories, expertise, and inspiration for and by FinOps leaders and practitioners.
-        </p>
-        <div class="flex space-x-6">
-          <a href="https://www.linkedin.com/company/finops-foundation" class="text-gray-400 hover:text-gray-500">
-            <span class="sr-only">Linkedin</span>
-            <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-              <path class="st0" d="M21.8,0H2.2C1,0,0,1,0,2.2v19.7C0,23,1,24,2.2,24h19.7c1.2,0,2.2-1,2.2-2.2V2.2C24,1,23,0,21.8,0z M7.4,20.7
-                c0,0.3-0.3,0.6-0.6,0.6H4.1c-0.3,0-0.6-0.3-0.6-0.6V9.4c0-0.3,0.3-0.6,0.6-0.6h2.7c0.3,0,0.6,0.3,0.6,0.6V20.7z M5.5,7.8
-                C4,7.8,2.9,6.6,2.9,5.2S4,2.6,5.5,2.6S8,3.8,8,5.2S6.9,7.8,5.5,7.8z M21.5,20.8c0,0.3-0.3,0.6-0.6,0.6H18c-0.3,0-0.6-0.3-0.6-0.6
-                v-5.3c0-0.8,0.2-3.5-2.1-3.5c-1.8,0-2.1,1.8-2.2,2.6v6.1c0,0.3-0.3,0.6-0.6,0.6H9.8c-0.3,0-0.6-0.3-0.6-0.6V9.4
-                c0-0.3,0.3-0.6,0.6-0.6h2.8c0.3,0,0.6,0.3,0.6,0.6v1c0.7-1,1.6-1.8,3.7-1.8c4.6,0,4.6,4.3,4.6,6.7L21.5,20.8L21.5,20.8z"/>
-            </svg>
-          </a>
+</div>
 
-          <a href="https://github.com/finopsfoundation" class="text-gray-400 hover:text-gray-500">
-            <span class="sr-only">GitHub</span>
-            <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
-              <path fill-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clip-rule="evenodd" />
-            </svg>
-          </a>
+<footer class="bg-gray-100">
+  <div class="grid grid-cols-2 container px-4 mx-auto pt-12">
+    <div>
+      <img class="h-10" src="/img/finops-logo_blue.svg" alt="FinOps Foundation">
+    </div>
+    <div>
+      <div class="flex space-x-6 justify-end">
+        <a href="https://www.linkedin.com/company/finops-foundation" class="text-gray-700 hover:text-gray-600">
+          <span class="sr-only">Linkedin</span>
+          <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+            <path class="st0" d="M21.8,0H2.2C1,0,0,1,0,2.2v19.7C0,23,1,24,2.2,24h19.7c1.2,0,2.2-1,2.2-2.2V2.2C24,1,23,0,21.8,0z M7.4,20.7
+              c0,0.3-0.3,0.6-0.6,0.6H4.1c-0.3,0-0.6-0.3-0.6-0.6V9.4c0-0.3,0.3-0.6,0.6-0.6h2.7c0.3,0,0.6,0.3,0.6,0.6V20.7z M5.5,7.8
+              C4,7.8,2.9,6.6,2.9,5.2S4,2.6,5.5,2.6S8,3.8,8,5.2S6.9,7.8,5.5,7.8z M21.5,20.8c0,0.3-0.3,0.6-0.6,0.6H18c-0.3,0-0.6-0.3-0.6-0.6
+              v-5.3c0-0.8,0.2-3.5-2.1-3.5c-1.8,0-2.1,1.8-2.2,2.6v6.1c0,0.3-0.3,0.6-0.6,0.6H9.8c-0.3,0-0.6-0.3-0.6-0.6V9.4
+              c0-0.3,0.3-0.6,0.6-0.6h2.8c0.3,0,0.6,0.3,0.6,0.6v1c0.7-1,1.6-1.8,3.7-1.8c4.6,0,4.6,4.3,4.6,6.7L21.5,20.8L21.5,20.8z"/>
+          </svg>
+        </a>
 
-           <a href="https://www.youtube.com/channel/UCyl26lvnoySlGWlF5oNHvYA" class="text-gray-400 hover:text-gray-500 -mt-2">
-            <span class="sr-only">YouTube</span>
-             <svg class="h-10 w-10" fill="currentColor" viewBox="0 0 512 512" aria-hidden="true">
-              <path fill-rule="evenodd" clip-rule="evenodd" d="m427 169c-4-15-17-27-32-31-34-9-239-10-278 0-15 4-28 16-32 31-9 38-10 135 0 174 4 15 17 27 32 31 36 10 241 10 278 0 15-4 28-16 32-31 9-36 9-137 0-174"></path>
-              <path d="m220 203v106l93-53" fill="#FFF"></path>
-            </svg>
-          </a>     
+        <a href="https://github.com/finopsfoundation" class="text-gray-700 hover:text-gray-600">
+          <span class="sr-only">GitHub</span>
+          <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+            <path fill-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clip-rule="evenodd" />
+          </svg>
+        </a>
 
-        </div>
+         <a href="https://www.youtube.com/channel/UCyl26lvnoySlGWlF5oNHvYA" class="text-gray-700 hover:text-gray-600 -mt-2">
+          <span class="sr-only">YouTube</span>
+           <svg class="h-10 w-10 mt-px" fill="currentColor" viewBox="0 0 512 512" aria-hidden="true">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="m427 169c-4-15-17-27-32-31-34-9-239-10-278 0-15 4-28 16-32 31-9 38-10 135 0 174 4 15 17 27 32 31 36 10 241 10 278 0 15-4 28-16 32-31 9-36 9-137 0-174"></path>
+            <path d="m220 203v106l93-53" fill="#FFF"></path>
+          </svg>
+        </a>     
+
       </div>
-      <div class="mt-8 grid grid-cols-2 gap-8 xl:mt-0 xl:col-span-2 hidden md:grid">
-        <div class="md:grid md:grid-cols-2 md:gap-8">
-          <div></div>
-          <div>
-            <h3 class="text-sm font-semibold text-gray-700 tracking-wider uppercase">
-              Certification
-            </h3>
-            <ul class="mt-4 space-y-4 m-0 plain-list">
-              
-              {% for item in site.data.navigation_footer %}
-                {% if item.name == 'Certification' %}
-                  {% if item.children != null %}
-                    {% for child in item.children %}
-                    <li>
-                      <a href="{{ child.url }}" class="lg:text-sm font-normal text-gray-600 hover:text-gray-800 transition-colors duration-200">
-                      {{ child.name }}
-                      </a>
-                    </li>
-                    {% endfor %}
-                  {% endif %}
+
+    </div>
+  </div>
+
+  <div class="container px-4 mx-auto">
+    <div class="pt-12 md:w-7/12 lg:w-6/12 xl:w-5/12">
+      <div class="grid md:grid-cols-3">
+        <div class="mb-4 md:m-0">
+          <h3 class="text-sm font-semibold text-gray-700 tracking-wider uppercase m-0 mb-2">FinOps Foundation</h3>
+          <ul class="m-0 plain-list">
+            {% for item in site.data.navigation_footer %}
+              {% if item.name == 'FinOps Foundation' %}
+                {% if item.children != null %}
+                  {% for child in item.children %}
+                  <li class="m-0">
+                    <a href="{{ child.url }}" class="text-sm font-normal text-gray-600 hover:text-gray-800 transition-colors duration-200">
+                    {{ child.name }}
+                    </a>
+                  </li>
+                  {% endfor %}
                 {% endif %}
-              {% endfor %}
-            </ul>
-          </div>
+              {% endif %}
+            {% endfor %}
+          </ul>
         </div>
-        <div class="md:grid md:grid-cols-2 md:gap-8">
-          <div class="mt-12 md:mt-0">
-            <h3 class="text-sm font-semibold text-gray-700 tracking-wider uppercase">
-              Resources
-            </h3>
-            <ul class="mt-4 space-y-4 m-0 plain-list">
-              
+
+        <div class="mb-4 md:m-0">
+           <h3 class="text-sm font-semibold text-gray-700 tracking-wider uppercase m-0 mb-2">Resources</h3>
+            <ul class="m-0 plain-list">
               {% for item in site.data.navigation_footer %}
                 {% if item.name == 'Resources' %}
                   {% if item.children != null %}
                     {% for child in item.children %}
-                    <li>
-                      <a href="{{ child.url }}" class="lg:text-sm font-normal text-gray-600 hover:text-gray-800 transition-colors duration-200">
+                    <li class="m-0">
+                      <a href="{{ child.url }}" class="text-sm font-normal text-gray-600 hover:text-gray-800 transition-colors duration-200">
                       {{ child.name }}
                       </a>
                     </li>
@@ -91,38 +86,37 @@
                   {% endif %}
                 {% endif %}
               {% endfor %}
- 
             </ul>
-          </div>
-          <div>
-            <h3 class="text-sm font-semibold text-gray-700 tracking-wider uppercase">
-              FinOps Foundation
-            </h3>
-            <ul class="mt-4 space-y-4 m-0 plain-list">
-
-              {% for item in site.data.navigation_footer %}
-                {% if item.name == 'FinOps Foundation' %}
-                  {% if item.children != null %}
-                    {% for child in item.children %}
-                    <li>
-                      <a href="{{ child.url }}" class="lg:text-sm font-normal text-gray-600 hover:text-gray-800 transition-colors duration-200">
-                      {{ child.name }}
-                      </a>
-                    </li>
-                    {% endfor %}
-                  {% endif %}
-                {% endif %}
-              {% endfor %}
-
-            </ul>
-          </div>
         </div>
+
+        <div>
+          <h3 class="text-sm font-semibold text-gray-700 tracking-wider uppercase m-0 mb-2">Certification</h3>
+          <ul class="m-0 plain-list">
+            
+            {% for item in site.data.navigation_footer %}
+              {% if item.name == 'Certification' %}
+                {% if item.children != null %}
+                  {% for child in item.children %}
+                  <li class="m-0">
+                    <a href="{{ child.url }}" class="text-sm font-normal text-gray-600 hover:text-gray-800 transition-colors duration-200">
+                    {{ child.name }}
+                    </a>
+                  </li>
+                  {% endfor %}
+                {% endif %}
+              {% endif %}
+            {% endfor %}
+          </ul>
+        </div>
+
       </div>
     </div>
-    <div class="mt-12 border-t border-gray-300 pt-8">
-      <p class="text-sm text-gray-600 xl:text-center m-0">
-        <a href="/introduction/how-to-use/" target="_blank" rel="license noopener noreferrer">This work is licensed under Attribution 4.0 International</a> <span>&copy; <script>document.write(new Date().getFullYear())</script> FinOps Foundation</span> <a href="/terms/">Terms of Service</a>
-      </p>
-    </div>
+  </div>
+
+
+  <div class="mt-12 pb-8 container mx-auto px-4">
+    <p class="text-sm text-gray-600 m-0">
+      <a href="/introduction/how-to-use/" target="_blank" rel="license noopener noreferrer">This work is licensed under Attribution 4.0 International</a> <span>&copy; <script>document.write(new Date().getFullYear())</script> FinOps Foundation</span> <a href="/terms/">Terms of Service</a>
+    </p>
   </div>
 </footer>
