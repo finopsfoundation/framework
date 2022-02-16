@@ -9,13 +9,10 @@ page-identifier: domain_decision-making
 framework-domain-title: Real-Time Decision Making
 framework-domain-desc: This Domain improves stakeholder enablement by curating data in stakeholder-specific contexts,  iteratively improving decision velocity and aligning organizational processes to the realities of operating in the cloud.
 framework-capabilities:
-- capability_allocation
-- capability_showback
 - capability_anomalies
-- capability_commitment-discounts
-- capability_rightsizing
-- capability_unit-costs
 - capability_decision-accountability-structure
+- capability_unit-costs
+- capability_showback
 image: /img/domains/domain-icons_decisions.png
 order: 3
 
