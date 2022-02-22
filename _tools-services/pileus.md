@@ -5,7 +5,7 @@ layout: member
 # Vendor details
 name: Pileus
 logo-url: "https://pileuscloud.com/wp-content/uploads/2019/10/logo-p-color-removebg-preview-1.png.webp"
-logo-url-width: 100
+logo-url-width: 75
 linkedin-url: "https://www.linkedin.com/company/pileus-cloud"
 website-url: "https://pileuscloud.com"
 

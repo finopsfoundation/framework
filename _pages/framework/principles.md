@@ -4,7 +4,7 @@ layout: wide
 permalink: /framework/principles/
 search: true
 
-title: FinOps Foundation - FinOps Principles
+title: FinOps Principles
 description: Understand the principles of FinOps, the core values that drive the cloud financial movement.
 
 ---

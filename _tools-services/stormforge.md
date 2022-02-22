@@ -5,7 +5,7 @@ layout: member
 # Vendor details
 name: StormForge
 logo-url: "/tools-services/logos/stormforge.svg"
-logo-url-width:
+logo-url-width: 130
 linkedin-url: "https://www.linkedin.com/company/stormforge"
 website-url: "https://www.stormforge.io/"
 

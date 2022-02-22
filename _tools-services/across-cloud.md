@@ -5,7 +5,7 @@ layout: member
 # Vendor details
 name: Across.cloud
 logo-url: "https://storage.googleapis.com/across_cloud_public/Across%20cloud%20-%20Logo.svg"
-logo-url-width:
+logo-url-width: 110
 linkedin-url: "https://www.linkedin.com/company/across-cloud/"
 website-url: "https://across.cloud/"
 

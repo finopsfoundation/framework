@@ -52,6 +52,19 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 
+// Search content
+$(function(){
+  $('#js-search').click(function(){
+    $("#js-search-content").slideToggle( "slow", function() {
+    // Animation complete.
+    });
+    // $("#js-menu-inner").animate({
+    //     opacity: "toggle"
+    // }, "fast");
+  });
+});
+
+
 // Accordian
 
 $(function(){

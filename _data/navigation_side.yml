@@ -6,6 +6,8 @@
     url: /projects/adopting-finops/
   - name: About the Foundation
     url: /about/
+  - name: Attribution
+    url: /introduction/how-to-use/
 
 - name: FinOps Framework
   children:
@@ -34,20 +36,18 @@
   - name: Reducing Waste
 - name: Resources
   children:
-  - name: How to Contribute
-    url: /introduction/how-to-contribute/
-  - name: How to Use
-    url: /introduction/how-to-use/
-  - name: Monthly Update
   - name: Training & Certification
     url: https://learn.finops.org/
   - name: Events
-  - name: FinOps Book
+  - name: Reources Library
+    url: /resources/
   - name: Member Stories
     url: /resources/stories/
+  - name: FinOps Book
   - name: FinOps Terminology
     url: /resources/Terminology
-  - name: Vendor Members
-    url: /members/
+  - name: Partner Members
+    url: /partner-members/
+
 
 

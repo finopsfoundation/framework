@@ -9,7 +9,9 @@ description: Understand how to use the FinOps Framework which is licensed under 
 
 ---
 
-# How to use the framework and content
+# How to attribute the FinOps Framework and Foundation content
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 
 This work is licensed under a
 [Creative Commons Attribution 4.0 International License][cc-by].
@@ -28,7 +30,7 @@ This is a human-readable summary of (and not a substitute for) the license. Disc
 ## How to give attribution credit:
 If you were to share or adapt content from the FinOps Principles page you would need to include the following attribution:
 
-- [FinOps Principles](https://www.finops.org/framework/principles/) by [FinOps Foundation](https://finops.org")
+- [FinOps Principles](https://www.finops.org/framework/principles/) by [FinOps Foundation](https://www.finops.org")
 
 If referencing multiple pieces or general concepts from the Framework you can also use:
 

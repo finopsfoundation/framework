@@ -5,6 +5,7 @@ layout: member
 # Vendor details
 name: Kreuzwerker GmbH
 logo-url: "/tools-services/logos/kreuzwerker-logo.png"
+logo-url-width: 120
 linkedin-url: "https://www.linkedin.com/company/2392223/"
 website-url: "https://kreuzwerker.de/en"
 

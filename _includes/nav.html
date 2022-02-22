@@ -12,11 +12,11 @@
       {% for child in item.children %}
         {% if child.url == undefined %}
         <li class="leading-5 my-2">
-          <a class="lg:text-sm font-normal text-gray-600 hover:text-gray-800 transition-colors duration-200" href="/{{ item.name | downcase }}/{{ child.name | replace: ' ', '-' | downcase }}" data-ga-category="nav" data-ga-action="internal link clicks" data-ga-label="{{ child.name }}">{{ child.name }}</a>
+          <a class="text-sm font-normal text-gray-600 hover:text-gray-800 transition-colors duration-200" href="/{{ item.name | downcase }}/{{ child.name | replace: ' ', '-' | downcase }}" data-ga-category="nav" data-ga-action="internal link clicks" data-ga-label="{{ child.name }}">{{ child.name }}</a>
         </li>
         {% else %}
         <li class="leading-5 my-2">
-          <a class="lg:text-sm font-normal text-gray-600 hover:text-gray-800 transition-colors duration-200" href="{{ child.url }}" data-ga-category="nav" data-ga-action="internal link clicks" data-ga-label="{{ child.name }}">{{ child.name }}</a>
+          <a class="text-sm font-normal text-gray-600 hover:text-gray-800 transition-colors duration-200" href="{{ child.url }}" data-ga-category="nav" data-ga-action="internal link clicks" data-ga-label="{{ child.name }}">{{ child.name }}</a>
         </li>
         {% endif %}
       {% endfor %}

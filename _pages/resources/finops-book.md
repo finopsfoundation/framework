@@ -4,7 +4,7 @@ layout: wide
 permalink: /resources/finops-book/
 search: true
 
-title: Cloud FinOps O’Reilly Book - FinOps Foundation
+title: Cloud FinOps O’Reilly Book
 description: Learn about the O’Reilly Cloud FinOps book with expert insights added by members and where you can order it today.
 
 ---

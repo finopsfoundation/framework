@@ -5,6 +5,7 @@ layout: member
 # Vendor details
 name: Ternary
 logo-url: "/tools-services/logos/ternary-logo.svg"
+logo-url-width: 110
 linkedin-url: "https://www.linkedin.com/company/ternaryinc/"
 website-url: "https://ternary.app/"
 

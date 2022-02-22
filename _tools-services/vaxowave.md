@@ -5,6 +5,7 @@ layout: member
 # Vendor details
 name: Vaxowave
 logo-url: "/tools-services/logos/vaxowave.png"
+logo-url-width: 110
 linkedin-url: "https://www.linkedin.com/company/vaxowave1"
 website-url: "http://www.vaxowave.com/"
 

@@ -3,7 +3,7 @@
 layout: member
 
 # Vendor details
-name: Google 
+name: Google Cloud
 logo-url: "/tools-services/logos/google-cloud.png?4"
 linkedin-url: 'https://www.linkedin.com/showcase/google-cloud/'
 website-url: 'https://cloud.google.com/'

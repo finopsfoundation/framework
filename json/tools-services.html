@@ -14,10 +14,12 @@ sitemap: false
   
   {% capture list_item %}
     {"objectID": "{{ forloop.index }}",
-    "name": "{{ item.title }}",
+    "name": "{{ item.name }}",
     "logo-url": "{{ item.logo-url }}",
     "member-level": "{{ item.member-level }}",
-    "member-order": "{{ item.member-order }}",
+    {% if item.member-order %}
+    "member-order": {{ item.member-order }},
+    {% endif %}
     "company-description": "{{ item.company-description | strip_newlines | escape }}",
     "product-overview": "{{ item.product-overview | strip_newlines | escape }}",
     "url": "{{ item.url }}",

@@ -164,3 +164,43 @@ mark.ais-Snippet-highlighted {
     grid-template-columns: repeat(1, minmax(0, 1fr));
   }
 }
+
+/*Main site search*/
+
+@media screen(md) {
+  .search-inner .ais-Hits-list  {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+}
+
+.search-inner .ais-Hits-list {
+  row-gap: 10px;
+}
+
+.search-inner .ais-Hits--empty {
+  color: #5c7b98;
+}
+
+
+.search-inner mark.ais-Snippet-highlighted {
+  color: white;
+}
+
+#site-search .ais-SearchBox-input {
+  width: 100%;
+  height: 70px;
+  font-size: 40px;
+  background: #354859;
+  color: #5c7b98;
+  border-color: #5c7b98;
+  font-weight: 300;
+  padding:  6px 10px;
+}
+
+#site-search .ais-SearchBox-input::placeholder {
+  color: #5c7b98;
+}
+
+#site-search .ais-SearchBox-submitIcon {
+  display: none;
+}
