@@ -33,7 +33,7 @@ Other names for the practice include “Cloud Financial Management”, “Cloud 
 
 [![Introduction to FinOps](/img/resources/intro-slide.png?w)](https://docs.google.com/presentation/d/1gt9ev4OU79-N0tkkdx78rrZM0jJPuxQqlL6pCImL4ww/edit?usp=sharing){:target="_blank"}
 
-[View Google Slides Intro to FinOs Presentation](https://docs.google.com/presentation/d/1gt9ev4OU79-N0tkkdx78rrZM0jJPuxQqlL6pCImL4ww/edit?usp=sharing){:target="_blank"} &nbsp;&nbsp;&nbsp;&nbsp;[Download Intro to FinOps PPTX version](/img/resources/Intro-to-FinOps-1-0.pptx){:target="_blank"}
+[View Google Slides Intro to FinOps Presentation](https://docs.google.com/presentation/d/1gt9ev4OU79-N0tkkdx78rrZM0jJPuxQqlL6pCImL4ww/edit?usp=sharing){:target="_blank"} &nbsp;&nbsp;&nbsp;&nbsp;[Download Intro to FinOps PPTX version](/img/resources/Intro-to-FinOps-1-0.pptx){:target="_blank"}
 
 Regardless of the name, FinOps is the practice of bringing a financial accountability cultural change to the variable spend model of cloud, enabling distributed engineering and business teams to make trade-offs between speed, cost, and quality in their cloud architecture and investment decisions.
 
