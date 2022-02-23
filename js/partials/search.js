@@ -1,4 +1,5 @@
 const searchClient = algoliasearch('64LMXTN0XN', '3b7af83f7cdd87204a4c8412426bd278');
+const today = Math.floor(Date.now() / 1000 - 86400);
 
 
 // Capability page
@@ -42,8 +43,6 @@ if(document.getElementById('event-hits')) {
     indexName: 'prod_events',
     searchClient,
   });
-
-  const today = Math.floor(Date.now() / 1000 - 86400);
 
 
   event_search.addWidgets([
@@ -102,8 +101,6 @@ if(document.getElementById('site-search')) {
     searchClient,
   });
 
-  const today = Math.floor(Date.now() / 1000 - 86400);
-
   search.addWidgets([
     instantsearch.widgets.configure({
       hitsPerPage: 3,
@@ -129,7 +126,7 @@ if(document.getElementById('site-search')) {
       .addWidgets([
         instantsearch.widgets.configure({
           hitsPerPage: 3,
-          filters: `date_timestamp > ${today}`,
+          filters: `date_timestamp > ${today} AND NOT label:"Training Partner"`,
         }),
 
         instantsearch.widgets.hits({

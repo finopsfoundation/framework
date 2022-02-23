@@ -9,6 +9,6 @@ cloud-provider:
   - Multi-Cloud
 framework-capabilities:
 link: https://data.finops.org/
-permalink: /resources/not-here/
+permalink: /resources/state-of-finops/
 listing: true
 ---

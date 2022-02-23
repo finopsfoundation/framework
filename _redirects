@@ -43,4 +43,4 @@ https://framework.finops.org/* https://www.finops.org/:splat 301!
 /training/finops-for-engineers/ https://learn.finops.org/path/finops-for-engineers
 /training/ https://learn.finops.org/
 
-
+/resources/state-of-finops/ https://data.finops.org/
