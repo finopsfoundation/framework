@@ -2,11 +2,9 @@
   children:
   - name: What is FinOps
   - name: Getting Started
-  - name: Adopting FinOps
-    url: /projects/adopting-finops/
   - name: About the Foundation
     url: /about/
-  - name: Attribution
+  - name: Content Attribution
     url: /introduction/how-to-use/
 
 - name: FinOps Framework
@@ -28,6 +26,8 @@
   - name: Overview
   - name: State of FinOps
     url: https://data.finops.org/
+  - name: Adopting FinOps
+    url: /projects/adopting-finops/
   - name: Encouraging Engineers to Take Action
   - name: Identifying Shared Costs
   - name: Calculating Container Costs
@@ -41,8 +41,6 @@
   - name: Events
   - name: Reources Library
     url: /resources/
-  - name: Member Stories
-    url: /resources/stories/
   - name: FinOps Book
   - name: FinOps Terminology
     url: /resources/Terminology

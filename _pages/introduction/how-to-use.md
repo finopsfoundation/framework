@@ -11,10 +11,10 @@ description: Understand how to use the FinOps Framework which is licensed under 
 
 # How to attribute the FinOps Framework and Foundation content
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+You are free to share and Foundation materials and resources as long as you attribute the FinOps Foundation as described below under the Attribution 4.0 International (CC BY 4.0). If you any questions regarding attribution please contact the FinOps Foundation team in [#ask-a-question](https://finopsfoundation.slack.com/archives/C02EEAUTPGV) on Slack or email the staff at [hello@finops.org.](&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#104;&#101;&#108;&#108;&#111;&#64;&#102;&#105;&#110;&#111;&#112;&#115;&#46;&#111;&#114;&#103;)
 
-This work is licensed under a
-[Creative Commons Attribution 4.0 International License][cc-by].
+
+This work is licensed under a Creative Commons Attribution 4.0 International License [cc-by].
 
 ## Attribution 4.0 International (CC BY 4.0)
 

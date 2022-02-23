@@ -4,22 +4,33 @@ permalink: json/resources.json
 sitemap: false
 ---
 {% assign list_pages = "" %}
-{% for item in site.data.resources.items %}
+{% for item in site.resources %}
     {% capture list_item %}
       {"objectID": "{{ forloop.index }}",
       "meta_title": "{{ item.title }}",
       "meta_desc": "{{ item.description }}",
+    {% if item.date-added %}
       "date_added": "{{ item.date-added }}",
       "date_timestamp": "{{ item.date-added | date: '%s' }}",
+    {% endif %}
       "type": "{{ item.type }}",
       "source": "{{ item.source }}",
+    {% if item.listing %}
+    {% else %}
+      "content": "{{ item.content | strip_html | strip_newlines | escape }}",
+    {% endif %}
       "label": "{{ item.label }}",
       "capabilities": [{% for capability in item.framework-capabilities %}"{{ capability }}"{% unless forloop.last %},{% endunless %}{% endfor %}],
-      "cloud-provider": "{{ item.cloud-provider }}",
-      "url": "{{ item.url }}"}
+      "cloud-provider": [{% for cloud in item.cloud-provider %}"{{ cloud }}"{% unless forloop.last %},{% endunless %}{% endfor %}],
+    {% if item.link %}
+      "url": "{{ item.link }}"}
+    {% elsif item.permalink %}
+       "url": "{{ item.permalink }}"}
+    {% endif %}
     {% endcapture %}
-    {% capture list_pages %}{% unless list_pages == "" %}{{ list_pages }},{% endunless %}{{ list_item }}{% endcapture %}
+  {% capture list_pages %}{% unless list_pages == "" %}{{ list_pages }},{% endunless %}{{ list_item }}{% endcapture %}
 {% endfor %}
 {% unless list_pages == blank %}
 [{{ list_pages }}]
 {% endunless %}
+

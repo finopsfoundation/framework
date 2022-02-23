@@ -38,3 +38,9 @@ https://framework.finops.org/* https://www.finops.org/:splat 301!
 /training-certification/finops-certified-practitioner/ https://learn.finops.org/
 /training-certification/finops-persona-training/ https://learn.finops.org/
 
+/training/finops-certified-practitioner/ https://learn.finops.org/
+/training/finops-certified-professional/ https://learn.finops.org/path/finops-certified-professional
+/training/finops-for-engineers/ https://learn.finops.org/path/finops-for-engineers
+/training/ https://learn.finops.org/
+
+

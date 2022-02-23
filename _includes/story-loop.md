@@ -1,13 +1,14 @@
 <!-- Assign variable to help identify if there are no stories -->
 {% assign is_stories = false %}
 <!-- Make variable with sorted oder -->
-{% assign sorted_stories = site.stories | sort:"order" %}
+{% assign sorted_stories = site.resources | sort:"order" %}
 <!-- Loop over all stories -->
 {% for story in sorted_stories %}
 {% if forloop.first == true %}
   <h2>Real World Resources</h2>
 {% endif %}
 <!-- Specific to capability page -->
+{% if story.type == 'Member Story' %}
 {% if page.page-identifier contains 'capability' %}
 {% for tag in story.framework-capabilities %}
 {% if tag == page.page-identifier %}
@@ -62,6 +63,7 @@
 </div>
 {% endif %}
 {% endfor %}
+{% endif %}
 {% endif %}
 {% endfor %} <!-- End loop of stories -->
 <!-- Output if no stories -->

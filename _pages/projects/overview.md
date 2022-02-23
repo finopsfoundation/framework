@@ -9,6 +9,10 @@ description: View all the current and proposed Working Groups and active Special
 
 ---
 
+<div id="ty-contribute" class="hidden">
+  {% include contribute-thankyou.md %}
+</div>
+
 # Working Groups, Special Interest Groups and ways to Contribute
 
 Below is a list of FinOps Foundation Working Groups (WGs) and Special Interest Groups (SIGs).  WGs are cross-functional groups of people producing best practices for a specific FinOps capability or challenge, and operate in 4-8 week sprints. SIGs represent ongoing industry, persona or focus groups that provide opportunities for practioner connection and exploration of best practices, sharing knowledge between those involved.  SIGs can come from WGs to create content and conversly WGs can produce SIGs to create community.

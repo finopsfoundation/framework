@@ -1,5 +1,6 @@
 const searchClient = algoliasearch('64LMXTN0XN', '3b7af83f7cdd87204a4c8412426bd278');
 
+
 // Capability page
 if(document.getElementById('capability-hits')) {
 
@@ -42,9 +43,13 @@ if(document.getElementById('event-hits')) {
     searchClient,
   });
 
+  const today = Math.floor(Date.now() / 1000 - 86400);
+
+
   event_search.addWidgets([
     instantsearch.widgets.configure({
       hitsPerPage: 12,
+      filters: `date_timestamp > ${today}`,
     }),
 
     instantsearch.widgets.searchBox({
@@ -69,7 +74,7 @@ if(document.getElementById('event-hits')) {
           <a class="flex text-centre items-center justify-center m-0 bg-white border-solid border-gray-200 border rounded-sm shadow-sm hover:border-green-500 cursor-pointer transition duration-200" href="{{ url }}" data-ga-category="links" data-ga-action="internal link clicks" data-ga-label="events - {{ meta_title }} {{ event.host }}">
             <img src="/img/events/{{ image }}" alt="{{ meta_title }}" width="100" />
             <div class="py-2 px-4 flex-grow">
-              <h2 class="text-base font-medium mt-0 mb-2 leading-tight">{{ meta_title }}</h2>
+              <h2 class="text-lg font-medium mt-0 mb-2 leading-tight">{{ meta_title }}</h2>
               <p class="text-xs leading-tight m-0">{{ date }} - {{ location }}</p>
               <p class="text-xs leading-tight m-0">Hosted by: {{ host }}</p>
             </div>
@@ -97,6 +102,8 @@ if(document.getElementById('site-search')) {
     searchClient,
   });
 
+  const today = Math.floor(Date.now() / 1000 - 86400);
+
   search.addWidgets([
     instantsearch.widgets.configure({
       hitsPerPage: 3,
@@ -122,13 +129,14 @@ if(document.getElementById('site-search')) {
       .addWidgets([
         instantsearch.widgets.configure({
           hitsPerPage: 3,
+          filters: `date_timestamp > ${today}`,
         }),
 
         instantsearch.widgets.hits({
           container: '#search-hits_events',
           templates: {
             item: `
-             <a class="m-0 block p-2 text-white rounded-sm hover:bg-orange-500 cursor-pointer transition duration-200 leading-normal" href="{{ url }}">{{ meta_title }}</a>
+             <a class="m-0 block p-2 text-white rounded-sm hover:bg-orange-500 cursor-pointer transition duration-200 leading-normal" href="{{ url }}">{{ meta_title }} <span class="text-sm opacity-60">{{ date }}</span</a>
           `,
           },
         }),

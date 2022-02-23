@@ -20,15 +20,13 @@ title: "FinOps Foundation - Collaborative, Real-Time Cloud Financial Management"
 description: "Delivering expertise, and inspiration for and by FinOps leaders and practitioners — all aimed at helping members become better at cloud financial management."
 
 collections:
-  stories:
+  resources:
     output: true
   tools-services:
     output: true
   domains:
     output: true
   capabilities:
-    output: true
-  projects:
     output: true
 
 defaults:

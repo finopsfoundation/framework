@@ -30,14 +30,14 @@ title: {{ page.title }}
   {% assign story-cloud = cloud %}
 {% endfor %}
 <!-- Make variable with sorted oder -->
-{% assign sorted_stories =  site.stories | where_exp:"item",
+{% assign sorted_stories =  site.resources | where_exp:"item",
 "item.cloud-provider contains story-cloud" | sort: "order" %}
 <!-- Loop over all stories -->
 {% for story in sorted_stories limit:3 %}
 {% if forloop.first == true %}
   <h2>Related Member Stories</h2>
 {% endif %}
-
+{% if story.type == 'Member Story' %}
 {% assign is_stories = true %}
 <div class="bg-gray-100 p-4 rounded-md my-8">
   <h3 class="mt-2 mb-4">{{ story.title }}</h3>
@@ -60,5 +60,6 @@ title: {{ page.title }}
     <!-- {{ story.content | truncatewords: 50 | markdownify}} <a class="text-green-500 text-sm" href="{{ story.url }}">Read more</a> -->
   </div>
 </div>
+{% endif %}
 {% endfor %} <!-- End loop of stories -->
 

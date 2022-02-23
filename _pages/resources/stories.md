@@ -24,7 +24,8 @@ Stories are shared experiences from individuals or teams that have applied FinOp
 
 
 <div class="flex flex-col md:flex-row flex-wrap items-stretch mt-4 js-stories" id="js-stories">
-{% for item in site.stories %}
+{% for item in site.resources %}
+{% if item.type == 'Member Story' %}
   <div class="md:w-1/2 lg:w-1/3 p-3 flex items-stretch mix {% if item.cloud-provider %}{% for cloud in item.cloud-provider %}{{ cloud | downcase }} {% endfor %}{% endif %}}" data-url="{{ item.url }}">
     <div class="w-full bg-gray-100 rounded-sm px-6 py-8 border-solid border-gray-100 border hover:border-green-500 transition-colors duration-200 shadow-sm cursor-pointer">
       <h3 class="text-xl font-bold text-gray-700 mb-2 mt-0 leading-6">{{ item.story-title }}</h3>
@@ -37,9 +38,11 @@ Stories are shared experiences from individuals or teams that have applied FinOp
       </div>
       <div>
         <a class="text-sm text-green-500 transition-colors duration-200" href="{{ item.url }}">View story</a>
+        {{ item.url }}
       </div>
     </div>
   </div>
+    {% endif %}
 {% endfor %}
 </div>
 
