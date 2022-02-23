@@ -18,29 +18,41 @@
     linkedin-url: https://www.linkedin.com/in/andershagman/
     image: anders-hagman.jpg
 
-  - name: Amitai Rottem
-    job-title: Product Manager
-    company: Google
-    linkedin-url: https://www.linkedin.com/in/amitairottem/
-    image: amitai-rottem.jpg
-
   - name: Melvin Brown
     job-title: Acting Deputy Chief Information Officer 
     company: US Government OPM
     linkedin-url: https://www.linkedin.com/in/melvinbrownii/
     image: melvin-brown.jpg
 
-  - name: Jeremy Ung
-    job-title: Vice President, Engineering
-    company: Apptio
-    linkedin-url: https://www.linkedin.com/in/jeremyung/
-    image: jeremy-ung.jpg
+  - name: Kim Wier
+    job-title: Director Of Engineering
+    company: Target
+    linkedin-url: https://www.linkedin.com/in/kim-wier-2a31bb3/
+    image: kim-wier.jpg
+
+  - name: William Bryant
+    job-title: Internet Services Finance
+    company: Apple
+    linkedin-url: https://www.linkedin.com/in/wlbjr/
+    image: william-bryant.jpg
 
   - name: John McLoughlin
     job-title: Head of Product
     company: CloudHealth by VMware
     linkedin-url: https://www.linkedin.com/in/jttam/
     image: john-mcloughlin.jpg
+
+  - name: Amitai Rottem
+    job-title: Product Manager
+    company: Google
+    linkedin-url: https://www.linkedin.com/in/amitairottem/
+    image: amitai-rottem.jpg
+
+  - name: Jeremy Ung
+    job-title: Vice President, Engineering
+    company: Apptio
+    linkedin-url: https://www.linkedin.com/in/jeremyung/
+    image: jeremy-ung.jpg
 
   - name: Antoine Lagier
     job-title: Senior Cloud Consultant
