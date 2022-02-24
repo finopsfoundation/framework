@@ -173,23 +173,23 @@ if(document.getElementById('site-search')) {
         }),
       ]),
 
-      instantsearch.widgets
-      .index({ indexName: 'prod_tooling_services' })
-      .addWidgets([
-        instantsearch.widgets.configure({
-          hitsPerPage: 4,
-        }),
+      // instantsearch.widgets
+      // .index({ indexName: 'prod_tooling_services' })
+      // .addWidgets([
+      //   instantsearch.widgets.configure({
+      //     hitsPerPage: 4,
+      //   }),
 
-        instantsearch.widgets.hits({
-          container: '#search-hits_tooling',
-          templates: {
-            item:  `
-            <a class="m-0 block p-2 text-white rounded-sm hover:bg-yellow cursor-pointer transition duration-200 leading-normal" href="{{ url }}">{{ name }}</a>
+      //   instantsearch.widgets.hits({
+      //     container: '#search-hits_tooling',
+      //     templates: {
+      //       item:  `
+      //       <a class="m-0 block p-2 text-white rounded-sm hover:bg-yellow cursor-pointer transition duration-200 leading-normal" href="{{ url }}">{{ name }}</a>
 
-          `,
-          },
-        }),
-      ]),
+      //     `,
+      //     },
+      //   }),
+      // ]),
 
   ]);
 
