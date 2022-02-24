@@ -40,33 +40,34 @@ Each Cloud Service Provider has different tools available to help FinOps practit
 
 |  | GCP        | AWS           | Azure  |
 | ------------- | ------------- | ------------- | ------------- |
-| **Cloud Cost Planning** | [GCP Pricing Calculator](https://cloud.google.com/products/calculator) | AWS Pricing Calculator | Azure Pricing Calculator |
+| **Cloud Cost Planning** | [GCP Pricing Calculator](https://cloud.google.com/products/calculator) | [AWS Pricing Calculator](https://calculator.aws/) | Azure Pricing Calculator |
 |  |  |  | Azure Pricing Calculator |
-| **Billing and Reporting** | [Google Cloud Billing Reports](https://cloud.google.com/billing/docs/reports#billing-reports-tutorial) | AWS Cost Explorer | Azure Cost Management + Billing |
-|  | [Standard Billing Export to BigQuery](https://cloud.google.com/billing/docs/how-to/export-data-bigquery-tables#standard-usage-cost-data-schema) | AWS Cost and Usage Reports | Azure usage and charges report |
-|  | [Detailed Billing Export to BigQuery](https://cloud.google.com/billing/docs/how-to/export-data-bigquery-tables#detailed-usage-cost-data-schema) | AWS Detailed Billing Reports |  |
-|  | [Pricing Export to BigQuery](https://cloud.google.com/billing/docs/how-to/export-data-bigquery-tables#pricing-data-schema) | AWS Purchase Order Management |  |
-|  |  | AWS Consolidated Billing |  |
-|  |  | AWS Credits |  |
-| **Detailed Billing Analysis** | [Datastudio](https://cloud.google.com/billing/docs/reports#custom-reports) ([GitHub Solution](https://github.com/GoogleCloudPlatform/professional-services/tree/main/examples/cost-optimization-dashboard)) | AWS Quick Sight | Azure Power BI |
+| **Billing and Reporting** | [Google Cloud Billing Reports](https://cloud.google.com/billing/docs/reports#billing-reports-tutorial) | [AWS Cost Explorer](https://aws.amazon.com/aws-cost-management/aws-cost-explorer/) | Azure Cost Management + Billing |
+|  | [Standard Billing Export to BigQuery](https://cloud.google.com/billing/docs/how-to/export-data-bigquery-tables#standard-usage-cost-data-schema) | [AWS Cost and Usage Reports](https://aws.amazon.com/aws-cost-management/aws-cost-and-usage-reporting/) | Azure usage and charges report |
+|  | [Detailed Billing Export to BigQuery](https://cloud.google.com/billing/docs/how-to/export-data-bigquery-tables#detailed-usage-cost-data-schema) | [AWS Detailed Billing Reports](https://docs.aws.amazon.com/cur/latest/userguide/detailed-billing.html) |  |
+|  | [Pricing Export to BigQuery](https://cloud.google.com/billing/docs/how-to/export-data-bigquery-tables#pricing-data-schema) | [AWS Purchase Order Management](https://aws.amazon.com/aws-cost-management/aws-purchase-order-management/) |  |
+|  |  | [AWS Consolidated Billing](https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/consolidated-billing.html) |  |
+|  |  | [AWS Credits](https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/useconsolidatedbilling-credits.html) |  |
+| **Detailed Billing Analysis** | [Datastudio](https://cloud.google.com/billing/docs/reports#custom-reports) ([GitHub Solution](https://github.com/GoogleCloudPlatform/professional-services/tree/main/examples/cost-optimization-dashboard)) | [AWS Quick Sight](https://aws.amazon.com/quicksight/) | Azure Power BI |
 |  | [Looker Analytics Dashboard](https://looker.com/platform/blocks/source/cloud-cost-management) ([GitHub Solution](https://github.com/llooker/gcp_billing_block)) |  |  |
-| **Invoicing** | [Cost Table Report](https://cloud.google.com/billing/docs/reports#cost-table-report) | AWS Invoices | Azure Invoices |
+| **Invoicing** | [Cost Table Report](https://cloud.google.com/billing/docs/reports#cost-table-report) | [AWS Invoices](https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/getting-viewing-bill.html) | Azure Invoices |
 |  | [Cost Breakdown Report](https://cloud.google.com/billing/docs/reports#cost-breakdown-report) |  |  |
 |  | [Pricing Report](https://cloud.google.com/billing/docs/reports#pricing-table-report) |  |  |
-| **Forecasting** | [Billing Forecast](https://cloud.google.com/billing/docs/how-to/reports#cost-forecast) |  |  |
-| **Tagging** | [Resource Hierarchy](https://cloud.google.com/resource-manager/docs/cloud-platform-resource-hierarchy) | AWS Tag Editor | Azure Policy |
-| **Alerts and Notications** | [Budget Alerts](https://cloud.google.com/billing/docs/how-to/budgets) | AWS Budgets | Azure Budgets |
-| **Template Driven Deployment** | [Terraform](https://cloud.google.com/docs/terraform) | AWS Cloud Formation | Azure Resource Manager |
+| **Forecasting** | [Billing Forecast](https://cloud.google.com/billing/docs/how-to/reports#cost-forecast) | [AWS Cost Explorer (Self-Service)](https://docs.aws.amazon.com/awsaccountbilling/latest/aboutv2/ce-forecast.html#reading-forecasts)  |  |
+|  |  | [AWS Budgets (Event-Driven)](https://docs.aws.amazon.com/cost-management/latest/userguide/budgets-view.html) | |
+| **Tagging** | [Resource Hierarchy](https://cloud.google.com/resource-manager/docs/cloud-platform-resource-hierarchy) | [AWS Tag Editor](https://docs.aws.amazon.com/ARG/latest/userguide/tag-editor.html) | Azure Policy |
+| **Alerts and Notications** | [Budget Alerts](https://cloud.google.com/billing/docs/how-to/budgets) | [AWS Budgets](https://aws.amazon.com/aws-cost-management/aws-budgets/) | Azure Budgets |
+| **Template Driven Deployment** | [Terraform](https://cloud.google.com/docs/terraform) | [AWS CloudFormation](https://aws.amazon.com/cloudformation/) | Azure Resource Manager |
 |  | [Cloud Deployment Manager](https://cloud.google.com/deployment-manager/docs#docs) |  |  |
-| **Controls** | [Quotas and Rate Limit APIs](https://cloud.google.com/compute/quotas) | Service Limits |  |
-|  |  | AWS Instance Scheduler |  |
-|  |  | Amazon Data Lifecycle Manager |  |
-| **Recommendations** | [Recommender](https://cloud.google.com/recommender/docs/recommenders) | AWS Cost Explorer | Azure Advisor |
-|  | [Active Assist](https://cloud.google.com/solutions/active-assist) | Trusted Advisor | Azure Monitor |
+| **Controls** | [Quotas and Rate Limit APIs](https://cloud.google.com/compute/quotas) | [Service Quotas](https://aws.amazon.com/cloudformation/) |  |
+|  |  | [AWS Instance Scheduler](https://aws.amazon.com/solutions/implementations/instance-scheduler/) |  |
+|  |  | [Amazon Data Lifecycle Manager](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/snapshot-lifecycle.html) |  |
+| **Recommendations** | [Recommender](https://cloud.google.com/recommender/docs/recommenders) | [AWS Cost Explorer](https://aws.amazon.com/aws-cost-management/aws-cost-explorer/) | Azure Advisor |
+|  | [Active Assist](https://cloud.google.com/solutions/active-assist) | [Trusted Advisor](https://aws.amazon.com/premiumsupport/technology/trusted-advisor/?track=costma) | Azure Monitor |
 |  | [Google Cloud's operations suite](https://cloud.google.com/products/operations#section-8) (formerly Stackdriver) |  |  |
 |  | [Commitment Analysis Report](https://cloud.google.com/billing/docs/reports#cud-analysis-reports) |  |  |
-| **Insights** | Billing Health Checks | CloudWatch |  |
-|  |  | CloudTrail |  |
+| **Insights** | Billing Health Checks | [CloudWatch](https://aws.amazon.com/cloudwatch/) |  |
+|  |  | [CloudTrail](https://aws.amazon.com/cloudtrail/) |  |
 |  |  |  |  |
 
 
