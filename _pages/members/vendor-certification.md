@@ -91,7 +91,7 @@ Tier of technology providers that license and deliver a software product to help
 
 - Be a FinOps Foundation and Linux Foundation member
 - Publicly listed FinOps solution offering available for purchase as licensed COTS product (like SaaS)
-- Publicly listed feature or documentation pages highlighting alignment with he FinOps Framework (Domains)[https://www.finops.org/framework/domains/] and (Capabilities)[https://www.finops.org/framework/capabilities/]
+- Publicly listed feature or documentation pages highlighting alignment with he FinOps Framework [Domains](https://www.finops.org/framework/domains/) and [Capabilities](https://www.finops.org/framework/capabilities/)
 - Multiple case studies or public references of implementation by multiple mid-to-large corporate customers
 - Number of FinOps Certified Practitioners tied to company size (see table below)
 - Participation in a Special Interest Group or Working Group
