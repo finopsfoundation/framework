@@ -9,30 +9,6 @@
 
 [[redirects]]
   from = "/"
-  to = "/introduction/what-is-finops/"
-  status = 302
-  force = true
-
-[[redirects]]
-  from = "/training/finops-certified-practitioner/"
-  to = "https://learn.finops.org/"
-  status = 302
-  force = true
-
-[[redirects]]
-  from = "/training/finops-certified-professional/"
-  to = "https://learn.finops.org/path/finops-certified-professional"
-  status = 302
-  force = true
-
-[[redirects]]
-  from = "/training/finops-for-engineers/"
-  to = "https://learn.finops.org/path/finops-for-engineers/"
-  status = 302
-  force = true
-
-[[redirects]]
-  from = "/training/"
-  to = "https://learn.finops.org/"
+  to = "/introduction/what-is-finops"
   status = 302
   force = true

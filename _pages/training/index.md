@@ -1,9 +1,9 @@
 ---
 
-permalink: /training/finops-certified-practitioner/
+permalink: /training/
 search: true
 
-title: FinOps Certified Practioner Training
+title: FinOps Training
 
 ---
 
