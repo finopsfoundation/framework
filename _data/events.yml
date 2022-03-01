@@ -6,7 +6,7 @@ items:
     host: FinOps Foundation
     type: Virtual Event
     image: event-images_summit.png
-    url: 
+    url: https://go.finops.org/finops-summit-march
 
   - title: April FinOps Summit
     date:  7th April
@@ -61,15 +61,6 @@ items:
     type: Virtual Event
     image: event-images_summit.png
     url: 
-
-  - title: FinOps Certified Practitioner Training
-    date: 24th February
-    location: Virtual
-    label: Training Partner
-    host: Across.Cloud
-    type: Virtual Event
-    image: event-images_across-cloud.png
-    url: https://across.cloud/focp/
 
   - title: FinOps Certified Practitioner Training
     date: 8th March
@@ -148,16 +139,6 @@ items:
     url: https://go.finops.org/london-meetup
 
   - title: FinOps Certified Practitioner Training
-    date: 15th-16th February
-    location: Virtual 
-    label: FinOps Foundation Training
-    host: FinOps Foundation
-    type: 
-      - Virtual Event
-    image: event-images_f2.png
-    url: https://learn.finops.org/finops-certified-practitioner-february-15-16
-
-  - title: FinOps Certified Practitioner Training
     date: 15th-16th March
     location: Virtual 
     label: FinOps Foundation Training
@@ -196,3 +177,14 @@ items:
       - Virtual Event
     image: event-images_f2.png
     url: https://learn.finops.org/finops-certified-practitioner-june-14-15
+
+  - title: NDC Porto
+    date: 28th April
+    location: Porto, Portugal
+    label: Third Party
+    host: NDC Porto
+    type: 
+      - In-person
+    image: event-images_third-party.png
+    url: https://ndcporto.com/agenda/how-farfetch-is-facing-the-cloud-cost-challenge-0dp5/0ng71r4kwqo
+    description: Anderson Oliveira, Sr. Product Manager at Farfetch will share how has been Farfetch journey towards cloud cost optimisation with FinOps. How Farfetch is facing the Cloud cost challenge - NDC Porto - Thursday April 28th, 15:00 - 16:00 (UTC+01)
