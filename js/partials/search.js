@@ -108,7 +108,7 @@ if(document.getElementById('site-search')) {
 
     instantsearch.widgets.searchBox({
       container: '#site-search',
-       placeholder: 'Search website',
+       placeholder: 'Search finops.org',
     }),
 
     instantsearch.widgets.hits({
