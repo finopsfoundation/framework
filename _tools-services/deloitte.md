@@ -31,6 +31,9 @@ product-overview: |
 
   Deloitte’s cloud financial management services help you gain clarity, control, and predictability on your cloud spend. Our services extend the capabilities of traditional IT financial management and technology business management by equipping your technology and finance teams with the structures, processes, and tools they need to capitalize on your cloud investment and fully reap the efficiencies cloud offers. To help you meet your cloud financial management challenges, our seasoned professionals will support you throughout every stage of your cloud journey to develop best-in-class tools, processes, and structures that will enable the financial transparency, predictability, and controls you need to maximize the value of your cloud ecosystem.
 
+  [![Cloud Financial Management Presentation](/tools-services/assets/deloitte/presentation.png?2)](/tools-services/assets/deloitte/Deloitte-CFM.pptx){:target="_blank"}
+  [View Powerpoint Presentation](/tools-services/assets/deloitte/Deloitte-CFM.pptx){:target="_blank"}
+
 product-video-url: "https://www.youtube.com/embed/oVhra2DcIYM"
 
 # Related product or service resources, the titles will have associated URLs, e.g. product
@@ -39,8 +42,8 @@ product-resources:
   url: "https://www2.deloitte.com/us/en/pages/consulting/solutions/cloud-consulting-services.html"
 - title: "Cloud Computing Training: The Cloud Institute"
   url: "https://www2.deloitte.com/us/en/pages/technology/solutions/cloud-computing-training.html"
-- title:
-  url:
+- title: Cloud Financial Management and Optimization Services
+  url: "https://www2.deloitte.com/us/en/pages/technology/solutions/cloud-financial-management-optimization-services.html"
 
 # Supported capabilities in the framework by the product(s) or services. Match the page-identifier per capability in order for the capability to show up on the vendor page.
 capabilities:
