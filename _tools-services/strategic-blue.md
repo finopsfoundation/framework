@@ -5,6 +5,7 @@ layout: member
 # Vendor details
 name: Strategic Blue Services Limited
 logo-url: "https://strategic-blue.com/wp-content/themes/strategic-blue/images/logo.png"
+logo-url-width: 120
 linkedin-url: "https://www.linkedin.com/company/strategic-blue-ltd/"
 website-url: "https://strategic-blue.com/"
 

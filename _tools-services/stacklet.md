@@ -5,7 +5,7 @@ layout: member
 # Vendor details
 name: Stacklet Inc
 logo-url: "/tools-services/logos/stacklet.png"
-logo-url-width: 90
+logo-url-width: 70
 linkedin-url: "https://www.linkedin.com/company/stacklet/"
 website-url: "https://stacklet.io/"
 

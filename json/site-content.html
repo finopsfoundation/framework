@@ -6,7 +6,13 @@ sitemap: false
 {% assign list_pages = "" %}
 {% for item in site.pages %}
   {% if item.search %}
-    {% capture list_item %}{"objectID": "{{ forloop.index }}","meta_title": "{{ item.title }}","meta_desc": "{{ item.description }}","content": "{{ item.content | strip_html | strip_newlines | escape }}","url": "{{ item.url }}"}{% endcapture %}
+    {% capture list_item %}
+      {"objectID": "{{ forloop.index }}",
+      "meta_title": "{{ item.title }}",
+      "meta_desc": "{{ item.description }}",
+      "content": "{{ item.content | strip_html | strip_newlines | escape }}",
+      "url": "{{ item.url }}"}
+    {% endcapture %}
     {% capture list_pages %}{% unless list_pages == "" %}{{ list_pages }},{% endunless %}{{ list_item }}{% endcapture %}
   {% endif %}
 {% endfor %}

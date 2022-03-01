@@ -10,7 +10,7 @@ layout: basic
   </div>
 {% endif %} -->
 
-<div class="flex flex-wrap flex-row md:flex-nowrap px-4 max-w-screen-xl mx-auto sm:px-6 mt-12"><!-- Main container -->
+<div class="container flex flex-wrap flex-row md:flex-nowrap px-4 mx-auto sm:px-6 xl:px-12 mt-12"><!-- Main container -->
   <div class="hidden md:block w-3/12"><!-- Sidebar Nav -->
     {% include nav.html %}
     
@@ -38,7 +38,7 @@ layout: basic
       <!-- https://github.com/finopsfoundation/framework/blob/master{{ url | slice: 0, size | append: '.md' }} -->
     
     {% endif %}
-    <div>
+    <div class="2xl:px-10">
       {{ content }}
     </div>
   </div>

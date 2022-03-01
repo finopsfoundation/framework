@@ -2,10 +2,10 @@
   children:
   - name: What is FinOps
   - name: Getting Started
-  - name: Adopting FinOps
-    url: /projects/adopting-finops/
   - name: About the Foundation
     url: /about/
+  - name: Content Attribution
+    url: /introduction/how-to-use/
 
 - name: FinOps Framework
   children:
@@ -26,6 +26,8 @@
   - name: Overview
   - name: State of FinOps
     url: https://data.finops.org/
+  - name: Adopting FinOps
+    url: /projects/adopting-finops/
   - name: Encouraging Engineers to Take Action
   - name: Identifying Shared Costs
   - name: Calculating Container Costs
@@ -34,20 +36,16 @@
   - name: Reducing Waste
 - name: Resources
   children:
-  - name: How to Contribute
-    url: /introduction/how-to-contribute/
-  - name: How to Use
-    url: /introduction/how-to-use/
-  - name: Monthly Update
   - name: Training & Certification
     url: https://learn.finops.org/
   - name: Events
+  - name: Reources Library
+    url: /resources/
   - name: FinOps Book
-  - name: Member Stories
-    url: /resources/stories/
   - name: FinOps Terminology
     url: /resources/Terminology
-  - name: Vendor Members
-    url: /members/
+  - name: Partner Members
+    url: /partner-members/
+
 
 

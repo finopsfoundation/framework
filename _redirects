@@ -16,6 +16,10 @@ https://framework.finops.org/* https://www.finops.org/:splat 301!
 
 /join/ /membership/
 
+/members/ /partner-members/
+/resources/monthly-update/ /resources/
+/introduction/how-to-contribute/ /projects/overview/
+
 /framework/lifecycle/ /framework/phases/
 /framework/functions/* /framework/capabilities/:splat 301!
 /framework/capabilities/allocate/ /framework/domains/allocate/
@@ -33,3 +37,10 @@ https://framework.finops.org/* https://www.finops.org/:splat 301!
 /certification/finops-certified-practitioner/ https://learn.finops.org/
 /training-certification/finops-certified-practitioner/ https://learn.finops.org/
 /training-certification/finops-persona-training/ https://learn.finops.org/
+
+/training/finops-certified-practitioner/ https://learn.finops.org/
+/training/finops-certified-professional/ https://learn.finops.org/path/finops-certified-professional
+/training/finops-for-engineers/ https://learn.finops.org/path/finops-for-engineers
+/training/ https://learn.finops.org/
+
+/resources/state-of-finops/ https://data.finops.org/

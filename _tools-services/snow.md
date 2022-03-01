@@ -6,7 +6,7 @@ temporary: true
 # Vendor details
 name: Snow
 logo-url: "/tools-services/logos/snow.svg"
-logo-url-width:
+logo-url-width: 120
 linkedin-url:
 website-url: "https://www.snowsoftware.com/"
 

@@ -5,6 +5,7 @@ layout: member
 # Vendor details
 name: Cloudsoft
 logo-url: "/tools-services/logos/cloudsoft.png"
+logo-url-width: 140
 linkedin-url: "https://www.linkedin.com/company/1400731"
 website-url: "https://www.cloudsoft.io"
 

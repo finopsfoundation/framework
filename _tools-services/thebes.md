@@ -5,7 +5,7 @@ layout: member
 # Vendor details
 name: Thebes Cloud Management
 logo-url: "/tools-services/logos/thebes.png"
-logo-url-width: 85
+logo-url-width: 80
 linkedin-url: 'https://www.linkedin.com/company/thebescloud'
 website-url: 'https://thebescloud.com/'
 

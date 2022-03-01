@@ -10,7 +10,7 @@ sitemap: false
       "meta_title": "{{ item.title }}",
       "date": "{{ item.date }}",
       "location": "{{ item.location }}",
-      "date_timestamp": "{{ item.date | date: '%s' }}",
+      "date_timestamp": {{ item.date | date: '%s' }},
       "type": [{% for type in item.type %} "{{ type }}"{% unless forloop.last %},{% endunless %}{% endfor %}],
       "host": "{{ item.host }}",
       "image": "{{ item.image }}",

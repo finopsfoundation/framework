@@ -5,6 +5,7 @@ layout: member
 # Vendor details
 name: Timspirit
 logo-url: "/tools-services/logos/timspirit-logo.png"
+logo-url-width: 110
 linkedin-url: "https://fr.linkedin.com/company/timspirit"
 website-url: "https://timspirit.fr/"
 

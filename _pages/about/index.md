@@ -4,7 +4,7 @@ layout: wide
 permalink: /about/
 search: true
 
-title: About the FinOps Foundation, advancing the people who do cloud financial management
+title: About the FinOps Foundation
 description: The FinOps Foundation is a non-profit trade association made up of FinOps practitioners around the world - learn more today.
 
 ---

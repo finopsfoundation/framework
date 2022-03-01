@@ -5,6 +5,7 @@ layout: member
 # Vendor details
 name: Cloudthread
 logo-url: "https://static.wixstatic.com/media/cda2cb_4191e1ef227240dab2ccc56f5307c55e~mv2.png"
+logo-url-width: 140
 linkedin-url: "https://www.linkedin.com/company/cloudthread"
 website-url: "https://www.cloudthread.io/"
 

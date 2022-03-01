@@ -5,7 +5,7 @@ layout: member
 # Vendor details
 name: Oracle Cloud
 logo-url: "https://objectstorage.us-sanjose-1.oraclecloud.com/p/tWSxQTi0dW2n9wYwBuxm-su6M5YJJVldh1ONM8GcMvRK8alRr_m4kh1HIv4mW7lH/n/axys2jj7jfyb/b/OracleImage/o/Oracle_Cloud_rgb.png"
-logo-url-width:
+logo-url-width: 120
 linkedin-url: "https://www.linkedin.com/company/oracle/life/oracle-careers-us/"
 website-url: "https://www.oracle.com/cloud/what-is-iaas/iaas-for-dummies-oracle-cloud-infrastructure/?source=:ad:pas:go:dg:a_nas:71700000084178419-58700007113547834-p63986696139:RC_WWMK170614P00033C0001:&SC=:ad:pas:go:dg:a_nas::RC_WWMK170614P00033C0001::&gclsrc=aw.ds&gclid=EAIaIQobChMIy-_yguPz9QIVjsmUCR1ZbAn_EAAYASAAEgJ3XPD_BwE"
 

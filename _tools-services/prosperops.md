@@ -5,7 +5,7 @@ layout: member
 # Vendor details
 name: ProsperOps
 logo-url: "/tools-services/logos/prosperops.svg"
-logo-url-width:
+logo-url-width: 110
 linkedin-url: "https://www.linkedin.com/company/prosperops/"
 website-url: "https://www.prosperops.com/"
 

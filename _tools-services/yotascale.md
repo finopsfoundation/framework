@@ -5,7 +5,7 @@ layout: member
 # Vendor details
 name: Yotascale
 logo-url: "/tools-services/logos/yotascale.png"
-logo-url-width:
+logo-url-width: 130
 linkedin-url: "https://www.linkedin.com/company/yotascale/mycompany/"
 website-url: "https://yotascale.com/"
 
