@@ -90,6 +90,7 @@ Cloud cost management is not void of its own set of TLA's.  As a community the g
 | CSP | Cloud Service Provider |
 | GCP | Google Cloud Platform |
 | KPI | Key Performance Indicator |
+| OCI | Oracle Cloud Infrastructure |
 | TAC | Technical Advisory Council |
 
 
