@@ -87,7 +87,7 @@ ul:not(.plain-list) li > a {
   font-weight: 500;
 }
 
-p > a, p * a {
+p > a, p * a, td > a {
   color: #1a202c;
   text-decoration: underline;
   font-weight: 500;
