@@ -26,7 +26,7 @@ certified-status:
 
 # Product(s) or service overview maximum character count is 1000 the rest will be truncated and hidden automatically on your page 
 product-overview: | 
-  "Anglepoint provides IT/Software Asset Management (ITAM/SAM) & FinOps managed services in the following areas:
+  Anglepoint provides IT/Software Asset Management (ITAM/SAM) & FinOps managed services in the following areas:
 
   • Program Development – from initial maturity assessments to standing up a full program, including the development and implementation of world-class policies, procedures and processes
 
