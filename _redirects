@@ -44,3 +44,6 @@ https://framework.finops.org/* https://www.finops.org/:splat 301!
 /training/ https://learn.finops.org/
 
 /resources/state-of-finops/ https://data.finops.org/
+
+
+/stories/migrating-15-million-lines-of-code-to-gcp/ /stories/migrating-to-gcp/
