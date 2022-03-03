@@ -12,3 +12,8 @@
   to = "/introduction/what-is-finops"
   status = 302
   force = true
+
+[[redirects]]
+  from = "/*"
+  to = "/404/"
+  status = 404
