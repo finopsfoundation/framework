@@ -27,7 +27,7 @@ certified-status:
 # Product(s) or service overview maximum character count is 1000 the rest will be truncated and hidden automatically on your page 
 product-overview: StormForge optimizes the efficiency of your cloud-based applications through a process of rapid experimentation using machine learning.
 
-product-video-url: https://www.youtube.com/embed/0vw01O3xRps
+product-video-url: "https://www.youtube.com/embed/0vw01O3xRps"
 
 # Related product or service resources, the titles will have associated URLs, e.g. product 
 product-resources:
