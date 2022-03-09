@@ -6,6 +6,7 @@ permalink: /projects/reducing-waste/
 title: Reducing Waste Opportunities
 description: A collection of resources to help identify types of cloud cost waste by service provider, including links to additional tools.
 page-identifier: reducing_waste
+identifier: projects
 project-title: Reducing Waste
 project-description: A collection of resources to help identify types of cloud cost waste by service provider, including links to additional tools.
 date-added: Oct 2021

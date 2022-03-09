@@ -6,6 +6,7 @@ permalink: /projects/adopting-finops/
 title: Adopting FinOps
 description: Get guidance and tooling to help your organization unlock the promise of Cloud Computing and envision a world where efficient, profitable and cost effective cloud systems are made possible by the collaboration of finance, engineering and executive leadership through the FinOps Framework.
 page-identifier: project_adopting
+identifier: projects
 project-title: Adopting FinOps
 project-description: Get guidance and tooling to help your organization unlock the promise of Cloud Computing and envision a world where efficient, profitable and cost effective cloud systems are made possible by the collaboration of finance, engineering and executive leadership through the FinOps Framework.
 type: Guide

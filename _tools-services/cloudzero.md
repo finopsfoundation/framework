@@ -28,7 +28,7 @@ product-overview: |
 
   Designed for engineering, CloudZero is simple, intuitive, and automated — enabling teams to decentralize cost data to engineering teams and build a culture of cost consciousness. With automated cost anomaly alerts in Slack, based on relevant cost dimensions like features and dev teams, teams can move fast and experiment with fast feedback and cost guardrails. Deep context and integrations with popular CI/CD tools help teams quickly explore and debug cost issues.
 
-product-video-url:
+product-video-url: "https://www.youtube.com/embed/bjncJ3sxe2s"
 
 # Related product or service resources, the titles will have associated URLs, e.g. product
 product-resources:

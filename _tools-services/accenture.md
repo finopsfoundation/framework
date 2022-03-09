@@ -37,7 +37,7 @@ product-overview: |
 
   • Cost Optimisation Services: Leading cost optimisation services across all cloud platforms, utilising our proprietary & patented algorithms to provide continuous value and cost savings
 
-product-video-url:
+product-video-url: "https://www.youtube.com/embed/yK0K3HftWNw"
 
 # Related product or service resources, the titles will have associated URLs, e.g. product
 product-resources:

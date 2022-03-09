@@ -26,7 +26,7 @@ certified-status:
 # Product(s) or service overview maximum character count is 1000 the rest will be truncated and hidden automatically on your page 
 product-overview: Stacklet Platform is a Governance as Code solution that accelerates cloud adoption with intelligent guardrails for security, compliance, cost, and operations. Stacklet platform empowers cloud and security engineering teams to codify, automate, visualize, and collaborate on policies in a standard, easy-to-use, declarative language. Stacklet Platform extends Cloud Custodian open source project with intelligent management capabilities, including governance insights, realtime asset inventory, out-of-the-box policy packs, and advanced communications to help businesses innovate securely and efficiently in the cloud at scale.
 
-product-video-url:
+product-video-url: "https://www.youtube.com/embed/mKHSWOa7BAI"
 
 # Related product or service resources, the titles will have associated URLs, e.g. product 
 product-resources:
