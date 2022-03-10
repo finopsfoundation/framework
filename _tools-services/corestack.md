@@ -39,7 +39,7 @@ product-overview: |
   
   5. Auto-remediate to maintain actual or forecasted costs within budgets. Seamless bi-directional integration with your ITSM tools like ServiceNow and Jira enables incident and resolution management through your custom enterprise workflows.
 
-product-video-url:
+product-video-url: "https://www.youtube.com/embed/AOweE23Q1L0"
 
 # Related product or service resources, the titles will have associated URLs, e.g. product 
 product-resources:

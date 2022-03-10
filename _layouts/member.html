@@ -46,6 +46,18 @@ layout: default
         <div class="videoWrapper mb-10">
           <iframe width="560" height="315" src="{{ page.product-video-url }}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
+      {% elsif page.product-video-url contains 'vidyard' %}
+      <script type="text/javascript" async src="https://play.vidyard.com/embed/v4.js"></script>
+        <div class="videoWrapper mb-10">
+          <img
+            style="width: 100%; margin: auto; display: block;"
+            class="vidyard-player-embed"
+            src="{{ page.product-video-url }}.jpg"
+            data-uuid="{{ page.product-video-id }}"
+            data-v="4"
+            data-type="inline"
+          />
+        </div>
       {% elsif page.product-video-url contains 'vimeo' %}
         <div class="videoWrapper mb-10">
           <iframe src="{{ page.product-video-url }}" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>

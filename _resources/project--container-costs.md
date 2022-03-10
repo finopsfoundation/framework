@@ -6,6 +6,7 @@ permalink: /projects/calculating-container-costs/
 title: Calculating Container Costs
 description: Typical cloud costs are difficult enough to track at scale, and containerization can add all kinds of new challenges. We gathered our experts to demystify containerization costs with these tips and best practices.
 page-identifier: project_containers-costs
+identifier: projects
 project-title: Calculating Container Costs
 project-description: Typical cloud costs are difficult enough to track at scale, and containerization can add all kinds of new challenges. We gathered our experts to demystify containerization costs with these tips and best practices.
 date-added: Oct 2020

@@ -6,6 +6,7 @@ permalink: /projects/multi-cloud-tools-and-terminology/
 title: Multi-Cloud Tools and Terminology
 description: A guide that translates native cost management tool concepts across multiple cloud service providers.
 page-identifier: project_multi-cloud
+identifier: projects
 project-title: Multi-Cloud Tools and Terminology
 project-description: A guide that translates native cost management tool concepts across multiple cloud service providers.
 date-added: Sep 2021

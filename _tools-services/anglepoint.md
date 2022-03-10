@@ -38,7 +38,8 @@ product-overview: |
   
   • Certified Training – Our “Anglepoint Academy” is an accredited provider for multiple professional certifications, but more importantly – our training helps our participants to quickly translate learnings into business value
 
-product-video-url:
+product-video-url: https://play.vidyard.com/bRcXUfH54dvThrbAuJ61HG
+product-video-id: bRcXUfH54dvThrbAuJ61HG
 
 # Related product or service resources, the titles will have associated URLs, e.g. product 
 product-resources:

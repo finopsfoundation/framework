@@ -6,6 +6,7 @@ permalink: /projects/encouraging-engineers-to-take-action/
 title: Encouraging Engineers to Take Action
 description: We gathered our FinOps experts to address the challenge of encouraging and enabling engineers to get more involved. It's not just a challenge for engineers-- everyone has a role to play.
 page-identifier: project_engineers-action
+identifier: projects
 project-title: Encouraging Engineers to Take Action
 project-description: We gathered our FinOps experts to address the challenge of encouraging and enabling engineers to get more involved. It's not just a challenge for engineers-- everyone has a role to play.
 date-added: Apr 2021

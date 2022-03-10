@@ -34,7 +34,7 @@ product-overview: |
 
   Unified support for Kubernetes, containers and microservices gives granular reporting of all your costs in a single view.
 
-product-video-url:
+product-video-url: "https://www.youtube.com/embed/c7mg54hFi1M"
 
 # Related product or service resources, the titles will have associated URLs, e.g. product
 product-resources:

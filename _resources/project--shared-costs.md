@@ -6,6 +6,7 @@ permalink: /projects/identifying-shared-costs/
 title: A Guide to Spreading Out Shared Cloud Costs
 description: As organizations increase their adoption of public cloud resources, it becomes increasingly difficult to assign shared cloud resources to specific business owners.
 page-identifier: project_shared-costs
+identifier: projects
 project-title: A Guide to Spreading Out Shared Costs
 project-description: As organizations increase their adoption of public cloud resources, it becomes increasingly difficult to assign shared cloud resources to specific business owners.
 date-added: Apr 2021
