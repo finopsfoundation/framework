@@ -62,14 +62,15 @@ items:
     image: event-images_summit.png
     url: 
 
-  - title: FinOps Certified Practitioner Training
-    date: 8th March
-    location: London
-    label: Training Partner
-    host: Across.Cloud
-    type: In-person
-    image: event-images_across-cloud.png
-    url: https://across.cloud/focp/
+  - title: FinOps X
+    date: 20th-21st June
+    location: Austin, Texas 
+    label: FinOps Foundation
+    host: FinOps Foundation
+    type: 
+      - In-person
+    image: event-images_f2.png
+    url: https://x.finops.org/???dddd
 
   - title: FinOps Certified Practitioner Training
     date: 10th March
@@ -128,7 +129,7 @@ items:
     image: event-images_apptio.png
     url: https://respond.apptio.com/state-of-finops-2022-webinar-registration.html?utm_source=partner&utm_campaign=cloud-multi_global-global-en&utm_medium=web-direct
 
-  - title: State of FinOps London Summit
+  - title: London Roadshow - State of FinOps
     date: 28nd March
     location: CodeNode 
     label: FinOps Foundation
