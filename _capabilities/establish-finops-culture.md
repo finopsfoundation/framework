@@ -56,7 +56,6 @@ At its core, FinOps is a cultural movement because the practice of Finops is mor
 * Engineers are actively looking for FinOps opportunities, reversing the flow of questions from finance to engineers more to engineers towards finance. Engineers proactively confirm budget and highlight changes that will impact costs.
 * FinOps team advocates with Engineering teams for investment for solid financial endeavors.
 - Business/Product Owners understand that their design decisions drive cost.
-0000
 
 
 
