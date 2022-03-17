@@ -24,13 +24,13 @@ order: 15
 
 
 ## Definition
-This capability examines the integrations between FinOps and IT Asset Management - including configuration management.
+This capability examines the integrations required between FinOps and IT Asset Management (ITAM), including software asset management (SAM), and with the related but separate discipline of IT Service Management (ITSM) including configuration management.
 
-IT Asset Management is a discipline of IT service management (ITSM) used by organizations to track and report upon assets --  hardware, software, software licenses, and other assets both tangible and intangible -- used in the IT infrastructure to deliver value. Typically IT Asset management focuses on ensuring that assets are used in accordance with regulatory and contractual requirements, and that they provide value for money for the organisation.
+IT Asset Management is a discipline used by organizations for lifecycle tracking and reporting on assets --  hardware, software, software licenses, and other assets both tangible and intangible -- used in the IT infrastructure to deliver value. Typically IT Asset management focuses costs (purchase, support), risks (ensuring that assets are used in accordance with regulatory and contractual requirements), and value/ROI of these assets for the organisation.
 
-ITSM configuration management tracks configuration items and their relationships to IT services. The scope of ITSM configuration management is generally broader than IT asset management, and the focus is on ensuring that IT services and their components are tracked and manage to support the provision of high quality IT services to the organisation.
+ITSM configuration management tracks configuration items (CIs) and their relationships to IT services. The scope of ITSM configuration management is primarily focused on asset configuration (settings, relationships, and groupings) during the _use phase_ of the lifecycle. ITSM also focuses on ensuring that IT services and their components are tracked and manage to support the provision of high quality IT services to the organisation, from when they are procured or created until the time they are retired from use.
 
-Both disciplines provide inventory information to allow organizations to satisfy security, financial and operational use cases where it is necessary to know what hardware, license, or software element existed, was used, was accessed, or was disposed of - a single pane of glass for all technology components in use within an organisation
+Both disciplines provide inventory information to allow organizations to satisfy security, legal, regulatory, financial and operational use cases where it is necessary to know what hardware, license, or software element existed, was used, was accessed, or was disposed of - a single pane of glass for all technology components in use within an organisation
 
 Widespread use of public cloud creates new challenges for both ITAM and configuration management organizations in several regards:
 * The number of virtual IT assets created in cloud may be far larger than physical assets tracked traditionally
