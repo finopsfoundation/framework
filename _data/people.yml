@@ -30,11 +30,11 @@
     linkedin-url: https://www.linkedin.com/in/kim-wier-2a31bb3/
     image: kim-wier.jpg
 
-  - name: William Bryant
-    job-title: Internet Services Finance
-    company: Apple
-    linkedin-url: https://www.linkedin.com/in/wlbjr/
-    image: william-bryant.jpg
+  # - name: William Bryant
+  #   job-title: Internet Services Finance
+  #   company: Apple
+  #   linkedin-url: https://www.linkedin.com/in/wlbjr/
+  #   image: william-bryant.jpg
 
   - name: John McLoughlin
     job-title: Head of Product
@@ -93,11 +93,11 @@
     linkedin-url: https://www.linkedin.com/in/natalie-daley-6b063239/
     image: natalie-daley.jpg
 
-  - name: Benjamin Coles
-    job-title: Infrastructure Services & FinOps
-    company: Apple
-    linkedin-url: https://www.linkedin.com/in/sj7trunks/
-    image: benjamin-coles.jpg
+  # - name: Benjamin Coles
+  #   job-title: Infrastructure Services & FinOps
+  #   company: Apple
+  #   linkedin-url: https://www.linkedin.com/in/sj7trunks/
+  #   image: benjamin-coles.jpg
 
   - name: Deb MacCallum
     job-title: Vice President Of Engineering
