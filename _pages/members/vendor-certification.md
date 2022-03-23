@@ -5,13 +5,13 @@ permalink: /members/vendor-certification/
 search: true
 
 title: Vendor FinOps Certification
-description: Vendor member certifications include FinOps Certified Platforms, Solutions, Training Partners, and Service Providers.
+description: FinOps Foundation partner member certifications include FinOps Certified Platforms, Solutions, Training Partners, and Service Providers.
 
 ---
 
-# Vendor Member Certification
+# Partner Member Certification
 
-There are four areas to which vendors can certify their qualifications and alignment to FinOps framework.
+There are four areas to which FinOps Foundation partner members can certify their platform/services qualifications and alignment to FinOps Framework.
 
 <div class="mt-20">
   <div class="grid grid-cols-1 gap-8 sm:grid-cols-2">
@@ -23,9 +23,9 @@ There are four areas to which vendors can certify their qualifications and align
           </div>
           <h3 class="mt-8 text-lg font-medium">FinOps Certified Platform</h3>
           <p class="mt-5 text-base">
-            Tier of technology providers that license and deliver a software product to help people successfully adopt cloud financial management practices aligned with the FinOps standards.
+            Tier of technology providers that license and deliver a software product, or are founders/maintainers of an open-source project, that helps people successfully adopt cloud financial management practices aligned with the FinOps standards.
           </p>
-          <a href="/members/finops-certified-platform/" class="btn">View vendors</a>
+          <a href="/members/finops-certified-platform/" class="btn">View partners</a>
         </div>
       </div>
     </div>
@@ -39,7 +39,7 @@ There are four areas to which vendors can certify their qualifications and align
           <p class="mt-5 text-base">
             For providers that deliver solutions that contain a subset of the functionality found in the Certified Platforms which solve a specific part of a cloud cost management challenge.
           </p>
-         <a href="/members/finops-certified-solution/" class="btn">View vendors</a>
+         <a href="/members/finops-certified-solution/" class="btn">View partners</a>
         </div>
       </div>
     </div>
@@ -58,7 +58,7 @@ There are four areas to which vendors can certify their qualifications and align
           <p class="mt-5 text-base">
             FinOps experienced professional service providers that consult with enterprises about cloud financial management and help their clients with best practices.
           </p>
-          <a href="/members/finops-certified-service-provider/" class="btn">View vendors</a>
+          <a href="/members/finops-certified-service-provider/" class="btn">View partners</a>
         </div>
       </div>
     </div>
@@ -72,7 +72,7 @@ There are four areas to which vendors can certify their qualifications and align
           <p class="mt-5 text-base">
              This is a tier of vetted training providers who have deep experience in cloud financial management training.
           </p>
-          <a href="/members/finops-certified-training-provider/" class="btn">View vendors</a>
+          <a href="/members/finops-certified-training-provider/" class="btn">View partners</a>
         </div>
       </div>
     </div>
@@ -82,15 +82,15 @@ There are four areas to which vendors can certify their qualifications and align
 
 ## Certification Requirements
 
-Current certifications will be soft-vetted by the FinOps staff and then presented to the Technical Advisory Council for approval. As the framework is adjusted and built out we will move towards a core function model for future certifications or renewals.
+Current certifications will be soft-vetted by the FinOps staff and then presented to the Technical Advisory Council for approval. As the FinOps Framework is adjusted and built out we will move towards a core function model for future certifications or renewals.
 
 
 ### FinOps Certified Platform
 
-Tier of technology providers that license and deliver a software product to help FinOps practitioners successfully adopt cloud financial management practices aligned with the FinOps open source standards. You can address a number of use cases and be rolled out quickly across an organization. You also have:  
+Tier of technology providers that license and deliver a software product, or are founders/maintainers of an open-source project, to help FinOps practitioners successfully adopt cloud financial management practices aligned with the FinOps Framework. You can address a number of use cases and be rolled out quickly across an organization. You also have:  
 
 - Be a FinOps Foundation and Linux Foundation member
-- Publicly listed FinOps solution offering that is available for purchase as a licensed product (for example: SaaS)
+- Publicly listed FinOps solution offering that is available for purchase as a licensed product (for example: SaaS) or available as an open-source project
 - Publicly listed features or documentation pages highlighting alignment with the FinOps Framework [Domains](https://www.finops.org/framework/domains/) and [Capabilities](https://www.finops.org/framework/capabilities/)
 - Multiple case studies or public references of implementation by multiple mid-to-large corporate customers
 - Number of FinOps Certified Practitioners tied to company size (see table below)
@@ -102,7 +102,7 @@ Tier of technology providers that license and deliver a software product to help
 Tier of technology providers that license and deliver a software product that contains a subset of the functionality found in the Certified Platform products and is specialized for helping FinOps practitioners solve a specific subset of their cloud cost management challenges.
 
 - Be a FinOps Foundation and Linux Foundation member
-- Publicly listed FinOps solution offering that is available for purchase as a licensed product (for example: SaaS)
+- Publicly listed FinOps solution offering that is available for purchase as a licensed product (for example: SaaS)  or available as an open-source project
 - Dedicated solution specialized on a specific area of cloud cost management
 - Publicly listed features or documentation pages highlighting alignment of specialization with the corresponding subset of FinOps Framework [Domains](https://www.finops.org/framework/domains/) and [Capabilities](https://www.finops.org/framework/capabilities/)
 - Multiple case studies or public references of implementation by multiple customers
