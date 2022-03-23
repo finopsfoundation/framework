@@ -90,7 +90,7 @@ Current certifications will be soft-vetted by the FinOps staff and then presente
 Tier of technology providers that license and deliver a software product, or are founders/maintainers of an open-source project, to help FinOps practitioners successfully adopt cloud financial management practices aligned with the FinOps Framework. You can address a number of use cases and be rolled out quickly across an organization. You also have:  
 
 - Be a FinOps Foundation and Linux Foundation member
-- Publicly listed FinOps solution offering that is available for purchase as a licensed product (for example: SaaS) or available as an open-source project
+- Publicly listed FinOps platform offering that is available for purchase as a licensed product (for example: SaaS) or available as an open-source project
 - Publicly listed features or documentation pages highlighting alignment with the FinOps Framework [Domains](https://www.finops.org/framework/domains/) and [Capabilities](https://www.finops.org/framework/capabilities/)
 - Multiple case studies or public references of implementation by multiple mid-to-large corporate customers
 - Number of FinOps Certified Practitioners tied to company size (see table below)
