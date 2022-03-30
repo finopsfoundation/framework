@@ -6,6 +6,7 @@ title: FinOps Foundation Ambassador Code of Conduct
 description: The following are our guidelines and principles for every chosen FinOps Foundation Ambassador to follow. We put these in place to ensure our ambassadors represent our community well and help members get the most of out their FinOps Foundation experience.
 
 ---
+# FinOps Foundation Ambassador Code of Conduct
 
 As contributors in the FinOps Foundation community, and in the interest of fostering an open and welcoming community, we pledge to respect all people who attend, participate and contribute to FinOps Foundation events and materials.
 
