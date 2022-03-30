@@ -1,4 +1,5 @@
 ---
+layout: wide
 permalink: /ambassadors/code-of-conduct/
 search: true
 title: FinOps Foundation Ambassador Code of Conduct

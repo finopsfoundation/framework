@@ -1,4 +1,5 @@
 ---
+layout: wide
 permalink: /ambassadors/
 search: true
 title: Become a FinOps Foundation Ambassador Today
