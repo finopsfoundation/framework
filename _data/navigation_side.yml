@@ -38,6 +38,8 @@
   children:
   - name: Training & Certification
     url: https://learn.finops.org/
+  - name: Ambassadors
+    url: /ambassadors/
   - name: Events
   - name: Reources Library
     url: /resources/
