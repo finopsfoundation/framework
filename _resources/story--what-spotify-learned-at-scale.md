@@ -11,7 +11,6 @@ story-title: What Spotify Learned at a Massive FinOps Scale
 story-date:
 author:
 - Scott Meyer
-- Brendan Greenley
 company: Spotify
 industry:
 cloud-provider:
