@@ -1,13 +1,4 @@
 items:
-  - title: March FinOps Summit
-    date: 10th March
-    location: Virtual
-    label: FinOps Foundation
-    host: FinOps Foundation
-    type: Virtual Event
-    image: event-images_summit.png
-    url: https://go.finops.org/finops-summit-march
-
   - title: April FinOps Summit
     date:  7th April
     location: Virtual
@@ -15,7 +6,7 @@ items:
     host: FinOps Foundation
     type: Virtual Event
     image: event-images_summit.png
-    url: 
+    url: https://go.finops.org/finops-summit-april
 
   - title: May FinOps Summit
     date: 12th May
@@ -72,42 +63,6 @@ items:
     image: event-images_f2.png
     url: https://x.finops.org/???dddd
 
-  - title: FinOps Certified Practitioner Training
-    date: 10th March
-    location: Berlin
-    label: Training Partner
-    host: Across.Cloud
-    type: In-person
-    image: event-images_across-cloud.png
-    url: https://across.cloud/focp/
-
-  - title: FinOps Certified Practitioner Training
-    date: 24th March
-    location: Stockholm
-    label: Training Partner
-    host: Across.Cloud
-    type: In-person
-    image: event-images_across-cloud.png
-    url: https://across.cloud/focp/
-
-  - title: FinOps Certified Practitioner Training
-    date: 10th March
-    location: London
-    label: Training Partner
-    host: Across.Cloud
-    type: In-person
-    image: event-images_across-cloud.png
-    url: https://across.cloud/focp/
-
-  - title: FinOps Certified Practitioner Training
-    date: 29th March
-    location: Virtual
-    label: Training Partner
-    host: Across.Cloud
-    type: Virtual Event
-    image: event-images_across-cloud.png
-    url: https://across.cloud/focp/
-
   - title: Google Next
     date: 11th-13th October
     location: Unknown 
@@ -119,35 +74,15 @@ items:
     image: event-images_google-cloud.png
     url: https://cloud.withgoogle.com/next
 
-  - title: "The State of FinOps 2022: Insights in Action"
-    date: 22nd March
+  - title: "How to Build a Successful FinOps Practice"
+    date: 19th April
     location: Virtual 
     label: Vendor
-    host: Apptio
+    host: Corestack
     type: 
       - Virtual Event
-    image: event-images_apptio.png
-    url: https://respond.apptio.com/state-of-finops-2022-webinar-registration.html?utm_source=partner&utm_campaign=cloud-multi_global-global-en&utm_medium=web-direct
-
-  - title: London Roadshow - State of FinOps
-    date: 28nd March
-    location: CodeNode 
-    label: FinOps Foundation
-    host: FinOps Foundation
-    type: 
-      - In-person
-    image: event-images_summit.png
-    url: https://go.finops.org/london-meetup
-
-  - title: FinOps Certified Practitioner Training
-    date: 15th-16th March
-    location: Virtual 
-    label: FinOps Foundation Training
-    host: FinOps Foundation
-    type: 
-      - Virtual Event
-    image: event-images_f2.png
-    url: https://learn.finops.org/finops-certified-practitioner-march-15-16
+    image: event-images_corestock.png
+    url: https://go.corestack.io/webinar-registration-how-to-build-a-successful-finops-practice?ref&utm_campaign=webinar-2022-04-finops-practices&utm_source=referral&utm_medium=finops
 
   - title: FinOps Certified Practitioner Training
     date: 26th-27th April
