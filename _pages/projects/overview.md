@@ -42,6 +42,7 @@ Email <hello@finops.org> or in the slack channel [#ask-a-question](https://finop
 
 <br/>
 
+___
 
 ## The FinOps Framework
 
