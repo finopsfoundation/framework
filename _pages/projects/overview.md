@@ -15,7 +15,11 @@ description: View all the current and proposed Working Groups and active Special
 
 # FinOps Foundation Projects
 
-Below is a list of FinOps Foundation Working Groups (WGs) and Special Interest Groups (SIGs).
+## Working Groups & Special Interest Groups
+
+<iframe class="my-10" src="https://view.monday.com/embed/1651792390-3d433c56d728fe7a95e551575f96ed9d?r=use1" width=900 height=650 style="border: 0; box-shadow: 5px 5px 56px 0px rgba(0,0,0,0.25);"></iframe>
+
+<br/><br/>
 
 Have an idea for a new Working Group topic not listed below?   [Click here to submit an idea](https://forms.monday.com/forms/db4205de73d08ebbf7bd2151ce89a1a5?r=use1).
 
@@ -37,18 +41,15 @@ Email <hello@finops.org> or in the slack channel [#ask-a-question](https://finop
 
 <br/>
 
-## Working Groups & Special Interest Groups
 
-<iframe class="my-10" src="https://view.monday.com/embed/1651792390-3d433c56d728fe7a95e551575f96ed9d?r=use1" width=900 height=650 style="border: 0; box-shadow: 5px 5px 56px 0px rgba(0,0,0,0.25);"></iframe>
+## The FinOps Framework
 
-<br/><br/><br/><br/>
-
-## How to contribute
+#### How to contribute
 FinOps has become a required practice at many large organizations, but it's also a nascent discipline and constantly evolving with cloud. This means that its best practices and principles will change over time as practitioners learn new skills, make new discoveries, and find new ways to better operationalize cloud cost management.
 
 The open source FinOps Framework documents these changes with contributions from FinOps practitioners. This could be adding a [FinOps story](/resources/stories/) to one of our projects, fixing a simple typo or helping add completely new content.
 
-## How to submit changes to the FinOps Framework
+#### How to submit changes to the FinOps Framework
 
 If you see something that needs to be updated, augmented, or removed, we want to hear about it. This project is by the community and for the community and your voice matters.
 
@@ -59,13 +60,13 @@ There are multiple ways to submit changes:
 * Reach out to the members and team in the [#framework](https://finopsfoundation.slack.com/archives/C01UANLEPDW) slack channel
 
 
-## Review process
+#### Review process
 
 Changes to each respective section of this site will be reviewed during FinOps Foundation team meetings, or meetings with the [Technical Advisory Council.](https://www.finops.org/about/) During these council meetings, commits and Pull Requests can be reviewed and voted upon to be merged.
 
 The FinOps Foundation team uses automation tools to rebuild the site multiple times a week to capture the latest changes or to make small updates to maintain the site.
 
-## Review cycles and timing
+#### Review cycles and timing
 
 The FinOps Foundation's core operating members maintain the organization as a business. Its technical components, however, must be reviewed and voted upon by a greater group of community members. These meetings are scheduled throughout the month and the timeliness of reviewing commits and changes will vary depending on when these meetings occur.
 
