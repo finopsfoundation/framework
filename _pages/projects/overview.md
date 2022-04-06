@@ -20,8 +20,10 @@ description: View all the current and proposed Working Groups and active Special
 Below is a list of FinOps Foundation Working Groups (WGs) and Special Interest Groups (SIGs).
 
 Have an idea for a new Working Group topic not listed below?
+
 [Click here to submit an idea](https://forms.monday.com/forms/db4205de73d08ebbf7bd2151ce89a1a5?r=use1).
 
+<br/>
 
 #### What are Working Groups?
 FinOps Foundation Working Groups (WGs) are small (think two-pizza team), cross-functional groups of people producing best practices for a specific FinOps capability or challenge.  They operate in 6-8 week sprints and have their content published by the FinOps Foundation to contribute towards building the FinOps community, advancing FinOps practitioners in their practice and establishing FinOps best practices and standards.
