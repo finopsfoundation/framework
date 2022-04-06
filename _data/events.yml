@@ -9,7 +9,7 @@ items:
     url: https://go.finops.org/finops-summit-april
 
   - title: May FinOps Summit
-    date: 12th May
+    date: 19th May
     location: Virtual
     label: FinOps Foundation
     host: FinOps Foundation
@@ -17,7 +17,7 @@ items:
     image: event-images_summit.png
     url: 
 
-  - title: July FinOps Summit
+  - title: July FinOps Vendor Showcase
     date: 7th July
     location: Virtual
     label: FinOps Foundation
