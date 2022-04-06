@@ -26,7 +26,7 @@ Yes!  Any member of the F2 community can submit an idea for a WG.   Ideas will b
 
 
 #### How are WG ideas submitted?
-WG ideas can be submitted from [the Projects Overview page at finops.org](https://www.finops.org/projects/overview/). Look for the "[Click here to submit an idea](https://forms.monday.com/forms/db4205de73d08ebbf7bd2151ce89a1a5?r=use1)" link near the top of the page.  This page also displays a list of current WGs.
+[The Projects Overview page at finops.org](https://www.finops.org/projects/overview/) displays a list of current Working Groups. If your idea is not already listed, then look for the "[Click here to submit an idea](https://forms.monday.com/forms/db4205de73d08ebbf7bd2151ce89a1a5?r=use1)" link near the top of the page.
 
 
 #### What happens after a WG idea is submitted?

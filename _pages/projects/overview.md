@@ -19,7 +19,8 @@ description: View all the current and proposed Working Groups and active Special
 
 Below is a list of FinOps Foundation Working Groups (WGs) and Special Interest Groups (SIGs).
 
-Have an idea for a new Working Group topic not listed below?  [Click here to submit an idea](https://forms.monday.com/forms/db4205de73d08ebbf7bd2151ce89a1a5?r=use1).
+Have an idea for a new Working Group topic not listed below?
+[Click here to submit an idea](https://forms.monday.com/forms/db4205de73d08ebbf7bd2151ce89a1a5?r=use1).
 
 
 #### What are Working Groups?
