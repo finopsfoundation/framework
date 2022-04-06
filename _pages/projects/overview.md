@@ -23,8 +23,6 @@ ___
 
 Have an idea for a new Working Group topic not listed below?   [Click here to submit an idea](https://forms.monday.com/forms/db4205de73d08ebbf7bd2151ce89a1a5?r=use1).
 
-___
-
 <br/>
 
 #### What are Working Groups?
