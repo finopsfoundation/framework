@@ -17,7 +17,7 @@ description: View all the current and proposed Working Groups and active Special
 
 ## Working Groups & Special Interest Groups
 
-<iframe class="my-10" src="https://view.monday.com/embed/1651792390-3d433c56d728fe7a95e551575f96ed9d?r=use1" width=900 height=650 style="border: 0; box-shadow: 5px 5px 56px 0px rgba(0,0,0,0.25);"></iframe>
+<iframe class="my-10" src="https://view.monday.com/embed/1651792390-3d433c56d728fe7a95e551575f96ed9d?r=use1" width=1280 height=720 style="border: 0; box-shadow: 5px 5px 56px 0px rgba(0,0,0,0.25);"></iframe>
 
 ___
 
