@@ -34,6 +34,8 @@
   - name: Accurate Cloud Forecasts
   - name: Multi-Cloud Tools and Terminology
   - name: Reducing Waste
+  - name: U.S. Public Sector FinOps Playbook
+    url: /projects/us-gov-playbook/
 - name: Resources
   children:
   - name: Training & Certification
