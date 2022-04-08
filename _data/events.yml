@@ -1,13 +1,4 @@
 items:
-  - title: April FinOps Summit
-    date:  7th April
-    location: Virtual
-    label: FinOps Foundation
-    host: FinOps Foundation
-    type: Virtual Event
-    image: event-images_summit.png
-    url: https://go.finops.org/finops-summit-april
-
   - title: May FinOps Summit
     date: 19th May
     location: Virtual
@@ -61,7 +52,7 @@ items:
     type: 
       - In-person
     image: event-images_f2.png
-    url: https://x.finops.org/
+    url: https://events.linuxfoundation.org/finops-x/
 
   - title: Google Next
     date: 11th-13th October

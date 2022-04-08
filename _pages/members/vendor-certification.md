@@ -1,7 +1,7 @@
 ---
 
 layout: wide
-permalink: /members/vendor-certification/
+permalink: /members/partner-certification/
 search: true
 
 title: Vendor FinOps Certification
