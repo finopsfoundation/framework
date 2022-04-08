@@ -47,3 +47,6 @@ https://framework.finops.org/* https://www.finops.org/:splat 301!
 
 
 /stories/migrating-15-million-lines-of-code-to-gcp/ /stories/migrating-to-gcp/
+
+
+/members/vendor-certification/ /members/partner-certification/
