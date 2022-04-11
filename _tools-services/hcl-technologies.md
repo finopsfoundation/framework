@@ -19,7 +19,8 @@ company-description: |
   HCL’s innovative cloud-inception framework helps establish, adopt, and manage complex IT environments, combining aspects of people, process, and technology. We are premier and Managed Services partner (MSP) with AWS, Microsoft Azure and Google Cloud. Our skills and expertise in delivering cloud-based products help enterprises plan for digital transformation and embark on a cloud native journey.
 
 # Membership level, type and vendor certifications
-member-level: general
+member-level: premier
+member-order: 14
 
 type:
 - Service Provider
