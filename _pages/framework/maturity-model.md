@@ -15,7 +15,7 @@ The practice of FinOps is inherently iterative and maturity of any given process
 
 A “Crawl, Walk, Run” approach to performing FinOps enables organizations to start small, and grow in scale, scope and complexity as business value warrants maturing a functional activity. Taking quick action at a small scale and limited scope allows FinOps teams to assess the outcomes of their actions, and to gain insights into the value of taking further action in a larger, faster, or more granular way.
 
-In assessing the state of an organization’s FinOps [Capability](https://www.finops.org/framework/capabilities/) or [Domain](https://www.finops.org/framework/domains/), we can also use these maturity designations to identify where we are currently operating, and to identify areas we’d like to move from a Crawl to a Walk, or from a Walk to a Run maturity.
+In [assessing](https://github.com/finopsfoundation/frameworkassessment) the state of an organization’s FinOps [Capability](https://www.finops.org/framework/capabilities/) or [Domain](https://www.finops.org/framework/domains/), we can also use these maturity designations to identify where we are currently operating, and to identify areas we’d like to move from a Crawl to a Walk, or from a Walk to a Run maturity.
 
 These terms are general guidelines, and an organization’s goal should never be simply to achieve a “Run” maturity in every [Capability](https://www.finops.org/framework/capabilities/).
 
@@ -25,9 +25,9 @@ In other words, establishing a Walk stage in a particular Capability is not nece
 
 Prioritize maturing the Capabilities that provide your organization the highest business value.
 
-Every Capability and functional activity can be at a different level of maturity. But using this sort of rubric to indicate where we think we are operating allows a convenient shorthand to communicate effectively.
+Every Capability and functional activity can be at a different level of maturity. There is a [FinOps Framework Assessment](https://github.com/finopsfoundation/frameworkassessment) in development and the below sort of rubric to help indicate where we think we are operating allows a convenient shorthand to communicate effectively.
 
-#### FinOps Maturity Model Guidelines
+## FinOps Maturity Model Guidelines
 
 | FinOps Maturity Level | Maturity Level Characteristics | Sample goals/KPI from [the FinOps Community](https://data.finops.org) <br/>[*(data.finops.org)*](https://data.finops.org) |
 | --: | --- | --- |
