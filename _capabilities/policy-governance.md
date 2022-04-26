@@ -25,41 +25,87 @@ order: 16
 
 
 ## Definition
-_definition for this Capability.  the objective here is to capture the "What" (**not** the "How") for this Capability._
+Policy and Governance can be thought of as a set of statements of intent, with associated assurances of adherence.
 
+A "Cloud Policy" is a clear statement of intent, describing the execution of specific cloud-related activities in accordance with a standard model designed to deliver some improvement of business value.
+
+"Cloud Governance" is a set of processes, tooling or other guardrail solution that aims to control the activity as described by the Cloud Policy to promote the desired behaviour and outcomes.
+
+Combining good Policy and Governance provides us with a mechanism to orchestrate and direct our Cloud FinOps Activity.
+
+It’s possible to imagine a world in which good things happen naturally, without any attention or control being applied to them. In most business situations though, the right things will only happen if people are directed to do them, the actions and their outcomes are monitored and there are some (positive or negative) consequences arising from their actions.
+
+We often talk about a ‘FinOps Culture’, which we see as a set of attitudes and behaviours oriented to driving business value from cloud technology, and we recognize that transitioning to this from a data centre culture is one of the key challenges of FinOps. Policy and Governance is how we establish and sustain a FinOps culture.  In fact, it is the way in which all culture is established and sustained. Think of any organization with a recognizable ‘culture’ and you will see an effective Policy and Governance framework
+
+So the simple answer to why Policy and Governance frameworks are important is that organizations cannot sustainably deliver business value from cloud without them.
+
+Cloud policy and Governance are key components of successful Cloud FinOps. They work to align activities within Cloud to the business overall goals and strategies, control the deployment and usage of Cloud resources in order to maximise ROI. We are able to ensure our cloud costs are predictable and manageable, and we can use Cloud Policy & Governance to support the consistent adoption of best practices across the organisation, and support defence-in-depth against known threats and 
 
 ## Maturity Assessment
-_description of the characteristics of each maturity level (crawl, walk, run) for this Capability in the context of the organization's FinOps practice._
+
+In the early stages of cloud adoption, everything is new and everyone is a pioneer.  Bit by bit the organization learns how to make the best use of cloud technology and harness it to achieve its goals.  Policy & Governance is the primary mechanism for harnessing the power of cloud.
+
+| Maturity | Description | Focus |
+| -------- | ----------- | ----- |
+| Crawl | Cloud Policy & Governance exists as part of overall business policy. Policies aim to control most significant risks to business value. | Basic usage & rate optimization, etc as they apply to individual engineering teams and products. |
+| Walk | Cloud Policy & Governance measures are broadened and standardized. Best practices are now being distributed and adopted across the business. | Cross-functional collaboration. Integration with existing organizational policies and standards. |
+| Run | Cloud Policy & Governance is now closely integrated with overall business strategy. | All levels of business now operate in a way that is aligned with the organization’s strategy and goals. |
 
 
+## Best Practices
 
-## Functional Activity
-_written for each persona responsible for the functional activity and processes encapsulated by his Capability.  each one should be associated generally to one of the FinOps Phases (Inform, Optimize, Operate). for example:_
->As a [FinOps Persona], I will [functional activity] so that [desired outcome] is achieved.
+The 5 __FACES__ of Good Cloud Policy & Governance:
+| | |
+| ---| --- |
+| __FOCUSED__ | on achieving the objectives we seek |
+| __ALIGNED__ | with the organisations goals, strategy and principles |
+| __CLEAR__ | simply stated and easy for everyone to understand |
+| __EFFICIENT__ |low comparative cost of implementation vs benefit |
+| __SUPPORTED__ | by the authority required in order to enforce it |
+
 
 
 
 ## Measure(s) of Success
-_at least one measure of success; should be described in a context of cost; this could be an efficiency KPI or an agreed upon threshold or target._
-_for example:_
->* idle resource costs will not exceed 3% of total monthly cloud spend
-* anomaly costs will not exceed $150/month
-
-
+| Measures of CP&G | Crawl | Walk | Run |
+| ---------------- | ----- | ---- | --- |
+| Scope of CP&G | Across Engineering teams | Cross-functional, across Business, Technical & Finance teams | Across the organization, linking CP&G to strategic goals |
+| Creating & Updating | Manually, ad-hoc, largely reactive policy creation | Regular review cadence, proactive FinOps policies | Ongoing automated policy compliance review, with trending |
+|  Documenting & Communicating | Static, manually distributed content | KMS / training integrated solutions | Integration with new architectural concepts to ensure currency |
+| Monitoring for Compliance | Manual analysis & reporting | Vendor-provided automated analytics (eg. AWS Config) | Multi-cloud/enriched normalised insights & automation solution |
 
 ## Inputs
-_the information used that contributes to the measure(s) of success listed above; information here may include specific datasources, reports or any relevant input_
+
+__GOVERNANCE__
+
+Governance implements Policy through:
+- __Guidelines__ - that set out best practice for policy implementation and how it can be achieved. These are advisory, rather than mandatory
+- __Guardrails__ -  formal processes and structures that define mandatory pathways for policy-compliant action, possibly with consequences for non-compliance
+- __Automation__ - processes that automate policy implementation and which therefore control how compliant actions are carried out. 
+
+
+__POLICY__
+
+
+If a policy is poorly conceived or expressed, of dubious authority, too broad or general to be useful in practice, or imposes a cost on the organization that is out of proportion to its benefit, it is a bad policy.
+Some examples of good policy statements might be: 
+- “Our policy is to cover more than 80% of our optimised cloud usage with discounted pricing plans”
+- “Our policy is to reduce wasted spend by decommissioning cloud resources that deliver no business value”
 
 
 <!-- ####### Real World Resources ####### -->
 ## Real World Resources
-_a collection of real world examples, stories and “how to” for this Capability; based on FinOps community member experiences; information here may:_
->* _apply to one or more cloud providers_
-* _include specific types of cloud services used) (compute, storage, database, etc...)_
-* _describe a combination of  tooling, platform or vendor_
-* _describe the industry the organization belongs to_
-* _describe the complexity of the organization (global, enterprise, etc…)_
-* _include the FinOps personas involved and any other organizational roles_
+
+Vendor Tools:
+- AWS -  AWS Control Tower, AWS Organizations, AWS License Manager, AWS Service Catalog, AWS OpsWorks
+- Azure - Azure Management Groups, Azure Blueprints
+- GCP - Google Cloud Console
+
+Useful links:
+- https://aws.amazon.com/products/management-and-governance/
+- https://azure.microsoft.com/en-gb/solutions/governance/
+- https://cloud.google.com/files/guide-to-financial-governance.pdf
+
 
 
 
