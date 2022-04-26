@@ -64,7 +64,9 @@ This capability is about establishing a cloud front door process to onboard brow
 
 
 
-## Measure(s) of Success
+## Measure(s) of Success & KPI
+Measures of success are represented in the context of cloud costs and may include one or more key performance indicators ( KPI ), describe objectives with key results ( OKR ), and declare thresholds defining outliers or acceptable variance from forecasted trends.
+
 - Measurement of cost efficiency through infrastructure savings, migration and support costs
 - Operational resiliency improvement in service quality and security risk posture
 - Increase time to market by accelerating fluidity in product and service delivery
@@ -96,3 +98,14 @@ _a collection of real world examples, stories and “how to” for this Capabili
 * _describe the industry the organization belongs to_
 * _describe the complexity of the organization (global, enterprise, etc…)_
 * _include the FinOps personas involved and any other organizational roles_
+
+
+## FinOps Platforms & Service Providers
+_Reference of cloud cost management platforms, tooling and service providers related to this Capability coming soon._
+
+
+## FinOps Training
+_Reference of courses and training partners related to this Capability coming soon._
+
+
+---

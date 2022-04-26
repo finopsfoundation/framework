@@ -92,7 +92,9 @@ Managing anomalies will also be an important touchpoint between the FinOps funct
 
 
 
-## Measure(s) of Success
+## Measure(s) of Success & KPI
+Measures of success are represented in the context of cloud costs and may include one or more key performance indicators ( KPI ), describe objectives with key results ( OKR ), and declare thresholds defining outliers or acceptable variance from forecasted trends.
+
 * The count of anomalies within a period of time; including consistent identifiation of a proper anomaly
 * Time to detect the anomaly; this is the time it takes from the anomaly reporting to someone acknowledging it.  
 * Duration of the anomaly; the length in time for resolution of the anomaly
@@ -120,3 +122,14 @@ _a collection of real world examples, stories and “how to” for this Capabili
 * _describe the industry the organization belongs to_
 * _describe the complexity of the organization (global, enterprise, etc…)_
 * _include the FinOps personas involved and any other organizational roles_
+
+
+## FinOps Platforms & Service Providers
+_Reference of cloud cost management platforms, tooling and service providers related to this Capability coming soon._
+
+
+## FinOps Training
+_Reference of courses and training partners related to this Capability coming soon._
+
+
+---
