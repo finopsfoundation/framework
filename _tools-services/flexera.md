@@ -13,7 +13,9 @@ website-url: "https://www.flexera.com/"
 company-description: Flexera delivers SaaS-based IT management solutions that enable enterprises to accelerate the return on their technology investments. We help organizations inform their IT with total visibility into complex hybrid ecosystems, so they can transform their IT by rightsizing across all platforms, reallocating spend, reducing risk, and charting the most effective path to the cloud.
 
 # Membership level, type and vendor certifications 
-member-level: general
+member-level: premier
+member-order: 15
+
 
 type: 
 - Platform Provider
