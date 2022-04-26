@@ -38,7 +38,9 @@ _written for each persona responsible for the functional activity and processes 
 
 
 
-## Measure(s) of Success
+## Measure(s) of Success & KPI
+Measures of success are represented in the context of cloud costs and may include one or more key performance indicators ( KPI ), describe objectives with key results ( OKR ), and declare thresholds defining outliers or acceptable variance from forecasted trends.
+
 _at least one measure of success; should be described in a context of cost; this could be an efficiency KPI or an agreed upon threshold or target._
 _for example:_
 >* idle resource costs will not exceed 3% of total monthly cloud spend
@@ -81,6 +83,6 @@ _Get involved and contribute to the community by sharing your real world experie
 * _the complexity of the organization (global enterprise, start-up, etc…)_
 * _the [FinOps personas](https://www.finops.org/framework/personas/) involved / organizational roles_
 
-_Join the conversation about this Capability in Slack <!-- [insert name and link to Slack channel here] -->. You can submit stories, how-tos and suggest improvements [using one of the options for contributing here](https://www.finops.org/introduction/how-to-contribute/)._
+_Join the conversation about this Capability in Slack <!-- [insert name and link to Slack channel here] -->. You can submit stories, how-tos and suggest improvements [using one of the options for contributing here](https://www.finops.org/introduction/getting-started/)._
 
 ---
