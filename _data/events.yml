@@ -65,25 +65,16 @@ items:
     image: event-images_google-cloud.png
     url: https://cloud.withgoogle.com/next
 
-  - title: "How to Build a Successful FinOps Practice"
-    date: 19th April
-    location: Virtual 
-    label: Vendor
-    host: Corestack
-    type: 
-      - Virtual Event
-    image: event-images_corestock.png
-    url: https://go.corestack.io/webinar-registration-how-to-build-a-successful-finops-practice?ref&utm_campaign=webinar-2022-04-finops-practices&utm_source=referral&utm_medium=finops
-
   - title: FinOps Certified Practitioner Training
-    date: 26th-27th April
-    location: Virtual 
-    label: FinOps Foundation Training
-    host: FinOps Foundation
+    date: 18th-19th May
+    location: EMEA 
+    label: Training Partner
+    host: Thebes Cloud Management
     type: 
+      - In-person
       - Virtual Event
-    image: event-images_f2.png
-    url: https://learn.finops.org/finops-certified-practitioner-april-26-27
+    image: event-images_thebes.png
+    url: https://thebescloud.com/focp-course/
 
   - title: FinOps Certified Practitioner Training
     date: 10th-11th May
