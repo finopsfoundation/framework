@@ -44,7 +44,7 @@ product-video-url: "https://www.youtube.com/embed/5czrQdloX6M"
 product-resources:
 - title: Optimize public and private cloud spend
   url: "https://www.flexera.com/flexera-one/cloud-cost-optimization.html"
-- title: 2021 State of the cloud report
+- title: 2022 State of the cloud report
   url: "https://info.flexera.com/CM-REPORT-State-of-the-Cloud"
 - title: Control IT costs with a clear, accurate view of your IT assets
   url: "https://www.youtube.com/watch?v=f-eAAiqAOWg"
@@ -78,7 +78,7 @@ date: 2021-05-25
 recent-finops-activity:
 - title: What is FinOps?
   url: "https://www.flexera.com/blog/cloud/what-is-finops/"
-- title: "Cloud Computing Trends: 2021 State of the Cloud Report"
+- title: "Cloud Computing Trends: 2022 State of the Cloud Report"
   url: "https://www.flexera.com/blog/cloud/cloud-computing-trends-2021-state-of-the-cloud-report/"
 
 # Detail related/dedicated slack channels in the FinOps Foundation Slack 
