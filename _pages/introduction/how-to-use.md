@@ -30,7 +30,7 @@ This is a human-readable summary of (and not a substitute for) the license. Disc
 ## How to give attribution credit:
 If you were to share or adapt content from the FinOps Principles page you would need to include the following attribution:
 
-- [FinOps Principles](https://www.finops.org/framework/principles/) by [FinOps Foundation](https://www.finops.org")
+- [FinOps Principles](https://www.finops.org/framework/principles/) by [FinOps Foundation](https://www.finops.org/)
 
 If referencing multiple pieces or general concepts from the Framework you can also use:
 
