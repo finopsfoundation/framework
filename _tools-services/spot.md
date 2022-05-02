@@ -44,6 +44,8 @@ product-overview: |
 
   Spot Ocean: automates management and optimization of cloud infrastructure for containerized workloads and Kubernetes environments in the cloud.
 
+  ![Spot by Netapp](/tools-services/assets/spot/spot-img.png?3)
+  *Spot delivers key outcomes critical to support the four key stages of the FinOps journey*
 
 product-video-url:
 
