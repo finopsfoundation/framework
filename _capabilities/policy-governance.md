@@ -5,11 +5,11 @@ permalink: /framework/capabilities/policy-governance
 search: true
 
 title: Cloud Policy & Governance
-description: coming soon...
+description: Policy and Governance can be thought of as a set of statements of intent, with associated assurances of adherence.
 page-identifier: capability_policy-governance
 framework-capability-title: Cloud Policy & Governance
-framework-capability-desc: coming soon...
-label: Help Define
+framework-capability-desc: Policy and Governance can be thought of as a set of statements of intent, with associated assurances of adherence.
+label:
 order: 16
 
 ---
@@ -49,10 +49,22 @@ In the early stages of cloud adoption, everything is new and everyone is a pione
 | -------- | ----------- | ----- |
 | Crawl | Cloud Policy & Governance exists as part of overall business policy. Policies aim to control most significant risks to business value. | Basic usage & rate optimization, etc as they apply to individual engineering teams and products. |
 | Walk | Cloud Policy & Governance measures are broadened and standardized. Best practices are now being distributed and adopted across the business. | Cross-functional collaboration. Integration with existing organizational policies and standards. |
-| Run | Cloud Policy & Governance is now closely integrated with overall business strategy. | All levels of business now operate in a way that is aligned with the organization’s strategy and goals. |
+| Run | Cloud Policy & Governance is now closely integrated with overall business strategy. | All levels of business now operate in a way that is aligned with the organization’s strategy and goals.
 
+## Functional Activity
+_written for each persona responsible for the functional activity and processes encapsulated by his Capability.  each one should be associated generally to one of the FinOps Phases (Inform, Optimize, Operate). for example:_
+>As a [FinOps Persona], I will [functional activity] so that [desired outcome] is achieved.
 
-## Best Practices
+## Measure(s) of Success
+
+| Measures of CP&G | Crawl | Walk | Run |
+| ---------------- | ----- | ---- | --- |
+| Scope of CP&G | Across Engineering teams | Cross-functional, across Business, Technical & Finance teams | Across the organization, linking CP&G to strategic goals |
+| Creating & Updating | Manually, ad-hoc, largely reactive policy creation | Regular review cadence, proactive FinOps policies | Ongoing automated policy compliance review, with trending |
+|  Documenting & Communicating | Static, manually distributed content | KMS / training integrated solutions | Integration with new architectural concepts to ensure currency |
+| Monitoring for Compliance | Manual analysis & reporting | Vendor-provided automated analytics (eg. AWS Config) | Multi-cloud/enriched normalised insights & automation solution |
+
+### Best Practice:
 
 The 5 __FACES__ of Good Cloud Policy & Governance:
 | | |
@@ -62,30 +74,15 @@ The 5 __FACES__ of Good Cloud Policy & Governance:
 | __CLEAR__ | simply stated and easy for everyone to understand |
 | __EFFICIENT__ |low comparative cost of implementation vs benefit |
 | __SUPPORTED__ | by the authority required in order to enforce it |
-
-
-
-
-## Measure(s) of Success
-| Measures of CP&G | Crawl | Walk | Run |
-| ---------------- | ----- | ---- | --- |
-| Scope of CP&G | Across Engineering teams | Cross-functional, across Business, Technical & Finance teams | Across the organization, linking CP&G to strategic goals |
-| Creating & Updating | Manually, ad-hoc, largely reactive policy creation | Regular review cadence, proactive FinOps policies | Ongoing automated policy compliance review, with trending |
-|  Documenting & Communicating | Static, manually distributed content | KMS / training integrated solutions | Integration with new architectural concepts to ensure currency |
-| Monitoring for Compliance | Manual analysis & reporting | Vendor-provided automated analytics (eg. AWS Config) | Multi-cloud/enriched normalised insights & automation solution |
-
 ## Inputs
 
-__GOVERNANCE__
+### GOVERNANCE
 
 Governance implements Policy through:
 - __Guidelines__ - that set out best practice for policy implementation and how it can be achieved. These are advisory, rather than mandatory
 - __Guardrails__ -  formal processes and structures that define mandatory pathways for policy-compliant action, possibly with consequences for non-compliance
 - __Automation__ - processes that automate policy implementation and which therefore control how compliant actions are carried out. 
-
-
-__POLICY__
-
+### POLICY
 
 If a policy is poorly conceived or expressed, of dubious authority, too broad or general to be useful in practice, or imposes a cost on the organization that is out of proportion to its benefit, it is a bad policy.
 Some examples of good policy statements might be: 
@@ -96,12 +93,14 @@ Some examples of good policy statements might be:
 <!-- ####### Real World Resources ####### -->
 ## Real World Resources
 
-Vendor Tools:
+{% include story-loop.md %}
+
+### Vendor Tools
 - AWS -  AWS Control Tower, AWS Organizations, AWS License Manager, AWS Service Catalog, AWS OpsWorks
 - Azure - Azure Management Groups, Azure Blueprints
 - GCP - Google Cloud Console
 
-Useful links:
+### Useful links
 - https://aws.amazon.com/products/management-and-governance/
 - https://azure.microsoft.com/en-gb/solutions/governance/
 - https://cloud.google.com/files/guide-to-financial-governance.pdf
