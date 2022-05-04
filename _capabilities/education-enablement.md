@@ -5,11 +5,11 @@ permalink: /framework/capabilities/education-enablement
 search: true
 
 title: FinOps Education & Enablement
-description: coming soon...
+description: FinOps Education & Enablement allows all those participating in FinOps practices to increase the business value of cloud by accelerating FinOps adoption.
 page-identifier: capability_education-enablement
 framework-capability-title: FinOps Education & Enablement
-framework-capability-desc: coming soon...
-label: Help Define
+framework-capability-desc: FinOps Education & Enablement allows all those participating in FinOps practices to increase the business value of cloud by accelerating FinOps adoption.
+label:
 order: 18
 
 ---
@@ -17,20 +17,18 @@ order: 18
 # FinOps Education & Enablement
 
 {% include contribute-capabiility.md %}
-
 ## Domains
 <!-- _x-ref to the FinOps Domain(s) to which this Capability corresponds_ -->
 {% include domains-loop.md %}
-
-
 ## Definition
-_definition for this Capability.  the objective here is to capture the "What" (**not** the "How") for this Capability._
+FinOps Education & Enablement allows all those participating in FinOps practices to increase the business value of cloud by accelerating FinOps adoption.
 
-
+FinOps Education & Enablement includes:
+- Internal communications, events and learning experiences.  These may focus on specific technical, financial or business topics or a combination of all three
+- Training - either function-based, technology-based, or focused on FinOps processes themselves
+- Initiatives aimed at improving the business value of cloud that give participants the opportunity to use the knowledge they have gained 
 ## Maturity Assessment
 _description of the characteristics of each maturity level (crawl, walk, run) for this Capability in the context of the organization's FinOps practice._
-
-
 
 ## Functional Activity
 _written for each persona responsible for the functional activity and processes encapsulated by his Capability.  each one should be associated generally to one of the FinOps Phases (Inform, Optimize, Operate). for example:_
