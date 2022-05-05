@@ -34,13 +34,20 @@ FinOps Education & Enablement includes:
 - Covers basic FinOps processes and principles, such as Metadata & Account Organization, Cost Allocation, Ownership & Accountability
 - Education is generally directed towards Usage Optimization and Rate Optimization as the main vehicles for improving business value
 - Team Leaders drive enablement by assigning responsibilities that challenge and develop FinOps capabilities
+### Walk Phase
+- Education initiatives extend across teams to promote mutual understanding, purpose and collaboration
+- Covers a broader range of FinOps processes and practices, such as Forecasting, Managing shared costs, Budget Management
+- Education of FinOps Team now includes  Real-time Decision-making and Performance Tracking & Benchmarking
+- Functional Leaders drive enablement by assigning responsibilities that cross functional boundaries and emphasise collaboration
 
-
+### Run Phase
+- Education & Enablement extends across the enterprise to promote alignment of cloud value initiatives with organizational goals
+- Covers the full range of  FinOps processes and practices, including those focused on establishing FinOps culture and IT asset management integration
+- Education & Enablement of FinOps Team is broadened to include  Organizational Alignment
+- Executives drive enablement by assigning responsibilities that emphasize alignment with strategic goals
 ## Functional Activity
 _written for each persona responsible for the functional activity and processes encapsulated by his Capability.  each one should be associated generally to one of the FinOps Phases (Inform, Optimize, Operate). for example:_
 >As a [FinOps Persona], I will [functional activity] so that [desired outcome] is achieved.
-
-
 
 ## Measure(s) of Success & KPI
 - Training materials are available to every discipline, at every level to include both generic, and company specific info
@@ -49,26 +56,35 @@ _written for each persona responsible for the functional activity and processes 
 - Ongoing opportunities to learn, both formal and informal, are offered consistently over time
 - Leadership drives empowerment by promoting skills development and on-the-job learning and encouraging a ‘fail fast’ mantra 
 ## Inputs
-_the information used that contributes to the measure(s) of success listed above; information here may include specific datasources, reports or any relevant input_
 
+### Best Practices & Approaches
+- Cross-team training and sharing of best practices
+- FinOps targeted training and enablement
+- Brown-bag/Lunch-n-Learn for cross domain training
+- Build your own use of Confluence, Sharepoint, etc. to create internal playbooks, wikis and other things that “work here”
+- Encourage collaboration and cross-fertilization of ideas across different functions
+- Be mindful of providing for different learning styles and needs for different individuals
 
 <!-- ####### Real World Resources ####### -->
 ## Real World Resources
-_a collection of real world examples, stories and “how to” for this Capability; based on FinOps community member experiences; information here may:_
->* _apply to one or more cloud providers_
-* _include specific types of cloud services used) (compute, storage, database, etc...)_
-* _describe a combination of  tooling, platform or vendor_
-* _describe the industry the organization belongs to_
-* _describe the complexity of the organization (global, enterprise, etc…)_
-* _include the FinOps personas involved and any other organizational roles_
 
+### FinOps Foundation
+- Details of all FinOps training programs and materials are available at [learn.finops.org](learn.finops.org)
+- FinOpsPod Podcast, available on all major podcasting services
+- FinOps Foundation [YouTube channel](https://www.youtube.com/channel/UCyl26lvnoySlGWlF5oNHvYA) for Summit recordings and other content
+### Amazon Web Services
+- [AWS Skill Builder](https://explore.skillbuilder.aws/learn)
+### Microsoft Azure
+- [Microsoft Azure Training Portal](https://www.microsoft.com/en-gb/flexibility/training-and-certification-solutions?rtc=1%3f&ef_id=Cj0KCQiA95aRBhCsARIsAC2xvfzBsCu9rcJc73clwHkAaHuPp8bZFfYaVuPYzofkKSOpZEzyd1bCRewaAi0nEALw_wcB:G:s&OCID=AID2202079_SEM_Cj0KCQiA95aRBhCsARIsAC2xvfzBsCu9rcJc73clwHkAaHuPp8bZFfYaVuPYzofkKSOpZEzyd1bCRewaAi0nEALw_wcB:G:s&gclid=Cj0KCQiA95aRBhCsARIsAC2xvfzBsCu9rcJc73clwHkAaHuPp8bZFfYaVuPYzofkKSOpZEzyd1bCRewaAi0nEALw_wcB)
 
+### Google Cloud Platform
+- [GCP Training Portal](https://cloud.google.com/training)
 ## FinOps Platforms & Service Providers
 _Reference of cloud cost management platforms, tooling and service providers related to this Capability coming soon._
 
 
 ## FinOps Training
-_Reference of courses and training partners related to this Capability coming soon._
+See Real World Resources section.
 
 
 ---
