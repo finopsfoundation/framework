@@ -56,7 +56,7 @@ _written for each persona responsible for the functional activity and processes 
 >As a [FinOps Persona], I will [functional activity] so that [desired outcome] is achieved.
 
 ## Measure(s) of Success
-
+ 
 | Measures of CP&G | Crawl | Walk | Run |
 | ---------------- | ----- | ---- | --- |
 | Scope of CP&G | Across Engineering teams | Cross-functional, across Business, Technical & Finance teams | Across the organization, linking CP&G to strategic goals |
