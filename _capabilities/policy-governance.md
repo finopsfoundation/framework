@@ -68,7 +68,7 @@ _written for each persona responsible for the functional activity and processes 
 ### Best Practice:
 
 The 5 __FACES__ of Good Cloud Policy & Governance:
-| | |
+|Headline| Description |
 | ---| --- |
 | __FOCUSED__ | on achieving the objectives we seek |
 | __ALIGNED__ | with the organisations goals, strategy and principles |
