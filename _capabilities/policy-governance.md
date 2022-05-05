@@ -65,6 +65,7 @@ _written for each persona responsible for the functional activity and processes 
 |  Documenting & Communicating | Static, manually distributed content | KMS / training integrated solutions | Integration with new architectural concepts to ensure currency |
 | Monitoring for Compliance | Manual analysis & reporting | Vendor-provided automated analytics (eg. AWS Config) | Multi-cloud/enriched normalised insights & automation solution |
 
+
 ### Best Practice:
 
 The 5 __FACES__ of Good Cloud Policy & Governance:
