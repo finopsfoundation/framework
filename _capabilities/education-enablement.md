@@ -28,7 +28,13 @@ FinOps Education & Enablement includes:
 - Training - either function-based, technology-based, or focused on FinOps processes themselves
 - Initiatives aimed at improving the business value of cloud that give participants the opportunity to use the knowledge they have gained 
 ## Maturity Assessment
-_description of the characteristics of each maturity level (crawl, walk, run) for this Capability in the context of the organization's FinOps practice._
+
+### Crawl Phase
+- Education occurs within specific teams/functions themselves and focuses on the specific needs of each team
+- Covers basic FinOps processes and principles, such as Metadata & Account Organization, Cost Allocation, Ownership & Accountability
+- Education is generally directed towards Usage Optimization and Rate Optimization as the main vehicles for improving business value
+- Team Leaders drive enablement by assigning responsibilities that challenge and develop FinOps capabilities
+
 
 ## Functional Activity
 _written for each persona responsible for the functional activity and processes encapsulated by his Capability.  each one should be associated generally to one of the FinOps Phases (Inform, Optimize, Operate). for example:_
@@ -37,15 +43,11 @@ _written for each persona responsible for the functional activity and processes 
 
 
 ## Measure(s) of Success & KPI
-Measures of success are represented in the context of cloud costs and may include one or more key performance indicators ( KPI ), describe objectives with key results ( OKR ), and declare thresholds defining outliers or acceptable variance from forecasted trends.
-
-_at least one measure of success; should be described in a context of cost; this could be an efficiency KPI or an agreed upon threshold or target._
-_for example:_
->* idle resource costs will not exceed 3% of total monthly cloud spend
-* anomaly costs will not exceed $150/month
-
-
-
+- Training materials are available to every discipline, at every level to include both generic, and company specific info
+- Training is proactively offered both with internal delivery as well as access to external content as applicable
+- Employees feel empowered and encouraged to learn about their discipline and other disciplines, and to help in coaching others
+- Ongoing opportunities to learn, both formal and informal, are offered consistently over time
+- Leadership drives empowerment by promoting skills development and on-the-job learning and encouraging a ‘fail fast’ mantra 
 ## Inputs
 _the information used that contributes to the measure(s) of success listed above; information here may include specific datasources, reports or any relevant input_
 
