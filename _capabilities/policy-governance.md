@@ -55,6 +55,7 @@ In the early stages of cloud adoption, everything is new and everyone is a pione
 _written for each persona responsible for the functional activity and processes encapsulated by his Capability.  each one should be associated generally to one of the FinOps Phases (Inform, Optimize, Operate). for example:_
 >As a [FinOps Persona], I will [functional activity] so that [desired outcome] is achieved.
 
+
 ## Measure(s) of Success
  
 | Measures of CP&G | Crawl | Walk | Run |
@@ -108,3 +109,12 @@ Some examples of good policy statements might be:
 
 
 
+## FinOps Platforms & Service Providers
+_Reference of cloud cost management platforms, tooling and service providers related to this Capability coming soon._
+
+
+## FinOps Training
+_Reference of courses and training partners related to this Capability coming soon._
+
+
+---
