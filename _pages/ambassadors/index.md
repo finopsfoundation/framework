@@ -19,7 +19,7 @@ description: FinOps Ambassadors (FOAs) are practitioners who are passionate abou
 
 FinOps Ambassadors (FOAs) are practitioners who are passionate about the FinOps Foundation community, recognized for their expertise, and willing to help others learn and succeed.
 
-<img src="http://placehold.jp/800x500.png">
+<img src="https://placehold.jp/800x500.png">
 
 Successful ambassadors are FinOps Foundation members who enjoy communicating best practices, stories, and who challenge current practices to improve them for everyone. These people are bloggers, influencers, and evangelists who are already engaged with the FinOps Foundation in some way including contributing to the framework, participating in working groups, attending community events, and more.
 
