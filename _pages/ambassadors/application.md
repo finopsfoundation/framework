@@ -9,7 +9,7 @@ description: Learn more about the activities and expectations for every FinOps F
 
 # Become a FinOps Ambassador
 
-![FinOps Ambassador program is now live](http://placehold.jp/800x500.png)
+![FinOps Ambassador program is now live](https://placehold.jp/800x500.png)
 
 FinOps Ambassadors (FOAs) are practitioners who are passionate about the FinOps Foundation community, recognized for their expertise, and willing to help others learn and succeed.
 
