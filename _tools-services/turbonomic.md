@@ -4,11 +4,11 @@ layout: member
 temporary: true
 
 # Vendor details
-name: IBM
-logo-url: "/tools-services/logos/ibm.svg"
+name: Turbonomic an IBM Company
+logo-url: "/tools-services/logos/turbonomic.svg"
 logo-url-width: 150
 linkedin-url:
-website-url: "https://www.ibm.com/"
+website-url: "https://www.turbonomic.com/"
 
 # Maximum character count is 350 the rest will be truncated and hidden automatically on your page
 company-description:
