@@ -5,11 +5,11 @@ permalink: /framework/capabilities/education-enablement
 search: true
 
 title: FinOps Education & Enablement
-description: coming soon...
+description: FinOps Education & Enablement allows all those participating in FinOps practices to increase the business value of cloud by accelerating FinOps adoption.
 page-identifier: capability_education-enablement
 framework-capability-title: FinOps Education & Enablement
-framework-capability-desc: coming soon...
-label: Help Define
+framework-capability-desc: FinOps Education & Enablement allows all those participating in FinOps practices to increase the business value of cloud by accelerating FinOps adoption.
+label:
 order: 18
 
 ---
@@ -17,58 +17,74 @@ order: 18
 # FinOps Education & Enablement
 
 {% include contribute-capabiility.md %}
-
 ## Domains
 <!-- _x-ref to the FinOps Domain(s) to which this Capability corresponds_ -->
 {% include domains-loop.md %}
-
-
 ## Definition
-_definition for this Capability.  the objective here is to capture the "What" (**not** the "How") for this Capability._
+FinOps Education & Enablement allows all those participating in FinOps practices to increase the business value of cloud by accelerating FinOps adoption.
 
-
+FinOps Education & Enablement includes:
+- Internal communications, events and learning experiences.  These may focus on specific technical, financial or business topics or a combination of all three
+- Training - either function-based, technology-based, or focused on FinOps processes themselves
+- Initiatives aimed at improving the business value of cloud that give participants the opportunity to use the knowledge they have gained 
 ## Maturity Assessment
-_description of the characteristics of each maturity level (crawl, walk, run) for this Capability in the context of the organization's FinOps practice._
 
+### Crawl Phase
+- Education occurs within specific teams/functions themselves and focuses on the specific needs of each team
+- Covers basic FinOps processes and principles, such as Metadata & Account Organization, Cost Allocation, Ownership & Accountability
+- Education is generally directed towards Usage Optimization and Rate Optimization as the main vehicles for improving business value
+- Team Leaders drive enablement by assigning responsibilities that challenge and develop FinOps capabilities
+### Walk Phase
+- Education initiatives extend across teams to promote mutual understanding, purpose and collaboration
+- Covers a broader range of FinOps processes and practices, such as Forecasting, Managing shared costs, Budget Management
+- Education of FinOps Team now includes  Real-time Decision-making and Performance Tracking & Benchmarking
+- Functional Leaders drive enablement by assigning responsibilities that cross functional boundaries and emphasise collaboration
 
-
+### Run Phase
+- Education & Enablement extends across the enterprise to promote alignment of cloud value initiatives with organizational goals
+- Covers the full range of  FinOps processes and practices, including those focused on establishing FinOps culture and IT asset management integration
+- Education & Enablement of FinOps Team is broadened to include  Organizational Alignment
+- Executives drive enablement by assigning responsibilities that emphasize alignment with strategic goals
 ## Functional Activity
 _written for each persona responsible for the functional activity and processes encapsulated by his Capability.  each one should be associated generally to one of the FinOps Phases (Inform, Optimize, Operate). for example:_
 >As a [FinOps Persona], I will [functional activity] so that [desired outcome] is achieved.
 
-
-
 ## Measure(s) of Success & KPI
-Measures of success are represented in the context of cloud costs and may include one or more key performance indicators ( KPI ), describe objectives with key results ( OKR ), and declare thresholds defining outliers or acceptable variance from forecasted trends.
-
-_at least one measure of success; should be described in a context of cost; this could be an efficiency KPI or an agreed upon threshold or target._
-_for example:_
->* idle resource costs will not exceed 3% of total monthly cloud spend
-* anomaly costs will not exceed $150/month
-
-
-
+- Training materials are available to every discipline, at every level to include both generic, and company specific info
+- Training is proactively offered both with internal delivery as well as access to external content as applicable
+- Employees feel empowered and encouraged to learn about their discipline and other disciplines, and to help in coaching others
+- Ongoing opportunities to learn, both formal and informal, are offered consistently over time
+- Leadership drives empowerment by promoting skills development and on-the-job learning and encouraging a ‘fail fast’ mantra 
 ## Inputs
-_the information used that contributes to the measure(s) of success listed above; information here may include specific datasources, reports or any relevant input_
 
+### Best Practices & Approaches
+- Cross-team training and sharing of best practices
+- FinOps targeted training and enablement
+- Brown-bag/Lunch-n-Learn for cross domain training
+- Build your own use of Confluence, Sharepoint, etc. to create internal playbooks, wikis and other things that “work here”
+- Encourage collaboration and cross-fertilization of ideas across different functions
+- Be mindful of providing for different learning styles and needs for different individuals
 
 <!-- ####### Real World Resources ####### -->
 ## Real World Resources
-_a collection of real world examples, stories and “how to” for this Capability; based on FinOps community member experiences; information here may:_
->* _apply to one or more cloud providers_
-* _include specific types of cloud services used) (compute, storage, database, etc...)_
-* _describe a combination of  tooling, platform or vendor_
-* _describe the industry the organization belongs to_
-* _describe the complexity of the organization (global, enterprise, etc…)_
-* _include the FinOps personas involved and any other organizational roles_
 
+### FinOps Foundation
+- Details of all FinOps training programs and materials are available at [learn.finops.org](learn.finops.org)
+- FinOpsPod Podcast, available on all major podcasting services
+- FinOps Foundation [YouTube channel](https://www.youtube.com/channel/UCyl26lvnoySlGWlF5oNHvYA) for Summit recordings and other content
+### Amazon Web Services
+- [AWS Skill Builder](https://explore.skillbuilder.aws/learn)
+### Microsoft Azure
+- [Microsoft Azure Training Portal](https://www.microsoft.com/en-gb/flexibility/training-and-certification-solutions?rtc=1%3f&ef_id=Cj0KCQiA95aRBhCsARIsAC2xvfzBsCu9rcJc73clwHkAaHuPp8bZFfYaVuPYzofkKSOpZEzyd1bCRewaAi0nEALw_wcB:G:s&OCID=AID2202079_SEM_Cj0KCQiA95aRBhCsARIsAC2xvfzBsCu9rcJc73clwHkAaHuPp8bZFfYaVuPYzofkKSOpZEzyd1bCRewaAi0nEALw_wcB:G:s&gclid=Cj0KCQiA95aRBhCsARIsAC2xvfzBsCu9rcJc73clwHkAaHuPp8bZFfYaVuPYzofkKSOpZEzyd1bCRewaAi0nEALw_wcB)
 
+### Google Cloud Platform
+- [GCP Training Portal](https://cloud.google.com/training)
 ## FinOps Platforms & Service Providers
 _Reference of cloud cost management platforms, tooling and service providers related to this Capability coming soon._
 
 
 ## FinOps Training
-_Reference of courses and training partners related to this Capability coming soon._
+See Real World Resources section.
 
 
 ---
