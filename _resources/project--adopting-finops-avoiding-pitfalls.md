@@ -44,17 +44,19 @@ Thinking about it in medical terms, cost management is treating the symptom whil
 Working with Product, Architects, Developers and Business to define the new software while tailoring the cloud resource to match the need and efficiency of the product (not the resources as they are used in the development environment).
 
 #### Real-world story:
-A gaming company wanted to launch a new feature in the game to allow users to communicate with other players, to do that they planned on using AWS SQS to deliver ~50,000 messages in a second.
-When submitting the HLD, the FinOps and the Architect used the AWS calculator to forecast the cost of the SQS for a month, the estimated value was around $49,419.
-The FinOps suggested to use the Bulk feature of the SQS to reduce the number of messages in the queue, which required a change in the code and consumption, when the developers worked on the code to use the bulk consumption they realized that the message payload was small enough that they can send 15 game data messages in 1 JSON and then using the Bulk feature to submit 300 messages in 1 call, thus reducing the amount of calls to the SQS from 50000 to 166 and the expected cost went does accordingly $174.08  month
+
+> A gaming company wanted to launch a new feature in the game to allow users to communicate with other players, to do that they planned on using AWS SQS to deliver ~50,000 messages in a second.
+> When submitting the HLD, the FinOps and the Architect used the AWS calculator to forecast the cost of the SQS for a month, the estimated value was around $49,419.
+> The FinOps suggested to use the Bulk feature of the SQS to reduce the number of messages in the queue, which required a change in the code and consumption, when the developers worked on the code to use the bulk consumption they realized that the message payload was small enough that they can send 15 game data messages in 1 JSON and then using the Bulk feature to submit 300 messages in 1 call, thus reducing the amount of calls to the SQS from 50000 to 166 and the expected cost went does accordingly $174.08  month
 
 ### Cost Management:
 Removing waste and applying commitments on existing workload, Buying RI’s or Shutting down resources during off hours, to reduce cost on same used resources, is managing the expanses but does not optimize the usage of the cloud resources.
 
 #### Real-world story:
-A gaming company wanted to have a buffer of instances that will support a failure in the game, they run a 100 m5.4xlarge instance in On-demand in an elastic group (min 100).
-When first we approached management about reducing the group they rejected the notion as this was the “safety buffer” in case the game had an outage.
-Studying the metrics of the group we found that the average CPU usage of the group for a month of 18%. We presented that to management and after evaluating the usage versus spike risk, we reduced the minimum value to 90 and waited 2 weeks to ensure the group is stable, we did the iterations till the group was at 60 instances (minimal limit Management was willing to reach), with 25% running on Spot instances and the rest covered by Reserved instances. Overall CPU usage of the group rose to 33% monthly.
+
+> A gaming company wanted to have a buffer of instances that will support a failure in the game, they run a 100 m5.4xlarge instance in On-demand in an elastic group (min 100).
+> When first we approached management about reducing the group they rejected the notion as this was the “safety buffer” in case the game had an outage.
+> Studying the metrics of the group we found that the average CPU usage of the group for a month of 18%. We presented that to management and after evaluating the usage versus spike risk, we reduced the minimum value to 90 and waited 2 weeks to ensure the group is stable, we did the iterations till the group was at 60 instances (minimal limit Management was willing to reach), with 25% running on Spot instances and the rest covered by Reserved instances. Overall CPU usage of the group rose to 33% monthly.
 
 
 ## Embrace Internal Competition
@@ -69,8 +71,11 @@ It is important for FinOps teams to not solely focus on their performance but re
   + Example: A FinOps team recently challenged engineers to clean up unused EBS volumes. A dashboard was created showing waste by teams. The FinOps team consulted with an Engineer to validate the findings. The engineer noticed the dashboard was missing capturing attached EBS volumes associated with stopped EC2 instances. Together the teams worked on scope and the Engineer that identified the opportunity wrote a script for the FinOps team to utilize with the entire organization.
 
 #### Real-world story:
-Business operating models evolve overtime, at a major education enterprise company the operating model shifts toward individual business units making decisions on which core services to build or leverage centrally. The enterprise already had an established FinOps function centrally. Most individual business units recognized the economics of scale of working with the centralized team and had an established trusted relationship. However, for a while a single business unit advocated for a decentralized approach. The centerzlied FinOps team was able to educate the decentralized team & provide resources (dashboards, tooling) to support them. To avoid friction the two teams began regular cadences and sharing feedback. This allowed the decentralized team to build off of what the centralized team had and also provide a customer feedback loop for improvements. These two teams over time gained trust in one another. This relationship was not without some turbulence, however having the attitude that embracing internal competitions and understanding that healthy competition where the focus is for greater good goal can be very valuable for FinOps teams.
 
+> Business operating models evolve overtime, at a major education enterprise company the operating model shifts toward individual business units making decisions on which core services to build or leverage centrally. The enterprise already had an established FinOps function centrally. Most individual business units recognized the economics of scale of working with the centralized team and had an established trusted relationship. However, for a while a single business unit advocated for a decentralized approach. The centerzlied FinOps team was able to educate the decentralized team & provide resources (dashboards, tooling) to support them. To avoid friction the two teams began regular cadences and sharing feedback. This allowed the decentralized team to build off of what the centralized team had and also provide a customer feedback loop for improvements. These two teams over time gained trust in one another. This relationship was not without some turbulence, however having the attitude that embracing internal competitions and understanding that healthy competition where the focus is for greater good goal can be very valuable for FinOps teams.
+
+
+___
 
 ## Be an advocate for engineers
 FinOps must engage, collaborate with domain experts before sharing recommendations with wider teams. Many of the ‘Quick Wins’ or ‘Low hanging fruit’ when looking to optimize costs are in the realm of engineering teams. What look on the surface as good actions to take may not be as appealing to do once you consider the context.
@@ -84,16 +89,18 @@ FinOps must engage, collaborate with domain experts before sharing recommendatio
 + Treat recommendations from tools as recommendations. Have the discussions to decide if they are valid for your use cases.
 
 #### Real-world story:
-The FinOps team for a company spending $ tens of millions a year was able to rank Virtual Machine recommendations by potential savings and prioritize which engineering teams they should start talking to.
 
-When talking to the team with the largest potential rightsizing savings, it transpired that the team were just starting to use cloud and used another team’s Infrastructure as Code repo as a template for their service. The template repo was for a team that needed to use VMs that were optimized for CPU-bound workloads. The team with large right-sizing opportunities had workloads that were memory-bound. To meet the memory requirements for their application nodes, they scaled up the size of the instances in the template.
-
-The discussion with the engineering team highlighted that there are other instance types, including instances that have a higher ratio of memory to vCPU. After some quick tests, the changes were implemented giving a 50% reduction in the cost of running the instances.
-
-![An example chart showing trend of cost vs running instances](/img/adopting-finops/adopting-finops-avoiding-pitfalls-image1-20220517.png)
+> The FinOps team for a company spending $ tens of millions a year was able to rank Virtual Machine recommendations by potential savings and prioritize which engineering teams they should start talking to.
+>
+> When talking to the team with the largest potential rightsizing savings, it transpired that the team were just starting to use cloud and used another team’s Infrastructure as Code repo as a template for their service. The template repo was for a team that needed to use VMs that were optimized for CPU-bound workloads. The team with large right-sizing opportunities had workloads that were memory-bound. To meet the memory requirements for their application nodes, they scaled up the size of the instances in the template.
+>
+> The discussion with the engineering team highlighted that there are other instance types, including instances that have a higher ratio of memory to vCPU. After some quick tests, the changes were implemented giving a 50% reduction in the cost of running the instances.
+>
+![An example chart showing trend of cost vs running instances](/img/adopting-finops/adopting-finops-avoiding-pitfalls-image1-20220517.png "Sample chart")
 *Changes implemented giving a 50% reduction in the cost of running the instances*
 
 
+___
 
 ## Expectation on setting targets
 Knowing what you aim for is important and that is why you need to set goals, be them cost reduction ( easy wins) or a way to forecast budget and unit economics, all this needs to be outlined up front, so you can engage with stakeholders and understand what the desired outcome is.
@@ -107,6 +114,7 @@ It is also very important to set realistic expectations, [ ex. 8% cost reduction
 
 
 #### Real-world story:
+
 > **(1,2)** A customer wanted to understand why his cloud spend increased so much in the last 3 months when he is selling an on-premise appliance and not a cloud service.
 >
 > When we started to investigate we noticed that the cost arose from the fact that the CI account spiked.Turns out he hired 15 new developers and each was bringing the equivalent of a client appliance in the cloud and leaving it on even on the weekends. We implemented a short script that stops all VM’s on Thursday evening and starts them on Sunday Morning, that enables the developers to have the systems up when they get in the morning without needing to wait, the next step was to do the shutdown every night and the weekends.
@@ -119,6 +127,7 @@ It is also very important to set realistic expectations, [ ex. 8% cost reduction
 > **(4)** see the section about optimisation above.
 
 
+___
 
 ## Tooling Considerations
 The quantity of data that FinOps teams need to understand and analyze is vast. The raw billing data is unfit for human consumption and quickly exhausts the capabilities of general office suite applications. Tools can help surface the key information from all the data as well as automate activities allowing you to reduce cycle times in the FinOps lifecycle loop. Implementing tools is not a silver-bullet solution. There are many other considerations that need to be evaluated and processes to set up to get the best value from tools.
@@ -135,9 +144,11 @@ The quantity of data that FinOps teams need to understand and analyze is vast. T
 
 
 #### Real-world story:
-A few years ago, back on 2020, a major marketplace company that is cloud native decided to invest in a solution mainly for showback. After researching the market for a SaaS solution, the evaluation was that the available options were not robust enough to cover the company’s complexity, especially those related to multi-cloud providers and cost split of shared resources. Based on this, the company decided to build its own solution. After the first MVP (minimum viable product) was deployed, every year, the FinOps team assess the market to check how the available solutions have evolved. Even with all the development employed, the “buy” option is still over the table. By adopting an existing solution, you will have a chance to speed up the company’s FinOps roadmap. An “in-house” solution gives more flexibility and control over the tool evolution. There is no right or wrong, just a matter of balancing the benefits and costs of every option.
+
+> A few years ago, back on 2020, a major marketplace company that is cloud native decided to invest in a solution mainly for showback. After researching the market for a SaaS solution, the evaluation was that the available options were not robust enough to cover the company’s complexity, especially those related to multi-cloud providers and cost split of shared resources. Based on this, the company decided to build its own solution. After the first MVP (minimum viable product) was deployed, every year, the FinOps team assess the market to check how the available solutions have evolved. Even with all the development employed, the “buy” option is still over the table. By adopting an existing solution, you will have a chance to speed up the company’s FinOps roadmap. An “in-house” solution gives more flexibility and control over the tool evolution. There is no right or wrong, just a matter of balancing the benefits and costs of every option.
 
 
+___
 
 ## Decision making
 When adopting finops you do not just want to jump right in without important decision making.
@@ -161,14 +172,18 @@ The initial step to start can be overwhelming if you just try to consume it all 
 
 
 #### Real-world story:
-The best way to build trust and gain traction in the company is to show immediate results, and those happen with the low hanging fruit, which can manifest in easy tasks. At a gaming company that first task was going over all the storage (Disk) and cleaning the unused ones ( unattached), That initial swap removed $1400 of the monthly consumption, than we enabled a life cycle on the long term storage (S3/ Storage accounts) and that reduced the billing from $64,000 a month to $56,000.
 
-At the monthly meeting of cost evaluation, after the BI team presented the growth and company intake, FinOps presented the cloud expanse and showed that even though the cloud usage grew that month by 3% (roughly 150,000 players) , due to the actions done by the FinOps, cloud costs shrunk by 1.5%. This gave the management the confidence  that the FinOps team is doing a responsible job in maintaining the cloud cost under supervision while ensuring that none of the business goals and activities are hindered.
+> The best way to build trust and gain traction in the company is to show immediate results, and those happen with the low hanging fruit, which can manifest in easy tasks. At a gaming company that first task was going over all the storage (Disk) and cleaning the unused ones ( unattached), That initial swap removed $1400 of the monthly consumption, than we enabled a life cycle on the long term storage (S3/ Storage accounts) and that reduced the billing from $64,000 a month to $56,000.
+>
+> At the monthly meeting of cost evaluation, after the BI team presented the growth and company intake, FinOps presented the cloud expanse and showed that even though the cloud usage grew that month by 3% (roughly 150,000 players) , due to the actions done by the FinOps, cloud costs shrunk by 1.5%. This gave the management the confidence  that the FinOps team is doing a responsible job in maintaining the cloud cost under supervision while ensuring that none of the business goals and activities are hindered.
 
 
 #### Real-world story:
-As a new FinOps Driver, we were very set on getting the raw recommendations from tooling into the hands of engineers to take action. We created an automated workflow that would pull recommendations from a Cloud providers recommendation engine and create ServiceNow tickets that would be ready to approve via change management process. We took a waterflow approach to building this automation out over 6 weeks. The entire thing worked perfectly, or so we thought. Once we started piloting it we found that most of the recommendations were not actionable per the engineering teams. This caused a lot of tickets within the change process that were not actionable, yet required engineers to clean the tickets up because they were noisey.  We missed the most important element of designing a new FinOps capability, which was to engage with the engineering teams on building a tool they would be the end users for.
 
+> As a new FinOps Driver, we were very set on getting the raw recommendations from tooling into the hands of engineers to take action. We created an automated workflow that would pull recommendations from a Cloud providers recommendation engine and create ServiceNow tickets that would be ready to approve via change management process. We took a waterflow approach to building this automation out over 6 weeks. The entire thing worked perfectly, or so we thought. Once we started piloting it we found that most of the recommendations were not actionable per the engineering teams. This caused a lot of tickets within the change process that were not actionable, yet required engineers to clean the tickets up because they were noisey.  We missed the most important element of designing a new FinOps capability, which was to engage with the engineering teams on building a tool they would be the end users for.
+
+
+___
 
 ## Conclusion
 The intent of this article is not to be exhaustive, but to give some points to think about when implementing FinOps in your organization. It is not a “silver bullet” or a “one-size-fit-all” solution. But the key success factor is to identify the principles that run behind each of the topics mentioned above. With the help of the real case stories, you have another opportunity to have an idea on how the principles are applied in a specific environment that may not be like yours. We hope that with this article you will, at least, eliminate the idea of starting from scratch and have some talking points to discuss within your organization in order to have a successful FinOps implementation.
