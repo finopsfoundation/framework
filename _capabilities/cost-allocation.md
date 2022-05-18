@@ -110,7 +110,7 @@ Measures of success are represented in the context of cloud costs and may includ
 ## Inputs
 * Cloud Adoption Frameworks / Architecture Frameworks from Cloud Service Providers
 * Established reference listing an organization’s valid values for each element of allocation metadata (e.g. Project names, Application IDs, Cost Center IDs, Contacts, Organization groupings, etc.)
-* Reporting which surface perentage of spend that is allocated and unallocated by established allocation metadata
+* Reporting which surface percentage of spend that is allocated and unallocated by established allocation metadata
 * Roles defined for cost ownership
 * Existing tag/label standards for operations, existing naming standards
 * Understanding of the capabilities of CI/CD, platform, cloud provider capabilities

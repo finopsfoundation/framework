@@ -109,7 +109,7 @@ Support charges are a typical example of this challenge. Cloud vendor support ch
 Modern architecture has also introduced more shared costs with the rise of shared platforms. These platforms have multiple teams working with the same core resources, such as data lakes built in commonly shared S3 buckets or Kubernetes systems running on shared clusters. At first glance, [chargeback](/framework/capabilities/chargeback/) and showback for these platforms can seem impossible, but proper tagging can help with splitting shared costs correctly.
 
 #### Common types of shared costs are:
-* Shared resources(network,shared-storage)
+* Shared resources (network, shared-storage)
 * Platform services (k8s, logging, etc)
 * Enterprise level support
 * Enterprise level discounts
