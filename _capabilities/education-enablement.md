@@ -92,7 +92,7 @@ _Reference of cloud cost management platforms, tooling and service providers rel
 ## FinOps Training
 
 #### FinOps Foundation
-- Details of all FinOps training programs and materials are available at [learn.finops.org](learn.finops.org){:target="_blank"}
+- Details of all FinOps training programs and materials are available at [learn.finops.org](https://learn.finops.org/){:target="_blank"}
 
 
 #### Amazon Web Services
