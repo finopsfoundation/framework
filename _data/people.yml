@@ -211,33 +211,33 @@
 
 - group: ambassadors
   people:
-  - name: J.R. Storment
-    job-title: Executive Director
-    linkedin-url: https://www.linkedin.com/in/jrstorment/
-    image: https://media-exp1.licdn.com/dms/image/C4E03AQEMbsUL50U9nQ/profile-displayphoto-shrink_400_400/0/1559583831098?e=1639612800&v=beta&t=VLPyBWBTwid5FU6HCVKpigpgaFlbDLVld3r402S_Z0w
+  - name: Michelle Cleland
+    job-title: SnR Programme Manager, Hongkong Jockey Club (HKJC)
+    linkedin-url: www.linkedin.com/in/michelle-cleland
+    image: michelle-cleland.jpg
 
-  - name: Stacy Case
-    job-title: Training & Operations
-    linkedin-url: https://www.linkedin.com/in/stacy-case/
-    image: https://media-exp1.licdn.com/dms/image/C5603AQHx4F2qnCwuFA/profile-displayphoto-shrink_400_400/0/1604952855897?e=1639612800&v=beta&t=i6PMHwrQ1byRGy6N_1R0Ub4EBvcQvOc4uTqVOowgrH4
+  - name: Kim Wier
+    job-title: Director of Engineering, Target Corporation
+    linkedin-url: https://www.linkedin.com/in/kim-wier-she-her-2a31bb3/
+    image: kim-wier.jpg
 
-  - name: Rob Martin
-    job-title: Learning & Curriculums
-    linkedin-url: https://www.linkedin.com/in/robmartin3/
-    image: https://media-exp1.licdn.com/dms/image/C5603AQGWYn4UzioVaw/profile-displayphoto-shrink_400_400/0/1516351880142?e=1639612800&v=beta&t=iIZhwzkYs_E967K5qTMSpUb5tIU6hJ43sJ6Y0WFBzfo
+  - name: Parker Nancollas
+    job-title: Cloud Business Analyst, The Church of Jesus Christ of Latter-Day Saints
+    linkedin-url: https://www.linkedin.com/in/parkernancollas/
+    image: parker-nancollas.jpg
 
-  - name: Vasilio Markanastasakis
-    job-title: Framework & Standards
-    linkedin-url: https://www.linkedin.com/in/vasilio/
-    image: https://media-exp1.licdn.com/dms/image/C5603AQHs14mCs2axpA/profile-displayphoto-shrink_400_400/0/1552674273685?e=1639612800&v=beta&t=yGL_NbrpMQq0PyyF_tfPwkeCjZo-m-wL1nwOntr09Wk
+  - name: Daniel Silva
+    job-title: Senior Cloud Solution Architect, NOS
+    linkedin-url: https://www.linkedin.com/in/daniel-silva-1b71071ba/
+    image: daniel-silva.jpg
 
-  - name: Kevin Emamy
-    job-title: Vendors & Partners
-    linkedin-url: https://www.linkedin.com/in/kevinemamy/
-    image: https://media-exp1.licdn.com/dms/image/C5103AQFxm_c21rpndg/profile-displayphoto-shrink_400_400/0/1516287422030?e=1639612800&v=beta&t=kGiL15chElDOU9sA2x6fXoIEEJjO-Ctr1IE3W5PtZ2s
+  - name: Scott Linn
+    job-title: Cloud Services and Optimization Manager, Chevron
+    linkedin-url: https://www.linkedin.com/in/scott-linn-416b24a
+    image: scott-linn.jpg
 
-  - name: Steve Trask
-    job-title: Digital & Growth
-    linkedin-url: https://www.linkedin.com/in/steventrask/
-    image: https://media-exp1.licdn.com/dms/image/C5103AQFpgMznhuUibA/profile-displayphoto-shrink_400_400/0/1517340701252?e=1639612800&v=beta&t=psPz9kMdwPiRKR-p8ZfHZ_42f-m8SIFHZWoWuCKsae8
+  - name: Deana Solis
+    job-title: Sr FinOps Engineer, Smarsh
+    linkedin-url: https://www.linkedin.com/in/solisdeana/
+    image: deana-solis.jpg
 
