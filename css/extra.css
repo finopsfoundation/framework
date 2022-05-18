@@ -168,3 +168,9 @@ ul.plain-list > li::before, ul[role=menu] > li::before {
   background-position: center;
   background-size: cover;
 }
+
+.x-banner {
+  background: url(../img/temp/landing-page-banner-x2.png?2) no-repeat;
+  background-position: center;
+  background-size: cover;
+}

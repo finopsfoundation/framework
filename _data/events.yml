@@ -6,7 +6,7 @@ items:
     host: FinOps Foundation
     type: Virtual Event
     image: event-images_summit.png
-    url: 
+    url: https://go.finops.org/finops-summit-may
 
   - title: July FinOps Vendor Showcase
     date: 7th July
@@ -65,25 +65,16 @@ items:
     image: event-images_google-cloud.png
     url: https://cloud.withgoogle.com/next
 
-  - title: "How to Build a Successful FinOps Practice"
-    date: 19th April
-    location: Virtual 
-    label: Vendor
-    host: Corestack
-    type: 
-      - Virtual Event
-    image: event-images_corestock.png
-    url: https://go.corestack.io/webinar-registration-how-to-build-a-successful-finops-practice?ref&utm_campaign=webinar-2022-04-finops-practices&utm_source=referral&utm_medium=finops
-
   - title: FinOps Certified Practitioner Training
-    date: 26th-27th April
-    location: Virtual 
-    label: FinOps Foundation Training
-    host: FinOps Foundation
+    date: 18th-19th May
+    location: EMEA 
+    label: Training Partner
+    host: Thebes Cloud Management
     type: 
+      - In-person
       - Virtual Event
-    image: event-images_f2.png
-    url: https://learn.finops.org/finops-certified-practitioner-april-26-27
+    image: event-images_thebes.png
+    url: https://thebescloud.com/focp-course/
 
   - title: FinOps Certified Practitioner Training
     date: 10th-11th May
@@ -105,13 +96,26 @@ items:
     image: event-images_f2.png
     url: https://learn.finops.org/finops-certified-practitioner-june-14-15
 
-  - title: NDC Porto
-    date: 28th April
-    location: Porto, Portugal
-    label: Third Party
-    host: NDC Porto
+  - title: KubeCon & CloudNativeCon Europe
+    date: 16th-20th May
+    location: Virtual 
+    label: 3rd Party
+    host: Cloud Native Computing Foundation
     type: 
       - In-person
-    image: event-images_third-party.png
-    url: https://ndcporto.com/agenda/how-farfetch-is-facing-the-cloud-cost-challenge-0dp5/0ng71r4kwqo
-    description: Anderson Oliveira, Sr. Product Manager at Farfetch will share how has been Farfetch journey towards cloud cost optimisation with FinOps. How Farfetch is facing the Cloud cost challenge - NDC Porto - Thursday April 28th, 15:00 - 16:00 (UTC+01)
+      - Virtual Event
+    image: event-images_lf.png
+    url: https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/
+
+  - title: KuebCon & CloudNativeCon North America
+    date: 24th-28th October
+    location: Virtual 
+    label: 3rd Party
+    host: Cloud Native Computing Foundation
+    type: 
+      - In-person
+      - Virtual Event
+    image: event-images_lf.png
+    url: https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/
+
+

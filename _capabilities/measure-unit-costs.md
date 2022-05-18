@@ -59,7 +59,9 @@ By calculating cloud spend for total revenue, you can attach growth in cloud spe
 
 
 
-## Measure(s) of Success
+## Measure(s) of Success & KPI
+Measures of success are represented in the context of cloud costs and may include one or more key performance indicators ( KPI ), describe objectives with key results ( OKR ), and declare thresholds defining outliers or acceptable variance from forecasted trends.
+
 _at least one measure of success; should be described in a context of cost; this could be an efficiency KPI or an agreed upon threshold or target._
 _for example:_
 >* idle resource costs will not exceed 3% of total monthly cloud spend
@@ -74,3 +76,14 @@ _the information used that contributes to the measure(s) of success listed above
 <!-- ####### Real World Resources ####### -->
 
 {% include story-loop.md %}
+
+
+## FinOps Platforms & Service Providers
+_Reference of cloud cost management platforms, tooling and service providers related to this Capability coming soon._
+
+
+## FinOps Training
+_Reference of courses and training partners related to this Capability coming soon._
+
+
+---

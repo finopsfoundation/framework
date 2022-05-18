@@ -159,6 +159,24 @@
     linkedin-url: https://www.linkedin.com/in/darrylsackett/
     image: darryl-sackett.jpg
 
+  - name: Jon Bock
+    job-title: CMO
+    company: Spot by NetApp
+    linkedin-url: https://www.linkedin.com/in/jobock/
+    image: jon-bock.jpg
+
+  - name: Lee Ditiangkin
+    job-title: Product Management & Engineering
+    company: IBM
+    linkedin-url: https://www.linkedin.com/in/leeditiangkin/
+    image: lee-ditiangkin.jpeg
+
+  - name: Brian Adler
+    job-title: Sr. Director, Cloud Market Strategy
+    company: Flexera
+    linkedin-url: https://www.linkedin.com/in/adlerbrian/
+    image: brian-adler.jpg
+
 - group: F2
   people:
   - name: J.R. Storment

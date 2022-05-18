@@ -73,7 +73,9 @@ As cost showback is a fundamental aspect of FinOps, all FinOps domains should be
 * develop KPIs to measure the cost effectiveness in achieving my desired business outcomes. These KPIs will be used in frequent collaboration with my engineering counterparts.
 
 
-## Measure(s) of Success
+## Measure(s) of Success & KPI
+Measures of success are represented in the context of cloud costs and may include one or more key performance indicators ( KPI ), describe objectives with key results ( OKR ), and declare thresholds defining outliers or acceptable variance from forecasted trends.
+
 - Overall Tagging Compliance is 90% or above
 - The cloud cost reporting ecosystem becomes a fundamental aspect of the IT department
 - Most product teams are publishing information related to their unit economics
@@ -97,3 +99,13 @@ _a collection of real world examples, stories and “how to” for this Capabili
 * _describe the industry the organization belongs to_
 * _describe the complexity of the organization (global, enterprise, etc…)_
 * _include the FinOps personas involved and any other organizational roles_
+
+
+## FinOps Platforms & Service Providers
+_Reference of cloud cost management platforms, tooling and service providers related to this Capability coming soon._
+
+
+## FinOps Training
+_Reference of courses and training partners related to this Capability coming soon._
+
+---

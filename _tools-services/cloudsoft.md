@@ -7,7 +7,7 @@ name: Cloudsoft
 logo-url: "/tools-services/logos/cloudsoft.png"
 logo-url-width: 140
 linkedin-url: "https://www.linkedin.com/company/1400731"
-website-url: "https://www.cloudsoft.io"
+website-url: "https://cloudsoft.io/services/cloud-cost-optimisation"
 
 # Maximum character count is 350 the rest will be truncated and hidden automatically on your page
 company-description: Cloudsoft specialise in applications, automation, and the cloud. Our top-down, application-centric approach empowers our customers to tame their IT estates and drive value. This expertise is embedded in Tempo cloud services, helping our clients to transform faster and exploit the benefits of cloud. We’re an AWS Advanced Consulting Partner.

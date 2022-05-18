@@ -114,7 +114,9 @@ At its core, FinOps is a cultural movement because the practice of Finops is mor
 
 
 
-## Measure(s) of Success
+## Measure(s) of Success & KPI
+Measures of success are represented in the context of cloud costs and may include one or more key performance indicators ( KPI ), describe objectives with key results ( OKR ), and declare thresholds defining outliers or acceptable variance from forecasted trends.
+
 * Engineering teams feel enabled to make cost trade-offs because they have real-time visibility to spend.
 * Education is available and evolving as it relates to Cloud cost management.
 * Active processes for FinOps knowledge sharing among teams.
@@ -132,3 +134,14 @@ _the information used that contributes to the measure(s) of success listed above
 <!-- ####### Real World Resources ####### -->
 
 {% include story-loop.md %}
+
+
+## FinOps Platforms & Service Providers
+_Reference of cloud cost management platforms, tooling and service providers related to this Capability coming soon._
+
+
+## FinOps Training
+_Reference of courses and training partners related to this Capability coming soon._
+
+
+---
