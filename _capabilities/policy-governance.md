@@ -39,7 +39,7 @@ We often talk about a ‘FinOps Culture’, which we see as a set of attitudes a
 
 So the simple answer to why Policy and Governance frameworks are important is that organizations cannot sustainably deliver business value from cloud without them.
 
-Cloud policy and Governance are key components of successful Cloud FinOps. They work to align activities within Cloud to the business overall goals and strategies, control the deployment and usage of Cloud resources in order to maximise ROI. We are able to ensure our cloud costs are predictable and manageable, and we can use Cloud Policy & Governance to support the consistent adoption of best practices across the organisation, and support defence-in-depth against known threats and 
+Cloud policy and Governance are key components of successful Cloud FinOps. They work to align activities within Cloud to the business overall goals and strategies, control the deployment and usage of Cloud resources in order to maximise ROI. We are able to ensure our cloud costs are predictable and manageable, and we can use Cloud Policy & Governance to support the consistent adoption of best practices across the organisation, and support defence-in-depth against known threats and
 
 ## Maturity Assessment
 
@@ -51,13 +51,14 @@ In the early stages of cloud adoption, everything is new and everyone is a pione
 | Walk | Cloud Policy & Governance measures are broadened and standardized. Best practices are now being distributed and adopted across the business. | Cross-functional collaboration. Integration with existing organizational policies and standards. |
 | Run | Cloud Policy & Governance is now closely integrated with overall business strategy. | All levels of business now operate in a way that is aligned with the organization’s strategy and goals.
 
+
 ## Functional Activity
 _written for each persona responsible for the functional activity and processes encapsulated by his Capability.  each one should be associated generally to one of the FinOps Phases (Inform, Optimize, Operate). for example:_
 >As a [FinOps Persona], I will [functional activity] so that [desired outcome] is achieved.
 
 
 ## Measure(s) of Success
- 
+
 | Measures of CP&G | Crawl | Walk | Run |
 | ---------------- | ----- | ---- | --- |
 | Scope of CP&G | Across Engineering teams | Cross-functional, across Business, Technical & Finance teams | Across the organization, linking CP&G to strategic goals |
@@ -65,52 +66,57 @@ _written for each persona responsible for the functional activity and processes 
 |  Documenting & Communicating | Static, manually distributed content | KMS / training integrated solutions | Integration with new architectural concepts to ensure currency |
 | Monitoring for Compliance | Manual analysis & reporting | Vendor-provided automated analytics (eg. AWS Config) | Multi-cloud/enriched normalised insights & automation solution |
 
-### Best Practice:
+
+#### Best Practice:
 
 The 5 __FACES__ of Good Cloud Policy & Governance:
-|Headline| Description |
-| ---| --- |
-| __FOCUSED__ | on achieving the objectives we seek |
-| __ALIGNED__ | with the organisations goals, strategy and principles |
-| __CLEAR__ | simply stated and easy for everyone to understand |
-| __EFFICIENT__ |low comparative cost of implementation vs benefit |
-| __SUPPORTED__ | by the authority required in order to enforce it |
+
+| Headline | Description |
+| ---:| --- |
+| **FOCUSED** | on achieving the objectives we seek |
+| **ALIGNED** | with the organisations goals, strategy and principles |
+| **CLEAR** | simply stated and easy for everyone to understand |
+| **EFFICIENT** | low comparative cost of implementation vs benefit |
+| **SUPPORTED** | by the authority required in order to enforce it |
+| | |
+
+
 ## Inputs
 
-### GOVERNANCE
-
+#### Governance
 Governance implements Policy through:
 - __Guidelines__ - that set out best practice for policy implementation and how it can be achieved. These are advisory, rather than mandatory
 - __Guardrails__ -  formal processes and structures that define mandatory pathways for policy-compliant action, possibly with consequences for non-compliance
-- __Automation__ - processes that automate policy implementation and which therefore control how compliant actions are carried out. 
-### POLICY
+- __Automation__ - processes that automate policy implementation and which therefore control how compliant actions are carried out.
 
+
+#### Policy
 If a policy is poorly conceived or expressed, of dubious authority, too broad or general to be useful in practice, or imposes a cost on the organization that is out of proportion to its benefit, it is a bad policy.
-Some examples of good policy statements might be: 
+Some examples of good policy statements might be:
 - “Our policy is to cover more than 80% of our optimised cloud usage with discounted pricing plans”
 - “Our policy is to reduce wasted spend by decommissioning cloud resources that deliver no business value”
 
 
 <!-- ####### Real World Resources ####### -->
-## Real World Resources
 
 {% include story-loop.md %}
 
-### Vendor Tools
-- AWS -  AWS Control Tower, AWS Organizations, AWS License Manager, AWS Service Catalog, AWS OpsWorks
-- Azure - Azure Management Groups, Azure Blueprints
-- GCP - Google Cloud Console
 
-### Useful links
-- https://aws.amazon.com/products/management-and-governance/
-- https://azure.microsoft.com/en-gb/solutions/governance/
-- https://cloud.google.com/files/guide-to-financial-governance.pdf
+#### Cloud Providers Governance & Policy Resources
+- [Management and Governance on AWS](https://aws.amazon.com/products/management-and-governance/)
+- [Azure Governance](https://azure.microsoft.com/en-gb/solutions/governance/)
+- [GCP Guide to Financial Governance](https://cloud.google.com/files/guide-to-financial-governance.pdf)
 
 
 
 
 ## FinOps Platforms & Service Providers
 _Reference of cloud cost management platforms, tooling and service providers related to this Capability coming soon._
+
+#### Cloud Providers Governance & Policy Tools
+- AWS -  AWS Control Tower, AWS Organizations, AWS License Manager, AWS Service Catalog, AWS OpsWorks
+- Azure - Azure Management Groups, Azure Blueprints
+- GCP - Google Cloud Console
 
 
 ## FinOps Training
