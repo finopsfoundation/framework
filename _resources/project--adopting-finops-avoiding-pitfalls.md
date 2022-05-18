@@ -59,6 +59,8 @@ Removing waste and applying commitments on existing workload, Buying RI’s or S
 > Studying the metrics of the group we found that the average CPU usage of the group for a month of 18%. We presented that to management and after evaluating the usage versus spike risk, we reduced the minimum value to 90 and waited 2 weeks to ensure the group is stable, we did the iterations till the group was at 60 instances (minimal limit Management was willing to reach), with 25% running on Spot instances and the rest covered by Reserved instances. Overall CPU usage of the group rose to 33% monthly.
 
 
+___
+
 ## Embrace Internal Competition
 Healthy competition is very beneficial to FinOps because it can help increase motivation to launch successful stakeholder capabilities, which can increase performance from gathering requirements, seeking feedback, demoing, and adding a pipeline for feature requests. Healthy competitions can speed up adoption by joining individuals around goals and missions that are mutually beneficial.
 
@@ -96,7 +98,8 @@ FinOps must engage, collaborate with domain experts before sharing recommendatio
 >
 > The discussion with the engineering team highlighted that there are other instance types, including instances that have a higher ratio of memory to vCPU. After some quick tests, the changes were implemented giving a 50% reduction in the cost of running the instances.
 >
-![An example chart showing trend of cost vs running instances](/img/adopting-finops/adopting-finops-avoiding-pitfalls-image1-20220517.png "Sample chart")
+!(/img/adopting-finops/adopting-finops-avoiding-pitfalls-image1-20220517.png "Sample chart")
+
 *Changes implemented giving a 50% reduction in the cost of running the instances*
 
 
