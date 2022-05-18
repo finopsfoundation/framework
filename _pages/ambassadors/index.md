@@ -10,8 +10,8 @@ description: FinOps Ambassadors (FOAs) are practitioners who are passionate abou
 
 <img src="https://placehold.jp/800x500.png">
 
-* <strong><a href="">Meet our Ambassadors</a></strong> and get to know a bit of their FinOps stories and how they help our community.
-* <strong><a href="">Learn more about the program</a></strong> and fill out an application to become a FinOps Foundation Ambassador.
+* <a href="#ambassadors">Meet our Ambassadors</a> and get to know a bit of their FinOps stories and how they help our community.
+* <a href="/ambassadors/apply">Learn more about the program</a> and fill out an application to become a FinOps Foundation Ambassador.
 
 ---
 
@@ -30,7 +30,7 @@ The FinOps Ambassador program exists to empower community members with tools and
 
 ## Meet Our Ambassadors
 
-<div class="flex md:flex-row flex-wrap items-stretch p-4 rounded-md mt-4">
+<div id="ambassadors" class="flex md:flex-row flex-wrap items-stretch p-4 rounded-md mt-4">
 {% for item in site.data.people %}
   {% if item.group == 'ambassadors' %}
      {% for person in item.people %}
