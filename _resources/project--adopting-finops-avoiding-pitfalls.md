@@ -98,8 +98,8 @@ FinOps must engage, collaborate with domain experts before sharing recommendatio
 >
 > The discussion with the engineering team highlighted that there are other instance types, including instances that have a higher ratio of memory to vCPU. After some quick tests, the changes were implemented giving a 50% reduction in the cost of running the instances.
 >
-!(/img/adopting-finops/adopting-finops-avoiding-pitfalls-image1-20220517.png "Sample chart")
 
+![Sample chart showing changes implemented giving a 50% reduction in the cost of running the instances](/img/adopting-finops/adopting-finops-avoiding-pitfalls-image1-20220517.png "Sample chart showing changes implemented giving a 50% reduction in the cost of running the instances")
 *Changes implemented giving a 50% reduction in the cost of running the instances*
 
 
