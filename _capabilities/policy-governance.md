@@ -84,13 +84,13 @@ The 5 __FACES__ of Good Cloud Policy & Governance:
 ## Inputs
 
 #### Governance
-
 Governance implements Policy through:
 - __Guidelines__ - that set out best practice for policy implementation and how it can be achieved. These are advisory, rather than mandatory
 - __Guardrails__ -  formal processes and structures that define mandatory pathways for policy-compliant action, possibly with consequences for non-compliance
 - __Automation__ - processes that automate policy implementation and which therefore control how compliant actions are carried out.
-#### Policy
 
+
+#### Policy
 If a policy is poorly conceived or expressed, of dubious authority, too broad or general to be useful in practice, or imposes a cost on the organization that is out of proportion to its benefit, it is a bad policy.
 Some examples of good policy statements might be:
 - “Our policy is to cover more than 80% of our optimised cloud usage with discounted pricing plans”

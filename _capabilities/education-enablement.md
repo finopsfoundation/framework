@@ -79,8 +79,8 @@ _written for each persona responsible for the functional activity and processes 
 
 
 #### FinOps Foundation
-- **FinOpsPod Podcast**  available on all major podcasting services including, [Apple Podcasts](https://podcasts.apple.com/us/podcast/finopspod/id1614322837), [Spotify](https://open.spotify.com/show/70DcVx1mxoxb0MooggVPCD?si=e79ae75d92bc4178), [Amazon Music](https://music.amazon.ca/podcasts/71719ed5-1e29-416b-b6a9-f7d25dd6fa78/finopspod), and [Google Podcasts](https://podcasts.google.com/search/finopspod)
-- [FinOps Foundation YouTube Channel](https://www.youtube.com/channel/UCyl26lvnoySlGWlF5oNHvYA) for Summit recordings and other content
+- **FinOpsPod Podcast**  available on all major podcasting services including, [Apple Podcasts](https://podcasts.apple.com/us/podcast/finopspod/id1614322837){:target="_blank"}, [Spotify](https://open.spotify.com/show/70DcVx1mxoxb0MooggVPCD?si=e79ae75d92bc4178){:target="_blank"}, [Amazon Music](https://music.amazon.ca/podcasts/71719ed5-1e29-416b-b6a9-f7d25dd6fa78/finopspod){:target="_blank"}, and [Google Podcasts](https://podcasts.google.com/search/finopspod){:target="_blank"}
+- [FinOps Foundation YouTube Channel](https://www.youtube.com/channel/UCyl26lvnoySlGWlF5oNHvYA){:target="_blank"} for Summit recordings and other content
 
 
 
