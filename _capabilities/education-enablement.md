@@ -92,19 +92,19 @@ _Reference of cloud cost management platforms, tooling and service providers rel
 ## FinOps Training
 
 #### FinOps Foundation
-- Details of all FinOps training programs and materials are available at [learn.finops.org](learn.finops.org)
+- Details of all FinOps training programs and materials are available at [learn.finops.org](learn.finops.org){:target="_blank"}
 
 
 #### Amazon Web Services
-- [AWS Skill Builder](https://explore.skillbuilder.aws/learn/external-ecommerce;view=none?ctldoc-catalog-0=se-finops)
+- [AWS Skill Builder](https://explore.skillbuilder.aws/learn/external-ecommerce;view=none?ctldoc-catalog-0=se-finops){:target="_blank"}
 
 
 #### Microsoft Azure
-- [Microsoft Azure Training Portal](https://docs.microsoft.com/en-us/search/?terms=cloud%20cost%20management%20azure&products=%2Fdevrel%2F68ec7f3a-2bc6-459f-b959-19beb729907d&category=Learn)
+- [Microsoft Azure Training Portal](https://docs.microsoft.com/en-us/search/?terms=cloud%20cost%20management%20azure&products=%2Fdevrel%2F68ec7f3a-2bc6-459f-b959-19beb729907d&category=Learn){:target="_blank"}
 
 
 #### Google Cloud Platform
-- [GCP Training Portal](https://www.google.com/search?q=%22cost+management%22+site%3Acloudskillsboost.google&newwindow=1&ei=pCmEYt-uKuCHptQP2Nu6qAM&ved=0ahUKEwjfkLWj0uf3AhXgg4kEHditDjUQ4dUDCA4&uact=5&oq=%22cost+management%22+site%3Acloudskillsboost.google&gs_lcp=Cgdnd3Mtd2l6EANKBAhBGAFKBAhGGABQsw1YqyZg7SpoAnAAeACAAWGIAfgKkgECMTeYAQCgAQHAAQE&sclient=gws-wiz)
+- [GCP Training Portal](https://www.google.com/search?q=%22cost+management%22+site%3Acloudskillsboost.google&newwindow=1&ei=pCmEYt-uKuCHptQP2Nu6qAM&ved=0ahUKEwjfkLWj0uf3AhXgg4kEHditDjUQ4dUDCA4&uact=5&oq=%22cost+management%22+site%3Acloudskillsboost.google&gs_lcp=Cgdnd3Mtd2l6EANKBAhBGAFKBAhGGABQsw1YqyZg7SpoAnAAeACAAWGIAfgKkgECMTeYAQCgAQHAAQE&sclient=gws-wiz){:target="_blank"}
 
 
 ---

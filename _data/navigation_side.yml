@@ -26,8 +26,10 @@
   - name: Overview
   - name: State of FinOps
     url: https://data.finops.org/
-  - name: Adopting FinOps
+  - name: Adopting FinOps - Getting Started
     url: /projects/adopting-finops/
+  - name: Adopting FinOps - Pitfalls to Avoid
+    url: /projects/adopting-finops-avoiding-pitfalls/
   - name: Encouraging Engineers to Take Action
   - name: Identifying Shared Costs
   - name: Calculating Container Costs
@@ -50,6 +52,3 @@
     url: /resources/Terminology
   - name: Partner Members
     url: /partner-members/
-
-
-
