@@ -17,7 +17,7 @@ company-description: |
 
   The Spot portfolio enables results-driven collaboration across all FinOps stakeholders in the cloud journey – from finance, business, operations and technology leaders to product owners and managers, cloud architects and the engineering team. With Spot, stakeholders can apply governance and automate continuous cloud optimization to easily operationalize processes that align cloud adoption and investment with business strategy, and ensure accountability for cloud spending across the organization.
 
-  For more information visit Spot by NetApp at [www.spot.io](www.spot.io) or contact us via [https://spot.io/contact](https://spot.io/contact)
+  For more information visit Spot by NetApp at [www.spot.io](https://spot.io) or contact us via [www.spot.io/contact](https://spot.io/contact)
 
 # Membership level, type and vendor certifications 
 member-level: premier
