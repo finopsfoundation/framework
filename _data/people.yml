@@ -211,59 +211,23 @@
 
 - group: ambassadors
   people:
-  - name: Michelle Cleland
-    job-title: SnR Programme Manager
-    company: Hongkong Jockey Club (HKJC)
-    linkedin-url: www.linkedin.com/in/michelle-cleland
-    image: michelle-cleland.jpg
-
-  - name: Kim Wier
-    job-title: Director of Engineering
-    company: Target Corporation
-    linkedin-url: https://www.linkedin.com/in/kim-wier-she-her-2a31bb3/
-    image: kim-wier.jpg
-
-  - name: Parker Nancollas
-    job-title: Cloud Business Analyst
-    company: The Church of Jesus Christ of Latter-Day Saints
-    linkedin-url: https://www.linkedin.com/in/parkernancollas/
-    image: parker-nancollas.jpg
-
   - name: Daniel Silva
     job-title: Senior Cloud Solution Architect
     company: NOS
     linkedin-url: https://www.linkedin.com/in/daniel-silva-1b71071ba/
     image: daniel-silva.jpg
 
-  - name: Scott Linn
-    job-title: Cloud Services and Optimization Manager
-    company: Chevron
-    linkedin-url: https://www.linkedin.com/in/scott-linn-416b24a
-    image: scott-linn.jpg
+  - name: Dann Berg
+    job-title: Senior CloudOps Analyst
+    company: Datadog
+    linkedin-url: https://www.linkedin.com/in/dannberg/
+    image: dann-berg.jpg
 
   - name: Deana Solis
     job-title: Sr FinOps Engineer
     company: Smarsh
     linkedin-url: https://www.linkedin.com/in/solisdeana/
     image: deana-solis.jpg
-
-  - name: Michelle Dupuis
-    job-title: Cloud FinOps Operational Engineer
-    company: EBSCO Information Services
-    linkedin-url: https://www.linkedin.com/in/michelle-dupuis-37490a3/
-    image: michelle-dupuis.jpg
-
-  - name: Vik Saluja
-    job-title: FinOps and Compliance Manager
-    company: Cigna
-    linkedin-url: https://linkedin.com/in/viksaluja
-    image: deana-solis.jpg
-
-  - name: Josh Bauman
-    job-title: Director of Business Operations
-    company: Electronic Arts
-    linkedin-url: https://www.linkedin.com/in/joshbauman
-    image: josh-bauman.jpg
 
   - name: Dieter Matzion
     job-title: Director of Business Operations
@@ -277,17 +241,17 @@
     linkedin-url: https://www.linkedin.com/in/eric-mulartrick-mba-1a24744/
     image: eric-mulartrick.jpg
 
-  - name: Dann Berg
-    job-title: Senior CloudOps Analyst
-    company: Datadog
-    linkedin-url: https://www.linkedin.com/in/dannberg/
-    image: dann-berg.jpg
+  - name: Josh Bauman
+    job-title: Director of Business Operations
+    company: Electronic Arts
+    linkedin-url: https://www.linkedin.com/in/joshbauman
+    image: josh-bauman.jpg
 
-  - name: Noel Crowley
-    job-title: Director of Cloud FinOps
-    company: Fidelity Investments
-    linkedin-url: https://www.linkedin.com/in/noelcrowley/
-    image: noel-crowley.jpg
+  - name: Kim Wier
+    job-title: Director of Engineering
+    company: Target Corporation
+    linkedin-url: https://www.linkedin.com/in/kim-wier-2a31bb3/
+    image: kim-wier.jpg
 
   - name: Michele Alessandrini
     job-title: Head of Cloud Adoption and Governance
@@ -295,8 +259,44 @@
     linkedin-url: https://www.linkedin.com/in/michelealessandrini/
     image: michele-alessandrini.jpg
 
+  - name: Michelle Cleland
+    job-title: SnR Programme Manager
+    company: Hongkong Jockey Club (HKJC)
+    linkedin-url: https://www.linkedin.com/in/michelle-cleland
+    image: michelle-cleland.jpg
+
+  - name: Michelle Dupuis
+    job-title: Cloud FinOps Operational Engineer
+    company: EBSCO Information Services
+    linkedin-url: https://www.linkedin.com/in/michelle-dupuis-37490a3/
+    image: michelle-dupuis.jpg
+
   - name: Mike Fuller
     job-title: Principal Systems Engineer
     company: Atlassian
     linkedin-url: https://www.linkedin.com/in/mikefuller/
     image: mike-fuller.jpg
+
+  - name: Noel Crowley
+    job-title: Director of Cloud FinOps
+    company: Fidelity Investments
+    linkedin-url: https://www.linkedin.com/in/noelcrowley/
+    image: noel-crowley.jpg
+
+  - name: Parker Nancollas
+    job-title: Cloud Business Analyst
+    company: The Church of Jesus Christ of Latter-Day Saints
+    linkedin-url: https://www.linkedin.com/in/parkernancollas/
+    image: parker-nancollas.jpg
+
+  - name: Scott Linn
+    job-title: Cloud Services and Optimization Manager
+    company: Chevron
+    linkedin-url: https://www.linkedin.com/in/scott-linn-416b24a
+    image: scott-linn.jpg
+
+  - name: Vik Saluja
+    job-title: FinOps and Compliance Manager
+    company: Cigna
+    linkedin-url: https://linkedin.com/in/viksaluja
+    image: vik-saluja.jpg
