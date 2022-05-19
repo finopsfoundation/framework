@@ -107,7 +107,7 @@ items:
     image: event-images_lf.png
     url: https://events.linuxfoundation.org/kubecon-cloudnativecon-europe/
 
-  - title: KuebCon & CloudNativeCon North America
+  - title: KubeCon & CloudNativeCon North America
     date: 24th-28th October
     location: Virtual 
     label: 3rd Party
