@@ -9,8 +9,6 @@ description: Learn more about the activities and expectations for every FinOps F
 
 # Become a FinOps Ambassador
 
-![FinOps Ambassador program is now live](https://placehold.jp/800x500.png)
-
 FinOps Ambassadors (FOAs) are practitioners who are passionate about the FinOps Foundation community, recognized for their expertise, and willing to help others learn and succeed.
 
 Successful ambassadors are people such as bloggers, influencers, and evangelists who are already engaged with the FinOps Foundation in some way including contributing to the framework, participating in working groups, attending community events, etc.
@@ -23,12 +21,12 @@ The FinOps Ambassador program exists to empower community members with tools and
 Meet our current FOAs [here](/ambassadors/).
 
 ## Requirements for becoming an official FinOps Ambassador:
-* Be a member of the FinOps Foundation
-* Be a practitioner of FinOps. Consultants and Vendors will not be approved as Ambassadors due to potential conflict of interest
-* Achieve FinOps Certified Practitioner status
+* Member of the FinOps Foundation. If you are not a member of the community yet, please [apply here](https://www.finops.org/membership/) and get involved in [working groups or special interest groups](https://www.finops.org/projects/overview/)
+* Must be a practitioner of FinOps. Consultants and Vendors will not be approved as Ambassadors to avoid any and all potential conflict of interest. Definition of ‘practitioner’ [can be found here](https://github.com/finopsfoundation/foundation/blob/master/practitioner_definition.md)
+* Achieved [FinOps Certified Practitioner](https://learn.finops.org/) status
 * Already engaged with the foundation in some way whether that’s as a contributor, blogger, speaker, etc.
 * Willing to assist with virtual and live training events
-* Willing to either speak at community events OR write technical content such as blog posts.
+* Willing to either speak at community events OR write technical content such as blog posts
 
 ## Our Standards
 Examples of behavior that contributes to a positive environment include:
