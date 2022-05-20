@@ -21,12 +21,12 @@ The FinOps Ambassador program exists to empower community members with tools and
 Meet our current FOAs [here](/ambassadors/).
 
 ## Requirements for becoming an official FinOps Ambassador:
-* Be a member of the FinOps Foundation
-* Be a practitioner of FinOps. Consultants and Vendors will not be approved as Ambassadors due to potential conflict of interest
-* Achieve FinOps Certified Practitioner status
+* Member of the FinOps Foundation. If you are not a member of the community yet, please [apply here](https://www.finops.org/membership/) and get involved in [working groups or special interest groups](https://www.finops.org/projects/overview/)
+* Must be a practitioner of FinOps. Consultants and Vendors will not be approved as Ambassadors to avoid any and all potential conflict of interest. Definition of ‘practitioner’ [can be found here](https://github.com/finopsfoundation/foundation/blob/master/practitioner_definition.md)
+* Achieved [FinOps Certified Practitioner](https://learn.finops.org/) status
 * Already engaged with the foundation in some way whether that’s as a contributor, blogger, speaker, etc.
 * Willing to assist with virtual and live training events
-* Willing to either speak at community events OR write technical content such as blog posts.
+* Willing to either speak at community events OR write technical content such as blog posts
 
 ## Our Standards
 Examples of behavior that contributes to a positive environment include:
