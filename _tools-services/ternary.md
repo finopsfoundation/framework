@@ -13,7 +13,8 @@ website-url: "https://ternary.app/"
 company-description: Ternary is the world’s first native FinOps cloud cost optimization tool. Built for Google Cloud on Google Cloud. Make better decisions. Spend wisely and build a culture of accountability, collaboration, and trust between Finance and Engineering teams.
 
 # Membership level, type and vendor certifications
-member-level: general
+member-level: premier
+member-order: 17
 
 type: 
 - Platform Provider
