@@ -56,6 +56,17 @@ items:
     image: event-images_google-cloud.png
     url: https://cloud.withgoogle.com/next
 
+  # - title: FinOps Certified Practitioner Training
+  #   date: 18th-19th May
+  #   location: EMEA 
+  #   label: Training Partner
+  #   host: Thebes Cloud Management
+  #   type: 
+  #     - In-person
+  #     - Virtual Event
+  #   image: event-images_thebes.png
+  #   url: https://thebescloud.com/focp-course/
+
   - title: FinOps Certified Practitioner Training
     date: 14th-15th June
     location: Virtual 

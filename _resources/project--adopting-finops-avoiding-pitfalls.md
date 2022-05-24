@@ -36,9 +36,9 @@ framework-capabilities:
 
 
 ## Understand the difference between optimization and cost management
-Making the distinction between cost management and optimisation is crucial as it highlights how you benefit from the cloud, Cost management focuses on waste reduction (removing unused resources, cleaning old data etc`) and commitments, while optimisation ensures you only buy the minimal resources that provide the best money for value and answer the business requirement, not the developer assumptions on requirements.
+Making the distinction between cost management and optimization is crucial as it highlights how you benefit from the cloud, Cost management focuses on waste reduction (removing unused resources, cleaning old data etc`) and commitments, while optimization ensures you only buy the minimal resources that provide the best money for value and answer the business requirement, not the developer assumptions on requirements.
 
-Thinking about it in medical terms, cost management is treating the symptom while optimisation is studying the source issue and dealing with that.
+Thinking about it in medical terms, cost management is treating the symptom while optimization is studying the source issue and dealing with that.
 
 ### Optimization:
 Working with Product, Architects, Developers and Business to define the new software while tailoring the cloud resource to match the need and efficiency of the product (not the resources as they are used in the development environment).
@@ -127,7 +127,7 @@ It is also very important to set realistic expectations, [ ex. 8% cost reduction
 > **(3)** A customer wanted to create a budget prediction for the next fiscal year.
 > When asked for his growth prediction, he provided only the increased users (end users) expectation, neglecting the R&D and other departments growth, when explaining to him that building a forecast, we need to account for those cost he tried to dismiss the R&D cost in the cloud as trivial, when we presented to him the figures he was startled to learn that a bulk of his cloud spend was development and QA, while his production was 35% of the cloud cost.
 
-> **(4)** see the section about optimisation above.
+> **(4)** see the section about optimization above.
 
 
 ___
@@ -176,9 +176,9 @@ The initial step to start can be overwhelming if you just try to consume it all 
 
 #### Real-world story:
 
-> The best way to build trust and gain traction in the company is to show immediate results, and those happen with the low hanging fruit, which can manifest in easy tasks. At a gaming company that first task was going over all the storage (Disk) and cleaning the unused ones ( unattached), That initial swap removed $1400 of the monthly consumption, than we enabled a life cycle on the long term storage (S3/ Storage accounts) and that reduced the billing from $64,000 a month to $56,000.
+> The best way to build trust and gain traction in the company is to show immediate results, and those happen with the low hanging fruit, which can manifest in easy tasks. At a gaming company that first task was going over all the storage (Disk) and cleaning the unused ones ( unattached), That initial swap removed $1400 of the monthly consumption, then they enabled a life cycle on the long term storage (S3/ Storage accounts) and that reduced the billing from $64,000 a month to $56,000.
 >
-> At the monthly meeting of cost evaluation, after the BI team presented the growth and company intake, FinOps presented the cloud expanse and showed that even though the cloud usage grew that month by 3% (roughly 150,000 players) , due to the actions done by the FinOps, cloud costs shrunk by 1.5%. This gave the management the confidence  that the FinOps team is doing a responsible job in maintaining the cloud cost under supervision while ensuring that none of the business goals and activities are hindered.
+> At the monthly meeting of cost evaluation, after the BI team presented the growth and company intake, the FinOps team presented the cloud expanse and showed that even though the cloud usage grew that month by 3% (roughly 150,000 players) , due to the actions done by the FinOps team, cloud costs shrunk by 1.5%. This gave the management the confidence that the FinOps team is doing a responsible job in maintaining the cloud cost under supervision while ensuring that none of their business goals and activities are hindered.
 
 
 #### Real-world story:
