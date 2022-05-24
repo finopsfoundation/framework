@@ -117,9 +117,13 @@ Those on the Governing Board have no vote on the TAC and vice versa, with the ex
 - Andrew Nhem, Content Strategist
 - Kevin Emamy, Vendor Partner Advisor
 - Vas Markanastasakis, Principal, FinOps Practice Management
-- Steve Trask, Director of Marketing
+- Steve Trask, Vice President of Marketing
 - Joe Daly, Director of Community
-
+- Ashley Hromatko, Director of Operations
+- Ben de Mora, Enterprise FinOps Director
+- Tom Sharpe, Graphic and Brand Designer 
+- Natalie Bergman, Instructional Designer
+- Suha Shim, Senior Marketing Manager
 
 ## FAQs
 
