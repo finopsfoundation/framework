@@ -12,7 +12,8 @@ website-url: "https://www.kubecost.com/"
 company-description: Kubecost is the leading open source Kubernetes cloud cost monitoring tool. Built for teams running Kubernetes, deployable in 5 minutes, Kubecost makes it easy for developers to monitor and optimize cloud infrastructure spend. We empower over 1000 teams to manage spend—helping them balance cost, performance, and reliability.
 
 # Membership level, type and vendor certifications
-member-level: general
+member-level: premier
+member-order: 16
 
 type: 
 - Service Provider

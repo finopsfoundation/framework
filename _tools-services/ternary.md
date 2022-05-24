@@ -5,7 +5,7 @@ layout: member
 # Vendor details
 name: Ternary
 logo-url: "/tools-services/logos/ternary-logo.svg"
-logo-url-width: 110
+logo-url-width: 
 linkedin-url: "https://www.linkedin.com/company/ternaryinc/"
 website-url: "https://ternary.app/"
 
@@ -13,7 +13,8 @@ website-url: "https://ternary.app/"
 company-description: Ternary is the world’s first native FinOps cloud cost optimization tool. Built for Google Cloud on Google Cloud. Make better decisions. Spend wisely and build a culture of accountability, collaboration, and trust between Finance and Engineering teams.
 
 # Membership level, type and vendor certifications
-member-level: general
+member-level: premier
+member-order: 17
 
 type: 
 - Platform Provider
