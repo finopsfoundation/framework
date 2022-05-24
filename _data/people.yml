@@ -75,6 +75,12 @@
     linkedin-url: https://www.linkedin.com/in/jennifer-hays-b2b8a550/
     image: jennifer-hays.jpg
 
+  - name: Riley Jenkins (TAC Chair)
+    job-title: Sr. SRE/FinOps Architect
+    company: Domo
+    linkedin-url: https://www.linkedin.com/in/riley-jenkins-9884b333/
+    image: riley-jenkins.jpg
+
   - name: Mike Fuller 
     job-title: Principal Systems Engineer
     company: Atlassian
@@ -171,11 +177,29 @@
     linkedin-url: https://www.linkedin.com/in/leeditiangkin/
     image: lee-ditiangkin.jpeg
 
+  - name: Dhruv Kohli
+    job-title: AVP Ecosystems Strategy & FinOps
+    company: HCL
+    linkedin-url: https://www.linkedin.com/in/dhruv-kohli-a6a0268
+    image: dhruv-kohli.jpg
+
   - name: Brian Adler
     job-title: Sr. Director, Cloud Market Strategy
     company: Flexera
     linkedin-url: https://www.linkedin.com/in/adlerbrian/
     image: brian-adler.jpg
+
+  - name: Webb Brown
+    job-title: Co-Founder & CEO
+    company: Kubecost
+    linkedin-url: https://www.linkedin.com/in/webbbrown/
+    image: webb-brown.jpg
+
+  - name: Sasha Kipervarg
+    job-title: Co-Founder & CEO
+    company: Ternary
+    linkedin-url: https://www.linkedin.com/in/skiper/
+    image: sasha-kipervarg.jpg
 
 - group: F2
   people:
