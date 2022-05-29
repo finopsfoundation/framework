@@ -10,7 +10,7 @@ linkedin-url: "https://www.linkedin.com/company/envisorio/"
 website-url: "https://envisor.io/"
 
 # Maximum character count is 350 the rest will be truncated and hidden automatically on your page
-company-description: "Envisor gives FinOps a proactive solution for cost and performance management. Instead of relying on stale invoice views into consumption, Envisor monitors and manages using live operational data. It provides dynamic scaling controls and a single pane of glass across multiple cloud providers for active control of cost and performance."
+company-description: "Envisor gives FinOps a proactive solution for cost and performance management. Instead of relying on stale invoice views into consumption, Envisor uses live operational data to monitor and manage the cloud. It provides dynamic scaling controls and a single pane of glass across multiple cloud providers for active control of cost and performance."
 
 # Membership level, type and vendor certifications 
 member-level: general
@@ -26,7 +26,7 @@ certified-status:
 
 # Product(s) or service overview maximum character count is 1000 the rest will be truncated and hidden automatically on your page 
 product-overview: | 
-  Envisor Cloud Control monitors live operational data in 5-minute intervals, enabling proactive cloud management. With an active view into multi-cloud environments, performance bottlenecks and costly and/or idle resources are quickly identified. Dynamic capacity controls allow resources to be easily scaled on the fly or as scheduled, repeatable events. Normalized reports allow direct comparison of resource usage and cost across vendors. Envisor clients have drastically cut their cloud costs while simultaneously improving performance.
+  Envisor Cloud Control monitors live operational data in 5-minute intervals, enabling proactive cloud management. Its active view into multi-cloud environments makes it easy to spot performance bottlenecks and costly and/or idle resources. Dynamic capacity controls allow resources to be easily scaled on the fly or as scheduled, repeatable events. Normalized reports allow direct comparison of resource usage and cost across vendors. Envisor clients have drastically cut their cloud costs while simultaneously improving performance.
 
    * Near real-time monitoring of live operational data
    * Single dashboard view across multiple vendor accounts
@@ -36,7 +36,7 @@ product-overview: |
    * Dynamically scale resources up, down or off to match demand
    * Schedule repeatable events with a click…no scripting
    * Cost anomaly and usage alerts
-   * Deploys in minutes"
+   * Deploys in minutes
 
 product-video-url: "https://www.youtube.com/embed/6JT003CRXs4"
 
