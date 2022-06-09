@@ -14,10 +14,13 @@ company-description: CloudZero puts engineering in control of cloud cost, by con
 # Membership level, type and vendor certifications
 member-level: general
 
-type: 
+type:
 - Platform Provider
 
 certified-status:
+#- FinOps Certified Service Provider
+- FinOps Certified Platform
+#- FinOps Training Partner
 
 
 # Product(s) or service overview maximum character count is 1000 the rest will be truncated and hidden automatically on your page
@@ -59,7 +62,7 @@ capabilities:
 clouds-supported:
 - AWS
 
-# FinOps Foundation Member since 
+# FinOps Foundation Member since
 date: 2021-04-01
 
 # Show recent related FinOps activity, it can be content, webinars, thought leadership and include external links
@@ -77,7 +80,7 @@ slack:
   url:
 
 # The total number of FinOps Certified Practitioners at the vendor
-number-of-focp: 
+number-of-focp: 5
 
 # List the key contribution areas in the FinOps Foundation, examples listed
 contribution-areas:
