@@ -8,31 +8,31 @@ name: Cloudwiry
 logo-url: "/tools-services/logos/cloudwiry.png?2"
 logo-url-width: 90
 linkedin-url:
-website-url: 
+website-url:
 
 # Maximum character count is 350 the rest will be truncated and hidden automatically on your page
 company-description:
 
-# Membership level, type and vendor certifications 
+# Membership level, type and vendor certifications
 member-level: general
 
-type: 
+type:
 # - Platform Provider
 # - Cloud Provider
 # - Service Provider
 # - Training Provider
- 
+
 certified-status:
 #- FinOps Certified Service Provider
-#- FinOps Certified Platform
+- FinOps Certified Platform
 #- FinOps Training Partner
 
-# Product(s) or service overview maximum character count is 1000 the rest will be truncated and hidden automatically on your page 
+# Product(s) or service overview maximum character count is 1000 the rest will be truncated and hidden automatically on your page
 product-overview:
 
 product-video-url:
 
-# Related product or service resources, the titles will have associated URLs, e.g. product 
+# Related product or service resources, the titles will have associated URLs, e.g. product
 product-resources:
 - title:
   url:
@@ -56,7 +56,7 @@ clouds-supported:
 # - Oracle
 # - Private Cloud
 
-# FinOps Foundation Member since 
+# FinOps Foundation Member since
 date: 2022-04-01
 
 # Show recent related FinOps activity, it can be content, webinars, thought leadership and include external links
@@ -68,13 +68,13 @@ recent-finops-activity:
 - title:
   url:
 
-# Detail related/dedicated slack channels in the FinOps Foundation Slack 
+# Detail related/dedicated slack channels in the FinOps Foundation Slack
 slack-channels:
 - title:
   url:
 
 # The total number of FinOps Certified Practitioners at the vendor
-number-of-focp: 
+number-of-focp: 3
 
 # List the key contribution areas in the FinOps Foundation, examples listed
 contribution-areas:
