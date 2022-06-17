@@ -19,11 +19,12 @@ member-order: 9
 type: 
 - Platform Provider
 - Service Provider
+- Training Provider
  
 certified-status:
 #- FinOps Certified Service Provider
 #- FinOps Certified Platform
-#- FinOps Training Partner
+- FinOps Training Partner
 
 # Product(s) or service overview maximum character count is 1000 the rest will be truncated and hidden automatically on your page 
 product-overview: |
@@ -95,6 +96,9 @@ product-overview: |
   1. Cost optimisation
   2. Custom invoicing
   3. Cost reporting and analytics
+  4. Managed FinOps
+  5. FinOps Advisory 
+  6. FinOps Training
 
   Tooling:
 
@@ -106,6 +110,8 @@ product-video-url:
 product-resources:
 - title: Our Services 
   url: "https://nordcloud.com/our-services/"
+- title: Cloud Transformation Advisory
+  url: "https://nordcloud.com/our-services/cloud-transformation-advisory/cloud-finops/"
 
 # Supported capabilities in the framework by the product(s) or services. Match the page-identifier per capability in order for the capability to show up on the vendor page.
 capabilities:
@@ -146,7 +152,7 @@ slack-channels:
   url: https://finopsfoundation.slack.com/archives/C02GJMLM1SN
 
 # The total number of FinOps Certified Practitioners at the vendor
-number-of-focp: 3
+number-of-focp: 45
 
 # List the key contribution areas in the FinOps Foundation, examples listed
 contribution-areas:
