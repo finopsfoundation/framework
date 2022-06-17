@@ -34,7 +34,7 @@ _Jason is a FinOps-certified Practitioner, and his company helps organizations a
 
 Data efficiency in the cloud involves the application of a wide range of technologies and architectural approaches to reduce the cost and time to store, access and transfer data.
 
-This guide extends the Framework Capability [Resource Utilization & Efficiency](https://www.finops.org/framework/capabilities/utilization-efficiency/) to focus on cloud data efficiency by outlining FinOps maturity characteristics, measures of success, inputs and the functional activities required by FinOps practitioners.
+This guide extends the Framework Capability [Resource Utilization & Efficiency](https://www.finops.org/framework/capabilities/utilization-efficiency/) to focus on cloud data efficiency.  This playbook outlines cloud data efficiency maturity characteristics, measures of success, inputs and the functional activities required by FinOps practitioners.
 
 Examples include, but are not limited to:
 - Data reduction/rehydration technologies such as compression and deduplication physically reduce the size of data (files and objects) stored and transferred within and between clouds. The degree of reduction is dependent on the nature of the data itself, as some data (e.g. log files) reduces better than other data (e.g. encrypted files). Since the baseline rate to store and/or transfer physical data is fixed and set by the cloud providers (e.g. AWS S3 Standard pricing), reducing the physical size of the stored data reduces the “effective” rates to store ($/GB/mo) and the time to transfer ($/GB) that data.
