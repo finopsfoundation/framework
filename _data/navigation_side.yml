@@ -40,6 +40,8 @@
     url: /projects/us-gov-playbook/
 - name: Resources
   children:
+  # - name: FinOps Jobs Bpard
+  #   url: https://jobs.finops.org/
   - name: Training & Certification
     url: https://learn.finops.org/
   - name: Ambassadors
