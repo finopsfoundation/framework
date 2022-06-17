@@ -12,6 +12,7 @@ project-description: This U.S. Public Sector FinOps playbook seeks to build upon
 story-date: 2022-04-10
 author: F2 Working Group
 company: FinOps Foundation
+industry: Public Sector
 type: Member Story
 source: FinOps Foundation
 label:
