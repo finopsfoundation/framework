@@ -39,7 +39,7 @@ product-overview: |
 
   Following an AI-based analysis, FinOut provides users with a clear and insightful reports of their cloud usage, as well as the prices of every customer, feature, segment, product and business unit. FinOut promises fair and transparent pricing.
 
-product-video-url:
+product-video-url: "https://www.youtube.com/embed/GKj2GtZlYXY"
 
 # Related product or service resources, the titles will have associated URLs, e.g. product
 product-resources:
@@ -62,6 +62,7 @@ capabilities:
 # Edit as appropriate to display supported clouds
 clouds-supported:
 - AWS
+- GCP
 
 # FinOps Foundation Member since
 date: 2021-11-01
