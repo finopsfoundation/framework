@@ -1,6 +1,6 @@
 items:
   - title: July FinOps Vendor Showcase
-    date: 7th July
+    date: 21st July
     location: Virtual
     label: FinOps Foundation
     host: FinOps Foundation
@@ -55,27 +55,6 @@ items:
       - In-person
     image: event-images_google-cloud.png
     url: https://cloud.withgoogle.com/next
-
-  # - title: FinOps Certified Practitioner Training
-  #   date: 18th-19th May
-  #   location: EMEA 
-  #   label: Training Partner
-  #   host: Thebes Cloud Management
-  #   type: 
-  #     - In-person
-  #     - Virtual Event
-  #   image: event-images_thebes.png
-  #   url: https://thebescloud.com/focp-course/
-
-  - title: FinOps Certified Practitioner Training
-    date: 14th-15th June
-    location: Virtual 
-    label: FinOps Foundation Training
-    host: FinOps Foundation
-    type: 
-      - Virtual Event
-    image: event-images_f2.png
-    url: https://learn.finops.org/finops-certified-practitioner-june-14-15
 
   - title: KubeCon & CloudNativeCon North America
     date: 24th-28th October
