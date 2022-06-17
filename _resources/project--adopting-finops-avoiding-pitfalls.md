@@ -16,6 +16,7 @@ label:
 cloud-provider:
   - Multi-Cloud
 framework-capabilities:
+- capability_establish-finops-culture
 ---
 
 # Adopting FinOps - Pitfalls to Avoid

@@ -4,7 +4,7 @@ layout: wide
 permalink: /projects/us-gov-playbook/
 
 title: U.S. Public Sector FinOps Playbook
-description: This U.S. Public Sector FinOps playbook seeks to build upon the existing FinOps framework to assist U.S. federal agencies with their cloud spend. 
+description: This U.S. Public Sector FinOps playbook seeks to build upon the existing FinOps framework to assist U.S. federal agencies with their cloud spend.
 page-identifier: project_us-gov
 identifier: projects
 project-title: U.S. Public Sector FinOps Playbook
@@ -12,10 +12,12 @@ project-description: This playbook seeks to build upon the existing FinOps frame
 date-added: Apr 2022
 type: Guide
 source: FinOps Foundation
-label: 
-cloud-provider: 
+label:
+cloud-provider:
   - Multi-Cloud
 framework-capabilities:
+- capability_establish-finops-culture
+- capability_education-enablement
 
 ---
 
