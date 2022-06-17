@@ -4,7 +4,7 @@ layout: wide
 permalink: /projects/managing-data-efficiency-playbook/
 
 title: Managing Data Efficiency Playbook by Project N
-description: Data efficiency in the cloud involves the application of a wide range of technologies and architectural approaches to reduce the cost and time to store, access and transfer data. This guide outlines FinOps maturity characteristics, measures of success, inputs and the functional activities required by FinOps practitioners.
+description: Data efficiency in the cloud involves the application of a wide range of technologies and architectural approaches to reduce the cost and time to store, access and transfer data. This guide extends the Framework Capability "Resource Utilization & Efficiency" to focus on cloud data efficiency by outlining FinOps maturity characteristics, measures of success, inputs and the functional activities required by FinOps practitioners.
 type: Member Story
 source: FinOps Foundation
 story-title: Managing Data Efficiency Playbook by Project N
@@ -16,23 +16,27 @@ cloud-provider:
 - AWS
 - GCP
 project-title: Managing Data Efficiency Playbook
-project-description: Data efficiency in the cloud involves the application of a wide range of technologies and architectural approaches to reduce the cost and time to store, access and transfer data. This guide outlines FinOps maturity characteristics, measures of success, inputs and the functional activities required by FinOps practitioners.
+project-description: Data efficiency in the cloud involves the application of a wide range of technologies and architectural approaches to reduce the cost and time to store, access and transfer data. This guide extends the Framework Capability "Resource Utilization & Efficiency" to focus on cloud data efficiency by outlining FinOps maturity characteristics, measures of success, inputs and the functional activities required by FinOps practitioners.
 label:
 framework-capabilities:
 - capability_rightsizing
 ---
 
 # Managing Data Efficiency Playbook by Project N
-author: [Jason Nadeau](https://www.linkedin.com/in/jasonrnadeau/)
-published on: June 17, 2022
-last updated: June 17,  2022
+__author: [Jason Nadeau](https://www.linkedin.com/in/jasonrnadeau/)__ |
+__published on: June 17, 2022__ |
+__last updated: June 17,  2022__
 
 __Jason is a FinOps-certified Practitioner, and his company helps organizations achieve much higher levels of data efficiency and thus save significantly on their cloud infrastructure costs.__
 
 
 ## Definition
 
-Data efficiency in the cloud involves the application of a wide range of technologies and architectural approaches to reduce the cost and time to store, access and transfer data. Examples include, but are not limited to:
+Data efficiency in the cloud involves the application of a wide range of technologies and architectural approaches to reduce the cost and time to store, access and transfer data.
+
+This guide extends the Framework Capability __[Resource Utilization & Efficiency](https://www.finops.org/framework/capabilities/utilization-efficiency/__ to focus on cloud data efficiency by outlining FinOps maturity characteristics, measures of success, inputs and the functional activities required by FinOps practitioners.
+
+Examples include, but are not limited to:
 - Data reduction/rehydration technologies such as compression and deduplication physically reduce the size of data (files and objects) stored and transferred within and between clouds. The degree of reduction is dependent on the nature of the data itself, as some data (e.g. log files) reduces better than other data (e.g. encrypted files). Since the baseline rate to store and/or transfer physical data is fixed and set by the cloud providers (e.g. AWS S3 Standard pricing), reducing the physical size of the stored data reduces the “effective” rates to store ($/GB/mo) and the time to transfer ($/GB) that data.
 - Data-efficient multi-AZ application architectures and services can similarly reduce, or even eliminate, the effective egress and transfer costs between availability zones.
 - Data virtualization technologies can reduce the effective cost and time to create and use copies of data. This is especially helpful for data-intensive test and development environments.
