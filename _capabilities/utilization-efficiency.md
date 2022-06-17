@@ -54,7 +54,7 @@ The management of resource utilization and efficiency translates into identifyin
 #### As someone in a Business/Product role, I will…
 - Clearly define service KPIs so that engineering are able to design efficient services within the defined boundaries
 - Provide demand forecasts and information on the demand pattern profiles (daily/weekly/monthly/cyclic)
-- Establish the business goals for the objective - i.e. release to customers as quickly as possible, release to customers w/ an availability of 99.99%, etc. (aka Business Value Creation!)
+- Establish the business goals for the objective - i.e. release to customers as quickly as possible, reduce the effective storage rate by >20%, release to customers w/ an availability of 99.99%, etc. (aka Business Value Creation!)
 
 #### As someone in a Finance/FinOps role, I will…
 - Highlight any opportunities to increase utilization and efficiency and work with the teams to review feasibility of alternative options
@@ -77,10 +77,9 @@ The management of resource utilization and efficiency translates into identifyin
 ## Measure(s) of Success & KPI
 Measures of success are represented in the context of cloud costs and may include one or more key performance indicators ( KPI ), describe objectives with key results ( OKR ), and declare thresholds defining outliers or acceptable variance from forecasted trends.
 
-_at least one measure of success; should be described in a context of cost; this could be an efficiency KPI or an agreed upon threshold or target._
-_for example:_
->* idle resource costs will not exceed 3% of total monthly cloud spend
-* anomaly costs will not exceed $150/month
+- Data efficiency is applied to at least 50% of stored data (i.e. net savings coverage is >50%)
+- Effective $/GB/mo storage rates are reduced by at least 30% relative to the S3 Standard baseline.
+
 
 
 
