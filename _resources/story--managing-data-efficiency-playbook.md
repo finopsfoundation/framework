@@ -5,22 +5,19 @@ permalink: /projects/managing-data-efficiency-playbook/
 
 title: Managing Data Efficiency Playbook by Project N
 description: Data efficiency in the cloud involves the application of a wide range of technologies and architectural approaches to reduce the cost and time to store, access and transfer data. This guide outlines FinOps maturity characteristics, measures of success, inputs and the functional activities required by FinOps practitioners.
-page-identifier: project_utilization-efficiency
-identifier: projects
-project-title: Managing Data Efficiency Playbook
-project-description: Data efficiency in the cloud involves the application of a wide range of technologies and architectural approaches to reduce the cost and time to store, access and transfer data. This guide outlines FinOps maturity characteristics, measures of success, inputs and the functional activities required by FinOps practitioners.
-date-added: June 2022
-type: Guide
+type: Member Story
+source: FinOps Foundation
+story-title: Managing Data Efficiency Playbook by Project N
+story-date: 2022-06-17
 author: Jason Nadeau
 company: Project N (Stealth Startup)
 industry: Software Development
 cloud-provider:
 - AWS
 - GCP
-source: FinOps Foundation
+project-title: Managing Data Efficiency Playbook
+project-description: Data efficiency in the cloud involves the application of a wide range of technologies and architectural approaches to reduce the cost and time to store, access and transfer data. This guide outlines FinOps maturity characteristics, measures of success, inputs and the functional activities required by FinOps practitioners.
 label:
-cloud-provider:
-  - Multi-Cloud
 framework-capabilities:
 - capability_rightsizing
 ---
