@@ -59,8 +59,7 @@ Since data is meant to be actively used to derive business value, data efficienc
 #### Crawl
 
 - Tracks current $/GB rates to store and transfer data.
-- Has some visibility into latent data inefficiency (and thus gross savings potential) using one or more sources such as cloud billing data, infrastructure monitoring tools, data efficiency tools, cloud provider insights/tools.
-  - and by extension the savings potential for data.
+- Has some visibility into latent data inefficiency (and by extension the savings potential for data) using one or more sources such as cloud billing data, infrastructure monitoring tools, data efficiency tools, cloud provider insights/tools.
 - Centrally performs some ad hoc prioritization of data for rightsizing.
 - Does not report on data efficiency KPIs.
 
