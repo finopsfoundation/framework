@@ -15,13 +15,14 @@ company-description: Kubecost is the leading open source Kubernetes cloud cost m
 member-level: premier
 member-order: 16
 
-type: 
-- Service Provider
+type:
+- Platform Provider
 
 certified-status:
-- FinOps Certified Platform
+#- FinOps Certified Platform
+- FinOps Certified Solution
 
-# Product(s) or service overview maximum character count is 1000 the rest will be truncated and hidden automatically on your page 
+# Product(s) or service overview maximum character count is 1000 the rest will be truncated and hidden automatically on your page
 product-overview: Kubecost is the easiest way for engineers to manage cloud costs, empowering teams to monitor and optimize their Kubernetes environment. Available as open source (Apache v2), it can be installed with a helm command in less than 5 minutes on any Kubernetes cluster. It provides a comprehensive view of all in-cluster and out-of-cluster cloud spend, enabling accurate showbacks, chargebacks, monitoring, and alerting. With AWS, Azure, and GCP billing integrations, Kubecost gives teams full visibility into the cost and efficiency of their modern multi-cloud infrastructure. We support on-premise and air-gapped environments for teams operating within the strictest security requirements and data export regulations. Our customer-favorite rightsizing recommendations provide customized guidance based on the user's environment and behavior patterns. With Enterprise, users get additional support for multi-cluster, SSO/SAML, unlimited data retention, added alerting capabilities, and dedicated support.
 
 product-video-url: "https://www.youtube.com/embed/OGwb_-Nkfek"
@@ -58,7 +59,7 @@ clouds-supported:
 - Data Center
 - Private Cloud
 
-# FinOps Foundation Member since 
+# FinOps Foundation Member since
 date: 2020-08-01
 
 # Show recent related FinOps activity, it can be content, webinars, thought leadership and include external links
@@ -72,7 +73,7 @@ slack:
   url:
 
 # The total number of FinOps Certified Practitioners at the vendor
-number-of-focp: 
+number-of-focp:
 
 # List the key contribution areas in the FinOps Foundation, examples listed
 contribution-areas:
