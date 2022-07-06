@@ -12,18 +12,19 @@ website-url: "https://www.prosperops.com/"
 # Maximum character count is 350 the rest will be truncated and hidden automatically on your page
 company-description: "ProsperOps delivers a fully autonomous cost optimization service for AWS that maximizes your savings and minimizes commitment risk with zero ongoing effort. You automatically achieve effective saving rates of 40+% (placing you in the 99th percentile of optimizers) with commitments that dynamically adapt to usage changes in real-time."
 
-# Membership level, type and vendor certifications 
+# Membership level, type and vendor certifications
 member-level: general
 
-type: 
+type:
 - Platform Provider
- 
+
 certified-status:
 #- FinOps Certified Service Provider
 #- FinOps Certified Platform
+#- FinOps Certified Solution
 #- FinOps Training Partner
 
-# Product(s) or service overview maximum character count is 1000 the rest will be truncated and hidden automatically on your page 
+# Product(s) or service overview maximum character count is 1000 the rest will be truncated and hidden automatically on your page
 product-overview: |
   AWS tends to be one of the largest line items in a company's cost structure and compute typically makes up 60% of the bill. AWS provides multiple financial tools to reduce spend, but each approach has different trade-offs. Companies either undersave, leaving money on the table, or take too much risk, and end up overcommitted.
 
@@ -31,13 +32,13 @@ product-overview: |
 
 product-video-url: "https://player.vimeo.com/video/604233506?h=dfce9f8f8a&color=5c54ff&title=0&byline=0&portrait=0"
 
-# Related product or service resources, the titles will have associated URLs, e.g. product 
+# Related product or service resources, the titles will have associated URLs, e.g. product
 product-resources:
 - title: FinOps Testimonial
   url: "https://vimeo.com/583555044"
 - title: DevOps Testimonial
   url: "https://vimeo.com/589967367"
-- title: ProsperOps Console Overview 
+- title: ProsperOps Console Overview
   url: "https://vimeo.com/590006262"
 
 # Supported capabilities in the framework by the product(s) or services. Match the page-identifier per capability in order for the capability to show up on the vendor page.
@@ -53,7 +54,7 @@ capabilities:
 clouds-supported:
 - AWS
 
-# FinOps Foundation Member since 
+# FinOps Foundation Member since
 date: 2020-08-01
 
 # Show recent related FinOps activity, it can be content, webinars, thought leadership and include external links
@@ -65,7 +66,7 @@ recent-finops-activity:
 - title: Supercharging AWS Savings Plans
   url: "https://vimeo.com/590006339"
 
-# Detail related/dedicated slack channels in the FinOps Foundation Slack 
+# Detail related/dedicated slack channels in the FinOps Foundation Slack
 slack-channels:
 - title: prosperops
   url: https://finopsfoundation.slack.com/archives/C019HF7QWQZ
@@ -77,6 +78,6 @@ number-of-focp: 3
 contribution-areas:
 - Technical Advisory Council
 - Capabilities SIG
-- Active Slack Member 
+- Active Slack Member
 
 ---
