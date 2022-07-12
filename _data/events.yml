@@ -1,6 +1,26 @@
 items:
+  - title: Open Source Finance Forum London
+    date: 13th July
+    location: Virtual
+    label: 3rd Party
+    host: Finos
+    type: 
+      - In-person
+      - Virtual Event
+    image: event-images_osff.png
+    url: https://events.linuxfoundation.org/open-source-finance-forum-london/
+
   - title: July FinOps Vendor Showcase
     date: 21st July
+    location: Virtual
+    label: FinOps Foundation
+    host: FinOps Foundation
+    type: Virtual Event
+    image: event-images_summit.png
+    url: https://go.finops.org/july-showcase
+
+  - title: August FinOps Summit
+    date: 18th August
     location: Virtual
     label: FinOps Foundation
     host: FinOps Foundation
@@ -35,16 +55,6 @@ items:
     image: event-images_summit.png
     url: 
 
-  - title: FinOps X
-    date: 20th-21st June
-    location: Austin, Texas 
-    label: FinOps Foundation
-    host: FinOps Foundation
-    type: 
-      - In-person
-    image: event-images_f2.png
-    url: https://events.linuxfoundation.org/finops-x/
-
   - title: Google Next
     date: 11th-13th October
     location: Unknown 
@@ -52,7 +62,6 @@ items:
     host: Google Cloud
     type: 
       - Virtual Event
-      - In-person
     image: event-images_google-cloud.png
     url: https://cloud.withgoogle.com/next
 
@@ -78,4 +87,32 @@ items:
     image: event-images_vmware.png
     url: https://www.vmware.com/explore/us.html
 
+  - title: Partner FinOps Certified Practitioner Training 
+    date: 27th-28th July
+    location: Virtual 
+    label: 3rd Party
+    host: Apptio
+    type: 
+      - Virtual Event
+    image: event-images_apptio.png
+    url: https://certification.apptio.com/learn/course/external/view/classroom/1845/finops-certified-practitioner
 
+  - title: Partner FinOps Certified Practitioner Training 
+    date: 24th-25th August
+    location: Virtual 
+    label: 3rd Party
+    host: Apptio
+    type: 
+      - Virtual Event
+    image: event-images_apptio.png
+    url: https://certification.apptio.com/learn/course/external/view/classroom/1845/finops-certified-practitioner
+
+  - title: Partner FinOps Certified Practitioner Training 
+    date: 27th-28th September
+    location: Virtual 
+    label: 3rd Party
+    host: Apptio
+    type: 
+      - Virtual Event
+    image: event-images_apptio.png
+    url: https://certification.apptio.com/learn/course/external/view/classroom/1845/finops-certified-practitioner

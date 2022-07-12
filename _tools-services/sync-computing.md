@@ -54,6 +54,7 @@ product-resources:
 capabilities:
 - capability_workload-automation
 - capability_rightsizing
+- capability_forecasting
 
 # Edit as appropriate to display supported clouds
 clouds-supported:
