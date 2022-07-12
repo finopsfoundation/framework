@@ -55,7 +55,9 @@ capabilities:
 
 # Edit as appropriate to display supported clouds
 clouds-supported:
+- AWS
 - Azure
+- Google Cloud
 - Oracle
 
 # FinOps Foundation Member since

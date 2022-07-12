@@ -30,10 +30,12 @@
     url: /projects/adopting-finops/
   - name: Adopting FinOps - Pitfalls to Avoid
     url: /projects/adopting-finops-avoiding-pitfalls/
-  - name: Encouraging Engineers to Take Action
-  - name: Identifying Shared Costs
-  - name: Calculating Container Costs
   - name: Accurate Cloud Forecasts
+  - name: Calculating Container Costs
+  - name: Encouraging Engineers to Take Action
+  - name: FinOps Maturity Assessment
+    url: https://github.com/finopsfoundation/frameworkassessment/blob/main/Definition.md
+  - name: Identifying Shared Costs
   - name: Multi-Cloud Tools and Terminology
   - name: Reducing Waste
   - name: U.S. Public Sector FinOps Playbook
