@@ -21,6 +21,7 @@ type:
 
 certified-status:
 - FinOps Certified Service Provider
+- FinOps Training Partner
 
 # Product(s) or service overview maximum character count is 1000 the rest will be truncated and hidden automatically on your page
 product-overview: |
