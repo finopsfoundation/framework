@@ -51,6 +51,7 @@ product-resources:
 # Supported capabilities in the framework by the product(s) or services. Match the page-identifier per capability in order for the capability to show up on the vendor page.
 capabilities:
 - capability_workload-automation
+- capability_anomalies
 - capability_commitment-discounts
 - capability_rightsizing
 - capability_normalization
