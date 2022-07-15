@@ -4,9 +4,9 @@ layout: member
 
 # Vendor details
 name: BlueArch Group Inc.
-logo-url: "/tools-services/logos/bluearch.png"
+logo-url: "/tools-services/logos/bluearch.png?2"
 logo-url-width: 150
-linkedin-url: "https://www.linkedin.com/company/bluearchgroup"
+linkedin-url: "https://www.linkedin.com/in/joelproctor/"
 website-url: "https://www.bluearch.io/"
 
 # Maximum character count is 350 the rest will be truncated and hidden automatically on your page
@@ -16,7 +16,6 @@ company-description: FinOps Best Practices as a Service (FinOps BPaaS)
 member-level: general
 
 type: 
-- Platform Provider
 - Service Provider
  
 certified-status:
@@ -25,7 +24,7 @@ certified-status:
 #- FinOps Training Partner
 
 # Product(s) or service overview maximum character count is 1000 the rest will be truncated and hidden automatically on your page 
-product-overview: "Bridge the gap between Finance and Engineering, with FinOps Best Practices as a Service (BPaaS), so you can: enforce spend accountability, forecast and budget accurately, segment and group costs, and prevent waste buildup before it starts."
+product-overview: "We leverage open-source software to bridge the gap between engineering and finance, with FinOps best practices as a service (FinOps BPaaS)."
 
 product-video-url:
 
@@ -47,17 +46,23 @@ capabilities:
 - capability_forecasting
 - capability_budget-management
 - capability_workload-automation
-- capability_commitment-discounts
 - capability_rightsizing
 - capability_unit-costs
 - capability_normalization
+- capability_chargeback
+- capability_onboarding-workloads
 - capability_establish-finops-culture
+- capability_asset-management
+- capability_policy-governance
 - capability_decision-accountability-structure
 - capability_education-enablement
 
 # Edit as appropriate to display supported clouds
 clouds-supported:
 - AWS
+- Azure
+- Google Cloud
+
 
 # FinOps Foundation Member since 
 date: 2022-04-01
@@ -66,10 +71,6 @@ date: 2022-04-01
 recent-finops-activity:
 - title: BlueArch Content on Linkedin
   url: "https://www.linkedin.com/in/joelproctor/recent-activity/shares/"
-- title:
-  url:
-- title:
-  url:
 
 # Detail related/dedicated slack channels in the FinOps Foundation Slack 
 slack-channels:
