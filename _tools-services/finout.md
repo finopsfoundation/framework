@@ -5,7 +5,7 @@ layout: member
 # Vendor details
 name: Finout
 logo-url: "/tools-services/logos/finout.svg"
-logo-url-width:
+logo-url-width: 120
 linkedin-url: "https://www.linkedin.com/company/finout-io/mycompany/"
 website-url: "https://finout.io"
 
