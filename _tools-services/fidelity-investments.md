@@ -4,9 +4,9 @@ layout: member
 temporary: true
 
 # Vendor details
-name: Morpheus Data
-logo-url: "/tools-services/logos/morpheus.svg"
-logo-url-width: 130
+name: Fidelity Investments
+logo-url: "/tools-services/logos/fidelity.png"
+logo-url-width: 170
 linkedin-url:
 website-url:
 
@@ -14,7 +14,9 @@ website-url:
 company-description:
 
 # Membership level, type and vendor certifications 
-member-level: general
+member-level: premier
+member-order: 19
+
 
 type: 
 # - Platform Provider

@@ -4,9 +4,9 @@ layout: member
 temporary: true
 
 # Vendor details
-name: Morpheus Data
-logo-url: "/tools-services/logos/morpheus.svg"
-logo-url-width: 130
+name: JPMorgan Chase & Co
+logo-url: "/tools-services/logos/jpmorganchase.png"
+logo-url-width: 140
 linkedin-url:
 website-url:
 
@@ -14,7 +14,9 @@ website-url:
 company-description:
 
 # Membership level, type and vendor certifications 
-member-level: general
+member-level: premier
+member-order: 18
+
 
 type: 
 # - Platform Provider

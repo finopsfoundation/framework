@@ -15,7 +15,7 @@ company-description:
 
 # Membership level, type and vendor certifications 
 member-level: premier
-member-order: 18
+member-order: 20
 
 type: 
 # - Platform Provider
