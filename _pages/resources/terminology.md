@@ -13,7 +13,7 @@ description: A glossary of FinOps concepts and terminology.
 
 ## Cloud Cost Management Terminology
 Allocation Metadata
-> The information used to categorize costs and is encapuslated within CSP constructs like resource tags (AWS; Azure) or labels (GCP). In this context, metadata can be differentiated between "Resource Metadata" where an individual resource is tagged or labelled or "Hierarchy Metadata" where categorization is applied to some other construct that provides grouping of resources.  Examples of allocation metadata include:
+> The information used to categorize costs and is encapsulated within CSP constructs like resource tags (AWS; Azure) or labels (GCP). In this context, metadata can be differentiated between "Resource Metadata" where an individual resource is tagged or labelled or "Hierarchy Metadata" where categorization is applied to some other construct that provides grouping of resources.  Examples of allocation metadata include:
 * GCP "labels" and "billing accounts";
 * AWS  "resource tags", "Linked Accounts" and "Organizations";
 * Azure "Subscriptions", "Resource Groups" and "resource tags"
