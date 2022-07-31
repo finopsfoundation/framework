@@ -330,3 +330,50 @@
     company: Cigna
     linkedin-url: https://linkedin.com/in/viksaluja
     image: vik-saluja.jpg
+
+  - name: Bindu Sharma
+    job-title: Manager, Cloud Financial Management and Governance
+    company: FireEye
+    linkedin-url: https://www.linkedin.com/in/bindu-sharma-b8883/
+    image: bindu-sharma.jpg
+
+  - name: Angel Alves
+    job-title: Cloud FinOps, Snr Manager
+    company: Saint-Gobain
+    linkedin-url: https://www.linkedin.com/in/bindu-sharma-b8883/
+    image: angel-alves.jpg
+
+  - name: Alice Nazarov
+    job-title: FinOps Engineer
+    company: ironSource
+    linkedin-url: https://www.linkedin.com/in/alice-nazarov-898a387/
+    image: alice-nazarov.jpg
+
+  - name: Wuming Zhang
+    job-title: Cloud Architect
+    company: Helvetia Versicherungen Schweiz
+    linkedin-url: https://www.linkedin.com/in/wuming/
+    image: wuming-zhang.jpg
+
+  - name: Vijaya Karthvaya Kudithipudi
+    job-title: Cloud FinOps Leader
+    company: Nokia
+    linkedin-url: https://www.linkedin.com/in/vijaykarthavya/
+    image: vijaya-karthvaya-kudithipudi.jpg
+
+  - name: William Ospina
+    job-title: Global SRE Architect
+    company: Holcim
+    linkedin-url: https://www.linkedin.com/in/williamospina/
+    image: william-ospina.jpg
+
+  - name: Thiago Gil 
+    job-title: Senior Cloud Architect - Public Sector
+    company: Golden Solutions
+    linkedin-url: https://www.linkedin.com/in/thiago-bittencourt-gil/
+    image: thiago-gil.jpg
+
+  - name: Courtney Bormann
+    job-title: Senior Manager, Cloud Enablement
+    linkedin-url: https://www.linkedin.com/in/thiago-bittencourt-gil/
+    image: courtney-bormann.jpg
