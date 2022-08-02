@@ -32,6 +32,7 @@
     url: /projects/adopting-finops-avoiding-pitfalls/
   - name: Accurate Cloud Forecasts
   - name: Calculating Container Costs
+  - name: Container Cost Allocation
   - name: Encouraging Engineers to Take Action
   - name: FinOps Maturity Assessment
     url: https://github.com/finopsfoundation/frameworkassessment/blob/main/Definition.md
