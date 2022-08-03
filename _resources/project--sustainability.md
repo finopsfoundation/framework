@@ -3,11 +3,11 @@
 layout: wide
 permalink: /projects/sustainability/
 
-title: An Introduction to Digital Sustainability and Its Intersection with FinOps
+title: Digital Sustainability and Its Intersection with FinOps
 description: This project helps practitioners understand how they can positively contribute to their organizations drive to reduce digital carbon footprint and accelerate their path to net-zero.
 page-identifier: project_sustainability
 identifier: projects
-project-title: An Introduction to Digital Sustainability and Its Intersection with FinOps
+project-title: Digital Sustainability and Its Intersection with FinOps
 project-description: This project helps practitioners understand how they can positively contribute to their organizations drive to reduce digital carbon footprint and accelerate their path to net-zero.
 date-added: Jul 2022
 type: Guide
@@ -18,17 +18,17 @@ cloud-provider:
 framework-capabilities:
 
 ---
-# An Introduction to Digital Sustainability and Its Intersection with FinOps
+# Digital Sustainability and Its Intersection with FinOps
+
+*FinOps and GreenOps mutually support each other through a similar approach to conscientious and responsibility technology usage that enables workload efficiency and sustainability. If you are doing one of these - you are amplifying the other.*
 
 ## Abstract
 
-The sustainability Working Group (WG) has been set up to bring clarity to FinOps practitioners around the subject of digital sustainability and running applications in the cloud with zero carbon emission. 
+The Sustainability Working Group (WG) builds knowledge and understanding to bring clarity to FinOps practitioners around the subject of digital sustainability and running applications in the cloud with zero carbon emission. 
 
-Our objective is to help practitioners understand how they can positively contribute to their organizations drive to reduce digital carbon footprint and accelerate their path to net-zero.
+**Our objective:** Help practitioners understand how they can positively contribute to their organizations drive to reduce digital carbon footprint and accelerate their path to net-zero.
 
-The output of this working group will be delivered through a series of focused 4-8 week sprints undertaken by group members with input from subject matter experts (SMEs) both inside and outside the foundation. 
-
-This WG Project will enable FinOps practitioners to understand the environmental impact of Cloud resource usage decisions and to make better informed decisions around the tradeoffs. It will allow practitioners to advocate for sustainability using specific processes, tools and frameworks.
+The output of this working group will be delivered through a series of focused 4-8 week sprints undertaken by group members with input from subject matter experts (SMEs) both inside and outside the foundation. This WG Project will enable FinOps practitioners to understand the environmental impact of Cloud resource usage decisions and to make better informed decisions around the tradeoffs. It will allow practitioners to advocate for sustainability using specific processes, tools and frameworks.
 
 ## Sprint 0 Deliverables (August 2022)
 Sprint 0 was seen as the initial “baseline”, with a core objective of defining the group structure, vision and direction and to establish a way of working productively with a core team of part-time contributors from across the foundation. 
@@ -48,10 +48,16 @@ The deliverables for the initial sprint (Sprint 0) were defined as follows:
 * **Sprint 2:** Define how to measure Sustainability/FinOps progress by Maturity Level (e.g. Crawl, Walk, Run)
 * **Sprint 3:** Provide guidelines for how practitioners can drive carbon optimization culture
 
-## Check out the FinOps X Talk on Sustainability
-Sustainability WG Community Lead, Mark Butcher, spoke about the intersection of Sustainability and FinOps at FinOps X 2022. Check out the talk for more context, and to better set the backdrop to utilize this Project.
+## Check FinOps X Content on Sustainability
+Review this panel discussion on Sustainability and GreenOps, featuring Riley Jenkins of Domo, Amanda Dalton of Deloitte, Bindu Sharma of FireEye, and Eli Mansoor, of the FinOps Foundation community:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/j6MOXdK3hNc" title="YouTube video player" frameborder="0" allow="accelerometer;  clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Sustainability WG Community Lead, Mark Butcher, also spoke about the intersection of Sustainability and FinOps at FinOps X 2022:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZsJl-AOcE2E" title="YouTube video player" frameborder="0" allow="accelerometer;  clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+Whether you watch them now, or later, we invite users to check out both of these talks for more context, and to better set the backdrop to utilize this Project.
 
 ## What problem are we trying to solve? 
 This working group has the overarching aim to clarify how the established world of FinOps intersects, overlaps and enables the burgeoning world of GreenOps. 
@@ -97,7 +103,7 @@ A core concept to GHG reporting under the GHG Protocol is that of scopes, which 
 From the cloud consumer perspective, all the hyperscaler emissions fall under the category of your scope-3, but from their perspective, they have their own scope 1, 2 & 3 emissions.
 
 
-Why is scope-3 so important?
+### Why is scope-3 so important?
 Scope 3 emissions are less tangible and are often described as ‘tricky’ to truly get a handle on - as exemplified by any movement from on-premise data centers to cloud services. 
 
 Most companies downplay their impact on carbon reporting or consider them out of scope because they are the responsibility of a supplier and/or customer. Increasingly however, companies are expected and recognise the value in reporting these emissions, even if they are unable to quantify them in their entirety
@@ -112,12 +118,12 @@ So, while many businesses do focus solely on Scope 1 and 2, this means only tack
 
 From an IT perspective, this is particularly true for large consumers of outsourced services such as those delivered by Amazon AWS, Google or Microsoft Azure. By measuring Scope 3 emissions related to external providers, organizations can:
 
-Assess where the emission hotspots are in their supply chain
-Identify resource and energy risks in their supply chain
-Identify which suppliers are leaders and which are laggards in terms of their sustainability performance
-Identify energy efficiency and cost reduction opportunities in their supply chain
-Engage suppliers and assist them to implement sustainability initiatives
-Improve the energy efficiency of their products
+* Assess where the emission hotspots are in their supply chain
+* Identify resource and energy risks in their supply chain
+* Identify which suppliers are leaders and which are laggards in terms of their sustainability performance
+* Identify energy efficiency and cost reduction opportunities in their supply chain
+* Engage suppliers and assist them to implement sustainability initiatives
+* Improve the energy efficiency of their products
 
 ## What's Next?
 
