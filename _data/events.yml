@@ -1,24 +1,4 @@
 items:
-  - title: Open Source Finance Forum London
-    date: 13th July
-    location: Virtual
-    label: 3rd Party
-    host: Finos
-    type: 
-      - In-person
-      - Virtual Event
-    image: event-images_osff.png
-    url: https://events.linuxfoundation.org/open-source-finance-forum-london/
-
-  - title: July FinOps Vendor Showcase
-    date: 21st July
-    location: Virtual
-    label: FinOps Foundation
-    host: FinOps Foundation
-    type: Virtual Event
-    image: event-images_summit.png
-    url: https://go.finops.org/july-showcase
-
   - title: August FinOps Summit
     date: 18th August
     location: Virtual
@@ -26,7 +6,7 @@ items:
     host: FinOps Foundation
     type: Virtual Event
     image: event-images_summit.png
-    url: 
+    url: go.finops.org/finops-summit-august
 
   - title: September FinOps Summit
     date: 8th September
@@ -88,16 +68,6 @@ items:
     url: https://www.vmware.com/explore/us.html
 
   - title: Partner FinOps Certified Practitioner Training 
-    date: 27th-28th July
-    location: Virtual 
-    label: 3rd Party
-    host: Apptio
-    type: 
-      - Virtual Event
-    image: event-images_apptio.png
-    url: https://certification.apptio.com/learn/course/external/view/classroom/1845/finops-certified-practitioner
-
-  - title: Partner FinOps Certified Practitioner Training 
     date: 24th-25th August
     location: Virtual 
     label: 3rd Party
@@ -116,3 +86,23 @@ items:
       - Virtual Event
     image: event-images_apptio.png
     url: https://certification.apptio.com/learn/course/external/view/classroom/1845/finops-certified-practitioner
+
+  - title: FinOps Field-Side Chat Seattle Mariners v Cleveland Guardians 
+    date: 25th August
+    location: T-Mobile Park, Seattle, Washington 
+    label: 3rd Party
+    host: Cloudwiry
+    type: 
+      - In-person
+    image: event-images_cloudwiry.png
+    url: https://outreach.cloudwiry.com/finops-field-side-chat-seattle-wa
+
+  - title: Webinar - AWS Unconventional Hacks
+    date: 15th September
+    location: Virtual
+    label: 3rd Party
+    host: Cloudkeeper
+    type: 
+      - Virtual Event
+    image: event-images_cloudkeeper.png
+    url: https://www.cloudkeeper.ai/webinar-unconventional-aws-hacks?utm_campaign=FinOps-Foundation&utm_source=FF&utm_custom%5Bemail%5D=
