@@ -289,7 +289,7 @@ The FinOps Foundation extends a huge thank you to the members of this Working Gr
 
 - Mark Butcher (Posetiv Cloud)
 - Stephen Dick (BetterCloud)
-- Bindu Sharma (FireEye)
+- Bindu Sharma (Guidewire)
 - Mark Richter (Thoughtworks)
 - Amanda Dalton (Deloitte Consulting)
 - Kim Pfeiffer (Deloitte Consulting)
