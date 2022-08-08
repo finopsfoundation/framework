@@ -26,7 +26,7 @@ Every organization has [shared IT costs](/framework/capabilities/manage-shared-c
 ## Table of Contents
 * [Before you begin](#begin)
 <!-- * [Relevant FinOps Framwork components](#components) -->
-* [Why allocated shared costs?](#why-allocate)
+* [Why allocate shared costs?](#why-allocate)
 * [Who might care about shared cost allocation?](#who-cares)
 * [How to take on this challenge?](#challenge)
 * [How do you know you're on the right track?](#kpis)

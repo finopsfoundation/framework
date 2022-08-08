@@ -13,7 +13,7 @@ description: A glossary of FinOps concepts and terminology.
 
 ## Cloud Cost Management Terminology
 Allocation Metadata
-> The information used to categorize costs and is encapuslated within CSP constructs like resource tags (AWS; Azure) or labels (GCP). In this context, metadata can be differentiated between "Resource Metadata" where an individual resource is tagged or labelled or "Hierarchy Metadata" where categorization is applied to some other construct that provides grouping of resources.  Examples of allocation metadata include:
+> The information used to categorize costs and is encapsulated within CSP constructs like resource tags (AWS; Azure) or labels (GCP). In this context, metadata can be differentiated between "Resource Metadata" where an individual resource is tagged or labelled or "Hierarchy Metadata" where categorization is applied to some other construct that provides grouping of resources.  Examples of allocation metadata include:
 * GCP "labels" and "billing accounts";
 * AWS  "resource tags", "Linked Accounts" and "Organizations";
 * Azure "Subscriptions", "Resource Groups" and "resource tags"
@@ -27,7 +27,7 @@ Commitment Based Discount
 Cost & Usage Data
 > The datasource to which CSPs publish and from which native cost data can be derived when billable cloud services are consumed.  Examples of datasources include:
 * AWS CUR (Cost & Usage Report)
-* Azure Consuption API; Azure Cost Management Exports
+* Azure Consumption API; Azure Cost Management Exports
 * GCP BigQuery Cloud Billing Data Tables; GCP Cloud Billing Report
 
 Resources
@@ -64,7 +64,7 @@ Availability Zone, AZ (AWS)
 > sub-unit of a Region, there are typically multiple AZs per Region. An AZ is made up of multiple physical data centers but can generally be thought of as being very closely situated from a network latency and performance perspective. Terminology varies among CSPs.
 
 Blended Rate
-> AWS provides Blended Rate information on its invoice showing the effective rate for a group of resources with the same attibutes where some of the resources are receiving a discount from reservations and some are not. This can help to eliminate the effects of reservations applying randomly to resources in multiple linked accounts, by providing a consistent rate for specific resources that would have been eligible to be covered by the reservation or savings plan.
+> AWS provides Blended Rate information on its invoice showing the effective rate for a group of resources with the same attributes where some of the resources are receiving a discount from reservations and some are not. This can help to eliminate the effects of reservations applying randomly to resources in multiple linked accounts, by providing a consistent rate for specific resources that would have been eligible to be covered by the reservation or savings plan.
 
 Blob Storage (Azure)
 > Azure’s object storage solution
@@ -88,7 +88,7 @@ EC2 (AWS)
 > Elastic Compute Cloud - AWS’ virtual compute cloud offering
 
 Enrollment (Azure)
-> When a customer has an Enterprise Agreement (EA) with Microsoft, they use an enrollment level portal to access all of their Microsoft licenses and high level billing information, including for Azure use. Companies with an Enrollment manage this for themselves, and create Subscriptions, an analog to AWS Accounts or GCP Projects, underneath the Enrollment. Companies who buy Azure through a CSP Reseller receive their Subscriptions, but the reseller owns and controls the Enrollment level portal and information.
+> When a customer has an Enterprise Agreement (EA) with Microsoft, they use an enrollment level portal to access all of their Microsoft licenses and high-level billing information, including for Azure use. Companies with an Enrollment manage this for themselves, and create Subscriptions, an analog to AWS Accounts or GCP Projects, underneath the Enrollment. Companies who buy Azure through a CSP Reseller receive their Subscriptions, but the reseller owns and controls the Enrollment level portal and information.
 
 IAM (AWS and GCP)
 > Identity and Access Management - helpfully the way that all three cloud providers refer to their system of granting and governing permissions within their cloud platforms
@@ -201,7 +201,7 @@ Income Statement (sometimes referred to as a P&L statement)
 NPV
 > Net Present Value - An assessment used to calculate the long-term profitability of a project made by adding together all the revenue it can be expected to achieve over its whole life and deducting all the costs involved, discounting both future costs and revenue at an appropriate rate. In a cloud business case, the net present value of all the cash flows of a no-upfront RI might be compared to the current cash value of the all-upfront RI for determining which is better for the business.
 
-Opex
+OpEx
 > Operating Expenditure - a category of business expense made in a specific accounting period which provide benefits only in that accounting period. Purchasing on demand cloud services is considered an Operating Expenditure. Operating expenditures require no long-term tracking of depreciation or amortization but are subtracted from earnings in the period incurred.
 
 Return on Investment (ROI)
@@ -217,4 +217,4 @@ Unit Economics
 > the ability to directly compare my overall cost to the overall business benefit I am creating on a per unit basis. For example, if I understand that the overall cost of running my website infrastructure is $5,000,000 per month and is able to support 10,000,000 paid hosted web pages, then I can track a Webpage/$ metric of “2” which indicates how efficiently I run my service. Any future modifications to my cloud infrastructure can then be expressed in terms of the Webpage/$ metric to determine if they are helping or hurting, and opportunities for cost savings can be expressed in terms of how they impact Webpages/$.
 
 WACC
-> Weighted Average Cost of Capital - the rate the company is expected to pay on average to all its securities holders to finance the operation of the business. Importantly this is set by the external market (what the market is willing to pay for various forms of the company’s securities) not by management. The WACC, sometimes called the ICC or Internal Cost of Capital,  represents the internal cost of cash and can be used in a business cases to compare the rates of return of an investment (such as an all-upfront RI payment) to determine if it is better to use cash, borrow cash, or forego the investment.
+> Weighted Average Cost of Capital - the rate the company is expected to pay on average to all its securities holders to finance the operation of the business. Importantly this is set by the external market (what the market is willing to pay for various forms of the company’s securities) not by management. The WACC, sometimes called the ICC or Internal Cost of Capital,  represents the internal cost of cash and can be used in a business case to compare the rates of return of an investment (such as an all-upfront RI payment) to determine if it is better to use cash, borrow cash, or forego the investment.

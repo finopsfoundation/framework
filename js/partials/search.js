@@ -230,7 +230,7 @@ if(document.getElementById('resource-hits')) {
         item: `
          <div>
           <a class="flex text-centre m-0 bg-white border-solid border-gray-200 border rounded-sm shadow-sm hover:border-green-500 cursor-pointer transition duration-200" href="{{ url }}" data-ga-category="links" data-ga-action="internal link clicks" data-ga-label="events - {{ meta_title }} {{ event.host }}">
-            <img src="/img/search-icons/{{ type }}.png" alt="{{ meta_title }}" width="100" />
+            <img src="/img/search-icons/{{ type }}.png" alt="{{ meta_title }}" class="max-w-[130px] md:max-w-[130px] lg:max-w-[100px]" />
             <div class="py-4 px-4 flex-grow">
               <div class="flex">
                 <h2 class="text-base font-medium mt-0 mb-2 leading-tight flex-grow">{{ meta_title }}</h2>

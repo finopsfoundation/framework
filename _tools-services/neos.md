@@ -55,7 +55,9 @@ capabilities:
 
 # Edit as appropriate to display supported clouds
 clouds-supported:
+- AWS
 - Azure
+- Google Cloud
 - Oracle
 
 # FinOps Foundation Member since
@@ -76,7 +78,7 @@ slack:
   url:
 
 # The total number of FinOps Certified Practitioners at the vendor
-number-of-focp: 6
+number-of-focp: 7
 
 # List the key contribution areas in the FinOps Foundation, examples listed
 contribution-areas:
