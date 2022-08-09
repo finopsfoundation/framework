@@ -9,7 +9,7 @@
     - business
   maturity: crawl
   related-url: 
-  code-url: https://github.com/finopsfoundation/sig-containers/tree/main/wg-container-cost-allocation/label-dictionary#application
+  code-url: https://github.com/finopsfoundation/sig-containers/blob/main/wg-container-cost-allocation/label-schemas/deployment-crawl.yaml
   story-url: 
 
 - label-name: cost-center
@@ -22,7 +22,7 @@
     - finance
   maturity: crawl
   related-url: 
-  code-url: https://github.com/finopsfoundation/sig-containers/tree/main/wg-container-cost-allocation/label-dictionary#cost-center
+  code-url: https://github.com/finopsfoundation/sig-containers/blob/main/wg-container-cost-allocation/label-schemas/deployment-crawl.yaml
   story-url:
 
 - label-name: team
@@ -38,7 +38,7 @@
     - finance
   maturity: crawl
   related-url: 
-  code-url: https://github.com/finopsfoundation/sig-containers/tree/main/wg-container-cost-allocation/label-dictionary#team
+  code-url: https://github.com/finopsfoundation/sig-containers/blob/main/wg-container-cost-allocation/label-schemas/deployment-crawl.yaml
   story-url:
 
 - label-name: product
@@ -52,7 +52,7 @@
     - finance
   maturity: walk
   related-url: 
-  code-url: https://github.com/finopsfoundation/sig-containers/tree/main/wg-container-cost-allocation/label-dictionary#product
+  code-url: https://github.com/finopsfoundation/sig-containers/blob/main/wg-container-cost-allocation/label-schemas/deployment-walk.yaml
   story-url: 
 
 - label-name: department
@@ -66,7 +66,7 @@
     - finance
   maturity: walk
   related-url: 
-  code-url: https://github.com/finopsfoundation/sig-containers/tree/main/wg-container-cost-allocation/label-dictionary#department
+  code-url: https://github.com/finopsfoundation/sig-containers/blob/main/wg-container-cost-allocation/label-schemas/deployment-walk.yaml
   story-url: 
 
 - label-name: environment
@@ -80,7 +80,7 @@
     - engineering
   maturity: walk
   related-url: 
-  code-url: https://github.com/finopsfoundation/sig-containers/tree/main/wg-container-cost-allocation/label-dictionary#environment
+  code-url: https://github.com/finopsfoundation/sig-containers/blob/main/wg-container-cost-allocation/label-schemas/deployment-walk.yaml
   story-url: 
 
 - label-name: customer
@@ -94,7 +94,7 @@
     - engineering
   maturity: walk
   related-url: 
-  code-url: https://github.com/finopsfoundation/sig-containers/tree/main/wg-container-cost-allocation/label-dictionary#environment
+  code-url: https://github.com/finopsfoundation/sig-containers/blob/main/wg-container-cost-allocation/label-schemas/deployment-walk.yaml
   story-url: 
 
 - label-name: service
@@ -108,7 +108,7 @@
     - finance
   maturity: run
   related-url: 
-  code-url: https://github.com/finopsfoundation/sig-containers/tree/main/wg-container-cost-allocation/label-dictionary#service
+  code-url: https://github.com/finopsfoundation/sig-containers/blob/main/wg-container-cost-allocation/label-schemas/deployment-run.yaml
   story-url: 
 
 - label-name: component
@@ -122,7 +122,7 @@
     - engineering
   maturity: run
   related-url: 
-  code-url: https://github.com/finopsfoundation/sig-containers/tree/main/wg-container-cost-allocation/label-dictionary#component
+  code-url: https://github.com/finopsfoundation/sig-containers/blob/main/wg-container-cost-allocation/label-schemas/deployment-run.yaml
   story-url: 
 
 - label-name: tech-stack
@@ -137,5 +137,5 @@
     - finance
   maturity: run
   related-url: 
-  code-url: https://github.com/finopsfoundation/sig-containers/tree/main/wg-container-cost-allocation/label-dictionary#tech-stack
+  code-url: https://github.com/finopsfoundation/sig-containers/blob/main/wg-container-cost-allocation/label-schemas/deployment-run.yaml
   story-url: 
