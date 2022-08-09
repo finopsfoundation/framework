@@ -6,7 +6,7 @@ items:
     host: FinOps Foundation
     type: Virtual Event
     image: event-images_summit.png
-    url: go.finops.org/finops-summit-august
+    url: https://go.finops.org/finops-summit-august
 
   - title: September FinOps Summit
     date: 8th September
