@@ -21,7 +21,7 @@ framework-capabilities:
 
 ---
 
-# FinOps Framework Assessment Playbook
+# FinOps Assessment Playbook
 
 ## Introduction
 
