@@ -4,7 +4,7 @@ layout: wide
 permalink: /projects/finops-assessment/
 
 title: FinOps Assessment
-description: This U.S. Public Sector FinOps playbook seeks to build upon the existing FinOps framework to assist U.S. federal agencies with their cloud spend.
+description: The FinOps Assessment playbook is designed to be used in conjunction with the FinOps Framework to assist you with a measurable, meaningful analysis of your current operating maturity as you travel that journey.
 page-identifier: project_us-gov
 identifier: projects
 project-title: U.S. Public Sector FinOps Playbook
@@ -29,7 +29,7 @@ FinOps is an evolving cloud financial management discipline and cultural practic
 
 Once you have adopted FinOps, you will find that to maximize the benefits you realize from Cloud you must also continually mature your FinOps practice, in a journey toward FinOps excellence. 
 
-This playbook is designed to be used in conjunction with the FinOps  Framework to assist you with a measurable, meaningful analysis of your current operating maturity as you travel that journey.Understanding your current situation leads to a clearer understanding of the key areas you must next focus closely on, in order to progress in a meaningful way.
+This playbook is designed to be used in conjunction with the FinOps Framework to assist you with a measurable, meaningful analysis of your current operating maturity as you travel that journey. Understanding your current situation leads to a clearer understanding of the key areas you must next focus closely on, in order to progress in a meaningful way.
 
 This playbook provides a set of concepts and measurements to support that analysis. These measurements can be applied to virtually all levels of an organization, from detailed and granular specific workloads / services / functional teams, through to the macroscopic analysis of organizational divisions or entire business units. It is designed to measure your operational maturity in consistent and well-understood terms whether you are measuring one application team or the whole organization.
 
@@ -136,8 +136,8 @@ How broadly are the knowledge, processes and KPIs you are using to govern this c
 | Maturity | Heading | Description |
 | -------- | -------- | -------- |
 | FinOps 0 | No Adoption | The capability is not in place anywhere within the target scope group. |
-| FinOps 1 | Siloed Adoption | Elements of the capability are being adopted by a siloed group, lacking standardization and evidence best practices.  |
-| FinOps 2 | Initial Standardized Adoption | Early elements of the capability are being standardized and vetted by a few individuals within the target group.  |
+| FinOps 1 | Siloed Adoption | Elements of the capability are being adopted by a siloed group, lacking standardization and evidence best practices. |
+| FinOps 2 | Initial Standardized Adoption | Early elements of the capability are being standardized and vetted by a few individuals within the target group. |
 | FinOps 3 | Key Adoption | Fully established standardized elements of the capability as a part majority target groups BAU (Business As Usual) behaviors. |
 | FinOps 4 | Full Adoption | The capability now exists in totality across all elements of the target group, and is being actively engaged with and worked on. |
 
@@ -177,7 +177,7 @@ When you are considering a target group and scope, look at some of these attribu
 - Business Owner
 - etc...
 
-If you intend to repeat assessments over time for trending / baselining purposes, then be sure to use the same Target Scope and Target Group when you reassess to maintain  the validity and trust placed in the data by the wider business. 
+If you intend to repeat assessments over time for trending / baselining purposes, then be sure to use the same Target Scope and Target Group when you reassess to maintain the validity and trust placed in the data by the wider business. 
 Maintain a record of the scope along with all instances of baseline and analysis of the framework, to ensure consistency and context.
 
 ### Defining Testing Parameters
