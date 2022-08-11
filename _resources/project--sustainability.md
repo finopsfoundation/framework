@@ -303,6 +303,8 @@ The FinOps Foundation extends a huge thank you to the members of this Working Gr
 - Cameron Casher (Thoughtworks)
 - Ray Ding
 - Simarpreet Arora
+- Aaron Booth (Embue)
+- David Adelkhanov (Softchoice)
 
 
 
