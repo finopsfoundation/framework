@@ -102,7 +102,21 @@ product-overview: |
 
   Tooling:
 
-  1. IBM Multicloud Accelerator"
+  1. IBM Multicloud Accelerator (Nordcloud Klarity Core)
+
+      An easy-to-use dashboard that displays real-time, consolidated data on cloud costs. It gives you data insights and recommendations, automates day-to-day tasks and builds new tools across multi-cloud and hybrid environments.
+  2. IBM Multicloud Machine Image Toolkit (Nordcloud Klarity ImageFactory)
+
+      A fully managed multi-cloud image hardening SaaS, to automate the creation of hardened images in the public cloud
+  3. IBM Multicloud Autopatcher (Nordcloud Klarity Autopatcher)
+
+      Automate multi-cloud patching activities and patch with multi-cloud and with multi OS scheduling
+  4. IBM Multicloud Autobackup (Nordcloud Klarity Autobackup)
+
+      A multi-cloud data protection solution for your IaaS and PaaS environments. Use key event and issue notifications, to stay up to date and protect and track resources.
+  5. IBM Multicloud Provisioning / Nordcloud Klarity LandingZone
+
+      Delivers fully automated and maintained landing zones, provides infrastructure as code and covers elements like networking, automation, DNS, remote access, auditing, platform security and back-up"
 
 product-video-url:
 

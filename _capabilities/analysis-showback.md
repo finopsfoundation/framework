@@ -3,6 +3,7 @@
 layout: capability
 permalink: /framework/capabilities/analysis-showback/
 search: true
+search-keywords: 
 
 title: Data Analysis and Showback
 description: Data analysis and showback is the ability to create a near real-time reporting mechanism which calls to attention total costs for the desired business entity, opportunities for cost avoidance, and KPIs
@@ -15,8 +16,6 @@ order: 2
 ---
 
 # Data Analysis and Showback
-
-{% include contribute-capabiility.md %}
 
 ## Domains
 <!-- _x-ref to the FinOps Domain(s) to which this Capability corresponds_ -->

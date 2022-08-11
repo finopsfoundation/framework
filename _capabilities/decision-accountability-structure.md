@@ -3,6 +3,7 @@
 layout: wide
 permalink: /framework/capabilities/decision-accountability-structure
 search: true
+search-keywords:
 
 title: Establishing a FinOps Decision & Accountability Structure
 description: coming soon...
