@@ -38,8 +38,6 @@ Use this dictionary to learn common container labeling that the Working Group (W
 * **Click each filter** to sort cards by the parameters that you choose.
 * **Unclick filters** to change how you're sorting the cards, e.g. unclicking the *crawl* parameter will remove the filter seeking cards with the *crawl* label.
 
-The source material for these labels, schemas, and definition are up for debate and constructive improvement on our [Working Group documentation](https://github.com/finopsfoundation/sig-containers/blob/main/wg-container-cost-allocation/label-dictionary/README.md). If you also want to contribute to this page please <a href="javascript:void(0);" onclick="modalToggle('modal-contribute')">make a suggestion.</a>
-
 **NOTE:** Container Cost Allocation labeling and schema may greatly differ between different organizations with different use cases, goals, optimizations, and cloud service providers. The goal here is to provide an opinionated example about how to tackle the challenge of allocating container costs.
 
 <b>Filter by FinOps Persona:</b>
@@ -96,6 +94,19 @@ The source material for these labels, schemas, and definition are up for debate 
 {% endfor %}
 </div>
 
+## Ways to contribute
+FinOps practitioners can contribute in two ways. This collection of cards is maintained separately from the working group repository that handles more of the raw information and scripts. While we work on a future where we'll source all of this content from one source of truth, everyone's welcome to contribute to either of these repos.
+
+**In short:**
+* Contributing to [this repo](https://github.com/finopsfoundation/framework) edits the website content (the above cards)
+* Contributing to [this repo](https://github.com/finopsfoundation/sig-containers) edits code examples and raw Working Group content
+
+It can get a little complicated with regards to how we manage the site data. Feel free to fill out issues to communicate your recommendations or <a href="javascript:void(0);" onclick="modalToggle('modal-contribute')">Make a Suggestion</a> to suggest edits to the site.
+
+You can also get in touch with our WG via [Community Slack channel](https://finopsfoundation.slack.com/archives/C0180PC67T2) if you have more questions or want to contribute, or add Issues on the [Working Group's GitHub repo](https://github.com/finopsfoundation/sig-containers).
+
+Thanks for your patience as we improve how we welcome community contributions to our more advanced projects.
+
 ## Help Wanted: User Stories!
 
 We welcome any and all community user stories on how to best allocate and manage container costs at scale. User stories will be featured as links on all of these cards and be part of the greater FinOps Foundation collection of stories.
@@ -105,16 +116,6 @@ Here's an example of a [User Story](https://www.finops.org/stories/avoid-and-sim
 Get in touch with our WG via [Community Slack channel](https://finopsfoundation.slack.com/archives/C0180PC67T2) if you're interested!
 
 **Not a member yet?** [Request access](http://finops.org/membership/) and join the community!
-
-## Ways to contribute
-
-FinOps practitioners can contribute in two ways. This collection of cards is maintained separately from the working group repository that handles more of the raw information and scripts. While we work on a future where we'll source all of this content from one source of truth, everyone's welcome to contribute to either of these repos.
-
-**In short:**
-* Contributing to [this repo](https://github.com/finopsfoundation/framework) edits the website content (the above cards)
-* Contributing to [this repo](https://github.com/finopsfoundation/sig-containers) edits code examples and raw Working Group content
-
-It can get a little complicated with regards to how we manage the site data. Feel free to fill out issues to communicate your recommendations or <a href="javascript:void(0);" onclick="modalToggle('modal-contribute')">Make a Suggestion</a>. You can also get in touch with our WG via [Community Slack channel](https://finopsfoundation.slack.com/archives/C0180PC67T2) if you have more questions or want to contribute.
 
 ## Thank you to all of our Project contributors
 <p>We're grateful for all of the work, time, and effort from the following FinOps practitioners (in alphabetical order):</p>
