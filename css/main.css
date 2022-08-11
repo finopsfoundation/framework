@@ -11,6 +11,7 @@
 @import "css/partials/base/variables";
 @import "css/partials/base/global";
 @import "css/partials/base/typography";
+@import "css/partials/base/table";
 @import "css/partials/base/forms";
 @import "css/partials/base/search";
 @import "css/partials/components/modals";

@@ -3,14 +3,14 @@
 layout: member
 
 # Vendor details
-name: Pileus
-logo-url: "https://pileuscloud.com/wp-content/uploads/2019/10/logo-p-color-removebg-preview-1.png.webp"
-logo-url-width: 75
-linkedin-url: "https://www.linkedin.com/company/pileus-cloud"
-website-url: "https://pileuscloud.com"
+name: Anodot
+logo-url: "/tools-services/logos/anodot.svg"
+logo-url-width: 
+linkedin-url: "https://www.linkedin.com/company/anodot/"
+website-url: "https://www.anodot.com/"
 
 # Maximum character count is 350 the rest will be truncated and hidden automatically on your page
-company-description: "Pileus is a unique system that helps companies save up to 40% of their cloud billing.
+company-description: "Anodot is a unique system that helps companies save up to 40% of their cloud billing.
 We developed a smart system that is always learning your companies needs and limitations.
 Pileus provides intelligent recommendations that fits different situations and helps lower your cloud billing significantly."
 

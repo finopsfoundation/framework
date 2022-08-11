@@ -4,8 +4,8 @@ layout: member
 
 # Vendor details
 name: Turbonomic, an IBM Company
-logo-url: "/tools-services/logos/turbonomic.svg"
-logo-url-width: 150
+logo-url: "/tools-services/logos/turbonomic.png"
+logo-url-width: 275
 linkedin-url: "https://www.linkedin.com/company/turbonomic/mycompany/verification/"
 website-url: "https://www.turbonomic.com/"
 

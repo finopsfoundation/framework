@@ -3,6 +3,7 @@
 layout: capability
 permalink: /framework/capabilities/onboarding-workloads/
 search: true
+search-keywords:
 
 title: Onboarding Workloads
 description: This capability is about establishing a cloud front door process to onboard brownfield and greenfield applications through financial viability and technical feasibility assessment criteria.
@@ -15,9 +16,6 @@ order: 13
 ---
 
 # Onboarding Workloads
-
-
-{% include contribute-capabiility.md %}
 
 ## Domains
 <!-- _x-ref to the FinOps Domain(s) to which this Capability corresponds_ -->

@@ -3,6 +3,7 @@
 layout: capability
 permalink: /framework/capabilities/budget-management/
 search: true
+search-keywords:
 
 title: Budget Management
 description: Budgeting for Cloud is a process of collecting estimated expenses for a specific period of time.  Decisions on how to operate as a business, what to invest in and other strategic decisions are made based on budgets.
@@ -15,8 +16,6 @@ order: 6
 ---
 
 # Budget Management
-
-{% include contribute-capabiility.md %}
 
 ## Domains
 <!-- _x-ref to the FinOps Domain(s) to which this Capability corresponds_ -->

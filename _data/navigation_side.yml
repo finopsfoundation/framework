@@ -33,8 +33,8 @@
   - name: Accurate Cloud Forecasts
   - name: Calculating Container Costs
   - name: Encouraging Engineers to Take Action
-  - name: FinOps Maturity Assessment
-    url: https://github.com/finopsfoundation/frameworkassessment/blob/main/Definition.md
+  - name: FinOps Assessment
+    url: /projects/finops-assessment/
   - name: Identifying Shared Costs
   - name: Multi-Cloud Tools and Terminology
   - name: Reducing Waste
@@ -43,8 +43,6 @@
     url: /projects/us-gov-playbook/
 - name: Resources
   children:
-  # - name: FinOps Jobs Bpard
-  #   url: https://jobs.finops.org/
   - name: Training & Certification
     url: https://learn.finops.org/
   - name: FinOps Job Board
@@ -54,7 +52,8 @@
   - name: Events
   - name: Resources Library
     url: /resources/
-  - name: FinOps Book
+  - name: Cloud FinOps Book
+    url: /resources/finops-book
   - name: FinOps Terminology
     url: /resources/Terminology
   - name: Partner Members
