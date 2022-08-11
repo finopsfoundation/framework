@@ -3,6 +3,7 @@
 layout: capability
 permalink: /framework/capabilities/cost-allocation/
 search: true
+search-keywords:
 
 title: Cost Allocation (Metadata & Hierarchy)
 description: Cost Allocation is the set of practices to divide up a consolidated invoice or bill among those who are responsible for its various component parts. In the context of FinOps this typically involves dividing up consolidated Cloud Service Provider invoices among various IT groups who use cloud within the organization.

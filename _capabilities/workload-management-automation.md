@@ -3,6 +3,7 @@
 layout: capability
 permalink: /framework/capabilities/workload-management-automation/
 search: true
+search-keywords:
 
 title: Workload Management & Automation
 description: Workload Management & Automation focuses on running resources only when they are needed, and creating the mechanisms to automatically adjust what resources are running at any given time.

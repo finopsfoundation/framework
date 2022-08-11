@@ -3,6 +3,7 @@
 layout: wide
 permalink: /framework/capabilities/education-enablement
 search: true
+search-keywords:
 
 title: FinOps Education & Enablement
 description: FinOps Education & Enablement allows all those participating in FinOps practices to increase the business value of cloud by accelerating FinOps adoption.

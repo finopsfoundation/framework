@@ -3,6 +3,7 @@
 layout: capability
 permalink: /framework/capabilities/policy-governance
 search: true
+search-keywords:
 
 title: Cloud Policy & Governance
 description: Policy and Governance can be thought of as a set of statements of intent, with associated assurances of adherence.
