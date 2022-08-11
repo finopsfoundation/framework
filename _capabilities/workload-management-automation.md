@@ -17,8 +17,6 @@ order: 7
 
 # Workload Management & Automation
 
-{% include contribute-capabiility.md %}
-
 ## Domains
 <!-- _x-ref to the FinOps Domain(s) to which this Capability corresponds_ -->
 {% include domains-loop.md %}
@@ -28,18 +26,13 @@ order: 7
 
 Workload Management & Automation focuses on running resources only when they are needed, and creating the mechanisms to automatically adjust what resources are running at any given time.  This Capability is intended to give FinOps teams the ability to match supply to demand most efficiently, and effectively optimize cloud usage through measurement of workload demand and provisioning capacity dynamically.
 
-
-
-
 ## Maturity Assessment
 _description of the characteristics of each maturity level (crawl, walk, run) for this Capability in the context of the organization's FinOps practice._
-
 
 
 ## Functional Activity
 _written for each persona responsible for the functional activity and processes encapsulated by his Capability.  each one should be associated generally to one of the FinOps Phases (Inform, Optimize, Operate). for example:_
 >As a [FinOps Persona], I will [functional activity] so that [desired outcome] is achieved.
-
 
 
 ## Measure(s) of Success & KPI
