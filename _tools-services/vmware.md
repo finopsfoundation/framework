@@ -9,7 +9,7 @@ linkedin-url: "https://www.linkedin.com/company/cloudhealthtech"
 website-url: "https://www.cloudhealthtech.com/"
 
 # Maximum character count is 350 the rest will be truncated and hidden automatically on your page
-company-description: VMware is a leading innovator in enterprise software. We power the world’s digital infrastructure. Our cloud, app modernization, networking, security and digital workspace platforms form a flexible, consistent digital foundation. This foundation empowers businesses to build, run, manage, connect and protect applications, anywhere–enabling technology-driven transformation without disruption. VMware acquired CloudHealth Technologies in October of 2018.
+company-description: VMware is a leading provider of multi-cloud services for all apps, enabling digital innovation with enterprise control. As the trusted foundation to accelerate innovation, VMware software gives businesses the flexibility and choice they need to build the future. VMware acquired CloudHealth Technologies in October of 2018.
 
 # Membership level, type and vendor certifications 
 member-level: premier
@@ -22,7 +22,7 @@ certified-status:
 - FinOps Certified Platform
 
 # Product(s) or service overview maximum character count is 1000 the rest will be truncated and hidden automatically on your page 
-product-overview: CloudHealth has helped FinOps practitioners from more than 15,000 organizations around the world build, manage, and optimize their cloud financial management practice. By connecting and aggregating data across on-premises, public, and hybrid clouds, as well as containerized environments, CloudHealth becomes your single source of truth for multi-cloud management. CloudHealth improves cross-organizational collaboration by providing the ability to customize reports and dashboards via dynamic business groupings known as Perspectives. Practitioners can drive accountability with chargeback and showback, track cloud consumption patterns over time to accurately forecast future budgets, leverage tailored recommendations to optimize costs, and implement governance policies to automate cost control measures. With CloudHealth, FinOps practitioners can continuously align and optimize their cloud investments to drive strategic business initiatives.
+product-overview: CloudHealth has helped FinOps practitioners from more than 20,000 organizations around the world build, manage, and optimize their cloud financial management practice. By connecting and aggregating data across on-premises, public, and hybrid clouds, as well as containerized environments, CloudHealth becomes your single source of truth for multi-cloud management. CloudHealth improves cross-organizational collaboration by providing the ability to customize reports and dashboards via dynamic business groupings known as Perspectives. Practitioners can drive accountability with chargeback and showback, track cloud consumption patterns over time to accurately forecast future budgets, leverage tailored recommendations to optimize costs, and implement governance policies to automate cost control measures. With CloudHealth, FinOps practitioners can continuously align and optimize their cloud investments to drive strategic business initiatives.
 
 product-video-url: "https://player.vimeo.com/video/567152327"
 
@@ -78,7 +78,7 @@ slack-channels:
   url:
 
 # The total number of FinOps Certified Practitioners at the vendor
-number-of-focp: 15
+number-of-focp: 100
 
 # List the key contribution areas in the FinOps Foundation, examples listed
 contribution-areas:
