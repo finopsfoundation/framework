@@ -133,11 +133,6 @@ blockquote p:last-of-type::after {
   content: close-quote;
 }
 
-caption {
-  size: .5em;
-  font-style: italic;
-}
-
 table {
   width: 100%;
   table-layout: auto;
