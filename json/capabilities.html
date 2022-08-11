@@ -20,6 +20,7 @@ sitemap: false
       "meta_title": "{{ item.framework-capability-title }}",
       "meta_desc": "{{ item.framework-capability-desc }}",
       "label": "{{ item.label }}",
+      "keywords": "{{ item.search-keywords }}",
       "content": "{{ item.content | strip_html | strip_newlines | escape }}", 
       "domains": [{% for domain in domain-titles %} "{{ domain }}"{% unless forloop.last %},{% endunless %}{% endfor %}], 
       "url": "{{ item.url }}", 

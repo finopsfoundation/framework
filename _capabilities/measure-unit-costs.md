@@ -3,6 +3,7 @@
 layout: capability
 permalink: /framework/capabilities/measure-unit-costs/
 search: true
+search-keywords:
 
 title: Measuring Unit Costs
 description: Unit economic metrics enable you to determine the revenue you’ll gain from a single unit of your business and the cost associated with servicing it, ultimately revealing the business value of your cloud spend.
