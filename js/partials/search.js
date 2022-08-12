@@ -96,7 +96,7 @@ if(document.getElementById('event-hits')) {
 // Main Site search  js-search
 
 
-$('#js-search').click(function(){
+if(document.getElementById('site-search')) {
 
   const search = instantsearch({
     indexName: 'prod_capabilities',
@@ -197,7 +197,7 @@ $('#js-search').click(function(){
 
   search.start();
 
-});
+};
 
 // Resource Library Page
 if(document.getElementById('resource-hits')) {
