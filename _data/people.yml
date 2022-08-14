@@ -1,380 +1,515 @@
-- group: TAC
-  people:
-  - name: Riley Jenkins (Chair)
-    job-title: Sr. SRE/FinOps Architect
-    company: Domo
-    linkedin-url: https://www.linkedin.com/in/riley-jenkins-9884b333/
-    image: riley-jenkins.jpg
 
-  - name: Mike Fuller 
-    job-title: Principal Systems Engineer
-    company: Atlassian
-    linkedin-url: https://www.linkedin.com/in/mikefuller/
-    image: mike-fuller.jpg
+- name: Jennifer Hays (Chair)
+  job-title: Head of Engineering Efficiency & Assurance
+  company: Fidelity Investments
+  linkedin-url: https://www.linkedin.com/in/jennifer-hays-b2b8a550/
+  image: jennifer-hays.jpg
+  groups:
+    - GB
 
-  - name: Anders Hagman
-    job-title: Senior Manager, Cloud FinOps & Technology Procurement
-    company: Spotify
-    linkedin-url: https://www.linkedin.com/in/andershagman/
-    image: anders-hagman.jpg
+- name: Riley Jenkins (Chair)
+  job-title: Sr. SRE/FinOps Architect
+  company: Domo
+  linkedin-url: https://www.linkedin.com/in/riley-jenkins-9884b333/
+  image: riley-jenkins.jpg
+  groups:
+    - TAC
+    - GB
 
-  - name: Melvin Brown
-    job-title: Acting Deputy Chief Information Officer 
-    company: US Government OPM
-    linkedin-url: https://www.linkedin.com/in/melvinbrownii/
-    image: melvin-brown.jpg
+- name: Mike Fuller 
+  job-title: Principal Systems Engineer
+  company: Atlassian
+  linkedin-url: https://www.linkedin.com/in/mikefuller/
+  image: mike-fuller.jpg
+  groups:
+    - TAC
+    - GB
+    - ambassador
 
-  - name: Kim Wier
-    job-title: Director Of Engineering
-    company: Target
-    linkedin-url: https://www.linkedin.com/in/kim-wier-2a31bb3/
-    image: kim-wier.jpg
+- name: Scott Linn
+  job-title: Cloud Services and Optimization Manager 
+  company: Chevron
+  linkedin-url: https://www.linkedin.com/in/scottlinn925/
+  image: scott-linn.jpg
+  groups:
+    - GB
 
-  # - name: William Bryant
-  #   job-title: Internet Services Finance
-  #   company: Apple
-  #   linkedin-url: https://www.linkedin.com/in/wlbjr/
-  #   image: william-bryant.jpg
+- name: Natalie Daley
+  job-title: Director Of Operations for CTO Shared Services and Cloud
+  company: HSBC
+  linkedin-url: https://www.linkedin.com/in/natalie-daley-6b063239/
+  image: natalie-daley.jpg
+  groups:
+    - GB
 
-  - name: John McLoughlin
-    job-title: Head of Product
-    company: CloudHealth by VMware
-    linkedin-url: https://www.linkedin.com/in/jttam/
-    image: john-mcloughlin.jpg
+# - name: Benjamin Coles
+#   job-title: Infrastructure Services & FinOps
+#   company: Apple
+#   linkedin-url: https://www.linkedin.com/in/sj7trunks/
+#   image: benjamin-coles.jpg
 
-  - name: Amitai Rottem
-    job-title: Product Manager
-    company: Google
-    linkedin-url: https://www.linkedin.com/in/amitairottem/
-    image: amitai-rottem.jpg
+- name: Deb MacCallum
+  job-title: Vice President Of Engineering
+  company: CloudHealth by VMware
+  linkedin-url: https://www.linkedin.com/in/debmaccallum/
+  image: deb-maccallum.jpg
+  groups:
+    - GB
 
-  - name: Jeremy Ung
-    job-title: Vice President, Engineering
-    company: Apptio
-    linkedin-url: https://www.linkedin.com/in/jeremyung/
-    image: jeremy-ung.jpg
+- name: Abuna Demoz
+  job-title: Senior Manager, Software Engineering
+  company: Google
+  linkedin-url: https://www.linkedin.com/in/abunademoz/
+  image: abuna-demoz.jpg
+  groups:
+    - GB
 
-  - name: Antoine Lagier
-    job-title: Senior Cloud Consultant
-    company: Timspirit
-    linkedin-url: https://www.linkedin.com/in/alagier/
-    image: antoine-lagier.jpg
+- name: Miles Ward
+  job-title: CTO
+  company: SADA
+  linkedin-url: https://www.linkedin.com/in/milesward/
+  image: miles-ward.jpg
+  groups:
+    - GB
 
-  - name: Rich Hoyer
-    job-title: Director of Customer FinOps
-    company: SADA
-    linkedin-url: https://www.linkedin.com/in/richhoyer/
-    image: rich-hoyer.jpg
-  
+- name: Rakinder Sembhi
+  job-title: Principal
+  company: Deloitte
+  linkedin-url: https://www.linkedin.com/in/rakinder-sembhi-40b384/
+  image: rakinder-sembhi.jpg
+  groups:
+    - GB
 
-- group: GB
-  people:
-  - name: Jennifer Hays (Chair)
-    job-title: Head of Engineering Efficiency & Assurance
-    company: Fidelity Investments
-    linkedin-url: https://www.linkedin.com/in/jennifer-hays-b2b8a550/
-    image: jennifer-hays.jpg
+- name: Mike Eisenstein
+  job-title: Global Cloud Optimization Lead
+  company: Accenture
+  linkedin-url: https://www.linkedin.com/in/mikeeisenstein/
+  image: mike-eisenstein.jpg
+  groups:
+    - GB
 
-  - name: Riley Jenkins (TAC Chair)
-    job-title: Sr. SRE/FinOps Architect
-    company: Domo
-    linkedin-url: https://www.linkedin.com/in/riley-jenkins-9884b333/
-    image: riley-jenkins.jpg
+- name: Michael Kearns
+  job-title: Chief Executive Officer 
+  company: Virtasant
+  linkedin-url: https://www.linkedin.com/in/michaelpkearns/
+  image: michael-kearns.jpg
+  groups:
+    - GB
 
-  - name: Mike Fuller 
-    job-title: Principal Systems Engineer
-    company: Atlassian
-    linkedin-url: https://www.linkedin.com/in/mikefuller/
-    image: mike-fuller.jpg
+- name: Eugene Khvostov
+  job-title: Vice President, Product and Engineering
+  company: Apptio
+  linkedin-url: https://www.linkedin.com/in/eugenekhvostov/
+  image: eugene-khvostov.jpg
+  groups:
+    - GB
 
-  - name: Scott Linn
-    job-title: Cloud Services and Optimization Manager 
-    company: Chevron
-    linkedin-url: https://www.linkedin.com/in/scottlinn925/
-    image: scott-linn.jpg
+- name: Bailey Caldwell
+  job-title: Sr. Solutions leader- Associate Partner
+  company: McKinsey & Company
+  linkedin-url: https://www.linkedin.com/in/baileycaldwell/
+  image: bailey-caldwell.jpg
+  groups:
+    - GB
 
-  - name: Natalie Daley
-    job-title: Director Of Operations for CTO Shared Services and Cloud
-    company: HSBC
-    linkedin-url: https://www.linkedin.com/in/natalie-daley-6b063239/
-    image: natalie-daley.jpg
+- name: Mark Shan
+  job-title: Chair, Tencent Open Source & TARS Foundation
+  company: Tencent
+  linkedin-url: https://www.linkedin.com/in/mark-shan-b7602585/
+  image: mark-shan.jpg
+  groups:
+    - GB
 
-  # - name: Benjamin Coles
-  #   job-title: Infrastructure Services & FinOps
-  #   company: Apple
-  #   linkedin-url: https://www.linkedin.com/in/sj7trunks/
-  #   image: benjamin-coles.jpg
+- name: Fernando Herrera
+  job-title: Chief Executive Officer 
+  company: Nordcloud an IBM company
+  linkedin-url: https://www.linkedin.com/in/feherrera/
+  image: fernando-herrera.jpg
+  groups:
+    - GB
 
-  - name: Deb MacCallum
-    job-title: Vice President Of Engineering
-    company: CloudHealth by VMware
-    linkedin-url: https://www.linkedin.com/in/debmaccallum/
-    image: deb-maccallum.jpg
+- name: Dan Ortman
+  job-title: Director, Cloud FinOps Services
+  company: SoftwareOne
+  linkedin-url: https://www.linkedin.com/in/danortman1/
+  image: dan-ortman.jpg
+  groups:
+    - GB
 
-  - name: Abuna Demoz
-    job-title: Senior Manager, Software Engineering
-    company: Google
-    linkedin-url: https://www.linkedin.com/in/abunademoz/
-    image: abuna-demoz.jpg
+- name: Jon Bock
+  job-title: CMO
+  company: Spot by NetApp
+  linkedin-url: https://www.linkedin.com/in/jobock/
+  image: jon-bock.jpg
+  groups:
+    - GB
 
-  - name: Miles Ward
-    job-title: CTO
-    company: SADA
-    linkedin-url: https://www.linkedin.com/in/milesward/
-    image: miles-ward.jpg
+- name: Lee Ditiangkin
+  job-title: Product Management & Engineering
+  company: IBM
+  linkedin-url: https://www.linkedin.com/in/leeditiangkin/
+  image: lee-ditiangkin.jpeg
+  groups:
+    - GB
 
-  - name: Rakinder Sembhi
-    job-title: Principal
-    company: Deloitte
-    linkedin-url: https://www.linkedin.com/in/rakinder-sembhi-40b384/
-    image: rakinder-sembhi.jpg
+- name: Dhruv Kohli
+  job-title: AVP Ecosystems Strategy & FinOps
+  company: HCL
+  linkedin-url: https://www.linkedin.com/in/dhruv-kohli-a6a0268
+  image: dhruv-kohli.jpg
+  groups:
+    - GB
 
-  - name: Mike Eisenstein
-    job-title: Global Cloud Optimization Lead
-    company: Accenture
-    linkedin-url: https://www.linkedin.com/in/mikeeisenstein/
-    image: mike-eisenstein.jpg
+- name: Brian Adler
+  job-title: Sr. Director, Cloud Market Strategy
+  company: Flexera
+  linkedin-url: https://www.linkedin.com/in/adlerbrian/
+  image: brian-adler.jpg
+  groups:
+    - GB
 
-  - name: Michael Kearns
-    job-title: Chief Executive Officer 
-    company: Virtasant
-    linkedin-url: https://www.linkedin.com/in/michaelpkearns/
-    image: michael-kearns.jpg
+- name: Webb Brown
+  job-title: Co-Founder & CEO
+  company: Kubecost
+  linkedin-url: https://www.linkedin.com/in/webbbrown/
+  image: webb-brown.jpg
+  groups:
+    - GB
 
-  - name: Eugene Khvostov
-    job-title: Vice President, Product and Engineering
-    company: Apptio
-    linkedin-url: https://www.linkedin.com/in/eugenekhvostov/
-    image: eugene-khvostov.jpg
+- name: Sasha Kipervarg
+  job-title: Co-Founder & CEO
+  company: Ternary
+  linkedin-url: https://www.linkedin.com/in/skiper/
+  image: sasha-kipervarg.jpg
+  groups:
+    - GB
 
-  - name: Bailey Caldwell
-    job-title: Sr. Solutions leader- Associate Partner
-    company: McKinsey & Company
-    linkedin-url: https://www.linkedin.com/in/baileycaldwell/
-    image: bailey-caldwell.jpg
+- name: Anders Hagman
+  job-title: Senior Manager, Cloud FinOps & Technology Procurement
+  company: Spotify
+  linkedin-url: https://www.linkedin.com/in/andershagman/
+  image: anders-hagman.jpg
+  groups:
+    - TAC
 
-  - name: Mark Shan
-    job-title: Chair, Tencent Open Source & TARS Foundation
-    company: Tencent
-    linkedin-url: https://www.linkedin.com/in/mark-shan-b7602585/
-    image: mark-shan.jpg
+- name: Melvin Brown
+  job-title: Acting Deputy Chief Information Officer 
+  company: US Government OPM
+  linkedin-url: https://www.linkedin.com/in/melvinbrownii/
+  image: melvin-brown.jpg
+  groups:
+    - TAC
 
-  - name: Fernando Herrera
-    job-title: Chief Executive Officer 
-    company: Nordcloud an IBM company
-    linkedin-url: https://www.linkedin.com/in/feherrera/
-    image: fernando-herrera.jpg
+- name: Kim Wier
+  job-title: Director Of Engineering
+  company: Target
+  linkedin-url: https://www.linkedin.com/in/kim-wier-2a31bb3/
+  image: kim-wier.jpg
+  groups:
+    - TAC
+    - ambassador
 
-  - name: Dan Ortman
-    job-title: Director, Cloud FinOps Services
-    company: SoftwareOne
-    linkedin-url: https://www.linkedin.com/in/danortman1/
-    image: dan-ortman.jpg
+# - name: William Bryant
+#   job-title: Internet Services Finance
+#   company: Apple
+#   linkedin-url: https://www.linkedin.com/in/wlbjr/
+#   image: william-bryant.jpg
 
-  - name: Jon Bock
-    job-title: CMO
-    company: Spot by NetApp
-    linkedin-url: https://www.linkedin.com/in/jobock/
-    image: jon-bock.jpg
+- name: John McLoughlin
+  job-title: Head of Product
+  company: CloudHealth by VMware
+  linkedin-url: https://www.linkedin.com/in/jttam/
+  image: john-mcloughlin.jpg
+  groups:
+    - TAC
 
-  - name: Lee Ditiangkin
-    job-title: Product Management & Engineering
-    company: IBM
-    linkedin-url: https://www.linkedin.com/in/leeditiangkin/
-    image: lee-ditiangkin.jpeg
+- name: Amitai Rottem
+  job-title: Product Manager
+  company: Google
+  linkedin-url: https://www.linkedin.com/in/amitairottem/
+  image: amitai-rottem.jpg
+  groups:
+    - TAC
 
-  - name: Dhruv Kohli
-    job-title: AVP Ecosystems Strategy & FinOps
-    company: HCL
-    linkedin-url: https://www.linkedin.com/in/dhruv-kohli-a6a0268
-    image: dhruv-kohli.jpg
+- name: Jeremy Ung
+  job-title: Vice President, Engineering
+  company: Apptio
+  linkedin-url: https://www.linkedin.com/in/jeremyung/
+  image: jeremy-ung.jpg
+  groups:
+    - TAC
 
-  - name: Brian Adler
-    job-title: Sr. Director, Cloud Market Strategy
-    company: Flexera
-    linkedin-url: https://www.linkedin.com/in/adlerbrian/
-    image: brian-adler.jpg
+- name: Antoine Lagier
+  job-title: Senior Cloud Consultant
+  company: Timspirit
+  linkedin-url: https://www.linkedin.com/in/alagier/
+  image: antoine-lagier.jpg
+  groups:
+    - TAC
 
-  - name: Webb Brown
-    job-title: Co-Founder & CEO
-    company: Kubecost
-    linkedin-url: https://www.linkedin.com/in/webbbrown/
-    image: webb-brown.jpg
+- name: Rich Hoyer
+  job-title: Director of Customer FinOps
+  company: SADA
+  linkedin-url: https://www.linkedin.com/in/richhoyer/
+  image: rich-hoyer.jpg
+  groups:
+    - TAC
 
-  - name: Sasha Kipervarg
-    job-title: Co-Founder & CEO
-    company: Ternary
-    linkedin-url: https://www.linkedin.com/in/skiper/
-    image: sasha-kipervarg.jpg
+- name: Daniel Silva
+  job-title: Senior Cloud Solution Architect
+  company: NOS
+  linkedin-url: https://www.linkedin.com/in/daniel-silva-1b71071ba/
+  image: daniel-silva.jpg
+  groups:
+    - ambassador
 
-- group: F2
-  people:
-  - name: J.R. Storment
-    job-title: Executive Director
-    linkedin-url: https://www.linkedin.com/in/jrstorment/
-    image: https://media-exp1.licdn.com/dms/image/C4E03AQEMbsUL50U9nQ/profile-displayphoto-shrink_400_400/0/1559583831098?e=1639612800&v=beta&t=VLPyBWBTwid5FU6HCVKpigpgaFlbDLVld3r402S_Z0w
+- name: Dann Berg
+  job-title: Senior CloudOps Analyst
+  company: Datadog
+  linkedin-url: https://www.linkedin.com/in/dannberg/
+  image: dann-berg.jpg
+  groups:
+    - ambassador
 
-  - name: Stacy Case
-    job-title: Training & Operations
-    linkedin-url: https://www.linkedin.com/in/stacy-case/
-    image: https://media-exp1.licdn.com/dms/image/C5603AQHx4F2qnCwuFA/profile-displayphoto-shrink_400_400/0/1604952855897?e=1639612800&v=beta&t=i6PMHwrQ1byRGy6N_1R0Ub4EBvcQvOc4uTqVOowgrH4
+- name: Deana Solis
+  job-title: Sr FinOps Engineer
+  company: Smarsh
+  linkedin-url: https://www.linkedin.com/in/solisdeana/
+  image: deana-solis.jpg
+  groups:
+    - ambassador
 
-  - name: Rob Martin
-    job-title: Learning & Curriculums
-    linkedin-url: https://www.linkedin.com/in/robmartin3/
-    image: https://media-exp1.licdn.com/dms/image/C5603AQGWYn4UzioVaw/profile-displayphoto-shrink_400_400/0/1516351880142?e=1639612800&v=beta&t=iIZhwzkYs_E967K5qTMSpUb5tIU6hJ43sJ6Y0WFBzfo
+- name: Dieter Matzion
+  job-title: Director of Business Operations
+  company: Roku Inc.
+  linkedin-url: https://www.linkedin.com/in/matzion/
+  image: dieter-matzion.jpg
+  groups:
+    - ambassador
 
-  - name: Vasilio Markanastasakis
-    job-title: Framework & Standards
-    linkedin-url: https://www.linkedin.com/in/vasilio/
-    image: https://media-exp1.licdn.com/dms/image/C5603AQHs14mCs2axpA/profile-displayphoto-shrink_400_400/0/1552674273685?e=1639612800&v=beta&t=yGL_NbrpMQq0PyyF_tfPwkeCjZo-m-wL1nwOntr09Wk
+- name: Eric Mulartrick
+  job-title: FinOps Lead
+  company: Boomi
+  linkedin-url: https://www.linkedin.com/in/eric-mulartrick-mba-1a24744/
+  image: eric-mulartrick.jpg
+  groups:
+    - ambassador
 
-  - name: Kevin Emamy
-    job-title: Vendors & Partners
-    linkedin-url: https://www.linkedin.com/in/kevinemamy/
-    image: https://media-exp1.licdn.com/dms/image/C5103AQFxm_c21rpndg/profile-displayphoto-shrink_400_400/0/1516287422030?e=1639612800&v=beta&t=kGiL15chElDOU9sA2x6fXoIEEJjO-Ctr1IE3W5PtZ2s
+- name: Josh Bauman
+  job-title: Director of Business Operations
+  company: Electronic Arts
+  linkedin-url: https://www.linkedin.com/in/joshbauman
+  image: josh-bauman.jpg
+  groups:
+    - ambassador
 
-  - name: Steve Trask
-    job-title: Digital & Growth
-    linkedin-url: https://www.linkedin.com/in/steventrask/
-    image: https://media-exp1.licdn.com/dms/image/C5103AQFpgMznhuUibA/profile-displayphoto-shrink_400_400/0/1517340701252?e=1639612800&v=beta&t=psPz9kMdwPiRKR-p8ZfHZ_42f-m8SIFHZWoWuCKsae8
+- name: Michele Alessandrini
+  job-title: Head of Cloud Adoption and Governance
+  company: YOOX Net-a-Porter Group
+  linkedin-url: https://www.linkedin.com/in/michelealessandrini/
+  image: michele-alessandrini.jpg
+  groups:
+    - ambassador
 
-- group: ambassadors
-  people:
-  - name: Daniel Silva
-    job-title: Senior Cloud Solution Architect
-    company: NOS
-    linkedin-url: https://www.linkedin.com/in/daniel-silva-1b71071ba/
-    image: daniel-silva.jpg
+- name: Michelle Cleland
+  job-title: SnR Programme Manager
+  company: Hongkong Jockey Club (HKJC)
+  linkedin-url: https://www.linkedin.com/in/michelle-cleland
+  image: michelle-cleland.jpg
+  groups:
+    - ambassador
 
-  - name: Dann Berg
-    job-title: Senior CloudOps Analyst
-    company: Datadog
-    linkedin-url: https://www.linkedin.com/in/dannberg/
-    image: dann-berg.jpg
+- name: Michelle Dupuis
+  job-title: Cloud FinOps Operational Engineer
+  company: EBSCO Information Services
+  linkedin-url: https://www.linkedin.com/in/michelle-dupuis-37490a3/
+  image: michelle-dupuis.jpg
+  groups:
+    - ambassador
 
-  - name: Deana Solis
-    job-title: Sr FinOps Engineer
-    company: Smarsh
-    linkedin-url: https://www.linkedin.com/in/solisdeana/
-    image: deana-solis.jpg
+- name: Noel Crowley
+  job-title: Director of Cloud FinOps
+  company: Fidelity Investments
+  linkedin-url: https://www.linkedin.com/in/noelcrowley/
+  image: noel-crowley.jpg
+  groups:
+    - ambassador
 
-  - name: Dieter Matzion
-    job-title: Director of Business Operations
-    company: Roku Inc.
-    linkedin-url: https://www.linkedin.com/in/matzion/
-    image: dieter-matzion.jpg
+- name: Parker Nancollas
+  job-title: Cloud Business Analyst
+  company: The Church of Jesus Christ of Latter-Day Saints
+  linkedin-url: https://www.linkedin.com/in/parkernancollas/
+  image: parker-nancollas.jpg
+  groups:
+    - ambassador
 
-  - name: Eric Mulartrick
-    job-title: FinOps Lead
-    company: Boomi
-    linkedin-url: https://www.linkedin.com/in/eric-mulartrick-mba-1a24744/
-    image: eric-mulartrick.jpg
+- name: Scott Linn
+  job-title: Cloud Services and Optimization Manager
+  company: Chevron
+  linkedin-url: https://www.linkedin.com/in/scott-linn-416b24a
+  image: scott-linn.jpg
+  groups:
+    - ambassador
 
-  - name: Josh Bauman
-    job-title: Director of Business Operations
-    company: Electronic Arts
-    linkedin-url: https://www.linkedin.com/in/joshbauman
-    image: josh-bauman.jpg
+- name: Vik Saluja
+  job-title: FinOps and Compliance Manager
+  company: Cigna
+  linkedin-url: https://linkedin.com/in/viksaluja
+  image: vik-saluja.jpg
+  groups:
+    - ambassador
 
-  - name: Kim Wier
-    job-title: Director of Engineering
-    company: Target Corporation
-    linkedin-url: https://www.linkedin.com/in/kim-wier-2a31bb3/
-    image: kim-wier.jpg
+- name: Bindu Sharma
+  job-title: Manager, Cloud Financial Management and Governance
+  company: FireEye
+  linkedin-url: https://www.linkedin.com/in/bindu-sharma-b8883/
+  image: bindu-sharma.jpg
+  groups:
+    - ambassador
 
-  - name: Michele Alessandrini
-    job-title: Head of Cloud Adoption and Governance
-    company: YOOX Net-a-Porter Group
-    linkedin-url: https://www.linkedin.com/in/michelealessandrini/
-    image: michele-alessandrini.jpg
+- name: Angel Alves
+  job-title: Cloud FinOps, Snr Manager
+  company: Saint-Gobain
+  linkedin-url: https://www.linkedin.com/in/bindu-sharma-b8883/
+  image: angel-alves.jpg
+  groups:
+    - ambassador
 
-  - name: Michelle Cleland
-    job-title: SnR Programme Manager
-    company: Hongkong Jockey Club (HKJC)
-    linkedin-url: https://www.linkedin.com/in/michelle-cleland
-    image: michelle-cleland.jpg
+- name: Alice Nazarov
+  job-title: FinOps Engineer
+  company: ironSource
+  linkedin-url: https://www.linkedin.com/in/alice-nazarov-898a387/
+  image: alice-nazarov.jpg
+  groups:
+    - ambassador
 
-  - name: Michelle Dupuis
-    job-title: Cloud FinOps Operational Engineer
-    company: EBSCO Information Services
-    linkedin-url: https://www.linkedin.com/in/michelle-dupuis-37490a3/
-    image: michelle-dupuis.jpg
+- name: Wuming Zhang
+  job-title: Cloud Architect
+  company: Helvetia Versicherungen Schweiz
+  linkedin-url: https://www.linkedin.com/in/wuming/
+  image: wuming-zhang.jpg
+  groups:
+    - ambassador
 
-  - name: Mike Fuller
-    job-title: Principal Systems Engineer
-    company: Atlassian
-    linkedin-url: https://www.linkedin.com/in/mikefuller/
-    image: mike-fuller.jpg
+- name: Vijaya Karthvaya Kudithipudi
+  job-title: Cloud FinOps Leader
+  company: Nokia
+  linkedin-url: https://www.linkedin.com/in/vijaykarthavya/
+  image: vijaya-karthvaya-kudithipudi.jpg
+  groups:
+    - ambassador
 
-  - name: Noel Crowley
-    job-title: Director of Cloud FinOps
-    company: Fidelity Investments
-    linkedin-url: https://www.linkedin.com/in/noelcrowley/
-    image: noel-crowley.jpg
+- name: William Ospina
+  job-title: Global SRE Architect
+  company: Holcim
+  linkedin-url: https://www.linkedin.com/in/williamospina/
+  image: william-ospina.jpg
+  groups:
+    - ambassador
 
-  - name: Parker Nancollas
-    job-title: Cloud Business Analyst
-    company: The Church of Jesus Christ of Latter-Day Saints
-    linkedin-url: https://www.linkedin.com/in/parkernancollas/
-    image: parker-nancollas.jpg
+- name: Thiago Gil 
+  job-title: Senior Cloud Architect - Public Sector
+  company: Golden Solutions
+  linkedin-url: https://www.linkedin.com/in/thiago-bittencourt-gil/
+  image: thiago-gil.jpg
+  groups:
+    - ambassador
 
-  - name: Scott Linn
-    job-title: Cloud Services and Optimization Manager
-    company: Chevron
-    linkedin-url: https://www.linkedin.com/in/scott-linn-416b24a
-    image: scott-linn.jpg
+- name: Courtney Bormann
+  job-title: Senior Manager, Cloud Enablement
+  company: General Mills
+  linkedin-url: https://www.linkedin.com/in/courtney-bormann/
+  image: courtney-bormann.jpg
+  groups:
+    - ambassador
 
-  - name: Vik Saluja
-    job-title: FinOps and Compliance Manager
-    company: Cigna
-    linkedin-url: https://linkedin.com/in/viksaluja
-    image: vik-saluja.jpg
+- name: J.R. Storment
+  job-title: Executive Director
+  linkedin-url: https://www.linkedin.com/in/jrstorment/
+  image: jr.jpg
+  groups:
+    - staff
 
-  - name: Bindu Sharma
-    job-title: Manager, Cloud Financial Management and Governance
-    company: FireEye
-    linkedin-url: https://www.linkedin.com/in/bindu-sharma-b8883/
-    image: bindu-sharma.jpg
+- name: Stacy Case
+  job-title: Director Of Professional Development
+  linkedin-url: https://www.linkedin.com/in/stacy-case/
+  image: stacy.jpg
+  groups:
+    - staff
 
-  - name: Angel Alves
-    job-title: Cloud FinOps, Snr Manager
-    company: Saint-Gobain
-    linkedin-url: https://www.linkedin.com/in/bindu-sharma-b8883/
-    image: angel-alves.jpg
+- name: Rob Martin
+  job-title: Director of Learning
+  linkedin-url: https://www.linkedin.com/in/robmartin3/
+  image: rob.jpg
+  groups:
+    - staff
 
-  - name: Alice Nazarov
-    job-title: FinOps Engineer
-    company: ironSource
-    linkedin-url: https://www.linkedin.com/in/alice-nazarov-898a387/
-    image: alice-nazarov.jpg
+- name: Vasilio Markanastasakis
+  job-title: Framework & Standards
+  linkedin-url: https://www.linkedin.com/in/vasilio/
+  image: vas.jpg
+  groups:
+    - staff
 
-  - name: Wuming Zhang
-    job-title: Cloud Architect
-    company: Helvetia Versicherungen Schweiz
-    linkedin-url: https://www.linkedin.com/in/wuming/
-    image: wuming-zhang.jpg
+- name: Kevin Emamy
+  job-title: Vendors & Partners
+  linkedin-url: https://www.linkedin.com/in/kevinemamy/
+  image: kevin.jpg
+  groups:
+    - staff
 
-  - name: Vijaya Karthvaya Kudithipudi
-    job-title: Cloud FinOps Leader
-    company: Nokia
-    linkedin-url: https://www.linkedin.com/in/vijaykarthavya/
-    image: vijaya-karthvaya-kudithipudi.jpg
+- name: Steve Trask
+  job-title: VP, Marketing
+  linkedin-url: https://www.linkedin.com/in/steventrask/
+  image: steve.jpg
+  groups:
+    - staff
 
-  - name: William Ospina
-    job-title: Global SRE Architect
-    company: Holcim
-    linkedin-url: https://www.linkedin.com/in/williamospina/
-    image: william-ospina.jpg
+- name: Joe Daly
+  job-title: Director of Community
+  linkedin-url: https://www.linkedin.com/in/joseph-daly-52789220/
+  image: joe.jpg
+  groups:
+    - staff
 
-  - name: Thiago Gil 
-    job-title: Senior Cloud Architect - Public Sector
-    company: Golden Solutions
-    linkedin-url: https://www.linkedin.com/in/thiago-bittencourt-gil/
-    image: thiago-gil.jpg
+- name: Ashley Hromatko
+  job-title: Director Business Operations
+  linkedin-url: https://www.linkedin.com/in/ashley-hromatko-1b532613/
+  image: ashley.jpg
+  groups:
+    - staff
 
-  - name: Courtney Bormann
-    job-title: Senior Manager, Cloud Enablement
-    company: General Mills
-    linkedin-url: https://www.linkedin.com/in/courtney-bormann/
-    image: courtney-bormann.jpg
+- name: Ben de Mora
+  job-title: FinOps Engineering Director
+  linkedin-url: https://www.linkedin.com/in/bendemora/
+  image: ben.jpg
+  groups:
+    - staff
+
+- name: Natalie Bergman
+  job-title: Instructional Designer
+  linkedin-url: https://www.linkedin.com/in/natalie-bergman/
+  image: natalie.jpg
+  groups:
+    - staff
+
+- name: Tom Sharpe
+  job-title: Lead Graphic Designer
+  linkedin-url: https://www.linkedin.com/in/sharpenson/
+  image: tom.jpg
+  groups:
+    - staff
+
+- name: Suha Shim
+  job-title: Senior Marketing Manager
+  linkedin-url: https://www.linkedin.com/in/suha-shim/
+  image: suha.jpg
+  groups:
+    - staff
+
+- name: Andrew Nhem
+  job-title: Principal Content Strategist
+  linkedin-url: https://www.linkedin.com/in/andrewnhem/
+  image: andrew.jpg
+  groups:
+    - staff
