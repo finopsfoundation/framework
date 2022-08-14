@@ -85,6 +85,20 @@ framework-capabilities:
   <li>Rich Hoyer</li>
 </ul>
 
-<h3>Get involved</h3>
-
-<p>If you'd like to add a waste or efficiency card, please feel free to suggest a contribution to this page using the link below or above.</p>
+<div class="flex md:flex-row flex-wrap items-stretch p-4 rounded-md mt-4">
+{% for person in site.data.people %}
+  {% if person.groups contains 'ambassador' %}
+     <div class="w-1/2 md:w-1/3 p-2 flex">
+      <div class="flex bg-gray-100 w-full items-stretch p-4 rounded-lg shadow-sm border-solid border-gray-200 border hover:-translate-y-1 hover:shadow-lg transition transform duration-500 hover:border-green-500">
+        <div>
+          <img src="/img/people/ambassadors/{{ person.image }}" alt="{{ person.name }}" width="75" class="rounded-full inline-block mr-4" />
+        </div>
+        <div class="flex-grow">
+          <h3 class="mb-1 my-2 leading-tight">{{ person.name }}</h3>
+          <a href="{{ person.linkedin-url }}" class="text-sm text-green-500 hover:text-green-600 transition-colors duration-200">Linkedin Profile</a>
+        </div>
+      </div>
+    </div>
+  {% endif %}
+{% endfor %}
+</div>
