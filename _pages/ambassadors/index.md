@@ -39,9 +39,8 @@ The FinOps Ambassador program exists to empower community members with tools and
 ## Meet Our Ambassadors
 
 <div id="ambassadors" class="flex md:flex-row flex-wrap items-stretch p-4 rounded-md mt-4">
-{% for item in site.data.people %}
-  {% if item.group == 'ambassadors' %}
-     {% for person in item.people %}
+{% for person in site.data.people %}
+  {% if person.groups contains 'ambassador' %}
      <div class="w-1/2 md:w-1/3 p-2 flex">
       <div class="flex flex-col bg-gray-100 w-full items-stretch text-center p-2 rounded-lg shadow-sm border-solid border-gray-200 border hover:-translate-y-1 hover:shadow-lg transition transform duration-500 hover:border-green-500">
         <div>
@@ -54,7 +53,6 @@ The FinOps Ambassador program exists to empower community members with tools and
         <a href="{{ person.linkedin-url }}" class="text-sm text-green-500 hover:text-green-600 transition-colors duration-200">Linkedin Profile</a>
       </div>
     </div>
-     {% endfor %}
   {% endif %}
 {% endfor %}
 </div>
