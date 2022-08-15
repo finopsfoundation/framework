@@ -184,6 +184,30 @@
   groups:
     - GB
 
+- name: Andrew Feig 
+  job-title: Managing Director, EECT - Cloud Engineering Center of Excellence
+  company: JPMorgan Chase
+  linkedin-url: https://www.linkedin.com/in/afeig/
+  image: andrew-feig.jpg
+  groups:
+    - GB
+
+- name: Zachary Stitham
+  job-title: VP - Cloud Business Management Office
+  company: Fidelity Investment
+  linkedin-url: https://www.linkedin.com/in/zachary-stitham-2a17b911/
+  image: zachary-stitham.jpg
+  groups:
+    - GB
+
+- name: Keith Austin
+  job-title: Associate Director - Cloud Services
+  company: AIA
+  linkedin-url: https://www.linkedin.com/in/keithgaustin/
+  image: keith-austin.jpg
+  groups:
+    - GB
+
 - name: Anders Hagman
   job-title: Senior Manager, Cloud FinOps & Technology Procurement
   company: Spotify
