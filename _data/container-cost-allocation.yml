@@ -141,7 +141,7 @@
   story-url: 
 
 - label-name: call-for-contribution
-  label-definition: What kind of container labeling helps add information and context for run-stage executives? Contribute it here!
+  label-definition: What kind of container labeling helps add information and context for walk-stage executives? Contribute it here!
   context: Business organization
   common-resources: namespace, pod, deployment
   label-alias: TBD
