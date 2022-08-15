@@ -139,3 +139,29 @@
   related-url: 
   code-url: https://github.com/finopsfoundation/sig-containers/blob/main/wg-container-cost-allocation/label-schemas/deployment-run.yaml
   story-url: 
+
+- label-name: call-for-contribution
+  label-definition: What kind of container labeling helps add information and context for run-stage executives? Contribute it here!
+  context: Business organization
+  common-resources: namespace, pod, deployment
+  label-alias: TBD
+  example: TBD
+  personas:
+    - executive
+  maturity: walk
+  related-url: 
+  code-url: 
+  story-url: 
+
+- label-name: call-for-contribution
+  label-definition: What kind of container labeling helps add information and context for run-stage executives? Contribute it here!
+  context: Business organization
+  common-resources: namespace, pod, deployment
+  label-alias: TBD
+  example: TBD
+  personas:
+    - executive
+  maturity: run
+  related-url: 
+  code-url: 
+  story-url: 
