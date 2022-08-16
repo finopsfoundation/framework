@@ -93,7 +93,9 @@ if(document.getElementById('event-hits')) {
 
 }
 
-// Main Site search
+// Main Site search  js-search
+
+
 if(document.getElementById('site-search')) {
 
   const search = instantsearch({
@@ -195,7 +197,7 @@ if(document.getElementById('site-search')) {
 
   search.start();
 
-}
+};
 
 // Resource Library Page
 if(document.getElementById('resource-hits')) {
