@@ -24,7 +24,7 @@ framework-capabilities:
 ## Introduction
 
 Our Container Cost Allocation project focuses on creating guidance and best practices to practitioners around allocating cost of containers. 
-Our project provides suggested container labels that are ready to use and can be combined into useful schemas. We also want this resource to encourage community debate about container cost allocation labeling, schemas, and best practices, inspiring contribution and future improvements.
+This first output provides suggested container labels that are ready to use and can be combined into useful schemas. We also want this resource to encourage community debate about container cost allocation labeling, schemas, and best practices, inspiring contribution and future improvements.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/q0iuFU7qh8M?start=3868" title="YouTube video player" frameborder="0" allow="accelerometer;  clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 *We debuted this project as part of the March 2022 FinOps Summit.*
@@ -33,7 +33,7 @@ Our group decided to transform the most important parts of that presentation int
 
 ## How to use this resource
 
-Use this dictionary to learn common container labeling that the Working Group (WG) has sourced from community contributions. Use combinations of these dictionary cards to build out schemas, and to learn of possible mapping variants via "Label alias", where similarly named labels might have similar purposes to one distinct label.
+Use this interactive dictionary to learn common container labeling that the Working Group (WG) has sourced from community contributions. Use combinations of these dictionary cards to build out schemas, and to learn of possible mapping variants via "Label alias", where similarly named labels might have similar purposes to one distinct label.
 
 * **Click each filter** to sort cards by the parameters that you choose.
 * **Unclick filters** to change how you're sorting the cards, e.g. unclicking the *crawl* parameter will remove the filter seeking cards with the *crawl* label.
@@ -99,9 +99,9 @@ FinOps practitioners can contribute in two ways. This collection of cards is mai
 
 **In short:**
 * Contributing to [this repo](https://github.com/finopsfoundation/framework) edits the website content (the above cards)
-* Contributing to [this repo](https://github.com/finopsfoundation/sig-containers) edits code examples and raw Working Group content
+* Contributing to [this repo](https://github.com/finopsfoundation/sig-containers) edits source code examples and raw Working Group content
 
-It can get a little complicated with regards to how we manage the site data. Feel free to fill out issues to communicate your recommendations or <a href="javascript:void(0);" onclick="modalToggle('modal-contribute')">Make a Suggestion</a> to suggest edits to the site.
+We apologize for this temporary complication as the FinOps Foundation team improves contribution processes. Feel free to fill out issues to communicate your recommendations or <a href="javascript:void(0);" onclick="modalToggle('modal-contribute')">Make a Suggestion</a> to suggest edits to the site.
 
 You can also get in touch with our WG via [Community Slack channel](https://finopsfoundation.slack.com/archives/C0180PC67T2) if you have more questions or want to contribute, or add Issues on the [Working Group's GitHub repo](https://github.com/finopsfoundation/sig-containers).
 
@@ -118,24 +118,6 @@ Get in touch with our WG via [Community Slack channel](https://finopsfoundation.
 **Not a member yet?** [Request access](http://finops.org/membership/) and join the community!
 
 ## Thank you to all of our Project contributors
-<p>We're grateful for all of the work, time, and effort from the following FinOps practitioners (in alphabetical order):</p>
-<ul>
-<li>Bala Kaliamurthy</li>
-<li>Dan Casson</li>
-<li>David Sterz</li>
-<li>Erik Peterson</li>
-<li>Hannah Raikes</li>
-<li>Jonathan Morin</li>
-<li>Kevin Mueller</li>
-<li>Laila Majidi</li>
-<li>Noah Abrahamas</li>
-<li>Pavan Chavva</li>
-<li>Roi Rav-Hon</li>
-<li>Sean Pomeroy</li>
-<li>Stephen Arthur</li>
-<li>Stuart Davidson</li>
-<li>Youssef Ibrahim</li>
-</ul>
 
 <div class="flex md:flex-row flex-wrap items-stretch p-4 rounded-md mt-4">
 {% for person in site.data.people %}
