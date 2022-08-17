@@ -611,7 +611,7 @@
 - name: Hrishikesh Sardar
   company: Kyndryl
   linkedin-url: https://www.linkedin.com/in/hrishikesh-sardar-181a4a42/
-  image: hrishikesh-sardar.jpeg
+  image: hrishikesh-sardar.jpg
   groups:
     - unit-economics
 
@@ -625,7 +625,7 @@
 - name: Ajay Sharma
   company: Episource
   linkedin-url: https://www.linkedin.com/in/cloudkubernetesterraform/
-  image: ajay-sharma.jpeg
+  image: ajay-sharma.jfif
   groups:
     - unit-economics
 
@@ -682,7 +682,7 @@
 - name: Carmen May
   company: Southwest Airlines
   linkedin-url: 
-  image: carmen-may.jpeg
+  image: generic.png
   groups:
     - unit-economics
 
@@ -717,7 +717,7 @@
 - name: Walter Flores Mena
   company: SoftwareONE
   linkedin-url: https://www.linkedin.com/in/walter-flores-mena-13455a121/
-  image: walter-flores-mena.jpeg
+  image: walter-flores-mena.jfif
   groups:
     - unit-economics
 
@@ -739,6 +739,13 @@
   company: Droptek
   linkedin-url: https://www.linkedin.com/in/vstanimirovic/
   image: vladimir-stanimirovic.jpeg
+  groups:
+    - unit-economics
+
+- name: Kevin Mueller
+  company: CloudZero
+  linkedin-url: https://www.linkedin.com/in/kevinmueller/
+  image: kevin-mueller.jpeg
   groups:
     - unit-economics
 
