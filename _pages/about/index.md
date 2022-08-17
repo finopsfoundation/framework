@@ -11,14 +11,13 @@ description: The FinOps Foundation is a non-profit trade association made up of 
 
 # About The FinOps Foundation
 
-The FinOps Foundation is a program of the [The Linux Foundation](http://linuxfoundation.org) (alongside organizations like [Cloud Native Computing Foundation](http://cncf.io)) dedicated to advancing people who practice the discipline of cloud financial management through best practices, education and standards. The FinOps Foundation includes 5300+ individual members, representing more than 1500 companies. It provides a variety of training and certification programs including the [FinOps Certified Practitioner](https://learn.finops.org/) designation. It counts dozens of major service and platform providers as part of our vendor certification programs such as [FinOps Certified Platform](/members/vendor-certification/) and [FinOps Certified Service Provider](/members/vendor-certification/) programs.
+The FinOps Foundation is a program of the [The Linux Foundation](http://linuxfoundation.org) (alongside organizations like [Cloud Native Computing Foundation](http://cncf.io)) dedicated to advancing people who practice the discipline of cloud financial management through best practices, education and standards. The FinOps Foundation includes 7300+ individual members, representing more than 2500+ companies. It provides a variety of training and certification programs including the [FinOps Certified Practitioner](https://learn.finops.org/) designation. It counts dozens of major service and platform providers as part of our vendor certification programs such as [FinOps Certified Platform](/members/vendor-certification/) and [FinOps Certified Service Provider](/members/vendor-certification/) programs.
 
-- Mission
-- Structure
-- Technical Advisory Council
-- Governing Board
-- Staff
-- FAQs
+<p class="mt-8"><a href="/about/governing-board" class="badge-dgrey inline-flex items-center px-4 py-2"><span>Governing Board</span> <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-px" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" /></svg></a>
+
+<a href="/about/technical-advisory-council/" class="badge-dgrey inline-flex items-center px-4 py-2"><span>Technical Advisory Council</span> <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-px" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" /></svg></a>
+
+<a href="/about/staff/" class="badge-dgrey inline-flex items-center px-4 py-2"><span>Foundation Staff</span> <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-px" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" /></svg></a></p>
 
 ## Mission of the FinOps Foundation
 
@@ -37,93 +36,6 @@ We are here to advance the people who do cloud financial management:
 The FinOps Foundation includes a Governing Board and Technical Advisory Board, as well as a variety of committees such as education.
 
 ![](/img/pages/about.png?2)
-
-## Technical Advisory Council (TAC)
-
-The FinOps TAC is the technical governing body of the FinOps Foundation which oversees open source standards, best practices, curriculum and technical vision of the FinOps Foundation. TAC outputs are committed into an open source ecosystem to become standardized best practices.
-
-10 Seats Initially - Mix of Practitioners, GB Appointed, and Premier Members
-
-<div class="flex md:flex-row flex-wrap items-stretch p-4 rounded-md mt-4">
-{% for item in site.data.people %}
-  {% if item.group == 'TAC' %}
-     {% for person in item.people %}
-     <div class="w-1/2 md:w-1/3 p-2 flex">
-      <div class="flex flex-col bg-gray-100 w-full items-stretch text-center p-2 rounded-lg shadow-sm border-solid border-gray-200 border hover:-translate-y-1 hover:shadow-lg transition transform duration-500 hover:border-green-500">
-        <div>
-          <img src="/img/people/{{ person.image }}" alt="{{ person.name }}" width="150" class="rounded-full inline-block" />
-        </div>
-        <div class="flex-grow">
-          <h3 class="mb-1 mt-2">{{ person.name }}</h3>
-          <p class="px-2 mb-1 leading-snug">{{ person.job-title }} at {{ person.company }}</p>
-        </div>
-        <a href="{{ person.linkedin-url }}" class="text-sm text-green-500 hover:text-green-600 transition-colors duration-200">Linkedin Profile</a>
-      </div>
-    </div>
-     {% endfor %}
-  {% endif %}
-{% endfor %}
-</div>
-
-As defined by the Technical Charter, The Technical Advisory Council (the "TAC") will have ten members determined as follows:
-
-* three individuals selected by vote of the Governing Board of the FinOps Foundation Fund, a directed fund of the Linux Foundation (the “Directed Fund”);
-* up to three seats for Premier Members of the Directed Fund, with each Premier Member having the right to appoint a representative to the TAC until such point in time as there are more than three Premier Members of the Directed Fund, after which the Premier Members will nominate and elect among themselves three members of the TAC;
-* three individuals that are FinOps Practitioners, as defined in the funding charter of the Directed Fund, selected or elected via a method to be determined by the Governing Board.
-* the remaining number of seats to be filled in a manner as determined by the TAC.
-
-## Governing Board
-
-The FinOps Governing Board and Directed Fund supports the Technical Advisory Council and Practitioner community. It is made up of industry professional practitioners, vendors and cloud providers.
-
-The GB currently consists of these representatives:
-
-<div class="flex md:flex-row flex-wrap items-stretch p-4 rounded-md mt-4">
-{% for item in site.data.people %}
-  {% if item.group == 'GB' %}
-     {% for person in item.people %}
-     <div class="w-1/2 md:w-1/3 p-2 flex">
-      <div class="flex flex-col bg-gray-100 w-full items-stretch text-center p-2 rounded-lg shadow-sm border-solid border-gray-200 border hover:-translate-y-1 hover:shadow-lg transition transform duration-500 hover:border-green-500">
-        <div>
-          <img src="/img/people/{{ person.image }}" alt="{{ person.name }}" width="150" class="rounded-full inline-block" />
-        </div>
-        <div class="flex-grow">
-          <h3 class="mb-1 mt-2">{{ person.name }}</h3>
-          <p class="px-2 mb-1 leading-snug">{{ person.job-title }} at {{ person.company }}</p>
-        </div>
-        <a href="{{ person.linkedin-url }}" class="text-sm text-green-500 hover:text-green-600 transition-colors duration-200">Linkedin Profile</a>
-      </div>
-    </div>
-     {% endfor %}
-  {% endif %}
-{% endfor %}
-</div>
-
-As defined by the FinOps Foundation Participation Agreement, the Governing Board voting members will consist of:
-
-- Individuals that are FinOps practitioners (not associated with cloud vendors)
-- The chair of the technical advisory council (the TAC)
-- One representative appointed by each Premier Member
-- Elected General Member representatives (one seat for for every 10 members)
-- The Executive Director
-
-Those on the Governing Board have no vote on the TAC and vice versa, with the exception of the TAC Chairperson who sits on both boards.
-
-## FinOps Foundation Staff
-
-- J.R. Storment, Executive Director
-- Stacy Case, Director of Operations
-- Rob Martin, Director of Learning
-- Andrew Nhem, Content Strategist
-- Kevin Emamy, Vendor Partner Advisor
-- Vas Markanastasakis, Principal, FinOps Practice Management
-- Steve Trask, Vice President of Marketing
-- Joe Daly, Director of Community
-- Ashley Hromatko, Director of Operations
-- Ben de Mora, Enterprise FinOps Director
-- Tom Sharpe, Graphic and Brand Designer 
-- Natalie Bergman, Instructional Designer
-- Suha Shim, Senior Marketing Manager
 
 ## FAQs
 

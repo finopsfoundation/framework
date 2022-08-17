@@ -54,13 +54,10 @@ document.addEventListener('DOMContentLoaded', function() {
 
 // Search content
 $(function(){
-  $('#js-search').click(function(){
+  $('#site-search .ais-SearchBox-input').on('focus blur', function(){
     $("#js-search-content").slideToggle( "slow", function() {
     // Animation complete.
     });
-    // $("#js-menu-inner").animate({
-    //     opacity: "toggle"
-    // }, "fast");
   });
 });
 
