@@ -125,7 +125,7 @@ Get in touch with our WG via [Community Slack channel](https://finopsfoundation.
      <div class="w-1/2 md:w-1/3 p-2 flex">
       <a href="{{ person.linkedin-url }}" class="flex bg-gray-100 w-full items-stretch p-4 rounded-lg shadow-sm border-solid border-gray-200 border hover:-translate-y-1 hover:shadow-lg transition transform duration-500 hover:border-green-500">
           <div>
-            <img src="/img/people/ambassadors/{{ person.image }}" alt="{{ person.name }}" width="50" class="rounded-full inline-block" />
+            <img src="/img/people/{{ person.image }}" alt="{{ person.name }}" width="50" class="rounded-full inline-block" />
           </div>
           <div class="flex-grow pl-4">
             <h5 class="mt-2 mb-1 leading-tight font-bold">{{ person.name }}</h5>
