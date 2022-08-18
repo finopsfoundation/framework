@@ -23,9 +23,9 @@ framework-capabilities:
 ---
 
 # Managing Data Efficiency Playbook by Project N
-_author: [Jason Nadeau](https://www.linkedin.com/in/jasonrnadeau/)_ |
+_author: [Jason Nadeau](https://www.linkedin.com/in/jasonrnadeau/)( [Project N](https://finops.projectn.co/))_ |
 _published on: June 17, 2022_ |
-_last updated: June 17,  2022_
+_last updated: August 17,  2022_
 
 _Jason is a FinOps-certified Practitioner, and his company helps organizations achieve much higher levels of data efficiency and thus save significantly on their cloud infrastructure costs._
 

@@ -118,7 +118,9 @@ Measures of success are represented in the context of cloud costs and may includ
 
 
 <!-- ####### Real World Resources ####### -->
-## Real World Resources
+
+{% include story-loop.md %}
+
 
 | An excerpt from a FinOps Foundation Slack discussion |
 |:--|
