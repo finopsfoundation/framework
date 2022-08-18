@@ -20,8 +20,8 @@ label:
 cloud-provider:
   - Multi-Cloud
 framework-capabilities:
-- capability_cost-allocation
-- capability_onboarding-workloads
+ - capability_allocation
+ - capability_onboarding-workloads
 ---
 
 # Container Cost Allocation Labels and Dictionary

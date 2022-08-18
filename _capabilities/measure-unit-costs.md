@@ -77,6 +77,7 @@ _the information used that contributes to the measure(s) of success listed above
 {% include story-loop.md %}
 
 
+
 ## FinOps Platforms & Service Providers
 _Reference of cloud cost management platforms, tooling and service providers related to this Capability coming soon._
 
