@@ -12,18 +12,19 @@ project-description: A collection of resources to help kickstart container cost 
 date-added: Aug 2022
 type: Utility
 source: FinOps Foundation
-label: 
-cloud-provider: 
+label:
+cloud-provider:
   - Multi-Cloud
 framework-capabilities:
-  - cost-allocation
+- capability_cost-allocation
+- capability_onboarding-workloads
 ---
 
 # Container Cost Allocation Labels and Dictionary
 
 ## Introduction
 
-Our Container Cost Allocation project focuses on creating guidance and best practices to practitioners around allocating cost of containers. 
+Our Container Cost Allocation project focuses on creating guidance and best practices to practitioners around allocating cost of containers.
 This first output provides suggested container labels that are ready to use and can be combined into useful schemas. We also want this resource to encourage community debate about container cost allocation labeling, schemas, and best practices, inspiring contribution and future improvements.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/q0iuFU7qh8M?start=3868" title="YouTube video player" frameborder="0" allow="accelerometer;  clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -65,7 +66,7 @@ Use this interactive dictionary to learn common container labeling that the Work
       <h3 class="text-xl font-bold text-gray-700 mb-2 mt-0 leading-6">{{ item.label-name }}</h3>
       <h4 class="my-4 mt-0 text-base font-normal text-gray-700 tracking-tight">{{ item.label-definition }}</h4>
       <div class="my-2">
-        {% if item.label-name %} 
+        {% if item.label-name %}
           {% for maturity in item.maturity %}
             <div class="text-xs font-semibold text-gray-700 tracking-wider uppercase inline-block pr-4 py-px">{{ maturity }}</div>
           {% endfor %}<br>
