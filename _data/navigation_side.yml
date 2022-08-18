@@ -33,6 +33,8 @@
   - name: Accurate Cloud Forecasts
   - name: Calculating Container Costs
   - name: Container Cost Allocation
+  - name: Data Efficiency
+    url: /projects/managing-data-efficiency-playbook/
   - name: Encouraging Engineers to Take Action
   - name: FinOps Assessment
     url: /projects/finops-assessment/
