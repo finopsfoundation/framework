@@ -121,7 +121,7 @@ Measures of success are represented in the context of cloud costs and may includ
 
 {% include story-loop.md %}
 
-
+<!--
 | An excerpt from a FinOps Foundation Slack discussion |
 |:--|
 | _The FinOps framework refers to this as “resource hierarchy metadata” and it’s a big part of cost allocation. The naming standard is as important or more important than the tag/label metadata that can be applied using things like Cost Categories or Project Labels._ |
@@ -131,6 +131,7 @@ Measures of success are represented in the context of cloud costs and may includ
 | _Every org is different, but I like a scheme that moves from most granular to least - something like this: <br/> \<org\>-\<provider\>-\<department\>-\<application\>-\<environment\>_ |
 | _This gives you stuff like: <br/> * myorg-aws-finance-payroll-prod <br/> * myorg-gcp-flightops-flightbag-staging_ |
 
+-->
 
 ## FinOps Platforms & Service Providers
 _Reference of cloud cost management platforms, tooling and service providers related to this Capability coming soon._
