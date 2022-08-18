@@ -10,13 +10,17 @@ identifier: projects
 project-title: Introduction to Cloud Unit Economics
 project-description: This project is an introduction to the practical application and a methodology of cloud unit economics and teaches how to quantify the associated cost and usage metrics of elasticity.
 date-added: Aug 2022
-type: Guide
+story-date: Aug 2022
+type: Member Story
 source: FinOps Foundation
+company: FinOps Foundation
+industry: Internet
+author: F2 Working Group
 label:
 cloud-provider:
   - Multi-Cloud
 framework-capabilities:
-  - capability_measure-unit-costs
+   - capability_unit-costs
 
 ---
 
