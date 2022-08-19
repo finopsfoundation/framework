@@ -69,5 +69,5 @@
 {% endfor %} <!-- End loop of stories -->
 <!-- Output if no stories -->
 {% if is_stories == false %}
-* Willing to add your story - [Contibute here](/introduction/getting-started/)
+* <!-- Willing to add your story - [Contibute here](/introduction/getting-started/) -->
 {% endif %}

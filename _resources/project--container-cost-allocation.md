@@ -10,7 +10,7 @@ identifier: projects
 project-title: Container Cost Allocation Labels and Dictionary
 project-description: A collection of resources to help kickstart container cost allocation labeling, suggesting schemas to suit various personas and FinOps maturity levels.
 date-added: Aug 2022
-type: Utility
+type: Guide
 source: FinOps Foundation
 label:
 cloud-provider:
