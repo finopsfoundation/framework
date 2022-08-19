@@ -16,7 +16,7 @@ label:
 cloud-provider:
   - Multi-Cloud
 framework-capabilities:
-  - capability_measure-unit-costs
+  - capability_unit-costs
 
 ---
 

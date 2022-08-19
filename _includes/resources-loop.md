@@ -19,7 +19,7 @@
 {% if resource.type != 'Member Story' %}
 {% for tag in resource.framework-capabilities  %}
 {% if tag == page.page-identifier %}
-{% if count < 3 %} 
+{% if count < 6 %}
 {% assign is_resources = true %}
 {% assign count = count | plus: 1 %}
 <a class="block text-centre m-0 bg-white border-solid border-gray-200 border rounded-sm shadow-sm hover:border-green-500 cursor-pointer transition duration-200" href="{{ resource.url }}" data-ga-category="links" data-ga-action="internal link clicks" data-ga-label="reource - {{ resource.title }} {{ resource.type }}">
@@ -40,7 +40,7 @@
 {% endfor %} <!-- End loop of stories -->
 <!-- Output if no stories -->
 {% if is_resources == false %}
-* Willing to contribute resources? - [Suggest resources here](/resources/)
+* Willing to contribute your real world stories, videos, a how-to guide, or a FinOps Capability playbook? <br> [Suggest resources here](/resources/)
 {% endif %}
 
 <hr class="basic" />
