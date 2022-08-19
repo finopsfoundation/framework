@@ -14,11 +14,18 @@ story-date: Aug 2022
 type: Member Story
 source: FinOps Foundation
 company: FinOps Foundation
-industry: Internet
+industry:
 author: F2 Working Group
 label:
 cloud-provider:
   - Multi-Cloud
+  framework-persona:
+  - FinOps Practitioner
+  - Engineering and Operations
+  - Business/Product Owner
+  framework-maturity:
+  - Walk
+  - Run
 framework-capabilities:
  - capability_allocation
  - capability_onboarding-workloads
