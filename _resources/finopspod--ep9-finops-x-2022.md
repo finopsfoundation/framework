@@ -7,7 +7,7 @@ source: FinOps Foundation
 label: 
 cloud-provider: 
   - Multi-Cloud
-link: https://open.spotify.com/episode/736fb8Eh2NtAIHvnN7Dwnd
+link: https://finopspod.captivate.fm/episode/finops-x-2022
 permalink: /resources/not-here/
 listing: true
 ---

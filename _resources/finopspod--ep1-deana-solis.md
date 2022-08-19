@@ -10,7 +10,7 @@ cloud-provider:
 framework-capabilities:
   - FinOps Education & Enablement
   - Establishing FinOps Culture
-link: https://open.spotify.com/episode/0QCtHDcXuj8YfmGmZiP6ic
+link: https://finopspod.captivate.fm/episode/deana-solis-building-trust-finops-culture
 permalink: /resources/not-here/
 listing: true
 ---

@@ -10,7 +10,7 @@ cloud-provider:
 framework-capabilities:
   - FinOps Education & Enablement
   - Establishing FinOps Culture
-link: https://open.spotify.com/episode/5UOje2v5l6DiGMrqWAdw3h
+link: https://finopspod.captivate.fm/episode/kim-wier-finops-as-product
 permalink: /resources/not-here/
 listing: true
 ---

@@ -9,7 +9,7 @@ cloud-provider:
   - Multi-Cloud
 framework-capabilities:
   - FinOps Education & Enablement
-link: https://open.spotify.com/episode/196x2r6CLy5xui2S8eKF6t
+link: https://finopspod.captivate.fm/episode/finops-foundation-in-the-u-k
 permalink: /resources/not-here/
 listing: true
 ---
