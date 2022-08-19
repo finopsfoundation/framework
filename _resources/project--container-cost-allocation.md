@@ -16,7 +16,7 @@ label:
 cloud-provider:
   - Multi-Cloud
 framework-capabilities:
-- capability_cost-allocation
+- capability_allocation
 - capability_onboarding-workloads
 ---
 
