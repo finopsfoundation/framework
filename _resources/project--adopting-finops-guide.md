@@ -1,27 +1,21 @@
 ---
 
 layout: wide
-permalink: /stories/adopting-finops/
+permalink: /projects/adopting-finops-guide/
 
 title: A Guide for Adopting FinOps in Your Organization
+project-title: A Guide for Adopting FinOps in Your Organization
 description: One of the biggest challenges in starting a FinOps practice is getting broad executive support and buy-in to dedicate the time and resources needed for the cultural change.
-type: Member Story
+project-description: One of the biggest challenges in starting a FinOps practice is getting broad executive support and buy-in to dedicate the time and resources needed for the cultural change.
+type: Guide
+identifier: projects
+date-added: October 2021
 source: FinOps Foundation
-story-title: A Guide for Adopting FinOps in Your Organization
-story-date: 2021-10-01
+label:
 author: F2 Working Group
-company: FinOps Foundation
-industry: Internet
-cloud-provider:
-- AWS
-- Azure
-- GCP
-framework-persona: FinOps Practitioner
-framework-maturity: Run
+cloud-provider: Multi-Cloud
 framework-capabilities:
 - capability_establish-finops-culture
-framework-projects:
-order:
 
 ---
 
