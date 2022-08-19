@@ -5,7 +5,7 @@
 <!-- Loop over all stories -->
 {% for story in sorted_stories %}
 {% if forloop.first == true %}
-  <h2>Real World Resources</h2>
+  <h2>Real World Stories</h2>
 {% endif %}
 <!-- Specific to capability page -->
 {% if story.type == 'Member Story' %}

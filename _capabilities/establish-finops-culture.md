@@ -129,6 +129,8 @@ Measures of success are represented in the context of cloud costs and may includ
 ## Inputs
 _the information used that contributes to the measure(s) of success listed above; information here may include specific datasources, reports or any relevant input_
 
+{% include resources-loop.md %}
+
 
 <!-- ####### Real World Resources ####### -->
 
