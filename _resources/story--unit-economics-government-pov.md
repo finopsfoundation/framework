@@ -14,13 +14,8 @@ company: Hennepin County (MN)
 industry:
 cloud-provider:
   - Azure
-framework-persona:
-- FinOps Practitioner
-- Business/Product Owner
-- Finance
-framework-maturity:
-- Walk
-- Run
+framework-persona: FinOps Practitioner, Business/Product Owner, Finance
+framework-maturity: Walk / Run
 framework-capabilities:
   - capability_unit-costs
 framework-projects:

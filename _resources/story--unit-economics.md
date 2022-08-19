@@ -19,15 +19,8 @@ author: F2 Working Group
 label:
 cloud-provider:
   - Multi-Cloud
-  framework-persona:
-  - FinOps Practitioner
-  - Business/Product Owner
-  - Finance
-  - Executives
-  framework-maturity:
-  - Crawl
-  - Walk
-  - Run
+  framework-persona: All
+  framework-maturity: Crawl / Walk / Run
 framework-capabilities:
    - capability_unit-costs
 

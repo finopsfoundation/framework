@@ -19,13 +19,8 @@ author: F2 Working Group
 label:
 cloud-provider:
   - Multi-Cloud
-  framework-persona:
-  - FinOps Practitioner
-  - Engineering and Operations
-  - Business/Product Owner
-  framework-maturity:
-  - Walk
-  - Run
+  framework-persona: FinOps Practitioner, Engineering and Operations, Business/Product Owner
+  framework-maturity: Walk / Run
 framework-capabilities:
  - capability_allocation
  - capability_onboarding-workloads
