@@ -7,7 +7,7 @@ source: FinOps Foundation
 label: 
 cloud-provider: 
   - Multi-Cloud
-link: https://open.spotify.com/episode/0VuLBYWN1Fr8cU6ROcxUJn
+link: https://finopspod.captivate.fm/episode/finopspod-voicemail-greenops
 permalink: /resources/not-here/
 listing: true
 ---

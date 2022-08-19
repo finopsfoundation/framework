@@ -10,7 +10,7 @@ cloud-provider:
 framework-capabilities:
   - FinOps Education & Enablement
   - Establishing FinOps Culture
-link: https://open.spotify.com/episode/7LEiK9iOmw8rHrcBQtywoi
+link: https://finopspod.captivate.fm/episode/ben-de-mora-the-chaos-is-to-be-embraced
 permalink: /resources/not-here/
 listing: true
 ---

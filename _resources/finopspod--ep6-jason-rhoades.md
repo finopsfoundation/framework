@@ -9,7 +9,7 @@ cloud-provider:
   - Multi-Cloud
 framework-capabilities:
   - Cost Allocation (Metadata & Hierarchy)
-link: https://open.spotify.com/episode/7JeqHkTN6jwSD2pFLu5I50
+link: https://finopspod.captivate.fm/episode/jason-rhoades-attribution-tags-labels-oh-my
 permalink: /resources/not-here/
 listing: true
 ---
