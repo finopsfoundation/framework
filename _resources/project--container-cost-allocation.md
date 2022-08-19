@@ -5,7 +5,7 @@ permalink: /projects/container-cost-allocation/
 
 title: Container Cost Allocation Labels and Dictionary
 description: A collection of resources to help kickstart container cost allocation labeling, suggesting schemas to suit various personas and FinOps maturity levels.
-page-identifier: container_cost_allocation
+page-identifier: project_container_cost_allocation
 identifier: projects
 project-title: Container Cost Allocation Labels and Dictionary
 project-description: A collection of resources to help kickstart container cost allocation labeling, suggesting schemas to suit various personas and FinOps maturity levels.

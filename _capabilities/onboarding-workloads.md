@@ -89,6 +89,8 @@ Information used that contributes to the measure(s) of success listed above are 
 
 <!-- ####### Real World Resources ####### -->
 
+{% include resources-loop.md %}
+
 {% include story-loop.md %}
 
 

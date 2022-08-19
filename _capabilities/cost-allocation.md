@@ -115,23 +115,10 @@ Measures of success are represented in the context of cloud costs and may includ
 * Understanding of the capabilities of CI/CD, platform, cloud provider capabilities
 
 
-
-
-<!-- ####### Real World Resources ####### -->
+{% include resources-loop.md %}
 
 {% include story-loop.md %}
 
-<!--
-| An excerpt from a FinOps Foundation Slack discussion |
-|:--|
-| _The FinOps framework refers to this as “resource hierarchy metadata” and it’s a big part of cost allocation. The naming standard is as important or more important than the tag/label metadata that can be applied using things like Cost Categories or Project Labels._ |
-| _Note all the hierarchy groupings you use from the billing account/management account/enrollment all the way down (departments, subscriptions, account groups, management groups in Azure; management account, OU, member account in AWS; billing account, organization, folder, project in GCP) (probably not comprehensive, from memory)_ |
-| _Take note of where your organization has “break points”, i.e. we never have multiple ENVIRONMENTS (prod, test. dev, etc.) in the same ACCOUNT GROUP/ACCOUNT/PROJECT (e.g. this might tell you that you can name these with the -DEV, -TST, -PRD suffix), or every application will receive an entire SUBSCRIPTION/OU/FOLDER and all the subordinate groupings will be paid for by that Application budget (this might tell you where to apply cost center or App ID tags, or whether to include them in the name)._ |
-| _We have done things like EnvironmentDepartment names.   So if the dept was called "JJ123" it would be ProdJJ123, TestJJ123, DevJJ123, SandboxJJ123 etc.    The problem you run into is org changes.   When JJ123 merges into FF456.   That can be a bit messy.  If there is a way you can keep Environments hardcoded in the account name but business groups/departments tagged in a metadata repo to pull from - that would give you more flexibility to manager your accounts over time._ |
-| _Every org is different, but I like a scheme that moves from most granular to least - something like this: <br/> \<org\>-\<provider\>-\<department\>-\<application\>-\<environment\>_ |
-| _This gives you stuff like: <br/> * myorg-aws-finance-payroll-prod <br/> * myorg-gcp-flightops-flightbag-staging_ |
-
--->
 
 ## FinOps Platforms & Service Providers
 _Reference of cloud cost management platforms, tooling and service providers related to this Capability coming soon._
