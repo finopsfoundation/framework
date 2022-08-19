@@ -17,13 +17,12 @@ company: FinOps Foundation
 industry:
 author: F2 Working Group
 label:
-cloud-provider:
-  - Multi-Cloud
-  framework-persona: FinOps Practitioner, Engineering and Operations, Business/Product Owner
-  framework-maturity: Walk / Run
+cloud-provider: Multi-Cloud
 framework-capabilities:
- - capability_allocation
- - capability_onboarding-workloads
+- capability_allocation
+- capability_onboarding-workloads
+framework-persona: FinOps Practitioner, Engineering and Operations, Business/Product Owner
+framework-maturity: Walk / Run
 ---
 
 # Container Cost Allocation Labels and Dictionary
