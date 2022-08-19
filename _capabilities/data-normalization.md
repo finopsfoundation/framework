@@ -108,16 +108,9 @@ Measures of success are represented in the context of cloud costs and may includ
 * Value or outcome based reporting which provides data on the number of transactions or increments of value created by or represented by the operation of the systems. This information can provide the denominator for unit economics KPIs
 
 
+{% include resources-loop.md %}
 
-<!-- ####### Real World Resources ####### -->
-## Real World Resources
-_a collection of real world examples, stories and “how to” for this Capability; based on FinOps community member experiences; information here may:_
->* _apply to one or more cloud providers_
-* _include specific types of cloud services used) (compute, storage, database, etc...)_
-* _describe a combination of  tooling, platform or vendor_
-* _describe the industry the organization belongs to_
-* _describe the complexity of the organization (global, enterprise, etc…)_
-* _include the FinOps personas involved and any other organizational roles_
+{% include story-loop.md %}
 
 
 ## FinOps Platforms & Service Providers

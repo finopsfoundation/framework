@@ -97,6 +97,8 @@ Some examples of good policy statements might be:
 
 <!-- ####### Real World Resources ####### -->
 
+{% include resources-loop.md %}
+
 {% include story-loop.md %}
 
 

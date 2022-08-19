@@ -11,7 +11,7 @@
     <h2 class="mt-0">Resources and Projects</h2>
   </div>
   <div>
-    <a href="" class="badge-dgrey inline-flex items-center mr-0"><span>View All</span> <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-px" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" /></svg></a>
+    <a href="/resources/" class="badge-dgrey inline-flex items-center mr-0"><span>View All</span> <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-px" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" /></svg></a>
   </div>
 </div>
 <div class="grid grid-cols-2 md:grid-cols-3 gap-8">
@@ -40,5 +40,7 @@
 {% endfor %} <!-- End loop of stories -->
 <!-- Output if no stories -->
 {% if is_resources == false %}
-* Willing to add your story - Contibute stories [here](https://github.com/finopsfoundation/fodo/tree/master/_stories) or reach out in the FinOps Foundation Slack
+* Willing to contribute resources? - [Suggest resources here](/resources/)
 {% endif %}
+
+<hr class="basic" />
