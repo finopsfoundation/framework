@@ -14,13 +14,14 @@ story-date: Aug 2022
 type: Member Story
 source: FinOps Foundation
 company: FinOps Foundation
-industry: Internet
+industry:
 author: F2 Working Group
 label:
-cloud-provider:
-  - Multi-Cloud
+cloud-provider: Multi-Cloud
 framework-capabilities:
-   - capability_unit-costs
+- capability_unit-costs
+framework-persona: All
+framework-maturity: Crawl / Walk / Run
 
 ---
 
