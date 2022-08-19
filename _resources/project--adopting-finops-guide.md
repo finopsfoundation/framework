@@ -16,6 +16,7 @@ author: F2 Working Group
 cloud-provider: Multi-Cloud
 framework-capabilities:
 - capability_establish-finops-culture
+- capability_education-enablement
 
 ---
 

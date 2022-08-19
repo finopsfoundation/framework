@@ -40,7 +40,7 @@
 {% endfor %} <!-- End loop of stories -->
 <!-- Output if no stories -->
 {% if is_resources == false %}
-* Willing to contribute your real world stories, a how-to guide or a Capability playbook? <br> [Suggest resources here](/resources/)
+* Willing to contribute your real world stories, videos, a how-to guide, or a FinOps Capability playbook? <br> [Suggest resources here](/resources/)
 {% endif %}
 
 <hr class="basic" />

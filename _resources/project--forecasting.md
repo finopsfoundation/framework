@@ -12,10 +12,12 @@ project-description: A guide that walks through how finance, operations, and exe
 date-added: Sep 2021
 type: Guide
 source: FinOps Foundation
-label: 
-cloud-provider: 
+label:
+cloud-provider:
   - Multi-Cloud
 framework-capabilities:
+- capability_forecasting
+
 ---
 
 # Accurate Cloud Forecasts
@@ -52,9 +54,9 @@ In this section we are going to analyze the challenge around [cloud forecasting]
 ## What are the challenges with cloud forecasting?
 Unfortunately there is no one forecasting method that fits all situations.
 
-Cloud spend is variable which is inherently difficult to predict. Specifically engineers can start workloads at any time typically without having to go through a procurement process. 
+Cloud spend is variable which is inherently difficult to predict. Specifically engineers can start workloads at any time typically without having to go through a procurement process.
 
-Forecasting cloud-provider consumption as product or service consumption requires specific data and tooling to be consistently available. Billing and reporting from cloud providers is difficult to understand and explain to traditional finance teams. 
+Forecasting cloud-provider consumption as product or service consumption requires specific data and tooling to be consistently available. Billing and reporting from cloud providers is difficult to understand and explain to traditional finance teams.
 
 Workloads need to be clearly defined whether through tagging or account structures so that cost can be [attributed back to them and their owners](/framework/capabilities/chargeback/).
 
@@ -176,7 +178,7 @@ If we’ve missed anyone, let us know. We thank you all for your contributions.
 The projections of financial trends that can adjust as new data is available. It is aimed at helping businesses anticipate results and is also used to help create budgets.
 
 #### Budgeting
-An estimate of revenues and expenses companies plan to spend within a time period. This allows for companies to continually track where they are financially. 
+An estimate of revenues and expenses companies plan to spend within a time period. This allows for companies to continually track where they are financially.
 
 #### Cost estimation
 The process of quantifying every resource that will be required to complete a project also used to help create budgets.
