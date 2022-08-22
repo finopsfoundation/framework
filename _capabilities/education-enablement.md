@@ -76,8 +76,6 @@ _written for each persona responsible for the functional activity and processes 
 
 {% include resources-loop.md %}
 
-{% include story-loop.md %}
-
 
 ## FinOps Training
 

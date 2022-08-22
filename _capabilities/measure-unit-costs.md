@@ -76,7 +76,5 @@ _the information used that contributes to the measure(s) of success listed above
 
 {% include resources-loop.md %}
 
-{% include story-loop.md %}
-
 
 ---

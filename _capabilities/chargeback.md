@@ -102,6 +102,4 @@ _for example:_
 
 {% include resources-loop.md %}
 
-{% include story-loop.md %}
-
 ---

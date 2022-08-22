@@ -99,7 +99,6 @@ Some examples of good policy statements might be:
 
 {% include resources-loop.md %}
 
-{% include story-loop.md %}
 
 
 #### Cloud Providers Governance & Policy Resources
