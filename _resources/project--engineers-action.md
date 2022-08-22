@@ -16,7 +16,7 @@ label:
 cloud-provider: 
   - Multi-Cloud
 framework-capabilities:
-
+weight: 10
 ---
 
 # Encouraging Engineers to Take Action

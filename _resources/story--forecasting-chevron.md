@@ -18,14 +18,7 @@ framework-persona: Business/Product Owner
 framework-maturity: Run
 framework-capabilities:
 - capability_forecasting
-framework-projects:
-- project_forecast
-order:
-
-tags:
-- cost-allocation
-- budgets
-- forecasting
+weight: 100
 
 ---
 

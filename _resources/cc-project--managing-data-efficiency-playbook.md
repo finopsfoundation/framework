@@ -18,6 +18,9 @@ project-title: Managing Data Efficiency Playbook
 label:
 framework-capabilities:
 - capability_rightsizing
+
+weight: 15
+
 ---
 
 # Managing Data Efficiency Playbook by Project N

@@ -17,9 +17,7 @@ cloud-provider:
 framework-persona:
 framework-maturity: 
 framework-capabilities:
-framework-projects:
-- project_reducing-waste
-order:
+weight: 100
 
 ---
 

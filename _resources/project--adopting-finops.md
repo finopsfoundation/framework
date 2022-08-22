@@ -15,6 +15,7 @@ label:
 cloud-provider:
   - Multi-Cloud
 framework-capabilities:
+weight: 10
 ---
 
 # Adopting FinOps - Getting Started

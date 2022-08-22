@@ -12,5 +12,6 @@ framework-capabilities:
   - Establishing FinOps Culture
 link: https://finopspod.captivate.fm/episode/ben-de-mora-the-chaos-is-to-be-embraced
 permalink: /resources/not-here/
+weight: 20
 listing: true
 ---

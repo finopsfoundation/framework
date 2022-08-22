@@ -9,5 +9,6 @@ cloud-provider:
   - Multi-Cloud
 link: https://finopspod.captivate.fm/episode/pedro-veloso-bridging-the-gap-between-finance-i-t
 permalink: /resources/not-here/
+weight: 20
 listing: true
 ---

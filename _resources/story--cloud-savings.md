@@ -19,8 +19,7 @@ framework-persona: FinOps Practitioner
 framework-maturity: Run
 framework-capabilities:
 - capability_rightsizing
-framework-projects:
-order: 
+weight: 100
 
 ---
 

@@ -19,8 +19,7 @@ cloud-provider:
 framework-persona:
 framework-maturity:
 framework-capabilities:
-framework-projects:
-order: 1
+weight: 100
 
 ---
 

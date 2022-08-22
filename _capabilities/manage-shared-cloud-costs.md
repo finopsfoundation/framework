@@ -117,12 +117,4 @@ Measures of success are represented in the context of cloud costs and may includ
 
 {% include story-loop.md %}
 
-
-## FinOps Platforms & Service Providers
-_Reference of cloud cost management platforms, tooling and service providers related to this Capability coming soon._
-
-
-## FinOps Training
-_Reference of courses and training partners related to this Capability coming soon._
-
 ---

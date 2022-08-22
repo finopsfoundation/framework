@@ -16,6 +16,7 @@ label:
 cloud-provider: 
   - Multi-Cloud
 framework-capabilities:
+weight: 10
 ---
 
 # Multi-Cloud Tools and Terminology

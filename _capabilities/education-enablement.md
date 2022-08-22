@@ -79,12 +79,6 @@ _written for each persona responsible for the functional activity and processes 
 {% include story-loop.md %}
 
 
-
-
-## FinOps Platforms & Service Providers
-_Reference of cloud cost management platforms, tooling and service providers related to this Capability coming soon._
-
-
 ## FinOps Training
 
 #### FinOps Foundation

@@ -18,9 +18,8 @@ framework-persona: FinOps Practitioner
 framework-maturity: Run
 framework-capabilities:
 - capability_rightsizing
-framework-projects:
-- project_reducing-waste
-order:
+weight: 100
+
 ---
 
 AWS EBS (and other services) snapshots are backups of a system at a current state.  Without using a policy, snapshots will continue to grow and grow in quantity.  Before you know it, you could be sitting on thousands of unused snapshots (waste?) that have no business value.  Do you need a snapshot from 3 years ago?  Is that without your RPO?  If not, then it’s likely a waste.  

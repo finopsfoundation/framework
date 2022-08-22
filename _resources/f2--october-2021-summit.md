@@ -9,7 +9,8 @@ link: https://youtu.be/zFFuuZpN1Hc
 cloud-provider: 
   - Multi-Cloud
 framework-capabilities:
-  - Establishing FinOps Culture
+  - capability_establish-finops-culture
 permalink: /resources/not-here/
+weight: 30
 listing: true
 ---

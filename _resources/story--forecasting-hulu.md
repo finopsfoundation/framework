@@ -17,10 +17,8 @@ framework-persona: FinOps Practitioner
 framework-maturity: Run
 framework-capabilities:
 - capability_forecasting
-framework-projects:
-- project_forecast
-order:
-  
+weight: 100
+
 ---
 
 Drew leads the FinOps sourcing team for Hulu with Anthony Logan focusing on the technical aspects of cloud. At the beginning his team had no mandate from the top, which allowed them to focus on policies. FP&A was lacking technical depth while engineers were not concerned with cloud cost. Hulu is primarily using AWS with some workloads in data centers. Drew's team ultimately reports to the CFO.

@@ -17,7 +17,7 @@ cloud-provider:
   - Multi-Cloud
 framework-capabilities:
 - capability_shared-cost
-
+weight: 10
 ---
 
 # A Guide to Spreading Out Shared Costs

@@ -18,6 +18,7 @@ cloud-provider:
 framework-capabilities:
 - capability_allocation
 - capability_onboarding-workloads
+weight: 10
 ---
 
 # Container Cost Allocation Labels and Dictionary

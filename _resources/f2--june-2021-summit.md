@@ -11,5 +11,6 @@ cloud-provider:
 framework-capabilities:
   - Forecasting
 permalink: /resources/not-here/
+weight: 30
 listing: true
 ---

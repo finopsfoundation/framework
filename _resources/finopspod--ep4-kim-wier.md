@@ -12,5 +12,6 @@ framework-capabilities:
   - Establishing FinOps Culture
 link: https://finopspod.captivate.fm/episode/kim-wier-finops-as-product
 permalink: /resources/not-here/
+weight: 20
 listing: true
 ---

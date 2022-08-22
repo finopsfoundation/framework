@@ -11,5 +11,6 @@ cloud-provider:
 framework-capabilities:
 date-added: Dec 2021
 permalink: /resources/not-here/
+weight: 30
 listing: true
 ---

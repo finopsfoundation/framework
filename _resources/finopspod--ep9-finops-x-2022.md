@@ -9,5 +9,6 @@ cloud-provider:
   - Multi-Cloud
 link: https://finopspod.captivate.fm/episode/finops-x-2022
 permalink: /resources/not-here/
+weight: 20
 listing: true
 ---

@@ -18,8 +18,7 @@ framework-persona: Business/Product Owner
 framework-maturity: Run
 framework-capabilities:
 - capability_commitment-discounts
-framework-projects:
-order:
+weight: 100
 
 ---
 

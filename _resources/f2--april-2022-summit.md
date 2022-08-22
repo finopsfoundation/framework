@@ -9,5 +9,6 @@ link: https://youtu.be/utgzkRzqIBc
 cloud-provider: 
   - Multi-Cloud
 permalink: /resources/not-here/
+weight: 30
 listing: true
 ---

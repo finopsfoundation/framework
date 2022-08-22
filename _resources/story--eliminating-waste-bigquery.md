@@ -18,9 +18,7 @@ framework-persona: FinOps Practitioner
 framework-maturity: Run
 framework-capabilities:
 - capability_rightsizing
-framework-projects:
-- project_reducing-waste
-order:
+weight: 100
 
 ---
 

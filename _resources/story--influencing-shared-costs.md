@@ -17,9 +17,7 @@ framework-persona: Executive
 framework-maturity: Run
 framework-capabilities:
 - capability_shared-cost
-framework-projects:
-- project_shared-costs
-order: 1
+weight: 100
 
 ---
 

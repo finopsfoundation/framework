@@ -17,9 +17,7 @@ framework-persona: Engineering & Operations
 framework-maturity: Walk
 framework-capabilities:
 - capability_forecasting
-framework-projects:
-- project_forecast
-order:
+weight: 100
 
 ---
 

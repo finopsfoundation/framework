@@ -18,9 +18,7 @@ framework-persona: FinOps Practitioner, Business/Product Owner, Finance
 framework-maturity: Walk / Run
 framework-capabilities:
   - capability_unit-costs
-framework-projects:
-  - project_unit-economics
-order: 1
+weight: 100
 
 ---
 

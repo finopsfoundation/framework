@@ -10,5 +10,6 @@ cloud-provider:
 framework-capabilities:
 link: https://data.finops.org/
 permalink: /resources/state-of-finops/
+weight: 10
 listing: true
 ---

@@ -17,7 +17,7 @@ cloud-provider:
   - Multi-Cloud
 framework-capabilities:
   - capability_unit-costs
-
+weight: 10
 ---
 
 # Introduction to Cloud Unit Economics: A work in progress

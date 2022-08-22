@@ -9,5 +9,6 @@ cloud-provider:
   - Multi-Cloud
 link: https://finopspod.captivate.fm/episode/ursula-laveck-julia-harvey-what-comes-after-finops-adoption
 permalink: /resources/not-here/
+weight: 20
 listing: true
 ---

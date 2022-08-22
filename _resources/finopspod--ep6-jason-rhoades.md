@@ -11,5 +11,6 @@ framework-capabilities:
   - Cost Allocation (Metadata & Hierarchy)
 link: https://finopspod.captivate.fm/episode/jason-rhoades-attribution-tags-labels-oh-my
 permalink: /resources/not-here/
+weight: 20
 listing: true
 ---

@@ -18,7 +18,7 @@ cloud-provider:
 framework-capabilities:
 - capability_establish-finops-culture
 - capability_education-enablement
-
+weight: 10
 ---
 
 # FinOps Assessment Playbook

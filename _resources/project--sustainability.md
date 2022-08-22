@@ -16,7 +16,7 @@ label:
 cloud-provider: 
   - Multi-Cloud
 framework-capabilities:
-
+weight: 10
 ---
 # Digital Sustainability and Its Intersection with FinOps
 

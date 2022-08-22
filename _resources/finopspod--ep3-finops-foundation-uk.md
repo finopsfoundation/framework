@@ -11,5 +11,6 @@ framework-capabilities:
   - FinOps Education & Enablement
 link: https://finopspod.captivate.fm/episode/finops-foundation-in-the-u-k
 permalink: /resources/not-here/
+weight: 20
 listing: true
 ---

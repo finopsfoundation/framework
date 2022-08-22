@@ -20,8 +20,7 @@ framework-persona: FinOps Practitioner
 framework-maturity: Run
 framework-capabilities:
 - capability_unit-costs
-framework-projects:
-order:
+weight: 100
 
 ---
 

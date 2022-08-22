@@ -19,9 +19,7 @@ framework-maturity: Run
 framework-capabilities:
 - capability_rightsizing
 - capability_commitment-discounts
-framework-projects:
-- project_reducing-waste
-order:
+weight: 100
 
 ---
 

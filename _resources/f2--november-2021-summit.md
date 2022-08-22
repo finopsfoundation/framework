@@ -12,5 +12,6 @@ framework-capabilities:
   - Establishing FinOps Culture
   - Establishing a FinOps Decision & Accountability Structure
 permalink: /resources/not-here/
+weight: 30
 listing: true
 ---

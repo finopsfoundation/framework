@@ -10,5 +10,6 @@ cloud-provider:
   - Multi-Cloud
 framework-capabilities:
 permalink: /resources/not-here/
+weight: 30
 listing: true
 ---

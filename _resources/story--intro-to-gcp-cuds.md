@@ -19,8 +19,7 @@ framework-persona: FinOps Practitioner
 framework-maturity: Walk
 framework-capabilities:
 - capability_commitment-discounts
-framework-projects:
-order:
+weight: 100
 
 ---
 

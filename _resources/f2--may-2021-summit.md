@@ -12,5 +12,6 @@ framework-capabilities:
   - Forecasting
   - Managing Shared Cost
 permalink: /resources/not-here/
+weight: 30
 listing: true
 ---
