@@ -20,6 +20,8 @@ https://framework.finops.org/* https://www.finops.org/:splat 301!
 /resources/monthly-update/ /resources/
 /introduction/how-to-contribute/ /projects/overview/
 
+/ambassadors/ /about/ambassadors/
+
 /framework/lifecycle/ /framework/phases/
 /framework/functions/* /framework/capabilities/:splat 301!
 /framework/capabilities/allocate/ /framework/domains/allocate/

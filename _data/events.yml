@@ -1,13 +1,4 @@
 items:
-  - title: August FinOps Summit
-    date: 18th August
-    location: Virtual
-    label: FinOps Foundation
-    host: FinOps Foundation
-    type: Virtual Event
-    image: event-images_summit.png
-    url: https://go.finops.org/finops-summit-august
-
   - title: September FinOps Summit
     date: 8th September
     location: Virtual
@@ -106,3 +97,43 @@ items:
       - Virtual Event
     image: event-images_cloudkeeper.png
     url: https://www.cloudkeeper.ai/webinar-unconventional-aws-hacks?utm_campaign=FinOps-Foundation&utm_source=FF&utm_custom%5Bemail%5D=
+
+  - title: Partner FinOps Certified Practitioner Training 
+    date: 12th-13th September
+    location: Amersfoort, Netherlands 
+    label: 3rd Party
+    host: TechNative
+    type: 
+      - In-person
+    image: event-images_technative.png
+    url: https://www.technative.nl/finops-training/
+
+  - title: Partner FinOps Certified Practitioner Training 
+    date: 8th-9th December
+    location: Amersfoort, Netherlands 
+    label: 3rd Party
+    host: TechNative
+    type: 
+      - In-person
+    image: event-images_technative.png
+    url: https://www.technative.nl/finops-training/
+
+  - title: Partner FinOps Certified Practitioner Training 
+    date: 11th-12th October
+    location: Virtual
+    label: 3rd Party
+    host: Nordcloud
+    type: 
+      - Virtual Event
+    image: event-images_nordcloud.png
+    url: https://nordcloud.com/services/finops-certified-practitioner/finops-certified-practitioner-oct-2022/?input_2_22=finops-certified-practitioner-oct-2022
+
+  - title: Cyber Talk - Creating the Foundation to manage the Value of your Cloud 
+    date: 1st September
+    location: Virtual
+    label: 3rd Party
+    host: DCO-Defensive Cyber Operations
+    type: 
+      - Virtual Event
+    image: event-images_summit.png
+    url: https://www.linkedin.com/events/cybertalk-creatingthefoundation6967892329374351360/about/

@@ -55,9 +55,9 @@
   - name: Community Slack
     url: https://finopsfoundation.slack.com
   - name: Ambassadors
-    url: /ambassadors/
+    url: /about/ambassadors/
   - name: Events
-  - name: Resources Library
+  - name: FinOps Resources
     url: /resources/
   - name: Cloud FinOps Book
     url: /resources/finops-book

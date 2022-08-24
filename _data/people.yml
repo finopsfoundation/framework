@@ -208,6 +208,14 @@
   groups:
     - GB
 
+- name: Rahul Subramaniam
+  job-title: CEO at CloudFix
+  company: CloudFix
+  linkedin-url: https://www.linkedin.com/in/rahulsub/
+  image: rahul-subramaniam.jpg
+  groups:
+    - GB
+
 - name: Anders Hagman
   job-title: Senior Manager, Cloud FinOps & Technology Procurement
   company: Spotify
@@ -449,6 +457,14 @@
   company: General Mills
   linkedin-url: https://www.linkedin.com/in/courtney-bormann/
   image: courtney-bormann.jpg
+  groups:
+    - ambassador
+
+- name: Ermanno Attardo
+  job-title: VP of Product Management
+  company: DevFactory
+  linkedin-url: https://www.linkedin.com/in/ebjattardo/
+  image: ermanno-attardo.jpeg
   groups:
     - ambassador
 
