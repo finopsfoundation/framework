@@ -10,8 +10,8 @@ identifier: projects
 project-title: Reducing Waste
 project-description: A collection of resources to help identify types of cloud cost waste by service provider, including links to additional tools.
 date-added: Oct 2021
-type: Utility
-source: FinOps Foundation
+type: Guide
+source: Foundation Contribution
 label: 
 cloud-provider: 
   - Multi-Cloud

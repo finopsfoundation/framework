@@ -4,9 +4,9 @@ layout: story
 permalink: /stories/cleaning-up-elastic-ips/
 
 title: Cleaning Up Elastic IPs
-description:
-type: Member Story
-source: FinOps Foundation
+description: Unattached EIPs cost $0.005 an hour. Over time this can compound into a waste of money. 
+type: User Story
+source: Community Contribution
 story-title: Cleaning Up Elastic IPs
 story-date: 2021-10-08
 author: Stephanie Gooch

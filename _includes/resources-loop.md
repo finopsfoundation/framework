@@ -25,7 +25,7 @@
   <img src="/img/search-icons/{{ resource.type }}.png" alt="{{ resource.title }}" />
   <div class="p-4">
     <h2 class="text-base font-medium mt-0 mb-2 leading-tight flex-grow">{{ resource.title }}</h2>
-    <p class="text-xs leading-tight m-0 mb-1 uppercase font-semibold">{{ resource.type }}</p>
+    <p class="text-xs leading-tight m-0 mb-1 uppercase font-semibold">{{ resource.label }} {{ resource.type }}</p>
     <p class="text-sm m-0 md:pr-8">{{ resource.description }}</p>
   </div>
 </a>

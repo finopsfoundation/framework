@@ -4,9 +4,9 @@ layout: story
 permalink: /stories/bigquery-capacity-commitments/
 
 title: Runaway Cost in BigQuery Capacity Commitments
-description:
-type: Member Story
-source: FinOps Foundation
+description: Failure to purchase org level capacity commitments for BigQuery can result in runaway costs due to on-demand query costs.
+type: User Story
+source: Community Contribution
 story-title: Runaway Cost in BigQuery Capacity Commitments
 story-date: 2021-10-08
 author: Scott Lapish

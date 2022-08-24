@@ -11,7 +11,7 @@ project-title: Adopting FinOps - Pitfalls to Avoid
 project-description: Imagine that you are on the beginning of a journey. At this point there are many uncertainties and unknown that increases the sensation of not knowing where to start. When you get to this point, sometimes all that you are looking for is for a piece of advice.
 date-added: May 2022
 type: Guide
-source: FinOps Foundation
+source: Foundation Contribution
 label:
 cloud-provider:
   - Multi-Cloud

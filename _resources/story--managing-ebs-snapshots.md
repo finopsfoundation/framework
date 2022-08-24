@@ -4,9 +4,9 @@ layout: story
 permalink: /stories/managing-ebs-snapshots/
 
 title: Managing EBS Snapshots
-description:
-type: Member Story
-source: FinOps Foundation
+description: AWS EBS (and other services) snapshots are backups of a system at a current state. 
+type: User Story
+source: Community Contribution
 story-title: Managing EBS Snapshots
 story-date: 2021-10-08
 author: Eric Mulartrick

@@ -4,9 +4,9 @@ layout: story
 permalink: /stories/eliminating-waste-bigquery/
 
 title: Eliminating Waste in BigQuery
-description:
-type: Member Story
-source: FinOps Foundation
+description: BigQuery (BQ) is a powerful tool compared to traditional hosted database management systems. 
+type: User Story
+source: Community Contribution
 story-title: Eliminating Waste in BigQuery
 story-date: 2021-10-08
 author: Rich Hoyer

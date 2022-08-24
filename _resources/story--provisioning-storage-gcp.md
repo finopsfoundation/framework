@@ -4,9 +4,9 @@ layout: story
 permalink: /stories/provisioning-storage-gcp/
 
 title: Provisioning Storage in GCP
-description:
-type: Member Story
-source: FinOps Foundation
+description: When provisioning storage in GCP, careful consideration needs to be given to object versioning and lifecycle management.
+type: User Story
+source: Community Contribution
 story-title: Provisioning Storage in GCP
 story-date: 2021-10-08
 author: Scott Lapish

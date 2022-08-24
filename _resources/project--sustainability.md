@@ -11,7 +11,7 @@ project-title: Digital Sustainability and Its Intersection with FinOps
 project-description: This project helps practitioners understand how they can positively contribute to their organizations drive to reduce digital carbon footprint and accelerate their path to net-zero.
 date-added: Jul 2022
 type: Guide
-source: FinOps Foundation
+source: Foundation Contribution
 label: 
 cloud-provider: 
   - Multi-Cloud

@@ -4,9 +4,9 @@ layout: story
 permalink: /stories/allocate-meter-charges-by-type/
 
 title: How to Allocate Meter Charges by Type
-description:
-type: Member Story
-source: FinOps Foundation
+description: To date, Mayo Clinic is allocating all meter charges to projects. Charges are broken down a few ways...
+type: User Story
+source: Community Contribution
 story-title: How to Allocate Meter Charges by Type
 story-date: 2021-06-01
 author: Tom Foegen

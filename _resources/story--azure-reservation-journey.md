@@ -4,9 +4,9 @@ layout: story
 permalink: /stories/azure-reservation-journey/
 
 title: Azure Reservation Journey
-description:
-type: Member Story
-source: FinOps Foundation
+description: Following our migration into Azure, which had generated a large “bubble cost”, cost management and optimization became crucial to the Product and Engineering organization.
+type: User Story
+source: Community Contribution
 story-title: Azure Reservation Journey
 story-date:
 author:

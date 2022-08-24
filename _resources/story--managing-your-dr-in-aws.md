@@ -4,9 +4,9 @@ layout: story
 permalink: /stories/managing-your-dr-in-aws/
 
 title: Disaster Recovery in AWS
-description:
-type: Member Story
-source: FinOps Foundation
+description: Years ago, when we migrated to AWS from another hosting provider, we automated the standup of mysql on aurora - with two regional clusters, one as active, and the second as passive (DR). 
+type: User Story
+source: Community Contribution
 story-title: Disaster Recovery in AWS
 story-date: 2021-10-08
 author: Eric Mulatrick

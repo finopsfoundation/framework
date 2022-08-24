@@ -7,7 +7,7 @@ title: Managing Data Efficiency Playbook by Project N
 description: Data efficiency in the cloud involves the application of a wide range of technologies and architectural approaches to reduce the cost and time to store, access and transfer data. This guide extends the Framework Capability 'Resource Utilization & Efficiency' to focus on cloud data efficiency.
 story-description: Data efficiency in the cloud involves the application of a wide range of technologies and architectural approaches to reduce the cost and time to store, access and transfer data. This guide extends the Framework Capability 'Resource Utilization & Efficiency' to focus on cloud data efficiency.
 type: Guide
-source: FinOps Foundation
+source: Partner Contribution
 story-title: Managing Data Efficiency Playbook by Project N
 story-date: 2022-06-17
 author: Jason Nadeau

@@ -4,9 +4,9 @@ layout: story
 permalink: /stories/managing-retention-in-cloudwatch/
 
 title: Managing Retention in CloudWatch
-description:
-type: Member Story
-source: FinOps Foundation
+description: When looking out for expensive Cloudwatch Log groups that could indicate no expiry being set, one log group in a development account stuck out.
+type: User Story
+source: Community Contribution
 story-title: Managing Retention in CloudWatch
 story-date: 2021-10-08
 author: Bhupendra Hirani

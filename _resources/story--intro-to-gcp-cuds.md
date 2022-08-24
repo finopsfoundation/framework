@@ -5,8 +5,8 @@ permalink: /stories/intro-to-gcp-cuds/
 
 title: An Introduction to GCP Committed Use Discounts
 description: When you purchase Committed Use Discounts (CUDs), you receive discounted prices in exchange for your commitment to use either a minimum level of resources or spend a minimum amount, for a specified term of one or three years.
-type: Member Story
-source: FinOps Foundation
+type: User Story
+source: Community Contribution
 story-title: An Introduction to GCP Committed Use Discounts
 story-date: 2021-11-29
 author:

@@ -10,7 +10,7 @@ project-description: One of the biggest challenges in starting a FinOps practice
 type: Guide
 identifier: projects
 date-added: October 2021
-source: FinOps Foundation
+source: Foundation Contribution
 label:
 author: F2 Working Group
 cloud-provider: Multi-Cloud

@@ -4,9 +4,9 @@ layout: story
 permalink: /stories/migrating-to-gcp/
   
 title: Migrating 15 Million Lines of Code from Six Data Centers Worldwide in Six Months
-description:
-type: Member Story
-source: FinOps Foundation
+description: Our initial challenge - migrating 15 million lines of code from six data centers worldwide in six months. 
+type: User Story
+source: Community Contribution
 story-title: Migrating 15 Million Lines of Code from Six Data Centers Worldwide in Six Months
 story-date: 2021-06-01
 author: Scott Snell

@@ -4,9 +4,9 @@ layout: story
 permalink: /stories/cloud-forecasting-insights-chevron/
 
 title: Cloud Forecasting Insights from Chevron
-description:
-type: Member Story
-source: FinOps Foundation
+description: Chevron’s cloud environment currently consists of applications and servers on-premises and in Azure – with the vision to migrate a much as possible to Azure.
+type: User Story
+source: Community Contribution
 story-title: Cloud Forecasting Insights from Chevron
 story-date: 2021-06-01
 author: Scott Linn

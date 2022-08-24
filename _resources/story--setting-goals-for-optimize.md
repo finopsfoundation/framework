@@ -4,9 +4,9 @@ layout: story
 permalink: /stories/setting-goals-for-optimize/
 
 title: Setting Goals for Optimize
-description:
-type: Member Story
-source: FinOps Foundation
+description: We have a $3m cost avoidance goal this year. We plan to achieve that by ramping up our reservation coverage to 80%.
+type: User Story
+source: Community Contribution
 story-title: Setting Goals for Optimize
 story-date: 2021-06-01
 author:

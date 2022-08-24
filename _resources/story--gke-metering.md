@@ -4,9 +4,9 @@ layout: story
 permalink: /stories/gke-metering/
 
 title: GKE Metering
-description:
-type: Member Story
-source: FinOps Foundation
+description: Consideration needs to be given to the capacity requirements of the containers running in a pod. 
+type: User Story
+source: Community Contribution
 story-title: GKE Metering
 story-date: 2021-10-08
 author: Scott Lapish

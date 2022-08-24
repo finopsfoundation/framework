@@ -4,9 +4,9 @@ layout: story
 permalink: /stories/fear-of-commitment-and-pain-of-waiting/
 
 title: Fear of commitment and the pain of waiting
-description:
-type: Member Story
-source: FinOps Foundation
+description: I worked with an FTSE 100 UK retailer who had millions of dollars a month of cloud spending, but zero RIs.
+type: User Story
+source: Community Contribution
 story-title: Fear of commitment and the pain of waiting
 story-date: 2021-06-01
 author:

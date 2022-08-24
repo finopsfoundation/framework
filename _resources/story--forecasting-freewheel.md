@@ -4,9 +4,9 @@ layout: story
 permalink: /stories/cloud-forecasting-insights-freewheel/
 
 title: Cloud Forecasting Insights from Freewheel
-description:
-type: Member Story
-source: FinOps Foundation
+description:  He has been doing AWS cost management since 2017. This was initially unstructured but is becoming more structured with regards to budgeting.
+type: User Story
+source: Community Contribution
 story-title: Cloud Forecasting Insights from Freewheel
 story-date: 2021-06-01
 author: Bharat Chadha

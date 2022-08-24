@@ -11,7 +11,7 @@ project-title: A Guide to Spreading Out Shared Costs
 project-description: As organizations increase their adoption of public cloud resources, it becomes increasingly difficult to assign shared cloud resources to specific business owners.
 date-added: Apr 2021
 type: Guide
-source: FinOps Foundation
+source: Foundation Contribution
 label:
 cloud-provider:
   - Multi-Cloud
