@@ -99,7 +99,6 @@ Some examples of good policy statements might be:
 
 {% include resources-loop.md %}
 
-{% include story-loop.md %}
 
 
 #### Cloud Providers Governance & Policy Resources
@@ -108,19 +107,9 @@ Some examples of good policy statements might be:
 - [GCP Guide to Financial Governance](https://cloud.google.com/files/guide-to-financial-governance.pdf)
 
 
-
-
-## FinOps Platforms & Service Providers
-_Reference of cloud cost management platforms, tooling and service providers related to this Capability coming soon._
-
 #### Cloud Providers Governance & Policy Tools
 - AWS -  AWS Control Tower, AWS Organizations, AWS License Manager, AWS Service Catalog, AWS OpsWorks
 - Azure - Azure Management Groups, Azure Blueprints
 - GCP - Google Cloud Console
-
-
-## FinOps Training
-_Reference of courses and training partners related to this Capability coming soon._
-
 
 ---

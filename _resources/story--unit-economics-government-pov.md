@@ -4,9 +4,9 @@ layout: story
 permalink: /stories/government-organizational-perspective-unit-economics
 
 title: "Unit Economics: A Government Organizational Perspective"
-description:
-type: Member Story
-source: FinOps Foundation
+description: A common definition for is direct revenues and costs, associated with a particular business model, that are specifically expressed on a per-unit basis.
+type: User Story
+source: Community Contribution
 story-title: "Unit Economics Playbook: A Government Organizational Perspective"
 story-date: 2022-08-18
 author: Jerry Hess
@@ -18,9 +18,7 @@ framework-persona: FinOps Practitioner, Business/Product Owner, Finance
 framework-maturity: Walk / Run
 framework-capabilities:
   - capability_unit-costs
-framework-projects:
-  - project_unit-economics
-order: 1
+weight: 100
 
 ---
 

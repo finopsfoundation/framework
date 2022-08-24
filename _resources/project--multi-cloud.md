@@ -11,11 +11,12 @@ project-title: Multi-Cloud Tools and Terminology
 project-description: A guide that translates native cost management tool concepts across multiple cloud service providers.
 date-added: Sep 2021
 type: Guide
-source: FinOps Foundation
+source: Foundation Contribution
 label: 
 cloud-provider: 
   - Multi-Cloud
 framework-capabilities:
+weight: 10
 ---
 
 # Multi-Cloud Tools and Terminology

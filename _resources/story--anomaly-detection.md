@@ -4,9 +4,9 @@ layout: story
 permalink: /stories/anomaly-detection/
 
 title: Anomaly Detection at Scale
-description:
-type: Member Story
-source: FinOps Foundation
+description: A remote engineering team at a multinational pharmaceutical company spun up three x1e.32xlarge instances in Sydney...
+type: User Story
+source: Community Contribution
 story-title: Anomaly Detection at Scale
 story-date: 2021-06-01
 author:
@@ -17,8 +17,7 @@ cloud-provider:
 framework-persona:
 framework-maturity: Run
 framework-capabilities:
-framework-projects:
-order: 1
+weight: 100
 
 ---
 

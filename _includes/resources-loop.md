@@ -2,7 +2,7 @@
 {% assign is_resources = false %}
 {% assign count = 0 %}
 <!-- Make variable with sorted oder -->
-{% assign sorted_resources = site.resources | sort:"order" %}
+{% assign sorted_resources = site.resources | sort:"weight" reversed %}
 <!-- Loop over all stories -->
 {% for resource in sorted_resources %}
 {% if forloop.first == true %}
@@ -16,24 +16,22 @@
 </div>
 <div class="grid grid-cols-2 md:grid-cols-3 gap-8">
 {% endif %}
-{% if resource.type != 'Member Story' %}
 {% for tag in resource.framework-capabilities  %}
 {% if tag == page.page-identifier %}
 {% if count < 6 %}
 {% assign is_resources = true %}
 {% assign count = count | plus: 1 %}
-<a class="block text-centre m-0 bg-white border-solid border-gray-200 border rounded-sm shadow-sm hover:border-green-500 cursor-pointer transition duration-200" href="{{ resource.url }}" data-ga-category="links" data-ga-action="internal link clicks" data-ga-label="reource - {{ resource.title }} {{ resource.type }}">
+<a class="block text-centre m-0 bg-white border-solid border-gray-200 border rounded-sm shadow-sm hover:border-green-500 cursor-pointer transition duration-200" href="{% if resource.link %}{{ resource.link }}{% elsif resource.permalink %}{{ resource.permalink }}{% endif %}" data-ga-category="links" data-ga-action="internal link clicks" data-ga-label="reource - {{ resource.title }} {{ resource.type }}">
   <img src="/img/search-icons/{{ resource.type }}.png" alt="{{ resource.title }}" />
   <div class="p-4">
     <h2 class="text-base font-medium mt-0 mb-2 leading-tight flex-grow">{{ resource.title }}</h2>
-    <p class="text-xs leading-tight m-0 mb-1 uppercase font-semibold">{{ resource.type }}</p>
+    <p class="text-xs leading-tight m-0 mb-1 uppercase font-semibold">{{ resource.label }} {{ resource.type }}</p>
     <p class="text-sm m-0 md:pr-8">{{ resource.description }}</p>
   </div>
 </a>
 {% endif %}
 {% endif %}
 {% endfor %}
-{% endif %}
 {% if forloop.last == true %}
 </div>
 {% endif %}

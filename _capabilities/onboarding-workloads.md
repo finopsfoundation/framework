@@ -91,15 +91,5 @@ Information used that contributes to the measure(s) of success listed above are 
 
 {% include resources-loop.md %}
 
-{% include story-loop.md %}
-
-
-## FinOps Platforms & Service Providers
-_Reference of cloud cost management platforms, tooling and service providers related to this Capability coming soon._
-
-
-## FinOps Training
-_Reference of courses and training partners related to this Capability coming soon._
-
 
 ---

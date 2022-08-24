@@ -11,13 +11,13 @@ project-title: Accurate Cloud Forecasts
 project-description: A guide that walks through how finance, operations, and executives build models to forecast cloud spend and allocate budgets to business units.
 date-added: Sep 2021
 type: Guide
-source: FinOps Foundation
+source: Foundation Contribution
 label:
 cloud-provider:
   - Multi-Cloud
 framework-capabilities:
 - capability_forecasting
-
+weight: 10
 ---
 
 # Accurate Cloud Forecasts

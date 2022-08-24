@@ -4,9 +4,9 @@ layout: story
 permalink: /stories/why-finops-in-hong-kong/
 
 title: Why FinOps Still Has a Long Way to Go in Hong Kong
-description:
-type: Member Story
-source: FinOps Foundation
+description: As cloud adoption accelerates around the world, FinOps is increasingly recognized as a critical component of successful cloud management
+type: User Story
+source: Community Contribution
 story-title: Why FinOps Still Has a Long Way to Go in Hong Kong
 story-date: 2021-06-01
 author: Steve Schechter
@@ -19,8 +19,7 @@ cloud-provider:
 framework-persona:
 framework-maturity:
 framework-capabilities:
-framework-projects:
-order: 1
+weight: 100
 
 ---
 

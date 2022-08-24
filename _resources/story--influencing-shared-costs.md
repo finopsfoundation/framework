@@ -3,10 +3,10 @@
 layout: story
 permalink: /stories/influencing-factors-shared-costs/
 
-title: Non-technical/Market/Environmental/Corporate Governance Influencing Factors for Share Costs
+title: Non-technical / Market / Environmental / Corporate Governance Influencing Factors for Share Costs
 description: Influencing factors on how to track, process and share costs using vendor pricing, procurement and pattern spotting
-type: Member Story
-source: FinOps Foundation
+type: User Story
+source: Community Contribution
 story-title: Influencing Factors on How to Track, Process and Share Costs
 story-date: 2021-06-01
 author: Neil May
@@ -17,9 +17,7 @@ framework-persona: Executive
 framework-maturity: Run
 framework-capabilities:
 - capability_shared-cost
-framework-projects:
-- project_shared-costs
-order: 1
+weight: 100
 
 ---
 

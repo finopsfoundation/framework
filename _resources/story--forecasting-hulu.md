@@ -4,9 +4,9 @@ layout: story
 permalink: /stories/cloud-forecasting-insights-hulu/
 
 title: Cloud Forecasting Insights from Hulu
-description:
-type: Member Story
-source: FinOps Foundation
+description: Drew leads the FinOps sourcing team for Hulu with Anthony Logan focusing on the technical aspects of cloud.
+type: User Story
+source: Community Contribution
 story-title: Cloud Forecasting Insights from Hulu
 story-date: 2021-06-01
 author: Drew Lowe
@@ -17,10 +17,8 @@ framework-persona: FinOps Practitioner
 framework-maturity: Run
 framework-capabilities:
 - capability_forecasting
-framework-projects:
-- project_forecast
-order:
-  
+weight: 100
+
 ---
 
 Drew leads the FinOps sourcing team for Hulu with Anthony Logan focusing on the technical aspects of cloud. At the beginning his team had no mandate from the top, which allowed them to focus on policies. FP&A was lacking technical depth while engineers were not concerned with cloud cost. Hulu is primarily using AWS with some workloads in data centers. Drew's team ultimately reports to the CFO.

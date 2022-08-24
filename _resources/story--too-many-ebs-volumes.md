@@ -4,9 +4,9 @@ layout: story
 permalink: /stories/too-many-ebs-volumes/
 
 title: The Case of too Many EBS Volumes
-description:
-type: Member Story
-source: FinOps Foundation
+description: Forgetting to delete EBS volumes is extremely common for engineers just starting their cloud journey. At a small scale, they accumulate slowly and most third party cloud cost management platforms can identify and even terminate them for you.
+type: User Story
+source: Community Contribution
 story-title: The Case of too Many EBS Volumes
 story-date: 2021-10-08
 author: Joe Daly
@@ -18,9 +18,7 @@ framework-persona: FinOps Practitioner
 framework-maturity: Run
 framework-capabilities:
 - capability_rightsizing
-framework-projects:
-- project_reducing-waste
-order:
+weight: 100
 
 ---
 
