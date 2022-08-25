@@ -1,6 +1,6 @@
 items:
   - title: September FinOps Summit
-    date: 8th September
+    date: 15th September
     location: Virtual
     label: FinOps Foundation
     host: FinOps Foundation
@@ -9,13 +9,22 @@ items:
     url: 
 
   - title: October FinOps Summit
-    date: 13 October
+    date: 20th October
     location: Virtual
     label: FinOps Foundation
     host: FinOps Foundation
     type: Virtual Event
     image: event-images_summit.png
     url: 
+
+  - title: November FinOps Summit (APAC)
+    date: 17th November
+    location: Virtual
+    label: FinOps Foundation
+    host: FinOps Foundation
+    type: Virtual Event
+    image: event-images_summit.png
+    url:
 
   - title: Cloud Provider Updates & FinOps Vendor Showcase
     date: 8th December
