@@ -1,7 +1,7 @@
 ---
 
 layout: wide
-permalink: /resources/finops-book/
+permalink: /community/finops-book/
 search: true
 
 title: Cloud FinOps O’Reilly Book

@@ -57,11 +57,12 @@
   - name: Ambassadors
     url: /about/ambassadors/
   - name: Events
+    url: /community/events/
   - name: FinOps Resources
     url: /resources/
   - name: Cloud FinOps Book
-    url: /resources/finops-book
+    url: /community/finops-book
   - name: FinOps Terminology
-    url: /resources/Terminology
+    url: /resources/terminology
   - name: Partner Members
-    url: /partner-members/
+    url: /about/partner-members/
