@@ -1,9 +1,9 @@
 ---
 
 layout: wide
-permalink: /projects/accurate-cloud-forecasts/
+permalink: /projects/forecasting-cloud-costs/
 
-title: Accurate Cloud Forecasts
+title: Forecasting Cloud Costs
 description: A guide that walks through how finance, operations, and executives build models to forecast cloud spend and allocate budgets to business units.
 page-identifier: project_forecast
 identifier: projects
