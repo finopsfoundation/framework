@@ -21,6 +21,10 @@ https://framework.finops.org/* https://www.finops.org/:splat 301!
 /introduction/how-to-contribute/ /projects/overview/
 
 /ambassadors/ /about/ambassadors/
+/partner-members/ /about/partner-members/ 
+/introduction/getting-started/ /community/getting-started/
+/resources/events/ /community/events/
+/resources/finops-book/ /community/finops-book/
 
 /framework/lifecycle/ /framework/phases/
 /framework/functions/* /framework/capabilities/:splat 301!
