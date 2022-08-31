@@ -26,6 +26,7 @@ https://framework.finops.org/* https://www.finops.org/:splat 301!
 /resources/events/ /community/events/
 /resources/finops-book/ /community/finops-book/
 /projects/accurate-cloud-forecasts/ /projects/forecasting-cloud-costs/
+/resources/stories/ /resources/
 
 /framework/lifecycle/ /framework/phases/
 /framework/functions/* /framework/capabilities/:splat 301!
