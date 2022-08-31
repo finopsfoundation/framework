@@ -240,6 +240,7 @@
   groups:
     - TAC
     - ambassador
+    - multi-cloud
 
 # - name: William Bryant
 #   job-title: Internet Services Finance
@@ -265,6 +266,7 @@
   image: amitai-rottem.jpg
   groups:
     - TAC
+    - multi-cloud
 
 - name: Jeremy Ung
   job-title: Vice President, Engineering
@@ -289,6 +291,7 @@
   image: rich-hoyer.jpg
   groups:
     - TAC
+    - reducing-waste
 
 - name: Daniel Silva
   job-title: Senior Cloud Solution Architect
@@ -329,6 +332,7 @@
   image: eric-mulartrick.jpg
   groups:
     - ambassador
+    - reducing-waste
 
 - name: Josh Bauman
   job-title: Director of Business Operations
@@ -370,6 +374,7 @@
   image: noel-crowley.jpg
   groups:
     - ambassador
+    - reducing-waste
 
 - name: Parker Nancollas
   job-title: Cloud Business Analyst
@@ -516,6 +521,7 @@
   image: joe.jpg
   groups:
     - staff
+    - reducing-waste
 
 - name: Ashley Hromatko
   job-title: Director Business Operations
@@ -912,6 +918,7 @@
   image: eric-lam.jpeg
   groups:
     - forecasting
+    - multi-cloud
 
 - name: Pathik Sharma
   company: Google
@@ -919,6 +926,7 @@
   image: pathik-sharma.jpeg
   groups:
     - sustainability
+    - multi-cloud
 
 - name: Lauren Tate
   company: Contino
@@ -940,6 +948,7 @@
   image: ron-tatro.jpeg
   groups:
     - sustainability
+    - multi-cloud
 
 - name: Luca Giannone
   company: WPP
@@ -1010,3 +1019,81 @@
   image: david-adelkhanov.jpeg
   groups:
     - sustainability
+
+- name: Mike Martin
+  company: GLG
+  linkedin-url: https://www.linkedin.com/in/michaelmartin1090/
+  image: mike-martin.jpg
+  groups:
+    - reducing-waste
+
+- name: Bhups Hirani
+  company: Kainos
+  linkedin-url: https://www.linkedin.com/in/bhirani/
+  image: bhups-hirani.jpg
+  groups:
+    - reducing-waste
+
+- name: Dennis Chang
+  company: 
+  linkedin-url: https://www.linkedin.com/in/dennislchang/
+  image: dennis-chang.jpg
+  groups:
+    - reducing-waste
+
+- name: Pete Silva
+  company: Yahoo
+  linkedin-url: https://www.linkedin.com/in/Pete-Silva-1392b92/
+  image: generic.png
+  groups:
+    - reducing-waste
+
+- name: Andy Foley
+  company: Nationwide Building Society
+  linkedin-url: https://www.linkedin.com/in/andyfoley1/
+  image: andy-foley.jpg
+  groups:
+    - reducing-waste
+
+- name: Anthony Bothe
+  company: Procter & Gamble 
+  linkedin-url: https://www.linkedin.com/in/ajbothe/
+  image: anthony-bothe.jpg
+  groups:
+    - reducing-waste
+
+- name: Steph Gooch
+  company: AWS 
+  linkedin-url: https://www.linkedin.com/in/awssteph/
+  image: steph-gooch.jpg
+  groups:
+    - reducing-waste
+
+- name: Noah Abrahams
+  company: Oracle 
+  linkedin-url: https://www.linkedin.com/in/noahabrahams/
+  image: noah-abrahams.jpg
+  groups:
+    - reducing-waste
+
+- name: Scott Lapish
+  company: Telus 
+  linkedin-url: https://www.linkedin.com/in/scott-lapish-14751b1/
+  image: generic.png
+  groups:
+    - reducing-waste
+
+- name: Nathan King
+  company: Sky
+  linkedin-url: https://www.linkedin.com/in/nathankinguk/
+  image: nathan-king.jpg
+  groups:
+    - multi-cloud
+
+- name: Vivek Enniriyil
+  company: AWS
+  linkedin-url: https://www.linkedin.com/in/vivek-thomas-enniriyil/
+  image: vivek-enniriyil.jpg
+  groups:
+    - multi-cloud
+
