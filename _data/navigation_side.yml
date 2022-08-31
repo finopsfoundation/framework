@@ -4,6 +4,10 @@
   - name: Getting Started
   - name: About the Foundation
     url: /about/
+  - name: FinOps Ambassadors
+    url: /about/ambassadors/
+  - name: Partner Members
+    url: /about/partner-members/
   - name: Content Attribution
     url: /introduction/how-to-use/
 
@@ -51,19 +55,18 @@
   children:
   - name: Training & Certification
     url: https://learn.finops.org/
-  - name: FinOps Job Board
-    url: https://jobs.finops.org/
-  - name: Community Slack
-    url: https://finopsfoundation.slack.com
-  - name: Ambassadors
-    url: /about/ambassadors/
-  - name: Events
-    url: /community/events/
   - name: FinOps Resources
     url: /resources/
+  - name: FinOps Job Board
+    url: https://jobs.finops.org/
+  - name: Events
+    url: /community/events/
+  - name: FinOps Podcast
+    url: /community/finops-podcast/
+  - name: Community Slack
+    url: https://finopsfoundation.slack.com
   - name: Cloud FinOps Book
     url: /community/finops-book
   - name: FinOps Terminology
     url: /resources/terminology
-  - name: Partner Members
-    url: /about/partner-members/
+  
