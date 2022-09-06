@@ -18,34 +18,14 @@
     <div class="relative flex-auto">
       <div>
         <!-- form -->
-
-        <form name="contribution" method="POST" data-netlify="true" action="/projects/overview/?fm=ty-contribute">
-          <div class="hidden">
-            <label>Don’t fill this out if you’re human </label>
-            <input name="bot-field" />
-          </div>
-          <div>
-            <label>First Name</label>
-            <input type="text" name="first_name" required />
-          </div>
-          <div>
-            <label>Last Name</label>
-            <input type="text" name="last_name" required />
-          </div>
-          <div>
-            <label>Your Email</label>
-            <input type="email" name="email" required />
-          </div>
-          <div>
-            <label>Proposed addition, edits or comments</label>
-            <textarea name="message" required rows="5"></textarea>
-          </div>
-          <input class="js-label-url" type="hidden" name="page" value="" />
-          <div>
-            <button class="btn" type="submit">Send</button>
-          </div> 
-        </form>
-
+        <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js?pre=1"></script>
+        <script>
+          hbspt.forms.create({
+            region: "na1",
+            portalId: "5432286",
+            formId: "7dd666e4-9c47-4a01-be30-ed5badc67fac"
+          });
+        </script>
         <!-- end form -->
       </div>
     </div>
