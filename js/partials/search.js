@@ -183,11 +183,6 @@ if(document.getElementById('resource-hits')) {
     }),
 
     instantsearch.widgets.refinementList({
-      container: '#resource-type',
-      attribute: 'type',
-    }),
-
-    instantsearch.widgets.refinementList({
       container: '#resource-source',
       attribute: 'source',
     }),
