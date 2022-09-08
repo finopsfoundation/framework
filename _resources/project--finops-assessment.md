@@ -190,7 +190,7 @@ Once the environment scope has been defined, target scope needs to be considered
 
 When defining your target scope, focus on the capability or capabilities in areas where you believe there will be high business value in spending some FinOps team time building out. This will oftentimes be in domains such as Understanding Cloud Usage & Cost or Organizational Alignment if you are just starting out, or may be in the Optimize domains, Real Time Decision Making or Performance Tracking & Benchmarking if you are a little more established. It is likely better to assess fewer capabilities to keep the assessment more focused than to do too many. Remember, like FinOps itself, we benefit from starting small and growing in scale and complexity once we have established some muscle memory from repetitive practice.
 
-Depending on the nature and strengths of the business, different capabilities will interact and support one another in different ways. Therefore, consider which capabilities are most material to track at that time on the FinOps Adoption journey. Two different possible examples of how the dependencies / layers might look are given here. Within the context of the business being assessed, take the time to consider which capabilities make the most sense to assess within the context of that assessment target at that stage. This exercise should form the basis of an Adoption Roadmap that the Framework Assessment will work to support.
+Depending on the nature and strengths of the business, different capabilities will interact and support one another in different ways. Therefore, consider which capabilities are most material to track at that time on the FinOps Adoption journey. Two different possible examples of how the dependencies / layers might look are given here. Within the context of the business being assessed, take the time to consider which capabilities make the most sense to assess within the context of that assessment target at that stage. This exercise should form the basis of an Adoption Roadmap that the FinOps Assessment will work to support.
 
 Example 1:
 ![stack 1](/img/assessment/stack1.png)
@@ -213,7 +213,7 @@ The target scope and target group will help to identify the relevant stakeholder
 
 ## Assessment Stage 2 - Analysis
 
-Once the Target Scope, Target Group, Lens Weighting and Target Scores have been defined and Stakeholders / SMEs are identified, you are now fully prepared to execute an iteration of the framework assessment. For each selected capability across the Target scope, you can now plan your conversations. Consider grouping capabilities covered by the same subset of SMEs / stakeholders where applicable.
+Once the Target Scope, Target Group, Lens Weighting and Target Scores have been defined and Stakeholders / SMEs are identified, you are now fully prepared to execute an iteration of the FinOps Assessment. For each selected capability across the Target scope, you can now plan your conversations. Consider grouping capabilities covered by the same subset of SMEs / stakeholders where applicable.
 
 ### The Capability Overview
 
