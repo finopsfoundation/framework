@@ -56,27 +56,6 @@ items:
     image: event-images_lf.png
     url: https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/
 
-  - title: VMware Explore
-    date: 29th August - 1st September
-    location: Virtual 
-    label: 3rd Party
-    host: VMware
-    type: 
-      - In-person
-      - Virtual Event
-    image: event-images_vmware.png
-    url: https://www.vmware.com/explore/us.html
-
-  - title: Partner FinOps Certified Practitioner Training 
-    date: 24th-25th August
-    location: Virtual 
-    label: 3rd Party
-    host: Apptio
-    type: 
-      - Virtual Event
-    image: event-images_apptio.png
-    url: https://certification.apptio.com/learn/course/external/view/classroom/1845/finops-certified-practitioner
-
   - title: Partner FinOps Certified Practitioner Training 
     date: 27th-28th September
     location: Virtual 
@@ -126,16 +105,6 @@ items:
       - Virtual Event
     image: event-images_nordcloud.png
     url: https://nordcloud.com/services/finops-certified-practitioner/finops-certified-practitioner-oct-2022/?input_2_22=finops-certified-practitioner-oct-2022
-
-  - title: Cyber Talk - Creating the Foundation to manage the Value of your Cloud 
-    date: 1st September
-    location: Virtual
-    label: 3rd Party
-    host: DCO-Defensive Cyber Operations
-    type: 
-      - Virtual Event
-    image: event-images_summit.png
-    url: https://www.linkedin.com/events/cybertalk-creatingthefoundation6967892329374351360/about/
 
   - title: Partner FinOps Certified Practitioner Training 
     date: 21st-22nd September
@@ -196,3 +165,33 @@ items:
       - In-Person
     image: event-images_summit.png
     url: https://www.meetup.com/meetup-group-twrtzbtx/events/285800792/
+
+  - title: Nordcloud FinOps Meetup
+    date: 4th October
+    location: Vienna
+    label: 3rd Party
+    host: 
+    type: 
+      - In-Person
+    image: event-images_nordcloud.png
+    url: https://nordcloud.com/finops-meet-up/
+
+  - title: Nordcloud FinOps Meetup
+    date: 5th October
+    location: Munich
+    label: 3rd Party
+    host: 
+    type: 
+      - In-Person
+    image: event-images_nordcloud.png
+    url: https://nordcloud.com/finops-meet-up/
+
+  - title: Nordcloud FinOps Meetup
+    date: 19th October
+    location: Helsinki
+    label: 3rd Party
+    host: 
+    type: 
+      - In-Person
+    image: event-images_nordcloud.png
+    url: https://nordcloud.com/finops-meet-up/
