@@ -16,7 +16,3 @@ permalink: /resources/not-here/
 weight: 30
 listing: true
 ---
-
-
-<!-- This shoul eb calssed as an Article -->
-

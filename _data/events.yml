@@ -195,3 +195,23 @@ items:
       - In-Person
     image: event-images_nordcloud.png
     url: https://nordcloud.com/finops-meet-up/
+
+  - title: FinOps + IT Asset Management - Cloud ROI with Software Compliance
+    date: 11th October
+    location: Virtual
+    label: 3rd Party
+    host: IBM
+    type: 
+      - Virtual Event
+    image: event-images_ibm.png
+    url: https://ibm.webcasts.com/starthere.jsp?ei=1568470&tp_key=b4e980f8b0
+
+  - title: Optimize your AWS Fest
+    date: 29th September
+    location: Virtual
+    label: 3rd Party
+    host: AWS
+    type: 
+      - Virtual Event
+    image: event-images_default.png
+    url: https://www.awsfest.com/?utm_source=steph
