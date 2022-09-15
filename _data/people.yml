@@ -48,6 +48,14 @@
 #   linkedin-url: https://www.linkedin.com/in/sj7trunks/
 #   image: benjamin-coles.jpg
 
+- name: Robinson Roacho
+  job-title: Financial Analyst
+  company: SADA
+  linkedin-url: https://www.linkedin.com/in/robinsonroacho/
+  image: robinson-roacho.jpeg
+  groups:
+    - TAC
+
 - name: Deb MacCallum
   job-title: Vice President Of Engineering
   company: CloudHealth by VMware
@@ -64,13 +72,12 @@
   groups:
     - GB
 
-- name: Miles Ward
-  job-title: CTO
-  company: SADA
-  linkedin-url: https://www.linkedin.com/in/milesward/
-  image: miles-ward.jpg
-  groups:
-    - GB
+# - name: Miles Ward
+#  job-title: CTO
+#  company: SADA
+#  linkedin-url: https://www.linkedin.com/in/milesward/
+#  image: miles-ward.jpg
+#  groups:
 
 - name: Nikhil Roychowdhury
   job-title: Partner
@@ -290,6 +297,7 @@
   linkedin-url: https://www.linkedin.com/in/richhoyer/
   image: rich-hoyer.jpg
   groups:
+    - GB
     - TAC
     - reducing-waste
 
