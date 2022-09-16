@@ -112,7 +112,9 @@ Measures of success are represented in the context of cloud costs and may includ
 * Stakeholder real-time visibility into cost and usage reporting data
 
 
-<!-- ####### Real World Resources ####### -->
+
+
+<!-- REAL WORLD RESOURCES, PROJECTS, PLAYBOOKS, GUIDES AND STORIES -->
 
 {% include resources-loop.md %}
 

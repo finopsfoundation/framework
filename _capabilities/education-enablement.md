@@ -74,6 +74,9 @@ _written for each persona responsible for the functional activity and processes 
 - Be mindful of providing for different learning styles and needs for different individuals
 
 
+
+<!-- REAL WORLD RESOURCES, PROJECTS, PLAYBOOKS, GUIDES AND STORIES -->
+
 {% include resources-loop.md %}
 
 
