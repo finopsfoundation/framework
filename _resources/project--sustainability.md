@@ -12,10 +12,11 @@ project-description: This project helps practitioners understand how they can po
 date-added: Jul 2022
 type: Guide
 source: Foundation Contribution
-label: 
-cloud-provider: 
+label:
+cloud-provider:
   - Multi-Cloud
 framework-capabilities:
+- capability_rightsizing
 weight: 10
 ---
 # Digital Sustainability and Its Intersection with FinOps
@@ -24,7 +25,7 @@ weight: 10
 
 ## Abstract
 
-The Sustainability Working Group (WG) builds knowledge and understanding to bring clarity to FinOps practitioners around the subject of digital sustainability and running applications in the cloud with zero carbon emission. 
+The Sustainability Working Group (WG) builds knowledge and understanding to bring clarity to FinOps practitioners around the subject of digital sustainability and running applications in the cloud with zero carbon emission.
 
 **Our objective:** Help practitioners understand how they can positively contribute to their organizations drive to reduce digital carbon footprint and accelerate their path to net-zero.
 
@@ -65,10 +66,10 @@ Whether you watch them now, or later, we invite users to check out both of these
 
 <span id="scope"></span>
 
-## What problem are we trying to solve? 
-This working group has the overarching aim to clarify how the established world of FinOps intersects, overlaps and enables the burgeoning world of GreenOps. 
+## What problem are we trying to solve?
+This working group has the overarching aim to clarify how the established world of FinOps intersects, overlaps and enables the burgeoning world of GreenOps.
 
-There is no doubt that FinOps savings also equate to potential carbon savings, but the key imperative is to identify how and where these savings exist and to quantify the scale of the savings. 
+There is no doubt that FinOps savings also equate to potential carbon savings, but the key imperative is to identify how and where these savings exist and to quantify the scale of the savings.
 
 For FinOps practitioners this will be relevant as it could act as an enabler within their organization to drive remediation and efficiency programmes, to fund additional resources or to simply raise awareness of the need to operate efficient and well structured cloud services
 
@@ -76,24 +77,24 @@ Greenhouse gas emissions from human activities strengthen the greenhouse effect,
 
 The consequences of inaction risks far reaching impacts to societies, the global economy and the environment - often disproportionately to some of the world’s poorest countries. Despite current trajectories it is argued that staying under the threshold for near irreversible change is still possible, however it requires decisive and cooperative global action to halve emissions by 2030. As stated in the groundbreaking Stern review issued in 2006, There is still time to avoid the worst impacts of climate change, if we take strong action now.
 
-Climate change has increasingly become a political concern as it has become a more dominant voting issue for many citizens and a focus for action at an international level. This is resulting in regulations at national levels that place obligations on organizations and companies to report Greenhouse Gas (GHG) emissions. Business is seen as a fundamental part of the solution. 
+Climate change has increasingly become a political concern as it has become a more dominant voting issue for many citizens and a focus for action at an international level. This is resulting in regulations at national levels that place obligations on organizations and companies to report Greenhouse Gas (GHG) emissions. Business is seen as a fundamental part of the solution.
 
-Many businesses are responding not only to growing customer demands, but also a realization that sustainability is not distinct to business but integral to it. Themes that were previously the concern of fairly marginal Corporate Social Responsibility (CSR) programmes are now ingrained into triple bottom line accounting which puts equal emphasis on people and the environment rather than exclusively monetary profit. 
+Many businesses are responding not only to growing customer demands, but also a realization that sustainability is not distinct to business but integral to it. Themes that were previously the concern of fairly marginal Corporate Social Responsibility (CSR) programmes are now ingrained into triple bottom line accounting which puts equal emphasis on people and the environment rather than exclusively monetary profit.
 
 Businesses are reflecting on their purpose to acknowledge that they have a role to reform their internal operations and apply their unique skills and creativity in the innovation of a more sustainable future.
 
 ## What are digital emissions?
-Global greenhouse gas (GHG) emissions from the tech sector are on par or larger than the aviation industry, at around 3% for ICT and 2% for aviation respectively. Within ICT, data centers consume around 1% of greenhouse gas emissions and global electricity usage (equivalent to 200-250 TWh). Industry analysts predict that these emissions will, unless addressed, rise to 10% of global emissions within a decade. 
+Global greenhouse gas (GHG) emissions from the tech sector are on par or larger than the aviation industry, at around 3% for ICT and 2% for aviation respectively. Within ICT, data centers consume around 1% of greenhouse gas emissions and global electricity usage (equivalent to 200-250 TWh). Industry analysts predict that these emissions will, unless addressed, rise to 10% of global emissions within a decade.
 
 Currently, most cloud providers only provide basic calculations for energy or carbon emissions from cloud usage to their customers (typically their scope 1 & 2), which can be a challenge for organizations who want to baseline and reduce their carbon footprint across all scopes.
 
-Measuring and understanding the GHG impact is the first step to management and mitigation. Carbon accounting (also known as carbon footprinting) is an exercise to develop an inventory of emissions across an organization, product or service. It typically involves creating a baseline which can be used to assess improvement over time. 
+Measuring and understanding the GHG impact is the first step to management and mitigation. Carbon accounting (also known as carbon footprinting) is an exercise to develop an inventory of emissions across an organization, product or service. It typically involves creating a baseline which can be used to assess improvement over time.
 
 The standards developed by the GHG Protocol are the most widely implemented frameworks for carbon accounting (used by 92% of Fortune 500 companies). Whilst carbon dioxide is the primary GHG emitted globally these methodologies consider other types and families of gases (e.g. methane, nitrous oxide, hydrofluorocarbons), which are measured based on their global warming potential (GWP) in equivalence to carbon dioxide (expressed as CO₂e).
 
 The GHG emissions associated with the ICT sector were estimated at 730 million tonnes CO₂e in 2015. Parallels have been drawn with the aviation industry, which has comparable GHG emissions. Unlike the aviation industry, the nebulous, fragmented, and intangible nature of the internet and digital technologies have meant that these emissions have largely gone under the radar in terms of scrutiny and awareness. There have been substantial efficiencies in data centers in recent years, although this is pitted against ever increasing demand. The complexity of digital has presented challenges to carbon accounting, but the availability of data also presents opportunities that are not available to more traditional industries.
 
-The difference between on-premise data centers and the cloud adds an interesting dynamic to GHG emissions and an organization’s accounting and reporting of it. In one sense cloud technologies simplifies reporting by shifting obligatory Scope 1 (e.g. refrigerant gasses) and Scope 2 (e.g. electricity from the grid) emissions that would be evident for on-premise data centers into Scope 3. However, the omitting of Scope 3 emissions is increasingly inadequate since although there is no direct control over the emissions there may be considerable influence that an organization can take in their reduction or management. 
+The difference between on-premise data centers and the cloud adds an interesting dynamic to GHG emissions and an organization’s accounting and reporting of it. In one sense cloud technologies simplifies reporting by shifting obligatory Scope 1 (e.g. refrigerant gasses) and Scope 2 (e.g. electricity from the grid) emissions that would be evident for on-premise data centers into Scope 3. However, the omitting of Scope 3 emissions is increasingly inadequate since although there is no direct control over the emissions there may be considerable influence that an organization can take in their reduction or management.
 
 A challenge for measuring the emissions associated with cloud services is that traditionally the providers have been opaque about key metrics, particularly scope-3, with the big-3 providers all utilizing differing calculation models and providing varying levels of granularity in their data.
 
@@ -109,11 +110,11 @@ A core concept to GHG reporting under the GHG Protocol is that of scopes, which 
 From the cloud consumer perspective, all the hyperscaler emissions fall under the category of your scope-3, but from their perspective, they have their own scope 1, 2 & 3 emissions.
 
 ### Why is scope-3 so important?
-Scope 3 emissions are less tangible and are often described as ‘tricky’ to truly get a handle on - as exemplified by any movement from on-premise data centers to cloud services. 
+Scope 3 emissions are less tangible and are often described as ‘tricky’ to truly get a handle on - as exemplified by any movement from on-premise data centers to cloud services.
 
 Most companies downplay their impact on carbon reporting or consider them out of scope because they are the responsibility of a supplier and/or customer. Increasingly however, companies are expected and recognise the value in reporting these emissions, even if they are unable to quantify them in their entirety
 
-Scope 3 emissions make up a surprisingly high percentage of total emissions for many businesses, often the largest portion of the total. When food giant Kraft mapped out the sources of its own emissions, it found that over 90% of total emissions associated with the company were Scope 3 (Greenhouse Gas Protocol). This isn’t untypical; the best estimates place Scope 3 emissions somewhere between 80% and 97% of total emissions for a large business. 
+Scope 3 emissions make up a surprisingly high percentage of total emissions for many businesses, often the largest portion of the total. When food giant Kraft mapped out the sources of its own emissions, it found that over 90% of total emissions associated with the company were Scope 3 (Greenhouse Gas Protocol). This isn’t untypical; the best estimates place Scope 3 emissions somewhere between 80% and 97% of total emissions for a large business.
 
 For a cloud provider Scope 3 emissions are estimated to account for more than 80% of their carbon footprint, with their scope 3 including significant carbon emissions from their core infrastructure and wider supply chain, including the manufacture of data centers, servers, storage, networking etc.
 
@@ -313,6 +314,3 @@ The FinOps Foundation extends a huge thank you to the members of this Working Gr
   {% endif %}
 {% endfor %}
 </div>
-
-
-
