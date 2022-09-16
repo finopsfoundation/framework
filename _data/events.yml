@@ -215,3 +215,13 @@ items:
       - Virtual Event
     image: event-images_default.png
     url: https://www.awsfest.com/?utm_source=steph
+
+  - title: Multicloud Forecasting and Budgeting for FinOps
+    date: 21st September
+    location: Virtual
+    label: 3rd Party
+    host: Anodot
+    type: 
+      - Virtual Event
+    image: event-images_anodot.png
+    url: https://go.anodot.com/cc-forecasting-webinar-september-2022?utm_source=F2&utm_medium=Partner&utm_campaign=Webinar

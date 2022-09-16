@@ -10,7 +10,7 @@ linkedin-url: "https://www.linkedin.com/company/stormforge"
 website-url: "https://www.stormforge.io/"
 
 # Maximum character count is 350 the rest will be truncated and hidden automatically on your page
-company-description:  StormForge offers Kubernetes Performance Testing and Rapid Experimentation to help teams proactively deliver flawless app performance and cloud efficiency without manual trial-and-error.
+company-description:  StormForge automates Kubernetes resource efficiency at scale, using machine learning to optimize cloud native environments for cost and performance, enabling developers to focus on innovation.
 
 # Membership level, type and vendor certifications 
 member-level: general
@@ -25,23 +25,27 @@ certified-status:
 #- FinOps Training Partner
 
 # Product(s) or service overview maximum character count is 1000 the rest will be truncated and hidden automatically on your page 
-product-overview: StormForge optimizes the efficiency of your cloud-based applications through a process of rapid experimentation using machine learning.
+product-overview: |
+  Inefficient Kubernetes and application configurations result in millions of dollars in wasted cloud resources, business-impacting performance and availability issues, and thousands of hours of lost productivity every year.
 
-product-video-url: "https://www.youtube.com/embed/0vw01O3xRps"
+  StormForge uses patent-pending machine learning to turn observability into actionability. In pre-production, StormForge supports experimentation to ensure Kubernetes apps are configured optimally before deployment. In production, StormForge continuously right-sizes applications to ensure resource usage and costs are minimized without sacrificing application performance. StormForge accelerates your competitive advantage by allowing developers to focus on innovating, not tuning or troubleshooting Kubernetes.
+
+product-video-url: "https://www.youtube.com/embed/5h54dGdF74Y"
 
 # Related product or service resources, the titles will have associated URLs, e.g. product 
 product-resources:
-- title: Optimization
-  url: "https://www.stormforge.io/application-optimization/"
-- title: Performance Testing
-  url: "https://www.stormforge.io/performance-testing/"
-- title: Professional Services
-  url: "https://www.stormforge.io/services/"
+- title: Platform Overview
+  url: "https://www.stormforge.io/platform/"
+- title: Kubernetes Optimization
+  url: "https://www.stormforge.io/kubernetes-optimization/"
+- title: Customer Success Brief
+  url: "https://www.stormforge.io/resources/application-performance-success-brief/"
 
 # Supported capabilities in the framework by the product(s) or services. Match the page-identifier per capability in order for the capability to show up on the vendor page.
 capabilities:
 - capability_rightsizing
 - capability_workload-automation
+- capability_showback
 - capability_establish-finops-culture
 - capability_normalization
 
@@ -59,12 +63,12 @@ date: 2021-06-01
 
 # Show recent related FinOps activity, it can be content, webinars, thought leadership and include external links
 recent-finops-activity:
-- title: Breaking the Cycle of Infrastructure Sprawl and Waste, an Ebook
-  url: "https://www.stormforge.io/ebook/breaking-cycle-infrastructure-sprawl-waste/"
-- title: "3 Legs of Cloud Efficiency: Cost, Performance, and Velocity"
-  url: "https://www.stormforge.io/blog/3-legs-cloud-efficiency-cost-performance-velocity/"
-- title: "Hope Is Not A Strategy: Automating Efficient Resource Utilization for SREs, a Webinar"
-  url: "https://www.stormforge.io/event/hope-not-strategy-automating-sres/"
+- title: StormForge 4 minute overview
+  url: "https://www.youtube.com/watch?v=W5k9HttL5_8&t=5877s"
+- title: "eBook: Overcoming the FinOps Challenge for Kubernetes"
+  url: "https://www.stormforge.io/ebook/ai-driven-kubernetes-overcoming-finops-challenges/"
+- title: "Recorded Webinar: Beyond Cloud Cost Management"
+  url: "https://www.stormforge.io/event/going-beyond-cloud-cost-management/"
 
 # Detail related/dedicated slack channels in the FinOps Foundation Slack 
 slack-channels:
@@ -80,3 +84,4 @@ contribution-areas:
 - SIG-containers
 
 ---
+
