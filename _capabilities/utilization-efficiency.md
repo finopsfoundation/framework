@@ -3,7 +3,7 @@
 layout: capability
 permalink: /framework/capabilities/utilization-efficiency/
 search: true
-search-keywords: optimization optimisation optimise optimize rightsizing rightsize usage waste underutilized underutilization modernisation modernization savings reports reporting dashboards analysis showback spot serverless sustainable sustainability
+search-keywords: sustainability optimization optimisation optimise optimize rightsizing rightsize usage waste underutilized underutilization modernisation modernization savings reports reporting dashboards analysis showback spot serverless sustainable
 
 title: Resource Utilization & Efficiency
 description: In context to FinOps, resource utilization is about making sure you are getting sufficient business value for the cost. It is necessary to observe a resource's utilization over time to understand if the performance, availability or other quality metrics are of value for the expense incurred.
