@@ -3,7 +3,7 @@
 layout: capability
 permalink: /framework/capabilities/data-normalization/
 search: true
-search-keywords:
+search-keywords: reports reporting dashboards analysis metadata showback multi-cloud datasources showback chargeback allocation
 
 title: Data Ingestion & Normalization
 description: Data ingestion and normalization in the context of FinOps represents the set of functional activities involved with processing/transforming  data sets to create a queryable common repository for your cloud cost management needs.

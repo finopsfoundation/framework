@@ -3,7 +3,7 @@
 layout: capability
 permalink: /framework/capabilities/budget-management/
 search: true
-search-keywords:
+search-keywords: forecast forecasting estimate estimates overruns projections models expenses finance accounting chargeback showback performance tracking benchmarking
 
 title: Budget Management
 description: Budgeting for Cloud is a process of collecting estimated expenses for a specific period of time.  Decisions on how to operate as a business, what to invest in and other strategic decisions are made based on budgets.

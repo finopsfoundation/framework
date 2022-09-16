@@ -3,7 +3,7 @@
 layout: wide
 permalink: /framework/capabilities/decision-accountability-structure
 search: true
-search-keywords:
+search-keywords: RACI matrix real-time stakeholder stakeholders accountable responsible consulted informed alignment organization
 
 title: Establishing a FinOps Decision & Accountability Structure
 description: coming soon...

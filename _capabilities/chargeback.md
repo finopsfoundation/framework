@@ -3,7 +3,7 @@
 layout: capability
 permalink: /framework/capabilities/chargeback/
 search: true
-search-keywords:
+search-keywords: reports reporting dashboards analysis metadata showback ledger GL budget budgets forecasting opex capex discounts organizational alignment
 
 title: Chargeback & IT Finance Integration
 description: Chargeback and IT Finance Integration is about pushing spend accountability to the edges of the organization that are responsible for creating the expense.

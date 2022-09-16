@@ -3,7 +3,7 @@
 layout: capability
 permalink: /framework/capabilities/policy-governance
 search: true
-search-keywords:
+search-keywords: guardrail guardrails constraint constraints innovation alignment
 
 title: Cloud Policy & Governance
 description: Policy and Governance can be thought of as a set of statements of intent, with associated assurances of adherence.

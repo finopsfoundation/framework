@@ -3,7 +3,7 @@
 layout: capability
 permalink: /framework/capabilities/forecasting
 search: true
-search-keywords:
+search-keywords: budget budgets budgeting estimate estimates overruns projections models expenses finance accounting chargeback showback performance tracking benchmarking alignment
 
 title: Forecasting | FinOps Framework Capability
 description: Understand forecasting cloud costs - how future cloud infrastructure and application lifecycle changes may impact current budgets and influence budget planning and future cloud investment decisions.

@@ -3,7 +3,7 @@
 layout: capability
 permalink: /framework/capabilities/manage-shared-cloud-cost/
 search: true
-search-keywords:
+search-keywords: forecast forecasting cost models finance accounting chargeback showback performance tracking benchmarking
 
 title: Managing Shared Cost
 description: The true key to understanding total cost of ownership is built upon transparency and accuracy, but unallocated shared costs hinders both of these. Without appropriately splitting costs that are shared, engineers and product managers lack a complete picture of how much their products are really costing.
