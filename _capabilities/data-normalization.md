@@ -108,6 +108,9 @@ Measures of success are represented in the context of cloud costs and may includ
 * Value or outcome based reporting which provides data on the number of transactions or increments of value created by or represented by the operation of the systems. This information can provide the denominator for unit economics KPIs
 
 
+
+<!-- REAL WORLD RESOURCES, PROJECTS, PLAYBOOKS, GUIDES AND STORIES -->
+
 {% include resources-loop.md %}
 
 ---

@@ -95,13 +95,16 @@ Some examples of good policy statements might be:
 - “Our policy is to reduce wasted spend by decommissioning cloud resources that deliver no business value”
 
 
-<!-- ####### Real World Resources ####### -->
+
+
+<!-- REAL WORLD RESOURCES, PROJECTS, PLAYBOOKS, GUIDES AND STORIES -->
 
 {% include resources-loop.md %}
 
 
 
-#### Cloud Providers Governance & Policy Resources
+#### Cloud Provider Governance & Policy Resources
+
 - [Management and Governance on AWS](https://aws.amazon.com/products/management-and-governance/)
 - [Azure Governance](https://azure.microsoft.com/en-gb/solutions/governance/)
 - [GCP Guide to Financial Governance](https://cloud.google.com/files/guide-to-financial-governance.pdf)

@@ -99,6 +99,7 @@ _for example:_
 * Company cost center/department hierarchy
 
 
+<!-- REAL WORLD RESOURCES, PROJECTS, PLAYBOOKS, GUIDES AND STORIES -->
 
 {% include resources-loop.md %}
 

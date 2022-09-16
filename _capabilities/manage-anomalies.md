@@ -112,6 +112,8 @@ Measures of success are represented in the context of cloud costs and may includ
 
 
 
+<!-- REAL WORLD RESOURCES, PROJECTS, PLAYBOOKS, GUIDES AND STORIES -->
+
 {% include resources-loop.md %}
 
 ---

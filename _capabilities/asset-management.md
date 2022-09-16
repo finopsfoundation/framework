@@ -101,6 +101,9 @@ _for example:_
 _the information used that contributes to the measure(s) of success listed above; information here may include specific datasources, reports or any relevant input_
 
 
+
+<!-- REAL WORLD RESOURCES, PROJECTS, PLAYBOOKS, GUIDES AND STORIES -->
+
 {% include resources-loop.md %}
 
 

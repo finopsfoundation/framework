@@ -115,6 +115,9 @@ Measures of success are represented in the context of cloud costs and may includ
 * Understanding of the capabilities of CI/CD, platform, cloud provider capabilities
 
 
+
+<!-- REAL WORLD RESOURCES, PROJECTS, PLAYBOOKS, GUIDES AND STORIES -->
+
 {% include resources-loop.md %}
 
 
