@@ -3,7 +3,7 @@
 layout: capability
 permalink: /framework/capabilities/establish-finops-culture
 search: true
-search-keywords:
+search-keywords: mentor mentoring assessment maturity stakeholders trust enable enablement training adopting adoption culture assessment buy-in
 
 title: Establishing FinOps Culture
 description: This capability is about creating a movement to establish cultures of accountability so that your organization understands the practice of cloud cost management is really about leveraging FinOps to accelerate the creation of business value.

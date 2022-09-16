@@ -3,7 +3,7 @@
 layout: capability
 permalink: /framework/capabilities/workload-management-automation/
 search: true
-search-keywords:
+search-keywords: change management optimization optimisation optimise optimize modernisation modernization trust AD IAM policy active directory governance reports reporting dashboards analysis audit
 
 title: Workload Management & Automation
 description: Workload Management & Automation focuses on running resources only when they are needed, and creating the mechanisms to automatically adjust what resources are running at any given time.
