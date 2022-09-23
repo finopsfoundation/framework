@@ -211,7 +211,7 @@ When selecting your Target Scores, consider the relative levels of success you w
 
 The target scope and target group will help to identify the relevant stakeholders and SMEs required. Remember that different capabilities may well necessitate different stakeholders and adjacent personas, and likely different targeted discussions in order to reach the most accurate answers for analysis. Record the stakeholder details and their evidence / data contributions within the assessment data, ensuring that the context is retained for future baseline analysis. Consider including your stakeholders when setting your Target Scores.
 
-## Assessment Stage 2 - Analysis
+## Assessment Stage 2 - Measure
 
 Once the Target Scope, Target Group, Lens Weighting and Target Scores have been defined and Stakeholders / SMEs are identified, you are now fully prepared to execute an iteration of the FinOps Assessment. For each selected capability across the Target scope, you can now plan your conversations. Consider grouping capabilities covered by the same subset of SMEs / stakeholders where applicable.
 
