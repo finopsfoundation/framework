@@ -4,6 +4,10 @@
   - name: Getting Started
   - name: About the Foundation
     url: /about/
+  - name: FinOps Ambassadors
+    url: /about/ambassadors/
+  - name: Partner Members
+    url: /about/partner-members/
   - name: Content Attribution
     url: /introduction/how-to-use/
 
@@ -30,32 +34,39 @@
     url: /projects/adopting-finops/
   - name: Adopting FinOps - Pitfalls to Avoid
     url: /projects/adopting-finops-avoiding-pitfalls/
-  - name: Accurate Cloud Forecasts
   - name: Calculating Container Costs
+  - name: Container Cost Allocation
+  - name: Data Efficiency
+    url: /projects/managing-data-efficiency-playbook/
   - name: Encouraging Engineers to Take Action
   - name: FinOps Assessment
     url: /projects/finops-assessment/
+  - name: Forecasting Cloud Costs
+    url: /projects/forecasting-cloud-costs/
   - name: Identifying Shared Costs
+  - name: Introduction to Cloud Unit Economics
+    url: /projects/introduction-cloud-unit-economics/
   - name: Multi-Cloud Tools and Terminology
   - name: Reducing Waste
+  - name: Sustainability
   - name: U.S. Public Sector FinOps Playbook
     url: /projects/us-gov-playbook/
 - name: Resources
   children:
   - name: Training & Certification
     url: https://learn.finops.org/
+  - name: FinOps Resources
+    url: /resources/
   - name: FinOps Job Board
     url: https://jobs.finops.org/
+  - name: Events
+    url: /community/events/
+  - name: FinOps Podcast
+    url: /community/finops-podcast/
   - name: Community Slack
     url: https://finopsfoundation.slack.com
-  - name: Ambassadors
-    url: /ambassadors/
-  - name: Events
-  - name: Resources Library
-    url: /resources/
   - name: Cloud FinOps Book
-    url: /resources/finops-book
+    url: /community/finops-book
   - name: FinOps Terminology
-    url: /resources/Terminology
-  - name: Partner Members
-    url: /partner-members/
+    url: /resources/terminology
+  

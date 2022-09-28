@@ -3,11 +3,11 @@
 layout: capability
 permalink: /framework/capabilities/manage-anomalies/
 search: true
-search-keywords:
+search-keywords: RACI accountable accountability exception exceptions alert alerts
 
 title: Managing Anomalies
 description: Anomaly Management is the ability to detect, identify, clarify, alert and manage unexpected or unforecasted cloud cost events in a timely manner, in order to minimize detrimental impact to the business, cost or otherwise. Anomalies in the context of FinOps are unpredicted variations (usually increases) in cloud spending that are larger than would be expected given historical spending patterns.
-page-identifier: capability_anomalies
+page-identifier: capability_managing-anomalies
 framework-capability-title: Managing Anomalies
 framework-capability-desc: Anomaly Management is the ability to detect, identify, clarify, alert and manage unexpected or unforecasted cloud cost events in a timely manner...
 label:
@@ -112,23 +112,8 @@ Measures of success are represented in the context of cloud costs and may includ
 
 
 
-<!-- ####### Real World Resources ####### -->
-## Real World Resources
-_a collection of real world examples, stories and “how to” for this Capability; based on FinOps community member experiences; information here may:
->* _apply to one or more cloud providers_
-* _include specific types of cloud services used) (compute, storage, database, etc...)_
-* _describe a combination of  tooling, platform or vendor_
-* _describe the industry the organization belongs to_
-* _describe the complexity of the organization (global, enterprise, etc…)_
-* _include the FinOps personas involved and any other organizational roles_
+<!-- REAL WORLD RESOURCES, PROJECTS, PLAYBOOKS, GUIDES AND STORIES -->
 
-
-## FinOps Platforms & Service Providers
-_Reference of cloud cost management platforms, tooling and service providers related to this Capability coming soon._
-
-
-## FinOps Training
-_Reference of courses and training partners related to this Capability coming soon._
-
+{% include resources-loop.md %}
 
 ---

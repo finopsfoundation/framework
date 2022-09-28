@@ -3,7 +3,7 @@
 layout: capability
 permalink: /framework/capabilities/budget-management/
 search: true
-search-keywords:
+search-keywords: forecast forecasting estimate estimates overruns projections models expenses finance accounting chargeback showback performance tracking benchmarking
 
 title: Budget Management
 description: Budgeting for Cloud is a process of collecting estimated expenses for a specific period of time.  Decisions on how to operate as a business, what to invest in and other strategic decisions are made based on budgets.
@@ -114,23 +114,8 @@ Measures of success are represented in the context of cloud costs and may includ
 * Usage/Rate Optimisation recommendations
 
 
+<!-- REAL WORLD RESOURCES, PROJECTS, PLAYBOOKS, GUIDES AND STORIES -->
 
-<!-- ####### Real World Resources ####### -->
-## Real World Resources
-_a collection of real world examples, stories and “how to” for this Capability; based on FinOps community member experiences; information here may:_
->* _apply to one or more cloud providers_
-* _include specific types of cloud services used) (compute, storage, database, etc...)_
-* _describe a combination of  tooling, platform or vendor_
-* _describe the industry the organization belongs to_
-* _describe the complexity of the organization (global, enterprise, etc…)_
-* _include the FinOps personas involved and any other organizational roles_
-
-
-## FinOps Platforms & Service Providers
-_Reference of cloud cost management platforms, tooling and service providers related to this Capability coming soon._
-
-
-## FinOps Training
-_Reference of courses and training partners related to this Capability coming soon._
+{% include resources-loop.md %}
 
 ---

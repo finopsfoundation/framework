@@ -1,30 +1,30 @@
 items:
-  - title: August FinOps Summit
-    date: 18th August
-    location: Virtual
-    label: FinOps Foundation
-    host: FinOps Foundation
-    type: Virtual Event
-    image: event-images_summit.png
-    url: https://go.finops.org/finops-summit-august
-
   - title: September FinOps Summit
-    date: 8th September
+    date: 15th September
     location: Virtual
     label: FinOps Foundation
     host: FinOps Foundation
     type: Virtual Event
     image: event-images_summit.png
-    url: 
+    url: https://go.finops.org/finops-summit-september
 
   - title: October FinOps Summit
-    date: 13 October
+    date: 20th October
     location: Virtual
     label: FinOps Foundation
     host: FinOps Foundation
     type: Virtual Event
     image: event-images_summit.png
     url: 
+
+  - title: November FinOps Summit (APAC)
+    date: 17th November
+    location: Virtual
+    label: FinOps Foundation
+    host: FinOps Foundation
+    type: Virtual Event
+    image: event-images_summit.png
+    url:
 
   - title: Cloud Provider Updates & FinOps Vendor Showcase
     date: 8th December
@@ -56,27 +56,6 @@ items:
     image: event-images_lf.png
     url: https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/
 
-  - title: VMware Explore
-    date: 29th August - 1st September
-    location: Virtual 
-    label: 3rd Party
-    host: VMware
-    type: 
-      - In-person
-      - Virtual Event
-    image: event-images_vmware.png
-    url: https://www.vmware.com/explore/us.html
-
-  - title: Partner FinOps Certified Practitioner Training 
-    date: 24th-25th August
-    location: Virtual 
-    label: 3rd Party
-    host: Apptio
-    type: 
-      - Virtual Event
-    image: event-images_apptio.png
-    url: https://certification.apptio.com/learn/course/external/view/classroom/1845/finops-certified-practitioner
-
   - title: Partner FinOps Certified Practitioner Training 
     date: 27th-28th September
     location: Virtual 
@@ -87,16 +66,6 @@ items:
     image: event-images_apptio.png
     url: https://certification.apptio.com/learn/course/external/view/classroom/1845/finops-certified-practitioner
 
-  - title: FinOps Field-Side Chat Seattle Mariners v Cleveland Guardians 
-    date: 25th August
-    location: T-Mobile Park, Seattle, Washington 
-    label: 3rd Party
-    host: Cloudwiry
-    type: 
-      - In-person
-    image: event-images_cloudwiry.png
-    url: https://outreach.cloudwiry.com/finops-field-side-chat-seattle-wa
-
   - title: Webinar - AWS Unconventional Hacks
     date: 15th September
     location: Virtual
@@ -106,3 +75,153 @@ items:
       - Virtual Event
     image: event-images_cloudkeeper.png
     url: https://www.cloudkeeper.ai/webinar-unconventional-aws-hacks?utm_campaign=FinOps-Foundation&utm_source=FF&utm_custom%5Bemail%5D=
+
+  - title: Partner FinOps Certified Practitioner Training 
+    date: 12th-13th September
+    location: Amersfoort, Netherlands 
+    label: 3rd Party
+    host: TechNative
+    type: 
+      - In-person
+    image: event-images_technative.png
+    url: https://www.technative.nl/finops-training/
+
+  - title: Partner FinOps Certified Practitioner Training 
+    date: 8th-9th December
+    location: Amersfoort, Netherlands 
+    label: 3rd Party
+    host: TechNative
+    type: 
+      - In-person
+    image: event-images_technative.png
+    url: https://www.technative.nl/finops-training/
+
+  - title: Partner FinOps Certified Practitioner Training 
+    date: 11th-12th October
+    location: Virtual
+    label: 3rd Party
+    host: Nordcloud
+    type: 
+      - Virtual Event
+    image: event-images_nordcloud.png
+    url: https://nordcloud.com/services/finops-certified-practitioner/finops-certified-practitioner-oct-2022/?input_2_22=finops-certified-practitioner-oct-2022
+
+  - title: Partner FinOps Certified Practitioner Training 
+    date: 21st-22nd September
+    location: Virtual
+    label: 3rd Party
+    host: Thebes
+    type: 
+      - Virtual Event
+    image: event-images_thebes.png
+    url: https://thebescloud.com/services/finops-training/sep-2022
+
+  - title: Partner FinOps Certified Practitioner Training 
+    date: 19th-20th October
+    location: Virtual
+    label: 3rd Party
+    host: Thebes
+    type: 
+      - Virtual Event
+    image: event-images_thebes.png
+    url: https://thebescloud.com/services/finops-training/oct-2022
+
+  - title: Partner FinOps Certified Practitioner Training 
+    date: 23rd-24th November
+    location: Virtual
+    label: 3rd Party
+    host: Thebes
+    type: 
+      - Virtual Event
+    image: event-images_thebes.png
+    url: https://thebescloud.com/services/finops-training/nov-2022
+
+  - title: Partner FinOps Certified Practitioner Training 
+    date: 23rd-24th November
+    location: Virtual
+    label: 3rd Party
+    host: Thebes
+    type: 
+      - Virtual Event
+    image: event-images_thebes.png
+    url: https://thebescloud.com/services/finops-training/nov-2022
+
+  - title: Navigating Financial Uncertainty with Critical FinOps Metrics 
+    date: 14th September
+    location: Virtual
+    label: 3rd Party
+    host: Apptio
+    type: 
+      - Virtual Event
+    image: event-images_apptio.png
+    url: https://respond.apptio.com/webinar-navigating-financial-uncertainty-crucial-finops-metrics.html
+
+  - title: Netherlands Post Summer FinOps Meetup
+    date: 15th September
+    location: Oracle Nederland
+    label: 3rd Party
+    host: 
+    type: 
+      - In-Person
+    image: event-images_summit.png
+    url: https://www.meetup.com/meetup-group-twrtzbtx/events/285800792/
+
+  - title: Nordcloud FinOps Meetup
+    date: 4th October
+    location: Vienna
+    label: 3rd Party
+    host: 
+    type: 
+      - In-Person
+    image: event-images_nordcloud.png
+    url: https://nordcloud.com/finops-meet-up/
+
+  - title: Nordcloud FinOps Meetup
+    date: 5th October
+    location: Munich
+    label: 3rd Party
+    host: 
+    type: 
+      - In-Person
+    image: event-images_nordcloud.png
+    url: https://nordcloud.com/finops-meet-up/
+
+  - title: Nordcloud FinOps Meetup
+    date: 19th October
+    location: Helsinki
+    label: 3rd Party
+    host: 
+    type: 
+      - In-Person
+    image: event-images_nordcloud.png
+    url: https://nordcloud.com/finops-meet-up/
+
+  - title: FinOps + IT Asset Management - Cloud ROI with Software Compliance
+    date: 11th October
+    location: Virtual
+    label: 3rd Party
+    host: IBM
+    type: 
+      - Virtual Event
+    image: event-images_ibm.png
+    url: https://ibm.webcasts.com/starthere.jsp?ei=1568470&tp_key=b4e980f8b0
+
+  - title: Optimize your AWS Fest
+    date: 29th September
+    location: Virtual
+    label: 3rd Party
+    host: AWS
+    type: 
+      - Virtual Event
+    image: event-images_default.png
+    url: https://www.awsfest.com/?utm_source=steph
+
+  - title: Multicloud Forecasting and Budgeting for FinOps
+    date: 21st September
+    location: Virtual
+    label: 3rd Party
+    host: Anodot
+    type: 
+      - Virtual Event
+    image: event-images_anodot.png
+    url: https://go.anodot.com/cc-forecasting-webinar-september-2022?utm_source=F2&utm_medium=Partner&utm_campaign=Webinar

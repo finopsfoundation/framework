@@ -1,0 +1,37 @@
+---
+
+layout: wide
+permalink: /community/finops-podcast/
+
+title: The FinOps Podcast
+description: FinOpsPod connects practitioners with the rest of the FinOps Foundation community. Real world practitioners will share their experiences and the Foundation team will share the latest news about the community.
+
+---
+
+<h1>FinOps Podcast</h1>
+<p>FinOpsPod connects practitioners with the rest of the FinOps Foundation community. Real world practitioners will share their experiences and the Foundation team will share the latest news about the community.</p>
+
+<p>
+  <a href="https://finopspod.captivate.fm/">Subscribe via your favourite podcast service</a>
+</p>
+
+{% assign sorted_resources = site.resources | reverse %}
+
+<div class="mt-10">
+{% for item in sorted_resources %}
+  {% if item.type == 'Podcast' %}
+    <a class="flex text-centre m-0 bg-white border-solid border-gray-200 border rounded-sm shadow-sm hover:border-green-500 cursor-pointer transition duration-200 mb-4" href="{{ item.link }}" data-ga-category="links" data-ga-action="internal link clicks" data-ga-label="resources - {{ item.title }} {{ type }}">
+      <img src="/img/search-icons/{{ item.type }}.png" alt="{{ item.title }}" class="max-w-[130px] md:max-w-[130px] lg:max-w-[120px]" />
+      <div class="py-4 px-4 flex-grow">
+        <div class="flex">
+          <h2 class="text-base font-medium mt-0 mb-2 leading-tight flex-grow">{{ item.title }}</h2>
+        </div>
+        <p class="text-xs leading-tight m-0 md:pr-8">{{ item.description }}</p>
+      </div>
+    </a>
+  {% endif %}
+{% endfor %}
+</div>
+
+
+

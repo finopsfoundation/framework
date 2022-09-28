@@ -1,0 +1,167 @@
+- label-name: application
+  label-definition: Label that supports organizing your spend around application architecture hierarchy.
+  context: App / Service Hierarchy
+  common-resources: namespace, pod, deployment
+  label-alias: application, app, application-name, application-id
+  example: ACME Fitness
+  personas: 
+    - executive
+    - business
+  maturity: crawl
+  related-url: 
+  code-url: https://github.com/finopsfoundation/sig-containers/blob/main/wg-container-cost-allocation/label-schemas/deployment-crawl.yaml
+  story-url: 
+
+- label-name: cost-center
+  label-definition: Cost-centers aligns to a business structure and help define the various areas that are driving the company expenses.
+  context: Business organization
+  common-resources: namespace, pod, deployment
+  label-alias: psp-element, cost-center
+  example: Can be seen as alpha-numeric codes
+  personas:
+    - finance
+  maturity: crawl
+  related-url: 
+  code-url: https://github.com/finopsfoundation/sig-containers/blob/main/wg-container-cost-allocation/label-schemas/deployment-crawl.yaml
+  story-url:
+
+- label-name: team
+  label-definition: Team Label help identify groups within an organization that are responsible for this spend.
+  context: Business organization
+  common-resources: namespace, pod, deployment
+  label-alias: team, squad, group, owner, maintainer, contact
+  example: '[team name] [team id]'
+  personas:
+    - executive
+    - business
+    - engineering
+    - finance
+  maturity: crawl
+  related-url: 
+  code-url: https://github.com/finopsfoundation/sig-containers/blob/main/wg-container-cost-allocation/label-schemas/deployment-crawl.yaml
+  story-url:
+
+- label-name: product
+  label-definition: Product label organizes spend to align on the 'products' a firm customer consume. This label helps organize applications and services that support the product.
+  context: App / Service Hierarchy
+  common-resources: namespace, pod, deployment
+  label-alias: product, workload, project
+  example: ACME Fitness Store, ACME Fitness + Video Streaming
+  personas:
+    - business
+    - finance
+  maturity: walk
+  related-url: 
+  code-url: https://github.com/finopsfoundation/sig-containers/blob/main/wg-container-cost-allocation/label-schemas/deployment-walk.yaml
+  story-url: 
+
+- label-name: department
+  label-definition: Department applies to business organization. Some organization use terms like Business Unit. The meaning is very organization dependent.
+  context: Business organization
+  common-resources: namespace, pod, deployment
+  label-alias: business-unit, department, business-domain, domain
+  example: retail BU, streaming BU
+  personas:
+    - business
+    - finance
+  maturity: walk
+  related-url: 
+  code-url: https://github.com/finopsfoundation/sig-containers/blob/main/wg-container-cost-allocation/label-schemas/deployment-walk.yaml
+  story-url: 
+
+- label-name: environment
+  label-definition: Environment support calculating Cost of Good Sold (COGS) and aligns how organization deploy code. e.g. production versus development.
+  context: Platform + Operations
+  common-resources: namespace, pod, deployment
+  label-alias: stage, environment, env
+  example: dev, staging, prod
+  personas:
+    - business
+    - engineering
+  maturity: walk
+  related-url: 
+  code-url: https://github.com/finopsfoundation/sig-containers/blob/main/wg-container-cost-allocation/label-schemas/deployment-walk.yaml
+  story-url: 
+
+- label-name: customer
+  label-definition: Customer label can identify that that are consuming a product/service. This can support multi-tenant environment as well as silo tenant environments.
+  context: Business organization
+  common-resources: namespace, pod, deployment
+  label-alias: customer
+  example: '[customer id] or [customer name]'
+  personas:
+    - business
+    - engineering
+  maturity: walk
+  related-url: 
+  code-url: https://github.com/finopsfoundation/sig-containers/blob/main/wg-container-cost-allocation/label-schemas/deployment-walk.yaml
+  story-url: 
+
+- label-name: service
+  label-definition: Service label adds a layer to app/service hierarchy around how firms organize product/applications into sub-components.
+  context: App / Service Hierarchy
+  common-resources: pod, deployment
+  label-alias: service, service-id
+  example: Point of Sale, Store Shopping Cart, Store Catalog
+  personas:
+    - engineering
+    - finance
+  maturity: run
+  related-url: 
+  code-url: https://github.com/finopsfoundation/sig-containers/blob/main/wg-container-cost-allocation/label-schemas/deployment-run.yaml
+  story-url: 
+
+- label-name: component
+  label-definition: Component label adds a layer to app/service hierarchy around how firms organize "Microservice / Component / Function" that support application or services.
+  context: App / Service Hierarchy
+  common-resources: namespace, pod
+  label-alias: component, tier
+  example: database, storage
+  personas:
+    - business
+    - engineering
+  maturity: run
+  related-url: 
+  code-url: https://github.com/finopsfoundation/sig-containers/blob/main/wg-container-cost-allocation/label-schemas/deployment-run.yaml
+  story-url: 
+
+- label-name: tech-stack
+  label-definition: Tech-stack helps bring context of spend to the view of platform or operations by purpose.
+  context: Platform + Operations
+  common-resources: namespace, pod, deployment
+  label-alias: stack, servicegroup
+  example: observability, build-tools, automation, security
+  personas:
+    - business
+    - engineering
+    - finance
+  maturity: run
+  related-url: 
+  code-url: https://github.com/finopsfoundation/sig-containers/blob/main/wg-container-cost-allocation/label-schemas/deployment-run.yaml
+  story-url: 
+
+- label-name: call-for-contribution
+  label-definition: What kind of container labeling helps add information and context for walk-stage executives? Contribute it here!
+  context: Business organization
+  common-resources: namespace, pod, deployment
+  label-alias: TBD
+  example: TBD
+  personas:
+    - executive
+  maturity: walk
+  related-url: 
+  code-url: 
+  story-url: 
+
+- label-name: call-for-contribution
+  label-definition: What kind of container labeling helps add information and context for run-stage executives? Contribute it here!
+  context: Business organization
+  common-resources: namespace, pod, deployment
+  label-alias: TBD
+  example: TBD
+  personas:
+    - executive
+  maturity: run
+  related-url: 
+  code-url: 
+  story-url: 

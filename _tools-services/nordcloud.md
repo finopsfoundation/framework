@@ -114,7 +114,7 @@ product-overview: |
   4. IBM Multicloud Autobackup (Nordcloud Klarity Autobackup)
 
       A multi-cloud data protection solution for your IaaS and PaaS environments. Use key event and issue notifications, to stay up to date and protect and track resources.
-  5. IBM Multicloud Provisioning / Nordcloud Klarity LandingZone
+  5. IBM Multicloud Provisioning (Nordcloud Klarity LandingZone)
 
       Delivers fully automated and maintained landing zones, provides infrastructure as code and covers elements like networking, automation, DNS, remote access, auditing, platform security and back-up"
 

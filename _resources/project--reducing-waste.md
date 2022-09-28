@@ -5,18 +5,18 @@ permalink: /projects/reducing-waste/
 
 title: Reducing Waste Opportunities
 description: A collection of resources to help identify types of cloud cost waste by service provider, including links to additional tools.
-page-identifier: reducing_waste
+page-identifier: project_reducing_waste
 identifier: projects
 project-title: Reducing Waste
 project-description: A collection of resources to help identify types of cloud cost waste by service provider, including links to additional tools.
 date-added: Oct 2021
-type: Utility
-source: FinOps Foundation
+type: Guide
+source: Foundation Contribution
 label: 
 cloud-provider: 
   - Multi-Cloud
 framework-capabilities:
-
+weight: 10
 ---
 
 <h1>Reducing Waste</h1>
@@ -66,32 +66,17 @@ framework-capabilities:
 {% endfor %}
 </div>
 
+## Thank you to all our Project contributors
 
-<h2>Thank you to all of our Project contributors</h2>
-<p>We're grateful for all of the work, time, and effort from the following FinOps practitioners:</p>
-<ul>
-  <li>Joe Daly</li>
-  <li>Noel Crowley</li>
-  <li>Mike Martin</li>
-  <li>Bhups Hirani</li>
-  <li>Eric Mulartrick</li>
-  <li>Dennis Chang</li>
-  <li>Pete Silva</li>
-  <li>Andy Foley</li>
-  <li>AJ Bothe</li>
-  <li>Steph Gooch</li>
-  <li>Noah Abrahams</li>
-  <li>Scott Lapish</li>
-  <li>Rich Hoyer</li>
-</ul>
+The FinOps Foundation extends a huge thank you to the members of this Working Group that broke ground on this documentation:
 
-<!-- <div class="flex md:flex-row flex-wrap items-stretch p-4 rounded-md mt-4">
+<div class="flex md:flex-row flex-wrap items-stretch p-4 rounded-md mt-4">
 {% for person in site.data.people %}
-  {% if person.groups contains 'ambassador' %}
+  {% if person.groups contains 'reducing-waste' %}
      <div class="w-1/2 md:w-1/3 p-2 flex">
       <a href="{{ person.linkedin-url }}" class="flex bg-gray-100 w-full items-stretch p-4 rounded-lg shadow-sm border-solid border-gray-200 border hover:-translate-y-1 hover:shadow-lg transition transform duration-500 hover:border-green-500">
           <div>
-            <img src="/img/people/ambassadors/{{ person.image }}" alt="{{ person.name }}" width="50" class="rounded-full inline-block" />
+            <img src="/img/people/{{ person.image }}" alt="{{ person.name }}" width="50" class="rounded-full inline-block" />
           </div>
           <div class="flex-grow pl-4">
             <h5 class="mt-2 mb-1 leading-tight font-bold">{{ person.name }}</h5>
@@ -110,4 +95,4 @@ framework-capabilities:
     </div>
   {% endif %}
 {% endfor %}
-</div> -->
+</div>

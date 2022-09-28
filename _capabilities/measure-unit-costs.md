@@ -3,7 +3,7 @@
 layout: capability
 permalink: /framework/capabilities/measure-unit-costs/
 search: true
-search-keywords:
+search-keywords: unit economics gamefication business value benchmark benchmarks scorecard scorecards KPI KPIs OKR OKRs nirvana
 
 title: Measuring Unit Costs
 description: Unit economic metrics enable you to determine the revenue you’ll gain from a single unit of your business and the cost associated with servicing it, ultimately revealing the business value of your cloud spend.
@@ -72,17 +72,11 @@ _for example:_
 _the information used that contributes to the measure(s) of success listed above; information here may include specific datasources, reports or any relevant input_
 
 
-<!-- ####### Real World Resources ####### -->
-
-{% include story-loop.md %}
 
 
-## FinOps Platforms & Service Providers
-_Reference of cloud cost management platforms, tooling and service providers related to this Capability coming soon._
+<!-- REAL WORLD RESOURCES, PROJECTS, PLAYBOOKS, GUIDES AND STORIES -->
 
-
-## FinOps Training
-_Reference of courses and training partners related to this Capability coming soon._
+{% include resources-loop.md %}
 
 
 ---

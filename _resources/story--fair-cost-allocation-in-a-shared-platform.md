@@ -5,8 +5,8 @@ permalink: /stories/fair-cost-allocation-in-a-shared-platform/
 
 title: Fair cost allocation in a shared Platform (as a Service)
 description: A central Platform Team is the enabler for the Product Teams to develop value faster and compliant by providing shared platform services as a product (VCS, Container Registry, CI/CD) on a shared deployment target (Kubernetes) along with shared operational services (Dashboarding, Log-management, Metrics, and Tracing + APM, etc.)
-type: Member Story
-source: FinOps Foundation
+type: User Story
+source: Community Contribution
 story-title: Fair cost allocation in a shared Platform (as a Service)
 story-date: 2021-06-01
 author: David Sterz
@@ -17,9 +17,7 @@ framework-persona: Engineering & Operations
 framework-maturity: Run
 framework-capabilities:
 - capability_shared-cost
-framework-projects:
-- project_shared-costs
-order: 1
+weight: 100
 
 ---
 

@@ -4,9 +4,9 @@ layout: story
 permalink: /stories/dynamodb-backups-gone-wild/
 
 title: DynamoDB Backups Gone Wild
-description:
-type: Member Story
-source: FinOps Foundation
+description: I recently joined a team and one of our accounts was spending an insane amount on DynamoDB 
+type: User Story
+source: Community Contribution
 story-title: DynamoDB Backups Gone Wild
 story-date: 2021-10-08
 author: AJ Bothe
@@ -18,9 +18,7 @@ framework-persona: Engineering & Operations
 framework-maturity: Run
 framework-capabilities:
 - capability_rightsizing
-framework-projects:
-- project_reducing-waste
-order:
+weight: 100
 
 ---
 

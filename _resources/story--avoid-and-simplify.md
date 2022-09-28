@@ -4,9 +4,9 @@ layout: story
 permalink: /stories/avoid-and-simplify/
 
 title: Avoid and Simplify Shared Costs
-description:
-type: Member Story
-source: FinOps Foundation
+description: Nationwide's strategy to handle shared costs is to avoid them as much as possible. 
+type: User Story
+source: Community Contribution
 story-title: Avoid and Simplify Shared Costs
 story-date: 2021-06-01
 author: Joseph Daly
@@ -18,9 +18,7 @@ framework-persona: FinOps Practitioner
 framework-maturity: Run
 framework-capabilities:
 - capability_shared-cost
-framework-projects:
-- project_shared-costs
-order: 1
+weight: 100
 
 ---
 

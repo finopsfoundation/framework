@@ -3,7 +3,7 @@
 layout: wide
 permalink: /framework/capabilities/decision-accountability-structure
 search: true
-search-keywords:
+search-keywords: RACI matrix real-time stakeholder stakeholders accountable responsible consulted informed alignment organization
 
 title: Establishing a FinOps Decision & Accountability Structure
 description: coming soon...
@@ -53,23 +53,9 @@ _for example:_
 _the information used that contributes to the measure(s) of success listed above; information here may include specific datasources, reports or any relevant input_
 
 
-<!-- ####### Real World Resources ####### -->
-## Real World Resources
-_a collection of real world examples, stories and “how to” for this Capability; based on FinOps community member experiences; information here may:_
->* _apply to one or more cloud providers_
-* _include specific types of cloud services used) (compute, storage, database, etc...)_
-* _describe a combination of  tooling, platform or vendor_
-* _describe the industry the organization belongs to_
-* _describe the complexity of the organization (global, enterprise, etc…)_
-* _include the FinOps personas involved and any other organizational roles_
 
+<!-- REAL WORLD RESOURCES, PROJECTS, PLAYBOOKS, GUIDES AND STORIES -->
 
-## FinOps Platforms & Service Providers
-_Reference of cloud cost management platforms, tooling and service providers related to this Capability coming soon._
-
-
-## FinOps Training
-_Reference of courses and training partners related to this Capability coming soon._
-
+{% include resources-loop.md %}
 
 ---

@@ -3,7 +3,7 @@
 layout: capability
 permalink: /framework/capabilities/manage-commitment-based-discounts/
 search: true
-search-keywords:
+search-keywords: saving savings plan reservations reserved instances CUD CUDs RI RIs coverage vacancy effective rate cost blended unbleneded amortize amortized amortization showback chargeback forecasting budget spot opex capex centralize centralise centralized centralised reports reporting dashboards analysis showback
 
 title: Managing Commitment Based Discounts
 description: Spend-based commitment discounts and resource-based commitment discounts are the most popular rate optimizations that cloud service providers offer. This is partially because CSP native tooling and FinOps platforms enable you to plan, manage, and benefit from these types of discount constructs...
@@ -91,17 +91,10 @@ Measures of success are represented in the context of cloud costs and may includ
 _the information used that contributes to the measure(s) of success listed above; information here may include specific datasources, reports or any relevant input_
 
 
-<!-- ####### Real World Resources ####### -->
-
-{% include story-loop.md %}
 
 
-## FinOps Platforms & Service Providers
-_Reference of cloud cost management platforms, tooling and service providers related to this Capability coming soon._
+<!-- REAL WORLD RESOURCES, PROJECTS, PLAYBOOKS, GUIDES AND STORIES -->
 
-
-## FinOps Training
-_Reference of courses and training partners related to this Capability coming soon._
-
+{% include resources-loop.md %}
 
 ---

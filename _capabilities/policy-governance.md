@@ -3,7 +3,7 @@
 layout: capability
 permalink: /framework/capabilities/policy-governance
 search: true
-search-keywords:
+search-keywords: guardrail guardrails constraint constraints innovation alignment
 
 title: Cloud Policy & Governance
 description: Policy and Governance can be thought of as a set of statements of intent, with associated assurances of adherence.
@@ -95,30 +95,24 @@ Some examples of good policy statements might be:
 - “Our policy is to reduce wasted spend by decommissioning cloud resources that deliver no business value”
 
 
-<!-- ####### Real World Resources ####### -->
-
-{% include story-loop.md %}
 
 
-#### Cloud Providers Governance & Policy Resources
+<!-- REAL WORLD RESOURCES, PROJECTS, PLAYBOOKS, GUIDES AND STORIES -->
+
+{% include resources-loop.md %}
+
+
+
+#### Cloud Provider Governance & Policy Resources
+
 - [Management and Governance on AWS](https://aws.amazon.com/products/management-and-governance/)
 - [Azure Governance](https://azure.microsoft.com/en-gb/solutions/governance/)
 - [GCP Guide to Financial Governance](https://cloud.google.com/files/guide-to-financial-governance.pdf)
 
 
-
-
-## FinOps Platforms & Service Providers
-_Reference of cloud cost management platforms, tooling and service providers related to this Capability coming soon._
-
 #### Cloud Providers Governance & Policy Tools
 - AWS -  AWS Control Tower, AWS Organizations, AWS License Manager, AWS Service Catalog, AWS OpsWorks
 - Azure - Azure Management Groups, Azure Blueprints
 - GCP - Google Cloud Console
-
-
-## FinOps Training
-_Reference of courses and training partners related to this Capability coming soon._
-
 
 ---

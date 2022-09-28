@@ -3,7 +3,7 @@
 layout: capability
 permalink: /framework/capabilities/establish-finops-culture
 search: true
-search-keywords:
+search-keywords: mentor mentoring assessment maturity stakeholders trust enable enablement training adopting adoption culture assessment buy-in
 
 title: Establishing FinOps Culture
 description: This capability is about creating a movement to establish cultures of accountability so that your organization understands the practice of cloud cost management is really about leveraging FinOps to accelerate the creation of business value.
@@ -130,17 +130,8 @@ Measures of success are represented in the context of cloud costs and may includ
 _the information used that contributes to the measure(s) of success listed above; information here may include specific datasources, reports or any relevant input_
 
 
-<!-- ####### Real World Resources ####### -->
+<!-- REAL WORLD RESOURCES, PROJECTS, PLAYBOOKS, GUIDES AND STORIES -->
 
-{% include story-loop.md %}
-
-
-## FinOps Platforms & Service Providers
-_Reference of cloud cost management platforms, tooling and service providers related to this Capability coming soon._
-
-
-## FinOps Training
-_Reference of courses and training partners related to this Capability coming soon._
-
+{% include resources-loop.md %}
 
 ---

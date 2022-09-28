@@ -3,7 +3,7 @@
 layout: capability
 permalink: /framework/capabilities/onboarding-workloads/
 search: true
-search-keywords:
+search-keywords: migration greenfield brownfield lift shift architect architecting datacenter modernization modernisation model modeling business cases serverless spot
 
 title: Onboarding Workloads
 description: This capability is about establishing a cloud front door process to onboard brownfield and greenfield applications through financial viability and technical feasibility assessment criteria.
@@ -87,23 +87,11 @@ Information used that contributes to the measure(s) of success listed above are 
 
 
 
-<!-- ####### Real World Resources ####### -->
-## Real World Resources
-_a collection of real world examples, stories and “how to” for this Capability; based on FinOps community member experiences; information here may:_
->* _apply to one or more cloud providers_
-* _include specific types of cloud services used) (compute, storage, database, etc...)_
-* _describe a combination of  tooling, platform or vendor_
-* _describe the industry the organization belongs to_
-* _describe the complexity of the organization (global, enterprise, etc…)_
-* _include the FinOps personas involved and any other organizational roles_
 
 
-## FinOps Platforms & Service Providers
-_Reference of cloud cost management platforms, tooling and service providers related to this Capability coming soon._
+<!-- REAL WORLD RESOURCES, PROJECTS, PLAYBOOKS, GUIDES AND STORIES -->
 
-
-## FinOps Training
-_Reference of courses and training partners related to this Capability coming soon._
+{% include resources-loop.md %}
 
 
 ---

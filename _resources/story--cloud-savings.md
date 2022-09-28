@@ -5,8 +5,8 @@ permalink: /stories/when-do-cloud-savings-kick-in/
 
 title: When Do Cloud Savings Start to Kick in?
 description: In this post I’ll share why cloud can both save, and not save, depending on your stage of cost optimization maturity. For illustration purposes, the stages of maturity in this post are split into crawl, walk, and run.
-type: Member Story
-source: FinOps Foundation
+type: User Story
+source: Community Contribution
 story-title: When Do Cloud Savings Start to Kick in?
 story-date: 2021-06-01
 author: Peter Shi
@@ -19,8 +19,7 @@ framework-persona: FinOps Practitioner
 framework-maturity: Run
 framework-capabilities:
 - capability_rightsizing
-framework-projects:
-order: 
+weight: 100
 
 ---
 

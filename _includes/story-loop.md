@@ -5,7 +5,7 @@
 <!-- Loop over all stories -->
 {% for story in sorted_stories %}
 {% if forloop.first == true %}
-  <h2>Real World Resources</h2>
+  <!-- <h2>Real World Stories</h2> -->
 {% endif %}
 <!-- Specific to capability page -->
 {% if story.type == 'Member Story' %}
@@ -69,5 +69,5 @@
 {% endfor %} <!-- End loop of stories -->
 <!-- Output if no stories -->
 {% if is_stories == false %}
-* Willing to add your story - Contibute stories [here](https://github.com/finopsfoundation/fodo/tree/master/_stories) or reach out in the FinOps Foundation Slack
+* <!-- Willing to add your story - [Contibute here](/introduction/getting-started/) -->
 {% endif %}

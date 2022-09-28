@@ -5,8 +5,8 @@ permalink: /stories/unit-cost-the-next-frontier/
 
 title: Unit Costing The Next Frontier in Cloud FinOps
 description: Examining the nature of and the need for cloud unit costing with examples from cloud first organizations who’ve been pioneering this important discipline. Unit costing will become the standard by which FinOps practitioners obtain full business context for their cloud costs.
-type: Member Story
-source: FinOps Foundation
+type: User Story
+source: Community Contribution
 story-title: Unit Costing - The Next Frontier in Cloud FinOps
 story-date: 2021-09-30
 author:
@@ -20,8 +20,7 @@ framework-persona: FinOps Practitioner
 framework-maturity: Run
 framework-capabilities:
 - capability_unit-costs
-framework-projects:
-order:
+weight: 100
 
 ---
 
