@@ -23,6 +23,19 @@ weight: 10
 
 # FinOps Assessment Playbook
 
+Use this guide to understand the different components of a FinOps Assessment and build your own to conduct at your organization.
+
+## Contents
+* [Introduction](#introduction)
+* [Assessment Scope & Intent](#assessment-scope--intent)
+* [Key Terms](#key-terms)
+* [Lenses Used in Assessment](#lenses-used-in-assessment)
+* [Assessment Stage 1: Introduction](#assessment-stage-1-introduction)
+* [Assessment Stage 2: Measure](#assessment-stage-2-measure)
+* [Assessment Stage 3: Outcome](#assessment-stage-3-outcome)
+* [Assessment Stage 4: Focus](#assessment-stage-4-focus)
+* [Need Help?](#need-help)
+
 ## Introduction
 
 FinOps is an evolving cloud financial management discipline and cultural practice that enables organizations to get maximum business value by helping engineering, finance, technology and business teams to collaborate on data-driven spending decisions.
@@ -210,7 +223,7 @@ When selecting your Target Scores, consider the relative levels of success you w
 
 The target scope and target group will help to identify the relevant stakeholders and SMEs required. Remember that different capabilities may well necessitate different stakeholders and adjacent personas, and likely different targeted discussions in order to reach the most accurate answers for analysis. Record the stakeholder details and their evidence / data contributions within the assessment data, ensuring that the context is retained for future baseline analysis. Consider including your stakeholders when setting your Target Scores.
 
-## Assessment Stage 2 - Measure
+## Assessment Stage 2: Measure
 
 Once the Target Scope, Target Group, Lens Weighting and Target Scores have been defined and Stakeholders / SMEs are identified, you are now fully prepared to execute an iteration of the FinOps Assessment. For each selected capability across the Target scope, you can now plan your conversations. Consider grouping capabilities covered by the same subset of SMEs / stakeholders where applicable.
 
@@ -236,7 +249,7 @@ Once you have these metrics, if you have chosen to assess multiple capabilities 
 
 ![Progress Graphs](/img/assessment/progress.png)
 
-## Assessment Stage 3 - Outcome
+## Assessment Stage 3: Outcome
 
 ### Trend Analysis & Emergent Patterns
 
@@ -252,7 +265,7 @@ From this data, you can now clearly identify areas for improvement and further d
 
 If you retain this data and repeat the assessment periodically using the same scope and criteria - you can easily highlight score changes on this grid, and trend improvements over time.
 
-## Assessment Stage 4 - Focus
+## Assessment Stage 4: Focus
 
 Now that you have analyzed the outcome data, you can then use all the data to guide your decisions to focus deeper into a specific area using the discovery questions you asked in the earlier "Gathering Evidence" section.
 
