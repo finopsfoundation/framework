@@ -7,7 +7,7 @@ search-keywords: RACI accountable accountability exception exceptions alert aler
 
 title: Managing Anomalies
 description: Anomaly Management is the ability to detect, identify, clarify, alert and manage unexpected or unforecasted cloud cost events in a timely manner, in order to minimize detrimental impact to the business, cost or otherwise. Anomalies in the context of FinOps are unpredicted variations (usually increases) in cloud spending that are larger than would be expected given historical spending patterns.
-page-identifier: capability_anomalies
+page-identifier: capability_managing-anomalies
 framework-capability-title: Managing Anomalies
 framework-capability-desc: Anomaly Management is the ability to detect, identify, clarify, alert and manage unexpected or unforecasted cloud cost events in a timely manner...
 label:
