@@ -2,11 +2,11 @@
 
 layout: story
 permalink: /stories/anomaly-detection-example-from-jfrog/
-title: How JFrog Handles Cloud Cost Anomalies
+title: How JFrog Handles Cloud Cost Anomaly Detection
 description: An operating example of cloud cost management and anomaly detection from JFrog.
 type: User Story
 source: Community Contribution
-story-title: How JFrog Handles Cloud Cost Anomalies
+story-title: How JFrog Handles Cloud Cost Anomaly Detection
 story-date: 2022-09-28
 author: Vlad Vinnik
 company: JFrog
@@ -21,7 +21,7 @@ weight: 100
 
 ---
 ## What do we accomplish with cloud cost anomaly detection?
-Cloud cost anomaly detection is an integral part of our FinOps practice. It involves our team identifying unexpected changes to the cloud cost and informs a business or a technical owner about an anomaly. While it sounds like a simple task, we have encountered multiple challenges that we should resolve to rely on the anomaly detection platform.
+Cloud cost anomaly detection is an integral part of our FinOps practice at [JFrog](https://jfrog.com/). It involves our team identifying unexpected changes to the cloud cost and informs a business or a technical owner about an anomaly. While it sounds like a simple task, we have encountered multiple challenges that we should resolve to rely on the anomaly detection platform.
 
 **Points that we have had to address while working on the system:**
 * Discerning between cost versus usage monitoring
