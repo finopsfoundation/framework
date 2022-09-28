@@ -5,10 +5,10 @@ permalink: /projects/finops-assessment/
 
 title: FinOps Assessment
 description: The FinOps Assessment playbook is designed to be used in conjunction with the FinOps Framework to assist you with a measurable, meaningful analysis of your current operating maturity as you travel that journey.
-page-identifier: project_us-gov
+page-identifier: project_finops-assessment
 identifier: projects
-project-title: U.S. Public Sector FinOps Playbook
-project-description: This playbook seeks to build upon the existing FinOps framework to assist U.S. federal agencies with their cloud spend.
+project-title: FinOps Assessment
+project-description: The FinOps Assessment playbook is designed to be used in conjunction with the FinOps Framework to assist you with a measurable, meaningful analysis of your current operating maturity as you travel that journey.
 date-added: Apr 2022
 type: Guide
 source: Foundation Contribution
@@ -23,6 +23,19 @@ weight: 10
 
 # FinOps Assessment Playbook
 
+Use this guide to understand the different components of a FinOps Assessment and build your own to conduct at your organization.
+
+## Contents
+* [Introduction](#introduction)
+* [Assessment Scope & Intent](#assessment-scope--intent)
+* [Key Terms](#key-terms)
+* [Lenses Used in Assessment](#lenses-used-in-assessment)
+* [Assessment Stage 1: Introduction](#assessment-stage-1-introduction)
+* [Assessment Stage 2: Measure](#assessment-stage-2-measure)
+* [Assessment Stage 3: Outcome](#assessment-stage-3-outcome)
+* [Assessment Stage 4: Focus](#assessment-stage-4-focus)
+* [Need Help?](#need-help)
+
 ## Introduction
 
 FinOps is an evolving cloud financial management discipline and cultural practice that enables organizations to get maximum business value by helping engineering, finance, technology and business teams to collaborate on data-driven spending decisions.
@@ -31,27 +44,26 @@ Once you have adopted FinOps, you will find that to maximize the benefits you re
 
 This playbook is designed to be used in conjunction with the FinOps Framework to assist you with a measurable, meaningful analysis of your current operating maturity as you travel that journey. Understanding your current situation leads to a clearer understanding of the key areas you must next focus closely on, in order to progress in a meaningful way.
 
-This playbook provides a set of concepts and measurements to support that analysis. These measurements can be applied to virtually all levels of an organization, from detailed and granular specific workloads / services / functional teams, through to the macroscopic analysis of organizational divisions or entire business units. It is designed to measure your operational maturity in consistent and well-understood terms whether you are measuring one application team or the whole organization.
+This playbook provides a set of concepts and measurements to support that analysis. These measurements can be applied to virtually all levels of an organization, from detailed and granular specific workloads, services, and functional teams, through to the macroscopic analysis of organizational divisions or entire business units. It is designed to measure your operational maturity in consistent and well-understood terms whether you are measuring one application team or the whole organization.
 
 This playbook is organized into four stages which are designed to create a consistent, clear process to analyze your current Framework Adoption.
 
 ## Assessment Scope & Intent
 
-This assessment is not intended as an exhaustive and comprehensive analytics solution covering an entire FinOps practice at every level. Rather, the intent is to provide a high-level overview of the current state and to identify further targeted areas of investigation or development. This assessment does not (perhaps should not) need to be done for every Capability at once. Targeting a single capability, or perhaps a set of related capabilities in a single domain may allow for deeper analysis on a per-capability level. This can be especially useful when those capabilities are highlighted by an earlier assessment for further improvement. 
+This assessment is not intended to be an exhaustive and comprehensive analytics solution covering an entire FinOps practice at every level. Rather, the intent and purpose of this guide is to provide a high-level overview of the current state and to identify further targeted areas of investigation or development. This assessment does not (perhaps should not) need to be done for every [FinOps Framework Capability](https://www.finops.org/framework/capabilities/) at once. Targeting a single capability, or perhaps a set of related capabilities in a single domain may allow for deeper analysis on a per-capability level. This can be especially useful when those capabilities are highlighted by an earlier assessment for further improvement. 
 
-For each assessment, be very clear in establishing your
+For each assessment, be very clear in establishing your:
 
-- Target Scope - which capability(ies) are you going to be assessing?
-- Target Group - on which part of the organization will you be assessing this Target Scope?
+- **Target Scope:** Which capability(ies) are you going to be assessing?
+- **Target Group:** On which part of the organization will you be assessing this Target Scope?
 
-Include those who will have primary impact on the Scope and Group selected. Consider including those who might be targets for later assessments as well to give them some experience with the process. 
+Include those who will have primary impact on the Scope and Group selected. Consider including those who might be targets for later assessments as well to give them some experience with the process.
 
 ## Key Terms
 
 ### Lens(es)
 
-We use the concept of a Lens to talk about how you inspect and analyze a FinOps Practice. These lenses are essentially different functional 
-inspection views through which to consider any given Framework Capability, each requiring different effort, and evidence to support.
+We use the concept of a Lens to talk about how you inspect and analyze a FinOps Practice. These lenses are essentially different functional inspection views through which to consider any given Framework Capability, each requiring different effort, and evidence to support.
 
 ### Capability
 
@@ -67,7 +79,7 @@ An end-to-end structural view of the entire delivery model of a FinOps Practice,
 
 ### Maturity
 
-A consistently applied measure of experience, breadth of ability and success in the delivery of a specific granular element of the Framework. Maturity is not something to attain for the sake of being mature but rather something one develops in response to the need to handle more complexity of cloud use or of organizational need when it produces value.
+A consistently applied measure of experience, breadth of ability, and success in the delivery of a specific granular element of the Framework. Maturity is not something to attain for the sake of being mature, but rather something one develops in response to the need to handle more complexity of cloud use or of organizational need when it produces value.
 
 ### Discovery
 
@@ -161,10 +173,10 @@ Why spend valuable time executing a repeatable task with predictable decision po
 
 When choosing the scope of an assessment we will define two key parameters:
 
-- Target Group - which part of our organization will we assess?
-- Target Scope - which Capabilities will we assess?
-- Lens Weighting - how important are each of the different assessment lenses?
-- Target Score - How close to a perfect score do we realistically want to be at this stage?
+- **Target Group:** Which part of our organization will we assess?
+- **Target Scope:** Which Capabilities will we assess?
+- **Lens Weighting:** How important are each of the different assessment lenses?
+- **Target Score:** How close to a perfect score do we realistically want to be at this stage?
 
 ### Target Group
 
@@ -205,13 +217,13 @@ Consider the priorities of Knowledge, Process, Metrics, Adoption and Automation 
 
 #### Target Scores
 
-When selecting your Target Scores, consider the relative levels of success you want to aim for across the various capabilities you have identified. Some capabilities may warrant a high target level of maturity, but others could be brand new disciplines that take time to perfect. What level are you aiming to reach in the foreseeable future? Setting a realistic short-term Target Score goal helps you to measure success against your own level of "done".
+When selecting your Target Scores, consider the relative levels of success you want to aim for across the various capabilities you have identified. Some capabilities may warrant a high target level of maturity, but others could be brand new disciplines that take time to perfect. What level are you aiming to reach in the foreseeable future? Setting a realistic short-term Target Score goal helps you to measure success against your own level of "done."
 
 ### Identifying Stakeholders & SMEs
 
 The target scope and target group will help to identify the relevant stakeholders and SMEs required. Remember that different capabilities may well necessitate different stakeholders and adjacent personas, and likely different targeted discussions in order to reach the most accurate answers for analysis. Record the stakeholder details and their evidence / data contributions within the assessment data, ensuring that the context is retained for future baseline analysis. Consider including your stakeholders when setting your Target Scores.
 
-## Assessment Stage 2 - Analysis
+## Assessment Stage 2: Measure
 
 Once the Target Scope, Target Group, Lens Weighting and Target Scores have been defined and Stakeholders / SMEs are identified, you are now fully prepared to execute an iteration of the FinOps Assessment. For each selected capability across the Target scope, you can now plan your conversations. Consider grouping capabilities covered by the same subset of SMEs / stakeholders where applicable.
 
@@ -237,7 +249,7 @@ Once you have these metrics, if you have chosen to assess multiple capabilities 
 
 ![Progress Graphs](/img/assessment/progress.png)
 
-## Assessment Stage 3 - Outcome
+## Assessment Stage 3: Outcome
 
 ### Trend Analysis & Emergent Patterns
 
@@ -253,7 +265,7 @@ From this data, you can now clearly identify areas for improvement and further d
 
 If you retain this data and repeat the assessment periodically using the same scope and criteria - you can easily highlight score changes on this grid, and trend improvements over time.
 
-## Assessment Stage 4 - Focus
+## Assessment Stage 4: Focus
 
 Now that you have analyzed the outcome data, you can then use all the data to guide your decisions to focus deeper into a specific area using the discovery questions you asked in the earlier "Gathering Evidence" section.
 
@@ -270,3 +282,7 @@ Firstly, you have no idea how effective the shared cost efforts work is, because
 ### Triage & Prioritization
 
 Consider the Capability Hierarchy as discussed earlier in the "Target Scope" section, and look at which of the current Capabilities within the focus group are going to be heavily leveraged in the next stage of the roadmap. Use this insight, alongside the analysis delivered in stage 3, and the context provided within the Capability Discovery section, to formulate your priorities for your next primary adoption acceleration focus.
+
+## Need Help?
+
+If you're a FinOps Foundation community member, you can [join many others on our Slack channel](https://finopsfoundation.slack.com/archives/C02QPBZBCJU) to discuss best practices and problem solving as it relates to setting up a FinOps Assessment for your organization. If you aren't a member yet, [we encourage you to join us](https://www.finops.org/membership/).
