@@ -29,7 +29,7 @@ product-overview:  |
 
   Infracost Cloud is our SaaS solution designed for team leads, managers, and FinOps leads. It provides an overview of all changes that are upcoming, who is making the change, what is being changed and how much that change will cost. This enables them to set expectations of bill increases, and also to take action before money has been spent. Making cloud cost management proactive instead of reactive after the money has been spent.
 
-product-video-url:
+product-video-url: "https://www.youtube.com/embed/8rzvnLPLy8o"
 
 # Related product or service resources, the titles will have associated URLs, e.g. product 
 product-resources:
