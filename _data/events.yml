@@ -136,16 +136,6 @@ items:
     image: event-images_thebes.png
     url: https://thebescloud.com/services/finops-training/nov-2022
 
-  - title: Partner FinOps Certified Practitioner Training 
-    date: 23rd-24th November
-    location: Virtual
-    label: 3rd Party
-    host: Thebes
-    type: 
-      - Virtual Event
-    image: event-images_thebes.png
-    url: https://thebescloud.com/services/finops-training/nov-2022
-
   - title: Navigating Financial Uncertainty with Critical FinOps Metrics 
     date: 14th September
     location: Virtual
