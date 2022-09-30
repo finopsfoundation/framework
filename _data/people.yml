@@ -571,6 +571,13 @@
   groups:
     - staff
 
+- name: Samantha White
+  job-title: Program Manager
+  linkedin-url: https://www.linkedin.com/in/samantha-white-57900563/
+  image: samantha.jpg
+  groups:
+    - staff
+
 - name: Erik Peterson
   company: Cloudzero
   linkedin-url: https://www.linkedin.com/in/erikpeterson/
