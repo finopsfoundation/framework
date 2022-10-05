@@ -1,6 +1,6 @@
 ---
 title: FinOps X '22 Keynotes, inc Apple, Google, Disney, Deloitte, Fidelity, Nubank, IBM, JP Morgan, & more
-description: FinOps X 2022 was the inaugural FinOps conference hosted by FinOps Foundation. We created a space for every individual who manages the value of cloud and provided enriching connections, professional advancement, and inspiration regardless of your FinOps knowledge level or know-how.
+description: Watch the full keynote of the FinOps Foundation's first FinOps X conference in Austin, Texas. Hear from Apple, Google, Disney, Deloitte, Fidelity, Nubank, IBM, JP Morgan, and more.
 date-added: Jun 2022
 type: Video
 source: Foundation Contribution
