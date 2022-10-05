@@ -6,6 +6,10 @@ type: Video
 source: Foundation Contribution
 label: 
 link: https://www.youtube.com/watch?v=mZZ3sxUijJk
+framework-capabilities:
+  - Unit Economics
+  - Cost Allocation
+  - Sustainability
 cloud-provider: 
   - Multi-Cloud
 permalink: /resources/not-here/

@@ -6,6 +6,9 @@ type: Video
 source: Foundation Contribution
 label: 
 link: https://www.youtube.com/watch?v=AY1R1dXyOhU
+framework-capabilities:
+  - Establishing FinOps Culture
+  - Managing Shared Cost
 cloud-provider: 
   - Multi-Cloud
 permalink: /resources/not-here/
