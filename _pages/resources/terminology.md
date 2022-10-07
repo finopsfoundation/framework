@@ -39,6 +39,48 @@ Vacancy
 Waste
 > Any usage or cost of resources which provide no value to an organization
 
+## Forecasting
+
+Terms and concepts found across this site, especially in their respective Working Group outputs:
+
+Amortized costs
+> Some cloud resources and reservations come with an upfront fee. The amortized cost of a resource takes this initial payment into account and distributes it out based on usage, attributing the prorated cost for each hour of billing.
+
+Budgeting
+> An estimate of revenues and expenses companies plan to spend within a time period. This allows for companies to continually track where they are financially.
+
+Capitalized expense (CapEx) versus operational expense (OpEx)
+> When you capitalize something, it becomes an asset of the company, whether or not it gets expensed within a specific period. The test you can apply is: if an organization writes a check to acquire something, does that acquisition benefit future periods? If it does, then it can be capitalized. If it benefits only the current period, then it’s an expense that is expended in this period with no future benefit, making it an operational expense. Capitalization causes total outlays to differ from expenses in a similar period, with the delta being that which is capitalized.
+
+Cost allocation
+> The process of splitting up a cloud bill and [associating the costs to each cost center](/framework/capabilities/cost-allocation/). It’s important to have teams understand how costs are being allocated, and to have a centralized, controlled, and consistent cost allocation strategy. See also, *[Shared Costs](/framework/capabilities/manage-shared-cloud-cost/)*.
+
+Cost estimation
+> The process of quantifying every resource that will be required to complete a project also used to help create budgets.
+
+Cost of goods sold (COGS)
+> Measures how many dollars of outlay it takes to generate revenues in a specific period. For example if a power company is trucking coal out of storage and into a power plant, it records the cost of the coal burned. That cost has no future benefit, so it’s going to be an expense that is directly traceable to revenue in that period, making it a COGS expense. The test of COGS is: are they directly expensed and directly related to revenues in the same period?
+
+> For a company that uses cloud, the COGS are the monthly cloud bill to operate its cloud workloads, salesperson commissions, and support costs. Notably, cloud has the most variable spend model and has a high potential for optimization. You can’t usually materially turn down your sales commissions or terminate your support people, which leaves optimizing your cloud spend without reducing revenue.
+
+COGS as capitalized assets
+> There’s potential to reclassify COGS as capital expenses when it comes to how expenses are used. Let’s say a power company takes some of their coal and uses it to make diamonds. If it burned coal to generate power that was sold for revenue, the company accounts for the cost of the coal as COGS. But if it creates diamonds out of the coal, and those diamonds aren’t sold in the period but instead are put into storage as inventory for future periods, the cost of the coal would then be capitalized as an asset. However, as soon as those diamonds are sold, then the cost of the coal switches back to COGS during the period of the sale.
+
+Forecasting, also Forecast
+> Forecasting is the practice of predicting future spending, usually based on a combination of historical spending and an evaluation of future plans, understanding how future cloud infrastructure and application lifecycle changes may impact current budgets and influence budget planning and future cloud investment decisions. This capability also involves collaboration between stakeholder teams like Finance, Engineering, and Executives to build agreed upon forecast models and KPIs from which to establish budgets that align with business goals.
+
+Fully-loaded costs
+> Fully-loaded costs are amortized, reflect the actual discounted rates a company is paying for cloud resources, equitably factor in shared costs, and are mapped to the business’s organizational structure. In essence, they show the actual costs of your cloud and what is driving them.
+
+Metrics
+> A method or formula for measuring something with the purpose of obtaining results.
+
+Unblended rates
+> Some resources are charged in decreasing rates the more you use them. This means you’re billed different rates for resources as you use more, or for longer periods during the month. By examining your bill, you can see that some resource costs are larger than others, even for the same type of resource or an identical resource. When the rates are presented this way, they’re called unblended.
+
+Workload
+> The amount of work performed or capable of being performed usually within a specific period. In forecasting, a workload can be a type of unit measurement such as “ 1 workload = 8GB RAM + 50GB Storage or a similar configuration.” it could also be “1 workload cost = Rate*5 hours + Cost of 3 EC2 t3nano + cost of 100GB storage.” Whatever a workload for the organization is, ensure it is defined. 
+
 ## Business Terminology
 Cloud Center of Excellence (CCOE)
 > Many companies refer to their FinOps team as a Cloud Center of Excellence or a Cloud Business Office.

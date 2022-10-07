@@ -7,6 +7,7 @@ module.exports = {
     './_layouts/**/*.{html,js,md}',
     './_links/**/*.{html,js,md}',
     './_pages/**/*.{html,js,md}',
+    './_resources/**/*.{html,js,md}',
     './_stories/**/*.{html,js,md}',
     './js/**/*.js',
     './_tools-services/**/*.{html,js,md}',
