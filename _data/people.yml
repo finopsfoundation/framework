@@ -265,6 +265,8 @@
   groups:
     - TAC
 
+
+
 - name: Amitai Rottem
   job-title: Product Manager
   company: Google
@@ -885,7 +887,7 @@
 - name: Alison McIntyre
   company: Lloyds Banking Group
   linkedin-url: https://www.linkedin.com/in/alison-mcintyre-06b790b/
-  image: alison-mcintyre.jpeg
+  image: alison-mcintyre.png
   groups:
     - forecasting
 
@@ -915,6 +917,13 @@
   company: Target
   linkedin-url: https://www.linkedin.com/in/alex-kadavil-71b9746/
   image: alex-kadavil.jpeg
+  groups:
+    - forecasting
+
+- name: Yogendra Joshi
+  company: Google
+  linkedin-url: https://www.linkedin.com/in/yogendrajoshi/
+  image: yogendra-joshi.png
   groups:
     - forecasting
 
