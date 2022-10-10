@@ -34,7 +34,7 @@ We created this working group to examine and better define cloud forecasting, su
 * [Different types of forecasting](#different-types-of-forecasting)
 * [Personas involved with forecasting](#personas-involved-with-cloud-forecasting)
 * [FinOps Forecasting Working Group Survey](#finops-forecasting-working-group-survey)
-* [Practitioner lessons learned](#practitioner-lessons)
+* [Practitioner lessons learned](#practitioner-lessons-learned)
 * [Forecasting KPIs](#forecasting-kpis)
 * [Forecasting tools](#forecasting-tools)
 * [Forecasting maturity matrix](#forecasting-maturity-matrix)
@@ -52,7 +52,7 @@ This playbook has been developed by the Forecasting Working Group (WG) and will 
 Forecasting was the second biggest challenge cited in the [2022 State Of FinOps survey](https://data.finops.org/). Organizations across the globe are realizing the impact of shifting their compute from a fixed, capital expense to a variable, operating expense. Finance teams are starting to realize that they’ve given up a lot of control over their technology spend, and are starting to demand more accurate forecasting.
 
 ### Looking for insights and takeaways?
-Jump straight to the [survey key findings](#survey-key-takeaways) or [practitioner lessons learned](#practitioner-lessons) to quickly access the key insights. We recommend you read the entire playbook for the full context and understanding.
+Jump straight to the [survey key findings](#survey-key-takeaways) or [practitioner lessons learned](#practitioner-lessons-learned) to quickly access the key insights. We recommend you read the entire playbook for the full context and understanding.
 
 ## What is forecasting for FinOps? 
 If nothing else can be taken away from this playbook, let it be that “Good forecasts drive good business decisions.”  
@@ -71,8 +71,10 @@ The answer to this may be unique to your organization; a government or not for p
 
 Once you know your "why" this will help you decide how much effort you are willing to spend on the activity. 
 
+You'll read a number of these exerpts from survey participants and interviewees in these callout boxes throughout the playbook:
+
 <div class="flow-root bg-green-500 rounded-lg px-6 border-solid border-gray-100 border">
-<p class="py-6 text-base text-white"><em>At a recent meetup event a large financial institution described their driver was primarily for the management of their minimum spend commitments and since that was key to them it was worth a considerable amount of effort to set up and create a repeatable process. They also acknowledged that as much as this was the key reason a lot of the above reasons also applied making the effort even more worthwhile.</em></p>
+<p class="text-base text-white"><em>At a recent meetup event a large financial institution described their driver was primarily for the management of their minimum spend commitments and since that was key to them it was worth a considerable amount of effort to set up and create a repeatable process. They also acknowledged that as much as this was the key reason a lot of the above reasons also applied making the effort even more worthwhile.</em></p>
 </div>
 
 It is often said that forecasting is an art. An art any company or business which wants to be successful has to undergo in some form or fashion. Whether it is predicting upcoming sales, upcoming spend, upcoming usage or workloads, companies rely on forecasting to obtain a rough picture of their business in the future. There are a couple of beautiful quotes we love when it comes to forecasting:
@@ -85,8 +87,8 @@ While Neil Bohr’s quote keeps our aspirations of accuracy in check, the other 
 
 Our survey results told us that as organizations mature there are broader benefits of having a forecasting process which include more of the above examples.In the early stages the reasons for forecasting were simpler: budgetary and overall cloud spend position.
 
-<div class="flow-root bg-purple rounded-lg px-6 border-solid border-gray-100 border">
-<p class="py-6 text-base text-white"><em>Several organizations shared a view as to why forecasting is important: only a small portion of revenue goes into innovation, the type of projects that will create differentiating factors that give the business a competitive advantage. And cloud spend is usually part of the same budget. Forecasting over or under actual spend takes away from potential innovation opportunities. This makes cloud forecasting an important activity to help with innovation and resident growth.</em></p>
+<div class="flow-root bg-green-500 rounded-lg px-6 border-solid border-gray-100 border">
+<p class="text-base text-white"><em>Several organizations shared a view as to why forecasting is important: only a small portion of revenue goes into innovation, the type of projects that will create differentiating factors that give the business a competitive advantage. And cloud spend is usually part of the same budget. Forecasting over or under actual spend takes away from potential innovation opportunities. This makes cloud forecasting an important activity to help with innovation and resident growth.</em></p>
 </div>
 
 Once there is a why, start delving into the how. There are several trends and themes that have arisen in cloud forecasting which can help direct how to approach cloud forecasting outlined below.
@@ -121,13 +123,14 @@ Our survey data showed that forecasts mean different things to different people 
 
 Forecasting is difficult. In order to set yourself up for success, begin your journey with small, achievable goals which can be built on over time as you mature, continually improving as you go. Even if you already have a mature forecasting process in place, it is always beneficial to remind yourself of your ‘why’.
 
-<div class="flow-root bg-blue rounded-lg px-6 border-solid border-gray-100 border">
-<p class="py-6 text-base text-white"><em>A large health insurance company stated 'We assumed while moving to Cloud that businesses are aware / informed how to forecast - estimate workloads, they are not.'</em></p></div>
+<div class="flow-root bg-green-500 rounded-lg px-6 border-solid border-gray-100 border">
+<p class="text-base text-white"><em>A large health insurance company stated 'We assumed while moving to Cloud that businesses are aware / informed how to forecast - estimate workloads, they are not.'</em></p></div>
 
 ## Different types of forecasting  
 Sometimes people refer to different types of forecasting where others refer to different ways you can forecast, for simplicity we will describe what you might want to consider. It is important to understand that you need to learn what works best for you and your organization. Some organizations may use a combination of the below instead of one method only. 
 
-> A software company we talked to had impressive forecast accuracy basing their forecasts on a % of revenue, they had enough historic data to know that there was a direct correlation. This made cloud consumption forecasting quite simple. In this example, the responsibility for forecasting fell to the team that forecasts revenue since their FinOps forecasting is an extrapolation of that.
+<div class="flow-root bg-green-500 rounded-lg px-6 border-solid border-gray-100 border">
+<p class="text-base text-white"><em>A software company we talked to had impressive forecast accuracy basing their forecasts on a % of revenue, they had enough historic data to know that there was a direct correlation. This made cloud consumption forecasting quite simple. In this example, the responsibility for forecasting fell to the team that forecasts revenue since their FinOps forecasting is an extrapolation of that.</em></p></div>
 
 ### Simple forecasting
 This is the most simple of methods of forecasting (sometimes referred to as [naive forecasting](https://en.wikipedia.org/wiki/Forecasting)). It assumes that the spend for the next period will be the same as the last period. If you have no forecasts in place, this is where to start to have something to work from. It is unlikely to give a good level of accuracy over a longer period of time because most businesses and environments are continually evolving.
@@ -212,18 +215,19 @@ The graphs below are taken from the working group survey and show the levels tha
 * Account / Project / Subscription (For every account/project/subs we have a forecast)
 * Organization Program / Project (Forecast for a defined solution delivery)
 
-<span style="color:red;font-weight:bold;">*** NEED FINAL CHART: AT WHAT LEVEL OF GRANULARITY DO YOU FORECAST?</span>
+<img src="/img/forecasting/data/forecast-granularity.png" style="margin: auto;" alt="A chart explaining granularity of cloud forecasting">
 
 There is no right option but consider the reasons you want a forecasting process, what data you would want to present when the process is up and running, and the overhead of running the process. 
 
-> A UK bank that set up the forecasting process from scratch decided to create the forecast at the subscription / project / account level. The reason for this was that the data could then be sliced and diced in any way they chose, whether it was by application or business area or development environment. The overhead when doing it manually is higher the more granular the forecast, data can always be consolidated but drilling down is challenging and time consuming if the data does not exist.
+<div class="flow-root bg-green-500 rounded-lg px-6 border-solid border-gray-100 border">
+<p class="text-base text-white"><em>A UK bank that set up the forecasting process from scratch decided to create the forecast at the subscription / project / account level. The reason for this was that the data could then be sliced and diced in any way they chose, whether it was by application or business area or development environment. The overhead when doing it manually is higher the more granular the forecast, data can always be consolidated but drilling down is challenging and time consuming if the data does not exist.</em></p></div>
 
 ### Forecasting frequency
 Frequency of forecasting means how regularly your forecasts are refreshed, reviewed and updated. This is another choice for you to make based on why you need forecasts, for example if your "why" is simply to inform the budget cycle you might choose to carry out a forecast process once or perhaps twice a year to align to the budget cycle. 
 
 The survey responses to this question were:
 
-<span style="color:red;font-weight:bold;">*** NEED FINAL CHART: HOW OFTEN ARE YOUR FORECASTS UPDATED?</span>
+<img src="/img/forecasting/data/forecast-updates.png" style="margin: auto;" alt="A chart explaining frequency of updating cloud forecasting">
 
 For the run respondents that chose “Other,” the detail was that they were on-demand / live time. 
 
@@ -240,7 +244,7 @@ In the same vein as - forecasting for net new workloads is difficult, the furthe
 
 The survey responses to this question were:
 
-<span style="color:red;font-weight:bold;">*** NEED FINAL CHART: WHAT IS THE TIME PERIOD OF YOUR FORECAST?</span>
+<img src="/img/forecasting/data/forecast-period.png" style="margin: auto;" alt="A chart explaining time period of cloud forecasting">
 
 This shows that organizations mature on their forecasting journey they look to forecast for a longer time period. Unlike granularity of forecast where you benefit from doing your thinking up front to avoid rework, this is an example of how you can start simple and evolve as the process matures.
 
@@ -249,35 +253,35 @@ This shows that organizations mature on their forecasting journey they look to f
 ## Survey key takeaways
 Here are some key takeaways from the survey results, in addition to the analysis above.
 
-<span style="color:red;font-weight:bold;">*** NEED FINAL CHART: COMBINED MATURITY FOR WHAT IS YOUR ESTIMATED TOTAL ANNUAL CLOUD SPEND?</span>
+<img src="/img/forecasting/data/forecast-annual.png" style="margin: auto;" alt="A chart explaining annual estimated cloud spending from survey respondents">
 
 - Many respondents with substantial spend in the Crawl maturity, while no Crawl maturity reported within the $500M to $1B annual cloud spend range. This correlates a theory that as spend increases, so does the need and priority of having a more mature FinOps practice in place to support.
 
-<span style="color:red;font-weight:bold;">*** NEED FINAL CHART: COMBINED MATURITY FOR WHAT IS YOUR DRIVER FOR DOING A FORECAST?</span>
+<img src="/img/forecasting/data/forecast-driver.png" style="margin: auto;" alt="A chart explaining main driver of cloud forecasting">
 
 - Forecasts are driven by ad-hoc requests within the Crawl maturity e.g.requests from Finance or vendor negotiations, while more mature practices have forecasting integrated with other business processes e.g. budgeting and optimizations. Part of growing in maturity involves getting away from unwieldy tasks and instead moving towards repeatable and consistent reporting and forecasts.
 
-<span style="color:red;font-weight:bold;">*** NEED FINAL CHART: COMBINED MATURITY FOR HOW OFTEN ARE YOUR FORECASTS UPDATED?</span>
+<img src="/img/forecasting/data/forecast-updates.png" style="margin: auto;" alt="A chart explaining how often cloud forecasting is updated by maturity of practitioners">
 
 - More mature respondents updated forecasts more frequently and have longer periods for forecasts. Individual forecasts cater to specific purposes e.g. accruals, budgeting, contract commitments.
 
-<span style="color:red;font-weight:bold;">*** NEED FINAL CHART: COMBINED MATURITY FOR HOW ACCURATE IS FORECASTING COMPARED TO ACTUALS?</span>
+<img src="/img/forecasting/data/forecast-actuals.png" style="margin: auto;" alt="A chart comparing actuals to cloud forecasting">
 
 - Our findings also emphasize that the accuracy of your forecasts become more important as the practice matures.
 
-<span style="color:red;font-weight:bold;">*** NEED FINAL CHART: COMBINED MATURITY FOR AT WHAT LEVEL OF GRANULARITY DO YOU FORECAST?</span>
+<img src="/img/forecasting/data/forecast-granularity.png" style="margin: auto;" alt="A chart explaining granularity of cloud forecasting">
 
 - There is no one size fits all when it comes to forecast granularity although more mature practices generally forecast at a lower level of granularity.
 
-<span style="color:red;font-weight:bold;">*** NEED FINAL CHART: COMBINED MATURITY FOR WHEN CREATING A CLOUD FORECAST, DO YOU GATHER INFO FROM OTHER...?</span>
+<img src="/img/forecasting/data/forecast-info.png" style="margin: auto;" alt="A chart showing where respondents gather info to create cloud forecasts">
 
 - In order to forecast at any level of maturity, data from multiple sources needs to be aggregated. The type of source will differ between organizations.
 
-<span style="color:red;font-weight:bold;">*** NEED FINAL CHART: COMBINED MATURITY FOR WHAT METHODS DO YOU UTILIZE FOR FORECASTING?</span>
+<img src="/img/forecasting/data/forecast-methods.png" style="margin: auto;" alt="A chart explaining the various methods that respondents use to create cloud forecasts">
 
 - Extrapolation is the most frequently used forecasting method followed by a variety of in-house and 3rd party tooling. Forecast numbers can be list or public, enterprise discounted, or net pricing.
 
-<span style="color:red;font-weight:bold;">*** NEED FINAL CHART: COMBINED MATURITY FOR WHAT HAPPENS WHEN ACTUALS EXCEED BUDGETS?</span>
+<img src="/img/forecasting/data/forecast-exceeds.png" style="margin: auto;" alt="A chart explaining what respondents do when cloud forecasts exceed budget">
 
 - Budget overruns are surfaced to workload owners who decide how to remediate. Optimizations are often chosen to bring spending on track.
 
@@ -285,29 +289,38 @@ Additional insights include:
 - Stakeholder buy-in is critical for success e.g. Finance, engineering leadership, and engineers
 - Estimation and changes in estimates of new workloads and new technologies being used in the cloud e.g., security or network enhancement features as well as usage optimization efforts is challenging
 
-> An Insurance company “During contract renewals, we work closely with workload owners & department leaders to get a holistic view of spend trends for the next 3-5 years. We have not been fairly accurate at enterprise level (only 10% variance)  but we see large variance at department level.”
+<div class="flow-root bg-green-500 rounded-lg px-6 border-solid border-gray-100 border">
+<p class="text-base text-white"><em>An Insurance company “During contract renewals, we work closely with workload owners & department leaders to get a holistic view of spend trends for the next 3-5 years. We have not been fairly accurate at enterprise level (only 10% variance), but we see large variance at department level.”</em></p></div>
 
 Build on your data sets by determining granularity, frequency, and forecasting period to grow your forecast efforts. 
 
-  <div class="bg-grey p-10">
-  <h3 id="practitioner-lessons" class="">Practitioner Lessons Learned</h3>
-  <p>Eleven follow-up interviews were conducted. The following are the lessons learned shared from these interviews.</p>
+<div id="practitioner-lessons-learned" class="flow-root bg-blue rounded-lg px-6 border-solid border-gray-100 border">
+  <h3 class="text-2xl text-white">Practitioner Lessons Learned</h3>
 
-  <p>When starting to implement Cloud Forecasting processes, think of forecasting as a journey. It will take considerable time to prepare data sources for ingestion and get everyone onboard and involved. Specifically, some forecasting deliverables rely on engineering leaders and engineers to contribute. The FinOps team will need their support as well as support from executives and Finance.</p>
+  <p class="text-base text-white">Eleven follow-up interviews were conducted. The following are the lessons learned shared from these interviews.</p>
 
-  <p>Whether a manual, trend-based, or driver-based methodology is used, the forecasting algorithm is just one of the sources. Additionally, estimates for new workloads and new technologies adopted in the cloud e.g., security or network enhancement features as well as usage optimization efforts are needed. </p>
-  
-  <p>The FinOps team will need the support and collaboration from application owners, engineering leadership, and engineers. When building annual forecasts, it is recommended to build-in a reasonable management reserve or buffer to prevent unnecessary churn later when single digit percentage overruns materialize.</p>
+  <h4 class="text-xl text-white">Forecasting is a journey</h4>
+  <p class="text-base text-white">When starting to implement Cloud Forecasting processes, think of forecasting as a journey. It will take considerable time to prepare data sources for ingestion and get everyone onboard and involved. Specifically, some forecasting deliverables rely on engineering leaders and engineers to contribute. The FinOps team will need their support as well as support from executives and Finance.</p>
 
-  <p>Any forecasting system will experience issues when fitting trends or drivers to workloads. Not all workloads grow by a floating-point number, and in extreme cases these can compound to substantial Dollar numbers that cannot be ignored.Having a buffer will help smooth these issues until the FinOps team can remediate.</p>
+  <h4 class="text-xl text-white">Forecasting methods are one source out of many</h4>
+  <p class="text-base text-white">Whether a manual, trend-based, or driver-based methodology is used, the forecasting algorithm is just one of the sources. Additionally, estimates for new workloads and new technologies adopted in the cloud e.g., security or network enhancement features as well as usage optimization efforts are needed. </p>
 
-  <p>When engaging application owners, engineering leadership, and engineers the FinOps team needs to do everything in their power to make this experience as delightful as possible as more support and collaboration is required in the future.</p>
+  <h4 class="text-xl text-white">FinOps and forecasting success requires cross-team collaboration</h4>
+  <p class="text-base text-white">The FinOps team will need the support and collaboration from application owners, engineering leadership, and engineers. When building annual forecasts, it is recommended to build-in a reasonable management reserve or buffer to prevent unnecessary churn later when single digit percentage overruns materialize.</p>
 
-  <p>It is not advisable to present forecasting partners with an empty spreadsheet. Provide as much data as is available in a format that is easily digestible. Most of the FinOps partners have existing roadmaps and deliverables and the FinOps team needs to be respectful of their time to ensure future support.</p>
+  <h4 class="text-xl text-white">Expect growing pains and turbulence on the path to forecasting</h4>
+  <p class="text-base text-white">Any forecasting system will experience issues when fitting trends or drivers to workloads. Not all workloads grow by a floating-point number, and in extreme cases these can compound to substantial Dollar numbers that cannot be ignored.Having a buffer will help smooth these issues until the FinOps team can remediate.</p>
 
-  <p>Collaboration is the engine of the practice of FinOps, enabling continuous improvement and fast decision making.</p>
+  <h4 class="text-xl text-white">Delight teammates to encourage successful collaboration</h4>
+  <p class="text-base text-white">When engaging application owners, engineering leadership, and engineers the FinOps team needs to do everything in their power to make this experience as delightful as possible as more support and collaboration is required in the future.</p>
 
-  <p>Cloud Forecasting should not be perceived as a tool in a spreadsheet. The FinOps partners need to understand why the process is important and what their role is. Many partners will have knowledge gaps or will need clarification e.g., are forecasts in list or public, enterprise discounted, or net pricing. Proactively reach out to the FinOps partners and ask how you can assist in the process. Collaborate and engage to ensure best outcomes.</p>
+  <p class="text-base text-white">It is not advisable to present forecasting partners with an empty spreadsheet. Provide as much data as is available in a format that is easily digestible. Most of the FinOps partners have existing roadmaps and deliverables and the FinOps team needs to be respectful of their time to ensure future support.</p>
+
+  <p class="text-base text-white">Collaboration is the engine of the practice of FinOps, enabling continuous improvement and fast decision making.</p>
+
+  <h4 class="text-xl text-white">Use cloud forecasting as a FinOps coaching opportunity</h4>
+  <p class="text-base text-white">Cloud Forecasting should not be perceived as a tool in a spreadsheet. The FinOps partners need to understand why the process is important and what their role is. Many partners will have knowledge gaps or will need clarification e.g., are forecasts in list or public, enterprise discounted, or net pricing. Proactively reach out to the FinOps partners and ask how you can assist in the process. Collaborate and engage to ensure best outcomes.</p>
+  <br>
   </div>
 
 ## Forecasting KPIs
@@ -326,9 +339,11 @@ It is important to note that while this maps to the most advanced level of matur
 
 *Note, these KPIs are not exhaustive but meant to be some starting KPIs to consider using within your organization. 
 
-> A software provider “We would love to focus on forecast accuracy as much as the topline accuracy.”
+<div class="flow-root bg-green-500 rounded-lg px-6 border-solid border-gray-100 border">
+<p class="text-base text-white"><em>A practitioner from a software provider: “We would love to focus on forecast accuracy as much as the topline accuracy.”</em></p></div>
 
-> An energy company: While our forecasts are very accurate (up to 95%), a struggle we have encountered is effectively communicating what level of confidence we have in the forecasting that we produce.
+<div class="flow-root bg-green-500 rounded-lg px-6 border-solid border-gray-100 border">
+<p class="text-base text-white"><em>A practitioner from an energy company: While our forecasts are very accurate (up to 95%), a struggle we have encountered is effectively communicating what level of confidence we have in the forecasting that we produce.</em></p></div>
 
 ## Forecasting tools
 There are many tools that can be used for cloud forecasting and choosing the correct one can be a daunting task. It is important to consider what your goals are for your cloud forecast and what is important to your organization. To support this exercise, we have compiled a list of questions to ask when researching a tool pertaining to forecasting. Most companies will want to research a tool that performs more than forecasting, which is outside of the scope of this section.  
@@ -380,7 +395,7 @@ Take your pick from these to help you consider what is important and what you mi
 ## Conclusion
 There is no doubt that cloud forecasting can be complex and varied based on industry, organization, maturity, and many other factors. There is no one simple answer on how to do it but the playbook should give you enough food for thought to consider what is relevant and of interest to you and your organization. With your help it can continue to evolve and become an even better resource. Come and join the conversation in the Forecasting Chat group or get involved in the next sprints of the Working group
 
-Final thoughts - know what your ‘why’ is and use it as a guiding principle when making decisions about your forecasting approach and process. 
+Final thoughts - know what your "why" is and use it as a guiding principle when making decisions about your forecasting approach and process. 
 
 We like to think that good forecasting takes effort but is worth it!
 
