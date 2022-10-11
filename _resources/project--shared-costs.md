@@ -31,7 +31,6 @@ Every organization has [shared IT costs](/framework/capabilities/manage-shared-c
 * [Who might care about shared cost allocation?](#who-cares)
 * [How to take on this challenge?](#challenge)
 * [How do you know you're on the right track?](#kpis)
-* [Real world stories](#stories)
 * [Acknowledgements](#acknowledgements)
 
 <span id="begin"></span>
@@ -313,13 +312,6 @@ We’ve worked out some milestones that we think make sense at the Crawl, Walk, 
 </tr>
 </tbody>
 </table>
-
-<span id="stories"></span>
-
-## Real World Stories
-Here is a collection of stories from FinOps teams of all shapes, sizes, cloud utilization level, and FinOps maturity. Read on to see how other teams take on the challenge of identifying shared costs at scale.
-
-{% include story-loop.md %}
 
 <span id="acknowledgements"></span>
 
