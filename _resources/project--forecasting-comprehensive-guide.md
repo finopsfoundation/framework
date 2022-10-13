@@ -46,7 +46,7 @@ We created this working group to examine and better define cloud forecasting, su
 Welcome to the first iteration of the Forecasting Playbook. This playbook is intended to provide guidance around cloud forecasting. It is important to note that any forecasts for cloud should be approached with an eye toward measuring a larger Total Cost of Ownership (TCO). Cloud resources are an ever-increasing enabler of these processes as accurate forecasting of cloud resource usage helps to align resource allocation to other capabilities.
 
 ### Created by and for the FinOps community
-This playbook has been developed by the Forecasting Working Group (WG) and will continue to evolve and grow in future sprints. The initial working group created a great initial resource, back in 2021, that can be found [here](https://www.finops.org/projects/forecasting-cloud-costs/). We suggest you read that asset first, as well as the [FinOps Framework resource on Cloud Forecasting](https://www.finops.org/framework/capabilities/forecasting) as they both deliver great overviews on forecasting before you dig a little deeper with this newer playbook.
+This playbook has been developed by the Forecasting Working Group (WG) and will continue to evolve and grow in future sprints. The initial working group created a great  resource, back in 2021, that can be found [here](https://www.finops.org/projects/forecasting-cloud-costs/). We suggest you read that asset first, as well as the [FinOps Framework resource on Cloud Forecasting](https://www.finops.org/framework/capabilities/forecasting) as they both deliver great overviews on forecasting before you dig a little deeper with this newer playbook.
 
 ### Responding to insights from the State of FinOps
 Forecasting was the second biggest challenge cited in the [2022 State Of FinOps survey](https://data.finops.org/). Organizations across the globe are realizing the impact of shifting their compute from a fixed, capital expense to a variable, operating expense. Finance teams are starting to realize that they’ve given up a lot of control over their technology spend, and are starting to demand more accurate forecasting.
@@ -79,11 +79,15 @@ You'll read a number of these exerpts from survey participants and interviewees 
 
 It is often said that forecasting is an art. An art any company or business which wants to be successful has to undergo in some form or fashion. Whether it is predicting upcoming sales, upcoming spend, upcoming usage or workloads, companies rely on forecasting to obtain a rough picture of their business in the future. There are a couple of beautiful quotes we love when it comes to forecasting:
 
-> It is difficult to predict, especially the future. - Niels Bohr
+> It is difficult to predict, especially the future.
+
+*- Niels Bohr*
 
 While Neil Bohr’s quote keeps our aspirations of accuracy in check, the other quote from Paul Saffo is much more instructive.
 
-> The goal of forecasting is not to predict the future but to tell you what you need to know to take meaningful action in the present. - Paul Saffo
+> The goal of forecasting is not to predict the future but to tell you what you need to know to take meaningful action in the present.
+
+*- Paul Saffo*
 
 Our survey results told us that as organizations mature there are broader benefits of having a forecasting process which include more of the above examples.In the early stages the reasons for forecasting were simpler: budgetary and overall cloud spend position.
 
@@ -107,7 +111,7 @@ This is something done automatically by cost management tools based on historic 
 It’s natural for business leaders to ask simple questions like “what if we pull in completion of Project A while deferring Project B”. This usually leads to several parallel calculations for forecasting, each representing a different scenario. Cloud Cost Management vendors provide a way to get endless “estimations” by passing future usage patterns, none representing accurate “prediction” but more a scenario modeling. Some of these may in future may be finalized as the “go to plan” while others saved for future reference.
 
 #### Assessing the potential for reservations and commitments
-Before you commit to a reservation you would want to understand the future spend plans to allow you to reserve at the right level
+Before you commit to a reservation you would want to understand the future spend plans to allow you to reserve at the right level.
 
 #### Migration Assessment
 This is similar to What If Analysis discussed above but again the objective may be to choose the cloud vendor through competitive analysis OR to decide if we want to move to cloud now or later.
@@ -153,8 +157,6 @@ Using business KPIs to influence the consumption forecast. The forecast reflects
 Each of these types of forecasts are like foundational layers helping a baseline forecast to be created.
 
 Driver based forecasting is the type that you should expect to continually review and improve. The process of looking at the accuracy figures allows all involved in the process to learn, what did we miss last month, why did we spend more / less. Remember that getting to 100% accuracy is unlikely but you want to aim to get as close as you can with the effort available. Every forecasting review session should be a learning process and as you do it more your list of things to consider and bake into your baseline forecast grows. 
-
-In many cases, once organizations mature, they may end up using two or more types of forecasting. For example growth to existing applications may be forecasted using Trend method whereas any net-new workloads may be forecasted using Driver method.
 
 You could consider that once you have worked up the above you have a good **baseline forecast** and you would then want to explore the next layers of complexity.
 
@@ -215,8 +217,8 @@ We will share the results later in the playbook, but we wanted to thank all thos
 What level of granularity should you forecast at? How granular should forecasts be? This is challenging to give a definitive answer because every organization is different. This is an important decision to make before you dive in, if you set your forecasting process at too high a level of granularity and then need it broken down to a lower level this will require a full rework. Forecasting at the lowest level (perhaps subscription / account / project) gives you the ability to slice and dice the resulting forecasts to cover the majority of views you would need. This however comes at a cost, it takes more effort the lower level of granularity.
 
 The graphs below are taken from the working group survey and show the levels that respondents forecast at based on their chosen maturity. The choices given were: 
-* Cloud vendor level ( I plan to spend X on each CSP)
-* Business Unit (each operating unit plans to spend Y))
+* Cloud vendor level (I plan to spend X on each CSP)
+* Business Unit (each operating unit plans to spend Y)
 * Business Application / product (for each application / product we plan to spend Z)
 * Account / Project / Subscription (For every account/project/subs we have a forecast)
 * Organization Program / Project (Forecast for a defined solution delivery)
@@ -275,7 +277,7 @@ Here are some key takeaways from the survey results, in addition to the analysis
 
 <img src="/img/forecasting/data/forecast-granularity.png" style="margin: auto;" alt="A chart explaining granularity of cloud forecasting">
 
-- There is no one size fits all when it comes to forecast granularity although more mature practices generally forecast at a lower level of granularity.
+- There is no one-size-fits-all when it comes to forecast granularity although more mature practices generally forecast at a lower level of granularity.
 
 <img src="/img/forecasting/data/forecast-info.png" style="margin: auto;" alt="A chart showing where respondents gather info to create cloud forecasts">
 
@@ -290,11 +292,11 @@ Here are some key takeaways from the survey results, in addition to the analysis
 - Budget overruns are surfaced to workload owners who decide how to remediate. Optimizations are often chosen to bring spending on track.
 
 Additional insights include:
-- Stakeholder buy-in is critical for success e.g. Finance, engineering leadership, and engineers
-- Estimation and changes in estimates of new workloads and new technologies being used in the cloud e.g., security or network enhancement features as well as usage optimization efforts is challenging
+- Stakeholder buy-in is critical for success e.g. Finance, engineering leadership, and engineers.
+- Estimation and changes in estimates of new workloads and new technologies being used in the cloud e.g., security or network enhancement features as well as usage optimization efforts are challenging.
 
 <div class="flow-root bg-green-500 rounded-lg px-6 border-solid border-gray-100 border">
-<p class="text-base text-white"><em>An Insurance company “During contract renewals, we work closely with workload owners & department leaders to get a holistic view of spend trends for the next 3-5 years. We have not been fairly accurate at enterprise level (only 10% variance), but we see large variance at department level.”</em></p></div>
+<p class="text-base text-white"><em>An Insurance company “During contract renewals, we work closely with workload owners & department leaders to get a holistic view of spend trends for the next 3-5 years. We have been fairly accurate at enterprise level (only 10% variance), but we see large variance at department level.”</em></p></div>
 
 Build on your data sets by determining granularity, frequency, and forecasting period to grow your forecast efforts. 
 
@@ -336,8 +338,8 @@ It is important to note that while this maps to the most advanced level of matur
 |                                        **KPI**                                       | **Level 0** | **Level 1** |         **Level 2**        |     **Level 3**     |   **Level 4**  |
 |:------------------------------------------------------------------------------------:|:-----------:|:-----------:|:--------------------------:|:-------------------:|:--------------:|
 | Frequency of forecast updates                                                        |     N/A     |    Yearly   | every 6 months / quarterly | Monthly / bi-weekly | Near real time |
-| Top Line Forecast Spend Variance Accuracy (Forecast v Actuals) over a period of time |     >20%    |     <20%    |            <15%            |         <12%        |       <5%      |
-| Category Forecast Spend Variance Accuracy (Forecast v Actuals) over a period of time |     >20%    |     <20%    |            <15%            |         <12%        |       <5%      |
+| Top Line Forecast Spend Variance (Forecast v Actuals) over a period of time |     >20%    |     <20%    |            <15%            |         <12%        |       <5%      |
+| Category Forecast Spend Variance (Forecast v Actuals) over a period of time |     >20%    |     <20%    |            <15%            |         <12%        |       <5%      |
 | Commitment based discount coverage                                                   |     <10%    |   10 - 20%  |          21 - 50%          |       51 - 80%      |      >80%      |
 | % of tagging compliance                                                              |     <10%    |   10 - 20%  |          21 - 50%          |       51 - 80%      |      >80%      |
 
@@ -355,12 +357,12 @@ There are many tools that can be used for cloud forecasting and choosing the cor
 > A utility company: Don’t [overly] rely on tools for forecasting because it doesn’t know what’s coming up/any new workloads.
 
 * Granularity - the ability to provide forecasts at various granular levels (account, team, types of resources)
-* Handling of special (known) events - e.g. sales periods, holidays, product releases.
-* Adaptivity - ability to automatically adapt to changes in cloud spend behavior.
-* Handling of trends and other patterns (not just seasonality) automatically.
-* Handling of cost data that is updated in delay.
+* Handling of special (known) events - e.g. sales periods, holidays, product releases
+* Adaptivity - ability to automatically adapt to changes in cloud spend behavior
+* Handling of trends and other patterns (not just seasonality) automatically
+* Handling of cost data that is updated in delay
 * Time period outlook (1 month, 3 months, 1 year, 3 years?) 
-* Leveraging influencing KPIs on cost - e.g., # of MAU for an app, # of purchases (e-commerce) --- to create more accurate forecasts.
+* Leveraging influencing KPIs on cost - e.g., # of MAU for an app, # of purchases (e-commerce) --- to create more accurate forecasts
 * Automation / manual adjustments
 * Tagging capabilities and customizations
 
@@ -397,7 +399,7 @@ Take your pick from these to help you consider what is important and what you mi
 | Forecast / Budget to Actual Feedback Loop | None or annual but not well established | Annual with the largest workloads reviewed monthly                     | Monthly reviews and real-time budget overrun alerts   |
 
 ## Conclusion
-There is no doubt that cloud forecasting can be complex and varied based on industry, organization, maturity, and many other factors. There is no one simple answer on how to do it but the playbook should give you enough food for thought to consider what is relevant and of interest to you and your organization. With your help it can continue to evolve and become an even better resource. Come and join the conversation in the Forecasting Chat group or get involved in the next sprints of the Working group
+There is no doubt that cloud forecasting can be complex and varied based on industry, organization, maturity, and many other factors. There is no one simple answer on how to do it but the playbook should give you enough food for thought to consider what is relevant and of interest to you and your organization. With your help it can continue to evolve and become an even better resource. Come and join the conversation in the Forecasting Chat group or get involved in the next sprints of the Working Group.
 
 Final thoughts - know what your "why" is and use it as a guiding principle when making decisions about your forecasting approach and process. 
 
@@ -448,6 +450,8 @@ The FinOps Foundation extends a huge thank you to the members of this Working Gr
 {% endfor %}
 </div>
 
+Also, we'd like to thank our TAC Liason, William Bryant of Apple.
+
 ### Thank our supporters and interviewees
 Thank you to all of our survey responders and interviewers, without your insights this playbook would not be what it is today!
 
@@ -457,3 +461,6 @@ Thank you to all of our survey responders and interviewers, without your insight
 * Max Audet, Coveo
 * Venkat Karpuram, Broadcom
 * Michelle Cleland
+* Brad Payne
+
+Lastly, a big thank you to the F2 support team for helping us bring our work to life: Ashley Hromatko (F2 Staff Sponsor), Samantha White (Program Management), Tom Sharpe (Design), and Andrew Nhem (Content).
