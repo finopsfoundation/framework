@@ -243,3 +243,12 @@
   description: You can exchange your existing licenses for discounted rates on Azure SQL Database and Azure SQL Managed Instance. Save up to 30%. For new databases, during creation, select Configure database on the Basics tab and select the option to Save Money. For existing databases, select Compute + Storage in the Settings menu and select the option to Save Money.
   related-url: https://docs.microsoft.com/en-us/azure/azure-sql/azure-hybrid-benefit
   code-url: 
+  
+- cloud-provider: AWS
+  cloud-product: Network
+  cloud-service-name: VPC Endpoint
+  type: waste
+  savings-potential: $$
+  description: Networking savings can be achieved by eliminating unused VPC PrivateLink Endpoints. Although Endpoints are secure and relatively cheaper, they are not free. Sometimes organizations’ networking teams create multiple Endpoints in advance thinking that app teams might need them. Unfortunately once created, it’s difficult to find whether an Endpoint is in use or not. So, either prevent creating unnecessary Endpoints unless explicitly needed by teams; or check VPC flow-logs frequently to identify unused ones and remove them.
+  related-url: https://calculator.aws/#/addService/VPC
+  code-url: 

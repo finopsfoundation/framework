@@ -7,9 +7,9 @@ items:
     host: FinOps Foundation
     type: Virtual Event
     image: event-images_summit.png
-    url: 
+    url: https://go.finops.org/finops-summit-october
 
-  - title: November FinOps Summit (APAC)
+  - title: November APAC FinOps Community Call
     date: 17th November
     location: Virtual
     label: FinOps Foundation
@@ -97,26 +97,6 @@ items:
       - Virtual Event
     image: event-images_thebes.png
     url: https://thebescloud.com/services/finops-training/nov-2022
-
-  - title: Nordcloud FinOps Meetup
-    date: 4th October
-    location: Vienna
-    label: 3rd Party
-    host: 
-    type: 
-      - In-Person
-    image: event-images_nordcloud.png
-    url: https://nordcloud.com/finops-meet-up/
-
-  - title: Nordcloud FinOps Meetup
-    date: 5th October
-    location: Munich
-    label: 3rd Party
-    host: 
-    type: 
-      - In-Person
-    image: event-images_nordcloud.png
-    url: https://nordcloud.com/finops-meet-up/
 
   - title: Nordcloud FinOps Meetup
     date: 19th October
