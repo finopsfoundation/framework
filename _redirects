@@ -1,60 +1,20 @@
 https://framework.finops.org/* https://www.finops.org/:splat 301!
-/finops-foundation-values/ /principles/
-/events/ /resources/events/
-/jobs/ /
-/governing-board/ /about/
-/technical-advisory-council/ /about/
-/our-members/ /about/
-/finops-ambassador/ /about/
+
 /blog /
 /blog/* /
-/cloud-finops-oreilly-book/ /resources/finops-book/
-/challenges/* /projects/:splat
 /projects/accurate-forecasts/ /projects/accurate-cloud-forecasts/
-/what-is-finops/ /introduction/what-is-finops/
-/vendor-members/* /tools-services/:splat
-
-/join/ /membership/
-
-/members/ /partner-members/
-/resources/monthly-update/ /resources/
-/introduction/how-to-contribute/ /projects/overview/
-
-/ambassadors/ /about/ambassadors/
 /partner-members/ /about/partner-members/ 
-/introduction/getting-started/ /community/getting-started/
-/resources/events/ /community/events/
-/resources/finops-book/ /community/finops-book/
+
 /projects/accurate-cloud-forecasts/ /projects/forecasting-cloud-costs/
 /resources/stories/ /resources/
 
 /framework/lifecycle/ /framework/phases/
 /framework/functions/* /framework/capabilities/:splat 301!
-/framework/capabilities/allocate/ /framework/domains/allocate/
-/framework/capabilities/forecast/ /framework/domains/forecast/
-/framework/capabilities/organizational-alignment/ /framework/domains/organizational-alignment/
-/framework/capabilities/rate-optimization/ /framework/domains/rate-optimization/
-/framework/capabilities/report/ /framework/domains/report/
-/framework/capabilities/usage-optimization/ /framework/domains/usage-optimization/
 
-/training-certification/vendor-certification/ /members/vendor-certification/
-
-/training-certification/finops-certified-professional/  https://learn.finops.org/path/finops-certified-professional
 /certification/ https://learn.finops.org/
-/training-certification/ https://learn.finops.org/
-/certification/finops-certified-practitioner/ https://learn.finops.org/
-/training-certification/finops-certified-practitioner/ https://learn.finops.org/
-/training-certification/finops-persona-training/ https://learn.finops.org/
 
-/training/finops-certified-practitioner/ https://learn.finops.org/
-/training/finops-certified-professional/ https://learn.finops.org/path/finops-certified-professional
-/training/finops-for-engineers/ https://learn.finops.org/path/finops-for-engineers
 /training/ https://learn.finops.org/
 
 /resources/state-of-finops/ https://data.finops.org/
 
-
 /stories/migrating-15-million-lines-of-code-to-gcp/ /stories/migrating-to-gcp/
-
-
-/members/vendor-certification/ /members/partner-certification/
