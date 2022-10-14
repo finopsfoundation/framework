@@ -609,14 +609,6 @@
   groups:
     - unit-economics
 
-- name: Jerry Hess
-  company: Hennepin County
-  linkedin-url: https://www.linkedin.com/in/jerry-h-a8ba593/
-  image: jerry-hess.jpeg
-  groups:
-    - unit-economics
-    - forecasting
-
 - name: Deeja Cruz
   company: Extratus
   linkedin-url: https://www.linkedin.com/in/deeja-cruz-6565924b/
@@ -884,13 +876,6 @@
   groups:
     - container-cost-allocation
 
-- name: Alison McIntyre
-  company: Lloyds Banking Group
-  linkedin-url: https://www.linkedin.com/in/alison-mcintyre-06b790b/
-  image: alison-mcintyre.png
-  groups:
-    - forecasting
-
 - name: Amanda Dalton
   company: Deloitte
   linkedin-url: https://www.linkedin.com/in/amanda-dalton-0564a295/
@@ -899,17 +884,25 @@
     - forecasting
     - sustainability
 
-- name: William Nieusma
-  company: AgileTrailblazers
-  linkedin-url: https://www.linkedin.com/in/williamnieusma/
-  image: william-nieusma.jpeg
-  groups:
-    - forecasting
-
 - name: Kate Ferguson
   company: Liberty Mutual Insurance
   linkedin-url: https://www.linkedin.com/in/kathleen-ferguson1/
   image: kate-ferguson.jpeg
+  groups:
+    - forecasting
+
+- name: Jerry Hess
+  company: Hennepin County
+  linkedin-url: https://www.linkedin.com/in/jerry-h-a8ba593/
+  image: jerry-hess.jpeg
+  groups:
+    - unit-economics
+    - forecasting
+
+- name: Yogendra Joshi
+  company: Google
+  linkedin-url: https://www.linkedin.com/in/yogendrajoshi/
+  image: yogendra-joshi.png
   groups:
     - forecasting
 
@@ -920,12 +913,13 @@
   groups:
     - forecasting
 
-- name: Yogendra Joshi
+- name: Eric Lam
   company: Google
-  linkedin-url: https://www.linkedin.com/in/yogendrajoshi/
-  image: yogendra-joshi.png
+  linkedin-url: https://www.linkedin.com/in/ericlam/
+  image: eric-lam.jpeg
   groups:
     - forecasting
+    - multi-cloud
 
 - name: Lindbergh Matillano
   company: Avalara
@@ -934,13 +928,19 @@
   groups:
     - forecasting
 
-- name: Eric Lam
-  company: Google
-  linkedin-url: https://www.linkedin.com/in/ericlam/
-  image: eric-lam.jpeg
+- name: Alison McIntyre
+  company: Lloyds Banking Group
+  linkedin-url: https://www.linkedin.com/in/alison-mcintyre-06b790b/
+  image: alison-mcintyre.png
   groups:
     - forecasting
-    - multi-cloud
+
+- name: William Nieusma
+  company: AgileTrailblazers
+  linkedin-url: https://www.linkedin.com/in/williamnieusma/
+  image: william-nieusma.jpeg
+  groups:
+    - forecasting
 
 - name: Pathik Sharma
   company: Google
