@@ -35,14 +35,14 @@
   - name: Adopting FinOps - Pitfalls to Avoid
     url: /projects/adopting-finops-avoiding-pitfalls/
   - name: Calculating Container Costs
+  - name: Cloud Forecasting Playbook
+    url: /projects/forecasting-playbook/
   - name: Container Cost Allocation
   - name: Data Efficiency
     url: /projects/managing-data-efficiency-playbook/
   - name: Encouraging Engineers to Take Action
   - name: FinOps Assessment
     url: /projects/finops-assessment/
-  - name: Forecasting Cloud Costs
-    url: /projects/forecasting-cloud-costs/
   - name: Identifying Shared Costs
   - name: Introduction to Cloud Unit Economics
     url: /projects/introduction-cloud-unit-economics/
