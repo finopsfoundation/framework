@@ -39,6 +39,7 @@ Vacancy
 Waste
 > Any usage or cost of resources which provide no value to an organization
 
+<span id="forecasting"></span>
 ## Forecasting
 
 Terms and concepts found across this site, especially in their respective Working Group outputs:

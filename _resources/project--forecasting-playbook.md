@@ -5,6 +5,7 @@ permalink: /projects/forecasting-playbook/
 title: Cloud Cost Forecasting Playbook
 description: A playbook that provides guidance around cloud forecasting, including key terms, themes, KPIs, and user insights from our community.
 page-identifier: project_forecast-playbook
+search-keywords: cloud cost forecasting budgeting forecast budget reporting
 identifier: projects
 project-title: Cloud Cost Forecasting Playbook
 project-description: A playbook that provides guidance around cloud forecasting, including key terms, themes, KPIs, and user insights from our community.
@@ -211,7 +212,7 @@ There are various measures of maturity for forecasting, one that is published in
 * **Walk** - We have core processes running that are repeatable, but much maturing to do.
 * **Run** - We are continuously improving a built out practice.
 
-We will share the results later in the playbook, but we wanted to thank all those that took the time to respond or speak to us in the follow up interviews. To best understand the various terms and concepts throughout this guide, please review relevant [cloud forecasting terms](https://www.finops.org/resources/terminology/#Forecasting).
+We will share the results later in the playbook, but we wanted to thank all those that took the time to respond or speak to us in the follow up interviews. To best understand the various terms and concepts throughout this guide, please review relevant [cloud forecasting terms](https://www.finops.org/resources/terminology/#forecasting).
 
 ### Forecasting granularity
 What level of granularity should you forecast at? How granular should forecasts be? This is challenging to give a definitive answer because every organization is different. This is an important decision to make before you dive in, if you set your forecasting process at too high a level of granularity and then need it broken down to a lower level this will require a full rework. Forecasting at the lowest level (perhaps subscription / account / project) gives you the ability to slice and dice the resulting forecasts to cover the majority of views you would need. This however comes at a cost, it takes more effort the lower level of granularity.

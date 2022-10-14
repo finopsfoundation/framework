@@ -6,6 +6,8 @@ permalink: /projects/forecasting-cloud-costs/
 title: Forecasting Cloud Costs
 description: A guide that walks through how finance, operations, and executives build models to forecast cloud spend and allocate budgets to business units.
 page-identifier: project_forecast
+search-keywords: cloud cost forecasting budgeting forecast budget reporting
+
 identifier: projects
 project-title: Accurate Cloud Forecasts
 project-description: A guide that walks through how finance, operations, and executives build models to forecast cloud spend and allocate budgets to business units.
@@ -157,15 +159,35 @@ Are planned cloud workloads that currently do not yet exist in the cloud. Their 
 ## How tools can help with cloud forecasting
 Tools are very helpful when it comes to forecasting because they have sophisticated algorithms to apply to your usage/cost data.
 
-{% include story-loop.md %}
-
 ## Acknowledgements
 The FinOps Foundation extends a huge thank you to the members of the Special Interest Group that broke ground on this documentation:
-* Melanie Edwards
-* Dieter Matzion
-* Alex Landis
-* Ashley Hromatko
-* ...and more (we’re collecting user stories at the moment)
+
+<div class="flex md:flex-row flex-wrap items-stretch p-4 rounded-md mt-4">
+{% for person in site.data.people %}
+  {% if person.groups contains 'forecasting-2021' %}
+     <div class="w-1/2 md:w-1/3 p-2 flex">
+      <a href="{{ person.linkedin-url }}" class="flex bg-gray-100 w-full items-stretch p-4 rounded-lg shadow-sm border-solid border-gray-200 border hover:-translate-y-1 hover:shadow-lg transition transform duration-500 hover:border-green-500">
+          <div>
+            <img src="/img/people/{{ person.image }}" alt="{{ person.name }}" width="50" class="rounded-full inline-block" />
+          </div>
+          <div class="flex-grow pl-4">
+            <h5 class="mt-2 mb-1 leading-tight font-bold">{{ person.name }}</h5>
+            <p class="m-0 leading-tight text-sm">{{ person.company }}</p>
+          </div>
+          <div>
+            <svg class="h-4 w-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+              <path class="st0" d="M21.8,0H2.2C1,0,0,1,0,2.2v19.7C0,23,1,24,2.2,24h19.7c1.2,0,2.2-1,2.2-2.2V2.2C24,1,23,0,21.8,0z M7.4,20.7
+                c0,0.3-0.3,0.6-0.6,0.6H4.1c-0.3,0-0.6-0.3-0.6-0.6V9.4c0-0.3,0.3-0.6,0.6-0.6h2.7c0.3,0,0.6,0.3,0.6,0.6V20.7z M5.5,7.8
+                C4,7.8,2.9,6.6,2.9,5.2S4,2.6,5.5,2.6S8,3.8,8,5.2S6.9,7.8,5.5,7.8z M21.5,20.8c0,0.3-0.3,0.6-0.6,0.6H18c-0.3,0-0.6-0.3-0.6-0.6
+                v-5.3c0-0.8,0.2-3.5-2.1-3.5c-1.8,0-2.1,1.8-2.2,2.6v6.1c0,0.3-0.3,0.6-0.6,0.6H9.8c-0.3,0-0.6-0.3-0.6-0.6V9.4
+                c0-0.3,0.3-0.6,0.6-0.6h2.8c0.3,0,0.6,0.3,0.6,0.6v1c0.7-1,1.6-1.8,3.7-1.8c4.6,0,4.6,4.3,4.6,6.7L21.5,20.8L21.5,20.8z"/>
+            </svg>
+          </div>
+      </a>
+    </div>
+  {% endif %}
+{% endfor %}
+</div>
 
 If we’ve missed anyone, let us know. We thank you all for your contributions.
 
@@ -173,36 +195,4 @@ If we’ve missed anyone, let us know. We thank you all for your contributions.
 
 ### Relevant Terms and Concepts
 
-#### Forecasting
-The projections of financial trends that can adjust as new data is available. It is aimed at helping businesses anticipate results and is also used to help create budgets.
-
-#### Budgeting
-An estimate of revenues and expenses companies plan to spend within a time period. This allows for companies to continually track where they are financially.
-
-#### Cost estimation
-The process of quantifying every resource that will be required to complete a project also used to help create budgets.
-
-#### Cost of goods sold (COGS)
-Measures how many dollars of outlay it takes to generate revenues in a specific period. For example if a power company is trucking coal out of storage and into a power plant, it records the cost of the coal burned. That cost has no future benefit, so it’s going to be an expense that is directly traceable to revenue in that period, making it a COGS expense. The test of COGS is: are they directly expensed and directly related to revenues in the same period?
-
-For a company that uses cloud, the COGS are the monthly cloud bill to operate its cloud workloads, salesperson commissions, and support costs. Notably, cloud has the most variable spend model and has a high potential for optimization. You can’t usually materially turn down your sales commissions or terminate your support people, which leaves optimizing your cloud spend without reducing revenue.
-
-#### When COGS can become capitalized assets
-There’s potential to reclassify COGS as capital expenses when it comes to how expenses are used. Let’s say a power company takes some of their coal and uses it to make diamonds. If it burned coal to generate power that was sold for revenue, the company accounts for the cost of the coal as COGS. But if it creates diamonds out of the coal, and those diamonds aren’t sold in the period but instead are put into storage as inventory for future periods, the cost of the coal would then be capitalized as an asset. However, as soon as those diamonds are sold, then the cost of the coal switches back to COGS during the period of the sale.
-
-#### Capitalized expense (CapEx) versus operational expense (OpEx)
-When you capitalize something, it becomes an asset of the company, whether or not it gets expensed within a specific period. The test you can apply is: if an organization writes a check to acquire something, does that acquisition benefit future periods? If it does, then it can be capitalized. If it benefits only the current period, then it’s an expense that is expended in this period with no future benefit, making it an operational expense. Capitalization causes total outlays to differ from expenses in a similar period, with the delta being that which is capitalized.
-
-#### Unblended rates
-Some resources are charged in decreasing rates the more you use them. This means you’re billed different rates for resources as you use more, or for longer periods during the month. By examining your bill, you can see that some resource costs are larger than others, even for the same type of resource or an identical resource. When the rates are presented this way, they’re called unblended.
-
-#### Amortized costs
-Some cloud resources and reservations come with an upfront fee. The amortized cost of a resource takes this initial payment into account and distributes it out based on usage, attributing the prorated cost for each hour of billing.
-
-#### Fully loaded costs
-Fully loaded costs are amortized, reflect the actual discounted rates a company is paying for cloud resources, equitably factor in shared costs, and are mapped to the business’s organizational structure. In essence, they show the actual costs of your cloud and what is driving them.
-
-#### Cost allocation
-The process of splitting up a cloud bill and [associating the costs to each cost center](/framework/capabilities/cost-allocation/). It’s important to have teams understand how costs are being allocated, and to have a centralized, controlled, and consistent cost allocation strategy.
-
-See also, *[Shared Costs](/framework/capabilities/manage-shared-cloud-cost/)*.
+Terms that were previously in this appexdix can be found on the [FinOps Terminology page](/resources/terminology/#forecasting).

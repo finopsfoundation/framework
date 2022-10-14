@@ -325,14 +325,6 @@
   groups:
     - ambassador
 
-- name: Dieter Matzion
-  job-title: Director of Business Operations
-  company: Roku Inc.
-  linkedin-url: https://www.linkedin.com/in/matzion/
-  image: dieter-matzion.jpg
-  groups:
-    - ambassador
-
 - name: Eric Mulartrick
   job-title: FinOps Lead
   company: Boomi
@@ -522,12 +514,37 @@
     - staff
     - reducing-waste
 
+- name: Melanie Edwards
+  job-title: Sr. Manager, Engineering (FinOps)
+  company: CVS Health
+  linkedin-url: https://www.linkedin.com/in/melanielefloreedwards/
+  image: melanie-edwards.jpeg
+  groups:
+    - forecasting-2021
+
 - name: Ashley Hromatko
   job-title: Director Business Operations
   linkedin-url: https://www.linkedin.com/in/ashley-hromatko-1b532613/
   image: ashley.jpg
   groups:
     - staff
+    - forecasting-2021
+
+- name: Alex Landis
+  job-title: 
+  linkedin-url: https://www.linkedin.com/in/alandis/
+  image: alex-landis.jpeg
+  groups:
+    - forecasting-2021
+
+- name: Dieter Matzion
+  job-title: Director of Business Operations
+  company: Roku Inc.
+  linkedin-url: https://www.linkedin.com/in/matzion/
+  image: dieter-matzion.jpg
+  groups:
+    - ambassador
+    - forecasting-2021
 
 - name: Ben de Mora
   job-title: FinOps Engineering Director

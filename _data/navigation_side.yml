@@ -30,6 +30,8 @@
   - name: Overview
   - name: State of FinOps
     url: https://data.finops.org/
+  - name: Accurate Cloud Forecasting
+    url: /projects/forecasting-cloud-costs/
   - name: Adopting FinOps - Getting Started
     url: /projects/adopting-finops/
   - name: Adopting FinOps - Pitfalls to Avoid
