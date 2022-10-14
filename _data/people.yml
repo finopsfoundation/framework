@@ -366,15 +366,6 @@
   groups:
     - ambassador
 
-- name: Michelle Dupuis
-  job-title: Cloud FinOps Operational Engineer
-  company: EBSCO Information Services
-  linkedin-url: https://www.linkedin.com/in/michelle-dupuis-37490a3/
-  image: michelle-dupuis.jpg
-  groups:
-    - ambassador
-    - forecasting
-
 - name: Noel Crowley
   job-title: Director of Cloud FinOps
   company: Fidelity Investments
@@ -883,6 +874,15 @@
   groups:
     - forecasting
     - sustainability
+
+- name: Michelle Dupuis
+  job-title: Cloud FinOps Operational Engineer
+  company: EBSCO Information Services
+  linkedin-url: https://www.linkedin.com/in/michelle-dupuis-37490a3/
+  image: michelle-dupuis.jpg
+  groups:
+    - ambassador
+    - forecasting
 
 - name: Kate Ferguson
   company: Liberty Mutual Insurance
