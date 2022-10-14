@@ -206,8 +206,26 @@
   cloud-service-name: Unattached Disks
   type: waste
   savings-potential: $
-  description: Azure portal -> Disks -> Filter where Owner = “-” to list all unattached across all subscriptions you have read access to.
+  description: One way to find unattached disks is to access `Azure portal` -> `Disks` -> `Filter where Owner` equal to `-` to list all unattached across all subscriptions you have read access to.
   related-url: https://docs.microsoft.com/en-us/azure/virtual-machines/disks-find-unattached-portal
+  code-url:
+
+- cloud-provider: Azure
+  cloud-product: Network
+  cloud-service-name: Network Interface Cards
+  type: waste
+  savings-potential: $
+  description: Create a workflow to delete unused Network Interface Cards (NICs) from Azure VMs since NICs unattach, but do not delete when VMs are removed.
+  related-url: https://learn.microsoft.com/en-us/previous-versions/azure/virtual-machines/linux/find-unattached-nics
+  code-url:
+
+- cloud-provider: Azure
+  cloud-product: Compute
+  cloud-service-name: Start/Stop VMs v2
+  type: efficiency
+  savings-potential: $$
+  description: Use the Azure Start/Stop VMs v2 to start and stop Azure Virtual Machines across multiple subscriptions. Users can define scheduling, generate insights, and get notifications to inform other efficiency tactics.
+  related-url: https://learn.microsoft.com/en-us/azure/azure-functions/start-stop-vms/overview
   code-url: 
 
 - cloud-provider:
