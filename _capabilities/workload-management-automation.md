@@ -4,7 +4,6 @@ layout: capability
 permalink: /framework/capabilities/workload-management-automation/
 search: true
 search-keywords: change management optimization optimisation optimise optimize modernisation modernization trust AD IAM policy active directory governance reports reporting dashboards analysis audit
-
 title: Workload Management & Automation
 description: Workload Management & Automation focuses on running resources only when they are needed, and creating the mechanisms to automatically adjust what resources are running at any given time.
 page-identifier: capability_workload-automation
@@ -24,7 +23,7 @@ order: 7
 
 ## Definition
 
-Workload Management & Automation focuses on running resources only when they are needed, and creating the mechanisms to automatically adjust what resources are running at any given time.  This Capability is intended to give FinOps teams the ability to match supply to demand most efficiently, and effectively optimize cloud usage through measurement of workload demand and provisioning capacity dynamically.
+Workload Management & Automation focuses on running resources only when they are needed, and creating the mechanisms to automatically adjust what resources are running at any given time. This Capability gives FinOps teams the ability to match supply to demand most efficiently, and effectively optimize cloud usage through measurement of workload demand and provisioning capacity dynamically.
 
 ## Maturity Assessment
 
@@ -70,9 +69,6 @@ There are likely many more cases and examples out there, so please get in touch 
 
 ## Inputs
 _the information used that contributes to the measure(s) of success listed above; information here may include specific datasources, reports or any relevant input_
-
-
-
 
 <!-- REAL WORLD RESOURCES, PROJECTS, PLAYBOOKS, GUIDES AND STORIES -->
 
