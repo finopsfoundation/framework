@@ -4,7 +4,6 @@ layout: capability
 permalink: /framework/capabilities/workload-management-automation/
 search: true
 search-keywords: change management optimization optimisation optimise optimize modernisation modernization trust AD IAM policy active directory governance reports reporting dashboards analysis audit
-
 title: Workload Management & Automation
 description: Workload Management & Automation focuses on running resources only when they are needed, and creating the mechanisms to automatically adjust what resources are running at any given time.
 page-identifier: capability_workload-automation
@@ -24,7 +23,7 @@ order: 7
 
 ## Definition
 
-Workload Management & Automation focuses on running resources only when they are needed, and creating the mechanisms to automatically adjust what resources are running at any given time.  This Capability is intended to give FinOps teams the ability to match supply to demand most efficiently, and effectively optimize cloud usage through measurement of workload demand and provisioning capacity dynamically.
+Workload Management & Automation focuses on running resources only when they are needed, and creating the mechanisms to automatically adjust what resources are running at any given time. This Capability gives FinOps teams the ability to match supply to demand most efficiently, and effectively optimize cloud usage through measurement of workload demand and provisioning capacity dynamically.
 
 ## Maturity Assessment
 
@@ -42,20 +41,20 @@ Workload Management & Automation focuses on running resources only when they are
 
 ## Functional Activity
 
-### As an Application Engineer, Owner, or similar persona
-* As an application engineer, I will stop the non-production resource by end of day (EOD).
-* As an application engineer, I will start the non-production resource as business starts.
-* As an application owner, I will make sure the required tags (Environment in this case) assigned to all the resources.
-* As an application owner, I will work with automation team to automate stop & start the resources.
-* As an application owner, I will introduce another tag to provide the exception to the schedule
+### As someone in an Engineering/Operations role, I will:
+* Stop the non-production resource by end of day (EOD)
+* Start the non-production resource as business starts
+* Make sure the required tags (Environment in this case) assigned to all the resources
+* Work with automation team to automate stop & start the resources
+* Introduce another tag to provide the exception to the schedule
     * a. e.g.: `StopResourceEOD: Yes/No`,
     * b. If No, then another tag with justification, `PurposeToAvoidStop: UAT is in Progress`
-* As an application engineer and owner, we will work with automation team to auto assign the required tags.
-* As an automation engineer, I will build automation to send communication in advanced with list of resources being affected during business hours, to respective resource owner.
+* Work with automation team to auto assign the required tags
+* Build automation to send communication in advanced with list of resources being affected during business hours, to respective resource owner
 
-### As a FinOps Practitioner
-* As a FinOps practitioner, I will work with application owner to assign the missing tags to the resources.
-* As a FinOps practitioner, I will automate the communication of the statistics of the affected resources by the automation, non-tags resources.
+### As a FinOps Practitioner, I will:
+* Work with application owner to assign the missing tags to the resources
+* Automate the communication of the statistics of the affected resources by the automation, non-tags resources
 
 ## Measure(s) of Success & KPI
 Measures of success are represented in the context of cloud costs and may include one or more key performance indicators ( KPI ), describe objectives with key results ( OKR ), and declare thresholds defining outliers or acceptable variance from forecasted trends.
@@ -70,9 +69,6 @@ There are likely many more cases and examples out there, so please get in touch 
 
 ## Inputs
 _the information used that contributes to the measure(s) of success listed above; information here may include specific datasources, reports or any relevant input_
-
-
-
 
 <!-- REAL WORLD RESOURCES, PROJECTS, PLAYBOOKS, GUIDES AND STORIES -->
 
