@@ -10,7 +10,7 @@ identifier: projects
 project-title: Encouraging Engineers to Take Action
 project-description: We gathered our FinOps experts to address the challenge of encouraging and enabling engineers to get more involved. It's not just a challenge for engineers-- everyone has a role to play.
 date-added: Apr 2021
-type: Guide
+type: Playbook
 source: Foundation Contribution
 label: 
 cloud-provider: 

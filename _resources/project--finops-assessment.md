@@ -10,7 +10,7 @@ identifier: projects
 project-title: FinOps Assessment
 project-description: The FinOps Assessment playbook is designed to be used in conjunction with the FinOps Framework to assist you with a measurable, meaningful analysis of your current operating maturity as you travel that journey.
 date-added: Apr 2022
-type: Guide
+type: Utility
 source: Foundation Contribution
 label:
 cloud-provider:

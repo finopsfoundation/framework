@@ -40,7 +40,7 @@ We created this working group to examine and better define cloud forecasting, su
 * [Forecasting tools](#forecasting-tools)
 * [Forecasting maturity matrix](#forecasting-maturity-matrix)
 * [Conclusion](#conclusion)
-* [Acknolwedgements](#thank-you-to-all-our-project-contributors)
+* [Acknowledgements](#thank-you-to-all-our-project-contributors)
 
 ## Introduction
 
