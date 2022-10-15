@@ -270,3 +270,4 @@
   description: Networking savings can be achieved by eliminating unused VPC PrivateLink Endpoints. Although Endpoints are secure and relatively cheaper, they are not free. Sometimes organizations’ networking teams create multiple Endpoints in advance thinking that app teams might need them. Unfortunately once created, it’s difficult to find whether an Endpoint is in use or not. So, either prevent creating unnecessary Endpoints unless explicitly needed by teams; or check VPC flow-logs frequently to identify unused ones and remove them.
   related-url: https://calculator.aws/#/addService/VPC
   code-url: 
+  story-url: /stories/unchecked-vpc-endpoints/
