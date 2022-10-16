@@ -64,6 +64,6 @@ The above diagram demonstrates how, for organizations operating on the FinOps mo
 ## Resources to Learn More
 
 - [View the introduction to FinOps presentation](https://docs.google.com/presentation/d/1gt9ev4OU79-N0tkkdx78rrZM0jJPuxQqlL6pCImL4ww/edit?usp=sharing){:target="_blank"}
-- [O’Reilly Cloud FinOps Book](/resources/finops-book)
+- [O’Reilly Cloud FinOps Book](/community/finops-book)
 - [Introduction to FinOps Course on EdX](https://training.linuxfoundation.org/training/introduction-to-finops-lfs175/)
 - [FinOps Certified Practitioner Course](https://learn.finops.org)
