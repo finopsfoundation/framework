@@ -350,7 +350,7 @@ It is important to note that while this maps to the most advanced level of matur
 <p class="text-base text-white"><em>A practitioner from a software provider: “We would love to focus on forecast accuracy as much as the topline accuracy.”</em></p></div>
 
 <div class="flow-root bg-green-500 rounded-lg px-6 border-solid border-gray-100 border">
-<p class="text-base text-white"><em>A practitioner from an energy company: While our forecasts are very accurate (up to 95%), a struggle we have encountered is effectively communicating what level of confidence we have in the forecasting that we produce.</em></p></div>
+<p class="text-base text-white"><em>A practitioner from an energy company: "While our forecasts are very accurate (up to 95%), a struggle we have encountered is effectively communicating what level of confidence we have in the forecasting that we produce."</em></p></div>
 
 ## Forecasting tools
 There are many tools that can be used for cloud forecasting and choosing the correct one can be a daunting task. It is important to consider what your goals are for your cloud forecast and what is important to your organization. To support this exercise, we have compiled a list of questions to ask when researching a tool pertaining to forecasting. Most companies will want to research a tool that performs more than forecasting, which is outside of the scope of this section.  
@@ -451,7 +451,7 @@ The FinOps Foundation extends a huge thank you to the members of this Working Gr
 {% endfor %}
 </div>
 
-Also, we'd like to thank our TAC Liason, William Bryant of Apple.
+Also, we'd like to thank our Technical Advisory Council (TAC) Liason, William Bryant of Apple.
 
 ### Thank our supporters and interviewees
 Thank you to all of our survey responders and interviewers, without your insights this playbook would not be what it is today!
@@ -464,4 +464,4 @@ Thank you to all of our survey responders and interviewers, without your insight
 * Michelle Cleland
 * Brad Payne
 
-Lastly, a big thank you to the F2 support team for helping us bring our work to life: Ashley Hromatko (F2 Staff Sponsor), Samantha White (Program Management), Tom Sharpe (Design), and Andrew Nhem (Content).
+Lastly, a big thank you to the FinOps Foundation support team for helping us bring our work to life: Ashley Hromatko (Staff Sponsor), Samantha White (Program Management), Tom Sharpe (Design), and Andrew Nhem (Content).

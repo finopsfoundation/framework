@@ -358,18 +358,6 @@
   groups:
     - ambassador
 
-<<<<<<< HEAD
-=======
-- name: Michelle Dupuis
-  job-title: Cloud FinOps Operational Engineer
-  company: Walgreens
-  linkedin-url: https://www.linkedin.com/in/michelle-dupuis-37490a3/
-  image: michelle-dupuis.jpg
-  groups:
-    - ambassador
-    - forecasting
-
->>>>>>> main
 - name: Noel Crowley
   job-title: Director of Cloud FinOps
   company: Fidelity Investments
@@ -906,7 +894,7 @@
 
 - name: Michelle Dupuis
   job-title: Cloud FinOps Operational Engineer
-  company: EBSCO Information Services
+  company: Walgreens
   linkedin-url: https://www.linkedin.com/in/michelle-dupuis-37490a3/
   image: michelle-dupuis.jpg
   groups:
