@@ -4,9 +4,9 @@ layout: story
 permalink: /stories/one-way-to-put-it-all-together/
 
 title: One Way to Put it All Together
-description:
-type: Member Story
-source: FinOps Foundation
+description: Shared Costs should be identified upfront as part of Service Design.
+type: User Story
+source: Community Contribution
 story-title: One Way to Put it All Together
 story-date: 2021-06-01
 author: Chris Greenham
@@ -17,9 +17,7 @@ framework-persona: Business/Product Owner
 framework-maturity: Run
 framework-capabilities:
 - capability_shared-cost
-framework-projects:
-- project_shared-costs
-order: 1
+weight: 100
 
 ---
 

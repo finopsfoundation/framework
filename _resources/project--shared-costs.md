@@ -11,12 +11,13 @@ project-title: A Guide to Spreading Out Shared Costs
 project-description: As organizations increase their adoption of public cloud resources, it becomes increasingly difficult to assign shared cloud resources to specific business owners.
 date-added: Apr 2021
 type: Guide
-source: FinOps Foundation
-label: 
-cloud-provider: 
+source: Foundation Contribution
+label:
+cloud-provider:
   - Multi-Cloud
 framework-capabilities:
-
+- capability_shared-cost
+weight: 10
 ---
 
 # A Guide to Spreading Out Shared Costs
@@ -40,7 +41,7 @@ You should understand the basics of how cloud computing works, know the key serv
 
 You’ll also need to have a base level of knowledge of at least one of the three main public cloud providers (AWS, Azure, Google Cloud). For AWS, we recommend AWS Business Professional training or, even better, the AWS Cloud Practitioner certification. For Google, check out the Google Cloud Platform Fundamentals course. For Azure, try the Azure Fundamentals learning path. Each can usually be completed in a full day workshop.
 
-You should also have a solid understanding of several things within your company. First, you should know the high-level architecture of the technical systems within your company; be able to identify and understand them, as well as what may be used by more than one team. You should have a foundational understanding of how your Accounting and Finance departments handle IT Operation costs, specifically cloud.  You should be able to identify and understand your products and their usage internally. 
+You should also have a solid understanding of several things within your company. First, you should know the high-level architecture of the technical systems within your company; be able to identify and understand them, as well as what may be used by more than one team. You should have a foundational understanding of how your Accounting and Finance departments handle IT Operation costs, specifically cloud.  You should be able to identify and understand your products and their usage internally.
 
 <!-- <span id="components"></span> -->
 
@@ -100,7 +101,7 @@ Suchandra is responsible for all costs incurred in her team or department, inclu
 <span id="challenge"></span>
 
 ## How to take on this challenge
-### Step 1: Identify what kinds of costs are shared 
+### Step 1: Identify what kinds of costs are shared
 For the purpose of this document, we are primarily concerned with [shared cost](/framework/capabilities/manage-shared-cloud-cost/) as the total amount billed to a customer by a cloud provider. That is, a cloud bill is shared at the organizational level and must be allocated for accounting purposes. Shared cost may be allocated to a centralized budget within the technology org; alternatively it can be allocated to cost centers throughout the business and technology organizations. From a finance perspective, we may also refer to shared cloud costs as a type of direct operating expense.  
 
 What classifies as a shared cost can vary from organization to organization, and also depend on the [maturity and size within the company itself](/framework/phases/). However, there are a standard set of costs that generally appear on every company’s balance sheet, and it becomes the responsibility of the company to determine whether they should be considered shared or not. The company can even define different types of shared costs -- some shared costs apply to the entire organization, while others may be shared only among those cost centers that use them. In terms of accounting however, most cases of “shared costs” in the cloud are actually accrued and charged within one account, and it can be challenging to determine which costs should be shared.
@@ -230,11 +231,11 @@ You’ve done it. You figured out what your shared costs are, how you want to sp
 
 It can be easy to relax and think the difficult work is over, but process sustainability is an essential part of spreading out shared costs. It’s essential to remain vigilant, and identify areas that can easily prevent fairly allocated costs to skew over time. As you work towards a long-running, sustainable shared cost model, consider a few of these questions:
 
-* If the company has adopted a tagging standard for allocation, what is the process for ensuring that tags are correct? 
-* How do you handle unallocated shared costs that may pop-up due to lack of appropriate tags? 
-* What is your review process for when new cost centers or business units are introduced? 
-* When using a fixed proportion model to be fair, how often are those ratios reviewed? 
-* Is your data modeling approach sustainable? 
+* If the company has adopted a tagging standard for allocation, what is the process for ensuring that tags are correct?
+* How do you handle unallocated shared costs that may pop-up due to lack of appropriate tags?
+* What is your review process for when new cost centers or business units are introduced?
+* When using a fixed proportion model to be fair, how often are those ratios reviewed?
+* Is your data modeling approach sustainable?
 * How much documentation do you have for your processes?
 * How many people know the system that has been implemented? Is there sufficient shared knowledge so it does not rest in too small of a group?
 
@@ -261,7 +262,7 @@ Your company will employ different methods of shared cost over time: even split,
 
 Having cloud resources only identified as shared and having them tagged as such does not mean they are allocated explicitly and accurately using an appropriated model so this KPI can track your completeness and maturity.
 
-#### Shared vs. dedicated costs in % 
+#### Shared vs. dedicated costs in %
 *Try this to track success on [Step 4](#4)*
 
 This can be used for trending, and tracking whether your shared costs have exploded relative to your dedicated costs. It requires baseline evaluation before it can be accurately used.
@@ -271,9 +272,9 @@ This can be used for trending, and tracking whether your shared costs have explo
 
 An aggregation of the KPIs listed above, this one number gives a holistic view of all parts necessary in tracking shared cost.
 
-The best way to know if you’re on the right track is to evaluate how the process fits in with your organization’s overarching approach to cost management. Is the process of splitting shared costs helping to drive innovative and understanding? This is an important consideration to make. While splitting shared costs is in itself a cultural shift, it should help everybody make better decisions about what they’re spending and why. 
+The best way to know if you’re on the right track is to evaluate how the process fits in with your organization’s overarching approach to cost management. Is the process of splitting shared costs helping to drive innovative and understanding? This is an important consideration to make. While splitting shared costs is in itself a cultural shift, it should help everybody make better decisions about what they’re spending and why.
 
-We’ve worked out some milestones that we think make sense at the Crawl, Walk, and Run stage of your journey through shared costs; they may help you to consider how to approach shared costs if you’re just beginning. The model is not proscriptive, many companies have implemented walk strategies before crawl or vice versa.  Cost is complex and different costs have varying impacts depending on your company infrastructure. 
+We’ve worked out some milestones that we think make sense at the Crawl, Walk, and Run stage of your journey through shared costs; they may help you to consider how to approach shared costs if you’re just beginning. The model is not proscriptive, many companies have implemented walk strategies before crawl or vice versa.  Cost is complex and different costs have varying impacts depending on your company infrastructure.
 
 <table style="width:100%;">
 <thead>
@@ -326,7 +327,7 @@ Here is a collection of stories from FinOps teams of all shapes, sizes, cloud ut
 
 The FinOps Foundation extends a huge thank you to the members of the Special Interest Group that broke ground on this documentation:
 
-- Tracy Roesler 
+- Tracy Roesler
 - Vik Saluja
 - David Sterz
 - Joe Daly

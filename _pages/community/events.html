@@ -1,0 +1,42 @@
+---
+
+layout: wide
+permalink: /community/events/
+search: true
+
+title: FinOps Events
+description: See the latest FinOps related events from regional meetups to instructor led trainings. Connect with the community on a range of FinOps topics in a way best for you.
+meta-img: events.png?2
+
+---
+
+<div class="text-right text-sm no-underline text-gray-900 mb-6">
+  <a href="javascript:void(0);" class="rounded-sm hover:bg-gray-200 py-2 px-4 opacity-50 hover:opacity-100 transition duration-200 ease-in-out" onclick="modalToggle('modal-event')">
+    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 inline" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" /></svg> Suggest an event to be added
+  </a>
+</div>
+
+<div id="ty-event" class="hidden">
+  {% include event-thankyou.html %}
+</div>
+
+<h1>FinOps Events</h1>
+
+
+<div>
+  <div data-tockify-component="calendar" data-tockify-calendar="finopsevents"></div>
+  <script data-cfasync="false" data-tockify-script="embed" src="https://public.tockify.com/browser/embed.js"></script>
+</div>
+
+<div class="mt-8">
+  <p><small>Please note: FinOps Foundation events are interactive in nature and typically conducted in a virtual (Zoom-based) environment. Accordingly, certain information that you have provided to Zoom will be shared with the FinOps Foundation, the trainer and other attendees. Zoom may provide details that you have provided including your name, email address or the phone number you use to dial in. You may be able to limit the information Zoom provides by editing your Zoom profile, but during this course any information you do include will be seen by all who attend. Please see https://zoom.us/privacy for further details.</small></p>
+
+  <p><small>As with all community calls the FinOps Foundation events are subject to <a href="https://www.linuxfoundation.org/policies/">Linux Foundation policies including Code of Conduct and Anti-Trust policies.</a></small></p>
+
+  <p><small>Some courses will be recorded for training and development purposes. It will be shared only with FinOps Foundation members who are preparing for instruction or developing course related material. All Foundation ground rules apply with respect to the sharing of private information.</small></p>
+</div>
+
+
+<!-- Modals -->
+
+{% include modals/event.html %}

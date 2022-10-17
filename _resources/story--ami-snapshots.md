@@ -4,9 +4,9 @@ layout: story
 permalink: /stories/ami-snapshots/
 
 title: Removing AMI Snapshots
-description:
-type: Member Story
-source: FinOps Foundation
+description: Upon reviewing the amount of snapshots a customer had we found a large proportion of them were created from AMIs...
+type: User Story
+source: Community Contribution
 story-title: Removing AMI Snapshots
 story-date: 2021-10-08
 author: Stephanie Gooch
@@ -17,9 +17,7 @@ cloud-provider:
 framework-persona:
 framework-maturity: 
 framework-capabilities:
-framework-projects:
-- project_reducing-waste
-order:
+weight: 100
 
 ---
 

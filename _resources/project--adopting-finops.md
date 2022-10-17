@@ -10,11 +10,12 @@ identifier: projects
 project-title: Adopting FinOps
 project-description: Get guidance and tooling to help your organization unlock the promise of Cloud Computing and envision a world where efficient, profitable and cost effective cloud systems are made possible by the collaboration of finance, engineering and executive leadership through the FinOps Framework.
 type: Guide
-source: FinOps Foundation
+source: Foundation Contribution
 label:
 cloud-provider:
   - Multi-Cloud
 framework-capabilities:
+weight: 10
 ---
 
 # Adopting FinOps - Getting Started

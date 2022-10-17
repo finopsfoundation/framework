@@ -4,9 +4,9 @@ layout: story
 permalink: /stories/upgrade-your-ebs/
 
 title: Upgrade your EBS Volumes
-description:
-type: Member Story
-source: FinOps Foundation
+description: AWS is constantly updating their service offerings and is no exception. 
+type: User Story
+source: Community Contribution
 story-title: Upgrade your EBS Volumes
 story-date: 2021-10-08
 author: Mike Martin
@@ -17,9 +17,7 @@ cloud-provider:
 framework-persona:
 framework-maturity: walk
 framework-capabilities:
-framework-projects:
-- project_reducing-waste
-order:
+weight: 100
 
 ---
 

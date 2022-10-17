@@ -4,9 +4,9 @@ layout: story
 permalink: /stories/watch-your-licenses/
 
 title: Watch Your AWS Marketplace Licenses!
-description:
-type: Member Story
-source: FinOps Foundation
+description: Watch your AWS Marketplace licenses!  As a user of the AWS marketplace, you’ll find software vendors offer different license packages - i.e. t-shirt sizes w/ small/medium/large.
+type: User Story
+source: Community Contribution
 story-title: Watch Your AWS Marketplace Licenses!
 story-date: 2021-10-08
 author: Eric Mulatrick
@@ -17,9 +17,7 @@ cloud-provider:
 framework-persona:
 framework-maturity:
 framework-capabilities:
-framework-projects:
-- project_reducing-waste
-order:
+weight: 100
 
 ---
 

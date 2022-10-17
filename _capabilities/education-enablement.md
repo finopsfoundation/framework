@@ -73,20 +73,8 @@ _written for each persona responsible for the functional activity and processes 
 - Encourage collaboration and cross-fertilization of ideas across different functions
 - Be mindful of providing for different learning styles and needs for different individuals
 
-<!-- ####### Real World Resources ####### -->
 
-{% include story-loop.md %}
-
-
-#### FinOps Foundation
-- **FinOpsPod Podcast**  available on all major podcasting services including, [Apple Podcasts](https://podcasts.apple.com/us/podcast/finopspod/id1614322837){:target="_blank"}, [Spotify](https://open.spotify.com/show/70DcVx1mxoxb0MooggVPCD?si=e79ae75d92bc4178){:target="_blank"}, [Amazon Music](https://music.amazon.ca/podcasts/71719ed5-1e29-416b-b6a9-f7d25dd6fa78/finopspod){:target="_blank"}, and [Google Podcasts](https://podcasts.google.com/search/finopspod){:target="_blank"}
-- [FinOps Foundation YouTube Channel](https://www.youtube.com/channel/UCyl26lvnoySlGWlF5oNHvYA){:target="_blank"} for Summit recordings and other content
-
-
-
-## FinOps Platforms & Service Providers
-_Reference of cloud cost management platforms, tooling and service providers related to this Capability coming soon._
-
+{% include resources-loop.md %}
 
 
 ## FinOps Training

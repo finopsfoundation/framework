@@ -129,18 +129,6 @@ Measures of success are represented in the context of cloud costs and may includ
 ## Inputs
 _the information used that contributes to the measure(s) of success listed above; information here may include specific datasources, reports or any relevant input_
 
-
-<!-- ####### Real World Resources ####### -->
-
-{% include story-loop.md %}
-
-
-## FinOps Platforms & Service Providers
-_Reference of cloud cost management platforms, tooling and service providers related to this Capability coming soon._
-
-
-## FinOps Training
-_Reference of courses and training partners related to this Capability coming soon._
-
+{% include resources-loop.md %}
 
 ---

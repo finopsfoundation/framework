@@ -11,14 +11,14 @@ project-title: U.S. Public Sector FinOps Playbook
 project-description: This playbook seeks to build upon the existing FinOps framework to assist U.S. federal agencies with their cloud spend.
 date-added: Apr 2022
 type: Guide
-source: FinOps Foundation
+source: Foundation Contribution
 label:
 cloud-provider:
   - Multi-Cloud
 framework-capabilities:
 - capability_establish-finops-culture
 - capability_education-enablement
-
+weight: 10
 ---
 
 # FinOps Assessment Playbook
@@ -37,12 +37,12 @@ This playbook is organized into four stages which are designed to create a consi
 
 ## Assessment Scope & Intent
 
-This assessment is not intended as an exhaustive and comprehensive analytics solution covering an entire FinOps practice at every level. Rather, the intent is to provide a high-level overview of the current state and to identify further targeted areas of investigation or development. This assessment does not (perhaps should not) need to be done for every Capability at once. Targeting a single capability, or perhaps capabilities in a single domain may allow for deeper analysis on a per-capability level. This can be especially useful when those capabilities are highlighted by an earlier assessment for further improvement. 
+This assessment is not intended as an exhaustive and comprehensive analytics solution covering an entire FinOps practice at every level. Rather, the intent is to provide a high-level overview of the current state and to identify further targeted areas of investigation or development. This assessment does not (perhaps should not) need to be done for every Capability at once. Targeting a single capability, or perhaps a set of related capabilities in a single domain may allow for deeper analysis on a per-capability level. This can be especially useful when those capabilities are highlighted by an earlier assessment for further improvement. 
 
 For each assessment, be very clear in establishing your
 
-- Target Scope - which capability(ies) are you going to be assessing, and your 
-- Target Group - on which part of the organization will you be assessing this scope
+- Target Scope - which capability(ies) are you going to be assessing?
+- Target Group - on which part of the organization will you be assessing this Target Scope?
 
 Include those who will have primary impact on the Scope and Group selected. Consider including those who might be targets for later assessments as well to give them some experience with the process. 
 
@@ -75,7 +75,7 @@ Preamble questions that form the basis of understanding to build a clear picture
 
 ### Target Score
 
-How good is “Good enough”? Within this assessment process, we use the term “Target Score” to illustrate our intended current goal within the overall scale. If there is a maximum assessment score of 20 within a capability (5 x lenses, each max score of 4) then how perfect do realistically expect that capability to become at this stage in our journey? How important is that capability? Perhaps a score level of 12 out of 20 is “good enough” for our present roadmap - especially if it is a new muscle(capability) we are building, and our assessed score is around the 4 or 5 mark.
+How good is “Good enough”? Within this assessment process, we use the term “Target Score” to illustrate our intended current goal within the overall scale. If there is a maximum assessment score of 20 within a capability (5 x lenses, each max score of 4) then how perfect do we realistically expect that capability to become at this stage in our journey? How important is that capability? Perhaps a score level of 12 out of 20 is “good enough” for our present roadmap - especially if it is a new muscle(capability) we are building, and our most recently assessed score is around the 4 or 5 mark.
 
 ## Lenses Used in Assessment
 
@@ -89,7 +89,7 @@ Each lens has five descriptive levels of performance, with examples of what woul
 
 ![knowledge image](/img/assessment/knowledge.png)
 
-The KNOWLEDGE lens considers the scope of understanding and awareness of this capability across the target group. When responding to this lens, consider how clearly this capability is communicated? How broadly is this concept, it's mechanisms terms and processes known?
+The KNOWLEDGE lens considers the breadth of understanding and awareness of this capability across the target group. When responding to this lens, consider how clearly this capability is communicated? How widely is this concept, it's mechanisms terms and processes known?
 
 | Maturity | Heading | Description |
 | -------- | -------- | -------- |
@@ -119,23 +119,25 @@ PROCESS relates to both the set of actions being performed in order to deliver t
 
 Is this capability measured? Is there a way to measure and prove progress over time? How are those measurements obtained, and how relevant are they?
 
+It is important to note that this lens does not measure how high any metric scores are, but how the measurements themselves are defined and used.
+
 | Maturity | Heading | Description |
 | -------- | -------- | -------- |
 | FinOps 0 | No Metrics | There are no measurements being taken at this point. No direct insight is available concerning the progress or current state of this capability. |
 | FinOps 1 | Identified Metrics | Identified key metrics the business finds valuable for this capability to make trade-off decisions. |
 | FinOps 2 | Baselined Metrics | Initial, manually generated metrics are in place providing rudimentary traffic-light (eg: Red/Yellow/Green) measurement of this capability. |
-| FinOps 3 | Established & collecting Metric Targets data | KPIs are now in place covering at least some of this capability and cadence has been established for collection |
+| FinOps 3 | Established & collecting Metric Targets data | KPIs are now in place covering at least some of this capability within the target group and cadence has been established for collection |
 | FinOps 4 | Mature, Global KPIs | S.M.A.R.T. KPIs are now globally in place, automated and refined/iterated on with a regular cadence. Direct links to business goals. Direct link to business performance. |
 
 ### Lens 4: Adoption
 
 ![adoption image](/img/assessment/adoption.png)
 
-How broadly are the knowledge, processes and KPIs you are using to govern this capability being used in your organization. Has the capability being assessed been adopted and accepted by the business as part of its integral and critical functions? Consider the prevalence and presence of this capability across the entire scope group being assessed.
+Consider the knowledge, processes and metrics you are using to govern this capability being used by your target group. How widely has this capability been adopted and accepted by the target group as part of its integral and critical functions? Consider the prevalence and presence of this capability across the entire target group being assessed.
 
 | Maturity | Heading | Description |
 | -------- | -------- | -------- |
-| FinOps 0 | No Adoption | The capability is not in place anywhere within the target scope group. |
+| FinOps 0 | No Adoption | The capability is not in place anywhere within the target group. |
 | FinOps 1 | Siloed Adoption | Elements of the capability are being adopted by a siloed group, lacking standardization and evidence best practices. |
 | FinOps 2 | Initial Standardized Adoption | Early elements of the capability are being standardized and vetted by a few individuals within the target group. |
 | FinOps 3 | Key Adoption | Fully established standardized elements of the capability as a part majority target groups BAU (Business As Usual) behaviors. |
@@ -145,7 +147,7 @@ How broadly are the knowledge, processes and KPIs you are using to govern this c
 
 ![automation image](/img/assessment/automation.png)
 
-Why spend valuable time executing a repeatable task with specific decision points and iterations? Automation drives consistency, speed and scalability across your Cloud landscape.
+Why spend valuable time executing a repeatable task with predictable decision points and iterations? Automation drives consistency, speed and scalability across your target group.
 
 | Maturity | Heading | Description |
 | -------- | -------- | -------- |
@@ -188,13 +190,8 @@ Once the environment scope has been defined, target scope needs to be considered
 
 When defining your target scope, focus on the capability or capabilities in areas where you believe there will be high business value in spending some FinOps team time building out. This will oftentimes be in domains such as Understanding Cloud Usage & Cost or Organizational Alignment if you are just starting out, or may be in the Optimize domains, Real Time Decision Making or Performance Tracking & Benchmarking if you are a little more established. It is likely better to assess fewer capabilities to keep the assessment more focused than to do too many. Remember, like FinOps itself, we benefit from starting small and growing in scale and complexity once we have established some muscle memory from repetitive practice.
 
-Depending on the nature and strengths of the business, different capabilities will interact and support one another in different ways. Therefore, consider which capabilities are most material to track at that time on the FinOps Adoption journey. Two different possible examples of how the dependencies / layers might look are given here. Within the context of the business being assessed, take the time to consider which capabilities make the most sense to assess within the context of that assessment target at that stage. This exercise should form the basis of an Adoption Roadmap that the Framework Assessment will work to support. 
+Depending on the nature and strengths of the business, different capabilities will interact and support one another in different ways. Therefore, consider which capabilities are most material to track at that time on the FinOps Adoption journey. Two different possible examples of how the dependencies / layers might look are given here. Within the context of the business being assessed, take the time to consider which capabilities make the most sense to assess within the context of that assessment target at that stage. This exercise should form the basis of an Adoption Roadmap that the Framework Assessment will work to support.
 
-#### Lens Weighting
-
-Consider the priorities of Knowledge, Process, Metrics, Adoption and Automation across your Target Scope and Target Group. Bear in mind what is currently a realistic achievement, and what is most important to improve. For example: Is there a minimal level of knowledge and process likely to be in place currently? You might want to consider weighting that higher in your assessment - whilst reducing the impact of the Automation score, which is likely to be low if there is no existing knowledge or process. Think within the context of what you are trying to promote efforts towards.
-
-#### Target Scores
 Example 1:
 ![stack 1](/img/assessment/stack1.png)
 Example 2:
@@ -202,21 +199,29 @@ Example 2:
 
 As these examples show, the key idea here is to identify the right capabilities to review at the right time - and to understand the dependency hierarchy of the involved capabilities. Whilst conceptually possible to assess all of the (currently 18) framework capabilities, that would result in a significant amount of time and work. In order to produce a repeatable, meaningful, targeted assessment - you need to ensure a tight focus on the specific areas you are looking to progress at that stage in the FinOps Adoption journey.
 
+#### Lens Weighting
+
+Consider the priorities of Knowledge, Process, Metrics, Adoption and Automation across your Target Scope and Target Group. Bear in mind what is currently a realistic achievement, and what is most important to improve. For example: Is there a minimal level of knowledge and process likely to be in place currently? You might want to consider weighting that higher in your assessment - whilst reducing the impact of the Automation score, which is likely to be low if there is no existing knowledge or process. Think within the context of what you are trying to promote efforts towards.
+
+#### Target Scores
+
+When selecting your Target Scores, consider the relative levels of success you want to aim for across the various capabilities you have identified. Some capabilities may warrant a high target level of maturity, but others could be brand new disciplines that take time to perfect. What level are you aiming to reach in the foreseeable future? Setting a realistic short-term Target Score goal helps you to measure success against your own level of "done".
+
 ### Identifying Stakeholders & SMEs
 
-The target scope and target group will help to identify the relevant stakeholders and SMEs required. Remember that different capabilities may well necessitate different stakeholders and adjacent personas, and likely different targeted discussions in order to reach the most accurate answers for analysis. Record the stakeholder details and their evidence / data contributions within the assessment data, ensuring that the context is retained for future baseline analysis.
+The target scope and target group will help to identify the relevant stakeholders and SMEs required. Remember that different capabilities may well necessitate different stakeholders and adjacent personas, and likely different targeted discussions in order to reach the most accurate answers for analysis. Record the stakeholder details and their evidence / data contributions within the assessment data, ensuring that the context is retained for future baseline analysis. Consider including your stakeholders when setting your Target Scores.
 
 ## Assessment Stage 2 - Analysis
 
-Once Scope has been defined, Capability Targets have been selected and Stakeholders / SMEs are identified, you are fully prepared to execute an iteration of the framework assessment. For each selected capability across the scope, you can now plan your conversations. Consider grouping capabilities covered by the same subset of SMEs / stakeholders.
+Once the Target Scope, Target Group, Lens Weighting and Target Scores have been defined and Stakeholders / SMEs are identified, you are now fully prepared to execute an iteration of the framework assessment. For each selected capability across the Target scope, you can now plan your conversations. Consider grouping capabilities covered by the same subset of SMEs / stakeholders where applicable.
 
 ### The Capability Overview
 
-It is likely a wise idea to begin analyzing a capability by ensuring that everyone present has an awareness of what that capability is, and where it fits within the overall business. Then confirm the defined scope, and ensure that context has been clearly communicated before beginning. Use this overview as an opportunity to broaden education about FinOps and ensure that all involved parties are at a good level of knowledge about what is being assessed. 
+It is recommended to begin by giving a short overview of the Target Scope, reviewing each capabilities by ensuring that everyone present has an awareness of what that capability is, and where it fits within the overall business. Then confirm the defined scope, and ensure that context has been clearly communicated before beginning. Use this overview as an opportunity to broaden education about FinOps and ensure that all involved parties are at a good level of knowledge about what is being assessed.
 
 #### Gathering Evidence
 
-Before diving into the 5 lenses proper, explore some Discovery Questions.It is recommended to develop and curate a library of capability-specific discovery questions that you will to begin gathering evidence and data to further support a decision on scoring for each lens within the assessment proper. Where possible, gather documented evidence to support answers to these questions, and ensure this evidence is associated with the rest of the assessment information to ensure context and support confidence in an accurate outcome.
+Before diving into the 5 lenses proper, explore some Discovery Questions. It is recommended to develop and curate a library of capability-specific discovery questions that you will to begin gathering evidence and data to further support a decision on scoring for each lens within the assessment proper. Where possible, gather documented evidence to support answers to these questions, and ensure this evidence is associated with the rest of the assessment information to ensure context and support confidence in an accurate outcome.
 
 ### Conducting The Assessment
 
@@ -236,7 +241,7 @@ Once you have these metrics, if you have chosen to assess multiple capabilities 
 
 ### Trend Analysis & Emergent Patterns
 
-For the imaginary example shown below, the 5 assessed capabilities were broken down further into their stacked assessment components to highlight the strengths and weaknesses across the set - and to further highlight which areas had the most improvement needed (and associated effort).
+For the imaginary example used in this playbook, the 5 assessed capabilities were broken down further into their stacked assessment components to highlight the strengths and weaknesses across the set - and to further highlight which areas had the most improvement needed (and associated effort).
 
 ![Lens breakdown stacks](/img/assessment/lens-breakdown.png)
 

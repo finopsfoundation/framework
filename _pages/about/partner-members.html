@@ -1,0 +1,65 @@
+---
+
+layout: wide
+permalink: /about/partner-members/
+search: true
+
+title: FinOps Foundation Partner Members
+description: Find out the details on partner members and their associated FinOps materials, products and services.
+
+---
+
+<h1>Our Partner Members</h1>
+
+<h2>Premier Members</h2>
+
+<div class="flex flex-wrap items-stretch mt-6 mb-10">
+{% assign sortedpremier = site.tools-services | sort: 'member-order' %}
+{% for vendor in sortedpremier %}
+  {% if vendor.member-level == 'premier' and vendor.temporary %}
+  <div class="md:w-2/6 p-3 flex items-stretch">
+    <div class="w-full bg-gray-100 rounded-sm border-solid border-gray-100 border shadow-sm flex text-centre items-center justify-center">
+      <span class="block p-6">
+        <img src="{{ vendor.logo-url }}" alt="{{ vendor.name }}" width="{% if vendor.logo-url-width != undefined %}{{ vendor.logo-url-width }}{% else %}180{% endif %}" />
+      </span>
+    </div>
+  </div>
+  {% elsif vendor.member-level == 'premier' and vendor.temporary != 'true' %}
+  <div class="md:w-2/6 p-3 flex items-stretch">
+    <div class="w-full bg-gray-100 rounded-sm border-solid border-gray-100 border hover:border-green-500 transition-colors duration-200 shadow-sm cursor-pointer flex text-centre items-center justify-center">
+      <a href="{{ vendor.url }}" class="block p-6">
+        <img src="{{ vendor.logo-url }}" alt="{{ vendor.name }}" width="{% if vendor.logo-url-width != undefined %}{{ vendor.logo-url-width }}{% else %}180{% endif %}" />
+      </a>
+    </div>
+  </div>
+  {% endif %}
+{% endfor %}
+</div>
+
+
+<h2>General Members</h2>
+
+<div class="flex flex-wrap items-stretch mt-6 mb-10">
+
+{% assign sortedgeneral = site.tools-services | sort: 'name' %}
+
+{% for vendor in sortedgeneral %}
+  {% if vendor.member-level == 'general' and vendor.temporary %}
+  <div class="md:w-1/4 p-3 flex items-stretch">
+    <div class="w-full bg-gray-100 rounded-sm border-solid border-gray-100 border shadow-sm flex text-centre items-center justify-center">
+      <span class="block p-6">
+        <img src="{{ vendor.logo-url }}" alt="{{ vendor.name }}" width="{% if vendor.logo-url-width != undefined %}{{ vendor.logo-url-width }}{% else %}100{% endif %}" />
+      </span>
+    </div>
+  </div>
+  {% elsif vendor.member-level == 'general' and vendor.temporary != 'true' %}
+  <div class="md:w-1/4 p-3 flex items-stretch">
+    <div class="w-full bg-gray-100 rounded-sm border-solid border-gray-100 border hover:border-green-500 transition-colors duration-200 shadow-sm cursor-pointer flex text-centre items-center justify-center">
+      <a href="{{ vendor.url }}" class="block p-6">
+        <img src="{{ vendor.logo-url }}" alt="{{ vendor.name }}" width="{% if vendor.logo-url-width != undefined %}{{ vendor.logo-url-width }}{% else %}100{% endif %}" />
+      </a>
+    </div>
+  </div>
+  {% endif %}
+{% endfor %}
+</div>
