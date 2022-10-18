@@ -2,6 +2,7 @@
   children:
   - name: What is FinOps
   - name: Getting Started
+    url: /community/getting-started/
   - name: About the Foundation
     url: /about/
   - name: FinOps Ambassadors
