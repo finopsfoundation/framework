@@ -10,7 +10,7 @@ identifier: projects
 project-title: Cloud Cost Forecasting Playbook
 project-description: A playbook that provides guidance around cloud forecasting, including key terms, themes, KPIs, and user insights from our community.
 date-added: Oct 2022
-type: Guide
+type: Playbook
 source: Foundation Contribution
 label:
 cloud-provider:
