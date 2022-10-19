@@ -47,9 +47,9 @@ We created this working group to examine and better define cloud forecasting, su
 Welcome to the first iteration of the Forecasting Playbook. This playbook is intended to provide guidance around cloud forecasting. It is important to note that any forecasts for cloud should be approached with an eye toward measuring a larger Total Cost of Ownership (TCO). Cloud resources are an ever-increasing enabler of these processes as accurate forecasting of cloud resource usage helps to align resource allocation to other capabilities.
 
 ### Created by and for the FinOps community
-This playbook has been developed by the Forecasting Working Group (WG) and will continue to evolve and grow in future sprints. The initial working group created a great  resource, back in 2021, that can be found [here](https://www.finops.org/projects/forecasting-cloud-costs/). We suggest you read that asset first, as well as the [FinOps Framework resource on Cloud Forecasting](https://www.finops.org/framework/capabilities/forecasting) as they both deliver great overviews on forecasting before you dig a little deeper with this newer playbook.
+This playbook has been developed by the Forecasting Working Group (WG) and will continue to evolve and grow in future sprints. The initial working group created a great resource, back in 2021, that can be found [here](https://www.finops.org/projects/forecasting-cloud-costs/). We suggest you read that asset first, as well as the [FinOps Framework resource on Cloud Forecasting](https://www.finops.org/framework/capabilities/forecasting) as they both deliver great overviews on forecasting before you dig a little deeper with this newer playbook.
 
-### Responding to insights from the State of FinOps
+### Responding to findings from the State of FinOps
 Forecasting was the second biggest challenge cited in the [2022 State Of FinOps survey](https://data.finops.org/). Organizations across the globe are realizing the impact of shifting their compute from a fixed, capital expense to a variable, operating expense. Finance teams are starting to realize that they’ve given up a lot of control over their technology spend, and are starting to demand more accurate forecasting.
 
 ### Looking for insights and takeaways?
@@ -203,9 +203,9 @@ If you choose to have a [forecasting accuracy KPI]() (more later in the playbook
 The first principle of FinOps is "Teams need to collaborate." Collaboration is the engine of the practice of FinOps, enabling continuous improvement and fast decision making. Cloud practitioners need to understand who the key stakeholders are, what they contribute, and what requirements they have. This will determine the frequency, granularity, and quality around forecasting. Review the [FinOps Foundation Personas page](https://www.finops.org/framework/personas/) for more detail as to the various personas that might be involved or interested in the cloud forecasting process.
 
 ## FinOps Forecasting Working Group Survey 
-The FinOps Forecasting working group survey was conducted in Summer 2022. A total of 14 questions were asked, 49 FinOps practitioners responded,and 11 follow-up interviews were conducted with the goal of better understanding practitioners doing forecasting work, their methods, challenges, and successes. The following is a summary of the results.
+The FinOps Forecasting working group survey was conducted in Summer 2022. A total of 14 questions were asked, 49 FinOps practitioners responded, and 11 follow-up interviews were conducted with the goal of better understanding practitioners doing forecasting work, their methods, challenges, and successes. Here is a summary of the results.
 
-There are various measures of maturity for forecasting, one that is published in the State of FinOps is % accuracy but we wanted to explore more than the accuracy of the forecast and as such, slightly modified the definitions for which respondents rated their maturity level against.
+There are various measures of maturity for forecasting, one that is published in the State of FinOps is % (percent) accuracy, but we wanted to explore more than the accuracy of the forecast and as such, slightly modified the definitions for which respondents rated their maturity level against.
 
 * **Pre-Crawl** - Haven’t started, but have plans to in the next 3 months.
 * **Crawl** - We are getting the basics in place, manual approach, not easily repeatable.
