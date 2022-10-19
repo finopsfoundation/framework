@@ -10,7 +10,7 @@ identifier: projects
 project-title: U.S. Public Sector FinOps Playbook
 project-description: This playbook seeks to build upon the existing FinOps framework to assist U.S. federal agencies with their cloud spend.
 date-added: Apr 2022
-type: Playbook
+type: Guide
 source: Foundation Contribution
 label:
 cloud-provider:
