@@ -891,6 +891,7 @@
   groups:
     - forecasting
     - sustainability
+    - finops-tbm
 
 - name: Michelle Dupuis
   job-title: Cloud FinOps Operational Engineer
@@ -1136,3 +1137,42 @@
   groups:
     - multi-cloud
 
+- name: Larry Advey
+  company: Twilio
+  title: Asset Logistics Engineering Manager
+  linkedin-url: https://www.linkedin.com/in/ladvey/
+  image: larry-advey.jpeg
+  groups:
+    - finops-tbm
+
+- name: Marisa Banigan
+  company: Apptio
+  title: Sr. Director, Product Marketing
+  linkedin-url: https://www.linkedin.com/in/marisa-banigan/
+  image: marisa-banigan.jpeg
+  groups:
+    - finops-tbm
+
+- name: Keith Colberg
+  company: Red Hat
+  title: IT Business Manager
+  linkedin-url: https://www.linkedin.com/in/keith-colberg/
+  image: keith-colberg.jpeg
+  groups:
+    - finops-tbm
+
+- name: Alex Hullah
+  company: RealOps.io
+  title: Founder & FinOps Practitioner
+  linkedin-url: https://www.linkedin.com/in/alexhullah/
+  image: alex-hullah.jpeg
+  groups:
+    - finops-tbm
+
+- name: Bill Nieusma
+  company: AgileTrailblazers
+  title: Growth Leader
+  linkedin-url: https://www.linkedin.com/in/williamnieusma/
+  image: bill-nieusma.jpeg
+  groups:
+    - finops-tbm
