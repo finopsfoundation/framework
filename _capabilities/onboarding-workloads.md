@@ -67,7 +67,7 @@ Measures of success are represented in the context of cloud costs and may includ
 
 - Measurement of cost efficiency through infrastructure savings, migration and support costs
 - Operational resiliency improvement in service quality and security risk posture
-- Increase time to market by accelerating fluidity in product and service delivery
+- Decrease time to market by accelerating fluidity in product and service delivery
 - Enable a culture of rapid experimentation to drive innovation and cloud transformation
 - Embed true environmental and social sustainability across the organization
 
