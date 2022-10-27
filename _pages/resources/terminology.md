@@ -279,3 +279,54 @@ Unit Economics
 
 WACC
 > Weighted Average Cost of Capital - the rate the company is expected to pay on average to all its securities holders to finance the operation of the business. Importantly this is set by the external market (what the market is willing to pay for various forms of the company’s securities) not by management. The WACC, sometimes called the ICC or Internal Cost of Capital,  represents the internal cost of cash and can be used in a business case to compare the rates of return of an investment (such as an all-upfront RI payment) to determine if it is better to use cash, borrow cash, or forego the investment.
+
+## TBM and FinOps
+
+<span id="tbm-finops"></span>
+
+
+<span id="tbm-taxonomy"></span>
+TBM Taxonomy
+> TBM provides a standard taxonomy to describe cost sources, technologies, IT resources (IT towers), applications, and services. Just as businesses rely on generally accepted accounting principles (or GAAP) to drive standard practices for financial reporting — and thus comparability between financial statements — the TBM taxonomy provides a generally accepted way of categorizing and reporting IT costs and other metrics. Cloud services can also be mapped to the taxonomy, as shown in this diagram.
+
+Cloud FinOps
+> Cloud FinOps is an evolving cloud financial management discipline and cultural practice that enables organizations to get maximum business value by helping engineering, finance and business teams to collaborate on data-driven spending decisions.
+
+IT Financial Management (ITFM)
+> IT Financial Management (ITFM)is the oversight of expenditures that drives IT decision making  required to deliver IT products and services. IT financial management helps an IT organization determine the financial value of IT services provided to its customers. The discipline is based on traditional enterprise financial and accounting best practices, such as mandating documentation of expenses and requiring regular audits and reports. However, IT financial management methods and practices are adapted to address the particular requirements of managing IT services and solutions.
+
+Technology Business Management (TBM)
+> Technology Business Management (TBM) is a discipline that improves business outcomes by giving organizations a consistent way to translate technology investments to business value by defining the tools, processes, data, and people needed to manage the business of technology. Based on a set of standard taxonomy and ITFM best practices that can be used by technology, finance and business leaders, TBM enables organizations to react quickly to changing market dynamics, make data-driven decisions, and align organizations around a common business objective. 
+
+<span id="it-tower"></span>
+
+IT Tower
+> IT Tower is a technology function supported by IT spend in terms and groupings relevant to the owners and consumers of those functions.  Examples may be things like: End User, Network, Compute, Storage, IT Management. These towers are used in the hierarchy of cost allocation to tie together the costs in like-groupings that fit an organization's business model.
+
+IT Sub-tower
+> IT Sub-tower is a sub-component of an IT Tower. For example, the Tower “Network” could have Sub-towers of LAN/WAN, Voice or Transport.  
+
+Chargeback
+> Chargeback is an allocation strategy of actual consumption spend of IT services from finance systems back to user teams via an internal report or “invoice”. Chargeback is a method to hold business units directly accountable for IT spend and requires IT Finance Integration (to allocate spend to the appropriate cost centers and budgets). See main definition [above](#chargeback).
+
+Showback
+> Showback is an allocation strategy that creates a structure in which actual consumption of IT services is shown to business units, while a transaction of actual spend “invoice” is not directly allocated back to business units.Typically used to generate awareness & accountability across the organization or business areas. See main definition [above](#showback).
+
+<span id="cmdb"></span>
+
+Configuration Management Database (CMDB)
+> CMDB - Configuration Management Database (a shared system of records) is a central repository that acts as a data warehouse, storing information about your IT environment and it is a purpose-built database for configuration management.
+
+<span id="even-spread-cost-allocation"></span>
+
+Even-spread cost allocation
+> Even-spread allocation divides the total cost by the total number of units being charged. (i.e. $1,000 divided by 100 applications - 10 per application allocated).
+
+Cost-weighted allocation
+> Cost-weighted allocation times the total cost by weighted metric per unit being charged. (i.e. unit 1 = 60% weight, unit 2 = 40 % weight, therefore $1000 cost per weighted unit = $600 for unit 1, $400 for unit 2).
+
+Logical models
+> Missing definition...or remove...
+
+Total Cost of Ownership
+> (TCO) a comprehensive assessment of information technology (IT) or other costs across enterprise boundaries over time. For IT, TCO includes hardware and software acquisition, management and support, communications, end-user expenses, labor, opportunity cost of downtime, and training and other productivity losses. 
