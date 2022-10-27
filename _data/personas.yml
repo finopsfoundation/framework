@@ -185,7 +185,7 @@
     - item: Guide team to make good cloud investments
 
 - name: Procurement
-  indentifier: procurement
+  identifier: procurement
   primary-goal: Cloud platform relationship management
   img:
   titles:
