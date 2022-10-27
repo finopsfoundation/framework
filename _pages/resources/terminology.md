@@ -39,6 +39,24 @@ Vacancy
 Waste
 > Any usage or cost of resources which provide no value to an organization
 
+## Chargeback & IT Finance Integration
+
+<span id="chargeback"></span>
+Chargeback
+> Chargeback is an allocation strategy of actual consumption spend of IT services from finance systems back to user teams via an internal report or “invoice”. Chargeback is a method to hold business units directly accountable for IT spend and requires IT Finance Integration (to allocate spend to the appropriate cost centers and budgets).
+
+> Both Chargeback and Showback reporting can be done in any subset of responsibility, at the P&L level, or a subset of that (application, business owner, etc.), or in cross-cutting views (like all Production systems, or all storage costs, etc.), the strategic decision of how to handle where the dollars are allocated differs the two strategies.
+
+## Data Analysis & Showback
+
+<span id="showback"></span>
+Showback
+
+> Showback creates a structure in which actual consumption of IT services is shown to business units, while the spend is being charged to a different business unit. Typically used to generate awareness & accountability across the organization or business areas.
+
+> Both Chargeback and Showback reporting can be done in any subset of responsibility, at the P&L level, or a subset of that (application, business owner, etc.), or in cross-cutting views (like all Production systems, or all storage costs, etc.), the strategic decision of how to handle where the dollars are allocated differs the two strategies.
+
+
 <span id="forecasting"></span>
 ## Forecasting
 
