@@ -18,3 +18,7 @@ https://framework.finops.org/* https://www.finops.org/:splat 301!
 /resources/state-of-finops/ https://data.finops.org/
 
 /stories/migrating-15-million-lines-of-code-to-gcp/ /stories/migrating-to-gcp/
+
+
+/what-is-finops/ /introduction/what-is-finops/
+/cloud-finops-oreilly-book/ /community/finops-book/
