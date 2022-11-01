@@ -3,61 +3,61 @@ const today = Math.floor(Date.now() / 1000 - 86400);
 
 
 // Events page
-if(document.getElementById('event-hits')) {
+// if(document.getElementById('event-hits')) {
 
-  const event_search = instantsearch({
-    indexName: 'prod_events',
-    searchClient,
-  });
+//   const event_search = instantsearch({
+//     indexName: 'prod_events',
+//     searchClient,
+//   });
 
 
-  event_search.addWidgets([
-    instantsearch.widgets.configure({
-      hitsPerPage: 12,
-      filters: `date_timestamp > ${today}`,
-    }),
+//   event_search.addWidgets([
+//     instantsearch.widgets.configure({
+//       hitsPerPage: 12,
+//       filters: `date_timestamp > ${today}`,
+//     }),
 
-    instantsearch.widgets.searchBox({
-      container: '#event-search',
-    }),
+//     instantsearch.widgets.searchBox({
+//       container: '#event-search',
+//     }),
 
-    instantsearch.widgets.refinementList({
-      container: '#event-type',
-      attribute: 'type',
-    }),
+//     instantsearch.widgets.refinementList({
+//       container: '#event-type',
+//       attribute: 'type',
+//     }),
 
-    instantsearch.widgets.refinementList({
-      container: '#event-label',
-      attribute: 'label',
-    }),
+//     instantsearch.widgets.refinementList({
+//       container: '#event-label',
+//       attribute: 'label',
+//     }),
 
-    instantsearch.widgets.hits({
-      container: '#event-hits',
-      templates: {
-        item: `
-         <div>
-          <a class="flex text-centre items-center justify-center m-0 bg-white border-solid border-gray-200 border rounded-sm shadow-sm hover:border-green-500 cursor-pointer transition duration-200" href="{{ url }}" data-ga-category="links" data-ga-action="internal link clicks" data-ga-label="events - {{ meta_title }} {{ event.host }}">
-            <img src="/img/events/{{ image }}" alt="{{ meta_title }}" width="100" />
-            <div class="py-2 px-4 flex-grow">
-              <h2 class="text-lg font-medium mt-0 mb-2 leading-tight">{{ meta_title }}</h2>
-              <p class="text-xs leading-tight m-0">{{ date }} - {{ location }}</p>
-              <p class="text-xs leading-tight m-0">Hosted by: {{ host }}</p>
-            </div>
-          </a>
-        </div>
-        `,
-      },
-    }),
+//     instantsearch.widgets.hits({
+//       container: '#event-hits',
+//       templates: {
+//         item: `
+//          <div>
+//           <a class="flex text-centre items-center justify-center m-0 bg-white border-solid border-gray-200 border rounded-sm shadow-sm hover:border-green-500 cursor-pointer transition duration-200" href="{{ url }}" data-ga-category="links" data-ga-action="internal link clicks" data-ga-label="events - {{ meta_title }} {{ event.host }}">
+//             <img src="/img/events/{{ image }}" alt="{{ meta_title }}" width="100" />
+//             <div class="py-2 px-4 flex-grow">
+//               <h2 class="text-lg font-medium mt-0 mb-2 leading-tight">{{ meta_title }}</h2>
+//               <p class="text-xs leading-tight m-0">{{ date }} - {{ location }}</p>
+//               <p class="text-xs leading-tight m-0">Hosted by: {{ host }}</p>
+//             </div>
+//           </a>
+//         </div>
+//         `,
+//       },
+//     }),
 
-    instantsearch.widgets.pagination({
-      container: '#pagination',
-    }),
+//     instantsearch.widgets.pagination({
+//       container: '#pagination',
+//     }),
 
-  ]);
+//   ]);
 
-  event_search.start();
+//   event_search.start();
 
-}
+// }
 
 // Main Site search  js-search
 
@@ -89,23 +89,23 @@ if(document.getElementById('site-search')) {
       },
     }),
 
-    instantsearch.widgets
-      .index({ indexName: 'prod_events' })
-      .addWidgets([
-        instantsearch.widgets.configure({
-          hitsPerPage: 3,
-          filters: `date_timestamp > ${today} AND NOT label:"Training Partner"`,
-        }),
+    // instantsearch.widgets
+    //   .index({ indexName: 'prod_events' })
+    //   .addWidgets([
+    //     instantsearch.widgets.configure({
+    //       hitsPerPage: 3,
+    //       filters: `date_timestamp > ${today} AND NOT label:"Training Partner"`,
+    //     }),
 
-        instantsearch.widgets.hits({
-          container: '#search-hits_events',
-          templates: {
-            item: `
-             <a class="m-0 block p-2 text-white rounded-sm hover:bg-orange-500 cursor-pointer transition duration-200 leading-normal" href="{{ url }}">{{ meta_title }} <span class="text-sm opacity-60">{{ date }}</span</a>
-          `,
-          },
-        }),
-      ]),
+    //     instantsearch.widgets.hits({
+    //       container: '#search-hits_events',
+    //       templates: {
+    //         item: `
+    //          <a class="m-0 block p-2 text-white rounded-sm hover:bg-orange-500 cursor-pointer transition duration-200 leading-normal" href="{{ url }}">{{ meta_title }} <span class="text-sm opacity-60">{{ date }}</span</a>
+    //       `,
+    //       },
+    //     }),
+    //   ]),
 
     instantsearch.widgets
       .index({ indexName: 'prod_site-content' })
