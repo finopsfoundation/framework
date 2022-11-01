@@ -5,7 +5,7 @@ permalink: /framework/personas/
 search: true
 
 title: FinOps Personas
-description: The FinOps discipline covers many different personas, understand more about them, their roles and requirements. 
+description: The FinOps discipline covers many different personas, understand more about them, their roles, and requirements. 
 
 ---
 
@@ -61,10 +61,20 @@ description: The FinOps discipline covers many different personas, understand mo
     <img src="/img/framework/persona-finance.svg" alt="FinOps finance Persona" width="150" class="relative" />
   </div>
   <div class="p-4">
-    <h2 class="mt-0">Finance/Procurement</h2>
-    <p>Finance and procurement team members, including Technology Procurement Managers, Global Technology Procurement, Financial Planning and Analyst Managers, and Financial Business Advisors, use the reporting provided by the FinOps team for accounting and forecasting. They work closely with FinOps practitioners to understand historic billing data so that they can build increasingly accurate cost models. They use their forecasts and expertise from the FinOps team to engage in rate negotiations with cloud service providers.</p>
-     <p>See persona details for: <a href="#itfm" class="badge-dgrey inline-flex items-center"><span>IT Finance Management</span> <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-px" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" /></svg></a>
-      <a href="#procurement" class="badge-dgrey inline-flex items-center"><span>Procurement</span> <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-px" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" /></svg></a></p>
+    <h2 class="mt-0">Finance</h2>
+    <p>Finance members, including Financial Planners, Financial Analysts, Financial Business Managers/Advisors, use the reporting provided by the FinOps team for cost allocation, showback allocation, and forecasting. They work closely with FinOps practitioners to understand historic billing data so that they can collaborate and build accurate forecasting models used for planning and budgeting.</p>
+     <p>See persona details for: <a href="#itfm" class="badge-dgrey inline-flex items-center"><span>IT Finance Management</span> <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-px" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" /></svg></a></p>
+  </div>
+</div>
+
+<div class="flex flex-col md:flex-row bg-gray-100 p-4 mb-6">
+  <div class="flex-none">
+    <img src="/img/framework/persona-procurement.svg" alt="FinOps finance Persona" width="150" class="relative" />
+  </div>
+  <div class="p-4">
+    <h2 class="mt-0">Procurement</h2>
+    <p>Procurement Analysts, Sourcing analysts, Vendor Management or Directors within Procurement teams use insights provided by the FinOps team for identifying sourcing and purchasing of product and services within a Cloud Platform Vendor. Procurement should work closely with FinOps to ensure that prices and terms negotiated in the contract are fulfilled and streamline the procurement process. Procurement may have a legal component to review contract language.</p>
+     <p>See persona details for: <a href="#procurement" class="badge-dgrey inline-flex items-center"><span>Procurement</span> <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-px" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" /></svg></a></p>
   </div>
 </div>
 

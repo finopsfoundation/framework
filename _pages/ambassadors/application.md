@@ -18,7 +18,7 @@ The FinOps Ambassador program exists to empower community members with tools and
 * Educate and coach your local community on the FinOps Foundation mission
 * Contribute to FinOps Framework, working groups and other projects
 
-Meet our current FOAs [here](/ambassadors/).
+Meet our current FOAs [here](/about/ambassadors/).
 
 ## Requirements for becoming an official FinOps Ambassador:
 * Member of the FinOps Foundation. If you are not a member of the community yet, please [apply here](https://www.finops.org/membership/) and get involved in [working groups or special interest groups](https://www.finops.org/projects/overview/)
