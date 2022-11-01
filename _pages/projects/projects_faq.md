@@ -40,8 +40,21 @@ If your idea is selected, then you will:
   * be asked if you would like to lead or co-lead the WG (practitioner members only)
   * be invited to create the WG proposal and help find other community members to aid in this effort (which will eventually form the WG members)
 
+### What is the structure of a WG?
+A Working Group is made up of:
+
+| Role | Description |
+|---:|:---|
+| F2 Community Practitioner Lead | at least 1 FinOps community member practitioner that leads the WG; up to a max of 3 community member practitioner leads. |
+| F2 Community Contributors | F2 community members participating in the WG; community members can be a mix of practitioner-members, partner-members, vendor-members, and any TAC and GB members |
+| F2 Staff Sponsor | at least 1 FinOps Foundation staff member sponsoring the WG |
+| F2 TAC Liaison | at least 1 FinOps Foundation TAC member serving as the primary liaison for the WG |
+
 ### How are working group leads selected?
 F2 community members who are practitioners are eligible to lead working groups. If eligible, the individual(s) who submitted the working group idea are asked if they are willing to lead the working group. Otherwise, F2 practitioner members can volunteer to be a WG Practitioner Lead, or a practitioner may be nominated to the role by (i) the TAC Liaison, F2 Staff Sponsor and/or (ii) the WG members. This role may be held by a max 3 members practitioner members.
+
+### What does it mean to be a WG Practitioner Lead?
+This role must be held and performed by an active F2 FinOps Practitioner member (up to a max of 3 members). The WG Practitioner Lead(s) organize and lead the WG aligned to the scope and sprint timeline in order to produce the artifacts/resources described by their WG Proposal. This role is expected to chair the WG meetings, set the meeting agenda, capture meeting minutes and track/follow-up on actions captured/resolved. F2 practitioner members can volunteer to be a WG Practitioner Lead, or a practitioner may be nominated to the role by (i) the TAC Liaison and/or (ii) the WG members.
 
 ### What does the WG proposal template look like?
 The WG Proposal template is intended to be a relatively short abstract of your idea and the corresponding deliverables the WG is planning to produce for the F2 community. The current version of the template can be viewed [here](https://docs.google.com/document/d/18N8ItF1JZsEO5a_Xf7czLA5THaxnpOV3JL8QVpez9EM/edit?usp=sharing).
@@ -64,7 +77,7 @@ During your WG sprint, contributors will…
 F2 community members can participate in working groups. To ensure quality participation, practitioner and vendor members are limited to participating in two simultaneous working groups. Consultant members are limited to participating in one working group at a time. Please reference [community access criteria](http://foundation/community-access-criteria.md%20at%20main%20%C2%B7%20finopsfoundation/foundation%20%C2%B7%20GitHub) for more information.
 
 ### How do I join a working group?
-To join a working group fill out the [Working Group Interest - Join Request form](https://share.hsforms.com/1JE3npzyMTGWSFhBF6FAPYw38fku). When filling out this form it is important to submit the email address associated with your FinOps community membership as only FinOps community members are eligible to participate in working groups. For more information on working group participation rules and roles see working group roles.
+To join a working group fill out the [Working Group Interest - Join Request form](https://share.hsforms.com/1JE3npzyMTGWSFhBF6FAPYw38fku). When filling out this form it is important to submit the email address associated with your FinOps community membership as only FinOps community members are eligible to participate in working groups. For more information on working group participation see [community access criteria](https://github.com/finopsfoundation/foundation/blob/main/community-access-criteria.md).
 
 Working groups only accept new members during the proposal pending phase or at the start of a new sprint. Requests to join a working group mid-sprint will be considered by the staff sponsor and working group lead. 
 
@@ -76,32 +89,9 @@ Completion of the [Working Group Interest - Join Request form](https://share.hsf
 ### What happens after the WG sprint ends?
 At the end of each sprint working groups will take a 1-2 week break before proceeding on to the next sprint. When a WG has completed all approved  sprints they will consider if additional sprints are necessary. If yes, the WG goes back to revise the proposal and re-submits for acceptance. If additional sprints are not necessary you may pat yourself on the back for a job well done!
 When all sprints are complete F2 staff will ensure:
-* The WG content published on FinOps.org will move from the Active to Graduated
-* The GDrive folder will be moved into a graduated projects folder
-* The Slack channel will be archived or renamed to a chat channel
-* The WG meeting series will be removed from calendars
-
-### What happens if my WG idea is BIG (yuuge!) and 1 sprint is not enough?
-No problem!  If the project you're planning to tackle requires multiple sprints, then plan to break it down so that each subsequent WG sprint…
-* has a WG proposal doc describing the scope and deliverable for the next sprint
-* produces a deliverable
-* follows the same review/approval process as the original sprint
-
-Ultimately the goal is to ensure WGs are setup for success; each sprint should be independent (as possible),  produce a helpful deliverable for the F2 community, and avoid scope creep/neverending meetings #gak!
-
-### What is the structure of a WG?
-A Working Group is made up of:
-
-| Role | Description |
-|---:|:---|
-| F2 Community Practitioner Lead | at least 1 FinOps community member practitioner that leads the WG; up to a max of 3 community member practitioner leads. |
-| F2 Community Contributors | F2 community members participating in the WG; community members can be a mix of practitioner-members, partner-members, vendor-members, and any TAC and GB members |
-| F2 Staff Liaison | at least 1 FinOps Foundation staff member liaison for the WG |
-| F2 TAC Liaison | at least 1 FinOps Foundation TAC member serving as the primary liaison for the WG |
-
-### What does it mean to be a WG Practitioner Lead?
-This role must be held and performed by an active F2 FinOps Practitioner member (up to a max of 3 members).  The WG Practitioner Lead(s) organize and lead the WG aligned to the scope and sprint timeline in order to produce the artifacts/resources described by their WG Proposal. This role is expected to chair the WG meetings, set the meeting agenda, capture meeting minutes and track/follow-up on actions captured/resolved.  F2 practitioner members can volunteer to be a WG Practitioner Lead, or a practitioner may be nominated to the role by (i) the TAC Liaison and/or (ii) the WG members.
-
+* the dedicated WG folder of GDrive is moved into the Graduated WG Projects folder
+* the Slack channel is archived or renamed to a chat channel
+* the WG meeting series is removed from calendars
 
 <HR/>
 
