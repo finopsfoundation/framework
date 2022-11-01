@@ -10,7 +10,7 @@ description: This capability is intended to capture an organization's FinOps rel
 
 page-identifier: capability_decision-accountability-structure
 framework-capability-title: Establishing a FinOps Decision & Accountability Structure
-framework-capability-desc: coming soon...
+framework-capability-desc: This capability is intended to capture an organization's FinOps related responsibility activities that bridge operational gaps between teams and help work out the processes and decision trees you'll need to decide what to do when bag things happen - or - proactively available when you need to take action ahead of time.
 label:
 order: 17
 
