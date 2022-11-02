@@ -98,7 +98,7 @@ When all sprints are complete F2 staff will ensure:
 ## Special Interest Groups
 
 ### What are Special Interest Groups?
-FinOps Foundation Special Interest Groups (SIGs) represent supplementary communities within the FinOps Foundation that are organized around industry, regions, or other topics of interest related to FinOps. SIGs provide opportunities for practioner connection, exploration of topics, and share knowledge between those involved.  SIGs can host meet-ups to encourage members to come together.  SIGs can also form their own WGs to create content for their area of interest or regionally adapt FinOps Foundation content their needs (for example: creating non-english content translations).
+FinOps Foundation Special Interest Groups (SIGs) represent supplementary communities within the FinOps Foundation that are organized around industry, regions, or other topics of interest related to FinOps. SIGs provide opportunities for practioner connection, exploration of topics, and share knowledge between those involved. SIGs can host meet-ups to encourage members to come together. SIGs can also form their own WGs to create content for their area of interest or regionally adapt FinOps Foundation content their needs (for example: creating non-english content translations).
 
 
 ### What is the structure of a SIG?
@@ -112,29 +112,26 @@ An Special Interest Group is made up of:
 
 
 ### What does it mean to be a SIG Owner?
-A SIG Owner is recognized as an expert in the area of interest the SIG is being organized to explore, and for their ability to lead (or co-lead) the SIG to produce a SIG roadmap and the corresponding unbiased outputs. Each SIG can have 1-3 SIG Owners that are responsible for leading the SIG,  collecting and compiling topics for their meeting agenda, chairing the meeting, ensuring that quality meeting minutes are published, and follow-up actions tracked and resolved. Additionally, SIG Owners are expected to actively encourage a diverse range of community members to participate as diversity is strongly encouraged within SIGs.  A SIG Owner tenure last for 6 months but can be extended.
+A SIG Owner is recognized as an expert in the area of interest the SIG is being organized to explore, and for their ability to lead (or co-lead) the SIG to produce a SIG roadmap and the corresponding unbiased outputs. Each SIG can have 1-3 SIG Owners that are responsible for leading the SIG, collecting and compiling topics for their meeting agenda, chairing the meeting, ensuring that quality meeting minutes are published, and follow-up actions tracked and resolved. Additionally, SIG Owners are expected to actively encourage a diverse range of community members to participate as diversity is strongly encouraged within SIGs. A SIG Owner tenure last for 6 months but can be extended.
 
 
 ### Do SIGs attend the F2 TAC meeting?
-Yes.  A SIG Owner (or designate) is expected to attend the TAC meeting and provide updates on their activities, road map, and  resourcing needs
+Yes. A SIG Owner (or designate) is expected to attend the TAC meeting and provide updates on their activities, road map, and resourcing needs.
 
 
 ### When should a SIG be created?
-SIGs should only be created in combination with high-demand interest from the community about the intersection of FinOps and another area (like Public Sector, Industry, Policy, etc).  A Conversation Space (aka a slack channel) is a great first step to gauge community engagement before creating a SIG.
+SIGs should only be created in combination with high-demand interest from the community about the intersection of FinOps and another area (like Public Sector, Industry, Policy, etc). A Conversation Space (aka a slack channel) is a great first step to gauge community engagement before creating a SIG.
 
 
 ### What is a Conversation Space?
-A Conversation Space is a great first step to gauge community engagement before creating a SIG.  SIGs should only be created only in combination with high-demand interest from the community about the intersection of FinOps and another area (Public Sector, Industry, Policy, etc).
+A Conversation Space is a great first step to gauge community engagement before creating a SIG.  SIGs should only be created only in combination with high-demand interest from the community about the intersection of FinOps and another area (Public Sector, Industry, Policy, etc.).
 
 
 ### How long can a SIG remain active?
 As long as the SIG maintains an updated roadmap, is actively working on initiatives, has community engagement, provides updates to the TAC, and is following F2 policy/guidelines then the SIG can remain active indefinitely.
 
-
-
 ### Can SIGs produce content for finops.org ?
-Yes.  A SIG can bring forward any resources or deliverables they would like to have considered for publishing to the TAC meeting.  the SIG Owner will work with the F2 Objective Group  core team towards having the resource approved for publishing to finops.org
-
+Yes. A SIG can bring forward any resources or deliverables they would like to have considered for publishing to the TAC meeting. The SIG Owner will work with the F2 Objective Group core team towards having the resource approved for publishing to finops.org.
 
 ### What happens when a SIG is not-active?
 A SIG and it's associated initiatives will be suspended including archiving of any corresponding Slack channel archived when...
@@ -144,12 +141,6 @@ A SIG and it's associated initiatives will be suspended including archiving of a
 * there are no active WGs in the SIG
 
 If at a later date there is renewed support to reinstate a suspected SIG, the previous initiatives will need to be reviewed/adopted by the newly restarted SIG team.
-
-
-
-
-
-<br/><br/><br/>
 
 ## Not sure where to start?  
 Email <hello@finops.org> or in the slack channel [#ask-a-question](https://finopsfoundation.slack.com/archives/C02EEAUTPGV) to get plugged in to the right area.
