@@ -5,7 +5,7 @@ permalink: /about/technical-advisory-council/
 search: true
 
 title: FinOps Foundation Technical Advisory Council
-description: The FinOps Foundation Governing Board (GB) is responsible for business oversight and budget decisions for the FinOps Foundation.
+description: The FinOps Technical Advisory Council (TAC) is the technical governing body of the FinOps Foundation which oversees open source standards, best practices, curriculum and technical vision of the FinOps Foundation.
 
 ---
 
