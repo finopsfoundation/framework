@@ -2,8 +2,8 @@
 layout: wide
 permalink: /about/ambassadors/
 search: true
-title: FinOps Foundation Ambassador Program
-description: FinOps Ambassadors (FOAs) are practitioners who are passionate about the FinOps Foundation community, recognized for their expertise, and willing to help others learn and succeed. Get more information about how to become an Ambassador to help us continue to grow our community.
+title: Learn about the FinOps Foundation Ambassador Program
+description: FinOps Ambassadors are practitioners who are passionate about the FinOps Foundation community, recognized for their expertise, represent the community at meetups and trade events, and willing to help others learn and succeed. Get more information about how to become an Ambassador to help us continue to grow our community.
 
 ---
 # FinOps Foundation Ambassador Program

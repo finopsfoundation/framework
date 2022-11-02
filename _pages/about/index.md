@@ -5,7 +5,7 @@ permalink: /about/
 search: true
 
 title: About the FinOps Foundation
-description: The FinOps Foundation is a non-profit trade association made up of FinOps practitioners around the world - learn more today.
+description: The FinOps Foundation is a non-profit trade association made up of FinOps practitioners around the world - learn more today. We are also a program of the Linux Foundation, working alongside other programs, like the Cloud Native Computing Foundation (CNCF).
 
 ---
 

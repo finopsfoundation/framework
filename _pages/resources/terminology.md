@@ -5,7 +5,7 @@ permalink: /resources/terminology/
 search: true
 
 title: FinOps Terminology
-description: A glossary of FinOps concepts and terminology.
+description: A glossary of FinOps concepts and terminology used by practitioners all over the world. This resources also includes terminology and definitions to help readers better understand FinOps Foundation educational and training content.
 
 ---
 

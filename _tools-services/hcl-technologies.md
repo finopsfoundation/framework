@@ -3,7 +3,7 @@
 layout: member
 
 # Vendor details
-name: HCL Technologies
+name: HCLTech
 logo-url: "/tools-services/logos/hcl.png"
 linkedin-url: "https://www.linkedin.com/company/hcl-technologies/mycompany/"
 website-url: "https://www.hcltech.com/cloud"
