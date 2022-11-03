@@ -19,6 +19,10 @@ description: View all the current and proposed Working Groups and active Special
 
 <iframe class="my-10" src="https://view.monday.com/embed/1651792390-3d433c56d728fe7a95e551575f96ed9d?r=use1" width=1024 height=768 style="border: 0; box-shadow: 5px 5px 56px 0px rgba(0,0,0,0.25);"></iframe>
 
+## Graduated Projects
+
+<iframe src="https://view.monday.com/embed/3260029107-eaaf443f817e96f6e42415f681cbad06?r=use1" width=1024 height=768 style="border: 0; box-shadow: 5px 5px 56px 0px rgba(0,0,0,0.25);"></iframe>
+
 ___
 
 Have an idea for a new Working Group topic not listed below?   [Click here to submit an idea](https://forms.monday.com/forms/db4205de73d08ebbf7bd2151ce89a1a5?r=use1).
