@@ -325,8 +325,8 @@ Even-spread cost allocation
 Cost-weighted allocation
 > Cost-weighted allocation times the total cost by weighted metric per unit being charged. (i.e. unit 1 = 60% weight, unit 2 = 40 % weight, therefore $1000 cost per weighted unit = $600 for unit 1, $400 for unit 2).
 
-Logical models
-> Missing definition...or remove...
+Logical Models
+> Logical Models define the data needed by the business to achieve a given outcome, how that data is related, and the rules that allow interaction with or between the data. Logical Models also establish the structure of data elements and their relationships, similar to a blueprint for data. A logical data model incorporates all of the elements of information that are vital in the running of the day to day business. Three main components of a logical data model are Entities (a set of things, persons, or concepts relevant to a business), Relationships (an association between two of the above entities), and Attributes (characteristic or any other information that is useful to further describe an entity).
 
 Total Cost of Ownership
 > (TCO) a comprehensive assessment of information technology (IT) or other costs across enterprise boundaries over time. For IT, TCO includes hardware and software acquisition, management and support, communications, end-user expenses, labor, opportunity cost of downtime, and training and other productivity losses. 
