@@ -5,13 +5,13 @@ permalink: /about/
 search: true
 
 title: About the FinOps Foundation
-description: The FinOps Foundation is a non-profit trade association made up of FinOps practitioners around the world - learn more today.
+description: The FinOps Foundation is a non-profit trade association made up of FinOps practitioners around the world - learn more today. We are also a program of the Linux Foundation, working alongside other programs, like the Cloud Native Computing Foundation (CNCF).
 
 ---
 
 # About The FinOps Foundation
 
-The FinOps Foundation is a program of the [The Linux Foundation](http://linuxfoundation.org) (alongside organizations like [Cloud Native Computing Foundation](http://cncf.io)) dedicated to advancing people who practice the discipline of cloud financial management through best practices, education and standards. The FinOps Foundation includes 7300+ individual members, representing more than 2500+ companies. It provides a variety of training and certification programs including the [FinOps Certified Practitioner](https://learn.finops.org/) designation. It counts dozens of major service and platform providers as part of our vendor certification programs such as [FinOps Certified Platform](/members/vendor-certification/) and [FinOps Certified Service Provider](/members/vendor-certification/) programs.
+The FinOps Foundation is a program of the [The Linux Foundation](http://linuxfoundation.org) (alongside organizations like [Cloud Native Computing Foundation](http://cncf.io)) dedicated to advancing people who practice the discipline of cloud financial management through best practices, education and standards. The FinOps Foundation includes 7300+ individual members, representing more than 2500+ companies. It provides a variety of training and certification programs including the [FinOps Certified Practitioner](https://learn.finops.org/) designation. It counts dozens of major service and platform providers as part of our vendor certification programs such as [FinOps Certified Platform](/members/partner-certification/) and [FinOps Certified Service Provider](/members/partner-certification/) programs.
 
 <p class="mt-8"><a href="/about/governing-board" class="badge-dgrey inline-flex items-center px-4 py-2"><span>Governing Board</span> <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 ml-px" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L12.586 11H5a1 1 0 110-2h7.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd" /></svg></a>
 
