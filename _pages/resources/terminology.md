@@ -10,6 +10,8 @@ description: A glossary of FinOps concepts and terminology used by practitioners
 ---
 
 # FinOps Terminology
+A glossary of FinOps concepts and related terminology used by practitioners all over the world. This resources also includes finance and business terminology and definitions to help readers better understand terms used across the FinOps Foundation website, educational and training content.
+
 
 ## Cloud Cost Management Terminology
 Allocation Metadata
@@ -39,28 +41,19 @@ Vacancy
 Waste
 > Any usage or cost of resources which provide no value to an organization
 
-## Chargeback & IT Finance Integration
 
-<span id="chargeback"></span>
 Chargeback
 > Chargeback is an allocation strategy of actual consumption spend of IT services from finance systems back to user teams via an internal report or “invoice”. Chargeback is a method to hold business units directly accountable for IT spend and requires IT Finance Integration (to allocate spend to the appropriate cost centers and budgets).
 
 > Both Chargeback and Showback reporting can be done in any subset of responsibility, at the P&L level, or a subset of that (application, business owner, etc.), or in cross-cutting views (like all Production systems, or all storage costs, etc.), the strategic decision of how to handle where the dollars are allocated differs the two strategies.
 
-## Data Analysis & Showback
 
-<span id="showback"></span>
 Showback
 
 > Showback creates a structure in which actual consumption of IT services is shown to business units, while the spend is being charged to a different business unit. Typically used to generate awareness & accountability across the organization or business areas.
 
 > Both Chargeback and Showback reporting can be done in any subset of responsibility, at the P&L level, or a subset of that (application, business owner, etc.), or in cross-cutting views (like all Production systems, or all storage costs, etc.), the strategic decision of how to handle where the dollars are allocated differs the two strategies.
 
-
-<span id="forecasting"></span>
-## Forecasting
-
-Terms and concepts found across this site, especially in their respective Working Group outputs:
 
 Amortized costs
 > Some cloud resources and reservations come with an upfront fee. The amortized cost of a resource takes this initial payment into account and distributes it out based on usage, attributing the prorated cost for each hour of billing.
@@ -77,13 +70,6 @@ Cost allocation
 Cost estimation
 > The process of quantifying every resource that will be required to complete a project also used to help create budgets.
 
-Cost of goods sold (COGS)
-> Measures how many dollars of outlay it takes to generate revenues in a specific period. For example if a power company is trucking coal out of storage and into a power plant, it records the cost of the coal burned. That cost has no future benefit, so it’s going to be an expense that is directly traceable to revenue in that period, making it a COGS expense. The test of COGS is: are they directly expensed and directly related to revenues in the same period?
-
-> For a company that uses cloud, the COGS are the monthly cloud bill to operate its cloud workloads, salesperson commissions, and support costs. Notably, cloud has the most variable spend model and has a high potential for optimization. You can’t usually materially turn down your sales commissions or terminate your support people, which leaves optimizing your cloud spend without reducing revenue.
-
-COGS as capitalized assets
-> There’s potential to reclassify COGS as capital expenses when it comes to how expenses are used. Let’s say a power company takes some of their coal and uses it to make diamonds. If it burned coal to generate power that was sold for revenue, the company accounts for the cost of the coal as COGS. But if it creates diamonds out of the coal, and those diamonds aren’t sold in the period but instead are put into storage as inventory for future periods, the cost of the coal would then be capitalized as an asset. However, as soon as those diamonds are sold, then the cost of the coal switches back to COGS during the period of the sale.
 
 Forecasting, also Forecast
 > Forecasting is the practice of predicting future spending, usually based on a combination of historical spending and an evaluation of future plans, understanding how future cloud infrastructure and application lifecycle changes may impact current budgets and influence budget planning and future cloud investment decisions. This capability also involves collaboration between stakeholder teams like Finance, Engineering, and Executives to build agreed upon forecast models and KPIs from which to establish budgets that align with business goals.
@@ -98,7 +84,7 @@ Unblended rates
 > Some resources are charged in decreasing rates the more you use them. This means you’re billed different rates for resources as you use more, or for longer periods during the month. By examining your bill, you can see that some resource costs are larger than others, even for the same type of resource or an identical resource. When the rates are presented this way, they’re called unblended.
 
 Workload
-> The amount of work performed or capable of being performed usually within a specific period. In forecasting, a workload can be a type of unit measurement such as “ 1 workload = 8GB RAM + 50GB Storage or a similar configuration.” it could also be “1 workload cost = Rate*5 hours + Cost of 3 EC2 t3nano + cost of 100GB storage.” Whatever a workload for the organization is, ensure it is defined. 
+> The amount of work performed or capable of being performed usually within a specific period. In forecasting, a workload can be a type of unit measurement such as “ 1 workload = 8GB RAM + 50GB Storage or a similar configuration.” it could also be “1 workload cost = Rate*5 hours + Cost of 3 EC2 t3nano + cost of 100GB storage.” Whatever a workload for the organization is, ensure it is defined.
 
 ## Business Terminology
 Cloud Center of Excellence (CCOE)
@@ -244,6 +230,14 @@ Capital Expenditure (CapEx)
 Capitalization
 > the ability to treat an investment or outlay as a capital item which will be depreciated or amortized in future periods
 
+Cost of goods sold (COGS)
+> Measures how many dollars of outlay it takes to generate revenues in a specific period. For example if a power company is trucking coal out of storage and into a power plant, it records the cost of the coal burned. That cost has no future benefit, so it’s going to be an expense that is directly traceable to revenue in that period, making it a COGS expense. The test of COGS is: are they directly expensed and directly related to revenues in the same period?
+
+> For a company that uses cloud, the COGS are the monthly cloud bill to operate its cloud workloads, salesperson commissions, and support costs. Notably, cloud has the most variable spend model and has a high potential for optimization. You can’t usually materially turn down your sales commissions or terminate your support people, which leaves optimizing your cloud spend without reducing revenue.
+
+COGS as capitalized assets
+> There’s potential to reclassify COGS as capital expenses when it comes to how expenses are used. Let’s say a power company takes some of their coal and uses it to make diamonds. If it burned coal to generate power that was sold for revenue, the company accounts for the cost of the coal as COGS. But if it creates diamonds out of the coal, and those diamonds aren’t sold in the period but instead are put into storage as inventory for future periods, the cost of the coal would then be capitalized as an asset. However, as soon as those diamonds are sold, then the cost of the coal switches back to COGS during the period of the sale.
+
 Cost Allocation
 > In FinOps, the ability to identify and allocate costs to the appropriate cost categories in use by a customer. Ideally direct costs (the cost of resources running in my accounts), amortized costs (the amortization of prepaid costs paid upfront for RIs applied in my accounts), and shared costs (my share of common services accounts run by others on my behalf) can be allocated to individual budgeting categories for a clear view of the entire cost of running my application or workload in the cloud.
 
@@ -296,7 +290,7 @@ IT Financial Management (ITFM)
 > IT Financial Management (ITFM)is the oversight of expenditures that drives IT decision making  required to deliver IT products and services. IT financial management helps an IT organization determine the financial value of IT services provided to its customers. The discipline is based on traditional enterprise financial and accounting best practices, such as mandating documentation of expenses and requiring regular audits and reports. However, IT financial management methods and practices are adapted to address the particular requirements of managing IT services and solutions.
 
 Technology Business Management (TBM)
-> Technology Business Management (TBM) is a discipline that improves business outcomes by giving organizations a consistent way to translate technology investments to business value by defining the tools, processes, data, and people needed to manage the business of technology. Based on a set of standard taxonomy and ITFM best practices that can be used by technology, finance and business leaders, TBM enables organizations to react quickly to changing market dynamics, make data-driven decisions, and align organizations around a common business objective. 
+> Technology Business Management (TBM) is a discipline that improves business outcomes by giving organizations a consistent way to translate technology investments to business value by defining the tools, processes, data, and people needed to manage the business of technology. Based on a set of standard taxonomy and ITFM best practices that can be used by technology, finance and business leaders, TBM enables organizations to react quickly to changing market dynamics, make data-driven decisions, and align organizations around a common business objective.
 
 <span id="it-tower"></span>
 
@@ -329,4 +323,4 @@ Logical Models
 > Logical Models define the data needed by the business to achieve a given outcome, how that data is related, and the rules that allow interaction with or between the data. Logical Models also establish the structure of data elements and their relationships, similar to a blueprint for data. A logical data model incorporates all of the elements of information that are vital in the running of the day to day business. Three main components of a logical data model are Entities (a set of things, persons, or concepts relevant to a business), Relationships (an association between two of the above entities), and Attributes (characteristic or any other information that is useful to further describe an entity).
 
 Total Cost of Ownership
-> (TCO) a comprehensive assessment of information technology (IT) or other costs across enterprise boundaries over time. For IT, TCO includes hardware and software acquisition, management and support, communications, end-user expenses, labor, opportunity cost of downtime, and training and other productivity losses. 
+> (TCO) a comprehensive assessment of information technology (IT) or other costs across enterprise boundaries over time. For IT, TCO includes hardware and software acquisition, management and support, communications, end-user expenses, labor, opportunity cost of downtime, and training and other productivity losses.
