@@ -61,6 +61,10 @@ Amortized costs
 Budgeting
 > An estimate of revenues and expenses companies plan to spend within a time period. This allows for companies to continually track where they are financially.
 
+Budget vs Actual (BvA)
+> A FinOps team or practitioner can provide reporting on BvA vs forecast to establish trends and compare against variance KPIs.
+Used to measure of how good a forecasting model is.
+
 Capitalized expense (CapEx) versus operational expense (OpEx)
 > When you capitalize something, it becomes an asset of the company, whether or not it gets expensed within a specific period. The test you can apply is: if an organization writes a check to acquire something, does that acquisition benefit future periods? If it does, then it can be capitalized. If it benefits only the current period, then it’s an expense that is expended in this period with no future benefit, making it an operational expense. Capitalization causes total outlays to differ from expenses in a similar period, with the delta being that which is capitalized.
 
@@ -98,6 +102,9 @@ Cloud Service Provider (CSP)
 
 Objectives & Key Results (OKR)
 > a goal system used by Google and other tech companies originally to create alignment and engagement in a business around measurable goals.
+
+Ownership
+> One of the core principles of FinOps is that Everyone takes ownership for their cloud usage. If a team has ownership of an application, it should also have ownership of the costs incurred by that application and its resources, and practice good stewardship of those resources and costs. This concept is an important part of the message that should be carried in the process of evangelizing FinOps culture to an organization
 
 ## Public Cloud Terminology
 
