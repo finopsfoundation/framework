@@ -368,10 +368,17 @@
     - reducing-waste
 
 - name: Parker Nancollas
-  job-title: Cloud Business Analyst
-  company: The Church of Jesus Christ of Latter-Day Saints
+  job-title: Senior FinOps Consultant
+  company: SoftwareONE
   linkedin-url: https://www.linkedin.com/in/parkernancollas/
   image: parker-nancollas.jpg
+  groups:
+
+- name: Sarah Gadallah
+  job-title: Senior Business Analyst, FinOps
+  company: Atlassian
+  linkedin-url: https://www.linkedin.com/in/saragadallah/
+  image: sara-gadallah.jpeg
   groups:
     - ambassador
 
@@ -401,7 +408,7 @@
     - sustainability
 
 - name: Angel Alves
-  job-title: Cloud FinOps, Snr Manager
+  job-title: Cloud FinOps, Sr. Manager
   company: Saint-Gobain
   linkedin-url: https://www.linkedin.com/in/bindu-sharma-b8883/
   image: angel-alves.jpg
