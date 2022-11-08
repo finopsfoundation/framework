@@ -5,17 +5,17 @@ permalink: /framework/capabilities/chargeback/
 search: true
 search-keywords: reports reporting dashboards analysis metadata showback ledger GL budget budgets forecasting opex capex discounts organizational alignment
 
-title: Chargeback & IT Finance Integration
-description: Chargeback and IT Finance Integration is about pushing spend accountability to the edges of the organization that are responsible for creating the expense.
+title: Chargeback & Finance Integration
+description: Chargeback and Finance Integration is about pushing spend accountability to the edges of the organization that are responsible for creating the expense.
 page-identifier: capability_chargeback
-framework-capability-title: Chargeback & IT Finance Integration
-framework-capability-desc: Chargeback and IT Finance Integration is about pushing spend accountability to the edges of the organization that are responsible for creating the expense.
+framework-capability-title: Chargeback & Finance Integration
+framework-capability-desc: Chargeback and Finance Integration is about pushing spend accountability to the edges of the organization that are responsible for creating the expense.
 label:
 order: 12
 
 ---
 
-# Chargeback & IT Finance Integration
+# Chargeback & Finance Integration
 
 ## Domains
 <!-- _x-ref to the FinOps Domain(s) to which this Capability corresponds_ -->
@@ -23,7 +23,7 @@ order: 12
 
 
 ## Definition
-Chargeback and IT Finance Integration is about pushing spend accountability to the edges of the organization that are responsible for creating the expense.
+Chargeback and Finance Integration is about pushing spend accountability to the edges of the organization that are responsible for creating the expense.
 
 Once chargeback has been implemented and visibility given to teams, [mature FinOps practitioners](https://www.finops.org/framework/maturity-model/) then integrate that data programmatically into their relevant internal reporting systems and financial management tools.
 

@@ -5,25 +5,29 @@ permalink: /framework/capabilities/asset-management/
 search: true
 search-keywords: ITAM ITSM ITFM TBM TBMC SAM hardware software license licenses lifecycle procurement procured configuration CI taxonomy
 
-title: IT Asset Management Integration
-description: This capability examines the integrations between FinOps and IT Asset Management.  Widespread use of public cloud creates new challenges for both ITAM and configuration management organizations in several regards...
+title: FinOps Intersection with other Frameworks
+description: This capability examines the intersection between FinOps with other standards. Widespread use of public cloud creates new challenges for traditional processes and the intention for this capability is to provide a place to capture FinOps' interactions with existing IT and financial standards being used by your organization.
 page-identifier: capability_asset-management
-framework-capability-title: IT Asset Management Integration
-framework-capability-desc: This capability examines the integrations between FinOps and IT Asset Management. Widespread use of public cloud creates new challenges for both ITAM and configuration management organizations in several regards...
+framework-capability-title: FinOps Intersection with other Frameworks
+framework-capability-desc: This capability examines the intersection between FinOps with other standards. Widespread use of public cloud creates new challenges for traditional processes and the intention for this capability is to provide a place to capture FinOps' interactions with existing IT and financial standards being used by your organization.
 label:
 order: 15
 
 ---
 
-# IT Asset Management Integration
+# FinOps Intersection with other Frameworks
+
+This capability examines the intersection between FinOps with other standards. Widespread use of public cloud creates new challenges for traditional processes and the intention for this capability is to provide a place to capture FinOps' interactions with existing IT and financial standards being used by your organization.
 
 ## Domains
 <!-- _x-ref to the FinOps Domain(s) to which this Capability corresponds_ -->
 {% include domains-loop.md %}
 
 
-## Definition
-This capability examines the integrations required between FinOps and IT Asset Management (ITAM), including software asset management (SAM), and with the related but separate discipline of IT Service Management (ITSM) including configuration management.
+## FinOps & ITAM
+
+### Definition
+FinOps & ITAM examines the integrations required between FinOps and IT Asset Management (ITAM), including software asset management (SAM), and with the related but separate discipline of IT Service Management (ITSM) including configuration management.
 
 IT Asset Management is a discipline used by organizations for lifecycle tracking and reporting on assets --  hardware, software, software licenses, and other assets both tangible and intangible -- used in the IT infrastructure to deliver value. Typically IT Asset management focuses costs (purchase, support), risks (ensuring that assets are used in accordance with regulatory and contractual requirements), and value/ROI of these assets for the organisation.
 
@@ -51,7 +55,7 @@ ITSM Configuration Management is defined within the ISO20000 family of standards
 
 
 
-## Maturity Assessment
+### Maturity Assessment
 #### Crawl
 * FinOps, ITSM configuration management and IT asset management both have their own individual understanding of what assets / resources are in which cloud and how they are being used, including:
   * How they are licensed (for ITAM) (PaaS / marketplace vs IaaS plus bring your own licenses (BYOL))
@@ -68,7 +72,7 @@ ITSM Configuration Management is defined within the ISO20000 family of standards
 
 
 
-## Functional Activity
+### Functional Activity
 _written for each persona responsible for the functional activity and processes encapsulated by his Capability.  each one should be associated generally to one of the FinOps Phases (Inform, Optimize, Operate). for example:_
 >As a [FinOps Persona], I will [functional activity] so that [desired outcome] is achieved.
 
@@ -87,7 +91,7 @@ _written for each persona responsible for the functional activity and processes 
 
 
 
-## Measure(s) of Success & KPI
+### Measure(s) of Success & KPI
 Measures of success are represented in the context of cloud costs and may include one or more key performance indicators ( KPI ), describe objectives with key results ( OKR ), and declare thresholds defining outliers or acceptable variance from forecasted trends.
 
 _at least one measure of success; should be described in a context of cost; this could be an efficiency KPI or an agreed upon threshold or target._
@@ -97,7 +101,7 @@ _for example:_
 
 
 
-## Inputs
+### Inputs
 _the information used that contributes to the measure(s) of success listed above; information here may include specific datasources, reports or any relevant input_
 
 

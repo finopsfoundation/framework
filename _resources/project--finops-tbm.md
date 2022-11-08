@@ -16,7 +16,7 @@ label:
 cloud-provider:
   - Multi-Cloud
 framework-capabilities:
-- capability_it-asset-management-integration
+- capability_asset-management
 weight: 10
 ---
 
@@ -38,7 +38,7 @@ The group created this guide to define key terminology related to the intersecti
   * [Applying co-existing frameworks to use cases](#applying-co-existing-frameworks-to-use-cases)
   * [In Conclusion](#in-conclusion)
   * [Acknowledgements](#thank-you-to-all-our-project-contributors)
- 
+
 ## Introduction
 This guide aims to explore the interactions between the disciplines of FinOps and Technology Business Management (TBM) capabilities that organizations have already been using to govern IT spend. It will explain common use cases where FinOps teams benefit from interaction with ITFM/TBM teams, success stories and common pitfalls that teams may encounter when embarking on a joint endeavor.
 
@@ -58,7 +58,7 @@ For the purposes of this guide, we have simplified the terminology used as follo
 | **Purpose:**       | Maximize business value by helping engineering, finance, technology, and business teams to collaborate on data-driven cloud spending. | Connecting Technology Investments to Business Value |
 | **View:**           | Bottoms-up                                                                                                                            | Top-down                                            |
 
-It is critical to note for readers that these disciplines are complementary to one another, and not meant as a replacement of one for another. Similarly, both disciplines work to help organizations understand the value being delivered through certain investments - TBM looks across the entire IT investment portfolio and FinOps maximizes the value of the public cloud program. 
+It is critical to note for readers that these disciplines are complementary to one another, and not meant as a replacement of one for another. Similarly, both disciplines work to help organizations understand the value being delivered through certain investments - TBM looks across the entire IT investment portfolio and FinOps maximizes the value of the public cloud program.
 
 Specifically, TBM accounts for all IT spend - inclusive of cloud costs - at a macro level to provide a top-down, fully burdened, comprehensive mapping of technology spend as it relates to specific business objectives and outcomes. Backed by a standardized taxonomy, TBM provides a single source of truth to IT, finance, and business teams so that they can make informed, data-driven technology investment decisions. It is not designed to address the complexities of managing and controlling public cloud spend, which is variable and dynamic - requiring a higher frequency to monitor and optimize. Enter FinOps, designed to meet the nuances of the public cloud while enabling teams to be flexible, agile, and efficient in making public cloud purchase decisions.
 
@@ -68,14 +68,14 @@ However, they must collaborate on how consumers will be held accountable and how
 
 Alternatively, the FinOps team can pull in TBM general ledger data (labor, program cost, etc.) to deliver a fully burdened unit economic cost. As shown below, there are a number of common combined strategic outcomes TBM and FinOps can drive together, with the cloud-specific data inputs from each discipline.
 
-## Working at the intersection of FinOps and TBM 
+## Working at the intersection of FinOps and TBM
 When approaching implementation of any new FinOps Capabilities it is important to not only consider the new cloud-focused agility, speed, & complexity we are trying to implement but also the pre-existing IT resources that are already present in the organization. These pre-existing assets / teams can help accelerate the delivery of FinOps capability through shared metadata, contacts, and business process knowledge.These discussions and work may provide unforeseen challenges through assumptions that they make on how FinOps ‘should’ work based on their existing TBM processes. Part of the FinOps team's challenge in this space is navigating what is helpful and/or necessary vs. what is unnecessary/inapplicable to operate effectively in the public cloud.
 
 ### TBM + FinOps : Translating Spend into Value
 
 ![A diagram that describes cloud related aspects that both FinOps and TBM share](/img/tbm/finops-tbm.png)
 
-#### Organizational Improvements: 
+#### Organizational Improvements:
 * Business Alignment
 * Shared Accountability
 * Reduced waste and ability to reinvent
@@ -86,9 +86,9 @@ When approaching implementation of any new FinOps Capabilities it is important t
 
 An example of this can be seen when we look at common reporting requests. For example, a TBM team may assume that all of the existing on-premise reporting also applies to public cloud. However, whilst there is some commonality, there can also be some significant differences.
 
-Let’s look at this storage example: A common TBM ‘Storage’ report may focus on cost and also capacity available as from a TBM perspective, where we are paying for all of the storage we have physically purchased and when we may need to buy more, if tracked incorrectly, there is a risk of running out of storage and being at a work stoppage. 
+Let’s look at this storage example: A common TBM ‘Storage’ report may focus on cost and also capacity available as from a TBM perspective, where we are paying for all of the storage we have physically purchased and when we may need to buy more, if tracked incorrectly, there is a risk of running out of storage and being at a work stoppage.
 
-This context shifts when adding the context of cloud storage and optimizing from a FinOps perspective, where CSPs have ‘unlimited’ storage capacity in the cloud and therefore give users the sense that they do not need to be concerned with additional capacity purchases as we are effectively operating ‘on-demand’. In this example, it is no longer necessary to track the need to buy more, as it is always available. However, it does become necessary to track growth rate and expected increases to ensure storage is being consumed and spent appropriately. Afterall, if storage ran out on-premise, there was no way for someone to simply buy 10 new storage appliances without proper approvals. Within the cloud, this can happen whether it was needed or not, and as such should be monitored. 
+This context shifts when adding the context of cloud storage and optimizing from a FinOps perspective, where CSPs have ‘unlimited’ storage capacity in the cloud and therefore give users the sense that they do not need to be concerned with additional capacity purchases as we are effectively operating ‘on-demand’. In this example, it is no longer necessary to track the need to buy more, as it is always available. However, it does become necessary to track growth rate and expected increases to ensure storage is being consumed and spent appropriately. Afterall, if storage ran out on-premise, there was no way for someone to simply buy 10 new storage appliances without proper approvals. Within the cloud, this can happen whether it was needed or not, and as such should be monitored.
 
 This is the intersection of teams and processes that can be approached to deliver the benefits of both TBM and FinOps.
 
@@ -98,12 +98,12 @@ To better understand what practitioners are experiencing when navigating FinOps 
 One of the first questions we asked ourselves when beginning this guide was to identify where overlaps and gaps between FinOps and TBM occur. Our survey results helped us answer this question as we looked at what users were attempting to address with the survey question, *“What are the uses cases / issues / processes you were trying to fix by collaborating between FinOps & TBM (For example Chargeback / TCO / Budgeting / Migration / Optimization)?”*
 
 The results were quite interesting, with Chargeback being the majority at 28.6%. Forecasting, Optimization, and TCO tied at 19% each. Those four use cases combined make up 85.6% of use cases for using these models from our survey takers. Key insights include:
-1. FinOps & TBM practitioners are encountering the same pain points and are looking for those solutions. They have shared goals regardless of which management methodologies they employ. 
+1. FinOps & TBM practitioners are encountering the same pain points and are looking for those solutions. They have shared goals regardless of which management methodologies they employ.
 2. While these methods are different, they seek to solve the same challenges and have overlap in areas where collaboration between the teams makes sense in order to derive a single holistic solution to very real challenges such as Chargeback or forecasting.
 
 ![A pie chart that displays joint use cases between FinOps and TBM](/img/tbm/joint-use-cases.png)
 
-We were surprised at how low migration and ROI appeared; something we expected to see a little higher. Additionally, most of our respondents self-identified as either in the Pre-crawl or Walk maturity. Keeping this in mind, it is our belief that as maturity grows, ROI will become a higher priority to address. 
+We were surprised at how low migration and ROI appeared; something we expected to see a little higher. Additionally, most of our respondents self-identified as either in the Pre-crawl or Walk maturity. Keeping this in mind, it is our belief that as maturity grows, ROI will become a higher priority to address.
 
 This does not address why migration seems to be less of a challenge highlighted but we hope to drive into these deeper insights through interviews, use cases, or future surveys to track the landscape trending over time.
 
@@ -117,9 +117,9 @@ The fact that for over 50% fall into Competing Priorities and Stakeholder Engage
 
 Communication and collaboration are the key to any successful implementation. This data speaks to the dynamic nature of people dealing with adopting these methods every day and are looking for the solutions - whether it is FinOps, TBM, or a combination. Any adoption inherently comes with a need to promote education and awareness while fostering a culture shift with education & training. All of this combined supports teams in their implementation efforts.
 
-Having these common challenges presents an opportunity to have shared influence for prioritization. It also presents opportunities for education and integrated solutions which have a shared strategy. 
+Having these common challenges presents an opportunity to have shared influence for prioritization. It also presents opportunities for education and integrated solutions which have a shared strategy.
 
-When adopting any framework, ensure you and your organization are looking at not just the implementation points, but the strategy and culture shift which will enable and empower the adopters. There is an [Adopting FinOps body of work available on finops.org](https://www.finops.org/projects/adopting-finops/) that is a great place to start a FinOps journey and can be applied across many frameworks. 
+When adopting any framework, ensure you and your organization are looking at not just the implementation points, but the strategy and culture shift which will enable and empower the adopters. There is an [Adopting FinOps body of work available on finops.org](https://www.finops.org/projects/adopting-finops/) that is a great place to start a FinOps journey and can be applied across many frameworks.
 
 ## Connections & integrations
 
@@ -147,11 +147,11 @@ The below is an image of TBM mapping with green overlays for where cloud would f
 The mapping of cloud services to the [TBM taxonomy](/resources/terminology/#tbm-taxonomy) allows the TBM team to consume cloud costs from the FinOps team. But those costs need to be allocated to business services or business units; to do that, resources running in the cloud need to be tagged appropriately.
 
 ### Tagging
-Tagging typically requires the cloud resources with the application using those resources. It might also include company specific tagging for things like project codes. This tagging in the cloud should be no different than the tagging that is required for on-prem resources and requires ongoing attention. 
+Tagging typically requires the cloud resources with the application using those resources. It might also include company specific tagging for things like project codes. This tagging in the cloud should be no different than the tagging that is required for on-prem resources and requires ongoing attention.
 
-All of this requires coordination, collaboration, and agreement between the FinOps and TBM teams. The TBM team will provide relatively static data like the taxonomy used for their reporting, perhaps the organization’s financial structure (departments, cost centers, etc.). Both teams would need to source app codes and project codes from the same place; a shared record repository such as [Configuration Management Database (CMDB)](/resources/terminology/#cmdb) to ensure tagging on the FinOps side and reporting on the TBM side are accurate and insync.  FinOps will map cloud products/services to the taxonomy AND tag resources with the app codes, project codes, etc. 
+All of this requires coordination, collaboration, and agreement between the FinOps and TBM teams. The TBM team will provide relatively static data like the taxonomy used for their reporting, perhaps the organization’s financial structure (departments, cost centers, etc.). Both teams would need to source app codes and project codes from the same place; a shared record repository such as [Configuration Management Database (CMDB)](/resources/terminology/#cmdb) to ensure tagging on the FinOps side and reporting on the TBM side are accurate and insync.  FinOps will map cloud products/services to the taxonomy AND tag resources with the app codes, project codes, etc.
 
-With these elements in place, FinOps teams can regularly provide resource cost data that allows the TBM teams to allocate a cloud provider's costs to the correct infrastructure, platforms, and ultimately applications. With that, cloud costs can be allocated in a manner that is the same manner as its on-prem counterparts. 
+With these elements in place, FinOps teams can regularly provide resource cost data that allows the TBM teams to allocate a cloud provider's costs to the correct infrastructure, platforms, and ultimately applications. With that, cloud costs can be allocated in a manner that is the same manner as its on-prem counterparts.
 
 ## Taxonomy & Logical Models
 
@@ -159,7 +159,7 @@ As outlined above, tagging is a key element to have in place for TBM and FinOps 
 
 That framework starts with identifying shared goals. Whether it is reducing cost or highlighting IT’s value to the business, understanding what are the teams trying to achieve and where there are the overlaps - and gaps - will lay the foundation for strong collaboration between the teams.
 
-These shared goals will lead to common use cases such as chargeback, TCO, optimization, or  improved forecasting that FinOps and TBM teams can address together. Some of these are explored later in the playbook, but core to enabling the use cases is collaboratively establishing a shared language or common taxonomy that all parties agree to. 
+These shared goals will lead to common use cases such as chargeback, TCO, optimization, or  improved forecasting that FinOps and TBM teams can address together. Some of these are explored later in the playbook, but core to enabling the use cases is collaboratively establishing a shared language or common taxonomy that all parties agree to.
 
 And this is a common challenge when integrating TBM with FinOps: ensuring the two frameworks speak the same language.
 
@@ -167,7 +167,7 @@ ITFM relies heavily on cost centers and accounts as this is the way corporate fi
 
 Tags are even more important when a TBM or IT product model is implemented. Applications are critical components that collect cost and therefore are leveraged to understand total cost of ownership (TCO). Many companies have struggled to reconcile cloud and on-prem costs to present a unified cost view across technology because the tagging strategy and nomenclature was not aligned with the CMDB structure. Many times the tags set up in the cloud are not consistent with the structure already available on-prem, e.g. Application Family in the cloud vs Application Portfolio for on-prem in the CMDB.
 
-In other cases tags are very useful but there is a limitation driven by allocating shared cost. For example many applications may be part of a platform like a data lake or kubernetes platform. In this particular example tagging is not enough as from the cloud perspective we will be able to cost the data lake but additional consumption data or logs will be required to allocate the cost to the business unit leveraging the data lake and make them accountable for the charge. 
+In other cases tags are very useful but there is a limitation driven by allocating shared cost. For example many applications may be part of a platform like a data lake or kubernetes platform. In this particular example tagging is not enough as from the cloud perspective we will be able to cost the data lake but additional consumption data or logs will be required to allocate the cost to the business unit leveraging the data lake and make them accountable for the charge.
 
 All of this needs coordination across the various teams to make sure the consumers of the service have a good view on TCO that can be used not only to understand cost but also to make the product more efficient and potentially gain competitive advantage in the market.
 
@@ -183,15 +183,15 @@ In this next section, we will provide use cases and considerations for implement
 
 ### Reconciling Financial Usage Data
 
-When aligning cloud consumption data it is important to be aware of fundamental timing differences that will exist between both methodologies. FinOps practitioners and tools are used to working with near real time data. By contrast, TBM tools typically work with monthly (or less frequent) data updates.This challenge is most prevalent when tying in usage feed information (e.g. AWS CUR) to the invoice general ledger lines that the TBM team use as their authoritative source of cost. 
+When aligning cloud consumption data it is important to be aware of fundamental timing differences that will exist between both methodologies. FinOps practitioners and tools are used to working with near real time data. By contrast, TBM tools typically work with monthly (or less frequent) data updates.This challenge is most prevalent when tying in usage feed information (e.g. AWS CUR) to the invoice general ledger lines that the TBM team use as their authoritative source of cost.
 
-Depending on the accounting process/latency at your organization you may find that the usage data the FinOps team supplies is one or two months ahead of the invoiced amount being recognised in the general ledger. In this scenario, the TBM team can resolve this by ensuring that the FinOps supplied consumption data is offset/delayed by the required number of months so that it matches the invoiced amount for that accounting period. 
+Depending on the accounting process/latency at your organization you may find that the usage data the FinOps team supplies is one or two months ahead of the invoiced amount being recognised in the general ledger. In this scenario, the TBM team can resolve this by ensuring that the FinOps supplied consumption data is offset/delayed by the required number of months so that it matches the invoiced amount for that accounting period.
 
 Alternatively the general ledger lines for cloud service provider invoicing may be deleted by the TBM team and replaced with the authoratitative usage data from the FinOps team for that time period. However, this is not a recommended approach and it breaks a key construct for TBM of ‘always tying back to the general ledger’.
 
 The time lag in TBM driven by the ITFM business cycles timing is a challenge and an opportunity for the integration with FinOps. IT Management has learned over the years to "discount" the delay in financial data being presented as they make decisions impacting the business in the present time. FinOps real time capabilities enhance the support for business decisions with data that is current. The addition of consolidated financial statements (in the rears) and current FinOps data will improve the quality of business decisions that can take advantage of the two.
 
-### Chargeback 
+### Chargeback
 As the primary use case for integrating FinOps + TBM this may well feel natural to most practitioners. A common extension, once chargeback processes for cloud infrastructure have been established, is to extend the same concept to include other costs associated with maintaining the public cloud platform that are internal to the organization. The main goal here is to provide a fair and equitable mechanism for cost recovery of platform/shared services/SaaS/other vendor costs that are incurred as part of service delivery.
 
 It is important to validate that the receiver of the cloud chargeback is the same entity/person as the service owner defined by TBM. If it is different, the TBM Office and FinOps will need to work together to resolve any ownership disputes. By nature of the visibility required for decision making FinOps chargeback tends to focus on individual application business owners and TBM focuses on the business service owner.
@@ -214,8 +214,8 @@ The purpose of chargeback is to provide a fair and equitable way of recovering c
 
 By contrast,a Total Cost of Ownership view is also aiming to represent a fair and equitable distribution of shared costs, the scope is much broader as it needs to include other types of cost that contribute to the building and running of a given application / service. The largest of these is typically employee/labor costs that are not necessarily incurred within the FinOps team's chargeback scope but need to be included to ensure that we are representing all spending that is incurred in order to deliver a given application/ capability.
 
-### Total Cost of Ownership - TCO 
-Total Cost of Ownership (TCO) is often an extension or follow-up from chargeback. Typically, as costs begin to be charged back, or built into a model for chargeback, costs reveal themselves which need mapping and dissecting. This is where FinOps and TBM together can bring a holistic approach to both cloud and IT spend. 
+### Total Cost of Ownership - TCO
+Total Cost of Ownership (TCO) is often an extension or follow-up from chargeback. Typically, as costs begin to be charged back, or built into a model for chargeback, costs reveal themselves which need mapping and dissecting. This is where FinOps and TBM together can bring a holistic approach to both cloud and IT spend.
 
 TCOs are used to appraise full application development and to run cost and profitability models. As such, they need to incorporate a variety of variables as outlined below:
 
@@ -238,10 +238,10 @@ Regardless of what costs become a part of a TCO, it is important to have normali
 * Sub-Tower (as per TBM/ITFM reference taxonomy)
 * Cloud Service Provider Account Name
 
-Just like FinOps is iterative, creating a TCO can also be iterative. Instead of spending an inordinate amount of time finding every single cost and accounting for it, start with the largest contenders and incorporate those. With the normalized data between the two sets, it will become clear which areas to focus on. Once those are integrated, continue to expand until all costs are included - and, most likely some hidden costs will be found along the way! 
+Just like FinOps is iterative, creating a TCO can also be iterative. Instead of spending an inordinate amount of time finding every single cost and accounting for it, start with the largest contenders and incorporate those. With the normalized data between the two sets, it will become clear which areas to focus on. Once those are integrated, continue to expand until all costs are included - and, most likely some hidden costs will be found along the way!
 
-### Forecasting 
-There are many ways to do forecasting, which vary from industry to industry and even from business unit, program, or project. Traditionally, a TBM team focuses on a top-down strategic approach while a FinOps team focuses on a bottom-up approach. This is largely due to a CapEx (IT) v OpEx (Public Cloud) procurement model and the type of data available from the cloud. 
+### Forecasting
+There are many ways to do forecasting, which vary from industry to industry and even from business unit, program, or project. Traditionally, a TBM team focuses on a top-down strategic approach while a FinOps team focuses on a bottom-up approach. This is largely due to a CapEx (IT) v OpEx (Public Cloud) procurement model and the type of data available from the cloud.
 Whether an organization is focused on TBM, FinOps, or both, it is important to ensure all stakeholders are speaking the same language or have an agreed upon unit for forecasting.
 
 In a bottom-up approach, one of the largest challenges in forecasting occurs when engineers, finance, and product owners are providing forecasts in different units. For example: An engineer might provide their forecast in GB/month, a finance person may be looking for cost, or assume it is GB/day, and a product manager may forecast how many widgets are being produced in a month.
@@ -252,7 +252,7 @@ In both scenarios, ensuring that all stakeholders understand and agree on the ta
 
 Another success measure is required accuracy. According to the [State of FinOps findings](https://data.finops.org/), mature FinOps practices report variances of +/- 5%, Finance driven budgets and forecasts may require anywhere between 3-5% accuracy. This may be another area to normalize language, expectations, and metrics as this may be a difficult threshold for FinOps practitioners. Communication and collaboration on this topic will help all stakeholders find a balance.
 
-#### Forecasting for what? 
+#### Forecasting for what?
 Similar to agreeing on terminology, have a shared understanding of what is being forecasted and why it is critical. A FinOps team is going to be able to provide critical insights into cloud spend and usage, but may not be much help for on-premise expenses.
 
 Similarly, the data being collected will be different depending on factors such as if it is for a specific budget exercise, CapEx purchase or software/license renewal, etc..
@@ -282,7 +282,7 @@ This current version of the guide represents the first handful of sprints comple
 * Publish foundational information, including reference taxonomy translation between TBM and Cloud Service Provider (CSP) services (e.g. AWS, Azure, GCP)
 * Join us in building out future sections of our guide: Optimization & ITAM SAM integration
 * Expanding guidance to address other CSPs
-* Benchmarking and migration analysis 
+* Benchmarking and migration analysis
 * … and more, depending on community feedback and contributions
 
 <a href="javascript:void(0);" class="inline-flex justify-center py-2 px-4 text-sm leading-relaxed font-medium rounded-sm text-white border border-green-500 font-normal bg-green-500 hover:bg-green-600 hover:border-green-600 transition-colors duration-200" style="text-decoration:none" onclick="javascript:modalToggle('modal-contribute')">
@@ -329,7 +329,7 @@ Also, we'd like to thank our Technical Advisory Council (TAC) Liason, Jeremy Ung
 Without the insights from these amazing community members, this guide would not be what it is today!
 * Juan Jose Jarillo
 * Paolo Baudino
-* Ylanda Hill 
+* Ylanda Hill
 * David Adelkhanov
 
 Lastly, a big thank you to the FinOps Foundation support team for helping us bring our work to life: Ashley Hromatko (Staff Sponsor), Samantha White (Program Management), Tom Sharpe (Design), and Andrew Nhem (Content).
