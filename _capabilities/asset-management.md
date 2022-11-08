@@ -6,10 +6,10 @@ search: true
 search-keywords: ITAM ITSM ITFM TBM TBMC SAM hardware software license licenses lifecycle procurement procured configuration CI taxonomy
 
 title: FinOps Intersection with other Frameworks
-description: This capability examines the intersection between FinOps with other standards. Widespread use of public cloud creates new challenges and the intention for this capability is to provide a place to capture FinOps' interactions with existing IT and financial standards being used by your organization.
+description: This capability examines the intersection between FinOps with other standards. Widespread use of public cloud creates new challenges for traditional processes and the intention for this capability is to provide a place to capture FinOps' interactions with existing IT and financial standards being used by your organization.
 page-identifier: capability_asset-management
 framework-capability-title: FinOps Intersection with other Frameworks
-framework-capability-desc: This capability examines the intersection between FinOps with other standards. Widespread use of public cloud creates new challenges and the intention for this capability is to provide a place to capture FinOps' interactions with existing IT and financial standards being used by your organization.
+framework-capability-desc: This capability examines the intersection between FinOps with other standards. Widespread use of public cloud creates new challenges for traditional processes and the intention for this capability is to provide a place to capture FinOps' interactions with existing IT and financial standards being used by your organization.
 label:
 order: 15
 
@@ -17,7 +17,7 @@ order: 15
 
 # FinOps Intersection with other Frameworks
 
-This capability examines the intersection between FinOps with other standards. Widespread use of public cloud creates new challenges and the intention for this capability is to provide a place to capture FinOps' interactions with existing IT and financial standards being used by your organization.
+This capability examines the intersection between FinOps with other standards. Widespread use of public cloud creates new challenges for traditional processes and the intention for this capability is to provide a place to capture FinOps' interactions with existing IT and financial standards being used by your organization.
 
 ## Domains
 <!-- _x-ref to the FinOps Domain(s) to which this Capability corresponds_ -->
