@@ -74,7 +74,7 @@ During your WG sprint, contributors will…
   * Produce deliverables for the benefit of the community
 
 ### Who can participate in working groups?
-F2 community members can participate in working groups. To ensure quality participation, practitioner and vendor members are limited to participating in two simultaneous working groups. Consultant members are limited to participating in one working group at a time. Please reference [community access criteria](http://foundation/community-access-criteria.md%20at%20main%20%C2%B7%20finopsfoundation/foundation%20%C2%B7%20GitHub) for more information.
+F2 community members can participate in working groups. To ensure quality participation, practitioner and vendor members are limited to participating in two simultaneous working groups. Consultant members are limited to participating in one working group at a time. Please reference [community access criteria](https://github.com/finopsfoundation/foundation/blob/main/community-access-criteria.md) for more information.
 
 ### How do I join a working group?
 To join a working group fill out the [Working Group Interest - Join Request form](https://share.hsforms.com/1JE3npzyMTGWSFhBF6FAPYw38fku). When filling out this form it is important to submit the email address associated with your FinOps community membership as only FinOps community members are eligible to participate in working groups. For more information on working group participation see [community access criteria](https://github.com/finopsfoundation/foundation/blob/main/community-access-criteria.md).
