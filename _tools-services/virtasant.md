@@ -4,7 +4,7 @@ layout: member
 
 # Vendor details
 name: Virtasant
-logo-url: "https://uploads-ssl.webflow.com/60483a046027179143a09d64/606e15b95f5633785ffd4d92_Group%20(2).svg"
+logo-url: "/tools-services/logos/virtasant.png"
 linkedin-url: "https://www.linkedin.com/company/65404237/"
 website-url: "https://www.virtasant.com"
 
