@@ -12,7 +12,6 @@ description: A glossary of FinOps concepts and terminology used by practitioners
 # FinOps Terminology
 A glossary of FinOps concepts and related terminology used by practitioners all over the world. This resources also includes finance and business terminology and definitions to help readers better understand terms used across the FinOps Foundation website, educational and training content.
 
-
 ## Cloud Cost Management Terminology
 Allocation Metadata
 > The information used to categorize costs and is encapsulated within CSP constructs like resource tags (AWS; Azure) or labels (GCP). In this context, metadata can be differentiated between "Resource Metadata" where an individual resource is tagged or labelled or "Hierarchy Metadata" where categorization is applied to some other construct that provides grouping of resources.  Examples of allocation metadata include:
@@ -46,7 +45,6 @@ Chargeback
 > Chargeback is an allocation strategy of actual consumption spend of IT services from finance systems back to user teams via an internal report or “invoice”. Chargeback is a method to hold business units directly accountable for IT spend and requires IT Finance Integration (to allocate spend to the appropriate cost centers and budgets).
 
 > Both Chargeback and Showback reporting can be done in any subset of responsibility, at the P&L level, or a subset of that (application, business owner, etc.), or in cross-cutting views (like all Production systems, or all storage costs, etc.), the strategic decision of how to handle where the dollars are allocated differs the two strategies.
-
 
 Showback
 
@@ -285,7 +283,6 @@ WACC
 
 <span id="tbm-finops"></span>
 
-
 <span id="tbm-taxonomy"></span>
 TBM Taxonomy
 > TBM provides a standard taxonomy to describe cost sources, technologies, IT resources (IT towers), applications, and services. Just as businesses rely on generally accepted accounting principles (or GAAP) to drive standard practices for financial reporting — and thus comparability between financial statements — the TBM taxonomy provides a generally accepted way of categorizing and reporting IT costs and other metrics. Cloud services can also be mapped to the taxonomy, as shown in this diagram.
@@ -331,3 +328,55 @@ Logical Models
 
 Total Cost of Ownership
 > (TCO) a comprehensive assessment of information technology (IT) or other costs across enterprise boundaries over time. For IT, TCO includes hardware and software acquisition, management and support, communications, end-user expenses, labor, opportunity cost of downtime, and training and other productivity losses.
+
+<span id="unit-economics">
+
+## Unit Economics
+
+Unit Economics
+> A system of profit maximization based on assessing the impact of incremental costs relative to incremental revenue. The revenues and costs associated with a defined and measurable unit of a product or service. FinOps teams today strive to provide actionable unit costs to enable organizations to calculate unit economics for the products or services utilizing cloud services.
+
+> In manufacturing, marginal economics help businesses optimize production levels and maximize profits. In the cloud, marginal economics helps us understand if engineering changes to products or services via changes to the architecture, development patterns, or cloud operations are delivering incremental business value.
+
+Unit Cost
+> The cost allocated to a defined and measurable incremental unit of a product or service is one of the more important concepts in unit economics. Unit cost is also sometimes referred to as the marginal cost specific to the development and delivery of cloud-based software or services.
+
+Unit Metrics
+> KPIs used in unit economics that indicate business value, technical value, or other important measurements.
+
+Activity Based Costing
+> A process establishing direct costs associated with specific tasks that can then be attributed to products and services based on demand. The tasks are staff-related (time required to perform task x hourly rate) but can also be related to machine time. Also referred to as Task-Oriented Costing.
+
+Cost to Produce
+> This is the total cost to produce for non-production workloads and is used as a measurement with other business metrics similar to how you would use the cost to serve. These metrics can be compared to similar tech stacks and non-production workloads to determine the efficiency of teams and cost controls.
+
+> **Note:** This activity should not be confused with something akin to a tax write-off with Research & Development.
+> * Financial - R&D costs and comparative costs by tech stack
+> * Technology/Engineering - Unit rates per Cost to Produce (Is there fat in the cost in non-production), Future architecture deployment cost options based on service whitelist, etc.
+> * Forecasting - Future production cost
+
+Contribution Margin
+> This is usually *revenue minus variable cost*. Can be performed at the unit or aggregate level, with the latter indicating the amount available to support the company’s shared costs. Typically applied at the product level, but can be applied to any dimension — e.g.: market, industry, etc..
+
+Cost to serve
+> Cost to serve kicks in once the application has been promoted to production and production begins. 
+> * Sales - Tracking outliers that may be less profitable, or “abusive” customers
+> * Operations - Identify professional services engagement (customer-facing) teams who are not using applications and/or storage  resources cost-effectively
+> * Financial - Gross margins, the cost to service an application
+> * Technology/Engineering - Unit rates (blended costs based on how you buy cloud)
+> * Forecasting - Future growth and trending potential cost
+
+Direct cost
+> Costs — variable or fixed — that can be identified and attributed to a specific resource or group of resources that support the delivery of products or services to an internal or external customer.
+
+Indirect cost
+> An allocation of a general business expense that is not readily identifiable but necessary for the general operations of the organization.  
+
+Shared cost
+> Identifiable costs allocated to a pool of products or services through an agreed-upon distribution methodology.  
+
+Demand driver
+> A factor that has material influence over cloud resource usage. 
+
+Cost attribution vs. cost allocation
+> Attribution is based on cost-causative principles while allocation is generally arbitrary — i.e.: we could allocate costs and end up with different answers.
