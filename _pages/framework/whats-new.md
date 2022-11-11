@@ -25,34 +25,28 @@ the types of updates captured on this page include:
 
 
 
-#### Categories of a Framework "What's New" post:
-- New
-- Update
-- Deprecated
-- Removed
-
-
-
 #### Attributes of a Framework "What's New" post:
 
-| attributes | description  |
+| Attributes | Description  |
 |---:|---|
-| category | New / Update / Deprecated / Removed |
-| published-date | month yyyy |
-| framework-element | Domain, Capability, Principle, Persona, Resource, Information Architecture (IA) |
-| title | summary or topic for the post |
-| body | summary of the change/update; focused on community value; may include images/video/links; may be faq styled post; may include links to Slack channels |
-| call-to-action | link to a the Framework Slack channel |
+| **category** | New / Update / Deprecated / Removed |
+| **published-date** | month yyyy |
+| **framework-element** | Domain, Capability, Principle, Persona, Resource, Information Architecture (IA) |
+| **title** | summary or topic for the post |
+| **body** | summary of the change/update; focused on community value; may include images/video/links; may be faq styled post; may include links to Slack channels |
+| **call-to-action** | section footer link to a the Framework Slack channel |
 
 
 
 
 ## What's New
-Welcome! This page highlights what's new with the FinOps Framework.  The FinOps Framework is evolving and informed by community contributions and conversations.  [Join the community of FinOps practitioners](https://www.finops.org/membership/).
+Welcome! Below are highlights about what's new with the FinOps Framework.  The FinOps Framework is evolving and informed by community contributions and conversations.  [Join the community of FinOps practitioners](https://www.finops.org/membership/).
 
 
 ---
 ### November 2022
+
+
 
 #### FinOps & TBM Playbook (Resource; New)
 this Framework resource provides a playbook to empower individuals who manage the value of cloud. it's an example of how navigating co-existing disciplines through [FinOps Intersection with other frameworks](https://www.finops.org/framework/capabilities/asset-management/). this guide defines key terminology related to the intersection of FinOps and TBM, explains relevant taxonomy, and outlines capabilities that every practitioner must be familiar with. it explores common use cases where FinOps teams benefit from interaction with TBM teams as well as success stories and common pitfalls that teams may encounter when embarking on a joint endeavor. see [this Framework resource here](https://www.finops.org/projects/finops-tbm-navigating-coexisting-disciplines/) for more details.
@@ -80,5 +74,66 @@ the name for this Framework Capability was updated (_formerly:  IT Asset Managem
 [learn more - join the conversation in Slack](https://finopsfoundation.slack.com/archives/C01UANLEPDW). not in Slack? [Join the community](https://www.finops.org/membership/)!
 
 
+&nbsp;
+
 ---
 ### October 2022
+
+
+
+
+&nbsp;
+
+[learn more - join the conversation in Slack](https://finopsfoundation.slack.com/archives/C01UANLEPDW). not in Slack? [Join the community](https://www.finops.org/membership/)!
+
+
+&nbsp;
+
+---
+### September 2022
+
+
+
+
+&nbsp;
+
+[learn more - join the conversation in Slack](https://finopsfoundation.slack.com/archives/C01UANLEPDW). not in Slack? [Join the community](https://www.finops.org/membership/)!
+
+
+&nbsp;
+
+---
+### August 2022
+
+
+
+
+&nbsp;
+
+[learn more - join the conversation in Slack](https://finopsfoundation.slack.com/archives/C01UANLEPDW). not in Slack? [Join the community](https://www.finops.org/membership/)!
+
+
+&nbsp;
+
+---
+### July 2022
+
+
+
+
+&nbsp;
+
+[learn more - join the conversation in Slack](https://finopsfoundation.slack.com/archives/C01UANLEPDW). not in Slack? [Join the community](https://www.finops.org/membership/)!
+
+
+&nbsp;
+
+---
+### June 2022
+
+
+
+
+&nbsp;
+
+[learn more - join the conversation in Slack](https://finopsfoundation.slack.com/archives/C01UANLEPDW). not in Slack? [Join the community](https://www.finops.org/membership/)!
