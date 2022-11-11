@@ -28,7 +28,7 @@ Our Working Group would like to introduce our practical guide about cloud unit e
 ## Contents
 * [Executive Summary](#executive-summary)
 * [What Is Cloud Unit Economics?](#what-is-cloud-unit-economics)
-* [FinOps Capabilities and Terminology to Review](#terminology)
+* [FinOps Capabilities and Terminology to Review](#finops-capabilities-and-terms-to-review)
 * [Why Cloud Unit Economics Is Important](#why-cloud-unit-economics-is-important)
 * [When to Start](#when-to-start)
 * [How to Get Started](#how-to-get-started)
