@@ -17,6 +17,7 @@ cloud-provider:
   - Multi-Cloud
 framework-capabilities:
 - capability_rightsizing
+- capability_asset-management
 weight: 10
 ---
 # Digital Sustainability and Its Intersection with FinOps
