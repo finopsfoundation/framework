@@ -10,7 +10,7 @@ description: This page highlights what's new with the FinOps Framework.  The Fin
 
 ---
 # FinOps Framework Updates
-FinOps Framework Updates Page
+
 The FinOps Framework is evolving and informed by community contributions and conversations.  Built by the community for the community.  This "What's New" page is intended to highlight updates to the FinOps Framework.
 
 
@@ -24,6 +24,7 @@ the types of updates captured on this page include:
 - community contributions and project deliverables related to the Framework from WGs, or other initiatives (like #50days-of-FinOps, etc…)
 
 
+
 #### Categories of a Framework "What's New" post:
 - New
 - Update
@@ -31,10 +32,12 @@ the types of updates captured on this page include:
 - Removed
 
 
+
 #### Attributes of a Framework "What's New" post:
+
 | attributes | description  |
 |---:|---|
-| category | New; Update; Deprecated; Removed |
+| category | New / Update / Deprecated / Removed |
 | published-date | month yyyy |
 | framework-element | Domain, Capability, Principle, Persona, Resource, Information Architecture (IA) |
 | title | summary or topic for the post |
@@ -50,8 +53,6 @@ Welcome! This page highlights what's new with the FinOps Framework.  The FinOps 
 
 ---
 ### November 2022
-
-&nbsp;
 
 #### FinOps & TBM Playbook (Resource; New)
 this Framework resource provides a playbook to empower individuals who manage the value of cloud. it's an example of how navigating co-existing disciplines through [FinOps Intersection with other frameworks](https://www.finops.org/framework/capabilities/asset-management/). this guide defines key terminology related to the intersection of FinOps and TBM, explains relevant taxonomy, and outlines capabilities that every practitioner must be familiar with. it explores common use cases where FinOps teams benefit from interaction with TBM teams as well as success stories and common pitfalls that teams may encounter when embarking on a joint endeavor. see [this Framework resource here](https://www.finops.org/projects/finops-tbm-navigating-coexisting-disciplines/) for more details.
