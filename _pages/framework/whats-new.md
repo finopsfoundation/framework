@@ -227,7 +227,7 @@ Welcome! Below are highlights about what's new with the FinOps Framework.  The F
 &nbsp;
 - **IT Asset Management Integration** (Capability; Update)
 
-updated definition language to add clarity; based on feedback from the community the definition should ensure the concept of lifecycle is highlighted as fundamental to ITAM from planning/budgeting through disposal. see [this Capability's](https://www.finops.org/framework/capabilities/asset-management/) definition for more details.
+   updated definition language to add clarity; based on feedback from the community the definition should ensure the concept of lifecycle is highlighted as fundamental to ITAM from planning/budgeting through disposal. see [this Capability's](https://www.finops.org/framework/capabilities/asset-management/) definition for more details.
 
 
 
@@ -288,6 +288,35 @@ updated definition language to add clarity; based on feedback from the community
 ---
 ### December 2021
 
+&nbsp;
+- **Unit Costing: The Next Frontier in Cloud FinOps** (Resource; New)
+
+   this Framework resource provides a whitepaper to empower individuals who manage the value of cloud. it's an example of how to build your capability in [Measuring Unit Costs](https://www.finops.org/framework/capabilities/measure-unit-costs/). this whitepaper examines the nature of and the need for cloud unit costing with examples from cloud first organizations who’ve been pioneering this important discipline. unit costing will become the standard by which FinOps practitioners obtain full business context for their cloud costs. [see this Framework resource here](https://www.finops.org/stories/unit-cost-the-next-frontier/) for more details.
+
+
+&nbsp;
+- **Budget Management** (Capability; New)
+
+   new core content has been added to this Framework Capability; including a new definition, an outline of persona driven activities, and maturity characteristics for assessing your FinOps practice at [each level in the FinOps maturity model](https://www.finops.org/framework/maturity-model/). see [this Capability's](https://www.finops.org/framework/capabilities/budget-management/) Functional Activities, Maturity Assessment and Measures of Success sections for more details.
+
+
+&nbsp;
+- **Chargeback & IT Finance Integration* (Capability; New)
+
+   new core content has been added to this Framework Capability; including a new definition, an outline of persona driven activities, and maturity characteristics for assessing your FinOps practice at [each level in the FinOps maturity model](https://www.finops.org/framework/maturity-model/). see [this Capability's](https://www.finops.org/framework/capabilities/chargeback/) Definition, Functional Activities, and Maturity Assessment sections for more details.
+
+
+&nbsp;
+
+- **Managing Shared Costs** (Capability; Updated)
+
+   new core content has been added to this Framework Capability; including a new definition, an outline of persona driven activities, and maturity characteristics for assessing your FinOps practice at [each level in the FinOps maturity model](https://www.finops.org/framework/maturity-model/). multiple guides have been added related to waste reduction, including how to avoid and simplify shared costs, and fair cost allocation for shared platforms to name a couple. [see this Capability's](https://www.finops.org/framework/capabilities/manage-shared-cloud-cost/) Functional Activities, Maturity Assessment and Real World Resources sections for more details.
+
+
+&nbsp;
+- **Calculating Container Costs(()) (Resource; New)
+
+   this Framework resource provides a playbook to empower individuals who manage the value of cloud. it's an example of how to build your capability for [Data Analysis & Showback](https://www.finops.org/framework/capabilities/analysis-showback/). this guide explores how and why containers complicate how teams manage the visibility and optimization of container costs, and how to apply FinOps best practices to improve cloud financial management. see [this Framework resource here](https://www.finops.org/projects/calculating-container-costs/) for more details.
 
 
 &nbsp;
@@ -298,6 +327,116 @@ updated definition language to add clarity; based on feedback from the community
 
 ---
 ### November 2021
+
+
+
+&nbsp;
+
+[learn more - join the conversation in Slack](https://finopsfoundation.slack.com/archives/C01UANLEPDW). not in Slack? [Join the community](https://www.finops.org/membership/)!
+
+
+
+---
+### October 2021
+
+
+
+&nbsp;
+
+[learn more - join the conversation in Slack](https://finopsfoundation.slack.com/archives/C01UANLEPDW). not in Slack? [Join the community](https://www.finops.org/membership/)!
+
+
+
+---
+### September 2021
+
+
+
+&nbsp;
+
+[learn more - join the conversation in Slack](https://finopsfoundation.slack.com/archives/C01UANLEPDW). not in Slack? [Join the community](https://www.finops.org/membership/)!
+
+
+
+---
+### August 2021
+
+
+
+&nbsp;
+
+[learn more - join the conversation in Slack](https://finopsfoundation.slack.com/archives/C01UANLEPDW). not in Slack? [Join the community](https://www.finops.org/membership/)!
+
+
+
+---
+### July 2021
+
+
+
+&nbsp;
+
+[learn more - join the conversation in Slack](https://finopsfoundation.slack.com/archives/C01UANLEPDW). not in Slack? [Join the community](https://www.finops.org/membership/)!
+
+
+
+---
+### June 2021
+
+
+
+&nbsp;
+
+[learn more - join the conversation in Slack](https://finopsfoundation.slack.com/archives/C01UANLEPDW). not in Slack? [Join the community](https://www.finops.org/membership/)!
+
+
+
+---
+### May 2021
+
+
+
+&nbsp;
+
+[learn more - join the conversation in Slack](https://finopsfoundation.slack.com/archives/C01UANLEPDW). not in Slack? [Join the community](https://www.finops.org/membership/)!
+
+
+
+---
+### April 2021
+
+
+
+&nbsp;
+
+[learn more - join the conversation in Slack](https://finopsfoundation.slack.com/archives/C01UANLEPDW). not in Slack? [Join the community](https://www.finops.org/membership/)!
+
+
+
+---
+### March 2021
+
+
+
+&nbsp;
+
+[learn more - join the conversation in Slack](https://finopsfoundation.slack.com/archives/C01UANLEPDW). not in Slack? [Join the community](https://www.finops.org/membership/)!
+
+
+
+---
+### February 2021
+
+
+
+&nbsp;
+
+[learn more - join the conversation in Slack](https://finopsfoundation.slack.com/archives/C01UANLEPDW). not in Slack? [Join the community](https://www.finops.org/membership/)!
+
+
+
+---
+### January 2021
 
 
 
