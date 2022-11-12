@@ -187,6 +187,16 @@ Welcome! Below are highlights about what's new with the FinOps Framework.  The F
 ---
 ### May 2022
 
+&nbsp;
+- **Adopting FinOps: Pitfalls to Avoid** (Resource; New)
+
+   this Framework resource provides a playbook to empower individuals who manage the value of cloud. it's an example of how to build capability for [Establishing FinOps Culture](https://www.finops.org/framework/capabilities/establish-finops-culture) and how to build capability through [FinOps Education & Enablement](https://www.finops.org/framework/capabilities/education-enablement). this guide was created to provide practical guidance, education and enablement that helps organizations adopt FinOps as the standard for Cloud Financial Management. see [this Framework resource here](https://www.finops.org/projects/adopting-finops-avoiding-pitfalls/) for more details.
+
+
+&nbsp;
+- **FinOps Education & Enablement** (Capability; New)
+
+   new core content has been added to this Framework Capability; including a new definition, maturity characteristics for assessing your FinOps practice at [each level in the FinOps maturity model](https://www.finops.org/framework/maturity-model/), and measures of success, including best practices. see [this Capability's](https://www.finops.org/framework/capabilities/education-enablement) Definition, Functional Activities, Maturity Assessment and Inputs sections for more details.
 
 
 
@@ -199,7 +209,10 @@ Welcome! Below are highlights about what's new with the FinOps Framework.  The F
 ---
 ### April 2022
 
+&nbsp;
+- **Cloud Policy & Governance** (Capability; New)
 
+   new core content has been added to this Framework Capability; including a new definition, maturity characteristics for assessing your FinOps practice at [each level in the FinOps maturity model](https://www.finops.org/framework/maturity-model/), and measures of success, including best practices. see [this Capability's](https://www.finops.org/framework/capabilities/policy-governance) Definition, Functional Activities, Maturity Assessment and Inputs sections for more details.
 
 
 &nbsp;
@@ -211,6 +224,80 @@ Welcome! Below are highlights about what's new with the FinOps Framework.  The F
 ---
 ### March 2022
 
+&nbsp;
+- **IT Asset Management Integration** (Capability; Update)
+
+updated definition language to add clarity; based on feedback from the community the definition should ensure the concept of lifecycle is highlighted as fundamental to ITAM from planning/budgeting through disposal. see [this Capability's](https://www.finops.org/framework/capabilities/asset-management/) definition for more details.
+
+
+
+&nbsp;
+
+[learn more - join the conversation in Slack](https://finopsfoundation.slack.com/archives/C01UANLEPDW). not in Slack? [Join the community](https://www.finops.org/membership/)!
+
+
+
+---
+### February 2022
+
+&nbsp;
+- **Real-Time Decision Making(()) (Domain; Update)
+
+   updated list of Capabilities listed under this Domain based on community input for clarity. [see this Domain](https://www.finops.org/framework/domains/real-time-decision-making/) for more details.
+
+
+&nbsp;
+- **IT Asset Management Integration** (Capability; Update)
+
+   updated definition language to add clarity; based on feedback from the community the definition should ensure the concept of lifecycle is highlighted as fundamental to ITAM from planning/budgeting through disposal. [see this Capability's](https://www.finops.org/framework/capabilities/asset-management/) definition for more details.
+
+
+&nbsp;
+- **Managing Commitment Based Discounts** (Capability; Update)
+
+   an updated definition has been added to this Framework Capability. [see this Capability's])https://www.finops.org/framework/capabilities/manage-commitment-based-discounts/ definition section for more details.
+
+
+&nbsp;
+
+[learn more - join the conversation in Slack](https://finopsfoundation.slack.com/archives/C01UANLEPDW). not in Slack? [Join the community](https://www.finops.org/membership/)!
+
+
+
+---
+### January 2022
+
+&nbsp;
+- **Workload Management & Automation** (Capability; New)
+
+   a new definition has been added to the core content for this Framework Capability. [see this Capability's](https://www.finops.org/framework/capabilities/workload-management-automation/) definition section for more details.
+
+
+&nbsp;
+- **IT Asset Management Integration** (Capability; New)
+
+   new core content has been added to this Framework Capability; including a new definition, and maturity characteristics for assessing your FinOps practice at [each level in the FinOps maturity model](https://www.finops.org/framework/maturity-model/). see [this Capability](https://www.finops.org/framework/capabilities/asset-management/) for more details.
+
+
+&nbsp;
+
+[learn more - join the conversation in Slack](https://finopsfoundation.slack.com/archives/C01UANLEPDW). not in Slack? [Join the community](https://www.finops.org/membership/)!
+
+
+
+---
+### December 2021
+
+
+
+&nbsp;
+
+[learn more - join the conversation in Slack](https://finopsfoundation.slack.com/archives/C01UANLEPDW). not in Slack? [Join the community](https://www.finops.org/membership/)!
+
+
+
+---
+### November 2021
 
 
 
