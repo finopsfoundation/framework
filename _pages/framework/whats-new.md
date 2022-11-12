@@ -301,7 +301,7 @@ Welcome! Below are highlights about what's new with the FinOps Framework.  The F
 
 
 &nbsp;
-- **Chargeback & IT Finance Integration* (Capability; New)
+- **Chargeback & IT Finance Integration** (Capability; New)
 
    new core content has been added to this Framework Capability; including a new definition, an outline of persona driven activities, and maturity characteristics for assessing your FinOps practice at [each level in the FinOps maturity model](https://www.finops.org/framework/maturity-model/). see [this Capability's](https://www.finops.org/framework/capabilities/chargeback/) Definition, Functional Activities, and Maturity Assessment sections for more details.
 
@@ -314,7 +314,7 @@ Welcome! Below are highlights about what's new with the FinOps Framework.  The F
 
 
 &nbsp;
-- **Calculating Container Costs(()) (Resource; New)
+- **Calculating Container Costs** (Resource; New)
 
    this Framework resource provides a playbook to empower individuals who manage the value of cloud. it's an example of how to build your capability for [Data Analysis & Showback](https://www.finops.org/framework/capabilities/analysis-showback/). this guide explores how and why containers complicate how teams manage the visibility and optimization of container costs, and how to apply FinOps best practices to improve cloud financial management. see [this Framework resource here](https://www.finops.org/projects/calculating-container-costs/) for more details.
 
@@ -371,72 +371,6 @@ Welcome! Below are highlights about what's new with the FinOps Framework.  The F
 
 ---
 ### July 2021
-
-
-
-&nbsp;
-
-[learn more - join the conversation in Slack](https://finopsfoundation.slack.com/archives/C01UANLEPDW). not in Slack? [Join the community](https://www.finops.org/membership/)!
-
-
-
----
-### June 2021
-
-
-
-&nbsp;
-
-[learn more - join the conversation in Slack](https://finopsfoundation.slack.com/archives/C01UANLEPDW). not in Slack? [Join the community](https://www.finops.org/membership/)!
-
-
-
----
-### May 2021
-
-
-
-&nbsp;
-
-[learn more - join the conversation in Slack](https://finopsfoundation.slack.com/archives/C01UANLEPDW). not in Slack? [Join the community](https://www.finops.org/membership/)!
-
-
-
----
-### April 2021
-
-
-
-&nbsp;
-
-[learn more - join the conversation in Slack](https://finopsfoundation.slack.com/archives/C01UANLEPDW). not in Slack? [Join the community](https://www.finops.org/membership/)!
-
-
-
----
-### March 2021
-
-
-
-&nbsp;
-
-[learn more - join the conversation in Slack](https://finopsfoundation.slack.com/archives/C01UANLEPDW). not in Slack? [Join the community](https://www.finops.org/membership/)!
-
-
-
----
-### February 2021
-
-
-
-&nbsp;
-
-[learn more - join the conversation in Slack](https://finopsfoundation.slack.com/archives/C01UANLEPDW). not in Slack? [Join the community](https://www.finops.org/membership/)!
-
-
-
----
-### January 2021
 
 
 
