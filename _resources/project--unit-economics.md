@@ -95,8 +95,8 @@ Cloud Unit Economics also supports a broader set of metrics used to evaluate the
 
 Cloud Unit Economics is a key way to communicate both the cost and the value of everything an organization is doing in the cloud. As such, it depends on key interactions across all other FinOps domains, and understanding their definitions is important. Review the following Capabilities:
 
-  * **[Data Analysis](https://www.finops.org/framework/capabilities/analysis-showback/) and [Cost Allocation](https://www.finops.org/framework/capabilities/cost-allocation/)** are fundamental to effective unit cost measurement
-  * **[Forecasting](https://www.finops.org/framework/capabilities/forecasting) and [Budget Management](https://www.finops.org/framework/capabilities/budget-management/)** have clear intersections in terms of budgeting not only for expected cost but for the cost of supporting a demand that also must be forecast
+  * **[Data Analysis](https://www.finops.org/framework/capabilities/analysis-showback/)** and **[Cost Allocation](https://www.finops.org/framework/capabilities/cost-allocation/)** are fundamental to effective unit cost measurement
+  * **[Forecasting](https://www.finops.org/framework/capabilities/forecasting)** and **[Budget Management](https://www.finops.org/framework/capabilities/budget-management/)** have clear intersections in terms of budgeting not only for expected cost but for the cost of supporting a demand that also must be forecast
   * **[Strategic decision-making](https://www.finops.org/framework/capabilities/decision-accountability-structure)** should be driven more by unit costs than total costs whenever possible
   * **[Optimization activities](https://www.finops.org/framework/capabilities/utilization-efficiency/)** should be aligned to reach or maintain unit metric target objectives
   * **[FinOps culture](https://www.finops.org/framework/capabilities/establish-finops-culture)** — the way we incentivize our engineers, the way we communicate cloud cost and quantify value — is best expressed in terms of unit metrics
@@ -117,7 +117,7 @@ To get the most value and understanding from this playbook, review [relevant Uni
   * Demand driver
   * Cost attribution vs. cost allocation
 
-Use the [FinOps Terminology page](/resources/terminology/#unit-economics) to review these definitions and other relevant terms.
+Use the FinOps Terminology page to review these definitions and other relevant terms.
 
 ## Why Cloud Unit Economics is important
 
@@ -189,16 +189,11 @@ Additional motivations to practice Cloud Unit Economics in FinOps include:
 
 Examples of Cloud Unit Economics by measurement categories include:
 
-  * **BUSINESS** (Sales based on the way products are sold)
-    * Cost per weekly active user
-    * Cost per million transactions
-    * Cost per million in revenue
-  * **FINANCIAL** (Service component value indicator)
-    * Cost per core hour
-    * Cost per GB of RAM
-  * **TECHNICAL** (Sum of FinOps tactics and engineering choices at infrastructure value layer)
-    * Cost variance reductions
-    * Spend risk reductions
+| **BUSINESS   (Sales based on the way products are sold)** | **FINANCIAL (Service component value indicator)** | **TECHNICAL (Sum of FinOps tactics and engineering choices at infra value layer)** |
+|-----------------------------------------------------------|---------------------------------------------------|------------------------------------------------------------------------------------|
+| Cost per weekly active user                               | Cost per core hour                                | Cost variance reductions                                                           |
+| Cost per million transactions                             | Cost per GB of RAM                                | Spend risk reductions                                                              |
+| Cost per million in revenue                               |                                                   |                                                                                    |
 
 ## When to Start
 
