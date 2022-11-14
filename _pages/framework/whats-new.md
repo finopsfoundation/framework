@@ -241,7 +241,7 @@ Welcome! Below are highlights about what's new with the FinOps Framework.  The F
 ### February 2022
 
 &nbsp;
-- **Real-Time Decision Making(()) (Domain; Update)
+- **Real-Time Decision Making** (Domain; Update)
 
    updated list of Capabilities listed under this Domain based on community input for clarity. [see this Domain](https://www.finops.org/framework/domains/real-time-decision-making/) for more details.
 
@@ -307,7 +307,6 @@ Welcome! Below are highlights about what's new with the FinOps Framework.  The F
 
 
 &nbsp;
-
 - **Managing Shared Costs** (Capability; Updated)
 
    new core content has been added to this Framework Capability; including a new definition, an outline of persona driven activities, and maturity characteristics for assessing your FinOps practice at [each level in the FinOps maturity model](https://www.finops.org/framework/maturity-model/). multiple guides have been added related to waste reduction, including how to avoid and simplify shared costs, and fair cost allocation for shared platforms to name a couple. [see this Capability's](https://www.finops.org/framework/capabilities/manage-shared-cloud-cost/) Functional Activities, Maturity Assessment and Real World Resources sections for more details.
@@ -328,6 +327,34 @@ Welcome! Below are highlights about what's new with the FinOps Framework.  The F
 ---
 ### November 2021
 
+&nbsp;
+**The Green Zone/Red Zone Approach to RI Buying** (Resource; New)
+this Framework resource provides a playbook to empower individuals who manage the value of cloud. it's an example of how to build your capability for [Managing Commitment Based Discounts](https://www.finops.org/framework/capabilities/manage-commitment-based-discounts/), and [Cloud Policy & Governance](https://www.finops.org/framework/capabilities/policy-governance). in this guide Dave Van Hoven from HERE Technologies describes the Green Zone/Red Zone approach to buying Reserved Instances (RIs) centrally, and distributing RIs to product teams across a massive estate of over 10 million unique instances annually. see [this Framework resource](https://www.finops.org/stories/zone-approach-ri-buying/) here for more details.
+
+
+&nbsp;
+**Cloud Policy & Governance** (Capability; New)
+a new template for [this Framework Capability](https://www.finops.org/framework/capabilities/policy-governance) has been surfaced and is ready for community input!
+
+
+&nbsp;
+**Resource Utilization & Efficiency** (Capability; New)
+new core content has been added to this Framework Capability; including a new definition, an outline of persona driven activities, and maturity characteristics for assessing your FinOps practice at [each level in the FinOps maturity model](https://www.finops.org/framework/maturity-model/). multiple guides have been added related to waste reduction, including how to eliminate waste in BigQuery, managing EBS snapshots, and dealing with DynamoDB backups to name a few. see [this Capability's](https://www.finops.org/framework/capabilities/utilization-efficiency/) Functional Activities, Maturity Assessment and Real World Resources sections for more details.
+
+
+&nbsp;
+**Managing Commitment Based Discounts** (Capability; Update)
+new KPIs have been published to help practitioners measure success when managing commitment based discounts. plus 2 new guides have been added to this Framework Capability; a guide to help FinOps practitioners working with BigQuery capacity commitments, along with a guide outlining rate optimization options for GCP.  see [this Capability's](https://www.finops.org/framework/capabilities/manage-commitment-based-discounts/) Maturity Assessment and Real World Resources sections for more details.
+
+
+&nbsp;
+**Onboarding Workloads** (Capability; New)
+new core content has been added to this Framework Capability; including a new definition, an outline of persona driven activities, maturity characteristics for assessing your FinOps practice at [each level in the FinOps maturity model](https://www.finops.org/framework/maturity-model/), and measures of success. also, a guide has been added for architecting cloud workloads for financial reporting. see [this Capability's](https://www.finops.org/framework/capabilities/onboarding-workloads/) Functional Activities, Maturity Assessment and Real World Resources sections for more details.
+
+
+&nbsp;
+**Measuring Unit Costs** (Capability; New)
+new core content has been added to this Framework Capability; including a new definition, an outline of persona driven activities, maturity characteristics for assessing your FinOps practice at [each level in the FinOps maturity model](https://www.finops.org/framework/maturity-model/), and measures of success. also, a new guide has been added which examines the nature of and the need for cloud unit costing with examples. see [this Capability's](https://www.finops.org/framework/capabilities/measure-unit-costs/) Definition, Functional Activities, Maturity Assessment and Real World Resources sections for more details.
 
 
 &nbsp;
