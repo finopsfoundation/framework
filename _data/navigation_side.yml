@@ -41,8 +41,6 @@
   - name: Cloud Forecasting Playbook
     url: /projects/forecasting-playbook/
   - name: Container Cost Allocation
-  - name: Data Efficiency
-    url: /projects/managing-data-efficiency-playbook/
   - name: Encouraging Engineers to Take Action
   - name: FinOps Assessment
     url: /projects/finops-assessment/
