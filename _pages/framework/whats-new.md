@@ -12,7 +12,7 @@ description: This page highlights what's new with the FinOps Framework.  The Fin
 
 # What's New in the FinOps Framework
 
-Welcome! Below are highlights about what's new with the FinOps Framework.  The FinOps Framework is evolving and informed by community contributions and conversations.  [Join the community of FinOps practitioners](https://www.finops.org/membership/).
+Welcome! Below are highlights about what's new with the FinOps Framework.  The FinOps Framework is evolving and informed by community contributions and conversations.  [Join our community of FinOps practitioners](https://www.finops.org/membership/).
 
 &nbsp;
 
@@ -524,7 +524,7 @@ Welcome! Below are highlights about what's new with the FinOps Framework.  The F
 
 &nbsp;
 
----
+
 
 ---
 
