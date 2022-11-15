@@ -14,8 +14,9 @@ description: This page highlights what's new with the FinOps Framework.  The Fin
 The FinOps Framework is evolving and informed by community contributions and conversations.  Built by the community for the community.  This "What's New" page is intended to highlight updates to the FinOps Framework.
 
 
+&nbsp;
 
-#### Scope
+##### Scope
 
 the types of updates captured on this page include:
 - updates to main Framework elements (Principles, Domains, Capabilities, etc... )
@@ -25,9 +26,9 @@ the types of updates captured on this page include:
 - F2 training and course modules that are x-ref from the Framework
 - community contributions and project deliverables related to the Framework from WGs, or other initiatives (like #50days-of-FinOps, etc…)
 
+&nbsp;
 
-
-#### Attributes of a Framework "What's New" post:
+##### Attributes of a Framework "What's New" post:
 
 |   |    |
 |---:|---|
@@ -40,6 +41,7 @@ the types of updates captured on this page include:
 |   |    |
 
 
+&nbsp;
 
 ## What's New
 Welcome! Below are highlights about what's new with the FinOps Framework.  The FinOps Framework is evolving and informed by community contributions and conversations.  [Join the community of FinOps practitioners](https://www.finops.org/membership/).
@@ -508,7 +510,7 @@ a new Framework Domain overview page outlining the FinOps Domain model, along wi
 
 &nbsp;
 **Hello World** (New)
-a new Poutine banjo wolf aute marfa, put a bird on it aliqua deep v. Food truck occaecat ennui lorem ut sunt migas YOLO dolor kinfolk craft beer labore scenester. Offal hexagon hot chicken XOXO fingerstache tousled occupy typewriter man bun deserunt actually in master cleanse. Ennui tacos DIY roof party everyday carry duis mumblecore. Paleo dolor hexagon schlitz succulents aliquip fugiat. 
+a new Poutine banjo wolf aute marfa, put a bird on it aliqua deep v. Food truck occaecat ennui lorem ut sunt migas YOLO dolor kinfolk craft beer labore scenester. Offal hexagon hot chicken XOXO fingerstache tousled occupy typewriter man bun deserunt actually in master cleanse. Ennui tacos DIY roof party everyday carry duis mumblecore. Paleo dolor hexagon schlitz succulents aliquip fugiat.
 
 
 
