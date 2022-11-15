@@ -478,7 +478,7 @@ Welcome! Below are highlights about what's new with the FinOps Framework.  The F
 &nbsp;
   - **Cost Allocation** (Capability; New)
 
-   new core content has been added to this Framework Capability; including a new definition, an outline of persona driven activities, measure of success, and maturity characteristics for assessing your FinOps practice at [each level in the FinOps maturity model](https://www.finops.org/framework/maturity-model/), see [this Capability's](https://www.finops.org/framework/capabilities/cost-allocation/) Definition, Maturity Assessment, Measures of Success and Real World Resources sections for more details.
+    new core content has been added to this Framework Capability; including a new definition, an outline of persona driven activities, measure of success, and maturity characteristics for assessing your FinOps practice at [each level in the FinOps maturity model](https://www.finops.org/framework/maturity-model/), see [this Capability's](https://www.finops.org/framework/capabilities/cost-allocation/) Definition, Maturity Assessment, Measures of Success and Real World Resources sections for more details.
 
 
 &nbsp;
