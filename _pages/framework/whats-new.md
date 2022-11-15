@@ -367,6 +367,51 @@ new core content has been added to this Framework Capability; including a new de
 ### October 2021
 
 
+&nbsp;
+Adopting FinOps - Getting Started (Resource; New)
+this Framework resource provides a playbook to empower individuals who manage the value of cloud. it's an example of how to build capability for [Establishing FinOps Culture](https://www.finops.org/framework/capabilities/establish-finops-culture) and how to build capability through [FinOps Education & Enablement](https://www.finops.org/framework/capabilities/education-enablement). use this starter guide to help you build a presentation to inform other teams, teammates, and stakeholders about the benefits of building a FinOps practice. It includes preparation steps, accountability and expectations per role and persona, a detailed roadmap, and more. see [this Framework resource here](https://www.finops.org/projects/adopting-finops/) for more details.
+
+
+&nbsp;
+Establishing FinOps Culture (Capability; New)
+new core content has been added to this Framework Capability; including a new definition, an outline of persona driven activities, maturity characteristics for assessing your FinOps practice at [each level in the FinOps maturity model](https://www.finops.org/framework/maturity-model/), plus a guide for adopting FinOps in your organization have been added to this Framework Capability. see [this Capability's](https://www.finops.org/framework/capabilities/establish-finops-culture) Definition, Maturity Assessment and Real World Resources sections for more details.
+
+
+&nbsp;
+Managing Commitment Based Discounts (Capability; New)
+new core content has been added to this Framework Capability; including new maturity characteristics for assessing your FinOps practice at [each level in the FinOps maturity model](https://www.finops.org/framework/maturity-model/), and new measures of success. see [this Capability's](https://www.finops.org/framework/capabilities/manage-commitment-based-discounts/) Maturity Assessment and Measures of Success sections for more details.
+
+
+&nbsp;
+Resource Utilization & Efficiency (Resource; New)
+new resources have been added to this Framework Capability; including guides for managing EBS snapshots, and dealing with DynamoDB backups. see [this Capability's](https://www.finops.org/framework/capabilities/utilization-efficiency/) 'Resources & Projects' sections for more details.
+
+
+&nbsp;
+Onboarding Workload (Capability; New)
+a new template for [this Framework Capability](https://www.finops.org/framework/capabilities/onboarding-workloads/) has been surfaced and is ready for community input!
+
+
+&nbsp;
+Framework Personas Enhanced with Guidelines for Adopting FinOps (Personas; Update)
+the Framework Personas page was enhanced with strategies and resources to help you with adopting FinOps into your organizations. Persona centric guidelines, goals, key messaging and KPIs are now outlined that enable FinOps practitioners to gain approval from executives, buy-in from stakeholder teams and spur engagement for conducting FinOps and achieving goals. see [the Framework Personas page](https://www.finops.org/framework/personas/) for more details.
+
+
+&nbsp;
+Framework Capability UX Improvements (IA; Update)
+new snippets and CTAs (calls-to-action) have been added to the Framework Capabilities overview page. this update surfaces a definition summary snippet within each of the individual capability cards for easy reference. [CTA labels](https://share.getcloudapp.com/qGuRWLxz) were added to help visually identify which Capabilities still require community contribution. see [the Capabilities overview page](https://www.finops.org/framework/capabilities/) for more details.
+
+
+&nbsp;
+Data Analysis and Showback (Capability; New)
+new core content has been added to this Framework Capability; including a new definition, an outline of persona driven activities, maturity characteristics for assessing your FinOps practice at [each level in the FinOps maturity model](https://www.finops.org/framework/maturity-model/), and measures of success. see [this Capability's](https://www.finops.org/framework/capabilities/analysis-showback/) Definition, Functional Activities, Maturity Assessment and Inputs sections for more details.
+
+
+&nbsp;
+FinOps Overview Poster (IA; Update)
+the [FinOps Overview infographic]()https://www.finops.org/img//resources/FinOps%20Poster_011021.pdf was updated to refresh the Personas icons and align persona names/descriptions with [the FinOps Framework Personas](https://www.finops.org/framework/personas/).
+
+
 
 &nbsp;
 
