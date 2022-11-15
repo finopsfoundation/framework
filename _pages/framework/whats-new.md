@@ -9,41 +9,9 @@ description: This page highlights what's new with the FinOps Framework.  The Fin
 
 
 ---
-# FinOps Framework Updates
 
-The FinOps Framework is evolving and informed by community contributions and conversations.  Built by the community for the community.  This "What's New" page is intended to highlight updates to the FinOps Framework.
+# What's New in the FinOps Framework
 
-
-&nbsp;
-
-##### Scope
-
-the types of updates captured on this page include:
-- updates to main Framework elements (Principles, Domains, Capabilities, etc... )
-- core content within Framework elements (Definitions, Measures of Success, Functional Activities, etc…)
-- Framework resources; this includes addition of/updates to new guides, playbooks, media assets, etc
-- platforms, tooling and service providers that are x-ref from the Framework
-- F2 training and course modules that are x-ref from the Framework
-- community contributions and project deliverables related to the Framework from WGs, or other initiatives (like #50days-of-FinOps, etc…)
-
-&nbsp;
-
-##### Attributes of a Framework "What's New" post:
-
-|   |    |
-|---:|---|
-| **category** | New / Update / Deprecated / Removed |
-| **published-date** | month yyyy |
-| **framework-element** | Domain, Capability, Principle, Persona, Resource, Information Architecture (IA) |
-| **title** | summary or topic for the post |
-| **body** | summary of the change/update; focused on community value; may include images/video/links; may be faq styled post; may include links to Slack channels |
-| **call-to-action** | section footer link to a the Framework Slack channel |
-|   |    |
-
-
-&nbsp;
-
-## What's New
 Welcome! Below are highlights about what's new with the FinOps Framework.  The FinOps Framework is evolving and informed by community contributions and conversations.  [Join the community of FinOps practitioners](https://www.finops.org/membership/).
 
 &nbsp;
@@ -546,3 +514,51 @@ Welcome! Below are highlights about what's new with the FinOps Framework.  The F
 &nbsp;
 
 [learn more - join the conversation in Slack](https://finopsfoundation.slack.com/archives/C01UANLEPDW). not in Slack? [Join the community](https://www.finops.org/membership/)!
+
+
+
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+---
+
+---
+
+
+## About FinOps Framework Updates
+
+The FinOps Framework is evolving and informed by community contributions and conversations.  Built by the community for the community.  This "What's New" page is intended to highlight updates to the FinOps Framework.
+
+
+&nbsp;
+
+#### Scope
+
+the types of updates captured on this page include:
+- updates to main Framework elements (Principles, Domains, Capabilities, etc... )
+- core content within Framework elements (Definitions, Measures of Success, Functional Activities, etc…)
+- Framework resources; this includes addition of/updates to new guides, playbooks, media assets, etc
+- platforms, tooling and service providers that are x-ref from the Framework
+- F2 training and course modules that are x-ref from the Framework
+- community contributions and project deliverables related to the Framework from WGs, or other initiatives (like #50days-of-FinOps, etc…)
+
+&nbsp;
+
+#### Attributes of a Framework "What's New" post:
+
+|   |    |
+|---:|---|
+| **category** | New / Update / Deprecated / Removed |
+| **published-date** | month yyyy |
+| **framework-element** | Domain, Capability, Principle, Persona, Resource, Information Architecture (IA) |
+| **title** | summary or topic for the post |
+| **body** | summary of the change/update; focused on community value; may include images/video/links; may be faq styled post; may include links to Slack channels |
+| **call-to-action** | section footer link to a the Framework Slack channel |
+|   |    |
+
+
+&nbsp;
