@@ -529,7 +529,7 @@ Welcome! Below are highlights about what's new with the FinOps Framework.  The F
 ---
 
 
-## About FinOps Framework Updates
+## About the FinOps Framework What's New page
 
 The FinOps Framework is evolving and informed by community contributions and conversations.  Built by the community for the community.  This "What's New" page is intended to highlight updates to the FinOps Framework.
 
