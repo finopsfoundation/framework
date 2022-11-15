@@ -16,7 +16,7 @@ cloud-provider:
 framework-persona: FinOps Practitioner
 framework-maturity: Walk
 framework-capabilities:
-- capability_managing-anomalies
+- capability_anomalies
 weight: 100
 
 ---
@@ -26,7 +26,7 @@ Cloud cost anomaly detection is an integral part of our FinOps practice at [JFro
 **Points that we have had to address while working on the system:**
 * Discerning between cost versus usage monitoring
 * Identifying different types of cost:
-    * Amortized cost 
+    * Amortized cost
     * Public cost
     * Unblended cost
 * Usage
@@ -53,4 +53,3 @@ We have developed custom scripts to compare usages for some services for a certa
 Later on, we started using an anomaly detection mechanism of a 3rd party tool. It allowed us to configure alerts based at the service level with defined $/% thresholds (we configured both) based on the cost. The challenges that we had were that the alerting mechanism couldn’t be configured for a period of time, and the false-positive ratio was too high.
 
 Currently, we are working on the configuration of the enhanced functionality with a more robust mechanism based on the weight system that allows us more accurate tuning of the alerts.
-

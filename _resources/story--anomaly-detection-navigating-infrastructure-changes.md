@@ -16,7 +16,7 @@ cloud-provider:
 framework-persona: FinOps Practitioner
 framework-maturity: Run
 framework-capabilities:
-- capability_managing-anomalies
+- capability_anomalies
 weight: 100
 
 ---
