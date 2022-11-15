@@ -331,31 +331,37 @@ Welcome! Below are highlights about what's new with the FinOps Framework.  The F
 
 &nbsp;
 **The Green Zone/Red Zone Approach to RI Buying** (Resource; New)
+
 this Framework resource provides a playbook to empower individuals who manage the value of cloud. it's an example of how to build your capability for [Managing Commitment Based Discounts](https://www.finops.org/framework/capabilities/manage-commitment-based-discounts/), and [Cloud Policy & Governance](https://www.finops.org/framework/capabilities/policy-governance). in this guide Dave Van Hoven from HERE Technologies describes the Green Zone/Red Zone approach to buying Reserved Instances (RIs) centrally, and distributing RIs to product teams across a massive estate of over 10 million unique instances annually. see [this Framework resource](https://www.finops.org/stories/zone-approach-ri-buying/) here for more details.
 
 
 &nbsp;
 **Cloud Policy & Governance** (Capability; New)
+
 a new template for [this Framework Capability](https://www.finops.org/framework/capabilities/policy-governance) has been surfaced and is ready for community input!
 
 
 &nbsp;
 **Resource Utilization & Efficiency** (Capability; New)
+
 new core content has been added to this Framework Capability; including a new definition, an outline of persona driven activities, and maturity characteristics for assessing your FinOps practice at [each level in the FinOps maturity model](https://www.finops.org/framework/maturity-model/). multiple guides have been added related to waste reduction, including how to eliminate waste in BigQuery, managing EBS snapshots, and dealing with DynamoDB backups to name a few. see [this Capability's](https://www.finops.org/framework/capabilities/utilization-efficiency/) Functional Activities, Maturity Assessment and Real World Resources sections for more details.
 
 
 &nbsp;
 **Managing Commitment Based Discounts** (Capability; Update)
+
 new KPIs have been published to help practitioners measure success when managing commitment based discounts. plus 2 new guides have been added to this Framework Capability; a guide to help FinOps practitioners working with BigQuery capacity commitments, along with a guide outlining rate optimization options for GCP.  see [this Capability's](https://www.finops.org/framework/capabilities/manage-commitment-based-discounts/) Maturity Assessment and Real World Resources sections for more details.
 
 
 &nbsp;
 **Onboarding Workloads** (Capability; New)
+
 new core content has been added to this Framework Capability; including a new definition, an outline of persona driven activities, maturity characteristics for assessing your FinOps practice at [each level in the FinOps maturity model](https://www.finops.org/framework/maturity-model/), and measures of success. also, a guide has been added for architecting cloud workloads for financial reporting. see [this Capability's](https://www.finops.org/framework/capabilities/onboarding-workloads/) Functional Activities, Maturity Assessment and Real World Resources sections for more details.
 
 
 &nbsp;
 **Measuring Unit Costs** (Capability; New)
+
 new core content has been added to this Framework Capability; including a new definition, an outline of persona driven activities, maturity characteristics for assessing your FinOps practice at [each level in the FinOps maturity model](https://www.finops.org/framework/maturity-model/), and measures of success. also, a new guide has been added which examines the nature of and the need for cloud unit costing with examples. see [this Capability's](https://www.finops.org/framework/capabilities/measure-unit-costs/) Definition, Functional Activities, Maturity Assessment and Real World Resources sections for more details.
 
 
@@ -371,46 +377,55 @@ new core content has been added to this Framework Capability; including a new de
 
 &nbsp;
 **Adopting FinOps - Getting Started** (Resource; New)
+
 this Framework resource provides a playbook to empower individuals who manage the value of cloud. it's an example of how to build capability for [Establishing FinOps Culture](https://www.finops.org/framework/capabilities/establish-finops-culture) and how to build capability through [FinOps Education & Enablement](https://www.finops.org/framework/capabilities/education-enablement). use this starter guide to help you build a presentation to inform other teams, teammates, and stakeholders about the benefits of building a FinOps practice. It includes preparation steps, accountability and expectations per role and persona, a detailed roadmap, and more. see [this Framework resource here](https://www.finops.org/projects/adopting-finops/) for more details.
 
 
 &nbsp;
 **Establishing FinOps Culture** (Capability; New)
+
 new core content has been added to this Framework Capability; including a new definition, an outline of persona driven activities, maturity characteristics for assessing your FinOps practice at [each level in the FinOps maturity model](https://www.finops.org/framework/maturity-model/), plus a guide for adopting FinOps in your organization have been added to this Framework Capability. see [this Capability's](https://www.finops.org/framework/capabilities/establish-finops-culture) Definition, Maturity Assessment and Real World Resources sections for more details.
 
 
 &nbsp;
 **Managing Commitment Based Discounts** (Capability; New)
+
 new core content has been added to this Framework Capability; including new maturity characteristics for assessing your FinOps practice at [each level in the FinOps maturity model](https://www.finops.org/framework/maturity-model/), and new measures of success. see [this Capability's](https://www.finops.org/framework/capabilities/manage-commitment-based-discounts/) Maturity Assessment and Measures of Success sections for more details.
 
 
 &nbsp;
 **Resource Utilization & Efficiency** (Resource; New)
+
 new resources have been added to this Framework Capability; including guides for managing EBS snapshots, and dealing with DynamoDB backups. see [this Capability's](https://www.finops.org/framework/capabilities/utilization-efficiency/) 'Resources & Projects' sections for more details.
 
 
 &nbsp;
 **Onboarding Workload** (Capability; New)
+
 a new template for [this Framework Capability](https://www.finops.org/framework/capabilities/onboarding-workloads/) has been surfaced and is ready for community input!
 
 
 &nbsp;
 **Framework Personas Enhanced with Guidelines for Adopting FinOps** (Personas; Update)
+
 the Framework Personas page was enhanced with strategies and resources to help you with adopting FinOps into your organizations. Persona centric guidelines, goals, key messaging and KPIs are now outlined that enable FinOps practitioners to gain approval from executives, buy-in from stakeholder teams and spur engagement for conducting FinOps and achieving goals. see [the Framework Personas page](https://www.finops.org/framework/personas/) for more details.
 
 
 &nbsp;
 **Framework Capability UX Improvements** (IA; Update)
+
 new snippets and CTAs (calls-to-action) have been added to the Framework Capabilities overview page. this update surfaces a definition summary snippet within each of the individual capability cards for easy reference. [CTA labels](https://share.getcloudapp.com/qGuRWLxz) were added to help visually identify which Capabilities still require community contribution. see [the Capabilities overview page](https://www.finops.org/framework/capabilities/) for more details.
 
 
 &nbsp;
 **Data Analysis and Showback** (Capability; New)
+
 new core content has been added to this Framework Capability; including a new definition, an outline of persona driven activities, maturity characteristics for assessing your FinOps practice at [each level in the FinOps maturity model](https://www.finops.org/framework/maturity-model/), and measures of success. see [this Capability's](https://www.finops.org/framework/capabilities/analysis-showback/) Definition, Functional Activities, Maturity Assessment and Inputs sections for more details.
 
 
 &nbsp;
 **FinOps Overview Poster** (IA; Update)
+
 the [FinOps Overview infographic]()https://www.finops.org/img//resources/FinOps%20Poster_011021.pdf was updated to refresh the Personas icons and align persona names/descriptions with [the FinOps Framework Personas](https://www.finops.org/framework/personas/).
 
 
@@ -426,51 +441,61 @@ the [FinOps Overview infographic]()https://www.finops.org/img//resources/FinOps%
 
 &nbsp;
 **Guide to Accurate Cloud Forecasts** (Resource; New)
+
 this Framework resource provides a playbook to empower individuals who manage the value of cloud. it's an example of how to build your capability for [Forecasting](https://www.finops.org/framework/capabilities/forecasting) cloud spend. this guide explores how finance, operations, and executives build models to forecast cloud spend and allocate budgets to business units. see [this Framework resource here](https://www.finops.org/projects/forecasting-cloud-costs/) for more details.
 
 
 &nbsp;
 **Framework Capabilities UX improvements** (IA; Update)
+
 the Framework Capability Overview page has been improved to provide a user friendly layout when looking for information about a Capability.  the individual Framework Capability pages now list their associated Domains. each Framework Capability page was updated to help visually identify which Domain(s) an individual Capability belongs to for easy reference and user navigation.
 
 
 &nbsp;
 **Framework Domains UX improvements** (IA; Update)
+
 Framework Domains now list their associated Capabilities.  the Framework Domains overview page was updated to help visually identify which Capabilities belong to each individual Domain for easy reference and navigation. [see the Domains overview page](https://www.finops.org/framework/domains/) for more details.
 
 
 &nbsp;
 **Forecasting** (Capability; New)
+
 new core content has been added to this Framework Capability; including a new definition, an outline of persona driven activities, measure of success, and maturity characteristics for assessing your FinOps practice at [each level in the FinOps maturity model](https://www.finops.org/framework/maturity-model/), resources providing insights into cloud forecasting for your organization have been added to this Framework Capability. see [this Capability's](https://www.finops.org/framework/capabilities/forecasting) Definition, Maturity Assessment and Real World Resources sections for more details.
 
 
 &nbsp;
 **Guide for Spreading out Shared Costs** (Resource; New)
+
 this Framework resource provides a playbook to empower individuals who manage the value of cloud. it's an example of how to build your capability for [Managing Shared Costs](https://www.finops.org/framework/capabilities/manage-shared-cloud-cost/). this guide explores shared costs, and how these span multiple business departments. as organizations increase their adoption of public cloud resources, it becomes increasingly difficult to assign shared cloud resources to specific business owners, to understand how to properly and fairly allocate costs, and to actually forecast future business unit budgets. see [this Framework resource here](https://www.finops.org/projects/identifying-shared-costs/) for more details.
 
 
 &nbsp;
 **Managing Anomalies** (Capability; New)
+
 new core content has been added to this Framework Capability; including a new definition, an outline of persona driven activities, measure of success, and maturity characteristics for assessing your FinOps practice at [each level in the FinOps maturity model](https://www.finops.org/framework/maturity-model/), see [this Capability's](https://www.finops.org/framework/capabilities/manage-anomalies/) Definition, Maturity Assessment, and Measures of Success sections for more details.
 
 
 &nbsp;
 **Cost Allocation** (Capability; New)
+
 new core content has been added to this Framework Capability; including a new definition, an outline of persona driven activities, measure of success, and maturity characteristics for assessing your FinOps practice at [each level in the FinOps maturity model](https://www.finops.org/framework/maturity-model/), see [this Capability's](https://www.finops.org/framework/capabilities/cost-allocation/) Definition, Maturity Assessment, Measures of Success and Real World Resources sections for more details.
 
 
 &nbsp;
 **Framework Maturity Model Information Architecture** (Maturity; New)
+
 the FinOps Maturity model has been formalized and published to the Framework! the FinOps Maturity model enhances the Framework by establishing guidelines, maturity characteristics to enable organizations to start small, and grow in scale, scope and complexity as business value warrants maturing their FinOps practice. it provides a standardized information architecture for guiding FinOps practitioners. [see the FinOps Framework Maturity model page](https://www.finops.org/framework/maturity-model/) for more details.
 
 
 &nbsp;
 **Framework Capabilities Landing Page** (IA; New)
+
 a new Framework Capabilities landing page was published providing a convenient overview of current Framework Capabilities; for completeness, the landing page includes links to historical functions that had been listed prior to the FinOps Framework information architecture being formalized. [see the Capabilities overview page](https://www.finops.org/framework/capabilities/) for more details.
 
 
 &nbsp;
 **Framework Capability Information Architecture** (IA; New)
+
 new Framework Capability template pages have been published! these templates establish the structure and attributes of an individual FinOps capability, and provides a standardized information architecture for guiding FinOps practitioners and also for enabling contributions from the FinOps community. [see the Capabilities overview page](https://www.finops.org/framework/capabilities/) for more details.
 
 
@@ -485,16 +510,19 @@ new Framework Capability template pages have been published! these templates est
 
 &nbsp;
 **FinOps Overview Poster** (IA; Update)
+
 the FinOps Overview poster was updated to align Persona names/descriptions with the FinOps Framework Personas.
 
 
 &nbsp;
 **Framework Domains UX improvements** (IA; Update)
+
 the Framework Domains overview page was updated to display a definition summary snippet within each of the individual Domain cards for easy reference. see the Domains overview page for more details.
 
 
 &nbsp;
 **Framework Domain Information Architecture** (Domains; New)
+
 a new Framework Domain overview page outlining the FinOps Domain model, along with individual Domains pages have been published! these new pages establish the model, describe FinOps Domains, provide definition and attributes for individual FinOps Domains. this change establishes a standardized information architecture for guiding FinOps practitioners and also for enabling contributions from the FinOps community. see the Domains overview page for more details.
 
 
@@ -510,6 +538,7 @@ a new Framework Domain overview page outlining the FinOps Domain model, along wi
 
 &nbsp;
 **Hello World** (New)
+
 a new Poutine banjo wolf aute marfa, put a bird on it aliqua deep v. Food truck occaecat ennui lorem ut sunt migas YOLO dolor kinfolk craft beer labore scenester. Offal hexagon hot chicken XOXO fingerstache tousled occupy typewriter man bun deserunt actually in master cleanse. Ennui tacos DIY roof party everyday carry duis mumblecore. Paleo dolor hexagon schlitz succulents aliquip fugiat.
 
 
