@@ -481,6 +481,20 @@ new Framework Capability template pages have been published! these templates est
 ---
 ### August 2021
 
+&nbsp;
+**FinOps Overview Poster** (IA; Update)
+the FinOps Overview poster was updated to align Persona names/descriptions with the FinOps Framework Personas.
+
+
+&nbsp;
+**Framework Domains UX improvements** (IA; Update)
+the Framework Domains overview page was updated to display a definition summary snippet within each of the individual Domain cards for easy reference. see the Domains overview page for more details.
+
+
+&nbsp;
+**Framework Domain Information Architecture** (Domains; New)
+a new Framework Domain overview page outlining the FinOps Domain model, along with individual Domains pages have been published! these new pages establish the model, describe FinOps Domains, provide definition and attributes for individual FinOps Domains. this change establishes a standardized information architecture for guiding FinOps practitioners and also for enabling contributions from the FinOps community. see the Domains overview page for more details.
+
 
 
 &nbsp;
@@ -491,6 +505,10 @@ new Framework Capability template pages have been published! these templates est
 
 ---
 ### July 2021
+
+&nbsp;
+**Hello World** (New)
+a new Poutine banjo wolf aute marfa, put a bird on it aliqua deep v. Food truck occaecat ennui lorem ut sunt migas YOLO dolor kinfolk craft beer labore scenester. Offal hexagon hot chicken XOXO fingerstache tousled occupy typewriter man bun deserunt actually in master cleanse. Ennui tacos DIY roof party everyday carry duis mumblecore. Paleo dolor hexagon schlitz succulents aliquip fugiat. 
 
 
 
