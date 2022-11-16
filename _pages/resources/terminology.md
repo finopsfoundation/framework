@@ -12,6 +12,10 @@ description: A glossary of FinOps concepts and terminology used by practitioners
 # FinOps Terminology
 A glossary of FinOps concepts and related terminology used by practitioners all over the world. This resources also includes finance and business terminology and definitions to help readers better understand terms used across the FinOps Foundation website, educational and training content.
 
+## Anomaly Management
+
+Anomaly Management
+> Anomaly Management is the ability to detect, identify, clarify, alert and manage unexpected or unforecasted cloud cost events in a timely manner, in order to minimize detrimental impact to the business, cost or otherwise.
 
 ## Cloud Cost Management Terminology
 Allocation Metadata
