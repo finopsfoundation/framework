@@ -27,9 +27,15 @@ description: For providers that deliver solutions that contain a subset of the f
   {% if vendor.certified-status contains 'FinOps Certified Solution' %}
   <div class="md:w-2/6 p-3 flex items-stretch">
     <div class="w-full bg-gray-100 rounded-lg border-solid border-gray-100 border hover:border-green-500 transition-colors duration-200 shadow-sm cursor-pointer flex text-centre items-center justify-center">
+      {% if vendor.temporary %}
+      <a href="{{ vendor.website-url }}" class="block p-6">
+        <img src="{{ vendor.logo-url }}" alt="{{ vendor.name }}" width="{% if vendor.logo-url-width != undefined %}{{ vendor.logo-url-width }}{% else %}150{% endif %}" />
+      </a>
+      {% else %}
       <a href="{{ vendor.url }}" class="block p-6">
         <img src="{{ vendor.logo-url }}" alt="{{ vendor.name }}" width="{% if vendor.logo-url-width != undefined %}{{ vendor.logo-url-width }}{% else %}150{% endif %}" />
       </a>
+      {% endif %}
     </div>
   </div>
     

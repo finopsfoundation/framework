@@ -14,6 +14,8 @@
 
 - name: FinOps Framework
   children:
+  - name: What's New
+    url: /framework/whats-new/
   - name: Principles
     url: /framework/principles/
   - name: Personas
@@ -41,8 +43,6 @@
   - name: Cloud Forecasting Playbook
     url: /projects/forecasting-playbook/
   - name: Container Cost Allocation
-  - name: Data Efficiency
-    url: /projects/managing-data-efficiency-playbook/
   - name: Encouraging Engineers to Take Action
   - name: FinOps Assessment
     url: /projects/finops-assessment/
@@ -74,4 +74,3 @@
     url: /community/finops-book
   - name: FinOps Terminology
     url: /resources/terminology
-  

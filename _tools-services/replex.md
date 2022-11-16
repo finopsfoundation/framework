@@ -5,6 +5,7 @@ layout: member
 # Vendor details
 name: Replex
 logo-url: "/tools-services/logos/replex.png"
+logo-url-width: 115
 linkedin-url: "https://www.linkedin.com/company/replex-gmbh/"
 website-url: "https://www.replex.io"
 

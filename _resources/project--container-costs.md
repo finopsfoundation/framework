@@ -12,10 +12,11 @@ project-description: Typical cloud costs are difficult enough to track at scale,
 date-added: Oct 2020
 type: Guide
 source: Foundation Contribution
-label: 
-cloud-provider: 
+label:
+cloud-provider:
   - Multi-Cloud
 framework-capabilities:
+- capability_showback
 weight: 10
 ---
 
@@ -54,11 +55,11 @@ Containers represent another layer of virtualization on top of cloud virtualizat
 This paper will walk through container and Kubernetes FinOps challenges into the same **inform, optimize, and operate** lifecycle that you would apply to the broader cloud FinOps.
 
 ### Relevant Terms and Concepts
-Let’s quickly run through the basics for anyone not familiar with containers or Kubernetes before we go further. It will also be helpful to create a common understanding of these components throughout this whitepaper. 
+Let’s quickly run through the basics for anyone not familiar with containers or Kubernetes before we go further. It will also be helpful to create a common understanding of these components throughout this whitepaper.
 
 ***Note:** While there are many similarities between AWS Elastic Container Service (ECS) and Kubernetes, there are different terms used within each. For simplicity—besides when talking about Kubernetes specifically—we refer to “containers” and “server instances” where Kubernetes would refer to “pods” and “nodes.”*
 
-Containers are, quite simply, a way to package software. All of the requirements and settings are baked into a deployable image. Container orchestration tools like Kubernetes help engineers deploy containers to servers in a manageable and maintainable way. 
+Containers are, quite simply, a way to package software. All of the requirements and settings are baked into a deployable image. Container orchestration tools like Kubernetes help engineers deploy containers to servers in a manageable and maintainable way.
 
 There are a few key terms we will use throughout this chapter:
 
@@ -184,7 +185,7 @@ After much FinOps-focused work, new policies were built in, such as enforced nam
 ### Consistent labeling and namespace strategy to improve allocation
 Once you’ve implemented a consistent and robust labeling and namespace strategy, you can start to consider how you will allocate cluster costs. Unless you’re using GKE, you can’t easily see which groups are driving costs within a cluster.
 
-A common methodology will be to look at the proportional resources consumed by each group (label, namespace, etc) and use that to allocate the cluster costs to those groups. For example, if you have four namespaces in a cluster that each consume 25% of the cluster resources, you could decide to allocate 25% of the total cluster costs back to each of those namespaces. 
+A common methodology will be to look at the proportional resources consumed by each group (label, namespace, etc) and use that to allocate the cluster costs to those groups. For example, if you have four namespaces in a cluster that each consume 25% of the cluster resources, you could decide to allocate 25% of the total cluster costs back to each of those namespaces.
 
 In the real world, any environment will never be this simple or straightforward. One additional layer of complexity is answering the question of how are you determining cluster resource utilization? Will you base it off CPU, memory, or a combination of the two? Do you want to consider requests or actual consumption?
 
@@ -196,7 +197,7 @@ There are pros and cons to each of these approaches, as outlined in the table be
 |  Challenges | Some organizations are not using resource request fields yet May also incentivize under-specifying requirements              | Who pays for the rest (idle time / cycles)? What do we do about overprovisioning? Can incentivize teams to provision more just in case, and not pay for it Can set unrealistic goal of 100% utilization |
 
 ### Going beyond the Core Cluster Costs
-When allocating the costs out to the consumers of the cluster, it’s important to consider not only the cost of the compute nodes the container operated upon, but also the satellite costs of operating the cluster. 
+When allocating the costs out to the consumers of the cluster, it’s important to consider not only the cost of the compute nodes the container operated upon, but also the satellite costs of operating the cluster.
 
 #### Management / Cluster Operational costs
 Costs charged by the cloud service provider for managing the cluster or costs incurred by running self managed container orchestrator nodes should be considered. Edge services like WAF, Load Balancers, etc also contribute to the overall cost of running a workload on a cluster.
@@ -208,7 +209,7 @@ Containers consume storage even if this is treated as ephemeral by the services 
 Licensing costs are always a fun topic, if you are running licensed operating systems for the host node. License costs may be included in the charge by your cloud service provider. However, if you operate these using bring your own license (BOYL), the license cost will need to be allocated from the external spend. Alongside the host operating system, consider any software packages running on the host OS that incurs a license fee. The workload itself running inside the container may also be using licensed software that may need to be allocated.
 
 #### Observability
-Often, metrics and logs are sent from the cluster to a service which your teams are able to visualise, monitor, and alert upon. This data is sent either to services operated by the cloud service provider or even 3rd party SaaS solutions like (Splunk Cloud, Sumo Logic, Datadog, SignalFx, etc). 
+Often, metrics and logs are sent from the cluster to a service which your teams are able to visualise, monitor, and alert upon. This data is sent either to services operated by the cloud service provider or even 3rd party SaaS solutions like (Splunk Cloud, Sumo Logic, Datadog, SignalFx, etc).
 
 #### Security
 The major cloud service providers now have very extensive security related services to assist in maintaining a secure cloud environment. Enabling these security features however does not often come for free, and these additional costs may need to be allocated to your teams.
@@ -219,9 +220,9 @@ Tempting as it may be to include every individual dollar from all of the above s
 Containerization costs are also broken up into two primary types: Static and Runtime costs.
 
 #### Static costs
-For static costs, you need to consider the creation of the solution within the container to ensure the quality of the solution to the project but also how it affects the CPU, Network and Storage when deployed. Static container costs can be further defined by stateless and stateful containers: Stateless examples of these include: 
+For static costs, you need to consider the creation of the solution within the container to ensure the quality of the solution to the project but also how it affects the CPU, Network and Storage when deployed. Static container costs can be further defined by stateless and stateful containers: Stateless examples of these include:
 
-* Web servers with static resources: Apache, Nginx, IIS, 
+* Web servers with static resources: Apache, Nginx, IIS,
 * Application servers, stateless applications: Tomcat, nodeJS, JBoss, Symphony, .NET
 * Microservices;  Spring Boot, Play, Quarkus
 * Tools: Maven, Gradle, scripts, tests
@@ -261,35 +262,35 @@ However, new boundaries are opening up that allow universal batch serverless loa
 
 Like the inform phase, the optimize phase in the container world is a direct adaptation of your original FinOps practices built for cloud platforms, but applied with the complexities of containers in mind.  
 
-One can argue that containerization solves the rightsizing problem. Having more workloads running on the same server instance appears more cost-effective. But as you’ve seen so far, it’s a complex task to measure which teams or projects generate these costs, or whether or not you’re getting savings from your clusters. 
+One can argue that containerization solves the rightsizing problem. Having more workloads running on the same server instance appears more cost-effective. But as you’ve seen so far, it’s a complex task to measure which teams or projects generate these costs, or whether or not you’re getting savings from your clusters.
 
-Let’s take a look at how your FinOps practices have to evolve in order to be successful. 
+Let’s take a look at how your FinOps practices have to evolve in order to be successful.
 
 Once you’ve successfully charged back your kubernetes costs, the next step is to look for ways to optimize your kubernetes environments to reduce costs. There are several steps FinOps practitioners can partner with DevOps teams on to ensure that kubernetes costs don’t accelerate out of control.
 
 ### Pod / Container Rightsizing
 Ensure that your containers are asking for an appropriate amount of resources. Since asking for too little means your application is not able to perform, often there is some buffer between the requests or limits configured for a container and what it really needs.
 
-When this buffer is larger than necessary is when there is opportunity for cost savings. The Vertical Pod Autoscaler (VPA) is an example of an open source project that will help you by automatically adjusting the requests and limits configuration based on how much a container is seen to use, thereby saving you resources and cost while reducing overhead. 
+When this buffer is larger than necessary is when there is opportunity for cost savings. The Vertical Pod Autoscaler (VPA) is an example of an open source project that will help you by automatically adjusting the requests and limits configuration based on how much a container is seen to use, thereby saving you resources and cost while reducing overhead.
 
 The Horizontal Pod Autoscaler (HPA) is meant to scale out and in rather than up and down for the workloads. Caution here is to make sure the VPA and HPA policies don’t interfere with each other.
 
-Binning and packing density settings are important and should be reviewed when designing clusters for purpose or business class tier of service where development or cost-focused clusters are meant to get as many containers per host. Meanwhile costs where production or performance clusters settings would be scoped for different needs and patterns. Having the ability to match the right quantity of pods and namespaces per instance family for your app is a good way to build a reference model that ensures proper capacity, availability, overhead, and economics. 
+Binning and packing density settings are important and should be reviewed when designing clusters for purpose or business class tier of service where development or cost-focused clusters are meant to get as many containers per host. Meanwhile costs where production or performance clusters settings would be scoped for different needs and patterns. Having the ability to match the right quantity of pods and namespaces per instance family for your app is a good way to build a reference model that ensures proper capacity, availability, overhead, and economics.
 
-Another thing to look out for is making sure Ingress controller settings for ensuring proper traffic shaping and load mgmt to containers are being leveraged. 
+Another thing to look out for is making sure Ingress controller settings for ensuring proper traffic shaping and load mgmt to containers are being leveraged.
 
 ### Node Rightsizing
 Next is the choice of worker node type for the cluster. This becomes a type of bin packing problem except with all the complexities of the various platform choices.
 
 Often simply making incremental improvements, for example when you notice that your nodes always have excess memory, it can make sense to switch to a node type that is the same but offers slightly less memory. In practice however this can be more complex. For example, if you have workloads that often consume more than they requested and distinguish the difference between those cases where it was needed and where it was only consumed because it was available but wasn’t critically needed.
 
-Consider using instance weightings scores while you are producing a whitelist of instance size/types that are a good fit to run. The instance weighting will be useful when you are relying on diversified allocation strategies in a spot market where pricing may be the same but will help ensure the right value for your code is going to be provisioned based on weight values. 
+Consider using instance weightings scores while you are producing a whitelist of instance size/types that are a good fit to run. The instance weighting will be useful when you are relying on diversified allocation strategies in a spot market where pricing may be the same but will help ensure the right value for your code is going to be provisioned based on weight values.
 
 ### Autoscaling Adjustments
 Something that makes Kubernetes especially powerful is the wealth of autoscaling options and the ability to respond dynamically to different conditions, such as increased or decreased demand. This can take some architecting and iterative adjustments to get right for your application, and there is room for waste along the way. However, the more tightly your horizontal pod autoscaling (when we need more / less pods) and cluster autoscaling (when do we need more / less nodes) are configured, the less waste and unnecessary cost to run your application.
 
 #### Discount types
-Most cloud environments offer discount options that can offer significant savings, so long as the terms work for you and your application. 
+Most cloud environments offer discount options that can offer significant savings, so long as the terms work for you and your application.
 
 #### Spot / Low Priority / Preemptible worker nodes
 These go by different names but typically provide a discount for workloads that may disappear on short notice. This allows cloud providers a way to incentivize filling all capacity pockets while being able to adjust for incoming workloads of priority that will pay on demand rates.
@@ -365,7 +366,7 @@ However, a large part of your FinOps practice will be locked into the feature se
 ### Empower and incentivize developers to track their Kubernetes utilization
 With a well tagged and labeled infrastructure, this should provide the foundation for  Dev and FinOps teammates to build their own custom reporting to track utilization data. Whether it’s assisted via API from native tools or cloud financial management tools, empowering teams to create and manage their own monitoring can help quite a bit.
 
-Most likely, your developers are already tracking key infrastructure metrics that help people monitor service uptime and performance in real-time. Augmenting these existing metrics with cost data can enable them to incorporate this information in their decision making process without major workflow changes. 
+Most likely, your developers are already tracking key infrastructure metrics that help people monitor service uptime and performance in real-time. Augmenting these existing metrics with cost data can enable them to incorporate this information in their decision making process without major workflow changes.
 
 >“Piping in cost as a first-class citizen alongside this data is an advanced FinOps move that lets engineers easily measure the impact of infrastructure and application-level changes. ” - Webb Brown, CEO Kubecost
 

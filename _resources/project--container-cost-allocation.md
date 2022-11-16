@@ -17,6 +17,7 @@ cloud-provider:
   - Multi-Cloud
 framework-capabilities:
 - capability_allocation
+- capability_showback
 - capability_onboarding-workloads
 weight: 10
 ---
