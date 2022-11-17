@@ -87,13 +87,15 @@ Ultimately, by quantifying the cost to produce or the cost to serve, **cloud eng
 
 Cloud Unit Economics also supports a broader set of metrics used to evaluate the profitability of products and customers. These include:
 
-* **Contribution margin** - the gross profit derived from selling one more unit of a product or service
+* **Contribution margin** - [Contribution margin](/resources/terminology/#unit-economics) is the gross profit derived from selling one more unit of a product or service
 * **customer lifetime value (LTV)** - the total worth to the business of a customer’s relationship
 * **customer acquisition cost (CAC)** - the cost of winning over a customer to use your product or service which ties into the customer lifetime value metric.  
 
 ## FinOps Capabilities and Terms to Review
-
-Cloud Unit Economics is a key way to communicate both the cost and the value of everything an organization is doing in the cloud. As such, it depends on key interactions across all other FinOps domains, and understanding their definitions is important. Review the following Capabilities:
+<div class="flow-root bg-green-500 rounded-lg px-6 border-solid border-gray-100 border">
+<p class="text-base text-white"><em>
+Cloud Unit Economics is a key way to communicate both the cost and the value of everything an organization is doing in the cloud. As such, it depends on key interactions across all other FinOps domains, and understanding their definitions is important. We recommend reviewing the following Capabilities before proceeding with the rest of the playbook.</em></p>
+</div>
 
   * **[Data Analysis](https://www.finops.org/framework/capabilities/analysis-showback/)** and **[Cost Allocation](https://www.finops.org/framework/capabilities/cost-allocation/)** are fundamental to effective unit cost measurement
   * **[Forecasting](https://www.finops.org/framework/capabilities/forecasting)** and **[Budget Management](https://www.finops.org/framework/capabilities/budget-management/)** have clear intersections in terms of budgeting not only for expected cost but for the cost of supporting a demand that also must be forecast
@@ -101,27 +103,15 @@ Cloud Unit Economics is a key way to communicate both the cost and the value of 
   * **[Optimization activities](https://www.finops.org/framework/capabilities/utilization-efficiency/)** should be aligned to reach or maintain unit metric target objectives
   * **[FinOps culture](https://www.finops.org/framework/capabilities/establish-finops-culture)** — the way we incentivize our engineers, the way we communicate cloud cost and quantify value — is best expressed in terms of unit metrics
 
-To get the most value and understanding from this playbook, review [relevant Unit Economics and general FinOps terms](/resources/terminology/#unit-economics) before proceeding.
-
-**Terms to review include:**
-  * Unit Economics
-  * Unit Cost
-  * Unit Metrics
-  * Activity Based Costing
-  * Cost to Produce
-  * Contribution Margin
-  * Cost to serve
-  * Direct cost
-  * Indirect cost
-  * Shared cost
-  * Demand driver
-  * Cost attribution vs. cost allocation
-
-Use the FinOps Terminology page to review these definitions and other relevant terms.
+To get the most value and understanding from this playbook, review [relevant Unit Economics and general FinOps terms](/resources/terminology/#unit-economics) before proceeding. Important terms will also be linked to definitions throughout the playbook.
 
 ## Why Cloud Unit Economics is important
+<div class="flow-root bg-green-500 rounded-lg px-6 border-solid border-gray-100 border">
+<p class="text-base text-white"><em>
+Measuring [Unit Economics for Cloud IT](/resources/terminology/#unit-economics) is as important as it is complex. The ability to understand current costs, and to predict what future costs will be and should be, is directly tied to an organization’s Unit Economics capabilities.</em></p>
+</div>
 
-Measuring Unit Economics for Cloud IT is as important as it is complex. The ability to understand current costs, and to predict what future costs will be and should be, is directly tied to an organization’s Unit Economics capabilities. More specifically, Unit Economics capabilities are critical to understanding:
+More specifically, Unit Economics capabilities are critical to understanding:
 
   * The connection between current business demand and cloud costs, at levels such as per customer, per feature, per product, etc.
   * How predicted changes in business demand will impact future cloud costs, based on maintaining status quo consumption, architecture, * provisioning patterns, etc.
@@ -134,7 +124,7 @@ One of the goals of this document is to help you learn how you might put Cloud U
 
 Consider using the following examples to kick start that journey and to give you a taste of what is possible:
 
-* A Financial RiskOps SaaS company might measure their cost per analyzed financial transaction, which is not only tied to the company's cost to serve but also to how they price and package their products.
+* A Financial RiskOps SaaS company might measure their cost per analyzed financial transaction, which is not only tied to the company's [cost to serve](/resources/terminology/#unit-economics), but also to how they price and package their products.
 * A Governmental organization launching an application to let residents request literature might measure the cost per user to understand better how the site usage affects their costs.
 * An Online Hotel Booking company might measure the cost of creating a reservation to learn how their costs change and forecast their costs during more popular travel times.
 * A Rideshare company might measure the cost per ride by the time of day to determine the most cost-effective times to transport customers.
@@ -146,7 +136,7 @@ Cloud Unit Economics is a universally useful system, but there’s no one-size-f
 Another way to look at cost to produce is managing and tracking costs of non-production costs. 
 
 * **Financial -** R&D costs and comparative costs by tech stack
-* **Technology/Engineering -** Unit rates per Cost to Produce (Is there fat in the cost in non-production), Future architecture * deployment cost options based on service whitelist, etc.
+* **Technology/Engineering -** Unit rates per [Cost to Produce](/resources/terminology/#unit-economics) (Is there fat in the cost in non-production), Future architecture * deployment cost options based on service whitelist, etc.
 * **Forecasting -** Future production cost
 
 And Cost to serve is once the promotion to production begins.
@@ -157,8 +147,10 @@ And Cost to serve is once the promotion to production begins.
 * **Forecasting -** Future growth and trending potential cost
 
 ## How Cloud Unit Economics Benefits FinOps?
-
-Cloud Unit Economics metrics provide a common language that enables Engineering, Finance and Business stakeholders to understand and discuss cloud spend in a meaningful way. They translate the esoteric language of the cloud bill into units of business value that resonate with stakeholder groups.
+<div class="flow-root bg-green-500 rounded-lg px-6 border-solid border-gray-100 border">
+<p class="text-base text-white"><em>
+Cloud Unit Economics metrics provide a common language that enables Engineering, Finance and Business stakeholders to understand and discuss cloud spend in a meaningful way. They translate the esoteric language of the cloud bill into units of business value that resonate with stakeholder groups.</em></p>
+</div>
 
 In so doing, they become the fuel that powers the inter-departmental collaboration required for FinOps to succeed. Conversations about absolute spend can move to focusing on the amount of business value achieved per unit of cloud spend:
 
@@ -196,8 +188,10 @@ Examples of Cloud Unit Economics by measurement categories include:
 | Cost per million in revenue                               |                                                   |                                                                                    |
 
 ## When to Start
-
-Unit Economics should be discussed at the very beginning of the FinOps Journey; it will provide a stronger link with several stakeholders, especially at the business level when the only information they receive is a big cloud bill (and potentially growing month on month).
+<div class="flow-root bg-green-500 rounded-lg px-6 border-solid border-gray-100 border">
+<p class="text-base text-white"><em>
+Unit Economics should be discussed at the very beginning of the FinOps Journey; it will provide a stronger link with several stakeholders, especially at the business level when the only information they receive is a big cloud bill (and potentially growing month on month).</em></p>
+</div>
 
 As the “How to Get Started” chapter explains, there are different stages during the adoption until it’s fully mature, nevertheless the discussions about defining the key metric(s) should begin as soon as the stakeholders are engaged. 
 
@@ -210,8 +204,10 @@ The metric(s) should not be static, and should evolve according to business obje
 Delaying this workstream has some additional downsizes, such as potential loss of revenue margin due to higher cloud-related costs, hide real cost of running a system in cloud, demotivation of the teams (e.g. business teams don’t understand the costs, engineers won’t be seeing a direct impact on cost reductions, finance teams will see an invoice getting bigger and bigger).
 
 ## How to Get Started
-
-Oftentimes, Unit Economics starts with sales and marketing to better understand cost per customer, cost of customer acquisition or cost of customer retention, using profit and loss numbers like revenue, COGS, or expenses as part of the Unit Economics calculations. Cloud Unit Economics uses cloud infrastructure unit cost as part of the value measurement calculation.
+<div class="flow-root bg-green-500 rounded-lg px-6 border-solid border-gray-100 border">
+<p class="text-base text-white"><em>
+Oftentimes, Unit Economics starts with sales and marketing to better understand cost per customer, cost of customer acquisition or cost of customer retention, using profit and loss numbers like revenue, COGS, or expenses as part of the Unit Economics calculations. Cloud Unit Economics uses cloud infrastructure [unit cost](/resources/terminology/#unit-economics) as part of the value measurement calculation.</em></p>
+</div>
 
 Building a sustainable Cloud Unit Economics practice starts with a strong unit cost model. Seek out people in your organization who are already thinking about or doing it at some level, even if not in the area of cloud spend. Enlist their support to build momentum for this important work. Courage is required; don’t be afraid of publishing a draft version of a model that has deficiencies. Sharing work early and widely is important to obtaining the feedback necessary to improve future iterations. 
 
@@ -221,7 +217,7 @@ Planning should start as early as possible to identify the metric or metrics nee
 
 **Key principles:**
 * There is most likely no single metric to rule them all
-* Unit metrics should be as close to the user’s workflow as possible
+* [Unit metrics](/resources/terminology/#unit-economics) should be as close to the user’s workflow as possible
 * Ideally, the metric should be defined by a FinOps expert together with the representatives of the end-user team (EM if this is an engineering team, Finance Manager for FP&A, etc.)
 * The metric set should be maintained centrally by FinOps team with the premise that it is dynamic by nature
   * All unit metrics should be actionable; if a unit metric is not actionable for a specific team, it should be changed
@@ -262,8 +258,10 @@ In other situations, engineering might play a more central role in your FinOps o
 Through all of this, the centralized function of FinOps should be apparent: the FinOps team should be responsible for maintaining the Cloud Unit Metrics repository and be capable of clearly articulating their business value. Without it, a company can end up with “one metric to rule them all” or a bunch of clashing metrics.
 
 ## Who Should Own Unit Economics in the Organization?
-
-Unit Economics typically will fall into several categories that follow FinOps personas. If you aren't familiar with FinOps personas involved with building and operating your practice, [catch up on the personas page](https://www.finops.org/framework/personas/).
+<div class="flow-root bg-green-500 rounded-lg px-6 border-solid border-gray-100 border">
+<p class="text-base text-white"><em>
+Unit Economics typically will fall into several categories that follow FinOps personas. If you aren't familiar with FinOps personas involved with building and operating your practice, [catch up on the personas page](https://www.finops.org/framework/personas/).</em></p>
+</div>
 
 |                 |                                                      **BUSINESS**                                                      |                                           **BUSINESS**                                          |                                                                **TECHNOLOGY**                                                               |                                    **FINANCE**                                   |                                              **FINOPS**                                              |
 |-----------------|:----------------------------------------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------:|
@@ -284,7 +282,7 @@ Collaborating with all of the necessary organizational stakeholders to first det
 
 ### Which financial inputs do we include?
 
-Defining and agreeing on the type of costs to report (e.g.: include or not discounts, negotiated rates, optimizations, shared costs, support, any other operational related cost)
+Defining and agreeing on the type of costs to report (e.g.: include or not discounts, negotiated rates, optimizations, [shared costs](/resources/terminology/#unit-economics), support, any other operational related cost)
 Once you’ve decided what to measure, it is imperative that you clearly delineate what financial inputs make up your unit costs.
 
 Is your organization receiving an enterprise discount? Do you have a private pricing agreement with one of your vendors? Are you receiving bulk discounts on licensing costs? Do you amortize upfront payments for commitments? Regardless of which stage your organization is at in the crawl-walk-run cycle, it is important to consider these types of questions when measuring and reporting your unit costs.
