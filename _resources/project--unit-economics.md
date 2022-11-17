@@ -108,13 +108,13 @@ To get the most value and understanding from this playbook, review [relevant Uni
 ## Why Cloud Unit Economics is important
 <div class="flow-root bg-green-500 rounded-lg px-6 border-solid border-gray-100 border">
 <p class="text-base text-white"><em>
-Measuring [Unit Economics for Cloud IT](/resources/terminology/#unit-economics) is as important as it is complex. The ability to understand current costs, and to predict what future costs will be and should be, is directly tied to an organization’s Unit Economics capabilities.</em></p>
+Measuring <a href='/resources/terminology/#unit-economics'>Unit Economics for Cloud IT</a> is as important as it is complex. The ability to understand current costs, and to predict what future costs will be and should be, is directly tied to an organization’s Unit Economics capabilities.</em></p>
 </div>
 
 More specifically, Unit Economics capabilities are critical to understanding:
 
   * The connection between current business demand and cloud costs, at levels such as per customer, per feature, per product, etc.
-  * How predicted changes in business demand will impact future cloud costs, based on maintaining status quo consumption, architecture, * provisioning patterns, etc.
+  * How predicted changes in business demand will impact future cloud costs, based on maintaining status quo consumption, architecture, provisioning patterns, etc.
   * What your future cloud costs should be – if wasted spend is minimized by optimization, improved end-user consumption, and more efficient architectural patterns.
 
 Complexity stems from many sources, including variable cost models, shared resources, on-demand provisioning, and disparate/siloed data sets. But organizations that effectively address this complex problem space will be rewarded with insights that will empower them to maximize the business advantage they obtain in the cloud.
@@ -206,7 +206,7 @@ Delaying this workstream has some additional downsizes, such as potential loss o
 ## How to Get Started
 <div class="flow-root bg-green-500 rounded-lg px-6 border-solid border-gray-100 border">
 <p class="text-base text-white"><em>
-Oftentimes, Unit Economics starts with sales and marketing to better understand cost per customer, cost of customer acquisition or cost of customer retention, using profit and loss numbers like revenue, COGS, or expenses as part of the Unit Economics calculations. Cloud Unit Economics uses cloud infrastructure [unit cost](/resources/terminology/#unit-economics) as part of the value measurement calculation.</em></p>
+Oftentimes, Unit Economics starts with sales and marketing to better understand cost per customer, cost of customer acquisition or cost of customer retention, using profit and loss numbers like revenue, COGS, or expenses as part of the Unit Economics calculations. Cloud Unit Economics uses cloud infrastructure <a href='/resources/terminology/#unit-economics'>unit cost</a> as part of the value measurement calculation.</em></p>
 </div>
 
 Building a sustainable Cloud Unit Economics practice starts with a strong unit cost model. Seek out people in your organization who are already thinking about or doing it at some level, even if not in the area of cloud spend. Enlist their support to build momentum for this important work. Courage is required; don’t be afraid of publishing a draft version of a model that has deficiencies. Sharing work early and widely is important to obtaining the feedback necessary to improve future iterations. 
@@ -260,7 +260,7 @@ Through all of this, the centralized function of FinOps should be apparent: the 
 ## Who Should Own Unit Economics in the Organization?
 <div class="flow-root bg-green-500 rounded-lg px-6 border-solid border-gray-100 border">
 <p class="text-base text-white"><em>
-Unit Economics typically will fall into several categories that follow FinOps personas. If you aren't familiar with FinOps personas involved with building and operating your practice, [catch up on the personas page](https://www.finops.org/framework/personas/).</em></p>
+Unit Economics typically will fall into several categories that follow FinOps personas. If you aren't familiar with FinOps personas involved with building and operating your practice, <a href='https://www.finops.org/framework/personas/'>catch up on the personas page</a>.</em></p>
 </div>
 
 |                 |                                                      **BUSINESS**                                                      |                                           **BUSINESS**                                          |                                                                **TECHNOLOGY**                                                               |                                    **FINANCE**                                   |                                              **FINOPS**                                              |
@@ -297,7 +297,7 @@ The law of diminishing returns for investing in new metrics can happen quickly. 
 
 Our WG hopes that by the time you read this, you have a better understanding of Cloud Unit Economics. It’s the start of a longer journey toward the practical application of unit economics best practices and building a methodology to quantify the associated cost and usage metrics of elasticity. 
 
-There’s still much more to improve throughout this document as we socialize it with the rest of the community. Get in touch on our Slack channel to:
+There’s still much more to improve throughout this document as we socialize it with the rest of the community. Get in touch on [our Slack channel](https://finopsfoundation.slack.com/archives/C03P6FLHW3G) to:
   * Provide feedback on improving this playbook
   * Share content ideas that help us better define and explain unit economics
   * Recommend a working example of unit economics for us to work into this playbook
