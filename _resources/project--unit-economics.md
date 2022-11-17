@@ -23,7 +23,7 @@ weight: 10
 # Introduction to Cloud Unit Economics
 
 ## Abstract
-Our Working Group would like to introduce our practical guide about cloud unit economics. Our mission with this project is to create common ground, identify standards, and build a better understanding of what cloud unit economics are and how they can be leveraged by your organizations as part of a greater FinOps strategy.
+Our Working Group introduces this practical guide about cloud unit economics. Our mission with this project is to create common ground, identify standards, and build a better understanding of what cloud unit economics are and how they can be leveraged by your organizations as part of a greater FinOps strategy.
 
 ## Contents
 * [Executive Summary](#executive-summary)
