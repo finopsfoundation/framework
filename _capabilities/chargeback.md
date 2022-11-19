@@ -88,7 +88,8 @@ Measures of success are represented in the context of cloud costs and may includ
 
 _at least one measure of success; should be described in a context of cost; this could be an efficiency KPI or an agreed upon threshold or target._
 _for example:_
->* idle resource costs will not exceed 3% of total monthly cloud spend
+
+* idle resource costs will not exceed 3% of total monthly cloud spend
 * anomaly costs will not exceed $150/month
 
 
