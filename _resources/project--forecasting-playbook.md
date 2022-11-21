@@ -16,7 +16,7 @@ label:
 cloud-provider:
   - Multi-Cloud
 framework-capabilities:
-- capability_forecasting
+  - capability_forecasting
 weight: 10
 ---
 

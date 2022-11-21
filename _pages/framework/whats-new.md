@@ -225,7 +225,7 @@ Welcome! Below are highlights about what's new with the FinOps Framework.  The F
 &nbsp;
 - **Managing Commitment Based Discounts** (Capability; Update)
 
-   an updated definition has been added to this Framework Capability. [see this Capability's])https://www.finops.org/framework/capabilities/manage-commitment-based-discounts/ definition section for more details.
+   an updated definition has been added to this Framework Capability. [see this Capability's](https://www.finops.org/framework/capabilities/manage-commitment-based-discounts/) definition section for more details.
 
 
 &nbsp;

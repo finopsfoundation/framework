@@ -164,13 +164,17 @@ ul.plain-list > li::before, ul[role=menu] > li::before {
 /*SoF*/
 
 .sof-banner {
-  background: url(../img/temp/landing-page-banner.png) no-repeat;
-  background-position: center;
-  background-size: cover;
+  background: #007eab;
 }
 
 .x-banner {
-  background: url(../img/temp/landing-page-banner-x2.png?2) no-repeat;
+  /*background: url(../img/temp/landing-page-banner-x2.png?2) no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: cover;*/
+  background: rgb(244,186,22);
+  background: linear-gradient(90deg, rgba(244,186,22,1) 0%, rgba(255,118,0,1) 50%, rgba(192,8,8,1) 100%);
+  /*background: rgb(131,58,180);
+  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);*/
+  /*background: rgb(131,58,180);
+  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(192,8,8,1) 50%, rgba(252,176,69,1) 100%);*/
 }
