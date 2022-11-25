@@ -3,13 +3,13 @@
 layout: member
 
 # Vendor details
-name: Cloudhealth by VMware 
+name: VMware Aria Cost powered by CloudHealth
 logo-url: "/tools-services/logos/cloudhealth.png"
 linkedin-url: "https://www.linkedin.com/company/cloudhealthtech"
-website-url: "https://www.cloudhealthtech.com/"
+website-url: "https://cloudhealth.vmware.com/"
 
 # Maximum character count is 350 the rest will be truncated and hidden automatically on your page
-company-description: VMware is a leading provider of multi-cloud services for all apps, enabling digital innovation with enterprise control. As the trusted foundation to accelerate innovation, VMware software gives businesses the flexibility and choice they need to build the future. VMware acquired CloudHealth Technologies in October of 2018.
+company-description: VMware is a leading provider of multi-cloud services for all apps, enabling digital innovation with enterprise control. As the trusted foundation to accelerate innovation, VMware software gives businesses the flexibility and choice they need to build the future. VMware acquired CloudHealth Technologies in October of 2018. At VMware Explore US in August 2022, it was announced that CloudHealth will now be named VMware Aria Cost powered by CloudHealth.
 
 # Membership level, type and vendor certifications 
 member-level: premier
@@ -22,7 +22,7 @@ certified-status:
 - FinOps Certified Platform
 
 # Product(s) or service overview maximum character count is 1000 the rest will be truncated and hidden automatically on your page 
-product-overview: CloudHealth has helped FinOps practitioners from more than 20,000 organizations around the world build, manage, and optimize their cloud financial management practice. By connecting and aggregating data across on-premises, public, and hybrid clouds, as well as containerized environments, CloudHealth becomes your single source of truth for multi-cloud management. CloudHealth improves cross-organizational collaboration by providing the ability to customize reports and dashboards via dynamic business groupings known as Perspectives. Practitioners can drive accountability with chargeback and showback, track cloud consumption patterns over time to accurately forecast future budgets, leverage tailored recommendations to optimize costs, and implement governance policies to automate cost control measures. With CloudHealth, FinOps practitioners can continuously align and optimize their cloud investments to drive strategic business initiatives.
+product-overview: VMware Aria Cost powered by CloudHealth (formerly CloudHealth) has helped FinOps practitioners from more than 20,000 organizations around the world build, manage, and optimize their cloud financial management practice. By connecting and aggregating data across on-premises, public, and hybrid clouds, as well as containerized environments, VMware Aria Cost powered by CloudHealth becomes your single source of truth for multi-cloud management. The platform improves cross-organizational collaboration by providing the ability to customize reports and dashboards via dynamic business groupings known as Perspectives. Practitioners can drive accountability with chargeback and showback, track cloud consumption patterns over time to accurately forecast future budgets, leverage tailored recommendations to optimize costs, and implement governance policies to automate cost control measures. With VMware Aria Cost powered by CloudHealth, FinOps practitioners can continuously align and optimize their cloud investments to drive strategic business initiatives.
 
 product-video-url: "https://player.vimeo.com/video/567152327"
 
@@ -71,6 +71,8 @@ recent-finops-activity:
   url: https://go.cloudhealthtech.com/wbn-finops-accelerating-cloud-cost-optimization.html?utm_medium=referral&utm_source=finops-foundation&utm_campaign=finops-foundation-member-listing
 - title: "[Whitepaper] FinOps for Kubernetes: Unpacking Container Cost Allocation and Optimization"
   url: https://go.cloudhealthtech.com/wp-finops-for-kubernetes.html?utm_medium=referral&utm_source=finops-foundation&utm_campaign=finops-foundation-member-listing
+- title: '[Webinar] Optimize Costs with Multi-Cloud FinOps Platforms'
+  url: https://www.vmware.com/learn/1530206_REG.html?int_cid=7012H000001lKSa
 
 # Detail related/dedicated slack channels in the FinOps Foundation Slack 
 slack-channels:
@@ -78,11 +80,14 @@ slack-channels:
   url:
 
 # The total number of FinOps Certified Practitioners at the vendor
-number-of-focp: 107
+number-of-focp: 120
 
 # List the key contribution areas in the FinOps Foundation, examples listed
 contribution-areas:
 - Member of Governing Board and Member of Technical Advisory Council (TAC)
 - Containers special interest group (SIG)
+- Member of Code of Conduct Committee
+- Open Billing Standard Working Group
+- Unit Economics Working Group
 
 ---
