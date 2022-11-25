@@ -29,6 +29,8 @@ This capability also involves collaboration between stakeholder teams like Finan
 
 Accurate financial forecasting depends on an organization's other [FinOps Capabilities](https://www.finops.org/framework/capabilities/) also being robust in order to provide accurate data as input.  For example, a foundational element of this capability is the ability to fully categorize and allocate cloud costs.
 
+There is a potential gap between engineers, finance, and procurement where finance has financial reporting responsibilities, and procurement has accounting responsibilities, and both need assistance from engineers and leadership to meet these obligations.
+
 When Finance, Engineering, and Executives build models to forecast cloud spend
 reliably and accurately, cloud cost forecasting will inform investment and operational decisions to accelerate an organization's growth.
 
