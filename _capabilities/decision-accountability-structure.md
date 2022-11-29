@@ -6,11 +6,11 @@ search: true
 search-keywords: RACI matrix real-time stakeholder stakeholders accountable responsible consulted informed alignment organization
 
 title: Establishing a FinOps Decision & Accountability Structure
-description: This capability is intended to capture an organization's FinOps-related roles, responsibilities and activities to bridge operational cloud cost management gaps between teams.  It oulines the people, processes and decision trees needed to tackle unexpected challenges, in addition to having them be proactively available when an organization  needs to take action ahead of time.
+description: This capability is intended to capture an organization's FinOps-related roles, responsibilities and activities to bridge operational cloud cost management gaps between teams. It oulines the people, processes, and decision trees needed to tackle unexpected challenges, in addition to having them be proactively available when an organization needs to take action ahead of time.
 
 page-identifier: capability_decision-accountability-structure
 framework-capability-title: Establishing a FinOps Decision & Accountability Structure
-framework-capability-desc: This capability is intended to capture an organization's FinOps-related roles, responsibilities and activities to bridge operational cloud cost management gaps between teams.  It oulines the people, processes and decision trees needed to tackle unexpected challenges, in addition to having them be proactively available when an organization  needs to take action ahead of time.
+framework-capability-desc: Learn how to define an organization's FinOps-related roles, responsibilities, and activities to bridge operational cloud cost management gaps between teams. It oulines the people, processes and decision trees needed to tackle unexpected challenges, in addition to having them be proactively available when an organization needs to take action ahead of time.
 label:
 order: 17
 

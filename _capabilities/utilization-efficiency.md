@@ -6,10 +6,10 @@ search: true
 search-keywords: sustainability optimization optimisation optimise optimize rightsizing rightsize usage waste underutilized underutilization modernisation modernization savings reports reporting dashboards analysis showback spot serverless sustainable
 
 title: Resource Utilization & Efficiency
-description: In context to FinOps, resource utilization is about making sure you are getting sufficient business value for the cost. It is necessary to observe a resource's utilization over time to understand if the performance, availability or other quality metrics are of value for the expense incurred.
+description: Optimizing resource utilization and efficiency is about making sure you are getting sufficient business value for every cloud cost. Practitioners can do this by creating the means of collecting and viewing cost and usage over time, and by building both manual and automated policies to help teams optimize how they use cloud services across the infrastructure.
 page-identifier: capability_rightsizing
 framework-capability-title: Resource Utilization & Efficiency
-framework-capability-desc: In context to FinOps, resource utilization is about making sure you are getting sufficient business value for the cost. It is necessary to observe a resource's utilization over time to understand if the performance, availability or other quality metrics are of value for the expense incurred.
+framework-capability-desc: Optimizing resource utilization and efficiency is about making sure you are getting sufficient business value for every cloud cost. Practitioners can do this by creating the means of collecting and viewing cost and usage over time, and by building both manual and automated policies to help teams optimize how they use cloud services across the infrastructure.
 label:
 order: 9
 

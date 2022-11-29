@@ -6,10 +6,10 @@ search: true
 search-keywords: migration greenfield brownfield lift shift architect architecting datacenter modernization modernisation model modeling business cases serverless spot
 
 title: Onboarding Workloads
-description: This capability is about establishing a cloud front door process to onboard brownfield and greenfield applications through financial viability and technical feasibility assessment criteria.
+description: This capability is about establishing a cloud "front door" process to onboard brownfield and greenfield applications through financial viability and technical feasibility assessment criteria, all while setting up FinOps best practices from the start.
 page-identifier: capability_onboarding-workloads
 framework-capability-title: Onboarding Workloads
-framework-capability-desc: This capability is about establishing a cloud front door process to onboard brownfield and greenfield applications through financial viability and technical feasibility assessment criteria.
+framework-capability-desc: This capability is about establishing a cloud "front door" process to onboard brownfield and greenfield applications through financial viability and technical feasibility assessment criteria, all while setting up FinOps best practices from the start.
 label:
 order: 13
 
