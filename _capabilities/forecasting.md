@@ -9,7 +9,7 @@ title: Forecasting | FinOps Framework Capability
 description: Understand forecasting cloud costs - how future cloud infrastructure and application lifecycle changes may impact current budgets and influence budget planning and future cloud investment decisions.
 page-identifier: capability_forecasting
 framework-capability-title: Forecasting
-framework-capability-desc: This FinOps Capability represents the practice of understanding how future cloud infrastructure and application lifecycle changes may impact current budgets...
+framework-capability-desc: Understand forecasting cloud costs - how future cloud infrastructure and application lifecycle changes may impact current budgets and influence budget planning and future cloud investment decisions.
 label:
 order: 5
 
@@ -27,19 +27,19 @@ Forecasting is the practice of predicting future spending, usually based on a co
 
 This capability also involves collaboration between stakeholder teams like Finance, Engineering, and Executives to build agreed upon forecast models and KPIs from which to establish budgets that align with business goals.
 
-Unfortunately there is no one forecasting method that fits all situations.
+Unfortunately, there is no one forecasting method that fits all situations.
 
 Cloud spend is variable which is inherently difficult to predict. Specifically engineers can start workloads at any time typically without having to go through a procurement process.
 
-Accurate financial forecasting depends on an organization's other [FinOps Capabilities](https://www.finops.org/framework/capabilities/) also being robust in order to provide accurate data as input.  For example, a foundational element of this capability is the ability to fully categorize and allocate cloud costs.
+Accurate financial forecasting depends on an organization's other [FinOps Capabilities](https://www.finops.org/framework/capabilities/) also being robust in order to provide accurate data as input. For example, a foundational element of this capability is the ability to fully categorize and allocate cloud costs.
 
 There is a potential gap between engineers, finance, and procurement where finance has financial reporting responsibilities, and procurement has accounting responsibilities, and both need assistance from engineers and leadership to meet these obligations. When Finance, Engineering, and Executives build models to forecast cloud spend reliably and accurately, cloud cost forecasting will inform investment and operational decisions to accelerate an organization's growth.
 
-![Forecasting](https://www.finops.org/img/forecasting/WhyForecasts.png)
+<img src='https://www.finops.org/img/forecasting/WhyForecasts.png' width='600px' style='margin: auto;' alt='A diagram that shows relevant components of building cloud cost forecasts'>
 
 You should understand the basics of how cloud works, specifically you should know the key services around compute and storage for the cloud providers your organization is using and their billing and pricing models. You will also need to understand financial processes around forecasting, budgeting, procurement, and allocations.
 
-Depending on the cloud providers your organization is using, you can gain some of this knowledge through training and certifications. Specifically for AWS we recommend the [AWS Cloud Practitioner](https://aws.amazon.com/certification/certified-cloud-practitioner/) certification, for Google the [Google Cloud Platform Fundamentals](https://www.cloudskillsboost.google/course_templates/60) course, and for Azure, the [Azure Fundamentals](https://learn.microsoft.com/en-us/certifications/azure-fundamentals/) learning path.
+Depending on the cloud providers your organization is using, you can gain some of this knowledge through training and certifications. Specifically for AWS, we recommend the [AWS Cloud Practitioner](https://aws.amazon.com/certification/certified-cloud-practitioner/) certification, for Google the [Google Cloud Platform Fundamentals](https://www.cloudskillsboost.google/course_templates/60) course, and for Azure, the [Azure Fundamentals](https://learn.microsoft.com/en-us/certifications/azure-fundamentals/) learning path.
 ## Forecasting Methodologies
 
 | Methodology | Description |
@@ -77,9 +77,6 @@ Depending on the cloud providers your organization is using, you can gain some o
 * granular forecasting visibility (by business unit, cost center, team, product, service, etc ...) in the context of organizational KPIs
 * stakeholder teams (Executives, Engineering, Finance) have real-time visibility into a single source of truth for how cloud usage is impacting forecast trends and budgets
 * integration and automated data flow between cloud cost forecast data and back-end accounting systems used for broader organizational reporting
-
-
-
 
 ## Functional Activity
 #### As someone in a Business/Product role, I will…
