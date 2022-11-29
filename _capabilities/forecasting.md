@@ -27,12 +27,28 @@ Forecasting is the practice of predicting future spending, usually based on a co
 
 This capability also involves collaboration between stakeholder teams like Finance, Engineering, and Executives to build agreed upon forecast models and KPIs from which to establish budgets that align with business goals.
 
-Accurate financial forecasting depends on an organization's other [FinOps Capabilities](https://www.finops.org/framework/capabilities/) also being robust in order to provide accurate data as input.  For example, a foundational element of this capability is the ability to fully categorize and allocate cloud costs.
+Unfortunately, there is no one forecasting method that fits all situations.
 
-When Finance, Engineering, and Executives build models to forecast cloud spend
-reliably and accurately, cloud cost forecasting will inform investment and operational decisions to accelerate an organization's growth.
+Cloud spend is variable which is inherently difficult to predict. Specifically engineers can start workloads at any time typically without having to go through a procurement process.
 
+Accurate financial forecasting depends on an organization's other [FinOps Capabilities](https://www.finops.org/framework/capabilities/) also being robust in order to provide accurate data as input. For example, a foundational element of this capability is the ability to fully categorize and allocate cloud costs.
 
+There is a potential gap between engineers, finance, and procurement where finance has financial reporting responsibilities, and procurement has accounting responsibilities, and both need assistance from engineers and leadership to meet these obligations. When Finance, Engineering, and Executives build models to forecast cloud spend reliably and accurately, cloud cost forecasting will inform investment and operational decisions to accelerate an organization's growth.
+
+<img src='https://www.finops.org/img/forecasting/WhyForecasts.png' width='600px' style='margin: auto;' alt='A diagram that shows relevant components of building cloud cost forecasts'>
+
+You should understand the basics of how cloud works, specifically you should know the key services around compute and storage for the cloud providers your organization is using and their billing and pricing models. You will also need to understand financial processes around forecasting, budgeting, procurement, and allocations.
+
+Depending on the cloud providers your organization is using, you can gain some of this knowledge through training and certifications. Specifically for AWS, we recommend the [AWS Cloud Practitioner](https://aws.amazon.com/certification/certified-cloud-practitioner/) certification, for Google the [Google Cloud Platform Fundamentals](https://www.cloudskillsboost.google/course_templates/60) course, and for Azure, the [Azure Fundamentals](https://learn.microsoft.com/en-us/certifications/azure-fundamentals/) learning path.
+## Forecasting Methodologies
+
+| Methodology | Description |
+| ----------- | ----------- |
+| Trend-Based | Uses historic trends to forecast future spend. Ideally this takes seasonality into consideration. Seasonality can include annual peaks during holidays but also daily peaks when more people are using a service during specific hours of the day. Trend based forecasting will not be able to capture out-of-band events such as launching a new product or feature, launching in a new country, or the effect of TV commercials on consumer behavior. |
+| Driver-Based | Uses Key Performance Indicators (KPIs) to forecast the effect on business results. KPIs can be things like active accounts, widgets sold, ad impressions and so forth. The business will forecast the KPIs factoring in organic growth, like more people on the Internet, and inorganic growth, like new launches and marketing efforts. Cloud workloads that scale based on a specific business KPI are forecasted by applying the KPI growth on actual spend. Driver based forecasting will not be able to forecast workloads that don’t exist in the cloud yet but are planned to be launched in the future. |
+| Rolling Forecast | To predict next month, quarter, and year. It allows companies to adjust their plans based on any shifts in the business such as economic changes, COVID as an example. As the economy changed a rolling forecast would be adjusted to forecast that change and allow the company to alter their plans with the new data. |
+| Static Forecast | Predict for the fiscal year only with no adjustments. |
+| Special Projects | Are planned cloud workloads that currently do not yet exist in the cloud. Their cost needs to be estimated by engineers and layered into trend or driver based forecasting to get a complete picture of future cloud spend. Special projects can also be costs that will not materialize on the cloud bill like licensing fees, professional services, or small workloads running on other cloud providers where automation isn’t feasible. |
 
 ## Maturity Assessment
 #### Crawl
@@ -61,9 +77,6 @@ reliably and accurately, cloud cost forecasting will inform investment and opera
 * granular forecasting visibility (by business unit, cost center, team, product, service, etc ...) in the context of organizational KPIs
 * stakeholder teams (Executives, Engineering, Finance) have real-time visibility into a single source of truth for how cloud usage is impacting forecast trends and budgets
 * integration and automated data flow between cloud cost forecast data and back-end accounting systems used for broader organizational reporting
-
-
-
 
 ## Functional Activity
 #### As someone in a Business/Product role, I will…
