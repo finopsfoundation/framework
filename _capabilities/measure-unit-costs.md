@@ -6,10 +6,10 @@ search: true
 search-keywords: unit economics gamefication business value benchmark benchmarks scorecard scorecards KPI KPIs OKR OKRs nirvana
 
 title: Measuring Unit Costs
-description: Unit economic metrics enable you to determine the revenue you’ll gain from a single unit of your business and the cost associated with servicing it, ultimately revealing the business value of your cloud spend.
+description: Cloud unit economic metrics enable you to determine the revenue you’ll gain from a single unit of your business and the cost associated with servicing it, revealing the business value of your cloud spend.
 page-identifier: capability_unit-costs
 framework-capability-title: Measuring Unit Costs
-framework-capability-desc: Unit economic metrics enable you to determine the revenue you’ll gain from a single unit of your business and the cost associated with servicing it, ultimately revealing the business value of your cloud spend.
+framework-capability-desc: Cloud unit economic metrics enable you to determine the revenue you’ll gain from a single unit of your business and the cost associated with servicing it, revealing the business value of your cloud spend.
 label:
 order: 10
 

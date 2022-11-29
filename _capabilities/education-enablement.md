@@ -6,10 +6,10 @@ search: true
 search-keywords: training adopting adoption culture assessment buy-in
 
 title: FinOps Education & Enablement
-description: FinOps Education & Enablement allows all those participating in FinOps practices to increase the business value of cloud by accelerating FinOps adoption.
+description: FinOps Education & Enablement allows all those participating in FinOps practices to increase the business value of cloud by accelerating FinOps adoption and training.
 page-identifier: capability_education-enablement
 framework-capability-title: FinOps Education & Enablement
-framework-capability-desc: FinOps Education & Enablement allows all those participating in FinOps practices to increase the business value of cloud by accelerating FinOps adoption.
+framework-capability-desc: FinOps Education & Enablement allows all those participating in FinOps practices to increase the business value of cloud by accelerating FinOps adoption and training.
 label:
 order: 18
 
