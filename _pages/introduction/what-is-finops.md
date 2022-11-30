@@ -23,7 +23,7 @@ _(Definition Updated: November 2021 by the FinOps Foundation [Technical Advisory
 
 At its core, FinOps is a cultural practice. It’s the way for teams to manage their cloud costs, where everyone takes ownership of their cloud usage supported by a central best-practices group. Cross-functional teams in Engineering, Finance, Product, etc work together to enable faster product delivery, while at the same time gaining more financial control and predictability.
 
-> FinOps is a portmanteau of “Finance” and “DevOps” stressing the communications and collaboration business and engineering teams.
+> FinOps is a portmanteau of “Finance” and “DevOps”, stressing the communications and collaboration between business and engineering teams.
 
 Other names for the practice include “Cloud Financial Management”, “Cloud Financial Engineering” “Cloud Cost Management”, “Cloud Optimization”, or “Cloud Financial Optimization”. 
 

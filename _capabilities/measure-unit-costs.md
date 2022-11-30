@@ -23,7 +23,9 @@ order: 10
 
 
 ## Definition
-When practitioners address measuring unit costs, it's often in the context of Cloud Unit Economics. Our practitioners define Cloud Unit Economics as a system of profit maximization based on objective measurements of how well your organization is performing against not only its FinOps goals, but as a business overall. Cloud Unit Economics achieves these goals by leveraging the measurement of marginal cost (a.k.a., unit cost metrics) specific to the development and delivery of cloud-based software and marginal revenue (a.k.a., unit revenue metrics).
+This Capability is about developing metrics that reveal the business value of your cloud spend. By calculating cloud spend for total revenue, you can attach growth in cloud spending to your overall business growth. When these are in line, it makes sense that cloud spend isn’t wasted. When cloud spend is growing faster than the business, there may be cause for concern. For a customer-facing application, that unit might be a user or customer subscription; for an ecommerce platform, it might be a transaction; and for an airline, it might be a seat.
+
+When practitioners address measuring unit costs, it's often in the context of **Cloud Unit Economics**. Our practitioners define Cloud Unit Economics as a system of profit maximization based on objective measurements of how well your organization is performing against not only its FinOps goals, but as a business overall. Cloud Unit Economics achieves these goals by leveraging the measurement of marginal cost (a.k.a., unit cost metrics) specific to the development and delivery of cloud-based software and marginal revenue (a.k.a., unit revenue metrics).
 
 By calculating the difference between marginal cost and marginal revenue, practitioners can determine where cloud operations break even and begin to generate a profit. This is an important concept in economics overall and it's one of the most effective ways to make data-driven business decisions regarding your cloud investment. For further details on defining, implementing, and building upon Cloud Unit Economics with your FinOps teams, please check out our [playbook on implementing the Capability](/projects/introduction-cloud-unit-economics/).
 
@@ -40,13 +42,12 @@ Cloud Unit Economics can be implemented in many different ways, depending on the
 ### Run
 - **Cloud + SaaS + Hybrid Costs + Human Capital-based Cost-per-customer:** Advanced teams bring in costs like labor or even on-premise costs that support a particular product or service. The run phase is typically when a firm starts collecting more than one metric for various parts of a complex system getting more granular over time.
 
+## Functional Activity
+
 ### Do what’s right for your organization
 In some cases, engineering might play a more central role in your FinOps organization, and you can leverage engineering time to produce the necessary metrics to determine measurements like Cost-per-customer. Regardless of the resources you have at your disposal, start small and focus on clear metrics that will be tangible to all stakeholders.
 
 Through all of this, the centralized function of FinOps should be apparent: the FinOps team should be responsible for maintaining the Cloud Unit Metrics repository and be capable of clearly articulating their business value. Without it, a company can end up with “one metric to rule them all” or a bunch of clashing metrics.
-
-
-## Functional Activity
 
 The following table maps functional input and output activities related to cloud unit economics by persona:
 
@@ -54,24 +55,9 @@ The following table maps functional input and output activities related to cloud
 |-----------------|:----------------------------------------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------:|
 |                 |                                                       <img src="/img/framework/persona-executive.svg">Executives|<img src="/img/framework/persona-product.svg" width="131">Product Owner|<img src="/img/framework/persona-engineer.svg" style="width:75%">Engineering and Operations|<img src="/img/framework/persona-finance.svg" style="width:75%">Finance/Procurement| <img src="/img/framework/persona-finops.svg">FinOps                                                |
 |  **INPUT**  | A CTO/ CIO / CFO should own the initiative of Unit Economics and determine scope as it relates to coverage of Products | VP of Product / Product Owners should collaborate with Finance to determine key product metrics | VP Engineer collaborate with Product Owners define input requirements for metrics to best determine how to collect metric data from systems | Finance should collaborates with Product Owners to determine key product metrics | FinOps should be aware of executive scope and identify gaps in cost allocation alignment to strategy |
-| **OUTPUT** |                             Actioning on business decisions as a result of cost metric data                            |            Define frequency of reviewing unit cost and determine benchmark thresholds           |                                  Support solutioning automation and identify blockers to outputting metrics                                 |          Actioning on business decisions as a result of cost metric data         |                              Integrate cost allocation with cost metrics                             |
+| **OUTPUT** |                             Actioning on business decisions as a result of cost metric data, define frequency of reviewing unit cost and determine benchmark thresholds           |                                  Support solutioning automation and identify blockers to outputting metrics, define frequency of reviewing unit cost and determine benchmark thresholds                                 |          Actioning on business decisions as a result of cost metric data         |                              Integrate cost allocation with cost metrics, determine if spend is increasing due to waste or due to growth in the business and determine if cost variances are ‘good’ or ‘bad’                             | Use data and analysis to determine if spend is increasing due to waste or due to growth in the business and determine if cost variances are ‘good’ or ‘bad’
 
 **NOTE:** This table is best viewed on a wide viewport, like a desktop or tablet.
-
-### Additional persona activities
-
-#### As someone in a Business/Product role, I will…
-- Make decisions using unit cost about what changes I can make to my application through the lens of the business value it brings
-
-#### As someone in a Finance/FinOps role, I will…
-- Be able to determine if spend is increasing due to waste or due to growth in the business and determine if cost variances are ‘good’ or ‘bad’
-
-#### As someone in an Engineering/Operations role, I will...
-- Separate increases in usage/waste from increases in rate so that I can determine the best architecture changes to make, and potentially even move to a more expensive service when associated revenue increases
-
-#### As someone in an Executive role, I will…
-- Move past trying to determine how efficient my teams are being and instead focus on increases the bottom line and understand how cloud decisions affect my margins and ultimately profitability
-
 
 ## Measure(s) of Success & KPI
 Cloud Unit Econmics measures of success will differ company to company.
