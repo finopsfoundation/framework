@@ -23,56 +23,61 @@ order: 10
 
 
 ## Definition
-A common definition for unit economics is direct revenues and costs, associated with a particular business model, that are specifically expressed on a per-unit basis. Metrics enable you to determine the revenue you’ll gain from a single unit of your business and the cost associated with servicing it, ultimately revealing the business value of spend. For a customer-facing application, that unit might be a user or customer subscription; for an ecommerce platform, it might be a transaction; and for an airline, it might be a seat.
+This Capability is about developing metrics that reveal the business value of your cloud spend. By calculating cloud spend for total revenue, you can attach growth in cloud spending to your overall business growth. When these are in line, it makes sense that cloud spend isn’t wasted. When cloud spend is growing faster than the business, there may be cause for concern. For a customer-facing application, that unit might be a user or customer subscription; for an ecommerce platform, it might be a transaction; and for an airline, it might be a seat.
 
-By calculating cloud spend for total revenue, you can attach growth in cloud spending to your overall business growth. When these are in line, it makes sense that cloud spend isn’t wasted. When cloud spend is growing faster than the business, there may be cause for concern.
+When practitioners address measuring unit costs, it's often in the context of **Cloud Unit Economics**. Our practitioners define Cloud Unit Economics as a system of profit maximization based on objective measurements of how well your organization is performing against not only its FinOps goals, but as a business overall. Cloud Unit Economics achieves these goals by leveraging the measurement of marginal cost (a.k.a., unit cost metrics) specific to the development and delivery of cloud-based software and marginal revenue (a.k.a., unit revenue metrics).
 
+By calculating the difference between marginal cost and marginal revenue, practitioners can determine where cloud operations break even and begin to generate a profit. This is an important concept in economics overall and it's one of the most effective ways to make data-driven business decisions regarding your cloud investment. For further details on defining, implementing, and building upon Cloud Unit Economics with your FinOps teams, please check out our [playbook on implementing the Capability](/projects/introduction-cloud-unit-economics/).
 
 
 ## Maturity Assessment
-#### Crawl
-- Measure cloud spend for a particular application against the total revenue for that application or service (e.g., cloud spend is 9% of revenue)
+Cloud Unit Economics can be implemented in many different ways, depending on the size of organization and the scale of its cloud spend. From research by our community, and according to the [Cloud FinOps book](/community/finops-book/), **cost per-customer (or cost-per-tenant)** is a common goal that can typically be applied to most organizations and is often a good metric to start with to assess maturity level of how the organization is adopting unit economics.
 
-#### Walk
-- Tie outputs of a product or service to an associated unit of activity (e.g., each API call costs us $0.01)
+### Crawl
+- **Cloud-only Cost-per-customer:** Depending on the complexity of the application, this may also be done in multiple phases, where some cloud costs are handled initially as “direct” and others “shared.”
 
-#### Run
-- Measure how much it costs to perform a revenue-producing activity (e.g., each transaction costs us $0.05)
+### Walk
+- **Cloud, Software-as-a-Service (SaaS), Licenses-based Cost-per-customer:** This could include things like Datadog, ServiceNow, or PagerDuty or BYOL (Bring Your Own License) like Windows or SQL Server which are run on cloud infrastructure. Once you start bringing in SaaS tools or Licenses, you may need to work with the team responsible for that product to understand the KPIs they care about and how they quantify time spent such as the SAM or ITAM team.
 
-
-
+### Run
+- **Cloud + SaaS + Hybrid Costs + Human Capital-based Cost-per-customer:** Advanced teams bring in costs like labor or even on-premise costs that support a particular product or service. The run phase is typically when a firm starts collecting more than one metric for various parts of a complex system getting more granular over time.
 
 ## Functional Activity
-#### As someone in a Business/Product role, I will…
-- Make decisions using unit cost about what changes I can make to my application through the lens of the business value it brings
 
-#### As someone in a Finance/FinOps role, I will…
-- Be able to determine if spend is increasing due to waste or due to growth in the business and determine if cost variances are ‘good’ or ‘bad’
+### Do what’s right for your organization
+In some cases, engineering might play a more central role in your FinOps organization, and you can leverage engineering time to produce the necessary metrics to determine measurements like Cost-per-customer. Regardless of the resources you have at your disposal, start small and focus on clear metrics that will be tangible to all stakeholders.
 
-#### As someone in an Engineering/Operations role, I will...
-- Separate increases in usage/waste from increases in rate so that I can determine the best architecture changes to make, and potentially even move to a more expensive service when associated revenue increases
+Through all of this, the centralized function of FinOps should be apparent: the FinOps team should be responsible for maintaining the Cloud Unit Metrics repository and be capable of clearly articulating their business value. Without it, a company can end up with “one metric to rule them all” or a bunch of clashing metrics.
 
-#### As someone in an Executive role, I will…
-- Move past trying to determine how efficient my teams are being and instead focus on increases the bottom line and understand how cloud decisions affect my margins and ultimately profitability
+The following table maps functional input and output activities related to cloud unit economics by persona:
 
+|                 |                                                      **BUSINESS**                                                      |                                           **BUSINESS**                                          |                                                                **TECHNOLOGY**                                                               |                                    **FINANCE**                                   |                                              **FINOPS**                                              |
+|-----------------|:----------------------------------------------------------------------------------------------------------------------:|:-----------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------------------------------:|:--------------------------------------------------------------------------------:|:----------------------------------------------------------------------------------------------------:|
+|                 |                                                       <img src="/img/framework/persona-executive.svg">Executives|<img src="/img/framework/persona-product.svg" width="131">Product Owner|<img src="/img/framework/persona-engineer.svg" style="width:75%">Engineering and Operations|<img src="/img/framework/persona-finance.svg" style="width:75%">Finance/Procurement| <img src="/img/framework/persona-finops.svg">FinOps                                                |
+|  **INPUT**  | A CTO/ CIO / CFO should own the initiative of Unit Economics and determine scope as it relates to coverage of Products | VP of Product / Product Owners should collaborate with Finance to determine key product metrics | VP Engineer collaborate with Product Owners define input requirements for metrics to best determine how to collect metric data from systems | Finance should collaborates with Product Owners to determine key product metrics | FinOps should be aware of executive scope and identify gaps in cost allocation alignment to strategy |
+| **OUTPUT** |                             Actioning on business decisions as a result of cost metric data, define frequency of reviewing unit cost and determine benchmark thresholds           |                                  Support solutioning automation and identify blockers to outputting metrics, define frequency of reviewing unit cost and determine benchmark thresholds                                 |          Actioning on business decisions as a result of cost metric data         |                              Integrate cost allocation with cost metrics, determine if spend is increasing due to waste or due to growth in the business and determine if cost variances are ‘good’ or ‘bad’                             | Use data and analysis to determine if spend is increasing due to waste or due to growth in the business and determine if cost variances are ‘good’ or ‘bad’
 
-
+**NOTE:** This table is best viewed on a wide viewport, like a desktop or tablet.
 
 ## Measure(s) of Success & KPI
-Measures of success are represented in the context of cloud costs and may include one or more key performance indicators ( KPI ), describe objectives with key results ( OKR ), and declare thresholds defining outliers or acceptable variance from forecasted trends.
+Cloud Unit Econmics measures of success will differ company to company.
 
-_at least one measure of success; should be described in a context of cost; this could be an efficiency KPI or an agreed upon threshold or target._
-_for example:_
->* idle resource costs will not exceed 3% of total monthly cloud spend
-* anomaly costs will not exceed $150/month
+An example KPI that could fit most cases could be how one a team stores customer data: **cost-per-GB**. Measuring cost-per-GB alone sets up initiatives to optimize storage costs, such as engineers figuring out a new way to further compress the data, e.g. cutting your storage needs by about 30 percent. In this scenario, *your cost-per-GB does not change* even though your storage costs have decreased.
 
+Instead, it would be more meaningful to measure something like a **cost-per-stored-item** (whatever that may be). Using a cost-per-stored-item as a unit of measure in this same scenario would show a 30 percent reduction because you are storing the same amount of data with fewer GBs of storage.
+
+Collaborating with all of the necessary organizational stakeholders to first determine what drives business value is essential to getting this part right.
+
+This is one example of many. We welcome additions to build out all the possible ways to measure the efficacy of a cloud unit economics practice.
 
 
 ## Inputs
-_the information used that contributes to the measure(s) of success listed above; information here may include specific datasources, reports or any relevant input_
 
+Defining and agreeing on the type of costs to report (e.g.: include or not discounts, negotiated rates, optimizations, shared costs, support, any other operational related cost) Once you’ve decided what to measure, it is imperative that you clearly delineate what financial inputs make up your unit costs.
 
+Is your organization receiving an enterprise discount? Do you have a private pricing agreement with one of your vendors? Are you receiving bulk discounts on licensing costs? Do you amortize upfront payments for commitments? Regardless of which stage your organization is at in the crawl-walk-run cycle, it is important to consider these types of questions when measuring and reporting your unit costs.
 
+[Please see the full playbook](/projects/introduction-cloud-unit-economics/) for more details on how to implement Cloud Unit Economics with your FinOps team.
 
 <!-- REAL WORLD RESOURCES, PROJECTS, PLAYBOOKS, GUIDES AND STORIES -->
 
