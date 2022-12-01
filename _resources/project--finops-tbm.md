@@ -2,12 +2,12 @@
 
 layout: wide
 permalink: /projects/finops-tbm-navigating-coexisting-disciplines/
-title: FinOps & TBM&#58; Navigating Co-Existing Disciplines
+title: FinOps &#58; TBM Navigating Co-Existing Disciplines
 description: A guide that provides definitions and best practices on navigating the intersection of FinOps and Technology Business Management (TBM).
 page-identifier: project_finops-tbm
 search-keywords: tbm finops itfm integrations tco total cost ownership
 identifier: projects
-project-title: FinOps & TBM&#58; Navigating Co-Existing Disciplines
+project-title: FinOps &#58; TBM Navigating Co-Existing Disciplines
 project-description: A guide that provides definitions and best practices on navigating the intersection of FinOps and Technology Business Management (TBM).
 date-added: Nov 2022
 type: Guide
