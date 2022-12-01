@@ -1,5 +1,5 @@
 ---
-title: FinOpsPod, Episode 15 Zach Stitham - Driving FinOps Culture Through KPIs
+title: FinOpsPod, Episode 15, Zach Stitham - Driving FinOps Culture Through KPIs
 description: Zach Stitham, VP of Cloud Business Management Office at Fidelity, discusses culture building and FinOps KPIs with Ashley Hromatko.
 date-added: Nov 2022
 type: Podcast
