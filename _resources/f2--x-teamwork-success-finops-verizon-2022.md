@@ -1,6 +1,6 @@
 ---
 title: FinOps X '22 Breakout - Teamwork x Success with FinOps - Ryan Lafazan & Lian Zhou (Verizon)
-description: In this session, we learned how Verizon uses collaboration to drive synergies and strive for efficiency within the evolving cloud ecosystem through the application of policies and control frameworks.
+description: Learn how Verizon uses collaboration to drive synergies and strive for efficiency within the evolving cloud ecosystem through the application of policies and control frameworks.
 date-added: Nov 2022
 type: Video
 source: Foundation Contribution
