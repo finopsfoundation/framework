@@ -4,7 +4,7 @@ layout: member
 
 # Vendor details
 name: VMware Aria Cost powered by CloudHealth
-logo-url: "/tools-services/logos/cloudhealth.png"
+logo-url: "/tools-services/logos/vmware.svg"
 linkedin-url: "https://www.linkedin.com/company/cloudhealthtech"
 website-url: "https://cloudhealth.vmware.com/"
 
