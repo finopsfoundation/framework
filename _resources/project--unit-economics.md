@@ -168,6 +168,8 @@ Cloud Unit Economics metrics also enable organizations to benchmark the performa
 
 Additional motivations to practice Cloud Unit Economics in FinOps include:
 
+![A chart of motivations to include unit economics in your FinOps practice](/img/unit-economics/unit-economics-3.jpg)
+
   * Quantify the impact of cloud spend on business performance at granular levels
   * Improved forecasting capabilities
   * Improved data for product strategy and pricing decisions
@@ -214,6 +216,8 @@ Building a sustainable Cloud Unit Economics practice starts with a strong unit c
 Planning should start as early as possible to identify the metric or metrics needed to collect meaningful data.  This may give direction to engineering teams on the necessary data points to be collected later. Collecting and processing the data should happen as customers start onboarding a system.
 
 ### Who defines the first metric?
+
+![Aligning key principles to help define unit economics metrics](/img/unit-economics/unit-economics-4.jpg)
 
 **Key principles:**
 * There is most likely no single metric to rule them all

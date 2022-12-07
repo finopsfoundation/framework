@@ -27,10 +27,11 @@ weight: 10
 ## Introduction
 
 Our Container Cost Allocation project focuses on creating guidance and best practices to practitioners around allocating cost of containers.
+
 This first output provides suggested container labels that are ready to use and can be combined into useful schemas. We also want this resource to encourage community debate about container cost allocation labeling, schemas, and best practices, inspiring contribution and future improvements.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/q0iuFU7qh8M?start=3868" title="YouTube video player" frameborder="0" allow="accelerometer;  clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-*We debuted this project as part of the March 2022 FinOps Summit.*
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1iCl_JdBe5U" title="YouTube video player" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+*During the September 2022 Summit, the Working Group presented their container cost allocation label schema tool.*
 
 Our group decided to transform the most important parts of that presentation into an interactive tool for our FinOps community.
 
