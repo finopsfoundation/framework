@@ -23,15 +23,15 @@ The FinOps Foundation is a program of the [The Linux Foundation](http://linuxfou
 
 ## Mission of the FinOps Foundation
 
-To build a **community** where we advance members by empowering them with **standards and best practices** through **education** so they can understand cloud financials as they shift over time.
+To advance **every** individual who manages the value of cloud **wherever they are**.
 
 We are here to advance the people who do cloud financial management:
 
-- Central community for learning FinOps through virtual events, meetups, slack and other channels
+- **Create Connections:** Enriching connections wherever you are.
 
-- Career development of practitioners through training and certification
+- **Inspire Growth:** Career and skill advancement for whatever level you are.
 
-- Open standards and best practices through the FinOps.org Framework
+- **Empower Best Practices:** Providing the definitive resource for all FinOps practices.
 
 ## How is the FinOps Foundation structured?
 
