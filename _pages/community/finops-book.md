@@ -5,13 +5,16 @@ permalink: /community/finops-book/
 search: true
 
 title: Cloud FinOps O’Reilly Book
-description: Learn about the O’Reilly Cloud FinOps book with expert insights added by members and where you can order it today.
+description: The official Cloud FinOps book provides a roadmap for adopting and maturing FinOps discipline, drawn from the experience of hundreds of real world practitioners. Order your copy today.
 
 ---
 
-# Cloud FinOps O’Reilly Book
+# Cloud FinOps O’Reilly Book (Second Edition Available for)
 
 [Available on Amazon Now](https://www.amazon.com/Cloud-FinOps-Collaborative-real-time-management/dp/1492054623)
+
+[Pre-order the Second Edition](https://www.amazon.com/Cloud-FinOps-Collaborative-Real-Time-Decision/dp/1492098353)
+
 
 ## Your Business Operating Manual for the Cloud
 
@@ -22,7 +25,7 @@ The cloud has fundamentally changed the way businesses approach IT development a
 
 FinOps changes that. Using the FinOps cloud operating model, your finance, engineering and leadership teams will come together to find the perfect balance of speed, cost and quality to efficiently scale their cloud.
 
-Compiled from hands-on experience and real-life stories from FinOps practitioners, Cloud FinOps is your guide to operating a better cloud
+The book provides a roadmap for adopting and maturing FinOps discipline, drawn from the experience of hundreds of real world practitioners.
 
 
 > “We’ve heard the demand — the need — to formally define FinOps and to capture what makes the great FinOps practitioners successful. And that’s what you hold in this book.”
@@ -31,25 +34,43 @@ Compiled from hands-on experience and real-life stories from FinOps practitioner
 Contents
 Once the book is released, you’ll be able to preview each chapter for a taste of what’s in store. Until then, sign up for updates about the book and all things FinOps!
 
-- Chapter 1: Why FinOps?
-- Chapter 2: What is FinOps?
+## Updates to the Second Edition
+
+**PART 1: Introducing FinOps**
+- Chapter 1: What is FinOps?
+- Chapter 2: Why FinOps?
 - Chapter 3: Cultural Shift and the FinOps Team
 - Chapter 4: The Language of FinOps and Cloud
 - Chapter 5: Anatomy of the Cloud Bill
-- Chapter 7: The FinOps Lifecycle
-- Chapter 8: Inform Phase: Where are you?
-- Chapter 9: Allocation: No Dollar Left Behind
-- Chapter 10: Tags, Labels and Accounts, Oh My!
-- Chapter 11: Optimize Phase: Adjusting to hit goals
-- Chapter 12: Using Less: Usage Optimization
-- Chapter 13: Paying Less: Rate Optimization
-- Chapter 14: Paying Less with Reserved Instances & CUDs
-- Chapter 15: Metric Driven Cost Optimization
-- Chapter 16: Container Spend Management: Ships vs Tugboats
-- Chapter 17: Operate: Aligning Teams to Business Goals
-- Chapter 18: Automation of Cost Management
-- Chapter 19: FinOps Recipes for Ongoing Operations
-- Chapter 20: Managing to Unit Economics: FinOps Nirvana
+- Chapter 6: Adopting FinOps
+- Chapter 7: The FinOps Framework
+- Chapter 8: The User Interface (UI) of FinOps
+
+**PART 2: Inform Phase**
+- Chapter 9: The FinOps Lifecycle
+- Chapter 10: Inform Phase: Where are you right now?
+- Chapter 11: Allocation: No Dollar Left Behind
+- Chapter 12: Tags, Labels and Accounts, Oh My!
+- Chapter 13: Accurate Forecasting
+
+**PART 3: Optimize Phase**
+- Chapter 14: Optimize Phase: Adjusting to Hit Goals
+- Chapter 15: Using Less: Usage Optimization
+- Chapter 16: Paying Less: Rate Optimization
+- Chapter 17: Understanding Commitment-based Discounts
+- Chapter 18: Building a Commitment-based Discount Strategy
+- Chapter 19: Sustainability: FinOps Partnering with GreenOps
+
+**PART 4: Operate Phase**
+- Chapter 20: Operate: Aligning Teams to Business Goals
+- Chapter 21: Automating Cost Management
+- Chapter 22: Metric Driven Cost Optimization
+- Chapter 23: FinOps for the Container World
+- Chapter 24: Partnering with Engineering to Enable FinOps
+- Chapter 25: Connectivity to Other Finance Frameworks
+- Chapter 26: FinOps Nirvana: Data-driven Decision Making
+- Chapter 27: You Are the Secret Ingredient
+- Afterword on What to Prioritize
 - Appendix of Finance Terms
 
 
