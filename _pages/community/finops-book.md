@@ -9,7 +9,7 @@ description: The official Cloud FinOps book provides a roadmap for adopting and 
 
 ---
 
-# Cloud FinOps O’Reilly Book (Second Edition Available for)
+# Cloud FinOps O’Reilly Book
 
 [Available on Amazon Now](https://www.amazon.com/Cloud-FinOps-Collaborative-real-time-management/dp/1492054623)
 
