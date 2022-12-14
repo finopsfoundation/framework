@@ -46,6 +46,8 @@ A few guiding statements include:
 ## How to get started with FinOps open billing?
 Please review the Code of Conduct, Scoping document, Notices, and License file on the [project GitHub repo](https://github.com/finopsfoundation/finops-open-billing). Instructions for contributors are included in the Contributing.md file.
 
+You can discuss this specification with other FinOps Foundation members on our [Community Slack channel for the FinOps Open Billing Standard](https://finopsfoundation.slack.com/archives/C045R6BPB2Q). If you aren't a member yet, [please join](https://www.finops.org/membership/)!
+
 ## Why is FinOps Open Billing Standard being developed as a Technical Specification rather than a Working Group?
 In order for enterprises and other organizations to use this standard to create, ingest, or surface billing data in a common format, they must be able to rely upon the right to use the standard and any reference implementations under the terms of the license agreement. Establishing a Technical Specification and tracking the standard in GitHub as a separate project allows for consistent and precise tracking of contributors and contributions, allowing the project to ensure all intellectual property rights are tracked and recorded.
 
@@ -69,6 +71,8 @@ The FinOps Open Billing project is working toward the following schedule:
 * Establish initial Steering Committee - **12/31/22**
 * Finalize project scope and establish steering committee - **1/27/23**
 * Public release of common specification - **3/21/23**
+
+Discuss these milestones and more on our [Community Slack channel for the FinOps Open Billing Standard](https://finopsfoundation.slack.com/archives/C045R6BPB2Q).
 
 ## Thank you to our contributors
 
