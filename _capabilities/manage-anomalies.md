@@ -115,7 +115,8 @@ Measures of success are represented in the context of cloud costs and may includ
 * Time to investigate and address an identified anomaly; time of investigation of a true anomaly is real time wasted cost in many cases
 * Educating teams on understanding how variable types of cloud spending can be by product, as to better define what is anomalous and who is accountable
 * The count of actioned anomalies and spending amount avoided (to nearest billing period)
-* The count of unactionale anomalies and categorized but justification to ignore (i.e. new service, performance testing, customer peak, false alert).
+* The count of unactionable anomalies and categorized but justification to ignore (i.e. new service, performance testing, customer peak, false alert).
+* Tracking number of alerts suspended (ignored) to identify teams who might not be adhering to protocol or policy
 
 
 ## Inputs
