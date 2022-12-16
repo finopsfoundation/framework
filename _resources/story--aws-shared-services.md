@@ -4,7 +4,7 @@ layout: story
 permalink: /stories/aws-shared-services/
 
 title: Leveraging Shared Services in AWS
-description: There were many Test accounts and Production account created in AWS by various teams categorized as 5 + Test accounts (~ 3k per month each )...
+description: There were many Test accounts and Production account created in AWS by various teams categorized as 5 + Test accounts (~ 3k per month each ).
 type: User Story
 source: Community Contribution
 story-title: Leveraging Shared Services in AWS

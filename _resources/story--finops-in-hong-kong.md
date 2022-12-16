@@ -4,7 +4,7 @@ layout: story
 permalink: /stories/why-finops-in-hong-kong/
 
 title: Why FinOps Still Has a Long Way to Go in Hong Kong
-description: As cloud adoption accelerates around the world, FinOps is increasingly recognized as a critical component of successful cloud management
+description: As cloud adoption accelerates around the world, FinOps is increasingly recognized as a critical component of successful cloud management.
 type: User Story
 source: Community Contribution
 story-title: Why FinOps Still Has a Long Way to Go in Hong Kong

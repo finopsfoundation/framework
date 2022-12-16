@@ -4,7 +4,7 @@ layout: story
 permalink: /stories/ami-snapshots/
 
 title: Removing AMI Snapshots
-description: Upon reviewing the amount of snapshots a customer had we found a large proportion of them were created from AMIs...
+description: Upon reviewing the amount of snapshots a customer had we found a large proportion of them were created from AMIs.
 type: User Story
 source: Community Contribution
 story-title: Removing AMI Snapshots
