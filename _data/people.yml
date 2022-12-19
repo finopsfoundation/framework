@@ -959,6 +959,7 @@
   image: alison-mcintyre.png
   groups:
     - forecasting
+    - ambassador
 
 - name: William Nieusma
   company: AgileTrailblazers
