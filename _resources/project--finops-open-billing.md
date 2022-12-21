@@ -83,7 +83,6 @@ Discuss these milestones and more on our [Community Slack channel for the FinOps
 * Disney
 * Domo
 * Atlassian
-* Apple
 * HSBC
 * Chevron
 
