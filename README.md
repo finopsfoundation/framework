@@ -9,7 +9,10 @@ This work is licensed under a
 [cc-by-image]: https://i.creativecommons.org/l/by/4.0/88x31.png
 [cc-by-shield]: https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg
 
-# FinOps.org / FinOps Framework
+# THIS REPO IS NOT CURRENT OR ACTIVE
+Please visit [finops.org](https://www.finops.org/) to view the up to dat content and you can contribute directly via the website.
+
+## FinOps.org / FinOps Framework
 This repo contains the code and content that builds the finops.org website which contains the FinOps Framework.
 
 ## About contributions
