@@ -1,0 +1,734 @@
+<h2 id="intro">Introduction</h2>
+<a href="https://www.finops.org/framework/capabilities/manage-anomalies/">Managing Anomalies</a> for FinOps is the practice of detecting and correcting cost anomalies that might occur in cloud consumption. This document aims to inform you of what anomalies are, why it’s important to address them, and what the lifecycle of managing anomalies looks like.
+<h3>Benefits of this guidance</h3>
+Understanding how to manage cloud cost anomalies include FinOps and organizational benefits such as:
+<ul>
+ 	<li>Learning what a cloud cost anomaly is and how it might affect your product or organization’s cost and usage efficiency</li>
+ 	<li>Understanding the lifecycle of a cloud cost anomaly, from reporting one through to resolution</li>
+ 	<li>Reviewing key performance indicators involved with anomaly management</li>
+ 	<li>Identifying business roles and personas, whether FinOps related or adjacent, who need to be involved or informed about cloud cost anomalies</li>
+</ul>
+All information contained in this document has been created by FinOps Foundation Community members and based on first-hand experiences. The team expects this documentation and information to expand and deepen as it is presented to the wider community for feedback and improvements.
+<h2 id="definition">Cloud cost anomaly definition</h2>
+Anomaly Management is the ability to detect, identify, clarify, alert and manage unexpected or unforecasted cloud cost events in a timely manner, in order to minimize detrimental impact to the business, cost or otherwise. The FinOps Foundation defines a cloud cost anomaly as:
+<blockquote>Anomalies in the context of FinOps are <b>unpredicted</b> <b>variations</b> (<b>resulting in increases</b>) in cloud spending that are larger than would be expected given <b>historical spending patterns</b>.</blockquote>
+Let’s unpack each part of this definition to better understand all of the nuances at play with cloud cost anomalies.
+
+Identifying and defining all of these terms related to cloud cost anomalies allows us to better define the lifecycle of that entity. We’ll try to address each of the points before we proceed to the lifecycle, algorithm, and other interesting details of managing the anomalies.
+
+<b>Note: </b>We’ve also updated the <a href="https://www.finops.org/resource/terminology/#anomaly-management">FinOps Terminology &amp; Definitions</a> asset on the finops.org website so practitioners can learn the terms within this documentation alongside other important concepts from other capabilities.
+<h3>Unpredicted variation</h3>
+It’s important to note that we are not simply talking about the “outliers” (one method of approaching anomalies), but we are actually looking to find what are the “expected” or “predicted” costs for a period, and then measure if the costs accumulated so far in the day.
+
+The FinOps Practitioner tries to anticipate the costs for a period (typically a day, which we will discuss further), and then tries to compare it with the actual costs for the period and decide whether to panic or not! The prediction can be a single number, a range, or simply something the “computer does which is too difficult to put in words”, especially if you are using a machine learning model.
+
+Does every variation constitute an anomaly? Absolutely not. The threshold for variation to be considered an anomaly can greatly differ based on the size and type of company, the scope of how much they use cloud, and other variables of their particular operation.
+<h3>Increased Cost</h3>
+Anomaly detection is not an activity to identify increases in usage patterns or to find out if some service did not run when expected. There are other places far more efficient (and more real-time) to catch those kinds of issues. Anomaly detection identified cost increases in an attempt to avoid surprise charges when the monthly bill arrives. The goal of anomaly detection is not to identify cost decreases as the collective experience of the community has shown that communicating costs below expected as anomalies just adds to the noise.
+<h3>Cost-driven anomalies</h3>
+Cost anomaly detection focuses on identifying deviations from an expected rate of spend. Organizations in the crawl or walk phase of anomaly detection typically focus on cost increases only. Companies just launching an anomaly detection system and processes will need to fine tune the settings and prove out their alerting/notification process. It typically takes time to improve the signal to noise level to an acceptable level of false positives.
+
+While organizations primarily prioritize cost increases, mature (i.e. Run phase) FinOps organizations should investigate decreases as well. A cost anomaly can be an indicator of an underlying technology or business issue. For example, a misconfigured autoscaling system may cause a cost increase, or decrease if it fails to upscale. Typically, there are other systems in place to identify such issues so most organizations will focus strictly on cost increases.
+
+<strong>Cost anomalies can be split to three types:</strong>
+<ol>
+ 	<li><b>Anomalous spikes in total costs: </b>finding that the total cost of a service spiked for the past days compared to normal.</li>
+ 	<li><b>Anomalous spikes in Cost per Usage:</b> finding that the amount paid per unit of usage spiked - e.g,. If there is a spike in the cost per hour of compute, it may indicate an increase in on-demand vs discounted plan costs, or switch to more expensive resources compared to the increase in usage. </li>
+ 	<li><b>Anomalous drop in unit economics featuring revenue / cost metrics:</b> When available, the drop in the ratio between revenues derived from the cloud compute environment to the cost of running that environment is a strong indication of loss of efficiency in the way the resources are used. It can be broken down by the unit of revenue for a company (e.g., a player for a gaming company).</li>
+</ol>
+<h3>Historical patterns</h3>
+Most anomaly detection systems utilize historical data as a basis for detecting anomalies. The systems may range in sophistication from a simple percent increase in spend to machine learning based models that understand (historical) spend patterns but are still based on learnings from historical data and lack future awareness. The downside to not being future aware is more false positives.
+
+More sophisticated systems are future aware and include forecast (budget) and event data in their models. These systems rely on a combination of historical data and future data to determine anomalies with greater accuracy than historical data alone. Forecast data is often aggregated at a relatively high level that makes it unusable without understanding the historical patterns.
+
+More specifically, forecasts are typically by month and the department level by resource type. Knowing that you expect compute resource costs to increase 25% for a given month over the prior year is helpful, but not sufficient as spend patterns often have variability from day to day that can be seen in the historical data, but are lost in a monthly bucket.
+<h3>Other terms and definitions to know</h3>
+<h4>Severity</h4>
+Taking the discussion on variation further, once you have established a minimum threshold, you still need to identify a low-impact anomaly from a high-impact one. Usually it’s best if the business users have some control over what you call a low-medium-high-critical anomaly and also being able to set alerts only on the high/critical ones and leave the low-medium for offline analysis.
+
+Also note that in a day, an anomaly may start off with low severity but as it accumulates more costs, it may escalate to a high or critical level.
+<h4>Timescale</h4>
+This is where the Anomaly Detection process separates itself from budgets.
+
+Budgets are usually created and monitored on a monthly, quarterly or annual basis. This does not leave any room to find inter-day variation. We have seen the Anomaly Detection working best on a timescale of a day or consecutive days when an anomaly persists.
+
+<h2 id="importance">Importance of anomaly management</h2>
+Detecting and managing anomalies is critical to avoiding unwanted and surprising billing charges. An identified anomaly could be an indicator that there is an infrastructure issue, a software bug, possible cyber attack, or any other problem that might cause a constant increase of unpredicted cloud costs.
+
+Anomaly management is an important mechanism aiding in keeping costs on target, or at least mitigating damages, when anomalous events occur. Without anomaly management, organizations rely on chance to discover unusual spend increases- which is not a good position to be in. Managing anomalies is essential to helping organizations stay on track with regards to forecasts and budgets.
+
+For example, a cost anomaly might indicate a heavy utilization of a certain type of resource that might exhaust its resources due to unwanted workload. Even while cloud resources are usually highly scalable and built in such a way that there are no issues with performance, there are situations where resources or service flows that might not be so resilient when facing an increased demand of performance. In this case, not only will cloud costs increase, but service levels and reliability can drop, which can negatively impact revenue or reputation.
+
+Continuous anomaly algorithms are used by organizations to detect and flag any anomalies in their budgeting and spending patterns. If an anomaly is missed from monitoring, it can lead to inaccurate predictions and underestimations by the algorithms, which can negatively impact the organization's growth plan. The reliability of the generated mathematical models depends on the availability of precise data, as it directly influences the quality of insights and predictions. Therefore, it is crucial for organizations to ensure that their anomaly detection algorithms are effective and regularly updated to prevent any budget overruns or financial instability.
+
+To ensure long-term financial stability, it is necessary to strike a balance between cost-cutting measures, maintaining organizational operations, and collecting all real-time anomalies into the anomaly detection algorithms for continual re-forecasting to better understand where we will end up for every anomaly. This will provide enterprises with an indicator when an anomaly is missed and causes an overrun. It will be accounted for in the financial model without having any major last minute surprises on the growth plans.
+
+<h2 id="lifecycle">Lifecycle of a cloud cost anomaly</h2>
+Now that we have established what a cost anomaly is, let’s look at its lifecycle:
+
+<img class="aligncenter size-full wp-image-4055" src="https://www.finops.org/wp-content/uploads/2023/03/managing-anomalies-1.jpg" alt="" width="2000" height="997" />
+
+&nbsp;
+<ul>
+ 	<li><b>Record Creation</b>: This is the first step and, regardless of your algorithm, you need to systematically create a record for each identified anomaly with the characteristics (e.g. impact, service, scope) for future analysis.</li>
+ 	<li><b>Notification</b>: Depending on the severity of the anomaly, the mode of communication may be different (or absent). You may choose to integrate mobile / team chat alerts for “critical anomalies” and set email alerts for “high impact” ones and choose not to send notifications for medium and low ones to be analyzed weekly or monthly (this will vary from organization to organization).</li>
+ 	<li><b>Analysis</b>: Once the anomaly has been identified and stored, an investigation should be performed to understand the reason behind the spike in cost. During this lifecycle phase, individuals look to determine if the increased cost is in fact an unexpected increase, if this is the result of intended or unintended change, etc.,and  to uncover the “why” behind what happened. </li>
+ 	<li><b>Resolution: Deciding upon an action to take as a result of the analysis, even if the decision is to take no further action. See common resolution outcomes below.</b></li>
+ 	<li><b>Retrospective</b>: Once the Anomaly has been resolved, it’s important to perform an analysis to understand how future anomalies can be prevented, capture data to feed into KPIs (e.g. $ avoided), or even adjust the monitoring system to capture it earlier.</li>
+</ul>
+It’s important to note that the lifecycle steps are implemented differently across organizations. See <a href="https://docs.google.com/presentation/d/1kJ2RZiwIZ_MTyJJrI0CmMLNzdh_HT_XzwpKXEGlZ5ho/edit#slide=id.p">lifecycle variations</a> for examples on how different organizations have chosen to implement anomaly management. Labor capacity, automation, and FinOps maturity are just some of the factors which affect the implementations of anomaly management and the efficiency of the execution.
+
+<h3>Record Creation</h3>
+The first step of the life cycle, record creation, involves detecting the anomaly (and whether it is actually one) to kick off the entire process. Here we address best practices and challenges involved with anomaly record creation.
+
+The general process of any anomaly detection method is to take data, learn what is normal, and then apply a statistical test to determine whether any data point for the same time series in the future is normal or abnormal. Let’s take a closer look at the data pattern in the figure below. The shaded area was produced because of such analysis. We could, therefore, apply statistical tests such that any data point outside of the shaded area is defined as abnormal and anything within it is normal.
+
+<strong>Figure 1</strong>
+
+<img class="aligncenter size-full wp-image-3899" src="https://www.finops.org/wp-content/uploads/2023/03/managing-anomalies-2.jpg" alt="" width="2000" height="721" />
+
+<b>Detecting anomalies in time series involves three basic steps:</b>
+<ol>
+    <li><b>Estimation</b>: Estimating a mathematical model that describes the normal pattern (and distribution of the pattern) of cost based on historical data and known future events.</li>
+    <li><b>Prediction</b>: Predicting the expected cost (and its prediction confidence interval - aka baseline sleeve) for the next measurement interval (hour/day/week/month…).</li>
+    <li><b>Detection</b>: If the next measurement of cost does not fall within the predicted confidence interval, flag it as an anomaly.</li>
+</ol>
+<h3><b>Estimation</b></h3>
+The normal pattern over time of the cost may include effects such as: trends, seasonal patterns (e.g., daily, weekly and/or monthly patterns), normal changes of the pattern due to change of usage and effects due to known events that may impact cloud usage (e.g., known tech changes in products, holidays, product release, marketing campaigns, etc). 
+
+A model that encodes and estimates all of the above will be more accurate than a model that does not. For example, a simple statistical model for anomaly detection would estimate a 7-day running average of the cost, with its corresponding standard deviation.
+
+Such a model accounts for slow changes (trends), but would not capture the effect of a weekly seasonal pattern and might trigger a false positive alert every Monday, if the weekly pattern exhibits lower cost over the weekend. However, a model that can encode seasonality, would not trigger an alert on Monday because it knows that Mondays are higher than the weekend. 
+
+<h3><b>Prediction</b></h3>
+In the prediction phase the model considers all the data up to the previous time step (e.g., up to yesterday) and it is used to predict future cost (e.g., today’s cost). The predicted cost is then compared to the actual cost to determine if the difference is significant. Significance is typically determined using a prediction confidence interval. An event measurement is considered anomalous if it falls outside that confidence interval.
+
+For example, using the simple statistical model of the last 7 days of average and standard deviation, the prediction is the average of the last 7 days, and the confidence interval can be average +- 3 x standard deviation - which is a reasonable interval if the underlying data follows the Gaussian distribution (aka Normal). Therefore, for anomaly detection, the model used should also have the ability to estimate an accurate confidence interval, and not just a point prediction.
+
+<h3><b>Detection</b></h3>
+If the comparison of the actual cost to the predicted cost is determined to be significant, an anomaly has been detected. When an event has been identified as an anomalous event, it is important to capture a sequence of observations related to the event to ensure the anomaly record created provides sufficient meaningful information to those who will review the record. Some of this methodology blends in with the next lifecycle step, Notification. Before we proceed, let’s take a moment to consider the challenges. 
+
+<h3>Challenges involved with identifying and resolving anomalies</h3>
+Much has been discussed regarding identifying and resolving anomalies. The bulk of which can be classified into the following categories.
+
+<h4><b>Signal-to-noise ratio</b></h4>
+Most large IT environments are dynamic with ongoing development, testing, and deployment initiatives constantly starting and stopping new cloud resources. Successfully identifying anomalies is akin to finding the proverbial needle in a haystack as true anomalies often share patterns similar to normal development activities. Improving the ability to identify true anomalies is essential to any system.
+
+Without a strategy to reduce false positives individuals analyzing anomaly records may choose to disable or ignore alerts. False positives consume critical bandwidth and therefore it is essential for anomaly detection algorithms to be carefully tuned for identifying anomalous events which are likely to be validated as true anomalies.
+
+Identifying anomalies on a scale (low, medium, high, critical) can help organizations prioritize their response. It is important to note that a low severity alert can quickly escalate to a high or critical level as costs accumulate over hours/days.
+
+<h4>Latency</h4>
+Identification of anomalies using clouding billing details can be delayed as much as 36 hours from the start of the event and upwards of 24 hours before they are processed and made available for analysis. Short duration anomalies may be over by the time the alerting is triggered and costs can grow significantly during this timeframe for long duration anomalies.
+
+It’s important to utilize anomaly detection even if the data is not complete as the costs will just continue to grow as the data is updated. If you take the approach of not waiting for all the cost data to be complete, the anomaly detection should be reapplied on the same data to avoid missing spikes that were not detected when the data was not yet complete. Systems that look beyond cost data and include visibility data have an advantage with early anomaly detection.
+
+<h4>Scope/aggregation level</h4>
+Large and/or multi-cloud organizations face the additional challenge of mapping anomalies to their organization structure. Forecasts and budgets are often set at the business or department level creating the need to align your cloud costs with your budget for cost based anomaly detection. You can detect anomalies at an organization level, cloud level (in case of multi-cloud), account level, and various other increasingly granular ways such as tagging.
+
+It is a common practice to start identifying what impacts your business at large. (See below image for a comparison of cloud hierarchy structures for AWS, Azure, and GCP)
+
+This will ensure you do not get false alarms if a service runs in another project for some reason, while it may be a flag for the project/solution owner, nothing is broken at the organization level. This will be of most interest to the FinOps teams which are centrally located. Once you have mastered the “recipe” of identifying the right anomalies, it may be time to go down to the next level of AWS Accounts / Projects. This will ensure the solution owners can also monitor their own costs and anomalies.
+
+<strong>Figure 2</strong>
+
+<img class="aligncenter size-full wp-image-3900" src="https://www.finops.org/wp-content/uploads/2023/03/managing-anomalies-3.png" alt="" width="1450" height="650" />
+
+<em><strong>Source:</strong> Team, E. (2022, June 8). <a href="https://securityboulevard.com/2022/06/aws-azure-and-gcp-the-ultimate-iam-comparison"><i>AWS, Azure and GCP: The Ultimate IAM Comparison</i>. Security Boulevard</a>.</em>
+
+Anomalies might be the result of:
+<ol>
+    <li><b>Spikes in usage resulting in a spike of costs:</b> finding uncharacteristic increases in resource usage over a period of time compared to normal, e.g. spikes that are outside of any context or characteristic known with typical operation.</li>
+    <li><b>Spikes in total costs:</b> finding that the total cost of a service spiked for the past days compared to normal such as discovering you’ve lost commitment based discount coverage or a set of resources which are running as usual.</li>
+</ol>
+Anomalous events often impact important metrics such as unit economics or KPIs.
+<h3>Notification</h3>
+Once we have created a record of the anomaly and validated that it is one, it’s time to notify the correct stakeholders to progress through the anomaly detection lifecycle and take proper action. Many tools offer automatic alerting of anomaly events through various communication methods; email, messaging , collaboration tools etc..
+
+Organizations find they are most successful in their analysis of anomalous events when notifications include operational context. Not all anomalies would need to be notified and thresholds for notification can be customized as well. Note that those notified often depend on the magnitude of the anomaly. For example, C-Level executives would only be notified of anomalies above a threshold set by that organization.
+
+Notable roles who may need to be informed include:
+<ul>
+ 	<li>FinOps practitioners</li>
+ 	<li>Engineering</li>
+ 	<li>Product and Business Owners</li>
+ 	<li>Finance</li>
+ 	<li>Executives and C-Level</li>
+</ul>
+In a later section of this documentation, you’ll find a table of <a href="https://docs.google.com/document/d/1yZM6vXs-av2aSiPx2536H0M1awXZBQvyf59wbgZiw44/edit#heading=h.7237sdxj72n">Persona Responsibilities</a>, where the Working Group conveys which FinOps or adjacent business personas are either responsible, accountable, consulted, or informed across a number of anomaly management lifecycle phases.
+<h3>Analysis</h3>
+In this part of the life cycle, it’s time to take a closer look at the cloud cost anomaly. Learn more about what goes on during this phase, which personas are involved, and challenges to look out for.
+
+<strong>Figure 3</strong>
+
+<img class="aligncenter size-full wp-image-3901" src="https://www.finops.org/wp-content/uploads/2023/03/managing-anomalies-4.jpg" alt="" width="2000" height="762" />
+<h3>Investigation</h3>
+Cloud cost anomalies once identified require triage and investigation. Initial review should consider the severity of the anomaly and the probability of the anomaly being a result of normal business activities, in order to determine the response.
+
+Details of the anomaly, such as the trigger and run rate above baseline, should be provided by the anomaly detection system. A mature organization will have predefined thresholds dictating the response. For example a 5% increase in cost for a department might be addressed during a regularly scheduled meeting where a 100% increase would trigger an all hands on deck response.
+
+<strong>Tips for analyzing potential anomalies</strong>
+<ul>
+ 	<li><b>Addressing Seasonality:</b> Annual seasonality is recommended to be based on at least a year of data if not multiple years. A good rule of thumb for the minimum data required is having at least two cycles of a seasonal pattern in order to estimate it.</li>
+ 	<li><b>Trends and Patterns:</b> Ability to identify trends and patterns will enable additional filtration to allow focus on true anomalies. Therefore, the use of a confidence interval to be able to predict within that range what costs are likely and normal to occur is very helpful. For those familiar with <a href="https://en.wikipedia.org/wiki/Statistical_process_control">Statistical Process</a>, these confidence intervals can be plotted on “Control Charts” or XMR charts. One tried-and-true workflow to follow during anomaly analysis after initiating investigation includes tracking cost changes, re-forecasting, and identifying ownership for remediation.</li>
+ 	<li> <b>Consider predicted anomalies: </b>Some organizations keep a running list of anomaly events they are anticipating. You may want to consider keeping track of such anticipated events or comparing against such a list if one exists in your organization.</li>
+ 	<li> <b>Examine contextual data provided with the anomaly record: </b>Is this a tagging error that resulted in a false positive anomaly? Is this a one-day spike on the first of the month perhaps related to delivery time of billing charges? Is this anomaly associated with a certain environment, perhaps it is scheduled performance testing? Identifying the resource owner is often critical to assessing if an anomaly is justified or not. If your resources aren’t tagged with an owner, you may encounter delays in finding the individual responsible for the resource. While you are looking for the owner, costs continue to grow.</li>
+ 	<li><b>Consider spending patterns:</b> Having a baseline understanding of your normal cloud spending patterns will help you better understand seasonality and variability usage. This means gathering historical data on your cloud usage and costs to identify trends and patterns. Consider whether or not the spike in spend correlates to increased demand for resources such as "Cyber Monday" for retailers.</li>
+ 	<li><b>Consider predicted anomalies:</b>Some organizations keep a running list of anomaly events they are anticipating. You may want to consider keeping track of such anticipated events or comparing against such a list if one exists in your organization.</li>
+ 	<li><b>Compare anomalous spend or anomalous spend trend to the forecast and or budget to determine severity:</b> Is this an application or account which is tracking under budget, on target, or already trending above? How does this anomaly impact the scenario? By reporting on these anomalies, it can help bring to light gaps in communication. If infrastructure changes can be communicated to finance in advance, it will help them to more accurately make forecasts. Therefore, anomaly detection isn’t just about addressing cost increases, it is about building lines of communication about what is happening in the infrastructure.</li>
+</ul>
+In cases where we have a multi-day anomaly. Having separate records, one for each day of the anomaly event, would yield the following results:
+<ul>
+    <li> <b>Multiple alerts for the same/related events - </b>Treating each measurement (e.g., cost per day) as independent anomalies may lead to alerts being sent every day, confusing a user that might already be handling an issue.</li>
+    <li> <b>Inaccuracies with KPI reporting - </b>The impact of an anomalous event may be underestimated, which could lead to users ignoring them - e.g., suppose an R&amp;D issue causes an anomalous $500 per day increase in spend for a specific service. A user may ignore it because of the low impact compared to the overall spend, but after 30 days, the impact of the issue is already $15,000. Without combining all the anomalous days into a single anomaly for the user to review, the total impact may not be visible - leading to more and more waste.</li>
+</ul>
+<h4>Tracking Cost Changes</h4>
+Now the cost impact ($) and expected time duration for the anomaly usage has been identified. The budget inventory's variable forecast (seen above in chart as “Changes in budget”) is where you should attempt to note as many anomalies as you can (preferably all the alerts above your defined threshold). This will allow the FinOps practitioner to estimate the impact of the anomaly and do the re-forecasting.
+
+<strong>Figure 4</strong>
+<table>
+<tbody>
+<tr>
+<td></td>
+<td><b>Jan 2023</b></td>
+<td><b>Feb 2023</b></td>
+<td><b>March 2023</b></td>
+<td><b>…</b></td>
+<td><b>Dec 2023</b></td>
+</tr>
+<tr>
+<td><b>Fixed Budget (Account X)</b></td>
+<td>$1000</td>
+<td>$1100</td>
+<td>$1100</td>
+<td></td>
+<td>$1100</td>
+</tr>
+<tr>
+<td><b>Changes in Budget (anomalies)</b></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><i>Anomaly 1 cost impact</i></td>
+<td>$100</td>
+<td>$100</td>
+<td>$100</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><i>Anomaly 2 cost impact</i></td>
+<td>$50</td>
+<td>$50</td>
+<td>…</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><i>…</i></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><i>Anomaly &lt;n&gt; cost impact</i></td>
+<td></td>
+<td></td>
+<td>$75</td>
+<td>…</td>
+<td>$75</td>
+</tr>
+<tr>
+<td><b>Reforcasted Budget</b></td>
+<td>$1150</td>
+<td>$1250</td>
+<td>$1275</td>
+<td>…</td>
+<td>$1175</td>
+</tr>
+</tbody>
+</table>
+For Example: Let’s consider the budget is maintained in the CSV file, then tracking anomaly changes may look as follows. With this approach at any given point in time you should be able to view the cost impacts.
+<h4>Reforecasting</h4>
+<strong>Figure 5</strong>
+
+<img class="aligncenter size-full wp-image-3902" src="https://www.finops.org/wp-content/uploads/2023/03/managing-anomalies-5.png" alt="" width="1574" height="620" />
+
+When an analysis reveals material impact to budget and/or forecast some organizations may choose to reflect those variations accordingly. Giving a re-forecast and budget impact, for example, will raise the sense of urgency for the budget owner on fixing the anomalies based on the cost impacts. In some scenarios may warrant notifying executives and the finance departments.
+<h4>Ownership for Remediation</h4>
+The last step of this phase is to identify the workflows required and roles responsible for resolving anomalies. We’ll dive deeper into what’s required for FinOps teams generally in the next section.
+<h3>Resolution</h3>
+After a complete analysis of an anomaly, a decision needs to be made as to what additional actions, if any, should be taken as a result of the anomaly and by whom. The resolution outcome depends on the findings from analysis. Below is a list of common resolution outcomes &amp; reasoning.<b></b>
+<h4><b>Reject anomaly</b></h4>
+After a complete analysis of an anomaly, a decision needs to be made as to what additional actions, if any, should be taken as a result of the anomaly and by whom. The resolution outcome depends on the findings from analysis. Below is a list of common resolution outcomes &amp; reasoning.
+<ul>
+ 	<li ><b>Dismiss anomaly </b>- Some anomalies should be dismissed for further action. There are several scenarios in which one would want to reject an anomaly. Review the probable causes of false positives below:
+<ul>
+ 	<li ><b>Faulty anomaly detection model:</b> In this scenario, the anomalies do not look like anomalies at all.</li>
+ 	<li ><b>Incorrect data:</b> In this scenario the cost data collected about the anomalous event were incomplete or incorrect leading to the creation of an anomaly record which is not valid. This sometimes occurs when the billing data referenced by the detection algorithm is incorrect.</li>
+ 	<li ><b>Expected costs spikes:</b> Investigation concluded that the increase in spend, although anomalous in nature/quantity, was in fact an anticipated event caught by anomaly detection algorithms.</li>
+ 	<li ><b>Low impact anomalies or low priority anomalies:</b> Cost increases may be real anomalies, but their impact is too low to require any action or the organization does not have the resources (time, people, etc.) to follow up on the anomaly event.</li>
+</ul>
+</li>
+</ul>
+<ul>
+    <li> <b>Acknowledge anomaly</b> - A sign of a good anomaly management practice is the amount of accepted anomaly records vs rejected anomaly records. While no person wants to come across serious anomalies it is preferable that the anomaly records generated are truly anomalous events so that people are not spending their time analyzing anomaly records which are eventually rejected as events requiring action. An anomaly record might be validated as an event needing further action for a variety of reasons. Below are some common scenarios.
+<ul>
+ 	<li ><b>Security Breach</b>: If the reason for the unusually high cloud cost was increased consumption due to malicious activity and/or a security breach, immediate action must be taken to deal with cost and the security issue. The FinOps team must work closely with the cloud security team to address the security breach in addition to dealing with increased cloud costs.</li>
+ 	<li ><b>Misconfiguration</b>: If the reason for the unusually high cost was increased consumption due to misconfiguration of services, action must be taken to reconfigure the services. In addition to reconfiguration based on actual needs, a team may also benefit from some training on how to properly configure their needs in the future to prevent any future anomaly.</li>
+ 	<li ><b>Unintentional Provisioning of Services</b> - Shut down provisioned services. Can controls or processes be put in place to minimize unintentional provisioning?</li>
+</ul>
+</li>
+</ul>
+In any case, a decision needs to be made regarding what should happen next. You may conclude no further action is necessary or that you need to engage with an engineer to shut down an out of control resource or perhaps you need to notify multiple individuals in your organization regarding a likely security breach.In scenarios where the anomaly events threatens the ability to stay on budget we suggest you notify the budget owner and engage with relevant product and engineering teams on cost optimization opportunities to mitigate budget overages.
+
+<h3>Retrospective</h3>
+During the retrospective phase organizations should reflect on what went well, what didn't go well, and what can be improved in the future. The goal is to identify areas of improvement and to implement changes that will improve anomaly management. Retrospectives should be scheduled on a regular cadence such as monthly or quarterly or annually and may even need to take place out of sync with the regularly scheduled cadence as necessary.
+
+The retrospective should include the <a href="https://docs.google.com/document/d/1yZM6vXs-av2aSiPx2536H0M1awXZBQvyf59wbgZiw44/edit#heading=h.7237sdxj72n">key players that receive, analyze and remediate anomalies</a>. Whomever is leading the retrospective, should distribute a list of anomalies ahead of time that will be reviewed during the meeting. The team should consider if all anomalies will be reviewed or if there is a certain threshold that warrants deeper analysis. It's important to make sure that everyone on the team understands the purpose of the retrospective and is prepared to provide constructive feedback.
+
+Retrospectives are most effective when all stakeholders share open and honest feedback. An effective method for evaluating existing processes is the "Start, Stop, Continue" discussion exercise during which participants identify actions that should be newly implemented, stopped or continued. Tooling and methods should be considered during retrospective as well.
+
+Once the team has identified the anomaly management changes to implement they should develop an action plan for completing the implementation of the changes. Conducting regular retrospectives helps drive continuous improvement into your anomaly detection and management processes.
+<h2 id="examples-maturity">Detection examples across FinOps maturity levels</h2>
+<h3>Crawl</h3>
+<strong>Figure 6</strong>
+
+<img class="aligncenter size-full wp-image-6418" src="https://www.finops.org/wp-content/uploads/2023/03/managing-anomalies-crawl.png" alt="" width="960" height="540" />
+<ul>
+ 	<li >In the crawl phase, anomalies are typically identified using visualization of costs using dashboards or applications utilized in limitation or may be identified by a system which sends a notification of the event to an individual</li>
+ 	<li >Typically, anomalies are identified at higher level aggregation (account, BU or region level)</li>
+ 	<li >Members of the FinOps team identify anomalies visually, drill down to see which BU/Team may be responsible for the increase in cost and notify the team to review and check the anomaly</li>
+ 	<li >Anomalies are limited to obvious and high impact variations assessed against a standard set of KPI</li>
+</ul>
+<h3>Walk</h3>
+<strong>Figure 7</strong>
+
+<img class="aligncenter size-full wp-image-6417" src="https://www.finops.org/wp-content/uploads/2023/03/managing-anomalies-walk.png" alt="" width="960" height="540" />
+<ul>
+ 	<li >In the walk phase, anomalies are identified automatically using basic statistical rules. For example, an anomaly will be detected if today’s cost is higher than last week’s average plus 3 x last week’s cost standard deviation. </li>
+ 	<li >Anomalies can be identified at lower granularity (e.g., BU + region + service name) - depending on the false positive rate (see evaluation below).</li>
+ 	<li >Alerts are sent to members of the FinOps team on identified anomalies.</li>
+ 	<li >Members of the FinOps team notify the relevant BU/team on the anomalies.</li>
+ 	<li >Some degree of automation in terms of alerts, visual dashboards etc are available and any applications are utilized in a more integrated manner.</li>
+</ul>
+<h3>Run</h3>
+<strong>Figure 8</strong>
+
+<img class="aligncenter size-full wp-image-6416" src="https://www.finops.org/wp-content/uploads/2023/03/managing-anomalies-run.png" alt="" width="960" height="540" />
+<ul>
+ 	<li >Anomalies are identified using ML algorithms that automatically account for: trend, normal changes, seasonal patterns, special events (holidays/product releases/etc), and any type of time series behavior.</li>
+ 	<li >Systems and applications incorporate data and are forecast and event-aware.</li>
+ 	<li >Anomalies are identified at any granularity and can be rolled up to an organization level or drilled down to individual resource level. Users can define the minimum impact of an anomaly to be alerted on.</li>
+ 	<li >Regular reports showing trends in cost anomalies for different teams (or other breakdown). These trends help identify teams that may require further training on optimizing costs or areas in the infrastructure that require further attention (beyond the single anomaly).</li>
+ 	<li >Alerts are routed automatically to the relevant BU team members for further investigation and remediation in an automated manner utilizing chat, slack, email or integrated into sprint planning applications like JIRA</li>
+ 	<li >Run models not on just cloud costs but on calculated KPI’s based on cloud costs such as Unit Economics metrics and costs to serve - this is so finance can improve forecasting and adjust to anomalies without it being a surprise on the bill.</li>
+</ul>
+<table>
+<tbody>
+<tr>
+<td><b>Maturity</b></td>
+<td><b>Crawl</b></td>
+<td><b>Walk</b></td>
+<td><b>Run</b></td>
+</tr>
+<tr>
+<td><b>Data Ingestion and Normalization</b></td>
+<td>Data is not normalized fully. Still dependant on spreadsheets</td>
+<td>Data is normalized and some amount of ongoing validation in place</td>
+<td>Fully normalized and automated validations in place</td>
+</tr>
+<tr>
+<td><b>Tools and Techniques - Detection</b></td>
+<td>Rudimentary utilization of applications or dependant on manually reviewed dashboards, reporting and analysis etc</td>
+<td>Anomalies detected using basic statistical rules and analysis; week over week comparison, current cost &gt; last week's daily average plus 3X last weeks cost SD</td>
+<td>Utilization of AI/ML with ability to clear out the noise from trends, spend patterns, anticipated special events etc., and might include built in forecasting capabilities in anomaly detection based on unit economics spikes</td>
+</tr>
+<tr>
+<td><b>Tools and Techniques - Workflow/ Automation</b></td>
+<td>Visualized and alerted using manual and direct communication such as chat, email etc</td>
+<td>Alerts delivered through API connections to communication tools with ability to include resolution and comments</td>
+<td>Alerts not only delivered via API connections but also added to sprint cycles for any resolutions, ability to set exclusionary events from detection</td>
+</tr>
+<tr>
+<td><b>Scope/aggregation level</b></td>
+<td>Identified at higher levels - Account, Landing Zone or BU levels</td>
+<td>Identified at lower levels - BU+ region + service name</td>
+<td>Identified at any granularity with drill down and rollup capability; Org/ BU/Account/ Resource utilized</td>
+</tr>
+<tr>
+<td><b>Personas</b></td>
+<td>Limited to members of Finops team; drill down further to identify owner and notify team to review</td>
+<td>Alerts are sent to FinOps team members who further send notifications to resource owners</td>
+<td>Automated alerts sent to resource owners</td>
+</tr>
+<tr>
+<td><b>Variation</b></td>
+<td>Every variation is defined as an anomaly; Only the biggest or most impactful variations are reviewed using the rudimentary manual process</td>
+<td>An awareness of variations and cost patterns are detected; prediction of variation is manual and most likely post impact</td>
+<td>Automation capabilities include tagging recurring trends and patterns thereby allowing focus on true anomalies. Anticipated spikes due to special events are tagged and addressed prior to event occurrence</td>
+</tr>
+<tr>
+<td><b>Latency</b></td>
+<td>Monthly</td>
+<td>2-3 days delay</td>
+<td>Near real time ( &lt; 12 hrs)</td>
+</tr>
+</tbody>
+</table>
+Modeling cost anomalies is a crucial aspect of cost management and analysis for any organization. Cost anomalies refer to unexpected or abnormal cost variations that are not in line with the expected patterns of costs. There are several different ways to model and identify cost anomalies.
+
+<b><i>Threshold-based</i></b> cost anomaly detection - this method works by setting thresholds for expected costs and triggering alerts when the actual costs exceed or fall below those thresholds. The thresholds can be set based on historical data or predefined budget limits. For example, if the cost of a particular service is expected to be $1000 per month, a threshold of $1200 may be set to detect any unexpected increases. Similarly, a threshold of $800 may be set to detect any unexpected decreases. When the actual cost crosses these thresholds, an alert is triggered, indicating a potential anomaly in cloud cost. Threshold triggers can be based on multiple metrics ranging from an absolute value as in the example above to a percentage increase, or decrease, of a budget or historical run rate.
+
+The advantages of threshold-based cloud cost anomaly detection are that it is easy to implement and provides quick insights into cost anomalies. However, this method has some limitations as well. It requires a significant amount of historical data to set accurate thresholds, and it may not be effective in identifying anomalies that occur gradually over time. Additionally, it may generate a large number of false positives, resulting in unnecessary alerts and wasted resources.
+
+Though there are the limitations described above, threshold-based cost anomaly detection is a useful technique that can help organizations to manage cloud costs effectively and prevent unexpected expenses. This can be useful for organizations just starting out or ones that have relatively stable demand.
+
+<b><i>Statistical analysis-based cost anomaly detection</i></b> is a statistical method that provides a more sophisticated and nuanced approach to identifying cost anomalies than a threshold-based system. Statistical analysis involves analyzing data patterns to identify deviations from the expected behavior. Variations in cost can be analyzed in the context of standard deviations with alerts being triggered if a limit is exceeded. This can be done through techniques such as regression analysis, time series analysis, and hypothesis testing.
+
+Statistical-based models do have some drawbacks including the assumption of normal distribution inherent in statistical models. Cloud cost data often exhibits non-linear and non-normal patterns due to various factors such as seasonal variations, and unexpected spikes in usage. Statistical models may struggle to accurately capture and account for these complex patterns, leading to false positives or false negatives in anomaly detection.
+
+Additionally, statistical models typically require a significant amount of historical data, making them less adaptable to changing environments and evolving cloud usage patterns, potentially limiting their effectiveness over time. This method can involve more time and resources to administer than a threshold based model.
+
+<b><i>Machine learning-based cost anomaly detection</i></b> – ML is emerging as a powerful tool for modeling cost anomalies. Machine learning algorithms can analyze large volumes of data to identify patterns and relationships that may be difficult or impossible for humans to detect. By training machine learning models on historical data, organizations can develop predictive models that can anticipate future cost anomalies and suggest strategies for avoiding or mitigating them. Machine learning can also be used to identify anomalous data points that may indicate fraud or other types of malicious activity.
+
+The machine learning method provides a powerful and flexible approach to identifying cost anomalies. Machine learning algorithms learn and adapt over time, improving their accuracy as they are exposed to more data. In theory, a future aware ML model offers the promise of providing highest accuracy of the various cost anomaly detection models. The downside to ML based systems is that they typically require access to more data and compute power than threshold or statistical analysis based systems which can increase the operating costs.
+
+<h3>Build vs. Buy</h3>
+FinOps teams face a decision between building their own solution or buying a pre-existing one. Both options have their advantages and disadvantages, time to market is a crucial factor that needs to be considered. Time to market refers to the speed at which a product or solution can be developed, tested, and brought to the market or implemented within an organization.
+
+Building cost anomaly detection software from scratch offers the advantage of customization. Organizations can tailor the solution to their specific needs and requirements. However, this approach typically involves significant time and effort in terms of development, testing, and deployment. The organization needs to assemble a skilled development team, allocate resources, and spend time on research and development. As a result, the time to market for a custom-built solution can be quite long, potentially delaying the benefits and insights that anomaly detection software can provide.
+
+Buying a pre-built, most likely SaaS-based, cost anomaly detection solution significantly reduces time to market. FinOps teams can quickly connect to their cloud environment and start leveraging its benefits. The software has already undergone development, testing, and refinement, so organizations can skip the initial stages of building a solution from scratch. Additionally, pre-existing solutions come with customer support and ongoing updates, which further streamlines the implementation process.
+
+Machine learning is quickly becoming a standard part of a cost anomaly detection solution adds complexity to the build vs. buy decision. Machine learning algorithms enable the software to analyze historical cost data, identify patterns, and detect anomalies in real time. While it is possible to use open-source ML solutions or leverage ML APIs, the area is rapidly evolving. Leveraging a pre-built detection solution from a vendor with a strong R&amp;D budget ensures that you will always have access to the latest capabilities and avoids the need to have expertise in developing and fine-tuning algorithms specifically for cost anomaly detection.
+
+Building your own cost anomaly detection software offers customization opportunities, it can lead to a longer time to market due to the need for development, testing, and deployment. Buying a pre-built solution allows for faster implementation, but organizations may need to compromise on customization to some extent. The decision ultimately depends on the organization's priorities, resources, and time constraints. Conducting a thorough cost-benefit analysis, considering the specific needs, and assessing the available options are crucial steps in making an informed decision about whether to build or buy cost anomaly detection software.
+
+<h3>Unit Economics and cost anomaly detection</h3>
+By incorporating unit economics into cost anomaly detection, businesses can greatly enhance the accuracy of their anomaly detection algorithms. This approach goes beyond relying solely on future events or cost forecasts, which often lack the necessary granularity to eliminate false positives from occurring. By considering unit economics, which encompasses actual business demand, and calculating the cost to serve in near real-time, it becomes possible to minimize false positives.
+
+One illustrative example is a holiday sale, which typically leads to a surge in web traffic and necessitates scaling up cloud resources to meet the increased demand. If a cost anomaly detection system takes into account the cost to serve (i.e. take an order from a customer), it will notice that unit costs remain stable even as overall cloud costs rise. In contrast, systems that do not consider granular forecasts or unit costs may incorrectly identify an anomaly, resulting in a false positive. This demonstrates the importance of incorporating unit economics to accurately assess cost anomalies.
+
+<h3>A word about CSP native tooling</h3>
+All major CSPs offer some form of native tooling. These CSP native tools are designed to provide a quick and easy way to configure cost anomaly detection, but they generally offer capabilities limited to cost and usage recommendations, alerts for cost spikes, etc..
+
+CSP native tooling for cost anomaly detection is typically threshold-based. This approach may work well for organizations with smaller or relatively stable cloud footprints, where cost patterns are predictable and thresholds can be easily defined. >They may also supplement through utilization of home grown data analytics reporting applications.
+
+However, for dynamic environments with fluctuating workloads and complex cost patterns, CSP native tooling may not be sufficient. In such cases, third-party solutions can offer more advanced modeling and detection capabilities, often incorporating statistical and/or machine learning techniques.
+
+These third-party solutions leverage sophisticated algorithms to analyze historical cost data, identify patterns, and establish baseline cost behavior. By building models based on these patterns, they can detect anomalies that deviate significantly from expected cost patterns. Statistical methods can be used to identify anomalies based on deviations from mean or standard deviation, while machine learning algorithms can learn from historical data to identify complex cost patterns and anomalies.
+
+While CSP native cost anomaly detection tools are convenient and suitable for simpler cloud environments, organizations with dynamic workloads and complex cost patterns may benefit from using third-party solutions. These solutions offer advanced modeling and detection capabilities, incorporating statistical and machine learning techniques to identify anomalies in cost behavior. Moreover, they provide a unified approach for managing multi-cloud environments, streamlining configuration and monitoring processes.
+
+<h2 id="kpis">Key Performance Indicators (KPIs)</h2>
+There are many measurements that can be take place in the context of anomaly detection which might vary from case to case, and to the maturity of the organization, here are some Key Performance Metrics (KPI) as examples:
+<ul>
+ 	<li >Number of Anomalies - The count of anomalies within a period of time</li>
+ 	<li >Anomalous Cost- The increased cost associated with the anomaly record for the given period of time</li>
+ 	<li >Detection Time - Time between when the anomaly occurred to when the anomaly was detected by systems/tools/etc.</li>
+ 	<li >Notification Time - Time between when the anomaly occurred and when someone received the notification.</li>
+ 	<li >Resolution Time - The time between when an anomaly notification is received and until the anomaly record has been addressed (either dismissed or all response actions complete)the length in time for resolution of the anomaly</li>
+ 	<li >Analysis Time - Time between when an anomaly notification is received and when the analysis is complete. his might include the investigation done by the several teams involved in the analysis before a final resolution decision is made</li>
+ 	<li >Total Cost Avoidance - Cost Avoided by fixing the true positive anomaly until next billing cycle. This could be by anomaly and/or consolidated (total, per product, per department).</li>
+ 	<li >Accepted records - The count of anomaly records which are determined as needing additional action</li>
+ 	<li >False records (count or percentage) - Amount alerts identified as false positives</li>
+ 	<li >Impact of anomaly detection ($) = Cost value of true positives (in $) - (Cost of False positives + Cost of False Negatives ($) + Cost of anomaly detection)</li>
+</ul>
+
+Most of the metrics can be categorized and measured on an application, department, product and/or organization level for more granularity and identify if there are any major outliers (for example a specific product that is more prompt to generate anomalies, or a department that needs further education).
+
+Let’s dig into one of the above KPIs as an example: <i>the impact of anomaly detection</i>.
+
+In general, evaluating the quality of an anomaly detection model (or system) requires measuring the rate of true positives vs false positives, e.g., how many true anomalies were detected vs how many anomalies were wrongly predicted as anomalies. For FinOps organization, an anomaly detection model or system should be evaluated not just based on these two measures of accuracy but also based on the impact of those anomalies and the cost in detecting anomalies in the first place. The impact of anomaly detection can be calculated as follows:
+
+<blockquote><i>Impact of anomaly detection ($) = Cost value of true positives (in $) - (Cost of False positives + Cost of False Negatives ($) + Cost of anomaly detection)</i></blockquote>
+
+The impact of false positives is measured as the cost of time wasted until the anomaly is determined to be a false positive. It is harder to compute exactly, therefore it is recommended to measure it for a few cases and use the average time to translate it to a cost estimate based on a standard hourly rate.
+
+The impact of true positives is measured by the total cost these anomalies represent. For example, an anomalous increase in cost of an DB service was deemed to have been caused by a badly formed SQL query. The impact of the anomaly is the excess cost, above the expected range, of the DB cost metric. The figure below illustrates the impact of an anomaly - as the area between the expected range and the actual cost measured.
+
+<strong>Figure 9</strong>
+
+<img class="aligncenter size-full wp-image-3903" src="https://www.finops.org/wp-content/uploads/2023/03/managing-anomalies-6.png" alt="" width="1484" height="980" />The third component of the impact of anomaly detection formula measures the cost of anomalies that were not detected by the anomaly detection system/methodology that were later detected by chance resulting in increased cloud costs.
+
+The fourth and final term in the equation is the cost of detecting and responding to the anomalies themselves. This portion of the equation should consider the cost of involved persons’ time and if applicable the cost of any tooling either built or bought for anomaly detection and management.
+
+<h2 id="raci">FinOps Personas and their responsibilities</h2>
+Anomaly detection and resolution require all FinOps Personas to work together for effective anomaly identification and resolution. With multiple stakeholders, it's important to define their Role and Responsibilities in different stages of Anomaly Lifecycle. Here’s the working model the group used to define roles and responsibilities:
+<table>
+<tbody>
+<tr>
+<td>Responsible (R)</td>
+<td>Person/Team who will be assigned the specific task to see to its completion, e.g. they ultimately own the work and outcomes.</td>
+</tr>
+<tr>
+<td>Accountable (A)</td>
+<td>Person/Team who takes ownership of execution of the task within certain established KPIs; The accountable is the ultimate owner but it can delegate the action to the Responsible.</td>
+</tr>
+<tr>
+<td>Consulted (C)</td>
+<td>Person/Team who can provide the details and actions related to the task.</td>
+</tr>
+<tr>
+<td>Informed (I)</td>
+<td>Person/Team who gets updated with the status and progress of tasks at different stages of the life cycle.</td>
+</tr>
+</tbody>
+</table>
+FinOps Personas share the above roles as follows:
+<ol>
+ 	<li><strong>FinOps Practitioner:</strong> They act as the manager throughout the entire anomaly detection and resolution lifecycle working closely with all other personas. They take accountability starting from anomaly record creation, notification, analysis, resolution and retrospection. They also keep others accountable to their tasks by keeping everyone Informed at different stages of the lifecycle.</li>
+ 	<li><strong>Business/Product Owner: </strong>Business owners should work closely with engineering teams, to ensure accountability for the resolution of the anomalies. They also share the responsibilities with engineering on analysis and retrospective stages of the lifecycle and they are consulted during anomaly analysis by the FinOps Practitioner.</li>
+ 	<li><strong>Engineering/Operations: </strong>Engineering implements and maintains all applications, so they are responsible for anomaly record creation, its analysis, resolution and retrospective. They are also consulted along with business owners during anomaly analysis by the FinOps practitioner.</li>
+ 	<li><strong>Finance Roles: </strong>Finance teams are responsible for the cost allocation and budget forecasts, so they are accountable for reforecasting budgets due to increase in baseline cost due to anomalies. They also will be consulted and informed throughout the Lifecycle of Anomalies.</li>
+ 	<li><strong>Executives: </strong>Executives are the sponsors and accountable for anomaly detection and resolution to maintain budget discipline. They oversee how effectively teams manage anomalies through KPIs produced by other personas at various stages of the cycle.</li>
+</ol>
+The following table summarizes the personas and their roles during each step of the life cycle. It can greatly depend on where you are in your FinOps maturity.
+<table>
+<tbody>
+<tr>
+<td><strong>Lifecycle step</strong></td>
+<td><strong>Task</strong></td>
+<td><img class="aligncenter" src="/wp-content/uploads/2022/10/persona-finops.svg" />
+<strong>FinOps Practitioner</strong></td>
+<td><img class="aligncenter" style="width: 60%;" src="/wp-content/uploads/2022/10/persona-product.svg" />
+<strong>Business/Product Owner</strong></td>
+<td><img class="aligncenter" style="width: 50%;" src="/wp-content/uploads/2022/10/persona-engineer.svg" />
+<strong>Engineering/Operations</strong></td>
+<td><img class="aligncenter" src="/wp-content/uploads/2022/10/persona-finance.svg" />
+<strong>Finance</strong></td>
+<td><img class="aligncenter" src="/wp-content/uploads/2022/10/persona-executive.svg" />
+<strong>Executive</strong></td>
+</tr>
+<tr>
+<td>Record Creation</td>
+<td>Anomaly Definition</td>
+<td>R</td>
+<td>C</td>
+<td>C</td>
+<td>C</td>
+<td>A</td>
+</tr>
+<tr>
+<td>Record Creation</td>
+<td>Tool Setup/Maintenance</td>
+<td>A</td>
+<td>C</td>
+<td>R</td>
+<td>I</td>
+<td>I</td>
+</tr>
+<tr>
+<td>Notification</td>
+<td>Notification Criteria/ThresholdDefinition</td>
+<td>A/R</td>
+<td>C</td>
+<td>C</td>
+<td>C</td>
+<td>I</td>
+</tr>
+<tr>
+<td>Analysis</td>
+<td>Anomaly Ownership Identification</td>
+<td>A</td>
+<td>R</td>
+<td>R</td>
+<td>I</td>
+<td>I</td>
+</tr>
+<tr>
+<td>Analysis</td>
+<td>Anomaly Analysis</td>
+<td>A</td>
+<td>C</td>
+<td>R</td>
+<td>I</td>
+<td>I</td>
+</tr>
+<tr>
+<td>Analysis</td>
+<td>Reforecast</td>
+<td>R</td>
+<td>C</td>
+<td>C</td>
+<td>A</td>
+<td>I</td>
+</tr>
+<tr>
+<td>Resolution</td>
+<td>Remediate</td>
+<td>I</td>
+<td>A</td>
+<td>R</td>
+<td>I</td>
+<td>I</td>
+</tr>
+<tr>
+<td>Resolution</td>
+<td>Remediate</td>
+<td>I</td>
+<td>A</td>
+<td>R</td>
+<td>I</td>
+<td>I</td>
+</tr>
+<tr>
+<td>Resolution</td>
+<td>Document Anomaly</td>
+<td>A</td>
+<td>R/C</td>
+<td>C/R</td>
+<td>C</td>
+<td>I</td>
+</tr>
+<tr>
+<td>Retrospective</td>
+<td>Measure, reflect &amp; improve</td>
+<td>A</td>
+<td>R</td>
+<td>C</td>
+<td>C</td>
+<td>C</td>
+</tr>
+</tbody>
+</table>
+<i>* Roles swap depending on assignment</i>
+<h2 id="intersecting">Intersecting FinOps Capabilities</h2>
+To build a solid <a href="/framework/capabilities/">FinOps Framework</a>, capabilities (such as Anomaly Management) don’t work as standalones and have intersections with other capabilities of the Framework. While typically it’s the same team working in most of the capabilities, it’s important to highlight these intersecting points to establish a mature process and governance.
+
+The following table should cover the main intersection points between Anomaly Management and other capabilities, it includes a quick description and which inputs the other capabilities are expecting to receive from Anomaly Management, and what Anomaly Management should be getting.
+<table>
+<tbody>
+<tr>
+<td><strong>Capability</strong></td>
+<td><strong>Intersect with anomaly management</strong></td>
+<td><strong>Input (from Anomalies)</strong></td>
+<td><strong>Output (to Anomalies)</strong></td>
+</tr>
+<tr>
+<td>Cost Allocation</td>
+<td>Ensure extra expense is allocated to those accountable</td>
+<td>Assign the anomaly cost to a cost center (unit, department, team, product, etc)</td>
+<td>None</td>
+</tr>
+<tr>
+<td>Data Analysis and Showback</td>
+<td>Anomaly data must be analyzed and shown as an anomaly for the stakeholders</td>
+<td>Identification of the anomaly</td>
+<td>None</td>
+</tr>
+<tr>
+<td>Managing Shared Cost</td>
+<td>If an anomaly happen on Shared Costs, the cost of this anomaly should be assigned to the team responsible for the anomaly</td>
+<td>Assign the anomaly cost to a cost center (unit, department, team, product, etc)</td>
+<td>None</td>
+</tr>
+<tr>
+<td>Data ingestion &amp; Normalization</td>
+<td>Anomaly information should be ingested into the selected tool for analysis and showback</td>
+<td>Identification of the anomaly</td>
+<td>None</td>
+</tr>
+<tr>
+<td>Measuring Unit Cost</td>
+<td>When calculating the Unit Cost, it should include Anomalies</td>
+<td>Cost of anomaly(ies) impacting the unit cost</td>
+<td>None</td>
+</tr>
+<tr>
+<td>Forecasting</td>
+<td>Some events (e.g. holiday sales) increase the consumption of cloud resources which might look like a cost anomaly, and anomalies that occurred may need to be filtered out of historical data when update future forecast values.</td>
+<td>None</td>
+<td>Forecast of any predicted growth or event that might look as a cost anomaly</td>
+</tr>
+<tr>
+<td>Budget Management</td>
+<td>Unusual number of anomalies might disrupt the planned budget</td>
+<td>Number of anomalies, size of large anomalies, and cost of the anomalies relative to your budget size.</td>
+<td>None</td>
+</tr>
+<tr>
+<td>Establishing a FinOps Decision &amp; Accountability Structure</td>
+<td>It’s important to define the workflows and responsibilities for managing anomalies</td>
+<td>Process ownership; responsible to detect anomaly</td>
+<td>Act on Anomalies, and implement systems to prevent those to happen</td>
+</tr>
+<tr>
+<td>Managing Commitment Based Discounts</td>
+<td>Expired commitments can generate a spike in costs which would generate an anomaly alert. Although one should be careful not to mistake an anomaly as normal usage when considering purchases.</td>
+<td>Inform when there is a spike in costs due to expired commitments</td>
+<td>None</td>
+</tr>
+<tr>
+<td>Onboarding Workloads</td>
+<td>A new application/workload might have specific behavior that could cause false alarms</td>
+<td>None</td>
+<td>Notify for a new workload that might look as a cost anomaly; Provide information on how to detect and prevent false positives</td>
+</tr>
+<tr>
+<td>Resource Utilization &amp; Efficiency</td>
+<td>Certain resources have a dynamic cost, which could lead to anomalies, or false alerts</td>
+<td>Alert Engineers about anomalies detected in their workload</td>
+<td>Advise FinOps Practitioners about patterns that might look like anomalies</td>
+</tr>
+<tr>
+<td>Workload Management &amp; Automation</td>
+<td>Automation can produce anomalies if there is any misconfiguration or no limits; sometimes automation might increase the capacity that might generate a false alert.</td>
+<td>Alert Engineers about anomalies that were caused by automation</td>
+<td>Advise FinOps Practitioners about patterns that might look like anomalies</td>
+</tr>
+<tr>
+<td>Establishing FinOps Culture</td>
+<td>As a transversal capability, all Cloud stakeholders should be aware of Anomalies</td>
+<td>Best practices shared with stakeholders</td>
+<td>None</td>
+</tr>
+<tr>
+<td>Chargeback &amp; IT Finance Integration</td>
+<td>As with any cost in cloud, anomalies also need to be part of charge back</td>
+<td>Assign the anomaly cost to a cost center (unit, department, team, product, etc)</td>
+<td>None</td>
+</tr>
+<tr>
+<td>FinOps Education &amp; Enablement</td>
+<td>As a transversal capability, all Cloud stakeholders should be aware of Anomalies</td>
+<td>Best practices shared with stakeholders</td>
+<td>None</td>
+</tr>
+<tr>
+<td>Cloud Policy &amp; Governance</td>
+<td>Policies can be added to prevent anomalies (e.g. policies preventing unnecessary/unauthorized resources)</td>
+<td>Policies to prevent launch of expensive services or that can detect and isolate some behaviors (e.g. policies preventing unnecessary/unauthorized resources)</td>
+<td>None</td>
+</tr>
+</tbody>
+</table>
+<h3>Engineering (DevOps and Observability) intersection</h3>
+While not a FinOps Capability, it’s good to understand inputs and outputs related to DevOps and Observability functions at an organization. It’s fair to say that anomalies typically happen after some change, which can be on the Cloud infrastructure, software/application, or external circumstances (e.g. more client requests).
+
+When we start the analysis from the cost increase up to the root cause, it can be considered reverse engineering (understanding what changed in the environment that caused the anomaly).
+
+Many companies use systems like DevOps to push changes to the infrastructure or the application; DevOps as a system allow faster changes on the environment, and typically have a CI/CD (Continuous Integration, Continuous Deployment) tool that enable traceability on the changes done (what, when, who), this traceability must be used to reach the root cause faster and also allow to revert the change.
+
+Another key pillar of DevOps (and engineering best practice) is to have Observability over Cloud resources, this allows to capture a set of metrics from the running infrastructure and application; Those metrics in isolation allow to manually investigate why a certain resources utilization have increased (e.g. higher number of client requests caused a spike in database IO or network traffic).
+
+When overlapping both operational metrics from Observability with Cost Metrics, the engineers and FinOps practitioners can easily detect abnormal cost behaviors based on operational behaviors, or easily dismiss a false positive.
+
+For example, if the utilization of the platform is growing and there is a dynamic part of the system that scales, it’s important to dismiss alarms for the dynamic part (e.g. Spot resource group, network traffic), while if in the same system the stable part has any consumption growth, then there is a need to investigate and, if required, take action to remediate.
+
+<h3>Get involved</h3>
+Our community welcomes feedback and recommendations on improving the content in this documentation. You can get in touch in our Slack channel, <a href="https://finopsfoundation.slack.com/archives/C04UD72QLBH">#chat-anomalies</a>, to discuss any of the content here or to pitch new content if you're interested in being a part of a future sprint.
+
+Cloud cost anomaly management is a part of a larger FinOps curriculum which we encourage practitioners to learn more about. If this education and training is something you or your teammates require, consider our FinOps Certified Professional course.
+
+If you are reading this and aren’t a part of the FinOps Foundation community yet, we welcome you to <a href="https://www.finops.org/membership/">sign up and join us</a>.
+
+<h2 id="acknowledgments">Acknowledgments</h2>
+The FinOps Foundation extends a huge thank you to the members of this Working Group that broke ground on this documentation:
